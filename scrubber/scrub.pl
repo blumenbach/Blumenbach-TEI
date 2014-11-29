@@ -10,7 +10,7 @@ my @lines = split /$holdTerminator/, $buf;
 $buf = "init";
 $buf = join $holdTerminator, @lines;
 
-my @allow = qw[ hr html head body b a td div tr table span title ];
+my @allow = qw[ hr html head body b td a div title ];
 
 my @rules = (
    script => 0,
@@ -69,7 +69,7 @@ $scrubber = HTML::Scrubber->new(
     rules   => \@rules,
     default => \@default,
     comment => 1,
-    process => 0,
+    process => 1,
 );
 
 require Data::Dumper,die Data::Dumper::Dumper($scrubber) if @ARGV;
