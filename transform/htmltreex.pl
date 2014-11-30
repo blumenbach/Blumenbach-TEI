@@ -8,7 +8,12 @@
 #   encode_utf_8($fh);
    $tree->parse_file("BR11.html");
 
- foreach my $e ( $tree->findnodes('/html/body//table/tr') ) {
+foreach my $div ($tree->findnodes('/html/body/div') ) {
+    if ( $div->exists('./@id') ) {
+        my $id = $div->findvalue('./@id');
+        print "<anchor> $id\n" ;
+    }
+ foreach my $e ( $div->findnodes('.//tr') ) {
         foreach my $td ( $e->findnodes('./td') ) {
             if ($td) {
                  foreach my $span ( $td->findvalues('./span') ) {
@@ -21,7 +26,7 @@
                             print "<Briefinhalt> $span\n";
                         } elsif ( $td->findvalues('./span[@class="Lit_in_Zusatzdaten"]') ) {
                             print "<Lit_in_Zusatzdaten> $span\n";
-                        } elsif ( $td->findvalues('./span[@class="Zusatzdaten"]') ) {
+                        } elsif ( $td->findvalues('./span[@class="ZusatzDaten"]') ) {
                             print "<Zusatzdaten> $span\n";
                         } elsif ( $td->findvalues('./span[@class="Rubriken"]') ) {
                             print "<Rubriken> $span\n";
@@ -36,20 +41,20 @@
                 if ( $td->exists('./span/a') ) {
                     my $url = $td->findvalue('./span/a/@href');
                     my $a = $td->findvalue('./span/a');
-                    print "<link>: $a <$url>\n"
+                    print "<link> $a <$url>\n";
                 } elsif ( $td->exists('./a') ) {
                     my $url = $td->findvalue('./a/@href');
                     my $a = $td->findvalue('./a');
-                    print "<link>: $a <$url>\n"
+                    print "<link> $a <$url>\n";
                 }
 
                 if (not ( $td->exists('./span') ) )  {
                     foreach my $tdval ( $td->findnodes_as_strings('.') ) {
                         if ($tdval) {
                             if (not ( $td->exists('../td[@class="Rubriken"]') ) ) {
-                                print "<td>: $tdval\n";
+                                print "<td> $tdval\n";
                             } else {
-                                print "<Rubriken>: $tdval\n";
+                                print "<Rubriken> $tdval\n";
                             }
                         }
                     }
@@ -57,7 +62,7 @@
             }
         }
  }
-
+}
 sub encode_utf_8 {
     my $string = @_;
 
