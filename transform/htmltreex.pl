@@ -19,8 +19,6 @@
                             print "<KopfRegest Briefinhalt> $span\n";
                         } elsif ( $td->findvalues('./span[@class="Briefinhalt"]') ) {
                             print "<Briefinhalt> $span\n";
-                        } elsif ( $td->findvalues('./span[@class="Briefinhalt"]') ) {
-                            print "<Briefinhalt> $span\n";
                         } elsif ( $td->findvalues('./span[@class="Lit_in_Zusatzdaten"]') ) {
                             print "<Lit_in_Zusatzdaten> $span\n";
                         } elsif ( $td->findvalues('./span[@class="Zusatzdaten"]') ) {
@@ -35,20 +33,15 @@
                     }
                  }
 
-
                 if ( $td->exists('./span/a') ) {
                     my $url = $td->findvalue('./span/a/@href');
                     my $a = $td->findvalue('./span/a');
                     print "<link>: $a <$url>\n"
+                } elsif ( $td->exists('./a') ) {
+                    my $url = $td->findvalue('./a/@href');
+                    my $a = $td->findvalue('./a');
+                    print "<link>: $a <$url>\n"
                 }
-
-               # if ($td->exists('../td[@class="Rubriken"]') ) {
-                #    foreach my $rub ( $td->findvalues('../td[@class="Rubriken"]') ) {
-                 #       if ($rub) {
-                  #          print "<Rubriken> $rub\n";
-                   #     }
-                   # }
-               # }
 
                 if (not ( $td->exists('./span') ) )  {
                     foreach my $tdval ( $td->findnodes_as_strings('.') ) {
@@ -85,52 +78,4 @@ sub encode_utf_8 {
     return $utf8_encoded;
 }
 
-sub verbose() {
-    foreach my $e ( $tree->findnodes('/html/body//table/tr') ) {
-
-        my $reg = $e->findvalue('./td/span[@class="RegNr"]');
-        if ($reg) {
-            print "RegNr: $reg\n";
-        }
-
-        foreach my $alt_date ( $e->findvalues('./td/span[@class="AlternatDatum"]') ) {
-            if ($alt_date) {
-               print "AlternatDatum: $alt_date\n";
-            }
-        }
-
-        foreach my $eck ( $e->findvalues('./td/span[@class="Eckdaten"]') ) {
-            if ($eck) {
-                print "Eckdaten: $eck\n";
-            }
-        }
-
-        foreach my $rub ( $e->findvalues('./td/span[@class="Rubriken"]') ) {
-            if ($rub) {
-                print "Rubriken: $rub\n";
-            }
-        }
-
-        foreach my $kop ( $e->findvalues('./td/span[@class="KopfRegest Briefinhalt"]') ) {
-            if ($kop) {
-                print "KopfRegest Briefinhalt: $kop\n";
-            }
-        }
-
-        foreach my $bri ( $e->findvalues('./td/span[@class="Briefinhalt"]') ) {
-            if ($bri) {
-                print "Briefinhalt: $bri\n";
-            }
-        }
-
-        foreach my $zus ( $e->findvalues('./td/span[@class="ZusatzDaten"]') ) {
-            if ($zus) {
-                print "ZusatzDaten: $zus\n";
-            }
-        }
-    }
-}
-
-  #my $nb=$tree->findvalue( '/html/body//table/tr/td/span[@class="RegNr"]');
-  #print $nb;
   $tree->delete; # to avoid memory leaks, if you parse many HTML documents 
