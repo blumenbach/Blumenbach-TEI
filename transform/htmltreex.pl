@@ -4,6 +4,8 @@
 # todo: <a id= -> <div id =
 # todo: <td class="Rubriken"> -> <td><span class="Rubriken">
 # todo: </tr> -> </span></tr>
+# todo: <span class="Eckdaten"> -> </td><td><span class="Eckdaten">
+# todo: <span class="AlternatDatum"> -> </td><td><span class="AlternatDatum">
 
   use v5.10;
   use HTML::TreeBuilder::XPath;
@@ -25,6 +27,8 @@ foreach my $div ($tree->findnodes('/html/body/div') ) {
                         if ($span) {
                             if ( $td->findvalues('./span[@class="Eckdaten"]') ) {
                                 print "<date> $span\n";
+                            } elsif ( $td->findvalues('./span[@class="AlternatDatum"]') ) {
+                                print "<altdate> $span\n";
                             } elsif ( $td->findvalues('./span[@class="KopfRegest Briefinhalt"]') ) {
                                 print "<KopfRegest Briefinhalt> $span\n";
                             } elsif ( $td->findvalues('./span[@class="Briefinhalt"]') ) {
@@ -41,13 +45,13 @@ foreach my $div ($tree->findnodes('/html/body/div') ) {
                                 } elsif ($span eq "Überl.:") {
                                     print "<biblScope> $span";
                                 } elsif ($span eq "Dr.:") {
-                                    print "<bibl> $span\n";
+                                    print "<bibl> $span";
                                 } elsif ($span eq "Werke:") {
-                                    print "<relatedItem> $span\n";
+                                    print "<relatedItem> $span";
                                 } elsif ($span eq "Ed.:") {
-                                    print "<edition> $span\n";
+                                    print "<edition> $span";
                                 } elsif ($span eq "Obj.:") {
-                                    print "<object> $span\n";
+                                    print "<object> $span";
                                 } elsif ($span eq "Anm.:") {
                                     print "<note> $span\n";
                                 } else {
@@ -65,11 +69,12 @@ foreach my $div ($tree->findnodes('/html/body/div') ) {
                         my $url = $td->findvalue('./span/a/@href');
                         my $a = $td->findvalue('./span/a');
                         print "<link> $a <$url>\n";
-                    } elsif ( $td->exists('./a') ) {
-                        my $url = $td->findvalue('./a/@href');
-                        my $a = $td->findvalue('./a');
-                        print "<link> $a <$url>\n";
                     }
+#                    } elsif ( $td->exists('./a') ) {
+#                        my $url = $td->findvalue('./a/@href');
+#                        my $a = $td->findvalue('./a');
+#                        print "<link> $a <$url>\n";
+#                    }
 
                     if (not ( $td->exists('./span') ) )  {
                         foreach my $tdval ( $td->findvalues('.') ) {
