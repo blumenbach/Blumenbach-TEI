@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 
-my $empty_tags = qr{<(br|td|tr)>\s*</\1>};
+my $empty_tags = qr{<(tr|br|td)>\s*</\1>};
 
 open(FILE, "Briefregesten_2.html");
 @lines = <FILE>;
@@ -9,6 +9,11 @@ close(FILE);
 $content = join('', @lines);
 
 $content =~ s/$empty_tags//mgi;
+$content =~s/\n{2,}/\n/g;
+$content =~ s/$empty_tags//mgi;
+$content =~s/&nbsp;//g;
+$content =~s/\n{2,}/\n/g;
+
 print $content;
 
 
