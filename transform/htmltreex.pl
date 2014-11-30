@@ -13,7 +13,7 @@
   my $tree= HTML::TreeBuilder::XPath->new;
 #   open(my $fh, "<:utf8", "Briefregesten_2.html") || die;
 #   encode_utf_8($fh);
-   $tree->parse_file("BR11.html");
+   $tree->parse_file("BR3.html");
 
 foreach my $div ($tree->findnodes('/html/body/div') ) {
      if ( $div->exists('./@id') ) {
@@ -37,6 +37,8 @@ foreach my $div ($tree->findnodes('/html/body/div') ) {
                                 print "<Lit_in_Zusatzdaten> $span\n";
                             } elsif ( $td->findvalues('./span[@class="ZusatzDaten"]') ) {
                                 print "<Zusatzdaten> $span\n";
+                            } elsif ( $td->findvalues('./span[@class="undef"]') ) {
+                                print "$span\n";
                             } elsif ( $td->findvalues('./span[@class="Rubriken"]') ) {
                                 if ($span eq "A:") {
                                     print "<author>";
