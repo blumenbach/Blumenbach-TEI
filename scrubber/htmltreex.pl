@@ -6,22 +6,52 @@
   my $tree= HTML::TreeBuilder::XPath->new;
 #   open(my $fh, "<:utf8", "Briefregesten_2.html") || die;
 #   encode_utf_8($fh);
-   $tree->parse_file("Briefregesten_2.html");
+   $tree->parse_file("BR5.html");
 
  foreach my $e ( $tree->findnodes('/html/body//table/tr') ) {
         foreach my $td ( $e->findnodes('./td') ) {
             if ($td) {
-                foreach my $span ( $td->findvalues('./span') ) {
+                 foreach my $span ( $td->findvalues('./span') ) {
                     if ($span) {
-                        print "Span: $span\n";
+                        if ( $td->findvalues('./span[@class="Eckdaten"]') ) {
+                            print "<Eckdaten> $span\n";
+                        } elsif ( $td->findvalues('./span[@class="KopfRegest Briefinhalt"]') ) {
+                            print "<KopfRegest Briefinhalt> $span\n";
+                        } elsif ( $td->findvalues('./span[@class="Briefinhalt"]') ) {
+                            print "<Briefinhalt> $span\n";
+                        } elsif ( $td->findvalues('./span[@class="Briefinhalt"]') ) {
+                            print "<Briefinhalt> $span\n";
+                        } elsif ( $td->findvalues('./span[@class="Lit_in_Zusatzdaten"]') ) {
+                            print "<Lit_in_Zusatzdaten> $span\n";
+                        } elsif ( $td->findvalues('./span[@class="RegNr"]') ) {
+                            print "<RegNr> $span\n";
+                        } else {
+                            print "<span> $span\n";
+                        }
                     }
+                 }
+
+
+                if ( $td->exists('./span/a') ) {
+                    my $url = $td->findvalue('./span/a/@href');
+                    my $a = $td->findvalue('./span/a');
+                    print "<link>: $a <$url>\n"
                 }
-                unless ( $td->exists('./span') ) {
+
+               # if ($td->exists('../td[@class="Rubriken"]') ) {
+                #    foreach my $rub ( $td->findvalues('../td[@class="Rubriken"]') ) {
+                 #       if ($rub) {
+                  #          print "<Rubriken> $rub\n";
+                   #     }
+                   # }
+               # }
+
+                if (not ( $td->exists('./span') ) )  {
                     foreach my $tdval ( $td->findnodes_as_strings('.') ) {
                         if ($tdval) {
-                         print "TD: $tdval\n";
+                         print "<td>: $tdval\n";
                         }
-                     }
+                    }
                 }
             }
         }

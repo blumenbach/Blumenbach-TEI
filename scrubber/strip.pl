@@ -1,10 +1,19 @@
 #!/usr/bin/perl -w
-open OUT, ">fixed" or die "Couldn't open fixed: $!";
-open IN, "<junk" or die "Couldn't open junk: $!";
-{
-    local $/ = undef;
-    ($_ = <IN>) =~ s/\n{2,}/\n/g;
-    print OUT;
-}
-close IN;
-close OUT
+
+my $empty_tags = qr{<(br|td|tr)>\s*</\1>};
+
+open(FILE, "Briefregesten_2.html");
+@lines = <FILE>;
+close(FILE);
+
+$content = join('', @lines);
+
+$content =~ s/$empty_tags//mgi;
+print $content;
+
+
+
+#    $fh =~ s/\n{2,}/\n/g;
+#    $fh =~ s#<\s*([^>]*)\s*>[\s\n]*<\s*/\s*\1\s*>##ig;
+# print $data;
+
