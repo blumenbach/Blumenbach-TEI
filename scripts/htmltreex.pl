@@ -11,8 +11,6 @@
   use HTML::TreeBuilder::XPath;
 
   my $tree= HTML::TreeBuilder::XPath->new;
-#   open(my $fh, "<:utf8", "Briefregesten_2.html") || die;
-#   encode_utf_8($fh);
    $tree->parse_file("BR3.html");
 
 foreach my $div ($tree->findnodes('/html/body/div') ) {
@@ -107,24 +105,6 @@ foreach my $div ($tree->findnodes('/html/body/div') ) {
             }
      }
 }
-sub encode_utf_8 {
-    my $string = @_;
 
-    my $utf8_encoded = '';
-    eval {
-        $utf8_encoded = Encode::encode('UTF-8', $string, Encode::FB_CROAK);
-    };
-    if ($@) {
-        # sanitize malformed UTF-8
-        $utf8_encoded = '';
-        my @chars = split(//, $string);
-        foreach my $char (@chars) {
-            my $utf_8_char = eval { Encode::encode('UTF-8', $char, Encode::FB_CROAK) }
-                or next;
-            $utf8_encoded .= $utf_8_char;
-        }
-    }
-    return $utf8_encoded;
-}
 
   $tree->delete; # to avoid memory leaks, if you parse many HTML documents 

@@ -69,16 +69,17 @@
 <measure type="characters">444218</measure>
 </extent>
 <publicationStmt>
-<pubPlace>Berlin</pubPlace>
-<date type="publication">2013-10-21T15:19:32Z</date>
-<publisher xml:id="DTACorpusPublisher">
-<email>dta@bbaw.de</email>
-<orgName role="project">Deutsches Textarchiv</orgName>
-<orgName role="hostingInstitution">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
-<address>
+    <publisher xml:id="DTACorpusPublisher">
+        <email>dta@bbaw.de</email>
+        <orgName role="project">Deutsches Textarchiv</orgName>
+        <orgName role="hostingInstitution">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+        <address>
 <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
 </address>
-</publisher>
+    </publisher>    
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2013-10-21T15:19:32Z</date>
+
 <availability>
 <licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
 <p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported License.</p>
@@ -112,9 +113,9 @@
 <measure type="pages">XVI, 549, [1] S.</measure>
 </extent>
 <publicationStmt>
-<pubPlace>Göttingen</pubPlace>
-<date type="publication">1805</date>
-<publisher><name>Dieterich</name></publisher>
+    <publisher><name>Dieterich</name></publisher>
+        <pubPlace>Göttingen</pubPlace>
+            <date type="publication">1805</date>
 </publicationStmt>
 </biblFull>
 <msDesc>

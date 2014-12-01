@@ -1,4 +1,5 @@
 #!/usr/bin/perl -w
+use v5.10;
 use HTML::Scrubber;
 use strict;
 
@@ -10,7 +11,7 @@ my @lines = split /$holdTerminator/, $buf;
 $buf = "init";
 $buf = join $holdTerminator, @lines;
 
-my @allow = qw[ hr html head body b td a div title ];
+my @allow = qw[ hr html head body b td a div title span tr ];
 
 my @rules = (
    script => 0,
