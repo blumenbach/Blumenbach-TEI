@@ -1,17 +1,10 @@
-  #!/usr/bin/perl -w
+#!/usr/bin/perl -w
 
-# todo: <table> -> </span></td></tr><table>
-# todo: <a id= -> <div id =
-# todo: <td class="Rubriken"> -> <td><span class="Rubriken">
-# todo: </tr> -> </span></tr>
-# todo: <span class="Eckdaten"> -> </td><td><span class="Eckdaten">
-# todo: <span class="AlternatDatum"> -> </td><td><span class="AlternatDatum">
+use v5.10;
+use HTML::TreeBuilder::XPath;
 
-  use v5.10;
-  use HTML::TreeBuilder::XPath;
-
-  my $tree= HTML::TreeBuilder::XPath->new;
-   $tree->parse_file("BR3.html");
+my $tree= HTML::TreeBuilder::XPath->new;
+$tree->parse_file("../transform/BR3.html");
 
 foreach my $div ($tree->findnodes('/html/body/div') ) {
      if ( $div->exists('./@id') ) {
@@ -43,15 +36,15 @@ foreach my $div ($tree->findnodes('/html/body/div') ) {
                                 } elsif ($span eq "E:") {
                                     print "<receiver>";
                                 } elsif ($span eq "Überl.:") {
-                                    print "<biblScope> $span";
+                                    print "<biblScope> $span\n";
                                 } elsif ($span eq "Dr.:") {
-                                    print "<bibl> $span";
+                                    print "<bibl> $span\n";
                                 } elsif ($span eq "Werke:") {
-                                    print "<relatedItem> $span";
+                                    print "<relatedItem> $span\n";
                                 } elsif ($span eq "Ed.:") {
-                                    print "<edition> $span";
+                                    print "<edition> $span\n";
                                 } elsif ($span eq "Obj.:") {
-                                    print "<object> $span";
+                                    print "<object> $span\n";
                                 } elsif ($span eq "Anm.:") {
                                     print "<note> $span\n";
                                 } else {
