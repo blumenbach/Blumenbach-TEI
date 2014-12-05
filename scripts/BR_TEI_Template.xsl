@@ -4,7 +4,7 @@
 <xsl:template match="/">
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
     <teiHeader>
-        <xsl:for-each select="RegNr">
+        <xsl:for-each select="record">
         <fileDesc>
             <titleStmt><title type="main"><xsl:value-of select="title"/></title>
                 <author>

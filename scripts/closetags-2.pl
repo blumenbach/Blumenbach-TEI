@@ -13,6 +13,9 @@ $plc = "<place>";
 $endplc = "</place>";
 $match = "\n<altdate>";
 $content =~ s/(<date>)(.*)($match)/$plc$2$endplc$3/g;
+$ref = "\n<ref target=\"http";
+$endref = "\"></ref>";
+$content =~ s/(<http)(.*)(><\/link>)/$ref$2$endref/g;
 
 
 print $content;
