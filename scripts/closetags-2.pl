@@ -13,9 +13,33 @@ $plc = "<place>";
 $endplc = "</place>";
 $match = "\n<altdate>";
 $content =~ s/(<date>)(.*)($match)/$plc$2$endplc$3/g;
+$plc = "<place>";
+$endplc = "</place>";
+$match = "\nspan";
+$content =~ s/(<date>)(.*)($match)/$plc$2$endplc$3/g;
 $ref = "\n<ref target=\"http";
-$endref = "\"></ref>";
-$content =~ s/(<http)(.*)(><\/link>)/$ref$2$endref/g;
+$endref = "\"></ref>\n";
+$content =~ s/(<http)(.+?)(>)/$ref$2$endref/g;
+$anc = "</link>\n";
+$content =~ s/(<link>.*)\s*(<)/$1$anc$2/g;
+$dp = "</place>\n";
+$content =~ s/(<\/date><\/place>)(.+?)(<)/$dp$2$3/sg;
+$an = "</anchor>\n";
+$content =~ s/(<anchor>)(.+?)(<)/$1$2$an$3/sg;
+$content =~ s/(<td>)//sg;
+$ald = "<altdate>";
+$aldend = "</altdate>\n";
+$content =~ s/(span class="AlternatDatum">)(.+?)(<)/$ald$2$aldend$3/sg;
+$alt = "</altdate>\n";
+$content =~ s/(julian. Kal.: )(.+?)(])/$1$2$3$alt/sg;
+$content =~ s/($alt)\s*[\n]($alt)/$1/sg;
+$plc = "<place>";
+$endplc = "</place>";
+#$match = "<altdate>";
+#
+
+
+$content =~ s/(<date>)(.+?)($match(?!$endplc))/$plc$2$endplc$3/sg;
 
 
 print $content;

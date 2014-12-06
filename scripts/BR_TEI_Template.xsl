@@ -1,16 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:saxon="http://saxon.sf.net/"
+    extension-element-prefixes="saxon"
+    version="2.0">
 <xsl:output method="xml" indent="yes"/>
+<xsl:variable name="count" select="0" saxon:assignable="yes"/>    
 <xsl:template match="/">
+<xsl:for-each select="BR/record">
+<saxon:assign name="count" select="$count+1"/>
+<xsl:variable name="filename" select="concat('briefregesten/',$count,'.xml')" />
+<xsl:value-of select="$filename" />  
+<xsl:result-document href="{$filename}">    
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
     <teiHeader>
-        <xsl:for-each select="record">
-        <fileDesc>
+            <fileDesc>
             <titleStmt><title type="main"><xsl:value-of select="title"/></title>
                 <author>
                     <persName ref="http://d-nb.info/gnd/">
-                        <surname></surname>
-                        <forename></forename>
+                        <xsl:value-of select="author"/>
                     </persName>
                 </author>
                 <editor>
@@ -27,7 +33,7 @@
                     </resp>
                 </respStmt>
                 <respStmt>
-                    <orgName>Bearbeiter des Projekts Johann Friedrich Blumenbach &#x2013; online</orgName>
+                    <orgName>Bearbeiter des Projekts Johann Friedrich Blumenbach Online</orgName>
                     <resp>
                         <note type="remarkResponsibility">Bearbeitung</note>
                         <ref target="http://www.blumenbach-online.de/"/>
@@ -43,8 +49,8 @@
                         <country></country>
                     </address>
                 </publisher>
-                <pubPlace></pubPlace>
-                <date type="publication"></date>
+                <pubPlace><xsl:value-of select="place"/></pubPlace>
+                <date type="publication" when="{altdate}"><xsl:value-of select="date"/></date>
                 <availability>
                     <licence target="">
                         <p></p>
@@ -59,15 +65,31 @@
                     <idno type="JFBBOID"></idno>
                 </idno>
             </publicationStmt>
+            <seriesStmt>
+                <title></title>
+                <respStmt>
+                    <resp>ed. by</resp>
+                    <name></name>
+                </respStmt>
+                <biblScope unit="volume"><xsl:value-of select="Zusatzdaten"/><xsl:value-of select="edition"/></biblScope>
+                <idno type="ISSN"></idno>
+            </seriesStmt>
+            <notesStmt>
+                <note><xsl:value-of select="note"/></note>
+                <relatedItem type="object"><xsl:value-of select="object"/></relatedItem>
+                <relatedItem type="span"><xsl:value-of select="span"/></relatedItem>
+                <relatedItem type="bibl"><xsl:value-of select="bibl"/></relatedItem>
+                <relatedItem type="lz"><xsl:value-of select="Lit_in_Zusatzdaten"/></relatedItem>
+                <note><ref target="{ref/@target}"><xsl:value-of select="link"/></ref></note>            
+            </notesStmt>
             <sourceDesc>
-                <bibl type="M"></bibl>
+                <bibl type="brief"></bibl>
                 <biblFull>
                     <titleStmt>
-                        <title level="m" type="main"></title>
+                        <title level="m" type="main"><xsl:value-of select="biblScope"/></title>
                         <author>
                             <persName ref="http://d-nb.info/gnd/">
-                                <surname></surname>
-                                <forename></forename>
+                                <xsl:value-of select="author"/>
                             </persName>
                         </author>
                     </titleStmt>
@@ -90,16 +112,22 @@
         </fileDesc>
         <profileDesc>
             <langUsage>
-                <language ident="deu">German</language>
+                <language ident="deu"></language>
             </langUsage>
+            <creation>
+                <persName type="addressee">
+                    <xsl:value-of select="receiver"/>
+                </persName>
+            </creation>
             <textClass>
-                <classCode scheme=""></classCode>
-                <classCode scheme=""></classCode>
+                <classCode scheme="RegNr"><xsl:value-of select="RegNr"/></classCode>
+                <classCode scheme="anchor"><xsl:value-of select="anchor"/></classCode>
                 <classCode scheme=""></classCode>
             </textClass>
         </profileDesc>
-        </xsl:for-each>
     </teiHeader>
 </TEI>
+</xsl:result-document>
+</xsl:for-each>
 </xsl:template>  
 </xsl:stylesheet>
