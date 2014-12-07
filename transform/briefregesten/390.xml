@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> 1787, Nov. 22 London</pubPlace>
             <date type="publication" when=" 1787-11-22"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,23 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"> Kupferstich von Pieter Camper mit Abb. zweier menschlicher Schädel.</relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 3 (2007), S. 347 Nr. 794.</relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=152"> Corresp. III, S. 134 Nr. 0481 </ref>
+               <rs type="object"> Kupferstich von Pieter Camper mit Abb. zweier menschlicher Schädel.</rs>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 3 (2007), S. 347 Nr. 794.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=152"/>
+            </note>
+            <note>
+               <rs type="edition"> Corresp. III, S. 134 Nr. 0481 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +122,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

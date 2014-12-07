@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> Hannover</pubPlace>
             <date type="publication" when=" 1778-11-10"> 1778, Nov. 10</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,22 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Adressierung an Blumenbach nicht sicher (Anschrift fehlt). </note>
             <note>
-Adressierung an Blumenbach nicht sicher (Anschrift fehlt). </note>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> </relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"/>
+            </note>
             <note>
-               <ref target=""/>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> </rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +120,9 @@ Adressierung an Blumenbach nicht sicher (Anschrift fehlt). </note>
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

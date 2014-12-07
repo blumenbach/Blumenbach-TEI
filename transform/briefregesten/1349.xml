@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> unbekannt</pubPlace>
             <date type="publication" when=" 1807-05-03 ?"> 1807, Mai 3 ?</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,22 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Die Quellenangabe bei Wagener ist widersprÜchlich: Im Text der Fußnote wird angegeben, der Brief sei von 1820, die angegebene Signatur in der SUB Bremen (siehe &#x84;Überl.&#x93;) enthält aber das Datum &#x84;3.5.1807&#x93;. </note>
             <note>
-Die Quellenangabe bei Wagener ist widersprÜchlich: Im Text der Fußnote wird angegeben, der Brief sei von 1820, die angegebene Signatur in der SUB Bremen (siehe &#x84;Überl.&#x93;) enthält aber das Datum &#x84;3.5.1807&#x93;. </note>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> AuszuginWagener,Pedelle, Mägde und Lakaien, S. 23 Anm. 45.</relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"/>
+            </note>
             <note>
-               <ref target=""/>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> AuszuginWagener,Pedelle, Mägde und Lakaien, S. 23 Anm. 45.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +120,9 @@ Die Quellenangabe bei Wagener ist widersprÜchlich: Im Text der Fußnote wird an
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

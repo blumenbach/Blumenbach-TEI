@@ -29,18 +29,18 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
                </address>
             </publisher>
             <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" vor 1785-12-21"> 1785, vor Dez. 21</date>
+            <date type="publication" notAfter=" 1785-12-21"> 1785, vor Dez. 21</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,22 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Die Überlieferungsangaben im Druck bei Dougherty, Corresp. II, Nr. 0390 lassen nicht erkennen, in welchem Kontext dieser Briefausschnitt Überliefert ist. </note>
             <note>
-Die Überlieferungsangaben im Druck bei Dougherty, Corresp. II, Nr. 0390 lassen nicht erkennen, in welchem Kontext dieser Briefausschnitt Überliefert ist. </note>
-            <relatedItem type="object"/>
-            <relatedItem type="span"> &#x84;Von den Meerschaumenen und andern tÜrkischen Pfeifenköpfen. Aus einem Briefe des Hrn. Dr. Reinegg in Persien,[&#x85;] . Mitgetheilt vom Hrn. Prof. Blumenbach in Göttingen&#x93; in Magazin fÜr das Neueste aus der Physik und Naturgeschichte Bd. 4, 3. StÜck (1787), S. 13&#x96;19 (= Bibliographie Nr. 00818). </relatedItem>
-            <relatedItem type="bibl"> </relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"/>
+            </note>
             <note>
-               <ref target=""/>
+               <rs type="span"> &#x84;Von den Meerschaumenen und andern tÜrkischen Pfeifenköpfen. Aus einem Briefe des Hrn. Dr. Reinegg in Persien,[&#x85;] . Mitgetheilt vom Hrn. Prof. Blumenbach in Göttingen&#x93; in Magazin fÜr das Neueste aus der Physik und Naturgeschichte Bd. 4, 3. StÜck (1787), S. 13&#x96;19 (= Bibliographie Nr. 00818). </rs>
+            </note>
+            <note>
+               <rs type="bibl"> </rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +120,9 @@ Die Überlieferungsangaben im Druck bei Dougherty, Corresp. II, Nr. 0390 lassen 
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

@@ -29,18 +29,18 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
                </address>
             </publisher>
             <pubPlace> Dresden</pubPlace>
-            <date type="publication" when=" vor 1819-12-15"> 1819, vor Dez. 15</date>
+            <date type="publication" notAfter=" 1819-12-15"> 1819, vor Dez. 15</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,24 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Gwinner, Wilhelm: Schopenhauer&#x92;s Leben. Leipzig 1878, S. 221&#x96;223; Gebhart, Carl: Der Briefwechsel Arthur Schopenhauers. Band 1. MÜnchen 1929, S. 265&#x96;267; HÜbscher, Arthur (Hg.):Arthur Schopenhauer. Gesammelte Briefe. Bonn 1978,S.43&#x96;44Nr. 53 [Reinschrift] dazu Anm. S. 503, Datierung auf Anf. Dez. 1819;HÜbscher, Angelika: Arthur Schopenhauer: ein Lebensbild in Briefen. Frankfurt (Main) 1987, S. 281.</relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target="http://kalliope.staatsbibliothek-berlin.de/ http://www.archive.org/details/schopenhauersle00gwingooghttp://archive.org/stream/schopenhauersle00gwingoog#page/n251/mode/2up"> http://kalliope.staatsbibliothek- berlin.de/   Schopenhauer&#x92;s Leben221&#x96;223 </ref>
+               <rs type="object"/>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Gwinner, Wilhelm: Schopenhauer&#x92;s Leben. Leipzig 1878, S. 221&#x96;223; Gebhart, Carl: Der Briefwechsel Arthur Schopenhauers. Band 1. MÜnchen 1929, S. 265&#x96;267; HÜbscher, Arthur (Hg.):Arthur Schopenhauer. Gesammelte Briefe. Bonn 1978,S.43&#x96;44Nr. 53 [Reinschrift] dazu Anm. S. 503, Datierung auf Anf. Dez. 1819;HÜbscher, Angelika: Arthur Schopenhauer: ein Lebensbild in Briefen. Frankfurt (Main) 1987, S. 281.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://kalliope.staatsbibliothek-berlin.de/"/>
+               <ref target="http://www.archive.org/details/schopenhauersle00gwingooghttp://archive.org/stream/schopenhauersle00gwingoog#page/n251/mode/2up"/>
+            </note>
+            <note>
+               <rs type="edition"> http://kalliope.staatsbibliothek- berlin.de/   Schopenhauer&#x92;s Leben221&#x96;223 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +123,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace/>
             <date type="publication" when="1805-06-07"> 1805, Juni 7 Petropawlowsk, Kamtschatka</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,24 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"> Zeichnung eines Apollofalters und Schädels eines Argali-Schafs von der Halbinsel Kamtschatka; Zeichnung der tätowierten linken Hand der Königin von Nuku Hiva; Schädel eines Marquesas-Insulaners; Silhouetten und eine farbige Zeichnung von Einwohnern von Japan, vgl. dazu vgl. Spengel, Anthropologische Sammlung, S. 90 unten: &#x84;11 kleine kolorierte Relief-Darstellungen von Japanern und Ainos, 6 grosse aufgerollte Bilder von Japanern&#x93;. </relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Auszug in Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 11, 4. StÜck (1806), S. 297&#x96;309 (&#x84;II. Fernere Reisenachrichten vom Herrn D. Langsdorff&#x93;, Bibliographie Nr.00915).</relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00915 http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553"> 00915   Spengel, Anthropologische Sammlung </ref>
+               <rs type="object"> Zeichnung eines Apollofalters und Schädels eines Argali-Schafs von der Halbinsel Kamtschatka; Zeichnung der tätowierten linken Hand der Königin von Nuku Hiva; Schädel eines Marquesas-Insulaners; Silhouetten und eine farbige Zeichnung von Einwohnern von Japan, vgl. dazu vgl. Spengel, Anthropologische Sammlung, S. 90 unten: &#x84;11 kleine kolorierte Relief-Darstellungen von Japanern und Ainos, 6 grosse aufgerollte Bilder von Japanern&#x93;. </rs>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Auszug in Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 11, 4. StÜck (1806), S. 297&#x96;309 (&#x84;II. Fernere Reisenachrichten vom Herrn D. Langsdorff&#x93;, Bibliographie Nr.00915).</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00915"/>
+               <ref target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553"/>
+            </note>
+            <note>
+               <rs type="edition"> 00915   Spengel, Anthropologische Sammlung </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +123,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

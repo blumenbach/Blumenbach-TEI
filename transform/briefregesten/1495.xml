@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> 1820, April 26 Wernigerode</pubPlace>
             <date type="publication" when=" 1820-04-26"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,24 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Abschrift in: Gehler, Alexander:Die spätpleistozänen Mammuthus- und Coelodonta-Bestände im Geowissenschaftlichen Zentrum der Universität Göttingen &#x96; Unveröffentlichte Diplomarbeit, Geowissenschaftliches Zentrum der Universität Göttingen, 2006. (Ex. im Präsenzbestand der Bibliothek der Fakultät fÜr Geowissenschaften und Geographie der Georg-August-Universität Göttingen). </note>
             <note>
-Abschrift in: Gehler, Alexander:Die spätpleistozänen Mammuthus- und Coelodonta-Bestände im Geowissenschaftlichen Zentrum der Universität Göttingen &#x96; Unveröffentlichte Diplomarbeit, Geowissenschaftliches Zentrum der Universität Göttingen, 2006. (Ex. im Präsenzbestand der Bibliothek der Fakultät fÜr Geowissenschaften und Geographie der Georg-August-Universität Göttingen). </note>
-            <relatedItem type="object"> Fossile Zähne und Knochen eines Wollnashorns aus der Tongrube öhrenfeld bei Ilsenburg (Harz). </relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> </relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"> Fossile Zähne und Knochen eines Wollnashorns aus der Tongrube öhrenfeld bei Ilsenburg (Harz). </rs>
+            </note>
             <note>
-               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/Transkriptionen/Sporleder_Blumenbach_1820Apr26_Transkription.html"> Transkription </ref>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> </rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/Transkriptionen/Sporleder_Blumenbach_1820Apr26_Transkription.html"/>
+            </note>
+            <note>
+               <rs type="edition"> Transkription </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +122,9 @@ Abschrift in: Gehler, Alexander:Die spätpleistozänen Mammuthus- und Coelodonta
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

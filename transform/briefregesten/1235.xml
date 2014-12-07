@@ -29,18 +29,18 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
                </address>
             </publisher>
             <pubPlace> Meiningen</pubPlace>
-            <date type="publication" when=" vor 1801-09-03"> vor 1801, Sept. 3</date>
+            <date type="publication" notAfter=" 1801-09-03"> vor 1801, Sept. 3</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,22 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Undatiert abgedruckt; zur Datierung: Blumenbach entschuldigt sich am 3. Sept. 1801 fÜr seine &#x84;sehr verspätete&#x93; Antwort auf diese Anfrage.</note>
             <note>
-Undatiert abgedruckt; zur Datierung: Blumenbach entschuldigt sich am 3. Sept. 1801 fÜr seine &#x84;sehr verspätete&#x93; Antwort auf diese Anfrage.</note>
-            <relatedItem type="object"> Suite von Braunkohleproben aus der Lagerstätte Kaltennordheim bei Meiningen. </relatedItem>
-            <relatedItem type="span">   </relatedItem>
-            <relatedItem type="bibl"> Auszug in Voigt, Joh. Carl Wilhelm: Versuch einer Geschichte der Steinkohlen, der Braunkohlen und des Torfes. Weimar 1802-1805, Bd. 2, S. 162-168.</relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"> Suite von Braunkohleproben aus der Lagerstätte Kaltennordheim bei Meiningen. </rs>
+            </note>
             <note>
-               <ref target=""/>
+               <rs type="span">   </rs>
+            </note>
+            <note>
+               <rs type="bibl"> Auszug in Voigt, Joh. Carl Wilhelm: Versuch einer Geschichte der Steinkohlen, der Braunkohlen und des Torfes. Weimar 1802-1805, Bd. 2, S. 162-168.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +120,9 @@ Undatiert abgedruckt; zur Datierung: Blumenbach entschuldigt sich am 3. Sept. 18
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

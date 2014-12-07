@@ -29,18 +29,18 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
                </address>
             </publisher>
             <pubPlace> 1791, vor Febr. 9 Ronneburg</pubPlace>
-            <date type="publication" when=" vor 1791-02-09"/>
+            <date type="publication" notAfter=" 1791-02-09"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,24 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"/>
-            <relatedItem type="span"> Brieftext verwendet inBibliographie Nr.00828und 00783(siehe &#x84;Dr.&#x93;).   AuszÜge in Magazin fÜr das Neueste aus der Physik und Naturgeschichte Bd. 7, 3. StÜck 1791), S. 68&#x96;72 (&#x84;Ueber den Strontianit, ein Schottisches Fossil, das ebenfals eine neue Grunderde zu enthalten scheint; und Über einige andere naturhistorische MerkwÜrdigkeiten. Aus einem Briefe des Hrn. Rath Sulzer zu Ronneburg mitgetheilt von J. F. Blumenbach&#x93;, Bibliographie Nr. 00783); nur Abschnitt Über den Stronianit ebenfalls in Bergmännisches Journal 4. Jg., 1. Bd. (1791) 5. StÜck (Mai), S. 433&#x96;435 (&#x84;VI. Uiber den Strontianit, ein Schottisches Foßil, das ebenfalls eine neue Grunderde zu enthalten scheint. (Aus einem Briefe des Herrn Rath Sulzer zu Ronneburg, mitgetheilt von J. F. Blumenbach.*)&#x93;, Bibliographie Nr.00828). </relatedItem>
-            <relatedItem type="bibl"> </relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00828 http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=30"> 00828   Corresp. IV, S. 18 Nr. 0652 </ref>
+               <rs type="object"/>
+            </note>
+            <note>
+               <rs type="span"> Brieftext verwendet inBibliographie Nr.00828und 00783(siehe &#x84;Dr.&#x93;).   AuszÜge in Magazin fÜr das Neueste aus der Physik und Naturgeschichte Bd. 7, 3. StÜck 1791), S. 68&#x96;72 (&#x84;Ueber den Strontianit, ein Schottisches Fossil, das ebenfals eine neue Grunderde zu enthalten scheint; und Über einige andere naturhistorische MerkwÜrdigkeiten. Aus einem Briefe des Hrn. Rath Sulzer zu Ronneburg mitgetheilt von J. F. Blumenbach&#x93;, Bibliographie Nr. 00783); nur Abschnitt Über den Stronianit ebenfalls in Bergmännisches Journal 4. Jg., 1. Bd. (1791) 5. StÜck (Mai), S. 433&#x96;435 (&#x84;VI. Uiber den Strontianit, ein Schottisches Foßil, das ebenfalls eine neue Grunderde zu enthalten scheint. (Aus einem Briefe des Herrn Rath Sulzer zu Ronneburg, mitgetheilt von J. F. Blumenbach.*)&#x93;, Bibliographie Nr.00828). </rs>
+            </note>
+            <note>
+               <rs type="bibl"> </rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00828"/>
+               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=30"/>
+            </note>
+            <note>
+               <rs type="edition"> 00828   Corresp. IV, S. 18 Nr. 0652 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +123,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

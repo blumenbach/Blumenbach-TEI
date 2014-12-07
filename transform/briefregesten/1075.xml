@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> Weimar</pubPlace>
             <date type="publication" when=" 1799-01-11"> 1799, Jan. 11</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,24 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"> Von Charles Townley erhaltene Zeichnung eines indischen Lingamreliefs (erhalten in SUB Göttingen, 2 ARCH I, 1895).</relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Auszug in Klatt, Norbert: &#x84;Blumenbachs Aufenthalt in England &#x96; Versuch einer Rekonstruktion&#x93;, in ders.: Kleine Beiträge zur Blumenbach-Forschung. Bd. 4. Göttingen 2012, S.7&#x96;105; hier S. 60&#x96;61, Anm.172.</relatedItem>
-            <relatedItem type="lz"> Handbuch der Naturgeschichte (6. Aufl. 1799 [im Druck], Bibliographie Nr. 00027).</relatedItem>
             <note>
-               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00027 http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=367"> 00027   Corresp. V, S. 351&#x96;353 Nr. 1211 </ref>
+               <rs type="object"> Von Charles Townley erhaltene Zeichnung eines indischen Lingamreliefs (erhalten in SUB Göttingen, 2 ARCH I, 1895).</rs>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Auszug in Klatt, Norbert: &#x84;Blumenbachs Aufenthalt in England &#x96; Versuch einer Rekonstruktion&#x93;, in ders.: Kleine Beiträge zur Blumenbach-Forschung. Bd. 4. Göttingen 2012, S.7&#x96;105; hier S. 60&#x96;61, Anm.172.</rs>
+            </note>
+            <note>
+               <rs type="lz"> Handbuch der Naturgeschichte (6. Aufl. 1799 [im Druck], Bibliographie Nr. 00027).</rs>
+            </note>
+            <note>
+               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00027"/>
+               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=367"/>
+            </note>
+            <note>
+               <rs type="edition"> 00027   Corresp. V, S. 351&#x96;353 Nr. 1211 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +123,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

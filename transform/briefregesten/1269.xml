@@ -29,18 +29,18 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
                </address>
             </publisher>
             <pubPlace> nach 1801, Nov. 2/ vor1802, Nov./Dez.? Kapstadt</pubPlace>
-            <date type="publication" when=" nach 1801-11-02 vor Ende 1802"/>
+            <date type="publication" notBefore=" 1801-11-02 vor Ende 1802"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,24 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Datierung: In Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 4, 5. StÜck (1802), S. 675 wird erwähnt, Hesse habe Gesteinproben von einer Expedition am 2. Nov. 1801 gesandt; Heft 5 vonBand 4 des Magazin fÜr den neuesten Zustand der Naturkunde enthält einen auf den 30. Sept. 1802 datierten Brief an den Herausgeber (S. 692) und dÜrfte demnach im letzten Quartal des Jahres 1802 erschienen sein. </note>
             <note>
-Datierung: In Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 4, 5. StÜck (1802), S. 675 wird erwähnt, Hesse habe Gesteinproben von einer Expedition am 2. Nov. 1801 gesandt; Heft 5 vonBand 4 des Magazin fÜr den neuesten Zustand der Naturkunde enthält einen auf den 30. Sept. 1802 datierten Brief an den Herausgeber (S. 692) und dÜrfte demnach im letzten Quartal des Jahres 1802 erschienen sein. </note>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> AuszÜge in Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 4, 5. StÜck (1802), S. 671-679 (&#x84;3. Einige naturhistorische Seltenheiten und Bemerkungen vom Vorgebirge der guten Hoffnung&#x93;,Bibliographie Nr.00899), hier S. 677-679&#x84;[&#x85;] Eclogen aus Hrn. Pastor Heße&#x92;s Briefen&#x93;.</relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"/>
+            </note>
             <note>
-               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00899"> 00899 </ref>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> AuszÜge in Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 4, 5. StÜck (1802), S. 671-679 (&#x84;3. Einige naturhistorische Seltenheiten und Bemerkungen vom Vorgebirge der guten Hoffnung&#x93;,Bibliographie Nr.00899), hier S. 677-679&#x84;[&#x85;] Eclogen aus Hrn. Pastor Heße&#x92;s Briefen&#x93;.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00899"/>
+            </note>
+            <note>
+               <rs type="edition"> 00899 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +122,9 @@ Datierung: In Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 4, 5. StÜck
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

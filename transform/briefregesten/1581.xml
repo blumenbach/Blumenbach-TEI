@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> Göttingen</pubPlace>
             <date type="publication" when=" 1827-01-28"> 1827, Jan. 28</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,21 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"> Schädel einerJavanerin, deren Mutter Malaiin und deren Vater Chinese war, Abb. in Nova pentas craniorum(1828; Bibliographie Nr. 00098), Tafel 64.</relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Erwähnt in Klatt, Norbert: Kleine Beiträge zur Blumenbach-Forschung 1. Göttingen 2008, S. 48; Regest in: Heiningen, Teunis Willem van: The correspondence of Caspar Georg Carl Reinwardt (1773-1854). Part 2: 1820-1854. The Hague 2011 (www.dwc.knaw.nl), S. 679 Nr. 945(mit der irrtÜmlichen Datumsangabe &#x84;28. Jan. 1840&#x93;; Blumenbach starb am 22. Jan. 1840).</relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target=""/>
+               <rs type="object"> Schädel einerJavanerin, deren Mutter Malaiin und deren Vater Chinese war, Abb. in Nova pentas craniorum(1828; Bibliographie Nr. 00098), Tafel 64.</rs>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Erwähnt in Klatt, Norbert: Kleine Beiträge zur Blumenbach-Forschung 1. Göttingen 2008, S. 48; Regest in: Heiningen, Teunis Willem van: The correspondence of Caspar Georg Carl Reinwardt (1773-1854). Part 2: 1820-1854. The Hague 2011 (www.dwc.knaw.nl), S. 679 Nr. 945(mit der irrtÜmlichen Datumsangabe &#x84;28. Jan. 1840&#x93;; Blumenbach starb am 22. Jan. 1840).</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +120,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

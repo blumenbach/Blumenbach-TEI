@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> 1802, Juni 8 Göttingen</pubPlace>
             <date type="publication" when=" 1802-06-08"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,23 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"> Anthraconit aus der Region Salzburg (Geschenk Alex. v. Humboldts; weiteres StÜck wirderbeten); Biberfötus (Geschenk von Hartenkeil; weiterer wirderbeten); präparierter Biber und einzelner Biberschädel (beide ohneVorderzähne).</relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Moll, Carl Erenbert von: Mittheilungen aus seinem Briefwechsel. 1. Abt. Augsburg1829, S. 56&#x96;58.</relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00029"> 00029 </ref>
+               <rs type="object"> Anthraconit aus der Region Salzburg (Geschenk Alex. v. Humboldts; weiteres StÜck wirderbeten); Biberfötus (Geschenk von Hartenkeil; weiterer wirderbeten); präparierter Biber und einzelner Biberschädel (beide ohneVorderzähne).</rs>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Moll, Carl Erenbert von: Mittheilungen aus seinem Briefwechsel. 1. Abt. Augsburg1829, S. 56&#x96;58.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00029"/>
+            </note>
+            <note>
+               <rs type="edition"> 00029 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +122,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

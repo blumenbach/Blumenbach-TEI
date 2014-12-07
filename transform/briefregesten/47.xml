@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> Göttingen</pubPlace>
             <date type="publication" when=" 1777-11-15"> 1777,Nov. 15</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,24 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Sowohl in der Transkription von Schillemeit als von Dougherty, Corresp. heißt es in der Datumszeile &#x84;9ber&#x93; (= &#x84;November&#x93;); Dougherty gibt als Datierung jedoch (irrtÜmlich?) &#x84;Okt. 15&#x93; an; vgl. dagegen DoughertysTranskription von BlumenbachsBrief an S. Th. Soemmerring vom 30. Nov. 1782, wo &#x84;9ber&#x93; als&#x84;30. Nov.&#x93; interpretiert wird.</note>
             <note>
-Sowohl in der Transkription von Schillemeit als von Dougherty, Corresp. heißt es in der Datumszeile &#x84;9ber&#x93; (= &#x84;November&#x93;); Dougherty gibt als Datierung jedoch (irrtÜmlich?) &#x84;Okt. 15&#x93; an; vgl. dagegen DoughertysTranskription von BlumenbachsBrief an S. Th. Soemmerring vom 30. Nov. 1782, wo &#x84;9ber&#x93; als&#x84;30. Nov.&#x93; interpretiert wird.</note>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Schillemeit, Rosemarie (Hg.), Das Stammbuch des Benedict Christian Avenarius. Bielefeld 2002, S. 164&#x96;165 (mit einzelnen, von den Lesungen bei Dougherty, Corresp. abweichendenLesungen).</relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"/>
+            </note>
             <note>
-               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=386"> Corresp. III, S. 368 Appendix Nr. 03 </ref>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Schillemeit, Rosemarie (Hg.), Das Stammbuch des Benedict Christian Avenarius. Bielefeld 2002, S. 164&#x96;165 (mit einzelnen, von den Lesungen bei Dougherty, Corresp. abweichendenLesungen).</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=386"/>
+            </note>
+            <note>
+               <rs type="edition"> Corresp. III, S. 368 Appendix Nr. 03 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +122,9 @@ Sowohl in der Transkription von Schillemeit als von Dougherty, Corresp. heißt e
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

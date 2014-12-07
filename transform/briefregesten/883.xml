@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> Göttingen</pubPlace>
             <date type="publication" when=" 1796-10-25"> 1796, Okt. 25</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,23 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"> Mineralien: Menacanit, Black Wad, Bononischer Stein; Bitumen aus Barbados; erbeten: Strahlstein aus Schweden; Erdkobalt aus dem Saalfeld; Brandschiefer aus Kaltennordheim; Dichter Feldspath aus dem Erzgebirge; Holzkohle in Petrefakten-Flöz. </relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> </relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=80"> Corresp. V, S. 64&#x96;65 Nr. 1013 </ref>
+               <rs type="object"> Mineralien: Menacanit, Black Wad, Bononischer Stein; Bitumen aus Barbados; erbeten: Strahlstein aus Schweden; Erdkobalt aus dem Saalfeld; Brandschiefer aus Kaltennordheim; Dichter Feldspath aus dem Erzgebirge; Holzkohle in Petrefakten-Flöz. </rs>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> </rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=80"/>
+            </note>
+            <note>
+               <rs type="edition"> Corresp. V, S. 64&#x96;65 Nr. 1013 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +122,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

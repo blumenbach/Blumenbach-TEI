@@ -29,18 +29,18 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
                </address>
             </publisher>
             <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" nach 1788-04-12"> 1788, nach Apr. 12</date>
+            <date type="publication" notBefore=" 1788-04-12"> 1788, nach Apr. 12</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,23 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Lichtenberg, Briefwechsel, Bd. 3 (1990), Nr. 1591, S. 503&#x96;504; Joost, Ihre Hand, Ihren Mund (1998), Nr. 79. S. 218&#x96;220.</relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=174"> Corresp. III, S. 156 Nr. 0501 </ref>
+               <rs type="object"/>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Lichtenberg, Briefwechsel, Bd. 3 (1990), Nr. 1591, S. 503&#x96;504; Joost, Ihre Hand, Ihren Mund (1998), Nr. 79. S. 218&#x96;220.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=174"/>
+            </note>
+            <note>
+               <rs type="edition"> Corresp. III, S. 156 Nr. 0501 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +122,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

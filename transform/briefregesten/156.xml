@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> Hannover</pubPlace>
             <date type="publication" when=" [1782-07-28]"> 1782, [Juli 28]</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,22 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Datum erschlossen; in Dougherty, Corresp. I aus inhaltlichen GrÜnden auf&#x84;Juli 28&#x93; datiert, jedoch als Nr. 0213 zwischen zwei Briefen von &#x84;nach Aug. 4&#x93; und &#x84;20. Aug.1782&#x93; eingereiht, also entsprechendder Datierung in Heuser, Therese Huber. Briefe (siehe &#x84;Drucke&#x93;).</note>
             <note>
-Datum erschlossen; in Dougherty, Corresp. I aus inhaltlichen GrÜnden auf&#x84;Juli 28&#x93; datiert, jedoch als Nr. 0213 zwischen zwei Briefen von &#x84;nach Aug. 4&#x93; und &#x84;20. Aug.1782&#x93; eingereiht, also entsprechendder Datierung in Heuser, Therese Huber. Briefe (siehe &#x84;Drucke&#x93;).</note>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Teildruck: Geiger, Therese Huber (1901), S. 19; vollständig: Heuser, Therese Huber. Briefe. Bd. 1 (1999), S. 33&#x96;34 Nr. 11 (datiert auf 4. oder 11. Aug. 1782).</relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"/>
+            </note>
             <note>
-               <ref target=""/>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Teildruck: Geiger, Therese Huber (1901), S. 19; vollständig: Heuser, Therese Huber. Briefe. Bd. 1 (1999), S. 33&#x96;34 Nr. 11 (datiert auf 4. oder 11. Aug. 1782).</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +120,9 @@ Datum erschlossen; in Dougherty, Corresp. I aus inhaltlichen GrÜnden auf&#x84;J
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

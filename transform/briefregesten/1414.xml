@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> Göttingen</pubPlace>
             <date type="publication" when=" [ca. 1812]-08-30"> [ca. 1812], Aug. 30</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,24 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Nur mit Tages, ohne Jahresdatum Überliefert; Vorschlag zur Datierungseingrenzung aufgr. des Erscheinungsjahr vonStruve, H. Chr. G., &#x84;Ueber die Kunst Schmetterlinge nach dem Leben abzudrÜcken&#x93;, in: Annalen der Wetterauischen Gesellschaft fÜr die gesammte Naturkunde 3 (1812), S. 188&#x96;192; Struve korrespondierte 1811 auch mit den Göttinger Professoren Chr. G. Heyne und C. F. Gauß. - Erwähnung des Briefes und Über den Eintrag im Göttinger Hs.-Katalog Angaben hinausgehende Information in Weidner, H. und Kraus, O,&#x84;Aus der Geschichte des Naturwissenschaftlichen Vereins Hamburg&#x93;, in: Verhandlungen des Naturwissenschaftlichen Vereins in Hamburg (N.F.) 30 (1988), S. 5&#x96;150, S. 14. </note>
             <note>
-Nur mit Tages, ohne Jahresdatum Überliefert; Vorschlag zur Datierungseingrenzung aufgr. des Erscheinungsjahr vonStruve, H. Chr. G., &#x84;Ueber die Kunst Schmetterlinge nach dem Leben abzudrÜcken&#x93;, in: Annalen der Wetterauischen Gesellschaft fÜr die gesammte Naturkunde 3 (1812), S. 188&#x96;192; Struve korrespondierte 1811 auch mit den Göttinger Professoren Chr. G. Heyne und C. F. Gauß. - Erwähnung des Briefes und Über den Eintrag im Göttinger Hs.-Katalog Angaben hinausgehende Information in Weidner, H. und Kraus, O,&#x84;Aus der Geschichte des Naturwissenschaftlichen Vereins Hamburg&#x93;, in: Verhandlungen des Naturwissenschaftlichen Vereins in Hamburg (N.F.) 30 (1988), S. 5&#x96;150, S. 14. </note>
-            <relatedItem type="object"/>
-            <relatedItem type="span">  </relatedItem>
-            <relatedItem type="bibl"> </relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"/>
+            </note>
             <note>
-               <ref target="http://hans.sub.uni-goettingen.de/"> http://hans.sub.uni-goettingen.de/ </ref>
+               <rs type="span">  </rs>
+            </note>
+            <note>
+               <rs type="bibl"> </rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://hans.sub.uni-goettingen.de/"/>
+            </note>
+            <note>
+               <rs type="edition"> http://hans.sub.uni-goettingen.de/ </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +122,9 @@ Nur mit Tages, ohne Jahresdatum Überliefert; Vorschlag zur Datierungseingrenzun
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> 1817, Dez. 18 Hannover</pubPlace>
             <date type="publication" when=" 1817-12-18"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,23 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"> Menschlicher Schädel (einer Hottentottin) aus SÜdafrika (Göttingen, Inst. f. Anatomie, Schädelsammlung Nrr. 696); vgl.Spengel, Anthropologische Sammlung, S. 58 ad 3.</relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Dougherty, Commercium epistolicum (1984), S. 175&#x96;178 KatNr. 214.</relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553"> Anthropologische Sammlung </ref>
+               <rs type="object"> Menschlicher Schädel (einer Hottentottin) aus SÜdafrika (Göttingen, Inst. f. Anatomie, Schädelsammlung Nrr. 696); vgl.Spengel, Anthropologische Sammlung, S. 58 ad 3.</rs>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Dougherty, Commercium epistolicum (1984), S. 175&#x96;178 KatNr. 214.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553"/>
+            </note>
+            <note>
+               <rs type="edition"> Anthropologische Sammlung </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +122,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

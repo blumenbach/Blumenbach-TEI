@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> 1796, Febr. 22 Cambridge</pubPlace>
             <date type="publication" when=" 1796-02-22"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,24 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Vgl. Blumenbachs Notizen zu seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, IV, fol. 5. </note>
             <note>
-Vgl. Blumenbachs Notizen zu seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, IV, fol. 5. </note>
-            <relatedItem type="object"> Kopf einer ägyptischen Mumie, (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 641; Abb. in Decas craniorum 4 (1800), Tafel 31; Bibliographie Nr. 00095).</relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Dougherty, Commercium epistolicum (1984), S. 121&#x96;122 KatNr. 142.</relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"> Kopf einer ägyptischen Mumie, (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 641; Abb. in Decas craniorum 4 (1800), Tafel 31; Bibliographie Nr. 00095).</rs>
+            </note>
             <note>
-               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=22"> Corresp.V, S. 6&#x96;8 Nr. 0971 </ref>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Dougherty, Commercium epistolicum (1984), S. 121&#x96;122 KatNr. 142.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=22"/>
+            </note>
+            <note>
+               <rs type="edition"> Corresp.V, S. 6&#x96;8 Nr. 0971 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +122,9 @@ Vgl. Blumenbachs Notizen zu seiner Schädelsammlung, Göttingen, Universitätsbi
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

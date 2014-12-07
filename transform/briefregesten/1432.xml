@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> [Göttingen]</pubPlace>
             <date type="publication" when=" 1815-02-12"> 1815, Febr.12</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,25 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"> Schädel einer Georgierin (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 546 [Modellschädel fÜr Blumenbachs kaukasische Varietät der Spezies Mensch]; Abb. in Decas craniorum 3 (1795), Tafel 21 (Bibliographie Nr. 00094) und in Abb. naturhist. Gegenstände 6 (1802), Abb. 51 (Bibliographie Nr. 00707), Fotos in Károlyi, Zeitschrift fÜr Morphologie und Anthropologie 1966, Tafel 17 unten.</relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Auszug inDougherty, Corresp. IV,S. 256 Nr. 0811 Anm. *.</relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=268 http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00094http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00707"> Dougherty, Corresp. IV,S. 256 Nr. 0811 Anm. *   0009400707 </ref>
+               <rs type="object"> Schädel einer Georgierin (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 546 [Modellschädel fÜr Blumenbachs kaukasische Varietät der Spezies Mensch]; Abb. in Decas craniorum 3 (1795), Tafel 21 (Bibliographie Nr. 00094) und in Abb. naturhist. Gegenstände 6 (1802), Abb. 51 (Bibliographie Nr. 00707), Fotos in Károlyi, Zeitschrift fÜr Morphologie und Anthropologie 1966, Tafel 17 unten.</rs>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Auszug inDougherty, Corresp. IV,S. 256 Nr. 0811 Anm. *.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=268"/>
+               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00094"/>
+               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00707"/>
+            </note>
+            <note>
+               <rs type="edition"> Dougherty, Corresp. IV,S. 256 Nr. 0811 Anm. *   0009400707 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +124,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

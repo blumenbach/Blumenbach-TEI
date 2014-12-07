@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> [1808, Sommer] Göttingen</pubPlace>
             <date type="publication" when=" 1808"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,23 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"> Mammut-Haare aus Russland; Schädel eines jungen Steinbocks (zu diesem vgl. Brief an Pieter Camper von 1783, Dez. 3 (Dougherty, Corresp. II, Nr. 0258), den Blumenbach verschenkt hat; Schädel eines &#x84;Cretins&#x93; aus der Schweiz.</relatedItem>
-            <relatedItem type="span">    Moll, Carl von: Mittheilungen aus seinem Briefwechsel. 1. Abt. Augsburg 1829, S. 58&#x96;61;Auszug in Dougherty, Corresp. IV, S. 280 Nr. 0816 Anm. 1.  Druck ohneDatierung; Datierungsvermutung aufgrund derErwähnung der Publikation von Bibliographie Nr. 00485 vom 2. Juni 1808.</relatedItem>
-            <relatedItem type="bibl"> </relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00485"> 00485 </ref>
+               <rs type="object"> Mammut-Haare aus Russland; Schädel eines jungen Steinbocks (zu diesem vgl. Brief an Pieter Camper von 1783, Dez. 3 (Dougherty, Corresp. II, Nr. 0258), den Blumenbach verschenkt hat; Schädel eines &#x84;Cretins&#x93; aus der Schweiz.</rs>
+            </note>
+            <note>
+               <rs type="span">    Moll, Carl von: Mittheilungen aus seinem Briefwechsel. 1. Abt. Augsburg 1829, S. 58&#x96;61;Auszug in Dougherty, Corresp. IV, S. 280 Nr. 0816 Anm. 1.  Druck ohneDatierung; Datierungsvermutung aufgrund derErwähnung der Publikation von Bibliographie Nr. 00485 vom 2. Juni 1808.</rs>
+            </note>
+            <note>
+               <rs type="bibl"> </rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00485"/>
+            </note>
+            <note>
+               <rs type="edition"> 00485 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +122,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

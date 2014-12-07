@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> Hannover</pubPlace>
             <date type="publication" when=" 1815-10-04"> 1815, Okt. 4</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,21 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Vgl. Nawa, Christine:&#x84;Zum »öffentlichen Gebrauch« bestimmt: Das Academische Museum Göttingen&#x93;, in Göttinger Jahrbuch 58 (2010), S. 23&#x96;63, hier S. 38 mit Anm. 136 (mit irrtÜmlicher, von der zeitl. Einordnung im Text abweichender Jahresangabe &#x84;1813&#x93; in der Fußnote). </relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target=""/>
+               <rs type="object"/>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Vgl. Nawa, Christine:&#x84;Zum »öffentlichen Gebrauch« bestimmt: Das Academische Museum Göttingen&#x93;, in Göttinger Jahrbuch 58 (2010), S. 23&#x96;63, hier S. 38 mit Anm. 136 (mit irrtÜmlicher, von der zeitl. Einordnung im Text abweichender Jahresangabe &#x84;1813&#x93; in der Fußnote). </rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +120,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

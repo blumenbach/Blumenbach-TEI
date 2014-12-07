@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -41,7 +41,7 @@
             <date type="publication"
                   when=" [= julian. Kal.: Juli 3]  1789-07-14  [= julian. Kal.: 1789-07-03]"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -50,8 +50,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -65,12 +63,23 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"> Russische Landkarten und Kupferstiche fÜr das Academische Museum der Universität Göttingen, sowiezwei russische Landkarten als persönliches Geschenk an Blumenbach; Mineralstufen (keine genaueren Angaben im Brief).</relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> </relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=253"> Corresp. III, S. 235 Nr. 0559 </ref>
+               <rs type="object"> Russische Landkarten und Kupferstiche fÜr das Academische Museum der Universität Göttingen, sowiezwei russische Landkarten als persönliches Geschenk an Blumenbach; Mineralstufen (keine genaueren Angaben im Brief).</rs>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> </rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=253"/>
+            </note>
+            <note>
+               <rs type="edition"> Corresp. III, S. 235 Nr. 0559 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +123,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

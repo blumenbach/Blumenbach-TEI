@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> 1791, Apr. 25 London</pubPlace>
             <date type="publication" when=" 1791-04-25"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,24 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"> Ein &#x84;medallion made of clay from Sidney Cove&#x93;; &#x84;tail of a sea otter&#x93;; ein StÜck Menakanit (&#x84;a specimen of a new mineral lately discovered in Cornwall and described in Crells Journal&#x93;);Seeotterschwanz, vgl.Blumenbachs hs. Sammlungsverz., Universitätsbibliothek Göttingen Cod. Ms. Blumenbach 1, II, fol. 86.</relatedItem>
-            <relatedItem type="span">  </relatedItem>
-            <relatedItem type="bibl"> </relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/Sammlungskataloge/cod_ms-Blumenbach_1_II_Blumenbach_Handschriften_1794_1800_Katalog%20zur%20Naturgeschichte%20des%20Menschengeschlechts.pdf#page=177 http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=63"> Cod. Ms. Blumenbach 1, II, fol. 86   Corresp. IV, S. 51 Nr. 0673 </ref>
+               <rs type="object"> Ein &#x84;medallion made of clay from Sidney Cove&#x93;; &#x84;tail of a sea otter&#x93;; ein StÜck Menakanit (&#x84;a specimen of a new mineral lately discovered in Cornwall and described in Crells Journal&#x93;);Seeotterschwanz, vgl.Blumenbachs hs. Sammlungsverz., Universitätsbibliothek Göttingen Cod. Ms. Blumenbach 1, II, fol. 86.</rs>
+            </note>
+            <note>
+               <rs type="span">  </rs>
+            </note>
+            <note>
+               <rs type="bibl"> </rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/Sammlungskataloge/cod_ms-Blumenbach_1_II_Blumenbach_Handschriften_1794_1800_Katalog%20zur%20Naturgeschichte%20des%20Menschengeschlechts.pdf#page=177"/>
+               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=63"/>
+            </note>
+            <note>
+               <rs type="edition"> Cod. Ms. Blumenbach 1, II, fol. 86   Corresp. IV, S. 51 Nr. 0673 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +123,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

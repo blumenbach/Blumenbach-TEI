@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> 1795, Nov. 16 London</pubPlace>
             <date type="publication" when=" 1795-11-16"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,24 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Blumenbach teilte den Abschnitt Über das irische Goldvorkommen am 4. Febr. 1796 brieflich Johann Heinrich Voigt mit, der ihn in einem Aufsatz in Magazin fÜr das Neueste aus der Physik und Naturgeschichte, Bd. 10, 4. Heft (1796), S. 144&#x96;145 (siehe &#x84;Dr.&#x93;) zitiert.</note>
             <note>
-Blumenbach teilte den Abschnitt Über das irische Goldvorkommen am 4. Febr. 1796 brieflich Johann Heinrich Voigt mit, der ihn in einem Aufsatz in Magazin fÜr das Neueste aus der Physik und Naturgeschichte, Bd. 10, 4. Heft (1796), S. 144&#x96;145 (siehe &#x84;Dr.&#x93;) zitiert.</note>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Abschnitt Über das irische Goldvorkommen in dt. Übers. in Magazin fÜr das Neueste aus der Physik und Naturgeschichte, Bd. 10, 4. Heft (1796), S. 144&#x96;145.</relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"/>
+            </note>
             <note>
-               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=486"> Corresp. IV, S. 474 Nr. 0955 </ref>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Abschnitt Über das irische Goldvorkommen in dt. Übers. in Magazin fÜr das Neueste aus der Physik und Naturgeschichte, Bd. 10, 4. Heft (1796), S. 144&#x96;145.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=486"/>
+            </note>
+            <note>
+               <rs type="edition"> Corresp. IV, S. 474 Nr. 0955 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +122,9 @@ Blumenbach teilte den Abschnitt Über das irische Goldvorkommen am 4. Febr. 1796
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

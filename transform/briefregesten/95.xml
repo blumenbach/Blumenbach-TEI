@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> Mariengarten</pubPlace>
             <date type="publication" when=" 1780-08-30"> 1780, Aug, 30.</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,21 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"/>
-            <relatedItem type="span"> Von einem Bock, der Milch giebt&#x93; inHannoverisches Magazin 25. Jg., 48. StÜck, 15. Juni 1787, Sp. 753&#x96;762 (= Bibliographie Nr. 00804).</relatedItem>
-            <relatedItem type="bibl"> </relatedItem>
-            <relatedItem type="lz"> Hannoverisches Magazin 25. Jg., 48. StÜck, 15. Juni 1787, Sp. 753.</relatedItem>
             <note>
-               <ref target=""/>
+               <rs type="object"/>
+            </note>
+            <note>
+               <rs type="span"> Von einem Bock, der Milch giebt&#x93; inHannoverisches Magazin 25. Jg., 48. StÜck, 15. Juni 1787, Sp. 753&#x96;762 (= Bibliographie Nr. 00804).</rs>
+            </note>
+            <note>
+               <rs type="bibl"> </rs>
+            </note>
+            <note>
+               <rs type="lz"> Hannoverisches Magazin 25. Jg., 48. StÜck, 15. Juni 1787, Sp. 753.</rs>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +120,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> Klein Lankum</pubPlace>
             <date type="publication" when=" 1784-09-24"> 1784, Sept. 24</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,21 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Auszug in Bräuning-Oktavio, Hermann,&#x84;Johann Heinrich Merck und Petrus Camper&#x93; inArchiv fÜr die Geschichte der Naturwissenschaften und Technik 4 (1913), S. 270&#x96;306 und 360&#x96;388, hier S. 278&#x96;279.</relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target=""/>
+               <rs type="object"/>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Auszug in Bräuning-Oktavio, Hermann,&#x84;Johann Heinrich Merck und Petrus Camper&#x93; inArchiv fÜr die Geschichte der Naturwissenschaften und Technik 4 (1913), S. 270&#x96;306 und 360&#x96;388, hier S. 278&#x96;279.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +120,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

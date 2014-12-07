@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> 1794, Mai 18 Herrnhut</pubPlace>
             <date type="publication" when=" 1794-05-18"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,24 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Vgl. Blumenbachs hs. Verzeichnis seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, I, fol. 7. </note>
             <note>
-Vgl. Blumenbachs hs. Verzeichnis seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, I, fol. 7. </note>
-            <relatedItem type="object"> Zwei menschliche Schädel (&#x84;Esquimaux&#x93;-Schädel) aus Nain, Labrador (Göttingen, Inst. f. Anatomie, Schädelsammlung Nrr. 703 und 704; Abb. in Decas craniorum 3 (1795), Tafel 25 (= Nr. 703) und Tafel 24 (= Nr. 704), Bibliographie Nr. 00094).</relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> </relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"> Zwei menschliche Schädel (&#x84;Esquimaux&#x93;-Schädel) aus Nain, Labrador (Göttingen, Inst. f. Anatomie, Schädelsammlung Nrr. 703 und 704; Abb. in Decas craniorum 3 (1795), Tafel 25 (= Nr. 703) und Tafel 24 (= Nr. 704), Bibliographie Nr. 00094).</rs>
+            </note>
             <note>
-               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=334"> Corresp. IV, S. 322 Nr. 0849 </ref>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> </rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=334"/>
+            </note>
+            <note>
+               <rs type="edition"> Corresp. IV, S. 322 Nr. 0849 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +122,9 @@ Vgl. Blumenbachs hs. Verzeichnis seiner Schädelsammlung, Göttingen, Universit�
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> 1791, Juni 12 Göttingen</pubPlace>
             <date type="publication" when=" 1791-06-12"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,23 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Teilweise Transkription und Abb. in Stargardt, J.A:[Auktionskatalog] Autographen und Urkunden 1791 bis 1850. Eine Folge von Lagerkatalogen in chronologischer Anordnung. Vierte Reihe, Heft 3. Katalog 656 (Berlin 1994), Autograph Nr. 4b; vgl. Erwähnung in Forsters Brieftagebuch, Steiner/Fiedler, Forsters Werke, Bd. 16 (1980), Anhang, S. 603.</relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=81"> Corresp. IV, S. 69 Nr. 0685 </ref>
+               <rs type="object"/>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Teilweise Transkription und Abb. in Stargardt, J.A:[Auktionskatalog] Autographen und Urkunden 1791 bis 1850. Eine Folge von Lagerkatalogen in chronologischer Anordnung. Vierte Reihe, Heft 3. Katalog 656 (Berlin 1994), Autograph Nr. 4b; vgl. Erwähnung in Forsters Brieftagebuch, Steiner/Fiedler, Forsters Werke, Bd. 16 (1980), Anhang, S. 603.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=81"/>
+            </note>
+            <note>
+               <rs type="edition"> Corresp. IV, S. 69 Nr. 0685 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +122,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

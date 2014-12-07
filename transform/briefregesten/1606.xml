@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> 1829, Mai 1 Göttingen</pubPlace>
             <date type="publication" when=" 1829-05-01"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,23 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"> Kinnlade mit vollständiger Zahnreihe aus einem antiken GrabhÜgel bei Romstedt (ThÜringen); Voit, Max: Ein Brief von Goethes Sohn August an J. F. Blumenbach. Göttingen 1928 [Gedr. in 100 Ex. zur 6jähr. Jahresfeier d. Vereinigung Göttinger BÜcherfreunde am 23. Juni 1928] in der Schädelsammlung der Anatomie Göttingen nicht auffindbar.</relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> </relatedItem>
-            <relatedItem type="lz"> Goethe&#x92;s Naturwissenschaftliche Correspondenz (1812&#x96;1832). Bd. 1 (1874), S. 58&#x96;59 Nr. 38.</relatedItem>
             <note>
-               <ref target="http://archive.org/stream/naturwissenschaf01goet#page/58/mode/2up"> S. 58&#x96;59 Nr. 38 </ref>
+               <rs type="object"> Kinnlade mit vollständiger Zahnreihe aus einem antiken GrabhÜgel bei Romstedt (ThÜringen); Voit, Max: Ein Brief von Goethes Sohn August an J. F. Blumenbach. Göttingen 1928 [Gedr. in 100 Ex. zur 6jähr. Jahresfeier d. Vereinigung Göttinger BÜcherfreunde am 23. Juni 1928] in der Schädelsammlung der Anatomie Göttingen nicht auffindbar.</rs>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> </rs>
+            </note>
+            <note>
+               <rs type="lz"> Goethe&#x92;s Naturwissenschaftliche Correspondenz (1812&#x96;1832). Bd. 1 (1874), S. 58&#x96;59 Nr. 38.</rs>
+            </note>
+            <note>
+               <ref target="http://archive.org/stream/naturwissenschaf01goet#page/58/mode/2up"/>
+            </note>
+            <note>
+               <rs type="edition"> S. 58&#x96;59 Nr. 38 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +122,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

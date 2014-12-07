@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> 1828, Juli 23 London</pubPlace>
             <date type="publication" when=" 1828-07-23"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,21 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"> Porträtzeichnung des neuseeländischen Häuptlings Tippahee (Göttingen, Universitätsbibliothek, Cod. Ms.Blumenbach V, 43, fol. 17); Abbildung von [zwei] Ureinwohnern Australiens.</relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Dougherty, Commercium epistolicum (1984), S. 186&#x96;187 KatNr. 227 (mit Abbildung des Porträts von Tippahee).</relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target=""/>
+               <rs type="object"> Porträtzeichnung des neuseeländischen Häuptlings Tippahee (Göttingen, Universitätsbibliothek, Cod. Ms.Blumenbach V, 43, fol. 17); Abbildung von [zwei] Ureinwohnern Australiens.</rs>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Dougherty, Commercium epistolicum (1984), S. 186&#x96;187 KatNr. 227 (mit Abbildung des Porträts von Tippahee).</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +120,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

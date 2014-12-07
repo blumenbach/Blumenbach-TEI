@@ -29,18 +29,18 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
                </address>
             </publisher>
             <pubPlace> [unbekannt]</pubPlace>
-            <date type="publication" when=" nach 1803 vor 1806-12-01"> nach 1803/ vor 1806, Dez.</date>
+            <date type="publication" notBefore=" 1803 vor 1806-12-01"> nach 1803/ vor 1806, Dez.</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,25 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Datierung: Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 12, 6. StÜck erschien laut Titelblatt im Dez. 1806; die AtlantikÜberquerung im Rahmen der russischen Weltumsegelung unter Ivan Fedorovic Kruzenstern, an der Horner teilnahm, fand Ende 1803 statt. </note>
             <note>
-Datierung: Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 12, 6. StÜck erschien laut Titelblatt im Dez. 1806; die AtlantikÜberquerung im Rahmen der russischen Weltumsegelung unter Ivan Fedorovic Kruzenstern, an der Horner teilnahm, fand Ende 1803 statt. </note>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> AuszÜge in Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 12, 6. StÜck (1806), S. 506&#x96;507 (&#x84;15) Ueber eben dasselbe [das Leuchten der See]&#x93;, Bibliographie Nr. 00931) und S.507&#x96;508 (&#x84;16) Holothuria physalis etc&#x93;, Bibliographie Nr.00932).</relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"/>
+            </note>
             <note>
-               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00931http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00932"> 0093100932 </ref>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> AuszÜge in Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 12, 6. StÜck (1806), S. 506&#x96;507 (&#x84;15) Ueber eben dasselbe [das Leuchten der See]&#x93;, Bibliographie Nr. 00931) und S.507&#x96;508 (&#x84;16) Holothuria physalis etc&#x93;, Bibliographie Nr.00932).</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00931"/>
+               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00932"/>
+            </note>
+            <note>
+               <rs type="edition"> 0093100932 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +123,9 @@ Datierung: Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 12, 6. StÜck e
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

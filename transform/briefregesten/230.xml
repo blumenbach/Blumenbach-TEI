@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> 1784, Nov. 29 Winterthur</pubPlace>
             <date type="publication" when=" 1784-11-29"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,22 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Evt. handelt es sich um die Abb. fÜr&#x84;De oculis leucaethiopum et iridis motu commentatio recitata d. IX. Octobr. MDCCLXXXIV&#x93;, in Commentationes soc. reg. scient. Gottingensis, Bd. VII (1786), Phys., S. 29&#x96;62 (Bibliographie Nr. 00180).</note>
             <note>
-Evt. handelt es sich um die Abb. fÜr&#x84;De oculis leucaethiopum et iridis motu commentatio recitata d. IX. Octobr. MDCCLXXXIV&#x93;, in Commentationes soc. reg. scient. Gottingensis, Bd. VII (1786), Phys., S. 29&#x96;62 (Bibliographie Nr. 00180).</note>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> </relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"/>
+            </note>
             <note>
-               <ref target=""/>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> </rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +120,9 @@ Evt. handelt es sich um die Abb. fÜr&#x84;De oculis leucaethiopum et iridis mot
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

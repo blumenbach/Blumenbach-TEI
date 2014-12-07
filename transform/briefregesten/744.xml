@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> 1794, Sept. 24 Göttingen</pubPlace>
             <date type="publication" when=" 1794-09-24"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,25 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Die russische Nordpazifik-Expedition von 1785&#x96;1793/1784 wird meist als Billings-Sarytschew [Sarycev]-Expedition bezeichnet. Christian Bering (nicht, wieDougherty, Corresp. IV, Nr. 00869 Anm. 19 schreibt, dessen Großvater Vitus Bering [&#x86; 1741]) warTeilnehmer ohne leitende Funktion.</note>
             <note>
-Die russische Nordpazifik-Expedition von 1785&#x96;1793/1784 wird meist als Billings-Sarytschew [Sarycev]-Expedition bezeichnet. Christian Bering (nicht, wieDougherty, Corresp. IV, Nr. 00869 Anm. 19 schreibt, dessen Großvater Vitus Bering [&#x86; 1741]) warTeilnehmer ohne leitende Funktion.</note>
-            <relatedItem type="object"> Probe eines sÜdamerikanischen Eisenmeteoriten; Zeichnungen nach verschiedenen Eskimo-Porträts und einem Porträt des Tahitianers O-mai im Besitz von Joseph Banks (Göttingen, Inst. fÜr Ethnologie, Inv.-Nr. Bi. Kat. 26, 27,28).</relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Dougherty, Commercium epistolicum (1984), S. 118&#x96;120 KatNr. 138; Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 4 (2007), S. 320&#x96;322 Nr. 1281; vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S. 113 Nr. 30.</relatedItem>
-            <relatedItem type="lz"> Über den Bildungstrieb (1791; Bibliographie Nr. 00056); An essay on generation / by J. F. Blumenbach ; translated from the German [by Alexander Crichton] (1792; Bibliographie Nr. 00059); &#x84;Observations on some Egyptian Mummies opened in London&#x93; (1794; Bibliographie Nr. 00992).</relatedItem>
+               <rs type="object"> Probe eines sÜdamerikanischen Eisenmeteoriten; Zeichnungen nach verschiedenen Eskimo-Porträts und einem Porträt des Tahitianers O-mai im Besitz von Joseph Banks (Göttingen, Inst. fÜr Ethnologie, Inv.-Nr. Bi. Kat. 26, 27,28).</rs>
+            </note>
             <note>
-               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00056 http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=358"> 00056   Corresp. IV, S. 346 Nr. 0869 </ref>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Dougherty, Commercium epistolicum (1984), S. 118&#x96;120 KatNr. 138; Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 4 (2007), S. 320&#x96;322 Nr. 1281; vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S. 113 Nr. 30.</rs>
+            </note>
+            <note>
+               <rs type="lz"> Über den Bildungstrieb (1791; Bibliographie Nr. 00056); An essay on generation / by J. F. Blumenbach ; translated from the German [by Alexander Crichton] (1792; Bibliographie Nr. 00059); &#x84;Observations on some Egyptian Mummies opened in London&#x93; (1794; Bibliographie Nr. 00992).</rs>
+            </note>
+            <note>
+               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00056"/>
+               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=358"/>
+            </note>
+            <note>
+               <rs type="edition"> 00056   Corresp. IV, S. 346 Nr. 0869 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +123,9 @@ Die russische Nordpazifik-Expedition von 1785&#x96;1793/1784 wird meist als Bill
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

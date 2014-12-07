@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> 1807, Mai 9 Weimar</pubPlace>
             <date type="publication" when=" 1807-05-09"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,22 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Alternative Bezeichnung fÜr &#x84;Purpurino&#x93;: Hämatinon.</note>
             <note>
-Alternative Bezeichnung fÜr &#x84;Purpurino&#x93;: Hämatinon.</note>
-            <relatedItem type="object"> Antiker Schädel eines Aturers (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 794; Abb. inDecas craniorum 5 (1808), Tafel 46; Bibliographie Nr. 00096). Gesteinsproben&#x84;von der merkwÜrdigen Uebergangsgebirgsart welche [in einer beiliegendenListe] mit C bezeichnet ist&#x93;.</relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> </relatedItem>
-            <relatedItem type="lz"> Goethes Werke. Weimarer Ausgabe Abt. IV, Bd. 19, S. 326&#x96;329 (Brief WA-Nr. 05366); Dougherty, Commercium epistolicum (1984), S. 96&#x96;97 KatNr. 116.</relatedItem>
+               <rs type="object"> Antiker Schädel eines Aturers (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 794; Abb. inDecas craniorum 5 (1808), Tafel 46; Bibliographie Nr. 00096). Gesteinsproben&#x84;von der merkwÜrdigen Uebergangsgebirgsart welche [in einer beiliegendenListe] mit C bezeichnet ist&#x93;.</rs>
+            </note>
             <note>
-               <ref target=""/>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> </rs>
+            </note>
+            <note>
+               <rs type="lz"> Goethes Werke. Weimarer Ausgabe Abt. IV, Bd. 19, S. 326&#x96;329 (Brief WA-Nr. 05366); Dougherty, Commercium epistolicum (1984), S. 96&#x96;97 KatNr. 116.</rs>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +120,9 @@ Alternative Bezeichnung fÜr &#x84;Purpurino&#x93;: Hämatinon.</note>
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

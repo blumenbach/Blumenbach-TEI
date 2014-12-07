@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> Göttingen</pubPlace>
             <date type="publication" when=" 1816-12-16"> 1816, Dez. 16</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,23 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Digitalisat der öNB erreichbar Über: http://data.onb.ac.at/ rec/AL00228442 (Tabellenzeile &#x84;Digitales Objekt&#x93;).</relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target="http://data.onb.ac.at/rec/AL00228442"> http://data.onb.ac.at/ rec/AL00228442 </ref>
+               <rs type="object"/>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Digitalisat der öNB erreichbar Über: http://data.onb.ac.at/ rec/AL00228442 (Tabellenzeile &#x84;Digitales Objekt&#x93;).</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://data.onb.ac.at/rec/AL00228442"/>
+            </note>
+            <note>
+               <rs type="edition"> http://data.onb.ac.at/ rec/AL00228442 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +122,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

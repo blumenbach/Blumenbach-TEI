@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> Göttingen</pubPlace>
             <date type="publication" when=" 1798-09-19"> 1798, Sept. 19</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,23 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"> Porträtder Eskimo-Frau Mycock mit ihrem Kind (Göttingen, Inst. fÜr Ethnologie, Inv.-Nr. Bi. Kat. 26);einer von zwei &#x84;Esquimaux&#x93;-Schädel aus Nain, Labrador (Göttingen, Inst. f. Anatomie, Schädelsammlung Nrr. 703 und 704;Abb. in Decas craniorum 3 (1795), Tafel 25 (= Nr. 703) undTafel 24 (= Nr. 704), Bibliographie Nr.00094);Schädel eines Ureinwohners von Australien (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 781; Abb. inDecas craniorum 3 (1795), Tafel 27; Bibliographie Nr. 00094).</relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 4 (2007), S. 554&#x96;555 Nr. 1484 (mit Transkriptionsfehlern); vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S. 115 Nr. 49.</relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=309http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=309"> Corresp. V, S.293&#x96;296 Nr. 1173 </ref>
+               <rs type="object"> Porträtder Eskimo-Frau Mycock mit ihrem Kind (Göttingen, Inst. fÜr Ethnologie, Inv.-Nr. Bi. Kat. 26);einer von zwei &#x84;Esquimaux&#x93;-Schädel aus Nain, Labrador (Göttingen, Inst. f. Anatomie, Schädelsammlung Nrr. 703 und 704;Abb. in Decas craniorum 3 (1795), Tafel 25 (= Nr. 703) undTafel 24 (= Nr. 704), Bibliographie Nr.00094);Schädel eines Ureinwohners von Australien (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 781; Abb. inDecas craniorum 3 (1795), Tafel 27; Bibliographie Nr. 00094).</rs>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 4 (2007), S. 554&#x96;555 Nr. 1484 (mit Transkriptionsfehlern); vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S. 115 Nr. 49.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=309"/>
+            </note>
+            <note>
+               <rs type="edition"> Corresp. V, S.293&#x96;296 Nr. 1173 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +122,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

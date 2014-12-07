@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> 1829, Apr. 9 Weimar</pubPlace>
             <date type="publication" when=" 1829-04-09 &#xA;"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,22 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Der Versand der Kinnlade erfolgte durch ein Versehen tatsächlich erst am 7. Mai 1827, vgl. Brief von diesem Datum. </note>
             <note>
-Der Versand der Kinnlade erfolgte durch ein Versehen tatsächlich erst am 7. Mai 1827, vgl. Brief von diesem Datum. </note>
-            <relatedItem type="object"> Kinnlade mit vollständiger Zahnreihe aus einem antiken GrabhÜgel bei Romstedt (ThÜringen); laut Voit, Max: Ein Brief von Goethes Sohn August an J. F. Blumenbach. Göttingen 1928 [Gedr. in 100 Ex. zur 6jähr. Jahresfeier d. Vereinigung Göttinger BÜcherfreunde am 23. Juni 1928] in der Schädelsammlung der Anatomie Göttingen nicht auffindbar.</relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> </relatedItem>
-            <relatedItem type="lz"> Goethes Werke. Weimarer Ausgabe Abt. IV, Bd. 45, S. 238&#x96;239 (Brief WA-Nr. 45199). </relatedItem>
+               <rs type="object"> Kinnlade mit vollständiger Zahnreihe aus einem antiken GrabhÜgel bei Romstedt (ThÜringen); laut Voit, Max: Ein Brief von Goethes Sohn August an J. F. Blumenbach. Göttingen 1928 [Gedr. in 100 Ex. zur 6jähr. Jahresfeier d. Vereinigung Göttinger BÜcherfreunde am 23. Juni 1928] in der Schädelsammlung der Anatomie Göttingen nicht auffindbar.</rs>
+            </note>
             <note>
-               <ref target=""/>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> </rs>
+            </note>
+            <note>
+               <rs type="lz"> Goethes Werke. Weimarer Ausgabe Abt. IV, Bd. 45, S. 238&#x96;239 (Brief WA-Nr. 45199). </rs>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +120,9 @@ Der Versand der Kinnlade erfolgte durch ein Versehen tatsächlich erst am 7. Mai
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> Göttingen</pubPlace>
             <date type="publication" when=" 1798-12-20"> 1798, Dez. 20</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,24 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Blumenbach berichtet Übervon Banks gesandte Informationen in Allgemeine geographische Ephemeriden, Bd. 3, 2. StÜck (Febr. 1799), S. 101&#x96;104 (Bibliographie Nr. 00766).</note>
             <note>
-Blumenbach berichtet Übervon Banks gesandte Informationen in Allgemeine geographische Ephemeriden, Bd. 3, 2. StÜck (Febr. 1799), S. 101&#x96;104 (Bibliographie Nr. 00766).</note>
-            <relatedItem type="object"> Original-Miniatur eines Porträts des Polynesiers O-mai; (erbeten) Schädel eines australischen Ureinwohners (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 782; Abbildung in Decas craniorum 4 (1800), Tafel 40; Bibliographie Nr. 00095); Schädel eines Kariben-Häuptlings (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 778; Abbildung in Decas craniorum 1 (1790), Tafel 10; Bibliographie Nr. 00092); weiblicher Karibenschädel (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 780; Abbildung in Decas craniorum 2 (1793), Tafel 20, Bibliographie Nr. 00093). Erbeten: zweiter menschlicher Schädel aus Botany Bay/ Australien (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 782; Abb. in Decas craniorum 4 (1800), Tafel40; Bibliographie Nr. 00095).</relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 4 (2007),S.566&#x96;568 Nr. 1494 (mit Transkriptionsfehlern); vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S. 115 Nr. 50; Auszug inDougherty, Corresp. IV,S. 350 Nr. 0869 Anm. 36.</relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"> Original-Miniatur eines Porträts des Polynesiers O-mai; (erbeten) Schädel eines australischen Ureinwohners (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 782; Abbildung in Decas craniorum 4 (1800), Tafel 40; Bibliographie Nr. 00095); Schädel eines Kariben-Häuptlings (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 778; Abbildung in Decas craniorum 1 (1790), Tafel 10; Bibliographie Nr. 00092); weiblicher Karibenschädel (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 780; Abbildung in Decas craniorum 2 (1793), Tafel 20, Bibliographie Nr. 00093). Erbeten: zweiter menschlicher Schädel aus Botany Bay/ Australien (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 782; Abb. in Decas craniorum 4 (1800), Tafel40; Bibliographie Nr. 00095).</rs>
+            </note>
             <note>
-               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=354"> Corresp. V, S. 338&#x96;341 Nr. 1204 </ref>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 4 (2007),S.566&#x96;568 Nr. 1494 (mit Transkriptionsfehlern); vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S. 115 Nr. 50; Auszug inDougherty, Corresp. IV,S. 350 Nr. 0869 Anm. 36.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=354"/>
+            </note>
+            <note>
+               <rs type="edition"> Corresp. V, S. 338&#x96;341 Nr. 1204 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +122,9 @@ Blumenbach berichtet Übervon Banks gesandte Informationen in Allgemeine geograp
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

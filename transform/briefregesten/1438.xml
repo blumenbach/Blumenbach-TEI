@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> 1815, Mai 8 Göttingen</pubPlace>
             <date type="publication" when=" 1815-05-08"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,21 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"> Schädel eines &#x84;alten Germanen&#x93; (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 5; Abb. in Nova pentas craniorum (1828), Tafel 61, Bibliographie Nr. 00098), Fotos inKárolyi, Zeitschrift fÜr Morphologie und Anthropologie 1966, Tafel 16, unten; zur Identifikation des Schädels vgl.Spengel, Anthropologische Sammlung, S. 12 ad 240; antiker (&#x84;cimbrischer&#x93;) menschlicher Schädel von der Insel Seeland (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 359, vgl. Spengel, Anthropologische Sammlung, S. 12, ad 288); Glaskorallen aus einem 1802 bei GÜstrow entdeckten obodritischen Grab.</relatedItem>
-            <relatedItem type="span">  </relatedItem>
-            <relatedItem type="bibl"> Umfangreicher Auszug in Mommsen, Momme und Mommsen, Katharina: Die Entstehungvon Goethes Werken in Dokumenten.Band 1: Abaldemus-Byron [&#x85;]. Berlin 2006, S.178-179; Auszug (aus Mommsen und Mommsen, 2006) inDougherty, Corresp. IV,S. 217 Nr. 0785 Anm. 10.</relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target=""/>
+               <rs type="object"> Schädel eines &#x84;alten Germanen&#x93; (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 5; Abb. in Nova pentas craniorum (1828), Tafel 61, Bibliographie Nr. 00098), Fotos inKárolyi, Zeitschrift fÜr Morphologie und Anthropologie 1966, Tafel 16, unten; zur Identifikation des Schädels vgl.Spengel, Anthropologische Sammlung, S. 12 ad 240; antiker (&#x84;cimbrischer&#x93;) menschlicher Schädel von der Insel Seeland (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 359, vgl. Spengel, Anthropologische Sammlung, S. 12, ad 288); Glaskorallen aus einem 1802 bei GÜstrow entdeckten obodritischen Grab.</rs>
+            </note>
+            <note>
+               <rs type="span">  </rs>
+            </note>
+            <note>
+               <rs type="bibl"> Umfangreicher Auszug in Mommsen, Momme und Mommsen, Katharina: Die Entstehungvon Goethes Werken in Dokumenten.Band 1: Abaldemus-Byron [&#x85;]. Berlin 2006, S.178-179; Auszug (aus Mommsen und Mommsen, 2006) inDougherty, Corresp. IV,S. 217 Nr. 0785 Anm. 10.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +120,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

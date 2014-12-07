@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -41,7 +41,7 @@
             <date type="publication"
                   when=" [= julian. Kal.: Mai. 18]  1793-05-29  [= julian. Kal.: 1793-05-18]"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -50,8 +50,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,14 +62,24 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Vgl. Blumenbachs hs. Verzeichnis seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, I, fol. 3 (Nr. 447), 4 (Nr. 546).</note>
             <note>
-Vgl. Blumenbachs hs. Verzeichnis seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, I, fol. 3 (Nr. 447), 4 (Nr. 546).</note>
-            <relatedItem type="object"> Schädel einer Georgierin (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 546 [Modellschädel fÜr Blumenbachs kaukasische Varietät der Spezies Mensch]; Abb. in Decas craniorum 3 (1795), Tafel 21 (Bibliographie Nr.00094) und inAbb. naturhist. Gegenstände 6 (1802), Abb. 51 (Bibliographie Nr. 00707), Fotos inKárolyi, Zeitschrift fÜr Morphologie und Anthropologie 1966, Tafel 17 unten; Schädel eines Mannes aus Kursk (Schädelsammlung Nr. 447).</relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Dougherty, Commercium epistolicum (1984), S. 148 KatNr. 177.</relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"> Schädel einer Georgierin (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 546 [Modellschädel fÜr Blumenbachs kaukasische Varietät der Spezies Mensch]; Abb. in Decas craniorum 3 (1795), Tafel 21 (Bibliographie Nr.00094) und inAbb. naturhist. Gegenstände 6 (1802), Abb. 51 (Bibliographie Nr. 00707), Fotos inKárolyi, Zeitschrift fÜr Morphologie und Anthropologie 1966, Tafel 17 unten; Schädel eines Mannes aus Kursk (Schädelsammlung Nr. 447).</rs>
+            </note>
             <note>
-               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=268"> Corresp. IV, S. 256 Nr. 0811 </ref>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Dougherty, Commercium epistolicum (1984), S. 148 KatNr. 177.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=268"/>
+            </note>
+            <note>
+               <rs type="edition"> Corresp. IV, S. 256 Nr. 0811 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -115,4 +123,9 @@ Vgl. Blumenbachs hs. Verzeichnis seiner Schädelsammlung, Göttingen, Universit�
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

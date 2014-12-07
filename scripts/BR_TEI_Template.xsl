@@ -10,7 +10,7 @@
 <xsl:variable name="filename" select="concat('briefregesten/',$count,'.xml')" />
 <xsl:value-of select="$filename" />  
 <xsl:result-document href="{$filename}">    
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+      <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
     <teiHeader>
             <fileDesc>
             <titleStmt><title type="main"><xsl:value-of select="title"/></title>
@@ -41,18 +41,26 @@
                 </respStmt>
             </titleStmt>
             <publicationStmt>
-                <publisher xml:id="">
+                <publisher>
                     <email></email>
-                    <orgName role=""></orgName>
+                    <orgName></orgName>
                     <address>
                         <addrLine></addrLine>
                         <country></country>
                     </address>
                 </publisher>
                 <pubPlace><xsl:value-of select="place"/></pubPlace>
-                <date type="publication" when="{altdate}"><xsl:value-of select="date"/></date>
+                <xsl:if test="notbefore">
+                    <date type="publication" notBefore="{notbefore}"><xsl:value-of select="date"/></date>
+                </xsl:if>    
+                <xsl:if test="notafter">
+                    <date type="publication" notAfter="{notafter}"><xsl:value-of select="date"/></date>
+                </xsl:if>  
+                <xsl:if test="altdate">
+                    <date type="publication" when="{altdate}"><xsl:value-of select="date"/></date>
+                </xsl:if>                 
                 <availability>
-                    <licence target="">
+                    <licence>
                         <p></p>
                     </licence>
                 </availability>
@@ -61,8 +69,6 @@
                     <idno type="URLXML"></idno>
                     <idno type="URLHTML"></idno>
                     <idno type="URLText"></idno>
-                    <idno type="JFBODirName"></idno>
-                    <idno type="JFBBOID"></idno>
                 </idno>
             </publicationStmt>
             <seriesStmt>
@@ -76,11 +82,18 @@
             </seriesStmt>
             <notesStmt>
                 <note><xsl:value-of select="note"/></note>
-                <relatedItem type="object"><xsl:value-of select="object"/></relatedItem>
-                <relatedItem type="span"><xsl:value-of select="span"/></relatedItem>
-                <relatedItem type="bibl"><xsl:value-of select="bibl"/></relatedItem>
-                <relatedItem type="lz"><xsl:value-of select="Lit_in_Zusatzdaten"/></relatedItem>
-                <note><ref target="{ref/@target}"><xsl:value-of select="link"/></ref></note>            
+                <note><rs type="object"><xsl:value-of select="object"/></rs></note>
+                <note><rs type="span"><xsl:value-of select="span"/></rs></note>
+                <note> <rs type="bibl"><xsl:value-of select="bibl"/></rs></note>
+                <note> <rs type="lz"><xsl:value-of select="Lit_in_Zusatzdaten"/></rs></note>
+                <note>
+                        <xsl:for-each select="ref">
+                            <xsl:if test="@target">
+                        <ref target="{@target}"></ref>
+                            </xsl:if>
+                        </xsl:for-each>                     
+                </note>
+                <note><rs type="edition"><xsl:value-of select="link"/></rs></note>
             </notesStmt>
             <sourceDesc>
                 <bibl type="brief"></bibl>
@@ -126,6 +139,11 @@
             </textClass>
         </profileDesc>
     </teiHeader>
+        <text>
+            <body>
+                <p></p>
+            </body>
+        </text>
 </TEI>
 </xsl:result-document>
 </xsl:for-each>

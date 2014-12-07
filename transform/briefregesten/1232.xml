@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> Göttingen</pubPlace>
             <date type="publication" when=" 1801-07-26"> 1801, Juli 26</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,21 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"/>
-            <relatedItem type="span">  </relatedItem>
-            <relatedItem type="bibl"> </relatedItem>
-            <relatedItem type="lz"> Ludwig Achim von Arnim. Briefwechsel 1788&#x96;1801. Hg. von Heinz Härtl. TÜbingen 2000 (= Weimarer Arnim-Ausgabe Bd. 30), S. 207 Nr. AI.32 mit Abb. (nach S. 228) und Kommentar S. 603.</relatedItem>
             <note>
-               <ref target=""/>
+               <rs type="object"/>
+            </note>
+            <note>
+               <rs type="span">  </rs>
+            </note>
+            <note>
+               <rs type="bibl"> </rs>
+            </note>
+            <note>
+               <rs type="lz"> Ludwig Achim von Arnim. Briefwechsel 1788&#x96;1801. Hg. von Heinz Härtl. TÜbingen 2000 (= Weimarer Arnim-Ausgabe Bd. 30), S. 207 Nr. AI.32 mit Abb. (nach S. 228) und Kommentar S. 603.</rs>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +120,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

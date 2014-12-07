@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> Göttingen</pubPlace>
             <date type="publication" when=" 1804-04-09"> 1804, April 9</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,22 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Identifikationsvorschlag fÜr die &#x84;Drachenhöhle&#x93;, da Rumy 1803&#x96;1804 als Gymnasiallehrer im nahegelegenen (heutigen) Ke&#x9e;marok (deutsch Käsmark, ungarisch Késmárk) arbeitete. </note>
             <note>
-Identifikationsvorschlag fÜr die &#x84;Drachenhöhle&#x93;, da Rumy 1803&#x96;1804 als Gymnasiallehrer im nahegelegenen (heutigen) Ke&#x9e;marok (deutsch Käsmark, ungarisch Késmárk) arbeitete. </note>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Kepp, Mária: Rumy Károly György Göttingában [Karl Georg Rumy in Göttingen]. Budapest 1938, S. 60&#x96;61 mit zwei als nicht lesbar gekennzeichneten Tier- bzw. Mineralbezeichnungen. </relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"/>
+            </note>
             <note>
-               <ref target=""/>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Kepp, Mária: Rumy Károly György Göttingában [Karl Georg Rumy in Göttingen]. Budapest 1938, S. 60&#x96;61 mit zwei als nicht lesbar gekennzeichneten Tier- bzw. Mineralbezeichnungen. </rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +120,9 @@ Identifikationsvorschlag fÜr die &#x84;Drachenhöhle&#x93;, da Rumy 1803&#x96;1
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

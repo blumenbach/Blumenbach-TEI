@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> 1804, Okt.12 Kopenhagen</pubPlace>
             <date type="publication" when=" 1804-10-12"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,24 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Inhaltsangabe zu drei in Göttingen Überlieferten Briefen P. Scheels an Blumenbach:&#x84;besonders Über einen Javaner-Schädel [= Schädel des &#x84;Mohren&#x93; Nassir aus Java ?, vgl. Brief von J. Chr. W. Wendt an Blumenbach vom 19. Dez. 1803], Über Schumacher&#x92;s Sammlung, Juul&#x92;s [= Jens Jørgensen Juel] Gemälde eines Chinesen und den Abguss von Raphael&#x92;s Schädel&#x93; (Meyer, Handschriften in Göttingen 3 (1894), S. 77). Identische Beschreibungen des Gemäldes von J. J. Juel (&#x84;erhalten von Hofmed. Scheel&#x93;)in Blumenbachs hs. Sammlungsverzeichnissen, SUB Göttingen, Cod. Ms. Blumenbach I Nr. 3 (fol. 11r) und Cod. Ms. Blumenbach I Nr. 4 (pag. 21).</note>
             <note>
-Inhaltsangabe zu drei in Göttingen Überlieferten Briefen P. Scheels an Blumenbach:&#x84;besonders Über einen Javaner-Schädel [= Schädel des &#x84;Mohren&#x93; Nassir aus Java ?, vgl. Brief von J. Chr. W. Wendt an Blumenbach vom 19. Dez. 1803], Über Schumacher&#x92;s Sammlung, Juul&#x92;s [= Jens Jørgensen Juel] Gemälde eines Chinesen und den Abguss von Raphael&#x92;s Schädel&#x93; (Meyer, Handschriften in Göttingen 3 (1894), S. 77). Identische Beschreibungen des Gemäldes von J. J. Juel (&#x84;erhalten von Hofmed. Scheel&#x93;)in Blumenbachs hs. Sammlungsverzeichnissen, SUB Göttingen, Cod. Ms. Blumenbach I Nr. 3 (fol. 11r) und Cod. Ms. Blumenbach I Nr. 4 (pag. 21).</note>
-            <relatedItem type="object"> Evt. betr. den 1803 von Scheel gesandten Schädel eines Javaners, vgl. Spengel, Anthropologische Sammlung, S. 49 Anm. ad 45: &#x84;1803. Von Hofrath Scheel in Kopenhagen. Ein »javanischer Mohr« Namens Nassir, 1802 in Kopenhagen 26 Jahre alt, gestorben; war in Java geboren und erzogen.&#x93; Das Gemälde von J. J. Juel befindet sich heute in der Kunstsammlung der Georg-August Universität Göttingen.</relatedItem>
-            <relatedItem type="span">  </relatedItem>
-            <relatedItem type="bibl"> </relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"> Evt. betr. den 1803 von Scheel gesandten Schädel eines Javaners, vgl. Spengel, Anthropologische Sammlung, S. 49 Anm. ad 45: &#x84;1803. Von Hofrath Scheel in Kopenhagen. Ein »javanischer Mohr« Namens Nassir, 1802 in Kopenhagen 26 Jahre alt, gestorben; war in Java geboren und erzogen.&#x93; Das Gemälde von J. J. Juel befindet sich heute in der Kunstsammlung der Georg-August Universität Göttingen.</rs>
+            </note>
             <note>
-               <ref target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553"> Spengel, Anthropologische Sammlung </ref>
+               <rs type="span">  </rs>
+            </note>
+            <note>
+               <rs type="bibl"> </rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553"/>
+            </note>
+            <note>
+               <rs type="edition"> Spengel, Anthropologische Sammlung </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +122,9 @@ Inhaltsangabe zu drei in Göttingen Überlieferten Briefen P. Scheels an Blumenb
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> 1808, Nov. 23 Göttingen</pubPlace>
             <date type="publication" when=" 1808-11-23"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,23 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Auszug in Abhandlungen der Physikalisch-Medicinischen Societät zu Erlangen, Bd. 1 (1810), S. 471&#x96;472 (&#x84;Prolapsus oculorum. Aus einem Schreiben des Herrn Hofrath und Professor Blumenbach&#x93;, Bibliographie Nr. 00757).</relatedItem>
-            <relatedItem type="lz"> Institutiones Physiologicae, 3. Ausgabe (1810; Bibliographie Nr. 00067); Handbuch der Naturgeschichte, 9. Ausgabe (1814;Bibliographie Nr. 00031); Brieftext verwendet in Bibliographie Nr.00757 (siehe &#x84;Dr.&#x93;). </relatedItem>
             <note>
-               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00067"> 00067 </ref>
+               <rs type="object"/>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Auszug in Abhandlungen der Physikalisch-Medicinischen Societät zu Erlangen, Bd. 1 (1810), S. 471&#x96;472 (&#x84;Prolapsus oculorum. Aus einem Schreiben des Herrn Hofrath und Professor Blumenbach&#x93;, Bibliographie Nr. 00757).</rs>
+            </note>
+            <note>
+               <rs type="lz"> Institutiones Physiologicae, 3. Ausgabe (1810; Bibliographie Nr. 00067); Handbuch der Naturgeschichte, 9. Ausgabe (1814;Bibliographie Nr. 00031); Brieftext verwendet in Bibliographie Nr.00757 (siehe &#x84;Dr.&#x93;). </rs>
+            </note>
+            <note>
+               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00067"/>
+            </note>
+            <note>
+               <rs type="edition"> 00067 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +122,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace>  Hildburghausen</pubPlace>
             <date type="publication" when=" 1834"> 1834</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,22 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Wohl authentischer Begleitbrief, enthalten in der gedruckten Fassung der als &#x84;Sendschreiben&#x93; bezeichneten wiss. Beschreibung der Spurenfunde. </note>
             <note>
-Wohl authentischer Begleitbrief, enthalten in der gedruckten Fassung der als &#x84;Sendschreiben&#x93; bezeichneten wiss. Beschreibung der Spurenfunde. </note>
-            <relatedItem type="object"> Sandsteinplatte aus Hildburghausen mitFährten von Tieren (wird als von Blumenbach bestellt und durch Sickler bereits nach Göttingen versandt erwähnt).</relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Sickler, F. K. L.: Sendschreiben an [&#x85;] J. F. Blumenbach Über die höchst merkwÜrdigen, vor einigen Monaten erst entdeckten Reliefs der Fährten urweltlicher, grosser und unbekannter Thiere in den Hessberger SandsteinbrÜchen bei der Stadt Hildburghausen. Hildburghausen 1834, S. 3.</relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"> Sandsteinplatte aus Hildburghausen mitFährten von Tieren (wird als von Blumenbach bestellt und durch Sickler bereits nach Göttingen versandt erwähnt).</rs>
+            </note>
             <note>
-               <ref target=""/>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Sickler, F. K. L.: Sendschreiben an [&#x85;] J. F. Blumenbach Über die höchst merkwÜrdigen, vor einigen Monaten erst entdeckten Reliefs der Fährten urweltlicher, grosser und unbekannter Thiere in den Hessberger SandsteinbrÜchen bei der Stadt Hildburghausen. Hildburghausen 1834, S. 3.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +120,9 @@ Wohl authentischer Begleitbrief, enthalten in der gedruckten Fassung der als &#x
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

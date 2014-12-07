@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> Göttingen</pubPlace>
             <date type="publication" when=" 1817-01-17"> 1817, Jan. 11</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,22 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Blumenbach-Schreiben (Briefe?) in dieser Angelegenheit auch in Göttingen, Archiv der Akademie der Wissenschaften, Pers. 70,2 Nr. 20 (13.2.1817), 21 (19. und 21.2.1817) und 22 (21.2.1817).</note>
             <note>
-Blumenbach-Schreiben (Briefe?) in dieser Angelegenheit auch in Göttingen, Archiv der Akademie der Wissenschaften, Pers. 70,2 Nr. 20 (13.2.1817), 21 (19. und 21.2.1817) und 22 (21.2.1817).</note>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> AuszuginWagene,Pedelle, Mägde und Lakaien, S. 351 mit Anm. 457.</relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"/>
+            </note>
             <note>
-               <ref target=""/>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> AuszuginWagene,Pedelle, Mägde und Lakaien, S. 351 mit Anm. 457.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +120,9 @@ Blumenbach-Schreiben (Briefe?) in dieser Angelegenheit auch in Göttingen, Archi
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

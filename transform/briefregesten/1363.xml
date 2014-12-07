@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> 1808, Apr. 20 Heidelberg</pubPlace>
             <date type="publication" when=" 1808-04-20"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,24 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Vgl. &#x84;Alte Aufschrift in Basel. Mitgetheilt vom Hrn. Hofr. Blumenbach&#x93; in Zeitschrift fÜr Einsiedler, Heft 36 (27. Aug. 1808), S. 1.</note>
             <note>
-Vgl. &#x84;Alte Aufschrift in Basel. Mitgetheilt vom Hrn. Hofr. Blumenbach&#x93; in Zeitschrift fÜr Einsiedler, Heft 36 (27. Aug. 1808), S. 1.</note>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Faksimile (ohne Transkription) in Morris, Max: Achim von Arnim. Ausgewählte Werke. Band 1. Leipzig 1906 (Falttafel am Ende des Bandes); Druck in Weiss, Hermann F., &#x84;Unveröffentlichte Briefe Achim von Arnims&#x93;, in Literaturwissenschaftliches Jahrbuch, NF 21 (1980), S. 89&#x96;169, hier S. 134&#x96;135.</relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"/>
+            </note>
             <note>
-               <ref target="http://digi.ub.uni-heidelberg.de/diglit/einsiedler/0170http://digi.ub.uni-heidelberg.de/diglit/einsiedler/0170"> Zeitschrift fÜr Einsiedler, Heft 36 (27. Aug. 1808),S. 1 </ref>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Faksimile (ohne Transkription) in Morris, Max: Achim von Arnim. Ausgewählte Werke. Band 1. Leipzig 1906 (Falttafel am Ende des Bandes); Druck in Weiss, Hermann F., &#x84;Unveröffentlichte Briefe Achim von Arnims&#x93;, in Literaturwissenschaftliches Jahrbuch, NF 21 (1980), S. 89&#x96;169, hier S. 134&#x96;135.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://digi.ub.uni-heidelberg.de/diglit/einsiedler/0170http://digi.ub.uni-heidelberg.de/diglit/einsiedler/0170"/>
+            </note>
+            <note>
+               <rs type="edition"> Zeitschrift fÜr Einsiedler, Heft 36 (27. Aug. 1808),S. 1 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +122,9 @@ Vgl. &#x84;Alte Aufschrift in Basel. Mitgetheilt vom Hrn. Hofr. Blumenbach&#x93;
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

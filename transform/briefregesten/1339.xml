@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> 1806, Nov. 1 Göttingen</pubPlace>
             <date type="publication" when=" 1806-11-01"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,22 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Identifikationsvorschlag fÜr den Empfohlenen: Severin Løvenskiold (1777&#x96;1856), der 1804 den Titel &#x84;Kammerherr&#x93; erhielt (nach anderen Angabe: 1796 Kammerjunker, 1809 Kammerherr).</note>
             <note>
-Identifikationsvorschlag fÜr den Empfohlenen: Severin Løvenskiold (1777&#x96;1856), der 1804 den Titel &#x84;Kammerherr&#x93; erhielt (nach anderen Angabe: 1796 Kammerjunker, 1809 Kammerherr).</note>
-            <relatedItem type="object"/>
-            <relatedItem type="span">  </relatedItem>
-            <relatedItem type="bibl"> Regest in Dehérain, Catalogue du fonds Cuvier, S. 60.</relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"/>
+            </note>
             <note>
-               <ref target=""/>
+               <rs type="span">  </rs>
+            </note>
+            <note>
+               <rs type="bibl"> Regest in Dehérain, Catalogue du fonds Cuvier, S. 60.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +120,9 @@ Identifikationsvorschlag fÜr den Empfohlenen: Severin Løvenskiold (1777&#x96;1
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

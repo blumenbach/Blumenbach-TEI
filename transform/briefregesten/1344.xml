@@ -29,18 +29,18 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
                </address>
             </publisher>
             <pubPlace> Philadelphia</pubPlace>
-            <date type="publication" when=" vor 1806-12-01"> vor 1806, Dez</date>
+            <date type="publication" notAfter=" 1806-12-01"> vor 1806, Dez</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,30 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Datierung aufgr. der Erscheinungsdatum von Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 12, 6. StÜck: &#x84;1806. December&#x93;.</note>
             <note>
-Datierung aufgr. der Erscheinungsdatum von Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 12, 6. StÜck: &#x84;1806. December&#x93;.</note>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Sieben aufeinander folgende, mit Einzeltiteln versehene AuszÜgein Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 12, 6. StÜck (1806), S. 486&#x96;492, Bibliographie Nrr. 00919, 00920, 00921, 00922, 00923, 00924, 00925).</relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"/>
+            </note>
             <note>
-               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00919http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00920http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00921http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00922http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00923http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00919http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00925"> 0091900920,00921,00922,00923,00924,00925 </ref>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Sieben aufeinander folgende, mit Einzeltiteln versehene AuszÜgein Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 12, 6. StÜck (1806), S. 486&#x96;492, Bibliographie Nrr. 00919, 00920, 00921, 00922, 00923, 00924, 00925).</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00919"/>
+               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00920"/>
+               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00921"/>
+               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00922"/>
+               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00923"/>
+               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00919"/>
+               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00925"/>
+            </note>
+            <note>
+               <rs type="edition"> 0091900920,00921,00922,00923,00924,00925 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +128,9 @@ Datierung aufgr. der Erscheinungsdatum von Magazin fÜr den neuesten Zustand der
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

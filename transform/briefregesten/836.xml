@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> 1796, Jan. 2 Göttingen</pubPlace>
             <date type="publication" when=" 1796-01-02"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,24 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"> Erbeten: Känguruschädel.</relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Auszug inDougherty, Frank William Peter, &#x84;Der Begriff der Naturgeschichte nach J. F. Blumenbach anhand seiner Korrespondenz mit Jean-André DeLuc&#x93;, in Berichte zur Wissenschaftsgeschichte 9 (1986), S. 95&#x96;107, hier 98&#x96;99 (Nachdruck: Dougherty, Gesammelte Aufsätze (1996), S. 151&#x96;152). </relatedItem>
-            <relatedItem type="lz"> De vi vitali sanguini neganda (1795; Bibliographie Nr. 00127).</relatedItem>
             <note>
-               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00127 http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=17"> 00127   Corresp.V,S. 1&#x96;3 Nr. 0966 </ref>
+               <rs type="object"> Erbeten: Känguruschädel.</rs>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Auszug inDougherty, Frank William Peter, &#x84;Der Begriff der Naturgeschichte nach J. F. Blumenbach anhand seiner Korrespondenz mit Jean-André DeLuc&#x93;, in Berichte zur Wissenschaftsgeschichte 9 (1986), S. 95&#x96;107, hier 98&#x96;99 (Nachdruck: Dougherty, Gesammelte Aufsätze (1996), S. 151&#x96;152). </rs>
+            </note>
+            <note>
+               <rs type="lz"> De vi vitali sanguini neganda (1795; Bibliographie Nr. 00127).</rs>
+            </note>
+            <note>
+               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00127"/>
+               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=17"/>
+            </note>
+            <note>
+               <rs type="edition"> 00127   Corresp.V,S. 1&#x96;3 Nr. 0966 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +123,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

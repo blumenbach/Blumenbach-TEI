@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> 1815, Febr. 20 Weimar</pubPlace>
             <date type="publication" when=" 1815-02-20"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,22 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Voit (siehe &#x84;Drucke&#x93;) erwähnt das Konzept eines Antwortbriefes Blumenbachs, das dem Or. beiliegt, ohne Datum und Adressatenangabe. </note>
             <note>
-Voit (siehe &#x84;Drucke&#x93;) erwähnt das Konzept eines Antwortbriefes Blumenbachs, das dem Or. beiliegt, ohne Datum und Adressatenangabe. </note>
-            <relatedItem type="object"> Schädel eines &#x84;alten Germanen&#x93; (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 5; Abb. in Nova pentas craniorum (1828), Tafel 61, Bibliographie Nr. 00098), Fotos inKárolyi, Zeitschrift fÜr Morphologie und Anthropologie 1966, Tafel 16, unten; zur Identifikation des Schädels vgl.Spengel, Anthropologische Sammlung, S. 12 ad 240.</relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Voit, Max: Ein Brief von Goethes Sohn August an J. F. Blumenbach. Göttingen 1928 [Gedr. in 100 Ex. zur 6jähr. Jahresfeier d. Vereinigung Göttinger BÜcherfreunde am 23. Juni 1928] mit ausf. Kommentar; Dougherty, Commercium epistolicum (1984), S. 82&#x96;83 KatNr. 95; Auszug (zum Schädel aus Romstedt) inMommsen, Momme und Mommsen, Katharina: Die Entstehungvon Goethes Werken in Dokumenten.Band 1: Abaldemus-Byron [&#x85;]. Berlin 2006, S.178.</relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"> Schädel eines &#x84;alten Germanen&#x93; (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 5; Abb. in Nova pentas craniorum (1828), Tafel 61, Bibliographie Nr. 00098), Fotos inKárolyi, Zeitschrift fÜr Morphologie und Anthropologie 1966, Tafel 16, unten; zur Identifikation des Schädels vgl.Spengel, Anthropologische Sammlung, S. 12 ad 240.</rs>
+            </note>
             <note>
-               <ref target=""/>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Voit, Max: Ein Brief von Goethes Sohn August an J. F. Blumenbach. Göttingen 1928 [Gedr. in 100 Ex. zur 6jähr. Jahresfeier d. Vereinigung Göttinger BÜcherfreunde am 23. Juni 1928] mit ausf. Kommentar; Dougherty, Commercium epistolicum (1984), S. 82&#x96;83 KatNr. 95; Auszug (zum Schädel aus Romstedt) inMommsen, Momme und Mommsen, Katharina: Die Entstehungvon Goethes Werken in Dokumenten.Band 1: Abaldemus-Byron [&#x85;]. Berlin 2006, S.178.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +120,9 @@ Voit (siehe &#x84;Drucke&#x93;) erwähnt das Konzept eines Antwortbriefes Blumen
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

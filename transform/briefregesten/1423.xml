@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace>  Göttingen</pubPlace>
             <date type="publication" when=" 1813-10-29"> 1813, Okt. 29</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,24 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Im HamburgerHandschr.-Katalog wird als Name des Universitätssyndicus &#x84;F. Willi&#x93; angegeben; Syndicus war 1813 Friedrich Christoph Willich (1745&#x96;1827), vgl. BrÜdermann, Stefan: Göttinger Studenten und Akademische Gerichtsbarkeit Im 18. Jahrhundert. Göttingen 1990, S. 57&#x96;58. </note>
             <note>
-Im HamburgerHandschr.-Katalog wird als Name des Universitätssyndicus &#x84;F. Willi&#x93; angegeben; Syndicus war 1813 Friedrich Christoph Willich (1745&#x96;1827), vgl. BrÜdermann, Stefan: Göttinger Studenten und Akademische Gerichtsbarkeit Im 18. Jahrhundert. Göttingen 1990, S. 57&#x96;58. </note>
-            <relatedItem type="object"/>
-            <relatedItem type="span">  </relatedItem>
-            <relatedItem type="bibl"> </relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"/>
+            </note>
             <note>
-               <ref target="http://www.sub.uni-hamburg.de/bibliotheken/fuer-die-fachwelt/allegro-hans.html"> http://www.sub.uni-hamburg.de/ bibliotheken/fuer-die-fachwelt/ allegro-hans.html </ref>
+               <rs type="span">  </rs>
+            </note>
+            <note>
+               <rs type="bibl"> </rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://www.sub.uni-hamburg.de/bibliotheken/fuer-die-fachwelt/allegro-hans.html"/>
+            </note>
+            <note>
+               <rs type="edition"> http://www.sub.uni-hamburg.de/ bibliotheken/fuer-die-fachwelt/ allegro-hans.html </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +122,9 @@ Im HamburgerHandschr.-Katalog wird als Name des Universitätssyndicus &#x84;F. W
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -41,7 +41,7 @@
             <date type="publication"
                   when=" [= julian. Kal.: Juni, 19]  1787-06-30  [= julian. Kal.: 1787-06-19]"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -50,8 +50,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,14 +62,25 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Angaben zu den Schädeln Nr. 567 und 568auchBlumenbachs hs. Verzeichnis seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, I, fol. 6, zu Nr. 584 fol. 4.</note>
             <note>
-Angaben zu den Schädeln Nr. 567 und 568auchBlumenbachs hs. Verzeichnis seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, I, fol. 6, zu Nr. 584 fol. 4.</note>
-            <relatedItem type="object"/>
-            <relatedItem type="span"> Introductio in historiam medicinae litterariam (1786; Bibliographie Nr. 00142).</relatedItem>
-            <relatedItem type="bibl"> </relatedItem>
-            <relatedItem type="lz"> Decas craniorum 1 (1790), Tafel 5; Bibliographie Nr. 00092) und eines Tschuwaschen (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 584).</relatedItem>
+               <rs type="object"/>
+            </note>
             <note>
-               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00092 http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=132"> 00092   Corresp. III, S. 114 Nr. 0467 </ref>
+               <rs type="span"> Introductio in historiam medicinae litterariam (1786; Bibliographie Nr. 00142).</rs>
+            </note>
+            <note>
+               <rs type="bibl"> </rs>
+            </note>
+            <note>
+               <rs type="lz"> Decas craniorum 1 (1790), Tafel 5; Bibliographie Nr. 00092) und eines Tschuwaschen (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 584).</rs>
+            </note>
+            <note>
+               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00092"/>
+               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=132"/>
+            </note>
+            <note>
+               <rs type="edition"> 00092   Corresp. III, S. 114 Nr. 0467 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -115,4 +124,9 @@ Angaben zu den Schädeln Nr. 567 und 568auchBlumenbachs hs. Verzeichnis seiner S
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

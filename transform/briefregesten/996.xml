@@ -29,18 +29,18 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
                </address>
             </publisher>
             <pubPlace> 1798, nach März 27 Göttingen</pubPlace>
-            <date type="publication" when=" nach 1798-03-27"/>
+            <date type="publication" notBefore=" 1798-03-27"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,23 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 89 (mit Datierung &#x84;Ende September 1798&#x93;); Lichtenberg, Briefwechsel, Bd. 4 (1992), Nr. 2835, S. 845 (mit Datierung &#x84;Anfang April1798&#x93;).</relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=247http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=247"> Corresp. V, S.231&#x96;232 Nr. 1132 </ref>
+               <rs type="object"/>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 89 (mit Datierung &#x84;Ende September 1798&#x93;); Lichtenberg, Briefwechsel, Bd. 4 (1992), Nr. 2835, S. 845 (mit Datierung &#x84;Anfang April1798&#x93;).</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=247"/>
+            </note>
+            <note>
+               <rs type="edition"> Corresp. V, S.231&#x96;232 Nr. 1132 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +122,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

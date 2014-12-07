@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> Barby</pubPlace>
             <date type="publication" when=" 1802-08-01"> 1802, Aug. 1</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,21 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"> Objekte aus Grönland: Modell eines Kajaks mit Ruder; ein Hemd aus Seehundsdarm; ein Regenhemd aus Vogelbälgen (&#x84;Vogelpelz)&#x93;.</relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Augustin, Stephan: Die Blumenbach-Briefe in Herrnhut &#x96; Belege fÜr Beziehungen zwischen der Universität Göttingen und der Evangelischen BrÜder-Unität im 18. Jahrhundert. Beitrag zur Tagung der deutschsprachigen Ethnologinnen und Ethnologen, Wien. Maschinenschr. Ms. 1995, Anhang; benutzt als Digitalisat von R. Brisson (http://www.blumenbach.info/ _/Herrnhut_Briefe.html; Zugriff 26.10.2012).</relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target=""/>
+               <rs type="object"> Objekte aus Grönland: Modell eines Kajaks mit Ruder; ein Hemd aus Seehundsdarm; ein Regenhemd aus Vogelbälgen (&#x84;Vogelpelz)&#x93;.</rs>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Augustin, Stephan: Die Blumenbach-Briefe in Herrnhut &#x96; Belege fÜr Beziehungen zwischen der Universität Göttingen und der Evangelischen BrÜder-Unität im 18. Jahrhundert. Beitrag zur Tagung der deutschsprachigen Ethnologinnen und Ethnologen, Wien. Maschinenschr. Ms. 1995, Anhang; benutzt als Digitalisat von R. Brisson (http://www.blumenbach.info/ _/Herrnhut_Briefe.html; Zugriff 26.10.2012).</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +120,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

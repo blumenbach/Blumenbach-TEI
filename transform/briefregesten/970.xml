@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> Lissabon</pubPlace>
             <date type="publication" when=" 1798-01-09"> 1798, Jan. 9</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,24 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"> Zwei Proben brasilianischer Mineralien (Topas; Chrysolith). </relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Auszugin Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 1, 2. StÜck (1798), S. 52&#x96;53 (&#x84;V. Nachricht von einigen Naturseltenheiten&#x93;, Bibliographie Nr. 00839).</relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00839 http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=208"> 00839   Corresp. V, S. 192&#x96;196 Nr. 1106 </ref>
+               <rs type="object"> Zwei Proben brasilianischer Mineralien (Topas; Chrysolith). </rs>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Auszugin Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 1, 2. StÜck (1798), S. 52&#x96;53 (&#x84;V. Nachricht von einigen Naturseltenheiten&#x93;, Bibliographie Nr. 00839).</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00839"/>
+               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=208"/>
+            </note>
+            <note>
+               <rs type="edition"> 00839   Corresp. V, S. 192&#x96;196 Nr. 1106 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +123,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

@@ -29,18 +29,18 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
                </address>
             </publisher>
             <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" vor 1784-10-09"> 1784, vor Okt. 9</date>
+            <date type="publication" notAfter=" 1784-10-09"> 1784, vor Okt. 9</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,22 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Dougherty, Corresp. II, Nr. 0309 Anm. 3 identifiziert eine Passage in der betr. Rezension Heynes, die auf Blumenbachs Information zurÜckgehen dÜrfte.</note>
             <note>
-Dougherty, Corresp. II, Nr. 0309 Anm. 3 identifiziert eine Passage in der betr. Rezension Heynes, die auf Blumenbachs Information zurÜckgehen dÜrfte.</note>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> </relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"/>
+            </note>
             <note>
-               <ref target=""/>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> </rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +120,9 @@ Dougherty, Corresp. II, Nr. 0309 Anm. 3 identifiziert eine Passage in der betr. 
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

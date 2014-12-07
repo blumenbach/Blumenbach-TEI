@@ -29,18 +29,18 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
                </address>
             </publisher>
             <pubPlace> 1823, Juni Göttingen</pubPlace>
-            <date type="publication" when=" nach 1823-06-01 vor 1823-07-01"/>
+            <date type="publication" notBefore=" 1823-06-01 vor 1823-07-01"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,24 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Beginn desZitats: &#x84;Cum nihil sine Deo nec esse nec concipi possit, certum est omnia quae in natura sunt Dei conceptum pro ratione [&#x85;]&#x93;.</note>
             <note>
-Beginn desZitats: &#x84;Cum nihil sine Deo nec esse nec concipi possit, certum est omnia quae in natura sunt Dei conceptum pro ratione [&#x85;]&#x93;.</note>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> </relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"/>
+            </note>
             <note>
-               <ref target="http://waller.ub.uu.se/18096.html"> Digitalisat online verfÜgbar </ref>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> </rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://waller.ub.uu.se/18096.html"/>
+            </note>
+            <note>
+               <rs type="edition"> Digitalisat online verfÜgbar </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +122,9 @@ Beginn desZitats: &#x84;Cum nihil sine Deo nec esse nec concipi possit, certum e
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

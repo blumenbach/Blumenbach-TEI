@@ -29,18 +29,18 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
                </address>
             </publisher>
             <pubPlace> Halle</pubPlace>
-            <date type="publication" when=" vor 1787-06-15"> 1787, vor Juni 15</date>
+            <date type="publication" notAfter=" 1787-06-15"> 1787, vor Juni 15</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,23 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Zusammenfassung in Blumenbachs Beitrag&#x84;Von einem Bock, der Milch giebt&#x93; inHannoverischesMagazin 25. Jg., 48. StÜck (1787), S. 753&#x96;762, hier S. 754 (= Bibliographie Nr. 00804).</relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=126"> Corresp. III, S. 108 Nr. 0463 </ref>
+               <rs type="object"/>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Zusammenfassung in Blumenbachs Beitrag&#x84;Von einem Bock, der Milch giebt&#x93; inHannoverischesMagazin 25. Jg., 48. StÜck (1787), S. 753&#x96;762, hier S. 754 (= Bibliographie Nr. 00804).</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=126"/>
+            </note>
+            <note>
+               <rs type="edition"> Corresp. III, S. 108 Nr. 0463 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +122,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> Königsberg</pubPlace>
             <date type="publication" when=" 1787-06-12"> 1787, Juni 12</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,24 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"> Vier BernsteinstÜcke aus Königsberg; Muschel aus Pillau.</relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Teildruck in Klatt, Norbert, &#x84;Johann Daniel Metzger und Kants Bestimmung des Begriffs der Menschenrasse&#x93; in Klatt, Norbert: Kleine Beiträge zur Blumenbach-Forschung 3. Göttingen2010, S. 56&#x96;69, hier S. 65&#x96;67.</relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20721147143.pdf http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=123"> Kleine Beiträge zur Blumenbach-Forschung 3   Corresp. III, S. 105 Nr. 0462 </ref>
+               <rs type="object"> Vier BernsteinstÜcke aus Königsberg; Muschel aus Pillau.</rs>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Teildruck in Klatt, Norbert, &#x84;Johann Daniel Metzger und Kants Bestimmung des Begriffs der Menschenrasse&#x93; in Klatt, Norbert: Kleine Beiträge zur Blumenbach-Forschung 3. Göttingen2010, S. 56&#x96;69, hier S. 65&#x96;67.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20721147143.pdf"/>
+               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=123"/>
+            </note>
+            <note>
+               <rs type="edition"> Kleine Beiträge zur Blumenbach-Forschung 3   Corresp. III, S. 105 Nr. 0462 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +123,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

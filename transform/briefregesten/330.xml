@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -41,7 +41,7 @@
             <date type="publication"
                   when=" [= julian. Kal.: Juni, 19]  1786-06-30  [= julian. Kal.: 1786-06-19]"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -50,8 +50,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,14 +62,24 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Angaben zuden Schädeln auch in Blumenbachshs. Katalog seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1,I, fol. 4 (Nr. 492, 574, 575 und 576), fol. 5 (zu Nr. 582).</note>
             <note>
-Angaben zuden Schädeln auch in Blumenbachshs. Katalog seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1,I, fol. 4 (Nr. 492, 574, 575 und 576), fol. 5 (zu Nr. 582).</note>
-            <relatedItem type="object"> Schädel dreier Tataren (Göttingen, Inst. f. Anatomie, Schädelsammlung Nrr. 574, 575, 576;Kosakenschädel und -skelett (Schädelsammlung Nr. 492; Abb. des Schädels in Decas craniorum 1 (1790), Tafel 4;Bibliographie Nr. 00092). Laut Dougherty, Corresp. III, Nr. 0420 Anm. 4 enthieltdie Sendung möglicherweise auch einen vierten Schädel (den kÜnstlich deformierten Schädel aus der Schwarzmeerregion, Schädelsammlung Nr. 582; Abb. in Decas craniorum 1 (1790), Tafel 3; Bibliographie Nr. 00092); Fotos inKárolyi, Zeitschrift fÜr Morphologie und Anthropologie 1966, Tafel 16 oben (mit der Identifikation &#x84;Schädel Nr. 583&#x93; statt &#x84;582&#x93;); zur Identifikation dieses Schädels vgl.Spengel, Anthropologische Sammlung, S. 39 ad 154. Auch in seinem Brief an Joseph Banks vom 20. Juni 1787 (Dougherty, Corresp. III, Nr. 0464) spricht Blumenbach von vier, nicht von drei Schädeln.</relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> </relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"> Schädel dreier Tataren (Göttingen, Inst. f. Anatomie, Schädelsammlung Nrr. 574, 575, 576;Kosakenschädel und -skelett (Schädelsammlung Nr. 492; Abb. des Schädels in Decas craniorum 1 (1790), Tafel 4;Bibliographie Nr. 00092). Laut Dougherty, Corresp. III, Nr. 0420 Anm. 4 enthieltdie Sendung möglicherweise auch einen vierten Schädel (den kÜnstlich deformierten Schädel aus der Schwarzmeerregion, Schädelsammlung Nr. 582; Abb. in Decas craniorum 1 (1790), Tafel 3; Bibliographie Nr. 00092); Fotos inKárolyi, Zeitschrift fÜr Morphologie und Anthropologie 1966, Tafel 16 oben (mit der Identifikation &#x84;Schädel Nr. 583&#x93; statt &#x84;582&#x93;); zur Identifikation dieses Schädels vgl.Spengel, Anthropologische Sammlung, S. 39 ad 154. Auch in seinem Brief an Joseph Banks vom 20. Juni 1787 (Dougherty, Corresp. III, Nr. 0464) spricht Blumenbach von vier, nicht von drei Schädeln.</rs>
+            </note>
             <note>
-               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=60"> Corresp. III, S. 42 Nr. 0420 </ref>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> </rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=60"/>
+            </note>
+            <note>
+               <rs type="edition"> Corresp. III, S. 42 Nr. 0420 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -115,4 +123,9 @@ Angaben zuden Schädeln auch in Blumenbachshs. Katalog seiner Schädelsammlung, 
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

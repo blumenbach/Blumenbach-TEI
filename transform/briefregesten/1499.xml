@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> Göttingen?</pubPlace>
             <date type="publication" when=" 1820-12-06"> 1820, Dez. 6</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,21 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Größeres Zitate in Bräuning-Oktavio, Hermann: Vom Zwischenkieferknochen zur Idee des Typus. Goethe als Naturforscher in den Jahren 1780&#x96;1786. Leipzig 1956 (= Nova Acta Leopoldina N.F. Band 18, Nr. 12), S. 83 und S. 84; das Zitat S. 83 daraus in: Mommsen, Momme: Die Entstehung von Goethes Werken in Dokumenten 2. Berlin, New York 2006, S. 303 (Reprograph. ND der Ausg. Berlin 1958).</relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target=""/>
+               <rs type="object"/>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Größeres Zitate in Bräuning-Oktavio, Hermann: Vom Zwischenkieferknochen zur Idee des Typus. Goethe als Naturforscher in den Jahren 1780&#x96;1786. Leipzig 1956 (= Nova Acta Leopoldina N.F. Band 18, Nr. 12), S. 83 und S. 84; das Zitat S. 83 daraus in: Mommsen, Momme: Die Entstehung von Goethes Werken in Dokumenten 2. Berlin, New York 2006, S. 303 (Reprograph. ND der Ausg. Berlin 1958).</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +120,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

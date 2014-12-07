@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> Göttingen</pubPlace>
             <date type="publication" when=" 1802-03-21"> 1802, März 21</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,21 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"> Guanchen-Mumie (Göttingen, Inst. fÜr Anthropologie; Abb. des Schädels inDecas craniorum 5 (1808), Tafel 42; Bibliographie Nr. 00096); S/W-Foto von Mumie und Schädel in250 Jahre Georg-August-Universität. Ausstellungskatalog. Göttingen 1987, S. 109&#x96;110.</relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 5 (2007), S. 152 Nr. 1641; vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S.117 Nr. 64.</relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target=""/>
+               <rs type="object"> Guanchen-Mumie (Göttingen, Inst. fÜr Anthropologie; Abb. des Schädels inDecas craniorum 5 (1808), Tafel 42; Bibliographie Nr. 00096); S/W-Foto von Mumie und Schädel in250 Jahre Georg-August-Universität. Ausstellungskatalog. Göttingen 1987, S. 109&#x96;110.</rs>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 5 (2007), S. 152 Nr. 1641; vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S.117 Nr. 64.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +120,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

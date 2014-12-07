@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> 1801, Aug. 30 Göttingen</pubPlace>
             <date type="publication" when=" 1801-08-30"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,22 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Dehérain, Catalogue du fonds Cuvier, S. 47 (siehe &#x84;Dr.&#x93;) nennt als empfohlene Personnur &#x84;Dr. Hedlam&#x93;; evt. Thomas Emerson Headlam (1777&#x96;1864), dessenDissertatio medica inauguralis, de palpitatione (Edinburg 1800) dieGöttinger Universitätsbibliothek besitzt.</note>
             <note>
-Dehérain, Catalogue du fonds Cuvier, S. 47 (siehe &#x84;Dr.&#x93;) nennt als empfohlene Personnur &#x84;Dr. Hedlam&#x93;; evt. Thomas Emerson Headlam (1777&#x96;1864), dessenDissertatio medica inauguralis, de palpitatione (Edinburg 1800) dieGöttinger Universitätsbibliothek besitzt.</note>
-            <relatedItem type="object"/>
-            <relatedItem type="span">  </relatedItem>
-            <relatedItem type="bibl"> Regest in Dehérain, Catalogue du fonds Cuvier, S. 47.</relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"/>
+            </note>
             <note>
-               <ref target=""/>
+               <rs type="span">  </rs>
+            </note>
+            <note>
+               <rs type="bibl"> Regest in Dehérain, Catalogue du fonds Cuvier, S. 47.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +120,9 @@ Dehérain, Catalogue du fonds Cuvier, S. 47 (siehe &#x84;Dr.&#x93;) nennt als em
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

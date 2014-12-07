@@ -29,18 +29,18 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
                </address>
             </publisher>
             <pubPlace> vor 1808, Juni 13 Hamburg</pubPlace>
-            <date type="publication" when=" vor 1808-06-13"/>
+            <date type="publication" notAfter=" 1808-06-13"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,22 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Im Druckbei Alten keine Tages- undJahresangabe; Datierung aufgrund der Erwähnung von Tischbeins Tätigkeit an der Kunstakademie Hamburg, wo er bis 1808 lehrte; Tischbein verließ Hamburg am 13. Juni 1808 und wurde Hofmaler in Eutin, vgl. Andresen, Andreas: Die deutschen Maler-Radierer des 19. Jh. Band 2. Leipzig 1867, S. 22. </note>
             <note>
-Im Druckbei Alten keine Tages- undJahresangabe; Datierung aufgrund der Erwähnung von Tischbeins Tätigkeit an der Kunstakademie Hamburg, wo er bis 1808 lehrte; Tischbein verließ Hamburg am 13. Juni 1808 und wurde Hofmaler in Eutin, vgl. Andresen, Andreas: Die deutschen Maler-Radierer des 19. Jh. Band 2. Leipzig 1867, S. 22. </note>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Alten, Aus Tischbein&#x92;s Leben (1872), S. 150&#x96;152.</relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"/>
+            </note>
             <note>
-               <ref target=""/>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Alten, Aus Tischbein&#x92;s Leben (1872), S. 150&#x96;152.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +120,9 @@ Im Druckbei Alten keine Tages- undJahresangabe; Datierung aufgrund der Erwähnun
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

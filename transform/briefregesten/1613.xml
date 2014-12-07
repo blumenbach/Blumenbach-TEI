@@ -29,18 +29,18 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
                </address>
             </publisher>
             <pubPlace> (vor 1829) Dez. 9 Göttingen</pubPlace>
-            <date type="publication" when=" vor 1829-12-09"/>
+            <date type="publication" notAfter=" 1829-12-09"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,22 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Im Druck bei Alten nur Tages-, keineJahresangabe; Datierung vor Tischbeins Todesjahr 1829. </note>
             <note>
-Im Druck bei Alten nur Tages-, keineJahresangabe; Datierung vor Tischbeins Todesjahr 1829. </note>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Alten, Aus Tischbein&#x92;s Leben (1872), S. 149&#x96;150.</relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"/>
+            </note>
             <note>
-               <ref target=""/>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Alten, Aus Tischbein&#x92;s Leben (1872), S. 149&#x96;150.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +120,9 @@ Im Druck bei Alten nur Tages-, keineJahresangabe; Datierung vor Tischbeins Todes
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

@@ -29,18 +29,18 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
                </address>
             </publisher>
             <pubPlace> 1791, nach Dez. 16 London</pubPlace>
-            <date type="publication" when=" nach 1791-12-16"/>
+            <date type="publication" notBefore=" 1791-12-16"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,23 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> </relatedItem>
-            <relatedItem type="lz"> Catalogus Bibliothecae Publicae Daventriensis.Bibliothecae Publicae Daventriensis. Deventer 1832, S. 253&#x96;254; Catalogus der Handschriften berustende op de Athenaeum-Bibliotheek te Deventer. Deventer 1892, S. 79.</relatedItem>
             <note>
-               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=153"> Corresp. IV, S. 141 Nr. 0723 </ref>
+               <rs type="object"/>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> </rs>
+            </note>
+            <note>
+               <rs type="lz"> Catalogus Bibliothecae Publicae Daventriensis.Bibliothecae Publicae Daventriensis. Deventer 1832, S. 253&#x96;254; Catalogus der Handschriften berustende op de Athenaeum-Bibliotheek te Deventer. Deventer 1892, S. 79.</rs>
+            </note>
+            <note>
+               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=153"/>
+            </note>
+            <note>
+               <rs type="edition"> Corresp. IV, S. 141 Nr. 0723 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +122,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

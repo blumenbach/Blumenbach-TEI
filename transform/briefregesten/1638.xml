@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace/>
             <date type="publication" when=" 1835-01-02"> 1835, Jan. 2 Göttingen</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -63,14 +61,24 @@
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
+            <note>Zur Datierung: Der Druck bei Schemann gibt das Datum (wohl nach dem Vorbild des Briefes) als Chronogramm wieder: &#x84;3 2/1 5&#x93;. Der BriefenthältNeujahrsglÜckwÜnsche, und die im Brief gemachte Angabe Blumenbachs,er sei seit genau 52 Jahren mit Reuss befreundet, spricht fÜr das Jahr 1835. Die erste und die letzte Zahl des Chronogramms wÜrden dann die Jahreszahl &#x84;[18]35&#x93; wiedergeben, der Bruch in der Mitte Tages- und Monatsdatum.</note>
             <note>
-Zur Datierung: Der Druck bei Schemann gibt das Datum (wohl nach dem Vorbild des Briefes) als Chronogramm wieder: &#x84;3 2/1 5&#x93;. Der BriefenthältNeujahrsglÜckwÜnsche, und die im Brief gemachte Angabe Blumenbachs,er sei seit genau 52 Jahren mit Reuss befreundet, spricht fÜr das Jahr 1835. Die erste und die letzte Zahl des Chronogramms wÜrden dann die Jahreszahl &#x84;[18]35&#x93; wiedergeben, der Bruch in der Mitte Tages- und Monatsdatum.</note>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Schemann, Ludwig: Einiges aus dem Reuss&#x92;schen Briefwechsel. Göttingen [1888], S. 10.</relatedItem>
-            <relatedItem type="lz"/>
+               <rs type="object"/>
+            </note>
             <note>
-               <ref target="http://hans.sub.uni-goettingen.de/nachlaesse/Blumenbach.pdf"> http://hans.sub.uni-goettingen.de/ nachlaesse/Blumenbach.pdf </ref>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Schemann, Ludwig: Einiges aus dem Reuss&#x92;schen Briefwechsel. Göttingen [1888], S. 10.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://hans.sub.uni-goettingen.de/nachlaesse/Blumenbach.pdf"/>
+            </note>
+            <note>
+               <rs type="edition"> http://hans.sub.uni-goettingen.de/ nachlaesse/Blumenbach.pdf </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -114,4 +122,9 @@ Zur Datierung: Der Druck bei Schemann gibt das Datum (wohl nach dem Vorbild des 
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> MÜnchen</pubPlace>
             <date type="publication" when=" 1836-04-25"> 1836, Apr. 25</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,23 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"> Antiker Schädel aus Athen, vgl.Spengel, Anthropologische Sammlung, S. 22 Anm. ad. 321: &#x84;1836. Geschenk des Königs Ludwig I. von Bayern.»Schädel eines alten Hellenen aus einem altgriechischen Grabebei Athen.«&#x93; Schädel eines TÜrken, vgl.Spengel, Anthropologische Sammlung, S. 22 Anm. ad. 170: &#x84;1836. Geschenk des Königs Ludwig I. von Bayern.»Aus einem tÜrkischen Grabe auf der Akropolis zu Athen.«&#x93;</relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Ranke, Johannes: Die akademische Kommission fÜr Erforschung der Urgeschichte und die Organisation der urgeschichtlichen Forschung in Bayern durch König Ludwig I. MÜnchen 1900, S.66; Thiersch, Hermann: Ludwig I. von Bayern und die Georgia Augusta. Berlin 1927, S.83.</relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553"> Spengel, Anthropologische SammlungSpengel, Anthropologische Sammlung </ref>
+               <rs type="object"> Antiker Schädel aus Athen, vgl.Spengel, Anthropologische Sammlung, S. 22 Anm. ad. 321: &#x84;1836. Geschenk des Königs Ludwig I. von Bayern.»Schädel eines alten Hellenen aus einem altgriechischen Grabebei Athen.«&#x93; Schädel eines TÜrken, vgl.Spengel, Anthropologische Sammlung, S. 22 Anm. ad. 170: &#x84;1836. Geschenk des Königs Ludwig I. von Bayern.»Aus einem tÜrkischen Grabe auf der Akropolis zu Athen.«&#x93;</rs>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Ranke, Johannes: Die akademische Kommission fÜr Erforschung der Urgeschichte und die Organisation der urgeschichtlichen Forschung in Bayern durch König Ludwig I. MÜnchen 1900, S.66; Thiersch, Hermann: Ludwig I. von Bayern und die Georgia Augusta. Berlin 1927, S.83.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note>
+               <ref target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553"/>
+            </note>
+            <note>
+               <rs type="edition"> Spengel, Anthropologische SammlungSpengel, Anthropologische Sammlung </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +122,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

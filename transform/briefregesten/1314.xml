@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> 1805, Nov. 15 Göttingen</pubPlace>
             <date type="publication" when=" 1805-11-05"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,21 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"> Antiker Schädel eines Aturers (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 794; Abb. inDecas craniorum 5 (1808), Tafel 46; Bibliographie Nr. 00096); Schädel einer ägypt. Mumie; Abb. inDecas craniorum 6 (1820), Tafel 51; Bibliographie Nr. 00097).</relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Teildruck: Goethe. Die Schriften zur Naturwissenschaft.Abt. II, Bd. 9b, S. 241; Regest: Briefe an Goethe. Gesamtausgabe in Regestform 1764&#x96;1817. Herausgegeben von der Klassik Stiftung Weimar Goethe- und Schiller-Archiv (online-Version), Regest Nr. 5/247.</relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target=""/>
+               <rs type="object"> Antiker Schädel eines Aturers (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 794; Abb. inDecas craniorum 5 (1808), Tafel 46; Bibliographie Nr. 00096); Schädel einer ägypt. Mumie; Abb. inDecas craniorum 6 (1820), Tafel 51; Bibliographie Nr. 00097).</rs>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Teildruck: Goethe. Die Schriften zur Naturwissenschaft.Abt. II, Bd. 9b, S. 241; Regest: Briefe an Goethe. Gesamtausgabe in Regestform 1764&#x96;1817. Herausgegeben von der Klassik Stiftung Weimar Goethe- und Schiller-Archiv (online-Version), Regest Nr. 5/247.</rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +120,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

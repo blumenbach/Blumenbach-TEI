@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> 1791, Aug. 5 London</pubPlace>
             <date type="publication" when=" 1791-08-05"/>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,25 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"/>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> Auszug in dt. Übers. in Medicinische Bibliothek, Bd. 3, 3. StÜck (1791), S. 400&#x96;414 (&#x84;III. Wie der Geschlechtstrieb der Menschen in Ordnung zu bringen und wie die Menschen besser und glÜcklicher zu machen von Dr. Bernh. Christ. Faust&#x93;, Bibliographie Nr. [ohne Nr.]), hier S. 413&#x96;414.</relatedItem>
-            <relatedItem type="lz"> Handbuch der Naturgeschichte, 5. Aufl. (1797, Bibliographie Nr. 00026), S. 563 mit wörtl. Übers. der brieflichenAngabenvon Banks).</relatedItem>
             <note>
-               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#MedBiblIII3-Faust http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00026 http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=92"> [ohne Nr.]   00026   Corresp. IV, S. 80 Nr. 0693 </ref>
+               <rs type="object"/>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> Auszug in dt. Übers. in Medicinische Bibliothek, Bd. 3, 3. StÜck (1791), S. 400&#x96;414 (&#x84;III. Wie der Geschlechtstrieb der Menschen in Ordnung zu bringen und wie die Menschen besser und glÜcklicher zu machen von Dr. Bernh. Christ. Faust&#x93;, Bibliographie Nr. [ohne Nr.]), hier S. 413&#x96;414.</rs>
+            </note>
+            <note>
+               <rs type="lz"> Handbuch der Naturgeschichte, 5. Aufl. (1797, Bibliographie Nr. 00026), S. 563 mit wörtl. Übers. der brieflichenAngabenvon Banks).</rs>
+            </note>
+            <note>
+               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#MedBiblIII3-Faust"/>
+               <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00026"/>
+               <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=92"/>
+            </note>
+            <note>
+               <rs type="edition"> [ohne Nr.]   00026   Corresp. IV, S. 80 Nr. 0693 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +124,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>

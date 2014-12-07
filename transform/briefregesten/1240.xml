@@ -29,9 +29,9 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher xml:id="">
+            <publisher>
                <email/>
-               <orgName role=""/>
+               <orgName/>
                <address>
                   <addrLine/>
                   <country/>
@@ -40,7 +40,7 @@
             <pubPlace> Uppsala</pubPlace>
             <date type="publication" when=" 1801-10-21"> 1801, Okt. 21</date>
             <availability>
-               <licence target="">
+               <licence>
                   <p/>
                </licence>
             </availability>
@@ -49,8 +49,6 @@
                <idno type="URLXML"/>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
-               <idno type="JFBODirName"/>
-               <idno type="JFBBOID"/>
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -64,12 +62,21 @@
          </seriesStmt>
          <notesStmt>
             <note/>
-            <relatedItem type="object"> Blumenbach bildet einen von C. P. Thunberg erhaltenen weiblichen Schädel aus Lappland ab inDecas craniorum 5 (1808), Tafel 43; Bibliographie Nr. 00096). Zu diesem Schädelvgl. Spengel, Anthropologische Sammlung, S. 34 Anm. ad224: &#x84;&#x84;Von demselben. [= Thunberg]&#x93;. Blumenbach erwähnt in den Decas 5, dass er noch einen zweiten Schädel vonThunberg erhalten habe,vgl. Spengel, Anthropologische Sammlung, S. 34 Anm. ad223: &#x84;Von Herrn Thunberg in Upsala; bejahrt [&#x85;] .&#x93;</relatedItem>
-            <relatedItem type="span"/>
-            <relatedItem type="bibl"> </relatedItem>
-            <relatedItem type="lz"/>
             <note>
-               <ref target=""/>
+               <rs type="object"> Blumenbach bildet einen von C. P. Thunberg erhaltenen weiblichen Schädel aus Lappland ab inDecas craniorum 5 (1808), Tafel 43; Bibliographie Nr. 00096). Zu diesem Schädelvgl. Spengel, Anthropologische Sammlung, S. 34 Anm. ad224: &#x84;&#x84;Von demselben. [= Thunberg]&#x93;. Blumenbach erwähnt in den Decas 5, dass er noch einen zweiten Schädel vonThunberg erhalten habe,vgl. Spengel, Anthropologische Sammlung, S. 34 Anm. ad223: &#x84;Von Herrn Thunberg in Upsala; bejahrt [&#x85;] .&#x93;</rs>
+            </note>
+            <note>
+               <rs type="span"/>
+            </note>
+            <note>
+               <rs type="bibl"> </rs>
+            </note>
+            <note>
+               <rs type="lz"/>
+            </note>
+            <note/>
+            <note>
+               <rs type="edition"/>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -113,4 +120,9 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
 </TEI>
