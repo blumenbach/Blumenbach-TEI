@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Therese Heyne (Therese Huber) berichtet Blumenbach Über ihren Aufenthaltbei ihren Großeltern in Hannover. </title>
+            <title type="main">Therese Heyne (Therese Huber) berichtet Blumenbach über ihren Aufenthaltbei ihren Großeltern in Hannover. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Heyne, Therese (Huber, Therese) </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Hannover</pubPlace>
-            <date type="publication" when=" [1782-07-28]"> 1782, [Juli 28]</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/156.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 334 Nr. 0213.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 334 Nr. 0213.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Datum erschlossen; in Dougherty, Corresp. I aus inhaltlichen GrÜnden auf&#x84;Juli 28&#x93; datiert, jedoch als Nr. 0213 zwischen zwei Briefen von &#x84;nach Aug. 4&#x93; und &#x84;20. Aug.1782&#x93; eingereiht, also entsprechendder Datierung in Heuser, Therese Huber. Briefe (siehe &#x84;Drucke&#x93;).</note>
+            <note>Datum erschlossen; in Dougherty, Corresp. I aus inhaltlichen Gründen auf&#x84;Juli 28&#x93; datiert, jedoch als Nr. 0213 zwischen zwei Briefen von &#x84;nach Aug. 4&#x93; und &#x84;20. Aug.1782&#x93; eingereiht, also entsprechendder Datierung in Heuser, Therese Huber. Briefe (siehe &#x84;Drucke&#x93;).</note>
             <note>
                <rs type="object"/>
             </note>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Teildruck: Geiger, Therese Huber (1901), S. 19; vollständig: Heuser, Therese Huber. Briefe. Bd. 1 (1999), S. 33&#x96;34 Nr. 11 (datiert auf 4. oder 11. Aug. 1782).</rs>
+               <rs type="bibl">Teildruck: Geiger, Therese Huber (1901), S. 19; vollständig: Heuser, Therese Huber. Briefe. Bd. 1 (1999), S. 33&#x96;34 Nr. 11 (datiert auf 4. oder 11. Aug. 1782).</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Therese Huber 8, Nr. 57a. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Therese Huber 8, Nr. 57a. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Heyne, Therese (Huber, Therese) </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-156">Hannover</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-156"
+                      sortKey="1782-07-28"
+                      when="1782-07-28"
+                      where="#orgplc-156">
+                  <label>1782, [Juli 28]</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-156">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-156">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0155</classCode>
-            <classCode scheme="anchor"> Aug1782</classCode>
+            <classCode scheme="anchor">Aug1782</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Das Geheime Ratskollegium teilt Blumenbach seine Ernennung zum außerordentlichen Professor mit und Übermittelt ihm [die von Christian Gottlob Heyne verfassten] Instruktionen fÜr die Wahrnehmung des Amtes als Unteraufseher des Academischen Museums in Göttingen. </title>
+            <title type="main">Das Geheime Ratskollegium teilt Blumenbach seine Ernennung zum außerordentlichen Professor mit und übermittelt ihm [die von Christian Gottlob Heyne verfassten] Instruktionen für die Wahrnehmung des Amtes als Unteraufseher des Academischen Museums in Göttingen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Geheimes Ratskollegium</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Hannover</pubPlace>
-            <date type="publication" when=" 1776-02-24"> 1776, Febr. 24</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/23.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 70 Nr. 0034 (Brief) und S. 72 Nr. 0036 (Instruktionen).</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 70 Nr. 0034 (Brief) und S. 72 Nr. 0036 (Instruktionen).</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsarchiv, Kur. 4934, S. 4−5 (Brief) und Kur. 7338, S. 12−15 (Instruktionen).</title>
+                  <title level="m" type="main">Göttingen, Universitätsarchiv, Kur. 4934, S. 4−5 (Brief) und Kur. 7338, S. 12−15 (Instruktionen).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Geheimes Ratskollegium</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-23">Hannover</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-23"
+                      sortKey="1776-02-24"
+                      when="1776-02-24"
+                      where="#orgplc-23">
+                  <label>1776, Febr. 24</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-23">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-23">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

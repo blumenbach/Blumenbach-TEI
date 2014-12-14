@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach dankt Georg Forster fÜr dessen Empfehlungsschreiben an Londoner Bekannte und stellt richtig, dass &#x96; anders als Forster in einer Publikation angemerkthatte &#x96; die von ihm gesammelten menschlichen Schädel nicht dem Academischen Museum derUniversität Göttingengehören, sondern sein Privateigentum sind. </title>
+            <title type="main">Blumenbach dankt Georg Forster für dessen Empfehlungsschreiben an Londoner Bekannte und stellt richtig, dass &#x96; anders als Forster in einer Publikation angemerkthatte &#x96; die von ihm gesammelten menschlichen Schädel nicht dem Academischen Museum derUniversität Göttingengehören, sondern sein Privateigentum sind. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1792-05-20"> 1792, Mai 20</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/631.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,38 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 157 Nr. 0740.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 157 Nr. 0740.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Vollständige Skelett eines KalmÜcken (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 571 [nur Schädel, Übriges Skelett verloren], Abb. des Schädels in Decas craniorum 2 (1793), Tafel 14, Bibliographie Nr.00093); Kinderschädel eines Burjaten (Nr. 563, Abb. in Decas craniorum 3 (1795), Tafel 29, Bibliographie Nr.00094); Schädel eines Yakuten (Nr. 559, Abb. in Decas craniorum 2 (1793), Tafel 15, Bibliographie Nr.00093).</rs>
+               <rs type="object">Vollständige Skelett eines Kalmücken (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 571 [nur Schädel, übriges Skelett verloren], Abb. des Schädels in Decas craniorum 2 (1793), Tafel 14, Bibliographie Nr.00093); Kinderschädel eines Burjaten (Nr. 563, Abb. in Decas craniorum 3 (1795), Tafel 29, Bibliographie Nr.00094); Schädel eines Yakuten (Nr. 559, Abb. in Decas craniorum 2 (1793), Tafel 15, Bibliographie Nr.00093).</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Steiner/Fiedler, Forsters Werke, Bd. 17 (1989), Nachträge Nr. 45, S. 542&#x96;543; Teildruck in Zisska, Friedrich, und Kistner, Rolf: [Auktionskatalog] Handschriften &#x96; Autographen &#x96; Seltene BÜcher. Auktion 11/I, 3.&#x96;5. Mai 1988. MÜnchen 1988, Nr. 53; Erwähnung in Forsters Brieftagebuch, Steiner/Fiedler, Forsters Werke, Bd. 18 (1982), S. 835.</rs>
+               <rs type="bibl">Steiner/Fiedler, Forsters Werke, Bd. 17 (1989), Nachträge Nr. 45, S. 542&#x96;543; Teildruck in Zisska, Friedrich, und Kistner, Rolf: [Auktionskatalog] Handschriften &#x96; Autographen &#x96; Seltene Bücher. Auktion 11/I, 3.&#x96;5. Mai 1988. München 1988, Nr. 53; Erwähnung in Forsters Brieftagebuch, Steiner/Fiedler, Forsters Werke, Bd. 18 (1982), S. 835.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=169"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 157 Nr. 0740 </rs>
+               <rs type="edition">Corresp. IV, S. 157 Nr. 0740 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Mainz, Privatbesitz. </title>
+                  <title level="m" type="main">Mainz, Privatbesitz. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-631">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-631"
+                      sortKey="1792-05-20"
+                      when="1792-05-20"
+                      where="#orgplc-631">
+                  <label>1792, Mai 20</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-631">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-631">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Forster, Georg</persName>
          </creation>

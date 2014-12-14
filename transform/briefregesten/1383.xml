@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach berichtet Carl Erenberg von Moll Über Gesteinsproben mit vegetationsähnlichem Aussehen, die er erhalten hat, und diskutiert die Möglichkeit, dass sie fossile Pflanzenteile enthalten. </title>
+            <title type="main">Blumenbach berichtet Carl Erenberg von Moll über Gesteinsproben mit vegetationsähnlichem Aussehen, die er erhalten hat, und diskutiert die Möglichkeit, dass sie fossile Pflanzenteile enthalten. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1810-04-05"> 1810, Apr. 5</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1383.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -66,13 +66,16 @@
                <rs type="object"/>
             </note>
             <note>
-               <rs type="span"> Moll, Carl von: Mittheilungen aus seinem Briefwechsel. 1. Abt. Augsburg 1829, S. 61&#x96;63.</rs>
+               <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> </rs>
+               <rs type="bibl">  Moll, Carl von: Mittheilungen aus seinem Briefwechsel. 1. Abt. Augsburg 1829, S. 61&#x96;63.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1383">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1383"
+                      sortKey="1810-04-05"
+                      when="1810-04-05"
+                      where="#orgplc-1383">
+                  <label>1810, Apr. 5</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1383">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1383">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Moll, Carl Erenbert von</persName>
          </creation>

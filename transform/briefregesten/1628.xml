@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach an Robert Brown. </title>
+            <title type="main">Blumenbach an Robert Brown. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> [Göttingen ?]</pubPlace>
-            <date type="publication" when=" 1831"> 1831</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1628.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/searcharchives.bl.uk"/>
             </note>
             <note>
-               <rs type="edition"> online-Manuscript Catalogue der British Library </rs>
+               <rs type="edition">online-Manuscript Catalogue der British Library </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, British Library, Add MS 32441, fol. 137, vgl. online-Manuscript Catalogue der British Library [Zugriff: 2013-01-11]. </title>
+                  <title level="m" type="main">London, British Library, Add MS 32441, fol. 137, vgl. online-Manuscript Catalogue der British Library [Zugriff: 2013-01-11]. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1628"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1628"
+                      sortKey="1831"
+                      when="1831"
+                      where="#orgplc-1628">
+                  <label>1831  [Göttingen ?]</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1628">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1628">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Brown, Robert </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">00</classCode>
-            <classCode scheme="anchor"> 1832</classCode>
+            <classCode scheme="anchor">1832</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

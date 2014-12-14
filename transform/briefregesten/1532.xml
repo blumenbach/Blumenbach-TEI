@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Wolfgang von Goethe Übermittelt Blumenbach im Auftrag des Herzogs Karl August von Sachsen-Weimar-Eisenach einen Literaturhinweis und dessenBitten um eine Literaturangabe und um die Ausleihe eines in England in besonderer Weise gebundenen Buches. </title>
+            <title type="main">Johann Wolfgang von Goethe übermittelt Blumenbach im Auftrag des Herzogs Karl August von Sachsen-Weimar-Eisenach einen Literaturhinweis und dessenBitten um eine Literaturangabe und um die Ausleihe eines in England in besonderer Weise gebundenen Buches. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Goethe, Johann Wolfgang von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Weimar</pubPlace>
-            <date type="publication" when=" 1823-10-31"> 1823, Okt. 31</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1532.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,20 +72,23 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Goethe&#x92;s Naturwissenschaftliche Correspondenz (1812&#x96;1832). Bd. 1 (1874), S. 45&#x96;46 Nr. 26; Goethes Werke. Weimarer Ausgabe Abt. IV, Bd. 37, S. 251&#x96;252 (Brief WA-Nr. 37159).</rs>
+               <rs type="lz">Goethe&#x92;s Naturwissenschaftliche Correspondenz (1812&#x96;1832). Bd. 1 (1874), S. 45&#x96;46 Nr. 26; Goethes Werke. Weimarer Ausgabe Abt. IV, Bd. 37, S. 251&#x96;252 (Brief WA-Nr. 37159).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://archive.org/stream/naturwissenschaf01goet#page/44/mode/2up"/>
             </note>
             <note>
-               <rs type="edition"> S. 45&#x96;46 Nr. 26 </rs>
+               <rs type="edition">S. 45&#x96;46 Nr. 26 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Abschrift nach dem Or. im Familienarchiv Blumenbach, Hannover (Weimar, Goethe- und Schiller-Archiv: GSA 29/102, IV).</title>
+                  <title level="m" type="main">Abschrift nach dem Or. im Familienarchiv Blumenbach, Hannover (Weimar, Goethe- und Schiller-Archiv: GSA 29/102, IV).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Goethe, Johann Wolfgang von</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1532">Weimar</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1532"
+                      sortKey="1823-10-31"
+                      when="1823-10-31"
+                      where="#orgplc-1532">
+                  <label>1823, Okt. 31</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1532">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1532">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

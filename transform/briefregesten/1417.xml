@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach an Julius Klaproth &#x85; . </title>
+            <title type="main">Blumenbach an Julius Klaproth &#x85; . </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1812-12-12"> 1812, Dez. 12</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1417.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://hans.sub.uni-goettingen.de/nachlaesse/Blumenbach.pdf"/>
             </note>
             <note>
-               <rs type="edition"> http://hans.sub.uni-goettingen.de/ nachlaesse/Blumenbach.pdf </rs>
+               <rs type="edition">http://hans.sub.uni-goettingen.de/ nachlaesse/Blumenbach.pdf </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. 1999:17/1:2, vgl. http://hans.sub.uni-goettingen.de/ nachlaesse/Blumenbach.pdf. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. 1999:17/1:2, vgl. http://hans.sub.uni-goettingen.de/ nachlaesse/Blumenbach.pdf. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1417">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1417"
+                      sortKey="1812-12-12"
+                      when="1812-12-12"
+                      where="#orgplc-1417">
+                  <label>1812, Dez. 12</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1417">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1417">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Klaproth, Julius</persName>
          </creation>

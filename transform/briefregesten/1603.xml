@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Wolfgang von Goethe sendet Blumenbach eine Kinnlade mit vollständiger Zahnreihe aus einem antiken GrabhÜgel bei Romstedt in ThÜringen. </title>
+            <title type="main">Johann Wolfgang von Goethe sendet Blumenbach eine Kinnlade mit vollständiger Zahnreihe aus einem antiken Grabhügel bei Romstedt in Thüringen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Goethe, Johann Wolfgang von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Weimar</pubPlace>
-            <date type="publication" when=" 1829-04-09 &#xA;"> 1829, Apr. 9</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1603.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Der Versand der Kinnlade erfolgte durch ein Versehen tatsächlich erst am 7. Mai 1827, vgl. Brief von diesem Datum. </note>
             <note>
-               <rs type="object"> Kinnlade mit vollständiger Zahnreihe aus einem antiken GrabhÜgel bei Romstedt (ThÜringen); laut Voit, Max: Ein Brief von Goethes Sohn August an J. F. Blumenbach. Göttingen 1928 [Gedr. in 100 Ex. zur 6jähr. Jahresfeier d. Vereinigung Göttinger BÜcherfreunde am 23. Juni 1928] in der Schädelsammlung der Anatomie Göttingen nicht auffindbar.</rs>
+               <rs type="object">Kinnlade mit vollständiger Zahnreihe aus einem antiken Grabhügel bei Romstedt (Thüringen); laut Voit, Max: Ein Brief von Goethes Sohn August an J. F. Blumenbach. Göttingen 1928 [Gedr. in 100 Ex. zur 6jähr. Jahresfeier d. Vereinigung Göttinger Bücherfreunde am 23. Juni 1928] in der Schädelsammlung der Anatomie Göttingen nicht auffindbar.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -72,7 +72,10 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Goethes Werke. Weimarer Ausgabe Abt. IV, Bd. 45, S. 238&#x96;239 (Brief WA-Nr. 45199). </rs>
+               <rs type="lz">Goethes Werke. Weimarer Ausgabe Abt. IV, Bd. 45, S. 238&#x96;239 (Brief WA-Nr. 45199). </rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Baltimore (USA), The Johns Hopkins University/The Milton S. Eisenhower Library.&#x96; Bestand: Kurrelmeyer Collection;Konzept:Weimar, Goethe- und Schiller-Archiv: GSA 29/45, Bl. 66. </title>
+                  <title level="m" type="main">Baltimore (USA), The Johns Hopkins University/The Milton S. Eisenhower Library.&#x96; Bestand: Kurrelmeyer Collection;Konzept:Weimar, Goethe- und Schiller-Archiv: GSA 29/45, Bl. 66. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Goethe, Johann Wolfgang von</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1603">Weimar</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1603"
+                      sortKey="1829-04-09 "
+                      when="1829-04-09 "
+                      where="#orgplc-1603">
+                  <label>1829, Apr. 9</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1603">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1603">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

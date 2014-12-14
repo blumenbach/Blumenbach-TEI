@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teiltStefano Borgia die chemische Zusammensetzung der Probe ägyptischen Basalts mit, die dieser ihm [1795] geschickt hatte. </title>
+            <title type="main">Blumenbach teiltStefano Borgia die chemische Zusammensetzung der Probe ägyptischen Basalts mit, die dieser ihm 1795 geschickt hatte. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1799-03-21"> 1799,März 21</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1084.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 362 Nr. 1220. </biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 362 Nr. 1220. </biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=378"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 362Nr. 1220 </rs>
+               <rs type="edition">Corresp. V, S. 362Nr. 1220 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Cittàdel Vaticano, Biblioteca Apostolica Vaticana, Borg. lat. 894, fol. 27.</title>
+                  <title level="m" type="main">Cittàdel Vaticano, Biblioteca Apostolica Vaticana, Borg. lat. 894, fol. 27.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1084">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1799-03-21">
-                  <label> 1799,März 21</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1084"
+                      sortKey="1799-03-21"
+                      notBefore="1799-03-21"
+                      where="#orgplc-1084">
+                  <label>1799,März 21</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1084">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1084">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Borgia, Stefano</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">1068</classCode>
-            <classCode scheme="anchor"> Apr1799</classCode>
+            <classCode scheme="anchor">Apr1799</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

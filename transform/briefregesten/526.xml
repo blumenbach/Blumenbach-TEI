@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach bestätigt Joseph Banks den Empfang des zweiten von Banks gesandten menschlichen Schädels aus der Karibik, berichtet Über die negative Einschätzung des wissenschaftlichen Werts von James Bruces afrikanischem Reisebericht auch in der deutschen wissenschaftlichen öffentlichkeit und sendet von Banks erbetene Publikationen und weitere Buchgeschenke. </title>
+            <title type="main">Blumenbach bestätigt Joseph Banks den Empfang des zweiten von Banks gesandten menschlichen Schädels aus der Karibik, berichtet über die negative Einschätzung des wissenschaftlichen Werts von James Bruces afrikanischem Reisebericht auch in der deutschen wissenschaftlichen öffentlichkeit und sendet von Banks erbetene Publikationen und weitere Buchgeschenke. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1790-09-22"> 1790, Sept. 22</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/526.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,36 +57,39 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 327 Nr. 0627.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 327 Nr. 0627.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Vgl. auch Blumenbachs hs. Verzeichnis seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, I, fol. 8. </note>
             <note>
-               <rs type="object"> Weiblicher Karibenschädel (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 780; Abbildung in Decas craniorum 2 (1793), Tafel 20, Bibliographie Nr.00093).</rs>
+               <rs type="object">Weiblicher Karibenschädel (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 780; Abbildung in Decas craniorum 2 (1793), Tafel 20, Bibliographie Nr.00093).</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S. 111 Nr. 12.</rs>
+               <rs type="bibl">Vgl. ausführl. Regest in Dawson, The Banks Letters (1958), S. 111 Nr. 12.</rs>
             </note>
             <note>
-               <rs type="lz"> Beyträge zur Naturgeschichte. Erster Theil (1790; Bibliographie Nr. 00111).</rs>
+               <rs type="lz">Beyträge zur Naturgeschichte. Erster Theil (1790; Bibliographie Nr. 00111).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00111"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=345"/>
             </note>
             <note>
-               <rs type="edition"> 00111   Corresp. III, S. 327 Nr. 0627 </rs>
+               <rs type="edition">00111  Corresp. III, S. 327 Nr. 0627 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, British Library, Add MS 8097, fol. 264&#x96;265. </title>
+                  <title level="m" type="main">London, British Library, Add MS 8097, fol. 264&#x96;265. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-526">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-526"
+                      sortKey="1790-09-22"
+                      when="1790-09-22"
+                      where="#orgplc-526">
+                  <label>1790, Sept. 22</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-526">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-526">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Banks, Joseph</persName>
          </creation>

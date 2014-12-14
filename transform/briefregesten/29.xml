@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach Übermittelt Christian Gottlob Heyne seine Einschätzung zu zwei der Universität Göttingen fÜr das Academische Museum zum Kauf angebotenen Sammlungen und einem Mumienfragment, unterstÜtzt den Antrag zweier Studenten auf einen Freitisch-Platz und fragt nach dem Alter von ägyptischen Skarabäus-Plastiken. </title>
+            <title type="main">Blumenbach übermittelt Christian Gottlob Heyne seine Einschätzung zu zwei der Universität Göttingen für das Academische Museum zum Kauf angebotenen Sammlungen und einem Mumienfragment, unterstützt den Antrag zweier Studenten auf einen Freitisch-Platz und fragt nach dem Alter von ägyptischen Skarabäus-Plastiken. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1776-09-24"> 1776, nach Sept. 24</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/29.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 87 Nr. 0045.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 87 Nr. 0045.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Leipzig, Universitätsbibliothek, Sammlung Kestner, II A IV, 177.</title>
+                  <title level="m" type="main">Leipzig, Universitätsbibliothek, Sammlung Kestner, II A IV, 177.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -96,9 +99,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-29">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1776-09-24">
-                  <label> 1776, nach Sept. 24</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-29"
+                      sortKey="1776-09-24"
+                      notBefore="1776-09-24"
+                      where="#orgplc-29">
+                  <label>1776, nach Sept. 24</label>
                </event>
             </listEvent>
             <msDesc>
@@ -115,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-29">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-29">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Heyne, Christian Gottlob</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0029</classCode>
-            <classCode scheme="anchor"> Okt1776</classCode>
+            <classCode scheme="anchor">Okt1776</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

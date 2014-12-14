@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Das Geheime Ratskollegium teilt Christian Gottlob Heyne undBlumenbach die Ernennung Friedrich Albrecht Anton Meyers zum unbezahlten Unteraufseher des Academischen Museum der Universität Göttingen mit und fordert sie auf, ihn in seine Aufgaben einzuweisen. </title>
+            <title type="main">Das Geheime Ratskollegium teilt Christian Gottlob Heyne undBlumenbach die Ernennung Friedrich Albrecht Anton Meyers zum unbezahlten Unteraufseher des Academischen Museum der Universität Göttingen mit und fordert sie auf, ihn in seine Aufgaben einzuweisen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Geheimes Ratskollegium</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Hannover</pubPlace>
-            <date type="publication" when=" 1792-12-31"> 1792, Dez. 31</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/672.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 226 Nr. 0792.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 226 Nr. 0792.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=238"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 226 Nr. 0792 </rs>
+               <rs type="edition">Corresp. IV, S. 226 Nr. 0792 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsarchiv, Kur. 7338, fol. 32. </title>
+                  <title level="m" type="main">Göttingen, Universitätsarchiv, Kur. 7338, fol. 32. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Geheimes Ratskollegium</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-672">Hannover</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-672"
+                      sortKey="1792-12-31"
+                      when="1792-12-31"
+                      where="#orgplc-672">
+                  <label>1792, Dez. 31</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-672">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-672">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee"> [Heyne, Christian Gottlob und] Blumenbach, Johann Friedrich</persName>
          </creation>

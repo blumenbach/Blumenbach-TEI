@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Joseph Banks teilt Blumenbach Einzelheiten zur Entstehung von Porträts von Tahitianern und Neuseeländern in seinem Besitz mit und erklärt sich einverstanden mit der Anfertigung von Kopien von ihnen und berichtet Über die erfolgreiche Anpflanzung der Brotfrucht und anderer importierter Pflanzen in der Karibik. </title>
+            <title type="main">Joseph Banks teilt Blumenbach Einzelheiten zur Entstehung von Porträts von Tahitianern und Neuseeländern in seinem Besitz mit und erklärt sich einverstanden mit der Anfertigung von Kopien von ihnen und berichtet über die erfolgreiche Anpflanzung der Brotfrucht und anderer importierter Pflanzen in der Karibik. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>London</pubPlace>
-            <date type="publication" when=" 1794-11-14"> 1794, Nov. 14</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/753.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 358 Nr. 0878.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 358 Nr. 0878.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Dt. Übersetzung der Angaben zur Brotfrucht-Anpflanzung in Jamaika in Medicinische Bibliothek Bd. 3, 4. StÜck (1795), S. 723 (Bibliographie Nr. 00962).</note>
+            <note>Dt. übersetzung der Angaben zur Brotfrucht-Anpflanzung in Jamaika in Medicinische Bibliothek Bd. 3, 4. Stück (1795), S. 723 (Bibliographie Nr. 00962).</note>
             <note>
-               <rs type="object"> Zeichnungen nach Porträts von Tahitianern und Neuseeländern im Besitz von Joseph Banks. (Die von Blumenbach in seinem Brief vom 24. Sept. 1794 ebenfalls erbetene Kopie des Porträts eines Eskimos wird nicht erwähnt.)</rs>
+               <rs type="object">Zeichnungen nach Porträts von Tahitianern und Neuseeländern im Besitz von Joseph Banks. (Die von Blumenbach in seinem Brief vom 24. Sept. 1794 ebenfalls erbetene Kopie des Porträts eines Eskimos wird nicht erwähnt.)</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=370"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 358 Nr. 0878 </rs>
+               <rs type="edition">Corresp. IV, S. 358 Nr. 0878 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 3 (Banks Nr. 7). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 3 (Banks Nr. 7). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-753">London</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-753"
+                      sortKey="1794-11-14"
+                      when="1794-11-14"
+                      where="#orgplc-753">
+                  <label>1794, Nov. 14</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-753">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-753">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

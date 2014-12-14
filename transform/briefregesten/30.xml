@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach berichtet Friedrich Christian Schmidt Über persönliche und gesellschaftliche Ereignisse aus Göttingen, u. a. seinen Umzug in eine neue Wohnung und eine kurze Reise nach Gotha gemeinsam mit Christian Gottlob Heyne. </title>
+            <title type="main">Blumenbach berichtet Friedrich Christian Schmidt über persönliche und gesellschaftliche Ereignisse aus Göttingen, u. a. seinen Umzug in eine neue Wohnung und eine kurze Reise nach Gotha gemeinsam mit Christian Gottlob Heyne. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1776-10-11"> 1776, Okt. 11</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/30.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,22 +57,25 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 88 Nr. 0046.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 88 Nr. 0046.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Blumenbach schreibt,&#x84;die Remise Louisenthaler Mineralien [&#x85;] paradirt itzt im königlischen [sic bei Dougherty, Corresp.] Museo; und meines Freundes Name im Donations-Catalogo.&#x93;</rs>
+               <rs type="object">Blumenbach schreibt,&#x84;die Remise Louisenthaler Mineralien [&#x85;] paradirt itzt im königlischen [sic bei Dougherty, Corresp.] Museo; und meines Freundes Name im Donations-Catalogo.&#x93;</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Göttingen, Universitätsbibliothek, Cod. Ms. 1999. 17/1:1.</rs>
+               <rs type="bibl">Göttingen, Universitätsbibliothek, Cod. Ms. 1999. 17/1:1.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-30">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-30"
+                      sortKey="1776-10-11"
+                      when="1776-10-11"
+                      where="#orgplc-30">
+                  <label>1776, Okt. 11</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-30">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-30">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Schmidt, Friedrich Christian</persName>
          </creation>

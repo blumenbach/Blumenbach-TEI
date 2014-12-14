@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> August von Sachsen-Gotha und Altenburg dankt fÜr zugesandte GipsabgÜsse und einen Bericht Über ein physiologisches Experiment Blumenbachs an Schnecken, sendet das Honorar fÜr einen Göttinger Zeichner und bittet um Auskunft Über dieTodesumstände des englischen Chemikers James Price. </title>
+            <title type="main">August von Sachsen-Gotha und Altenburg dankt für zugesandte Gipsabgüsse und einen Bericht über ein physiologisches Experiment Blumenbachs an Schnecken, sendet das Honorar für einen Göttinger Zeichner und bittet um Auskunft über dieTodesumstände des englischen Chemikers James Price. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Sachsen-Gotha und Altenburg, August von </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Gotha</pubPlace>
-            <date type="publication" when=" 1784-01-06"> 1784, Jan. 6</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/196.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 128 Nr. 0268.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 128 Nr. 0268.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 1 (August Prinz zu Sachsen Nr. 4). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 1 (August Prinz zu Sachsen Nr. 4). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Sachsen-Gotha und Altenburg, August von </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-196">Gotha</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-196"
+                      sortKey="1784-01-06"
+                      when="1784-01-06"
+                      where="#orgplc-196">
+                  <label>1784, Jan. 6</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-196">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-196">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>

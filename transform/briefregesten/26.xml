@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Albrecht von Haller mehrere Exemplare seiner Dissertation De humani generis varietate nativa fÜr diesen selbst und dessen Korrespondenten, informiert Haller von seiner Anstellung als außerordentlicher Professor, Museumsaufseher und Prosector, berichtet Über geplante anatomische Forschungen und Forschungen an SÜßwasserpolypen und bittet um Gesteinsproben fÜr das Academische Museumder Universität Göttingen. </title>
+            <title type="main">Blumenbach sendet Albrecht von Haller mehrere Exemplare seiner Dissertation De humani generis varietate nativa für diesen selbst und dessen Korrespondenten, informiert Haller von seiner Anstellung als außerordentlicher Professor, Museumsaufseher und Prosector, berichtet über geplante anatomische Forschungen und Forschungen an Süßwasserpolypen und bittet um Gesteinsproben für das Academische Museumder Universität Göttingen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1776-05-16"> 1776, Mai 16</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/26.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 78 Nr. 0042.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 78 Nr. 0042.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -66,7 +66,7 @@
                <rs type="object"/>
             </note>
             <note>
-               <rs type="span"> De humani generis varietate nativa (1776) (= Bibliographie Nr. 00002).</rs>
+               <rs type="span"/>
             </note>
             <note>
                <rs type="bibl"> </rs>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">De humani generis varietate nativa (1776) (= Bibliographie Nr. 00002).</rs>
+            </note>
+            <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00002"/>
             </note>
             <note>
-               <rs type="edition"> 00002 </rs>
+               <rs type="edition">00002 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Bern, Burgerbibliothek, Signatur: N Albrecht von Haller Korr, Johann Friedrich Blumenbach an Albrecht von Haller, 16. Mai 1776, 1.</title>
+                  <title level="m" type="main">Bern, Burgerbibliothek, Signatur: N Albrecht von Haller Korr, Johann Friedrich Blumenbach an Albrecht von Haller, 16. Mai 1776, 1.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-26">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-26"
+                      sortKey="1776-05-16"
+                      when="1776-05-16"
+                      where="#orgplc-26">
+                  <label>1776, Mai 16</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-26">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-26">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Haller, Albrecht von</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0026</classCode>
-            <classCode scheme="anchor"> Aug1776</classCode>
+            <classCode scheme="anchor">Aug1776</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

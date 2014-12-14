@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Leopoldo Marc&#x92;Antonio Caldani sendet Blumenbach einen seltenen anatomischen Stich, resÜmiert den Inhalt einer neu erschienenen Abhandlung von Paolo Mascagni Über das lymphatische System und kommentiert Blumenbachs frÜhere Mitteilungen Über Samuel Thomas Soemmerrings Entdeckung zur Kreuzung der Sehnerven beim Pferd. </title>
+            <title type="main">Leopoldo Marc&#x92;Antonio Caldani sendet Blumenbach einen seltenen anatomischen Stich, resümiert den Inhalt einer neu erschienenen Abhandlung von Paolo Mascagni über das lymphatische System und kommentiert Blumenbachs frühere Mitteilungen über Samuel Thomas Soemmerrings Entdeckung zur Kreuzung der Sehnerven beim Pferd. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Caldani, Leopoldo Marc&#x92;Antonio </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Padua</pubPlace>
-            <date type="publication" when=" 1785-04-15"> 1785, Apr. 15</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/262.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp.II, S.266 Nr. 0349.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp.II, S.266 Nr. 0349.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Biblioteca Estense, Modena, Autografoteca Campori, Busta Blumenbach, J.F. 2 (Entwurf Caldanis). </title>
+                  <title level="m" type="main">Biblioteca Estense, Modena, Autografoteca Campori, Busta Blumenbach, J.F. 2 (Entwurf Caldanis). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Caldani, Leopoldo Marc&#x92;Antonio </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-262">Padua</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-262"
+                      sortKey="1785-04-15"
+                      when="1785-04-15"
+                      where="#orgplc-262">
+                  <label>1785, Apr. 15</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-262">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-262">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>

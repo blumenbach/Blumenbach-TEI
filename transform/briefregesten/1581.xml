@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach dankt Kaspar Georg KarlReinwardt fÜr dessen Geschenkeund erwähnt, dass er von Godert Alexander Gerard Philip van der Capellen die Abbildung eines Papuaners erhalten habe. </title>
+            <title type="main">Blumenbach dankt Kaspar Georg KarlReinwardt für dessen Geschenkeund erwähnt, dass er von Godert Alexander Gerard Philip van der Capellen die Abbildung eines Papuaners erhalten habe. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1827-01-28"> 1827, Jan. 28</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1581.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,22 +57,25 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Schädel einerJavanerin, deren Mutter Malaiin und deren Vater Chinese war, Abb. in Nova pentas craniorum(1828; Bibliographie Nr. 00098), Tafel 64.</rs>
+               <rs type="object">Schädel einerJavanerin, deren Mutter Malaiin und deren Vater Chinese war, Abb. in Nova pentas craniorum(1828; Bibliographie Nr. 00098), Tafel 64.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Erwähnt in Klatt, Norbert: Kleine Beiträge zur Blumenbach-Forschung 1. Göttingen 2008, S. 48; Regest in: Heiningen, Teunis Willem van: The correspondence of Caspar Georg Carl Reinwardt (1773-1854). Part 2: 1820-1854. The Hague 2011 (www.dwc.knaw.nl), S. 679 Nr. 945(mit der irrtÜmlichen Datumsangabe &#x84;28. Jan. 1840&#x93;; Blumenbach starb am 22. Jan. 1840).</rs>
+               <rs type="bibl">Erwähnt in Klatt, Norbert: Kleine Beiträge zur Blumenbach-Forschung 1. Göttingen 2008, S. 48; Regest in: Heiningen, Teunis Willem van: The correspondence of Caspar Georg Carl Reinwardt (1773-1854). Part 2: 1820-1854. The Hague 2011 (www.dwc.knaw.nl), S. 679 Nr. 945(mit der irrtümlichen Datumsangabe &#x84;28. Jan. 1840&#x93;; Blumenbach starb am 22. Jan. 1840).</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Den Haag, Koninklijke Bibliotheek,121 D 6/6. </title>
+                  <title level="m" type="main">Den Haag, Koninklijke Bibliotheek,121 D 6/6. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1581">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1581"
+                      sortKey="1827-01-28"
+                      when="1827-01-28"
+                      where="#orgplc-1581">
+                  <label>1827, Jan. 28</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1581">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1581">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Reinwardt, Kaspar Georg Karl</persName>
          </creation>

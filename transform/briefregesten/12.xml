@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach formuliert die Voraussetzungen, unter denen er sich gegen eine Tätigkeit als Arzt in Gotha und fÜr eine Universitätskarriere in Göttingen entscheiden wÜrde: eine Professur, die Aufsicht Über das Academische Museumder Universität Göttingen, die Finanzierung einer Forschungsreise und eine Anstellung als Prosector am Anatomischen Institut. </title>
+            <title type="main">Blumenbach formuliert die Voraussetzungen, unter denen er sich gegen eine Tätigkeit als Arzt in Gotha und für eine Universitätskarriere in Göttingen entscheiden würde: eine Professur, die Aufsicht über das Academische Museumder Universität Göttingen, die Finanzierung einer Forschungsreise und eine Anstellung als Prosector am Anatomischen Institut. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1775-07-11"> 1775, vor Juli 11</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/12.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 22 Nr. 0014.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 22 Nr. 0014.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsarchiv, Kur. 4932, S. 5−6.</title>
+                  <title level="m" type="main">Göttingen, Universitätsarchiv, Kur. 4932, S. 5−6.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -96,9 +99,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-12">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1775-07-11">
-                  <label> 1775, vor Juli 11</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-12"
+                      sortKey="1775-07-11"
+                      notAfter="1775-07-11"
+                      where="#orgplc-12">
+                  <label>1775, vor Juli 11</label>
                </event>
             </listEvent>
             <msDesc>
@@ -115,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-12">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-12">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">unbekannt</persName>
          </creation>

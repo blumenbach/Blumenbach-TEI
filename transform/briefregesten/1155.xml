@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach danktJoseph Banks fÜr ein ausgestopftes Schnabeltier, das dieser gesandt hatte,schlägt die wissenschaftliche Bezeichnung &#x84;Ornithorhynchus paradoxus&#x93; fÜr das Schnabeltier vor undbegrÜndet diesen Vorschlag, teilt Banks seine Ansicht zu einem Fossil aus Newcastle mit und kommentiert eine neue Beobachtungen zur Einbalsamierungstechnik der ägypter. </title>
+            <title type="main">Blumenbach danktJoseph Banks für ein ausgestopftes Schnabeltier, das dieser gesandt hatte,schlägt die wissenschaftliche Bezeichnung &#x84;Ornithorhynchus paradoxus&#x93; für das Schnabeltier vor undbegründet diesen Vorschlag, teilt Banks seine Ansicht zu einem Fossil aus Newcastle mit und kommentiert eine neue Beobachtungen zur Einbalsamierungstechnik der ägypter. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1800-03-31"> 1800, März 31</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1155.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,22 +57,25 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 450&#x96;453 Nr. 1290.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 450&#x96;453 Nr. 1290.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Ausgestopftes Schnabeltier; fossile Pflanzen aus Newcastle.</rs>
+               <rs type="object">Ausgestopftes Schnabeltier; fossile Pflanzen aus Newcastle.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Dougherty, Commercium epistolicum (1984), S. 125&#x96;126 KatNr. 149;Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 5 (2007), S. 35&#x96;37Nr. 1550 (mit Abb. des Schnabeltier-Kupferstiches in der unkorrigierten Version); vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S. 116 Nr. 55.</rs>
+               <rs type="bibl">Dougherty, Commercium epistolicum (1984), S. 125&#x96;126 KatNr. 149;Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 5 (2007), S. 35&#x96;37Nr. 1550 (mit Abb. des Schnabeltier-Kupferstiches in der unkorrigierten Version); vgl. ausführl. Regest in Dawson, The Banks Letters (1958), S. 116 Nr. 55.</rs>
             </note>
             <note>
-               <rs type="lz"> Abbildungen naturhistorischer Gegenstände 5 (1800; Bibliographie Nr. 00697), Abb. Nr. 41; &#x84;Von den Zähnen der alten Aegyptier und von den Mumien&#x93; (1780; Bibliographie Nr. 00795). </rs>
+               <rs type="lz">Abbildungen naturhistorischer Gegenstände 5 (1800; Bibliographie Nr. 00697), Abb. Nr. 41; &#x84;Von den Zähnen der alten Aegyptier und von den Mumien&#x93; (1780; Bibliographie Nr. 00795). </rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00697"/>
@@ -80,14 +83,14 @@
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=466"/>
             </note>
             <note>
-               <rs type="edition"> 0069700795   Corresp. V, S. 450&#x96;453 Nr. 1290 </rs>
+               <rs type="edition">0069700795  Corresp. V, S. 450&#x96;453 Nr. 1290 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, British Library, Add MS 8099, fol. 16&#x96;18. </title>
+                  <title level="m" type="main">London, British Library, Add MS 8099, fol. 16&#x96;18. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -100,6 +103,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1155">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1155"
+                      sortKey="1800-03-31"
+                      when="1800-03-31"
+                      where="#orgplc-1155">
+                  <label>1800, März 31</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -114,12 +131,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1155">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1155">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Banks, Joseph</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">1139</classCode>
-            <classCode scheme="anchor"> Apr1800</classCode>
+            <classCode scheme="anchor">Apr1800</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

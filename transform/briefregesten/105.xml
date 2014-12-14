@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Samuel Thomas Soemmerring den Kopf einer Mumie, bittet um Reparatur einer ebenfalls mitgeschickten Injektionsspritze und um weitere Instrumente aus Kassel und bestätigt das unbeschädigte Eintreffen eines von Soemmerring geschenkten anatomischen Präparats in Göttingen. </title>
+            <title type="main">Blumenbach sendet Samuel Thomas Soemmerring den Kopf einer Mumie, bittet um Reparatur einer ebenfalls mitgeschickten Injektionsspritze und um weitere Instrumente aus Kassel und bestätigt das unbeschädigte Eintreffen eines von Soemmerring geschenkten anatomischen Präparats in Göttingen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1781-01-26"> 1781, Jan. 26</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/105.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,22 +57,25 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 222 Nr. 0141.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 222 Nr. 0141.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Schädel einer ägyptischen Mumie (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 640; Abb. in Decas craniorum 1 (1790), Tafel 1; Bibliographie Nr. 00092), vgl. die Angaben dazu inDougherty, Corresp. II, Nr. 0315 Anm. 17.</rs>
+               <rs type="object">Schädel einer ägyptischen Mumie (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 640; Abb. in Decas craniorum 1 (1790), Tafel 1; Bibliographie Nr. 00092), vgl. die Angaben dazu inDougherty, Corresp. II, Nr. 0315 Anm. 17.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Dumont,Soemmerring-Briefwechsel. 1761/65&#x96;Oktober 1784 (1996), Nr. 132 S. 317&#x96;319.</rs>
+               <rs type="bibl">Dumont,Soemmerring-Briefwechsel. 1761/65&#x96;Oktober 1784 (1996), Nr. 132 S. 317&#x96;319.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Frankfurt am Main, Senckenbergische Bibliothek, 4 Cod. Ms. Hs. 81. </title>
+                  <title level="m" type="main">Frankfurt am Main, Senckenbergische Bibliothek, 4 Cod. Ms. Hs. 81. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-105">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-105"
+                      sortKey="1781-01-26"
+                      when="1781-01-26"
+                      where="#orgplc-105">
+                  <label>1781, Jan. 26</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-105">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-105">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Soemmerring, Samuel Thomas </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0104</classCode>
-            <classCode scheme="anchor"> Febr1781</classCode>
+            <classCode scheme="anchor">Febr1781</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

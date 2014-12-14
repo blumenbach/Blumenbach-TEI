@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Das Geheime Ratskollegium bestellt Blumenbach nach Hannover, um Übergabeformalitäten fÜr die der Universität geschenkte [SchlÜtersche] Mineraliensammlung durchzufÜhren. </title>
+            <title type="main">Das Geheime Ratskollegium bestellt Blumenbach nach Hannover, um übergabeformalitäten für die der Universität geschenkte [Schlütersche] Mineraliensammlung durchzuführen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Geheimes Ratskollegium </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Hannover</pubPlace>
-            <date type="publication" when=" 1777-04-02"> 1777, April 2</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/37.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 107 Nr. 0060.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 107 Nr. 0060.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> SchlÜtersche Mineraliensammlung, die aus der Königl. Bibliothek Hannover nach Göttingen geschenkt wurde.</rs>
+               <rs type="object">Schlütersche Mineraliensammlung, die aus der Königl. Bibliothek Hannover nach Göttingen geschenkt wurde.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsarchiv, Kur. 7339, S. 3-4.</title>
+                  <title level="m" type="main">Göttingen, Universitätsarchiv, Kur. 7339, S. 3-4.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Geheimes Ratskollegium </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-37">Hannover</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-37"
+                      sortKey="1777-04-02"
+                      when="1777-04-02"
+                      where="#orgplc-37">
+                  <label>1777, April 2</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-37">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-37">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

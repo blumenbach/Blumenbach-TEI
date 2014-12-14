@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Christian Friedrich Michaelis teilt Blumenbach naturhistorische und anthropologische Beobachtungen aus Nordamerika mit. </title>
+            <title type="main">Christian Friedrich Michaelis teilt Blumenbach naturhistorische und anthropologische Beobachtungen aus Nordamerika mit. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Michaelis, Christian Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Kassel</pubPlace>
-            <date type="publication" when=" 1785-01-15"> 1785, vor Jan. 15</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/238.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 230 Nr. 0325.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 230 Nr. 0325.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> In einem von Blumenbach eingeschobenen Kommentar erwähnt: &#x84;Mohren-Embryonen im academ. Museum&#x93;.</rs>
+               <rs type="object">In einem von Blumenbach eingeschobenen Kommentar erwähnt: &#x84;Mohren-Embryonen im academ. Museum&#x93;.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -72,20 +72,24 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> GAgS 1785 (26. StÜck,17. Februar), S. 249&#x96;251 (Bibliographie Nr. 00268).</rs>
+               <rs type="lz">GAgS 1785 (26. Stück,17. Februar), S. 249&#x96;251 (Bibliographie Nr. 00268).</rs>
+            </note>
+            <note>
+               <rs type="item">Identisch mit Bericht über Blumenbachs Vortrag des Schreibens von Christian Friedrich Michaelis in der Akademie der Wissenschaften vom 15. Jan. 1784, &#x84;über einige, die natürliche Geschichte der Mohren und Amerikaner betreffende Irrtümer&#x93;, GAgS 1785 (26. Stück,17. Februar), S. 249&#x96;251 (Bibliographie Nr. 00268).
+</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00268"/>
             </note>
             <note>
-               <rs type="edition"> 00268 </rs>
+               <rs type="edition">00268 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren; Text nach Zusammenfassung inGAgS 1785.</title>
+                  <title level="m" type="main">Or. verloren; Text nach Zusammenfassung inGAgS 1785.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Michaelis, Christian Friedrich </persName>
                   </author>
@@ -98,9 +102,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-238">Kassel</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1785-01-15">
-                  <label> 1785, vor Jan. 15</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-238"
+                      sortKey="1785-01-15"
+                      notAfter="1785-01-15"
+                      where="#orgplc-238">
+                  <label>1785, vor Jan. 15</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-238">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-238">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>

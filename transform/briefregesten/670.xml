@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Ernst Tatter sendet Blumenbach das Selbstporträt des russischen Malers kalmÜckischer HerkunftFeodor Ivanowitsch [genannt &#x84;KalmÜck&#x93;], berichtet ihm Über gemeinsame Bekannte und Über die Aktionen der Flotte des republikanischen Frankreich im Mittelmeer. </title>
+            <title type="main">Georg Ernst Tatter sendet Blumenbach das Selbstporträt des russischen Malers kalmückischer HerkunftFeodor Ivanowitsch [genannt &#x84;Kalmück&#x93;], berichtet ihm über gemeinsame Bekannte und über die Aktionen der Flotte des republikanischen Frankreich im Mittelmeer. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Tatter, Georg Ernst</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when=" 1792-12-22"> 1792, Dez. 22 Rom</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/670.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 222 Nr. 0790.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 222 Nr. 0790.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Porträtdes &#x84;KalmÜcken&#x93; Feodor Ivanowitsch (Göttingen, Inst. fÜr Ethnologie, Inv.-Nr. Bi. Kat. 49).</rs>
+               <rs type="object">Porträtdes &#x84;Kalmücken&#x93; Feodor Ivanowitsch (Göttingen, Inst. für Ethnologie, Inv.-Nr. Bi. Kat. 49).</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=234"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 222 Nr. 0790 </rs>
+               <rs type="edition">Corresp. IV, S. 222 Nr. 0790 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach IXe, fol. 6&#x96;7. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach IXe, fol. 6&#x96;7. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Tatter, Georg Ernst</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-670">Rom</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-670"
+                      sortKey="1792-12-22"
+                      when="1792-12-22"
+                      where="#orgplc-670">
+                  <label>1792, Dez. 22</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-670">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-670">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

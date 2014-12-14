@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach meldet dem Geheimen Ratskollegium in Hannover das Eintreffen der in London fÜr das Academische Museum der Universität Göttingen zusammengestellten Sammlung mit SÜdsee-Objekten, ihre Aufstellung und ihre Sicherung vor Schädlingsbefall durch neu angefertigte Vitrinen und gibt eine erste Einschätzung ihres wissenschaftlichen Nutzens ab. </title>
+            <title type="main">Blumenbach meldet dem Geheimen Ratskollegium in Hannover das Eintreffen der in London für das Academische Museum der Universität Göttingen zusammengestellten Sammlung mit Südsee-Objekten, ihre Aufstellung und ihre Sicherung vor Schädlingsbefall durch neu angefertigte Vitrinen und gibt eine erste Einschätzung ihres wissenschaftlichen Nutzens ab. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1782-07-15"> 1782, Juli 15</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/154.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,22 +57,25 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 327 Nr. 0207.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 327 Nr. 0207.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Eintreffen der Gegenstände: 11. Juli 1782.</note>
             <note>
-               <rs type="object"> 1781/1782 erworbeneObjekte der &#x84;Cook/Forster&#x93;-Sammlung des Academischen Museums; besonders erwähnt werden Umhang, Helm und Halsschmuck aus bunten Federn und das Trauergewand aus Hundehaaren.</rs>
+               <rs type="object">1781/1782 erworbeneObjekte der &#x84;Cook/Forster&#x93;-Sammlung des Academischen Museums; besonders erwähnt werden Umhang, Helm und Halsschmuck aus bunten Federn und das Trauergewand aus Hundehaaren.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> AuszÜge inUrban, Manfred, &#x84;The Acquisition History of the Göttingen Collection&#x93;, inHauser-Schäublin und KrÜger, James Cook (1998), S. 60.</rs>
+               <rs type="bibl">Auszüge inUrban, Manfred, &#x84;The Acquisition History of the Göttingen Collection&#x93;, inHauser-Schäublin und Krüger, James Cook (1998), S. 60.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Inst. fÜr Ethnologie und Ethnologische Sammlung, Archiv, Erwerbungen. </title>
+                  <title level="m" type="main">Göttingen, Inst. für Ethnologie und Ethnologische Sammlung, Archiv, Erwerbungen. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-154">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-154"
+                      sortKey="1782-07-15"
+                      when="1782-07-15"
+                      where="#orgplc-154">
+                  <label>1782, Juli 15</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-154">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-154">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Geheimes Ratskollegium </persName>
          </creation>

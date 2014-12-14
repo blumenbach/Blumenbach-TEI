@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach befÜrwortet gegenÜberder Medizinischen Fakultät der Universität Göttingen eine gemeinsame PrÜfung von Franz Joachim PÜttmann [und Johannes Lukianovitz Danilevski, Silvester Constantiniades Philites und Johann Sigismund Donner] und bestätigt eines Teilnahme an dem festgesetzten PrÜfungstermin. </title>
+            <title type="main">Blumenbach befürwortet gegenüberder Medizinischen Fakultät der Universität Göttingen eine gemeinsame Prüfung von Franz Joachim Püttmann [und Johannes Lukianovitz Danilevski, Silvester Constantiniades Philites und Johann Sigismund Donner] und bestätigt eines Teilnahme an dem festgesetzten Prüfungstermin. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1784-07-28"> 1784, Juli 28</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/216.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 181 Nr. 0302.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 181 Nr. 0302.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsarchiv, Medizin. Fak., Dekanats- und Promotionsvorgänge und -urkunden fÜr das Jahr 1784. </title>
+                  <title level="m" type="main">Göttingen, Universitätsarchiv, Medizin. Fak., Dekanats- und Promotionsvorgänge und -urkunden für das Jahr 1784. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-216">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-216"
+                      sortKey="1784-07-28"
+                      when="1784-07-28"
+                      where="#orgplc-216">
+                  <label>1784, Juli 28</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-216">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-216">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Medizinische Fakultät der Universität Göttingen </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0213</classCode>
-            <classCode scheme="anchor"> Aug1784</classCode>
+            <classCode scheme="anchor">Aug1784</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

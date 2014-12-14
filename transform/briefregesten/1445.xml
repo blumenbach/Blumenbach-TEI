@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Jean André Deluc das Diplom Über seine Mitgliedschaft in der Königlichen Societät der Wissenschaften zu Göttingen. </title>
+            <title type="main">Blumenbach sendet Jean André Deluc das Diplom über seine Mitgliedschaft in der Königlichen Societät der Wissenschaften zu Göttingen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" ca. 1815-09-14"> 1815, ca. Sept. 14</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1445.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Dougherty, Commercium epistolicum (1984), S. 107 KatNr. 126 (mit Datierung &#x84;ca. den 14. Sept. 1815&#x93;); vgl. dagegen Datierungsvermutung &#x84;20. November&#x93; in Dougherty, Frank William Peter, &#x84;Der Begriff der Naturgeschichte nach J. F. Blumenbach anhand seiner Korrespondenz mit Jean-André DeLuc&#x93;, in Dougherty, Gesammelte Aufsätze (1996), Anm. zu S. 148&#x96;158, S. 400f. Anm. 10 (Nachdruck aus Berichte zur Wissenschaftsgeschichte 9 (1986), S. 95&#x96;107).</rs>
+               <rs type="bibl">Dougherty, Commercium epistolicum (1984), S. 107 KatNr. 126 (mit Datierung &#x84;ca. den 14. Sept. 1815&#x93;); vgl. dagegen Datierungsvermutung &#x84;20. November&#x93; in Dougherty, Frank William Peter, &#x84;Der Begriff der Naturgeschichte nach J. F. Blumenbach anhand seiner Korrespondenz mit Jean-André DeLuc&#x93;, in Dougherty, Gesammelte Aufsätze (1996), Anm. zu S. 148&#x96;158, S. 400f. Anm. 10 (Nachdruck aus Berichte zur Wissenschaftsgeschichte 9 (1986), S. 95&#x96;107).</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1445">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1445"
+                      sortKey="1815-09-14"
+                      when="1815-09-14"
+                      where="#orgplc-1445">
+                  <label>1815, ca. Sept. 14</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1445">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1445">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Deluc, Jean André</persName>
          </creation>

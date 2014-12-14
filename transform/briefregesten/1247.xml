@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach berichtet Johann Heinrich Wilhelm Tischbein naturkundliche Beobachtungen zum Panther und zum Heringszug, dankt fÜr eine zugesandte Probe von Serpentin-Gestein und berichtet Über einen sechstägigen Aufenthalt in Kassel [im Febr./März 1802]. </title>
+            <title type="main">Blumenbach berichtet Johann Heinrich Wilhelm Tischbein naturkundliche Beobachtungen zum Panther und zum Heringszug, dankt für eine zugesandte Probe von Serpentin-Gestein und berichtet über einen sechstägigen Aufenthalt in Kassel [im Febr./März 1802]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1802-03-12"> 1802, März 12</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1247.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Alten, Aus Tischbein&#x92;s Leben (1872), S. 146&#x96;148.</rs>
+               <rs type="bibl">Alten, Aus Tischbein&#x92;s Leben (1872), S. 146&#x96;148.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1247">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1247"
+                      sortKey="1802-03-12"
+                      when="1802-03-12"
+                      where="#orgplc-1247">
+                  <label>1802, März 12</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1247">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1247">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Tischbein, Johann Heinrich Wilhelm</persName>
          </creation>

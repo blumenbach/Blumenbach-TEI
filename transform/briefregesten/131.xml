@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Das Geheime Ratskollegium beauftragt Blumenbach, den Transport der fÜr das Academische Museum der Universität Göttingenangekauften Mineralien- und Modellsammlung des Clausthaler Oberbergmeisters Georg Andreas Stelzner zu organisieren und die Sammlung in Clausthal abzuholen. </title>
+            <title type="main">Das Geheime Ratskollegium beauftragt Blumenbach, den Transport der für das Academische Museum der Universität Göttingenangekauften Mineralien- und Modellsammlung des Clausthaler Oberbergmeisters Georg Andreas Stelzner zu organisieren und die Sammlung in Clausthal abzuholen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Geheimes Ratskollegium </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Hannover</pubPlace>
-            <date type="publication" when=" 1781-12-10"> 1781, Dez. 10</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/131.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 287 Nr. 0174.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 287 Nr. 0174.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Adressaten sind Chr. G. Heyne und Blumenbach </note>
             <note>
-               <rs type="object"> Mineralien- und Modellsammlung des Clausthaler Oberbergmeisters Stelzner, angekauft fÜr das Academ. Museum.</rs>
+               <rs type="object">Mineralien- und Modellsammlung des Clausthaler Oberbergmeisters Stelzner, angekauft für das Academ. Museum.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsarchiv, Kur. 7343, S. 17&#x96;18. </title>
+                  <title level="m" type="main">Göttingen, Universitätsarchiv, Kur. 7343, S. 17&#x96;18. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Geheimes Ratskollegium </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-131">Hannover</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-131"
+                      sortKey="1781-12-10"
+                      when="1781-12-10"
+                      where="#orgplc-131">
+                  <label>1781, Dez. 10</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-131">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-131">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Heyne Christian Gottlob; Blumenbach, Johann Friedrich </persName>
          </creation>

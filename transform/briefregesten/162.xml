@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Das Geheime Ratskollegium in Hannover benachrichtigt (Christian Gottlob Heyne und) Blumenbachvon dem bevorstehenden Eintreffen weiterer SÜdsee-Objekte fÜr das Academische Museum der Universität Göttingen. </title>
+            <title type="main">Das Geheime Ratskollegium in Hannover benachrichtigt (Christian Gottlob Heyne und) Blumenbachvon dem bevorstehenden Eintreffen weiterer Südsee-Objekte für das Academische Museum der Universität Göttingen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Geheimes Ratskollegium </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Hannover</pubPlace>
-            <date type="publication" when=" 1782-09-18"> 1782, Sept. 18</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/162.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 340 Nr. 0217.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 340 Nr. 0217.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,14 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> AuszÜge inUrban, Manfred, &#x84;The Acquisition History of the Göttingen Collection&#x93;, inHauser-Schäublin und KrÜger, James Cook (1998), S. 61.</rs>
+               <rs type="bibl">Auszüge inUrban, Manfred, &#x84;The Acquisition History of the Göttingen Collection&#x93;, inHauser-Schäublin und Krüger, James Cook (1998), S. 61.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item">Im Sommer 1782 zusätzlich erworbene Südsee-Objekte für das Academische Museum; ein im Brief alsbeiliegend erwähntes Verzeichnis laut Dougherty, Corresp. nicht ermittelbar. 
+</rs>
             </note>
             <note/>
             <note>
@@ -83,7 +87,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Inst. fÜr Ethnologie und Ethnologische Sammlung, Archiv, Erwerbungen. </title>
+                  <title level="m" type="main">Göttingen, Inst. für Ethnologie und Ethnologische Sammlung, Archiv, Erwerbungen. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Geheimes Ratskollegium </persName>
                   </author>
@@ -96,6 +100,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-162">Hannover</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-162"
+                      sortKey="1782-09-18"
+                      when="1782-09-18"
+                      where="#orgplc-162">
+                  <label>1782, Sept. 18</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +128,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-162">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-162">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Heyne, Christian Gottlob und Blumenbach, Johann Friedrich </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0161</classCode>
-            <classCode scheme="anchor"> Okt1782</classCode>
+            <classCode scheme="anchor">Okt1782</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

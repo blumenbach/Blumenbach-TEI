@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teilt Georges(-Léopold-Chrétien, Baron de) Cuvier mit, welche fossilen Tierknochen aus verschiedenen europäischen Fundstätten er kenne und besitze, erörtert die von verschiedenen Forschern vorgelegten Identifikationen der Tierarten, von denen diese Knochen stammen, und berichtet Über die neuesten Fossilienfunde in Hessen und ThÜringen. </title>
+            <title type="main">Blumenbach teilt Georges(-Léopold-Chrétien, Baron de) Cuvier mit, welche fossilen Tierknochen aus verschiedenen europäischen Fundstätten er kenne und besitze, erörtert die von verschiedenen Forschern vorgelegten Identifikationen der Tierarten, von denen diese Knochen stammen, und berichtet über die neuesten Fossilienfunde in Hessen und Thüringen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1799-12-02"> 1799, Dez. 2</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1127.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,36 +57,39 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 419&#x96;421 Nr. 1262.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 419&#x96;421 Nr. 1262.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Fossile Knochen aus Gibraltar; fossile Bärenknochen und Knochen andere Tiere aus der Altensteiner Höhle und aus dem Fichtelgebirge; fossiler Schildkrötenpanzer aus Burgtonna; Cuviers Abbildungen fossiler Knochen aus Frankreich.</rs>
+               <rs type="object">Fossile Knochen aus Gibraltar; fossile Bärenknochen und Knochen andere Tiere aus der Altensteiner Höhle und aus dem Fichtelgebirge; fossiler Schildkrötenpanzer aus Burgtonna; Cuviers Abbildungen fossiler Knochen aus Frankreich.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug inDougherty, Corresp. IV,S. 512.</rs>
+               <rs type="bibl">Auszug inDougherty, Corresp. IV,S. 512.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=524"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=435"/>
             </note>
             <note>
-               <rs type="edition"> Dougherty, Corresp. IV,S. 512   Corresp. V, S. 419&#x96;421 Nr. 1262 </rs>
+               <rs type="edition">Dougherty, Corresp. IV,S. 512  Corresp. V, S. 419&#x96;421 Nr. 1262 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Wellcome Library in London, ALS Blumenbach. </title>
+                  <title level="m" type="main">Wellcome Library in London, ALS Blumenbach. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1127">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1127"
+                      sortKey="1799-12-02"
+                      when="1799-12-02"
+                      where="#orgplc-1127">
+                  <label>1799, Dez. 2</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1127">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1127">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Cuvier, Georges (Georges-Léopold-Chrétien, Baron de Cuvier)</persName>
          </creation>

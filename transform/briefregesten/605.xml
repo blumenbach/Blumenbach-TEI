@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Friedrich Gabriel Sulzer sendet Blumenbach fÜr dessen bevorstehende Englandreise Ratschläge fÜr Reiserouten, Verkehrsmittel und UnterkÜnfte in den Niederlanden und fÜr die Überfahrt Über den ärmelkanal. </title>
+            <title type="main">Friedrich Gabriel Sulzer sendet Blumenbach für dessen bevorstehende Englandreise Ratschläge für Reiserouten, Verkehrsmittel und Unterkünfte in den Niederlanden und für die überfahrt über den ärmelkanal. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Sulzer, Friedrich Gabriel</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Rothenburg a. d. Fulda</pubPlace>
-            <date type="publication" when=" 1791-10-14"> 1791, Okt. 14</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/605.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 113 Nr. 0706.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 113 Nr. 0706.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=125"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 113 Nr. 0706 </rs>
+               <rs type="edition">Corresp. IV, S. 113 Nr. 0706 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 3 (Sulzer Nr. 1). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 3 (Sulzer Nr. 1). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Sulzer, Friedrich Gabriel</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-605">Rothenburg a. d. Fulda</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-605"
+                      sortKey="1791-10-14"
+                      when="1791-10-14"
+                      where="#orgplc-605">
+                  <label>1791, Okt. 14</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-605">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-605">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann(es) Matthias Merk schildert Blumenbach die Krankengeschichte eines verstorbenen gemeinsamen Bekannten. </title>
+            <title type="main">Johann(es) Matthias Merk schildert Blumenbach die Krankengeschichte eines verstorbenen gemeinsamen Bekannten. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Merk, Johann(es) Matthias</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Ravensburg</pubPlace>
-            <date type="publication" when=" 1786-02-01"> 1786, Febr.</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/315.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 12 Nr. 0403.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 12 Nr. 0403.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=30"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 12 Nr. 0403 </rs>
+               <rs type="edition">Corresp. III, S. 12 Nr. 0403 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren, Überlieferung durch Druck in Medicinische Bibliothek Bd. 2,3. StÜck. </title>
+                  <title level="m" type="main">Or. verloren, überlieferung durch Druck in Medicinische Bibliothek Bd. 2,3. Stück. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Merk, Johann(es) Matthias</persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-315">Ravensburg</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1786-02-01">
-                  <label> 1786, Febr.</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-315"
+                      sortKey="1786-02-01"
+                      notBefore="1786-02-01"
+                      where="#orgplc-315">
+                  <label>1786, Febr.</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-315">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-315">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0311</classCode>
-            <classCode scheme="anchor"> Maerz1786</classCode>
+            <classCode scheme="anchor">Maerz1786</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Paul Scheel sendetBlumenbach [den Schädels eines Javaners?] </title>
+            <title type="main">Paul Scheel sendetBlumenbach [den Schädels eines Javaners?] </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Scheel, Paul</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Kopenhagen</pubPlace>
-            <date type="publication" when=" 1803-12-20"> 1803, Dez.20</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1285.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Inhaltsangabe zu drei in Göttingen Überlieferten Briefen P. Scheels an Blumenbach:&#x84;besonders Über einen Javaner-Schädel [= Schädel des &#x84;Mohren&#x93; Nassir aus Java ?, vgl. Brief von J. Chr. W. Wendt an Blumenbach vom 19. Dez. 1803], Über Schumacher&#x92;s Sammlung, Juul&#x92;s [= Jens Jørgensen Juels] Gemälde eines Chinesen und den Abguss von Raphael&#x92;s Schädel&#x93; (Meyer, Handschriften in Göttingen 3 (1894), S. 77). Identische Beschreibungen des Gemäldes von J. J. Juel (&#x84;erhalten von Hofmed. Scheel&#x93;)in Blumenbachs hs. Sammlungsverzeichnissen, SUB Göttingen, Cod. Ms. Blumenbach I Nr. 3 (fol. 11r) und Cod. Ms. Blumenbach I Nr. 4 (pag. 21). </note>
+            <note>Inhaltsangabe zu drei in Göttingen überlieferten Briefen P. Scheels an Blumenbach:&#x84;besonders über einen Javaner-Schädel [= Schädel des &#x84;Mohren&#x93; Nassir aus Java ?, vgl. Brief von J. Chr. W. Wendt an Blumenbach vom 19. Dez. 1803], über Schumacher&#x92;s Sammlung, Juul&#x92;s [= Jens Jørgensen Juels] Gemälde eines Chinesen und den Abguss von Raphael&#x92;s Schädel&#x93; (Meyer, Handschriften in Göttingen 3 (1894), S. 77). Identische Beschreibungen des Gemäldes von J. J. Juel (&#x84;erhalten von Hofmed. Scheel&#x93;)in Blumenbachs hs. Sammlungsverzeichnissen, SUB Göttingen, Cod. Ms. Blumenbach I Nr. 3 (fol. 11r) und Cod. Ms. Blumenbach I Nr. 4 (pag. 21). </note>
             <note>
-               <rs type="object"> Zur Identifikation des Schädels vgl. Spengel, Anthropologische Sammlung, S. 49 Anm. ad 45: &#x84;1803. Von Hofrath Scheel in Kopenhagen. Ein »javanischer Mohr« Namens Nassir, 1802 in Kopenhagen 26 Jahre alt, gestorben; war in Java geboren und erzogen.&#x93; Das Gemälde von J. J. Juel befindet sich heute in der Kunstsammlung der Georg-August Universität Göttingen.</rs>
+               <rs type="object">Zur Identifikation des Schädels vgl. Spengel, Anthropologische Sammlung, S. 49 Anm. ad 45: &#x84;1803. Von Hofrath Scheel in Kopenhagen. Ein »javanischer Mohr« Namens Nassir, 1802 in Kopenhagen 26 Jahre alt, gestorben; war in Java geboren und erzogen.&#x93; Das Gemälde von J. J. Juel befindet sich heute in der Kunstsammlung der Georg-August Universität Göttingen.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553"/>
             </note>
             <note>
-               <rs type="edition"> Spengel, Anthropologische Sammlung </rs>
+               <rs type="edition">Spengel, Anthropologische Sammlung </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms.Blumenbach III,fol. ?, vgl. Meyer, Handschriften in Göttingen 3 (1894), S. 77. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms.Blumenbach III,fol. ?, vgl. Meyer, Handschriften in Göttingen 3 (1894), S. 77. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Scheel, Paul</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1285">Kopenhagen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1285"
+                      sortKey="1803-12-20"
+                      when="1803-12-20"
+                      where="#orgplc-1285">
+                  <label>1803, Dez.20</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1285">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1285">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

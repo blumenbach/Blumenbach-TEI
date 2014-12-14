@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Friedrich Alexander von Wenckstern bittet Blumenbach um Informationen Über die Verfassung der Universität Göttingen, um die der venezianischen Botschafter in Wien ihn gebeten habe. </title>
+            <title type="main">Friedrich Alexander von Wenckstern bittet Blumenbach um Informationen über die Verfassung der Universität Göttingen, um die der venezianischen Botschafter in Wien ihn gebeten habe. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Wenckstern, Friedrich Alexander von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Wien</pubPlace>
-            <date type="publication" when=" 1787-09-22"> 1787, Sept. 22</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/383.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 123 Nr. 0474.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 123 Nr. 0474.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=141"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 123 Nr. 0474 </rs>
+               <rs type="edition">Corresp. III, S. 123 Nr. 0474 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Leipzig, Universitätsbibliothek, Sammlung Kestner II A IV, 177. </title>
+                  <title level="m" type="main">Leipzig, Universitätsbibliothek, Sammlung Kestner II A IV, 177. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Wenckstern, Friedrich Alexander von</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-383">Wien</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-383"
+                      sortKey="1787-09-22"
+                      when="1787-09-22"
+                      where="#orgplc-383">
+                  <label>1787, Sept. 22</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-383">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-383">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0379</classCode>
-            <classCode scheme="anchor"> Okt1787</classCode>
+            <classCode scheme="anchor">Okt1787</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

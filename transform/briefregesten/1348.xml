@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendetCarl August Böttiger [u. a. ein Exemplar der 8. Auflageseines Handbuchs der Naturgeschichte (1807) und bittet um die Beschaffung einer Abbildung der ägyptischen Mumien im Dresdener Augusteum und einen fossilen sog. &#x84;Madenstein&#x93;]. </title>
+            <title type="main">Blumenbach sendetCarl August Böttiger [u. a. ein Exemplar der 8. Auflageseines Handbuchs der Naturgeschichte (1807) und bittet um die Beschaffung einer Abbildung der ägyptischen Mumien im Dresdener Augusteum und einen fossilen sog. &#x84;Madenstein&#x93;]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>  Göttingen</pubPlace>
-            <date type="publication" when=" 1807-04-14"> 1807, Apr. 14</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1348.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,24 +69,27 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug inSternke, René, &#x84;Juno die Schwanzsaugerin&#x93;, in: ders. (Hg.): Böttiger-LektÜren: Die Antike als SchlÜssel zur Moderne. Berlin 2012, S. 209&#x96;338, hier S. 286. </rs>
+               <rs type="bibl">Auszug inSternke, René, &#x84;Juno die Schwanzsaugerin&#x93;, in: ders. (Hg.): Böttiger-Lektüren: Die Antike als Schlüssel zur Moderne. Berlin 2012, S. 209&#x96;338, hier S. 286. </rs>
             </note>
             <note>
-               <rs type="lz"> Handbuch der Naturgeschichte, 8. Ausgabe (1807); Bibliographie Nr. 00030).</rs>
+               <rs type="lz">Handbuch der Naturgeschichte, 8. Ausgabe (1807); Bibliographie Nr. 00030).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://hansopac.slub-dresden.de/"/>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00030"/>
             </note>
             <note>
-               <rs type="edition"> hansopac.slub-dresden.de   00030 </rs>
+               <rs type="edition">hansopac.slub-dresden.de  00030 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Dresden, Sächsische Landesbibliothek &#x96; Staats- und Universitätsbibliothek (SLUB), Mscr. Dresd. h. 37, 4°, Bd. 14, Nr. 2; vgl. online-Handschriftenkatalog der SLUB, hansopac.slub-dresden.de.</title>
+                  <title level="m" type="main">Dresden, Sächsische Landesbibliothek &#x96; Staats- und Universitätsbibliothek (SLUB), Mscr. Dresd. h. 37, 4°, Bd. 14, Nr. 2; vgl. online-Handschriftenkatalog der SLUB, hansopac.slub-dresden.de.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1348"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1348"
+                      sortKey="1807-04-14"
+                      when="1807-04-14"
+                      where="#orgplc-1348">
+                  <label>1807, Apr. 14   Göttingen</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1348">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1348">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Böttiger, Carl August</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Pieter Camper einExemplar des ersten Heftes seiner Medicinischen Bibliothek, berichtet summarisch Über Neuerwerbungen des Academischen Museums der Universität Göttingen im Jahr 1782 und den Diebstahl des Silberstufe und Über seine Identifikation eines Fossilienfundes an der Unstrut als Mammut. </title>
+            <title type="main">Blumenbach sendet Pieter Camper einExemplar des ersten Heftes seiner Medicinischen Bibliothek, berichtet summarisch über Neuerwerbungen des Academischen Museums der Universität Göttingen im Jahr 1782 und den Diebstahl des Silberstufe und über seine Identifikation eines Fossilienfundes an der Unstrut als Mammut. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1783-03-10"> 1783, März 10</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/176.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,38 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 22 Nr. 0238.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 22 Nr. 0238.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Summarische Erwähnung von Mineralien und SÜdsee-Objekten, die im Jahr 1782 erworben wurden.</rs>
+               <rs type="object">Summarische Erwähnung von Mineralien und Südsee-Objekten, die im Jahr 1782 erworben wurden.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Kurze (und (laut Dougherty, Corresp. II, Nr. 0238 fehlerhafte) Inhaltsangabe in Gysel, Carlos: &#x84;Les relations du jeune Blumenbach avec Camper vieillissant&#x93;, in Histoire des sciences médicales, XVII (1983), S. 138.</rs>
+               <rs type="bibl">Kurze (und (laut Dougherty, Corresp. II, Nr. 0238 fehlerhafte) Inhaltsangabe in Gysel, Carlos: &#x84;Les relations du jeune Blumenbach avec Camper vieillissant&#x93;, in Histoire des sciences médicales, XVII (1983), S. 138.</rs>
             </note>
             <note>
-               <rs type="lz"> Medicinische Bibliothek I,1 (1783), S. 173&#x96;179 (= Bibliographie Nr. 0942); &#x84;Ueberbleibsel einer 21jährigen Leibesfrucht&#x93;, inibid., S. 152&#x96;155 (= Bibliographie[ohne Nr.]; &#x84;Anmerkungen Über des H. Troja Experimenta de novorum ossium regeneratione&#x93; in Chirurgische Bibliothek6,1 (1782), S. 107&#x96;112 (Bibliographie Nr. 00789). </rs>
+               <rs type="lz">Medicinische Bibliothek I,1 (1783), S. 173&#x96;179 (= Bibliographie Nr. 0942); &#x84;Ueberbleibsel einer 21jährigen Leibesfrucht&#x93;, inibid., S. 152&#x96;155 (= Bibliographie[ohne Nr.]; &#x84;Anmerkungen über des H. Troja Experimenta de novorum ossium regeneratione&#x93; in Chirurgische Bibliothek6,1 (1782), S. 107&#x96;112 (Bibliographie Nr. 00789). </rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00942"/>
             </note>
             <note>
-               <rs type="edition"> 0942 </rs>
+               <rs type="edition">0942 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Amsterdam, Universiteitsbibliotheek, Bijzondere Collecties, Hs. X 11d.</title>
+                  <title level="m" type="main">Amsterdam, Universiteitsbibliotheek, Bijzondere Collecties, Hs. X 11d.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-176">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-176"
+                      sortKey="1783-03-10"
+                      when="1783-03-10"
+                      where="#orgplc-176">
+                  <label>1783, März 10</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-176">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-176">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Camper, Pieter </persName>
          </creation>

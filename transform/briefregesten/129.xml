@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Christoph Lichtenberg dankt Blumenbach fÜr das Angebot eines Beitrags zum Göttingischen Magazin der Wissenschaft und Litteratur, bittet Blumenbach, unter dessen Korrespondenten nach Beiträgern fÜr das Magazin zu suchen, und äußert die Hoffnung, dass Blumenbach Georg Forster als Mitherausgeber des Magazins ersetzen könne. </title>
+            <title type="main">Georg Christoph Lichtenberg dankt Blumenbach für das Angebot eines Beitrags zum Göttingischen Magazin der Wissenschaft und Litteratur, bittet Blumenbach, unter dessen Korrespondenten nach Beiträgern für das Magazin zu suchen, und äußert die Hoffnung, dass Blumenbach Georg Forster als Mitherausgeber des Magazins ersetzen könne. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1781-10-16"> 1781, Okt. 16</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/129.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 278 Nr. 0167.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 278 Nr. 0167.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 17; Lichtenberg, Briefwechsel, Bd. 2 (1985), Nr. 862, S. 266&#x96;267.</rs>
+               <rs type="bibl">Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 17; Lichtenberg, Briefwechsel, Bd. 2 (1985), Nr. 862, S. 266&#x96;267.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826. </title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-129">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-129"
+                      sortKey="1781-10-16"
+                      when="1781-10-16"
+                      where="#orgplc-129">
+                  <label>1781, Okt. 16</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-129">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-129">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0128</classCode>
-            <classCode scheme="anchor"> Dez1781</classCode>
+            <classCode scheme="anchor">Dez1781</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

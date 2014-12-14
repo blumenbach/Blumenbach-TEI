@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach dankt Georg Forster fÜr zwei ihm zugesandte Mineralienproben aus England und zwei Publikationen Forsters. </title>
+            <title type="main">Blumenbach dankt Georg Forster für zwei ihm zugesandte Mineralienproben aus England und zwei Publikationen Forsters. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1791-06-05"> 1791, Juni 5</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/579.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 60 Nr. 0679.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 60 Nr. 0679.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,24 +69,27 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Vgl. Erwähnung in Forsters Brieftagebuch, Steiner/Fiedler, Forsters Werke, Bd. 16 (1980), Anhang, S. 603.</rs>
+               <rs type="bibl">Vgl. Erwähnung in Forsters Brieftagebuch, Steiner/Fiedler, Forsters Werke, Bd. 16 (1980), Anhang, S. 603.</rs>
             </note>
             <note>
-               <rs type="lz"> Handbuch der Naturgeschichte (4. Auf., 1791; Bibliographie Nr.00025).</rs>
+               <rs type="lz">Handbuch der Naturgeschichte (4. Auf., 1791; Bibliographie Nr.00025).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00025"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=72"/>
             </note>
             <note>
-               <rs type="edition"> 00025   Corresp. IV, S. 60 Nr. 0679 </rs>
+               <rs type="edition">00025  Corresp. IV, S. 60 Nr. 0679 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Krakau, Biblioteka Jagiellonska, Sammlung -von Radowitz, Nr. 3679. </title>
+                  <title level="m" type="main">Krakau, Biblioteka Jagiellonska, Sammlung -von Radowitz, Nr. 3679. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-579">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-579"
+                      sortKey="1791-06-05"
+                      when="1791-06-05"
+                      where="#orgplc-579">
+                  <label>1791, Juni 5</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-579">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-579">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Forster, Georg</persName>
          </creation>

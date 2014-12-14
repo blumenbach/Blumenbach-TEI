@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Heinrich Röntgen berichtet Blumenbach, dass erzur Vorbereitung seiner Afrika-Expedition eine Beschneidung an sich habe durchfÜhren lassen. </title>
+            <title type="main">Georg Heinrich Röntgen berichtet Blumenbach, dass erzur Vorbereitung seiner Afrika-Expedition eine Beschneidung an sich habe durchführen lassen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Röntgen, GeorgHeinrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1808-07-08"> 1808, Juli 8</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1368.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Plischke, Hans: Johann Friedrich Blumenbachs Einfluß auf die Entdeckungsreisenden seiner Zeit. Göttingen 1937, S. 95 Nr. 7a.</rs>
+               <rs type="bibl">Plischke, Hans: Johann Friedrich Blumenbachs Einfluß auf die Entdeckungsreisenden seiner Zeit. Göttingen 1937, S. 95 Nr. 7a.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -96,9 +99,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1368">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1808-07-08">
-                  <label> 1808, Juli 8</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1368"
+                      sortKey="1808-07-08"
+                      notAfter="1808-07-08"
+                      where="#orgplc-1368">
+                  <label>1808, Juli 8</label>
                </event>
             </listEvent>
             <msDesc>
@@ -115,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1368">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1368">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach äußert gegenÜber Samuel Thomas von Soemmerring [u. a. seine Verwunderung Über dessen Ansicht, der Georgierinnen-Schädel aus seiner Sammlung habe an Schönheit eingebÜßt, da dieser mit Ausnahme von zwei Ausleihen an Soemmerring in den Jahren 1795 und 1814 seit seinem Eintreffen in Göttingen im Jahr 1793 sicher aufbewahrt worden sei]. </title>
+            <title type="main">Blumenbach äußert gegenüber Samuel Thomas von Soemmerring [u. a. seine Verwunderung über dessen Ansicht, der Georgierinnen-Schädel aus seiner Sammlung habe an Schönheit eingebüßt, da dieser mit Ausnahme von zwei Ausleihen an Soemmerring in den Jahren 1795 und 1814 seit seinem Eintreffen in Göttingen im Jahr 1793 sicher aufbewahrt worden sei]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> [Göttingen]</pubPlace>
-            <date type="publication" when=" 1815-02-12"> 1815, Febr.12</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1432.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,22 +57,25 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Schädel einer Georgierin (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 546 [Modellschädel fÜr Blumenbachs kaukasische Varietät der Spezies Mensch]; Abb. in Decas craniorum 3 (1795), Tafel 21 (Bibliographie Nr. 00094) und in Abb. naturhist. Gegenstände 6 (1802), Abb. 51 (Bibliographie Nr. 00707), Fotos in Károlyi, Zeitschrift fÜr Morphologie und Anthropologie 1966, Tafel 17 unten.</rs>
+               <rs type="object">Schädel einer Georgierin (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 546 [Modellschädel für Blumenbachs kaukasische Varietät der Spezies Mensch]; Abb. in Decas craniorum 3 (1795), Tafel 21 (Bibliographie Nr. 00094) und in Abb. naturhist. Gegenstände 6 (1802), Abb. 51 (Bibliographie Nr. 00707), Fotos in Károlyi, Zeitschrift für Morphologie und Anthropologie 1966, Tafel 17 unten.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug inDougherty, Corresp. IV,S. 256 Nr. 0811 Anm. *.</rs>
+               <rs type="bibl">Auszug inDougherty, Corresp. IV,S. 256 Nr. 0811 Anm. *.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=268"/>
@@ -80,14 +83,14 @@
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00707"/>
             </note>
             <note>
-               <rs type="edition"> Dougherty, Corresp. IV,S. 256 Nr. 0811 Anm. *   0009400707 </rs>
+               <rs type="edition">Dougherty, Corresp. IV,S. 256 Nr. 0811 Anm. *  0009400707 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Frankfurt am Main, Freies Deutsches Hochstift (Frankfurter Goethemuseum) Nr. 4961. </title>
+                  <title level="m" type="main">Frankfurt am Main, Freies Deutsches Hochstift (Frankfurter Goethemuseum) Nr. 4961. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -100,6 +103,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1432"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1432"
+                      sortKey="1815-02-12"
+                      when="1815-02-12"
+                      where="#orgplc-1432">
+                  <label>1815, Febr.12  [Göttingen]</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -114,6 +131,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1432">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1432">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Soemmerring, Samuel Thomas von </persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Johann Heinrich Friedrich Autenrieth Zeichnungen zur Anatomie der SchollezurÜck, spricht die Vermutung aus, dass die in Bad Cannstatt gefundenen Fossilien aus verschiedenen Epochen stammen, und berichtet vom Eintreffen des von Autenriethin seinem Brief vom 12. April 1795 beschriebenen Schädels eines Illinois-Indianers aus dem Besitz von Benjamin Smith Barton. </title>
+            <title type="main">Blumenbach sendet Johann Heinrich Friedrich Autenrieth Zeichnungen zur Anatomie der Schollezurück, spricht die Vermutung aus, dass die in Bad Cannstatt gefundenen Fossilien aus verschiedenen Epochen stammen, und berichtet vom Eintreffen des von Autenriethin seinem Brief vom 12. April 1795 beschriebenen Schädels eines Illinois-Indianers aus dem Besitz von Benjamin Smith Barton. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1797-08-16"> 1797, Aug. 16</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/943.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,36 +57,39 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 151&#x96;152 Nr. 1079.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 151&#x96;152 Nr. 1079.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Schädel eines Illinois-Indianers (Göttingen, Inst. f. Anatomie, Schädelsammlung, Nr. 714; Abb. in Decas craniorum 4 (1800), Tafel 38; Bibliographie Nr.00095);vgl. Blumenbachs Verzeichnis seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, IV, fol. 5.</rs>
+               <rs type="object">Schädel eines Illinois-Indianers (Göttingen, Inst. f. Anatomie, Schädelsammlung, Nr. 714; Abb. in Decas craniorum 4 (1800), Tafel 38; Bibliographie Nr.00095);vgl. Blumenbachs Verzeichnis seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, IV, fol. 5.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> AuszuginDougherty, Corresp. IV, S. 389 Nr. 0899, Anm. 64.</rs>
+               <rs type="bibl">AuszuginDougherty, Corresp. IV, S. 389 Nr. 0899, Anm. 64.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=401"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=167"/>
             </note>
             <note>
-               <rs type="edition"> Dougherty, Corresp. IV, S. 389 Nr. 0899, Anm. 64   Corresp. V, S. 151&#x96;152 Nr. 1079 </rs>
+               <rs type="edition">Dougherty, Corresp. IV, S. 389 Nr. 0899, Anm. 64  Corresp. V, S. 151&#x96;152 Nr. 1079 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Stuttgart, WÜrttembergische Landesbibliothek, Cod. Hist. 4° 325 (Autenrieth Briefe), fol. 118. </title>
+                  <title level="m" type="main">Stuttgart, Württembergische Landesbibliothek, Cod. Hist. 4° 325 (Autenrieth Briefe), fol. 118. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-943">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-943"
+                      sortKey="1797-08-16"
+                      when="1797-08-16"
+                      where="#orgplc-943">
+                  <label>1797, Aug. 16</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-943">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-943">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Autenrieth, Johann Heinrich Ferdinand</persName>
          </creation>

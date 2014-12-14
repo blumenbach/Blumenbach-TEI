@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendetJohann Wolfgang von Goethe im Auftrag der Königlichen Societätder Wissenschaften zu Göttingendas Diplom Über dessen Ernennung zum auswärtigen Mitgliedund kÜndigt an, dass erHerzog Karl August von Sachsen-Weimar-Eisenach leihweise ein in England in besonderer Weise gebundenes Buch und als Geschenk ein StÜck Wurzelholz von der Norfolk-Tanne (&#x84;Columnia pinifolia&#x93;) senden werde. </title>
+            <title type="main">Blumenbach sendetJohann Wolfgang von Goethe im Auftrag der Königlichen Societätder Wissenschaften zu Göttingendas Diplom über dessen Ernennung zum auswärtigen Mitgliedund kündigt an, dass erHerzog Karl August von Sachsen-Weimar-Eisenach leihweise ein in England in besonderer Weise gebundenes Buch und als Geschenk ein Stück Wurzelholz von der Norfolk-Tanne (&#x84;Columnia pinifolia&#x93;) senden werde. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1823-11-23"> 1823, Nov. 23</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1534.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Druck inGoethe&#x92;s Naturwissenschaftliche Correspondenz (1812&#x96;1832)wohl mit Fehllesung &#x84;Wipfel&#x93; statt&#x84;Wurzel&#x93;.</note>
             <note>
-               <rs type="object"> Verschenkt: HolzstÜck von der&#x84;Columnia pinifolia&#x93; (erhalten als Geschenk von Joseph Banks).</rs>
+               <rs type="object">Verschenkt: Holzstück von der&#x84;Columnia pinifolia&#x93; (erhalten als Geschenk von Joseph Banks).</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -72,13 +72,16 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Goethe&#x92;s Naturwissenschaftliche Correspondenz (1812&#x96;1832). Bd. 1 (1874), S. 46&#x96;47 Nr. 27.</rs>
+               <rs type="lz">Goethe&#x92;s Naturwissenschaftliche Correspondenz (1812&#x96;1832). Bd. 1 (1874), S. 46&#x96;47 Nr. 27.</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://archive.org/stream/naturwissenschaf01goet#page/46/mode/2up"/>
             </note>
             <note>
-               <rs type="edition"> S. 46&#x96;47 Nr. 27 </rs>
+               <rs type="edition">S. 46&#x96;47 Nr. 27 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1534">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1534"
+                      sortKey="1823-11-23"
+                      when="1823-11-23"
+                      where="#orgplc-1534">
+                  <label>1823, Nov. 23</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1534">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1534">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Goethe, Johann Wolfgang von</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach bittet dashannoverscheCabinets-Ministerium, Friedrich Benjamin Osiander die Mitaufsicht Über die zoologischen und die ethnographischen Sammlungen des Academischen Museums in Göttingen zu Übertragen. </title>
+            <title type="main">Blumenbach bittet dashannoverscheCabinets-Ministerium, Friedrich Benjamin Osiander die Mitaufsicht über die zoologischen und die ethnographischen Sammlungen des Academischen Museums in Göttingen zu übertragen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1815, vor Okt. 4"> 1815, vor Okt. 4</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1446.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Inhaltsangabe und Auszug in Urban, Manfred, &#x84;The Acquisition History of the Göttingen Collection&#x93;, in Hauser-Schäublin und KrÜger, James Cook (1998), S. 75.</rs>
+               <rs type="bibl">Inhaltsangabe und Auszug in Urban, Manfred, &#x84;The Acquisition History of the Göttingen Collection&#x93;, in Hauser-Schäublin und Krüger, James Cook (1998), S. 75.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsarchiv, 4Vg/5.</title>
+                  <title level="m" type="main">Göttingen, Universitätsarchiv, 4Vg/5.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1446">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1446"
+                      sortKey="1815, vor Okt. 4"
+                      when="1815, vor Okt. 4"
+                      where="#orgplc-1446">
+                  <label>1815, vor Okt. 4</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1446">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1446">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Cabinets-Ministerium des Königreichs Hannover </persName>
          </creation>

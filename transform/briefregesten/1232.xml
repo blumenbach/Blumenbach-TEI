@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbachs Eintrag in das Stammbuch von Achim von Arnim. </title>
+            <title type="main">Blumenbachs Eintrag in das Stammbuch von Achim von Arnim. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1801-07-26"> 1801, Juli 26</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1232.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,22 +57,25 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note/>
+            <note>  </note>
             <note>
                <rs type="object"/>
             </note>
             <note>
-               <rs type="span">  </rs>
+               <rs type="span"/>
             </note>
             <note>
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Ludwig Achim von Arnim. Briefwechsel 1788&#x96;1801. Hg. von Heinz Härtl. TÜbingen 2000 (= Weimarer Arnim-Ausgabe Bd. 30), S. 207 Nr. AI.32 mit Abb. (nach S. 228) und Kommentar S. 603.</rs>
+               <rs type="lz">Ludwig Achim von Arnim. Briefwechsel 1788&#x96;1801. Hg. von Heinz Härtl. Tübingen 2000 (= Weimarer Arnim-Ausgabe Bd. 30), S. 207 Nr. AI.32 mit Abb. (nach S. 228) und Kommentar S. 603.</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Deutsches Literaturarchiv , Schiller-Nationalmuseum Marbach a. N.</title>
+                  <title level="m" type="main">Deutsches Literaturarchiv , Schiller-Nationalmuseum Marbach a. N.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1232">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1232"
+                      sortKey="1801-07-26"
+                      when="1801-07-26"
+                      where="#orgplc-1232">
+                  <label>1801, Juli 26</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1232">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1232">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Arnim, Achim von</persName>
          </creation>

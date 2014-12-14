@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Heinrich Ferdinand Autenrieth bekundetBlumenbach sein Interessen an Nachrichten Über das neu entdeckte Schnabeltier, sendet Publikationen Über seine Untersuchungen zur Funktion der Placenta, zur Verdauung und zur Anatomie des Auges, bittet erneut, ihm leihweise seine frÜheren Briefe zu Überlassen, damit er sich Abschriften davon anfertigen könne, und berichtet, dass er seine mineralogischen und zoologischen Sammlungen zur Auswertung an andere Forscher verschenkt habe. </title>
+            <title type="main">Johann Heinrich Ferdinand Autenrieth bekundetBlumenbach sein Interessen an Nachrichten über das neu entdeckte Schnabeltier, sendet Publikationen über seine Untersuchungen zur Funktion der Placenta, zur Verdauung und zur Anatomie des Auges, bittet erneut, ihm leihweise seine früheren Briefe zu überlassen, damit er sich Abschriften davon anfertigen könne, und berichtet, dass er seine mineralogischen und zoologischen Sammlungen zur Auswertung an andere Forscher verschenkt habe. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Autenrieth, Johann Heinrich Ferdinand</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Stuttgart</pubPlace>
-            <date type="publication" when=" 1800-04-08"> 1800, Apr. 8</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1158.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 455&#x96;457 Nr. 1293.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 455&#x96;457 Nr. 1293.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Die Transkription von Dougherty scheint Fehler zu enthalten (&#x84;unendlich richtig&#x93; lies: unendlich wichtig?; &#x84;Austheilung der infra orbital Nerven&#x93; lies:Auftheilung der infra orbital Nerven?). InAnm. 23 wird &#x84;choroidea&#x93; als &#x84;Adergeflecht des Gehirns&#x93; erläutert; gemeint ist aber eher die Aderhaut des Auges, vgl. die in Anm. 24 genannte diesbezÜgliche Dissertation.</note>
+            <note>Die Transkription von Dougherty scheint Fehler zu enthalten (&#x84;unendlich richtig&#x93; lies: unendlich wichtig?; &#x84;Austheilung der infra orbital Nerven&#x93; lies:Auftheilung der infra orbital Nerven?). InAnm. 23 wird &#x84;choroidea&#x93; als &#x84;Adergeflecht des Gehirns&#x93; erläutert; gemeint ist aber eher die Aderhaut des Auges, vgl. die in Anm. 24 genannte diesbezügliche Dissertation.</note>
             <note>
                <rs type="object"/>
             </note>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=471"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S.455&#x96;457 Nr. 1293 </rs>
+               <rs type="edition">Corresp. V, S.455&#x96;457 Nr. 1293 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Leipzig, Universitätsbibliothek, Sammlung Kestner, II A IV, 57.</title>
+                  <title level="m" type="main">Leipzig, Universitätsbibliothek, Sammlung Kestner, II A IV, 57.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Autenrieth, Johann Heinrich Ferdinand</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1158">Stuttgart</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1158"
+                      sortKey="1800-04-08"
+                      when="1800-04-08"
+                      where="#orgplc-1158">
+                  <label>1800, Apr. 8</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1158">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1158">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

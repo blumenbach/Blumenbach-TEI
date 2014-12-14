@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Christoph Lichtenberg sendet Blumenbach eine Darstellung der [am Vorabend mit ihm diskutierten] materialistischen Theorie der Sinneswahrnehmung von David Hartley und kommentiert Hartleys Ideen zustimmend. </title>
+            <title type="main">Georg Christoph Lichtenberg sendet Blumenbach eine Darstellung der [am Vorabend mit ihm diskutierten] materialistischen Theorie der Sinneswahrnehmung von David Hartley und kommentiert Hartleys Ideen zustimmend. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1783-10-18"> 1783, Okt. 18</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/184.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 81 Nr. 0251.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 81 Nr. 0251.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 2 (datiert auf 1777); Lichtenberg, Briefwechsel, Bd. 1 (1983), Nr. 368, S. 672&#x96;675 (datiert auf 1776/1777?); Joost,Ihre Hand, Ihren Mund(1998), Nr. 53 S. 162&#x96;166 (datiert FrÜhj. 1781?).</rs>
+               <rs type="bibl">Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 2 (datiert auf 1777); Lichtenberg, Briefwechsel, Bd. 1 (1983), Nr. 368, S. 672&#x96;675 (datiert auf 1776/1777?); Joost,Ihre Hand, Ihren Mund(1998), Nr. 53 S. 162&#x96;166 (datiert Frühj. 1781?).</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826. </title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-184">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-184"
+                      sortKey="1783-10-18"
+                      when="1783-10-18"
+                      where="#orgplc-184">
+                  <label>1783, Okt. 18</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-184">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-184">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0182</classCode>
-            <classCode scheme="anchor"> Nov1783</classCode>
+            <classCode scheme="anchor">Nov1783</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

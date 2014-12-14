@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Alexander von Humboldt sendet Blumenbach 17 Mineralien- und Materialproben und Fossilien aus England und von den KÜsten der Nordsee und beschreibt deren genaue Herkunft. </title>
+            <title type="main">Alexander von Humboldt sendet Blumenbach 17 Mineralien- und Materialproben und Fossilien aus England und von den Küsten der Nordsee und beschreibt deren genaue Herkunft. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Humboldt, Alexander von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Hamburg</pubPlace>
-            <date type="publication" when=" 1790-10-24"> 1790, Okt. 24</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/533.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 338 Nr. 0634.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 338 Nr. 0634.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Mineralien:Witherit; stalaktitischer Chalcedon;&#x84;Res[iduae] elast[icae] miner[ales]&#x93;; Holzzinn (Dneiproskit) aus Cornwall; Flußspat mit Bleierz; Kalkspat mit Kies; Steinkohle aus Liverpool; Mergel, Kreide, Steine, (fossile?) Muscheln und Belemnitenaus Helgoland; Basalt und Granit aus Holstein; Glanzerde aus dem Voigtland. Zuckerkristall (Kandis); von Bohrmuscheln zerstörtes Holz eines Schiffs.</rs>
+               <rs type="object">Mineralien:Witherit; stalaktitischer Chalcedon;&#x84;Res[iduae] elast[icae] miner[ales]&#x93;; Holzzinn (Dneiproskit) aus Cornwall; Flußspat mit Bleierz; Kalkspat mit Kies; Steinkohle aus Liverpool; Mergel, Kreide, Steine, (fossile?) Muscheln und Belemnitenaus Helgoland; Basalt und Granit aus Holstein; Glanzerde aus dem Voigtland. Zuckerkristall (Kandis); von Bohrmuscheln zerstörtes Holz eines Schiffs.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=356"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 338 Nr. 0634 </rs>
+               <rs type="edition">Corresp. III, S. 338 Nr. 0634 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 3 (Alexander von Humboldt Nr. 5). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 3 (Alexander von Humboldt Nr. 5). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Humboldt, Alexander von</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-533">Hamburg</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-533"
+                      sortKey="1790-10-24"
+                      when="1790-10-24"
+                      where="#orgplc-533">
+                  <label>1790, Okt. 24</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-533">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-533">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

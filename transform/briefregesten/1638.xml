@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach fragtJeremias David Reuss, wanndieser die Rechnung Über die von der Societät der Wissenschaften verauslagten Portokosten fÜr BÜcher, die an die Universitätsbibliothek weitergeleitet wurden, benötigt. </title>
+            <title type="main">Blumenbach fragtJeremias David Reuss, wanndieser die Rechnung über die von der Societät der Wissenschaften verauslagten Portokosten für Bücher, die an die Universitätsbibliothek weitergeleitet wurden, benötigt. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when=" 1835-01-02"> 1835, Jan. 2 Göttingen</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1638.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Zur Datierung: Der Druck bei Schemann gibt das Datum (wohl nach dem Vorbild des Briefes) als Chronogramm wieder: &#x84;3 2/1 5&#x93;. Der BriefenthältNeujahrsglÜckwÜnsche, und die im Brief gemachte Angabe Blumenbachs,er sei seit genau 52 Jahren mit Reuss befreundet, spricht fÜr das Jahr 1835. Die erste und die letzte Zahl des Chronogramms wÜrden dann die Jahreszahl &#x84;[18]35&#x93; wiedergeben, der Bruch in der Mitte Tages- und Monatsdatum.</note>
+            <note>Zur Datierung: Der Druck bei Schemann gibt das Datum (wohl nach dem Vorbild des Briefes) als Chronogramm wieder: &#x84;3 2/1 5&#x93;. Der BriefenthältNeujahrsglückwünsche, und die im Brief gemachte Angabe Blumenbachs,er sei seit genau 52 Jahren mit Reuss befreundet, spricht für das Jahr 1835. Die erste und die letzte Zahl des Chronogramms würden dann die Jahreszahl &#x84;1835&#x93; wiedergeben, der Bruch in der Mitte Tages- und Monatsdatum.</note>
             <note>
                <rs type="object"/>
             </note>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Schemann, Ludwig: Einiges aus dem Reuss&#x92;schen Briefwechsel. Göttingen [1888], S. 10.</rs>
+               <rs type="bibl">Schemann, Ludwig: Einiges aus dem Reuss&#x92;schen Briefwechsel. Göttingen 1888, S. 10.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://hans.sub.uni-goettingen.de/nachlaesse/Blumenbach.pdf"/>
             </note>
             <note>
-               <rs type="edition"> http://hans.sub.uni-goettingen.de/ nachlaesse/Blumenbach.pdf </rs>
+               <rs type="edition">http://hans.sub.uni-goettingen.de/ nachlaesse/Blumenbach.pdf </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek , Cod. Ms. philos. 169: I, Bl. 227&#x96;239 (= 14 Briefe, genaue Blattangabe dieses Briefes nicht bekannt), vgl. http://hans.sub.uni-goettingen.de/ nachlaesse/Blumenbach.pdf.</title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek , Cod. Ms. philos. 169: I, Bl. 227&#x96;239 (= 14 Briefe, genaue Blattangabe dieses Briefes nicht bekannt), vgl. http://hans.sub.uni-goettingen.de/ nachlaesse/Blumenbach.pdf.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1638">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1638"
+                      sortKey="1835-01-02"
+                      when="1835-01-02"
+                      where="#orgplc-1638">
+                  <label>1835, Jan. 2</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1638">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1638">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Reuss, Jeremias David</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Joseph Banks das Manuskript der englischen Übersetzung seines Aufsatzes Über ägyptische Mumien zurÜck und erteilt seine Zustimmung zu deren Druck und bittet um das Exemplar einer Termite und einer Brotfrucht und eine Probe Nilschlamm. </title>
+            <title type="main">Blumenbach sendet Joseph Banks das Manuskript der englischen übersetzung seines Aufsatzes über ägyptische Mumien zurück und erteilt seine Zustimmung zu deren Druck und bittet um das Exemplar einer Termite und einer Brotfrucht und eine Probe Nilschlamm. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1794-02-18"> 1794, Febr. 18</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/710.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,36 +57,40 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 307 Nr. 0834.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 307 Nr. 0834.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Erbeten: Exemplar einer Termite; Brotfrucht; Probe Nilschlamm.</rs>
+               <rs type="object">Erbeten: Exemplar einer Termite; Brotfrucht; Probe Nilschlamm.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S. 112; vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S. 112 Nr. 27.</rs>
+               <rs type="bibl">Vgl. ausführl. Regest in Dawson, The Banks Letters (1958), S. 112; vgl. ausführl. Regest in Dawson, The Banks Letters (1958), S. 112 Nr. 27.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item">Manuskript der englischen Fassung von&#x84;Observations on some Egyptian Mummies opened in London&#x93; (1794; Bibliographie Nr. 00992).
+</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00992"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=319"/>
             </note>
             <note>
-               <rs type="edition"> 00992   Corresp. IV, S. 307 Nr. 0834 </rs>
+               <rs type="edition">00992  Corresp. IV, S. 307 Nr. 0834 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, British Library, Add MS 8098, fol. 215. </title>
+                  <title level="m" type="main">London, British Library, Add MS 8098, fol. 215. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +103,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-710">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-710"
+                      sortKey="1794-02-18"
+                      when="1794-02-18"
+                      where="#orgplc-710">
+                  <label>1794, Febr. 18</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +131,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-710">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-710">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Banks, Joseph</persName>
          </creation>

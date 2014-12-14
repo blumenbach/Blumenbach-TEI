@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> (Fragment) Samuel Thomas Soemmerring Übermittelt Blumenbach anatomische Befunde zum Vorhandensein eines &#x84;ganglion ophthalmicum&#x93; bei verschiedenen Tieren. </title>
+            <title type="main"> (Fragment) Samuel Thomas Soemmerring übermittelt Blumenbach anatomische Befunde zum Vorhandensein eines &#x84;ganglion ophthalmicum&#x93; bei verschiedenen Tieren. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Soemmerring, Samuel Thomas </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Kassel</pubPlace>
-            <date type="publication" when=" 1784-08-01"> 1784, August</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/217.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 182 Nr. 0303.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 182 Nr. 0303.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach XXIV, fol. 398. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach XXIV, fol. 398. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Soemmerring, Samuel Thomas </persName>
                   </author>
@@ -96,9 +99,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-217">Kassel</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1784-08-01">
-                  <label> 1784, August</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-217"
+                      sortKey="1784-08-01"
+                      notBefore="1784-08-01"
+                      where="#orgplc-217">
+                  <label>1784, August</label>
                </event>
             </listEvent>
             <msDesc>
@@ -115,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-217">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-217">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>

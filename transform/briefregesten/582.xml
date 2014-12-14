@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Christiane Henriette von Waldeck sendet Blumenbach einen [an ihn gerichteten Brief ihres Hofbibliothekars Ernst Wilhelm Cuhn?] zum Schutz vor unberechtigtem öffnen des Briefes als Anlage zu einem eigenen Brief und begrÜndet dieses Vorgehen. </title>
+            <title type="main">Christiane Henriette von Waldeck sendet Blumenbach einen [an ihn gerichteten Brief ihres Hofbibliothekars Ernst Wilhelm Cuhn?] zum Schutz vor unberechtigtem öffnen des Briefes als Anlage zu einem eigenen Brief und begründet dieses Vorgehen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Waldeck, Christiane Henriette von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Arolsen</pubPlace>
-            <date type="publication" when=" 1791-06-07"> 1791, Juni 7</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/582.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 66 Nr. 0682.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 66 Nr. 0682.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Dougherty, Corresp. IV, Nr. 0682 schließt aus der Erwähnung Cuhns im Postskriptum des Briefes, dass es sich bei dem mitgeschickten Brief um einen (nicht Überlieferten)Brief Cuhns an Blumenbach gehandelt habe.</note>
+            <note>Dougherty, Corresp. IV, Nr. 0682 schließt aus der Erwähnung Cuhns im Postskriptum des Briefes, dass es sich bei dem mitgeschickten Brief um einen (nicht überlieferten)Brief Cuhns an Blumenbach gehandelt habe.</note>
             <note>
-               <rs type="object"> Teileiner &#x84;amalgamierten Stuffe [lies: Stufe]&#x93;; angekÜndigt.</rs>
+               <rs type="object">Teileiner &#x84;amalgamierten Stuffe [lies: Stufe]&#x93;; angekündigt.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=78"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 66 Nr. 0682 </rs>
+               <rs type="edition">Corresp. IV, S. 66 Nr. 0682 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 1 (Christiane von Waldeck Nr. 13). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 1 (Christiane von Waldeck Nr. 13). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Waldeck, Christiane Henriette von</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-582">Arolsen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-582"
+                      sortKey="1791-06-07"
+                      when="1791-06-07"
+                      where="#orgplc-582">
+                  <label>1791, Juni 7</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-582">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-582">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

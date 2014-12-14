@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach bittet [Jeremias David Reuss?] um die Ausleihe sämtlicher anatomischer Werke von Jacques Fabien Gautier d&#x92;Agoty aus der Universitätsbibliothek, um prÜfen zu können, ob alle Werke dieses Verfassers in der Bibliothek vorhanden sind. </title>
+            <title type="main">Blumenbach bittet [Jeremias David Reuss?] um die Ausleihe sämtlicher anatomischer Werke von Jacques Fabien Gautier d&#x92;Agoty aus der Universitätsbibliothek, um prüfen zu können, ob alle Werke dieses Verfassers in der Bibliothek vorhanden sind. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1798-11-21"> 1798, nach Nov. 21</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1056.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Lagarde 12: 2: Autograph 4. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Lagarde 12: 2: Autograph 4. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -96,9 +99,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1056">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1798-11-21">
-                  <label> 1798, nach Nov. 21</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1056"
+                      sortKey="1798-11-21"
+                      notBefore="1798-11-21"
+                      where="#orgplc-1056">
+                  <label>1798, nach Nov. 21</label>
                </event>
             </listEvent>
             <msDesc>
@@ -115,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1056">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1056">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee"> [Reuss, Jeremias David?] </persName>
          </creation>

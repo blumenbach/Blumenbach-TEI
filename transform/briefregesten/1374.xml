@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teilt Gottlieb Tilesius von Tilenau mit, welche von dessen Briefen und Paketen mit Sammlungsobjekten er erhalten hat und welche er noch erwartet, und bittet um die Übermittlung seines Wunsches nach sibirischen Mineralien an dessen Kollegen in St. Petersburg. </title>
+            <title type="main">Blumenbach teilt Gottlieb Tilesius von Tilenau mit, welche von dessen Briefen und Paketen mit Sammlungsobjekten er erhalten hat und welche er noch erwartet, und bittet um die übermittlung seines Wunsches nach sibirischen Mineralien an dessen Kollegen in St. Petersburg. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1809-04-19"> 1809, Apr. 19.</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1374.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,22 +57,25 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Mammuthaar vom Fluss Lena (Göttingen, Geowissenschaftliche Sammlungen, Inv.-Nr. 101-1).</rs>
+               <rs type="object">Mammuthaar vom Fluss Lena (Göttingen, Geowissenschaftliche Sammlungen, Inv.-Nr. 101-1).</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Dougherty, Commercium epistolicum (1984), S.128&#x96;129 KatNr. 152.</rs>
+               <rs type="bibl">Dougherty, Commercium epistolicum (1984), S.128&#x96;129 KatNr. 152.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Berlin, Staatsbibliothek zu Berlin &#x96; Preußischer Kulturbesitz, Slg. Darmstaedter Lc. 1785. </title>
+                  <title level="m" type="main">Berlin, Staatsbibliothek zu Berlin &#x96; Preußischer Kulturbesitz, Slg. Darmstaedter Lc. 1785. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1374">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1374"
+                      sortKey="1809-04-19"
+                      when="1809-04-19"
+                      where="#orgplc-1374">
+                  <label>1809, Apr. 19.</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1374">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1374">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Tilesius von Tilenau, Gottlieb</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> August Gottlieb Spangenberg beschreibt Blumenbach die Lage der Herrnhuter Missionsstation Schekomeko in Nordamerika. </title>
+            <title type="main">August Gottlieb Spangenberg beschreibt Blumenbach die Lage der Herrnhuter Missionsstation Schekomeko in Nordamerika. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Spangenberg, August Gottlieb</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when=" 1789-05-09"> 1789, nach Mai 9 Berthelsdorf</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/452.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 226 Nr. 0551.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 226 Nr. 0551.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,21 +72,25 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Allgemeine geographische Ephemeriden Bd. 1, 3. StÜck (1798), S. 353&#x96;354 (&#x84;4. Schreibens des Herrn Hofrath Blumenbach an den Herausgeber Über die Lage von Schekomeko&#x93;,Bibliographie Nr. 00760).</rs>
+               <rs type="lz">Allgemeine geographische Ephemeriden Bd. 1, 3. Stück (1798), S. 353&#x96;354 (&#x84;4. Schreibens des Herrn Hofrath Blumenbach an den Herausgeber über die Lage von Schekomeko&#x93;,Bibliographie Nr. 00760).</rs>
+            </note>
+            <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00760 (siehe &#x84;Dr.&#x93;).
+</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00760"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=244"/>
             </note>
             <note>
-               <rs type="edition"> 00760   Corresp. III, S. 226 Nr. 0551 </rs>
+               <rs type="edition">00760  Corresp. III, S. 226 Nr. 0551 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren, Überlieferung durch Druck inAllgemeine geographische Ephemeriden Bd. 1, 3. StÜck. </title>
+                  <title level="m" type="main">Or. verloren, überlieferung durch Druck inAllgemeine geographische Ephemeriden Bd. 1, 3. Stück. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Spangenberg, August Gottlieb</persName>
                   </author>
@@ -99,9 +103,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-452">Berthelsdorf</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1789-05-09">
-                  <label> 1789, nach Mai 9 Berthelsdorf</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-452"
+                      sortKey="1789-05-09"
+                      notBefore="1789-05-09"
+                      where="#orgplc-452">
+                  <label>1789, nach Mai 9</label>
                </event>
             </listEvent>
             <msDesc>
@@ -118,6 +131,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-452">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-452">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

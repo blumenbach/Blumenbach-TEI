@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Christoph Lichtenberg berichtet Blumenbach Über seinen aktuellen Erfahrungen mit der Wiederholung von Luigi Galvanis Experimenten zur elektrischen Stimulation von Froschmuskeln. </title>
+            <title type="main">Georg Christoph Lichtenberg berichtet Blumenbach über seinen aktuellen Erfahrungen mit der Wiederholung von Luigi Galvanis Experimenten zur elektrischen Stimulation von Froschmuskeln. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1792-07-31"> 1792, Aug. 31.</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/652.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 185 Nr. 0765.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 185 Nr. 0765.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 59; Lichtenberg, Briefwechsel, Bd. 3 (1990), Nr. 2134, S. 1145&#x96;1146.</rs>
+               <rs type="bibl">Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 59; Lichtenberg, Briefwechsel, Bd. 3 (1990), Nr. 2134, S. 1145&#x96;1146.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=197"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 185 Nr. 0765 </rs>
+               <rs type="edition">Corresp. IV, S. 185 Nr. 0765 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv: GSA 96/1826. </title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv: GSA 96/1826. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-652">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-652"
+                      sortKey="1792-07-31"
+                      when="1792-07-31"
+                      where="#orgplc-652">
+                  <label>1792, Aug. 31.</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-652">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-652">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0646</classCode>
-            <classCode scheme="anchor"> Sept1792</classCode>
+            <classCode scheme="anchor">Sept1792</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach verspricht Joseph Banks die Beschaffung erbetener Göttinger Publikationen und bittet um die Zusendung eines ihm angebotenen menschlichen Schädels aus der Karibik und um Auskunft Über die HintergrÜnde fÜr die Zweifel an der Authentizität von James Bruces afrikanischem Reisebericht. </title>
+            <title type="main">Blumenbach verspricht Joseph Banks die Beschaffung erbetener Göttinger Publikationen und bittet um die Zusendung eines ihm angebotenen menschlichen Schädels aus der Karibik und um Auskunft über die Hintergründe für die Zweifel an der Authentizität von James Bruces afrikanischem Reisebericht. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1790-06-09"> 1790, Juni 9</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/514.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 308 Nr. 0615.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 308 Nr. 0615.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,27 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S. 111 Nr. 10.</rs>
+               <rs type="bibl">Vgl. ausführl. Regest in Dawson, The Banks Letters (1958), S. 111 Nr. 10.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">Vorwort und Anmerkungen zu Reisen zur Entdeckung der Quellen des Nils in den Jahren 1768, 1769, 1770, 1771, 1772 und 1773 (1790&#x96;1791; Bibliographie Nr. 00164).
+</rs>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=326"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 308 Nr. 0615 </rs>
+               <rs type="edition">Corresp. III, S. 308 Nr. 0615 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, British Library, Add MS 8097,fol. 261&#x96;262. </title>
+                  <title level="m" type="main">London, British Library, Add MS 8097,fol. 261&#x96;262. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
                   </author>
@@ -98,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-514">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-514"
+                      sortKey="1790-06-09"
+                      when="1790-06-09"
+                      where="#orgplc-514">
+                  <label>1790, Juni 9</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-514">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-514">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

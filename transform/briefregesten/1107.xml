@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Das Geheime Ratskollegium genehmigt Blumenbach den Ankauf der naturhistorischenObjekte von den Inseln im SÜdpazifik aus dem Nachlass Johann Reinhold Forsters fÜr das Academische Museum der Universität Göttingen fÜr 50 Reichstaler. </title>
+            <title type="main">Das Geheime Ratskollegium genehmigt Blumenbach den Ankauf der naturhistorischenObjekte von den Inseln im Südpazifik aus dem Nachlass Johann Reinhold Forsters für das Academische Museum der Universität Göttingen für 50 Reichstaler. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Geheimes Ratskollegium</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Hannover</pubPlace>
-            <date type="publication" when=" 1799-06-29"> 1799, Juni 29</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1107.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 542&#x96;543 Nr. App. 12.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 542&#x96;543 Nr. App. 12.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=558"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S.542&#x96;543 Nr. App. 12 </rs>
+               <rs type="edition">Corresp. V, S.542&#x96;543 Nr. App. 12 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Inst. fÜr Ethnologie, Archiv, Aquisitionsakte &#x84;Betr.: Den Ankauf der von dem Profeßor Forster zu Halle nachgelaßenen Samlung von SÜdsee-MerkwÜrdigkeiten, 1799&#x93;.</title>
+                  <title level="m" type="main">Göttingen, Inst. für Ethnologie, Archiv, Aquisitionsakte &#x84;Betr.: Den Ankauf der von dem Profeßor Forster zu Halle nachgelaßenen Samlung von Südsee-Merkwürdigkeiten, 1799&#x93;.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Geheimes Ratskollegium</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1107">Hannover</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1107"
+                      sortKey="1799-06-29"
+                      when="1799-06-29"
+                      where="#orgplc-1107">
+                  <label>1799, Juni 29</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1107">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1107">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

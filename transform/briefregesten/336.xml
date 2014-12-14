@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> August von Sachsen-Gotha und Altenburg dankt Blumenbach fÜr ein Perlmutt-Präparat und ein Blatt einer modernen Papyrushandschrift, zu der er zusätzlich um eine Transkription durch Christian Gottlob Heyne bittet. </title>
+            <title type="main">August von Sachsen-Gotha und Altenburg dankt Blumenbach für ein Perlmutt-Präparat und ein Blatt einer modernen Papyrushandschrift, zu der er zusätzlich um eine Transkription durch Christian Gottlob Heyne bittet. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Sachsen-Gotha und Altenburg, August von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Gotha</pubPlace>
-            <date type="publication" when=" 1786-10-12"> 1786, Okt. 12</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/336.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 47 Nr. 0426.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 47 Nr. 0426.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=65"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 47 Nr. 0426 </rs>
+               <rs type="edition">Corresp. III, S. 47 Nr. 0426 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 1 (August Prinz zu Sachsen Nr. 6). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 1 (August Prinz zu Sachsen Nr. 6). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Sachsen-Gotha und Altenburg, August von</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-336">Gotha</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-336"
+                      sortKey="1786-10-12"
+                      when="1786-10-12"
+                      where="#orgplc-336">
+                  <label>1786, Okt. 12</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-336">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-336">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

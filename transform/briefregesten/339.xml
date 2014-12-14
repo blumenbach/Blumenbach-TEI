@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Christian Friedrich Ludwig sendet Blumenbach aus Leipzig [eine Liste mit?] Leipziger medizinische[n] Publikationen des Jahres 1786. </title>
+            <title type="main">Christian Friedrich Ludwig sendet Blumenbach aus Leipzig [eine Liste mit?] Leipziger medizinische[n] Publikationen des Jahres 1786. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Ludwig, Christian Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Leipzig</pubPlace>
-            <date type="publication" when=" 1786-10-01"> 1786, Okt.</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/339.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 53 Nr. 0429.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 53 Nr. 0429.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=71"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 53 Nr. 0429 </rs>
+               <rs type="edition">Corresp. III, S. 53 Nr. 0429 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Leipzig, Universitätsbibliothek Cod. Ms. 0663, fol. 65r. </title>
+                  <title level="m" type="main">Leipzig, Universitätsbibliothek Cod. Ms. 0663, fol. 65r. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Ludwig, Christian Friedrich</persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-339">Leipzig</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1786-10-01">
-                  <label> 1786, Okt.</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-339"
+                      sortKey="1786-10-01"
+                      notBefore="1786-10-01"
+                      where="#orgplc-339">
+                  <label>1786, Okt.</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-339">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-339">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0335</classCode>
-            <classCode scheme="anchor"> Nov1786</classCode>
+            <classCode scheme="anchor">Nov1786</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

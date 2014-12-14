@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach dankt Joseph Banks fÜr dessen UnterstÜtzung während seines London-Aufenthalts und berichtet Über die Vorbereitungen zur Publikation des zweiten Heftes seiner Decades craniorum (1793). </title>
+            <title type="main">Blumenbach dankt Joseph Banks für dessen Unterstützung während seines London-Aufenthalts und berichtet über die Vorbereitungen zur Publikation des zweiten Heftes seiner Decades craniorum (1793). </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1792-05-02"> 1792, Mai 8</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/625.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,36 +57,39 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 153 Nr. 0734.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 153 Nr. 0734.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Vgl. Blumenbachs hs. Verzeichnis seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, I, fol. 6 (zu Nrr. 563, 572, 571, 559), 8 (Nr. 780, 778).</note>
             <note>
-               <rs type="object"> Menschliche Schädel: eines Yakuten (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 559, Abb. in Decas craniorum 2 (1793), Tafel 15, Bibliographie Nr.00093); Kinderschädel eines Burjaten (Nr. 563, Abb. inDecas craniorum 3 (1795), Tafel 29, Bibliographie Nr.00094);eines KalmÜcken (Nr. 572); das vollständige Skelett eines KalmÜcken (Nr. 571 [nur Schädel, Übriges Skelett verloren], Abb. des Schädels in Decas craniorum 2 (1793), Tafel 14, Bibliographie Nr.00093); einer Frau von den Kariben (Nr. 780, Abb. inDecas craniorum 2 (1793), Tafel 20, Bibliographie Nr.00093); eines Kariben-Häuptlings (Nr. 778; Abb. in Decas craniorum 1 (1790), Tafel 10; Bibliographie Nr. 00092).</rs>
+               <rs type="object">Menschliche Schädel: eines Yakuten (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 559, Abb. in Decas craniorum 2 (1793), Tafel 15, Bibliographie Nr.00093); Kinderschädel eines Burjaten (Nr. 563, Abb. inDecas craniorum 3 (1795), Tafel 29, Bibliographie Nr.00094);eines Kalmücken (Nr. 572); das vollständige Skelett eines Kalmücken (Nr. 571 [nur Schädel, übriges Skelett verloren], Abb. des Schädels in Decas craniorum 2 (1793), Tafel 14, Bibliographie Nr.00093); einer Frau von den Kariben (Nr. 780, Abb. inDecas craniorum 2 (1793), Tafel 20, Bibliographie Nr.00093); eines Kariben-Häuptlings (Nr. 778; Abb. in Decas craniorum 1 (1790), Tafel 10; Bibliographie Nr. 00092).</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 4 (2007), S. 121&#x96;122 Nr. 1111; vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S. 112 Nr. 22.</rs>
+               <rs type="bibl">Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 4 (2007), S. 121&#x96;122 Nr. 1111; vgl. ausführl. Regest in Dawson, The Banks Letters (1958), S. 112 Nr. 22.</rs>
             </note>
             <note>
-               <rs type="lz"> Decas craniorum 2 (1793; Bibliographie Nr. 00093). </rs>
+               <rs type="lz">Decas craniorum 2 (1793; Bibliographie Nr. 00093). </rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00093"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=165"/>
             </note>
             <note>
-               <rs type="edition"> 00093   Corresp. IV, S. 153 Nr. 0734 </rs>
+               <rs type="edition">00093  Corresp. IV, S. 153 Nr. 0734 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, British Library, Add MS 8098, fol. 8&#x96;9. </title>
+                  <title level="m" type="main">London, British Library, Add MS 8098, fol. 8&#x96;9. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-625">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-625"
+                      sortKey="1792-05-02"
+                      when="1792-05-02"
+                      where="#orgplc-625">
+                  <label>1792, Mai 8</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-625">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-625">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Banks, Joseph</persName>
          </creation>

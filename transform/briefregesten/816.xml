@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach bittet Charles Townley um eine Materialprobe von einem antiken Steinrelief von der indischen Insel Elephanta. </title>
+            <title type="main">Blumenbach bittet Charles Townley um eine Materialprobe von einem antiken Steinrelief von der indischen Insel Elephanta. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1795-10-09"> 1795, Okt. 9</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/816.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,38 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 463 Nr. 0946.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 463 Nr. 0946.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Blumenbach besaß ein StÜck &#x84;Elephanta rock&#x93;, vgl. Handbuch der Naturgeschichte (5. Aufl. 1797; Bibliographie Nr. 00026), S. 614, Fußnote.</note>
+            <note>Blumenbach besaß ein Stück &#x84;Elephanta rock&#x93;, vgl. Handbuch der Naturgeschichte (5. Aufl. 1797; Bibliographie Nr. 00026), S. 614, Fußnote.</note>
             <note>
-               <rs type="object"> Angefragt: Gesteinsprobe von &#x84;Elephanta rock&#x93;, einem Gestein von der indischen Insel Elephanta bei Bombay,</rs>
+               <rs type="object">Angefragt: Gesteinsprobe von &#x84;Elephanta rock&#x93;, einem Gestein von der indischen Insel Elephanta bei Bombay,</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Verzeichnet in Catalogue of the Townley Archive at The British Museum (London 2002), S. 17.</rs>
+               <rs type="bibl">Verzeichnet in Catalogue of the Townley Archive at The British Museum (London 2002), S. 17.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=475"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 463 Nr. 0946 </rs>
+               <rs type="edition">Corresp. IV, S. 463 Nr. 0946 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, British Museum, Townley Archive (7/1180). </title>
+                  <title level="m" type="main">London, British Museum, Townley Archive (7/1180). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-816">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-816"
+                      sortKey="1795-10-09"
+                      when="1795-10-09"
+                      where="#orgplc-816">
+                  <label>1795, Okt. 9</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-816">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-816">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Townley, Charles</persName>
          </creation>

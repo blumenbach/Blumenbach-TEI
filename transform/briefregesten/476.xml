@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach bittet Heinrich August Wrisberg, ihm wie verabredet eine Kopie der Statuten der Medizinischen Fakultät der Universität Göttingen zur Abschrift zu senden. </title>
+            <title type="main">Blumenbach bittet Heinrich August Wrisberg, ihm wie verabredet eine Kopie der Statuten der Medizinischen Fakultät der Universität Göttingen zur Abschrift zu senden. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1789-10-18"> 1789, Okt. 18</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/476.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 577 Nr. 0577.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 577 Nr. 0577.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=277"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 577 Nr. 0577 </rs>
+               <rs type="edition">Corresp. III, S. 577 Nr. 0577 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsarchiv, Medizin. Fak., Dekanats- und Promotionsvorgänge und -urkunden fÜr das Jahr 1789. </title>
+                  <title level="m" type="main">Göttingen, Universitätsarchiv, Medizin. Fak., Dekanats- und Promotionsvorgänge und -urkunden für das Jahr 1789. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-476">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-476"
+                      sortKey="1789-10-18"
+                      when="1789-10-18"
+                      where="#orgplc-476">
+                  <label>1789, Okt. 18</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-476">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-476">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Wrisberg, Heinrich August</persName>
          </creation>

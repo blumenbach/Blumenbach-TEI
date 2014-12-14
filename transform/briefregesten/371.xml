@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Daniel Metzger sendet Blumenbach aus Königsberg wissenschaftliche Publikationen, BernsteinstÜcke und eine Muschel sowie Porträtsund eine kurze Charakterisierung Immanuel Kants. </title>
+            <title type="main">Johann Daniel Metzger sendet Blumenbach aus Königsberg wissenschaftliche Publikationen, Bernsteinstücke und eine Muschel sowie Porträtsund eine kurze Charakterisierung Immanuel Kants. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Königsberg</pubPlace>
-            <date type="publication" when=" 1787-06-12"> 1787, Juni 12</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/371.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,36 +57,39 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 105 Nr. 0462.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 105 Nr. 0462.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Vier BernsteinstÜcke aus Königsberg; Muschel aus Pillau.</rs>
+               <rs type="object">Vier Bernsteinstücke aus Königsberg; Muschel aus Pillau.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Teildruck in Klatt, Norbert, &#x84;Johann Daniel Metzger und Kants Bestimmung des Begriffs der Menschenrasse&#x93; in Klatt, Norbert: Kleine Beiträge zur Blumenbach-Forschung 3. Göttingen2010, S. 56&#x96;69, hier S. 65&#x96;67.</rs>
+               <rs type="bibl">Teildruck in Klatt, Norbert, &#x84;Johann Daniel Metzger und Kants Bestimmung des Begriffs der Menschenrasse&#x93; in Klatt, Norbert: Kleine Beiträge zur Blumenbach-Forschung 3. Göttingen2010, S. 56&#x96;69, hier S. 65&#x96;67.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20721147143.pdf"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=123"/>
             </note>
             <note>
-               <rs type="edition"> Kleine Beiträge zur Blumenbach-Forschung 3   Corresp. III, S. 105 Nr. 0462 </rs>
+               <rs type="edition">Kleine Beiträge zur Blumenbach-Forschung 3  Corresp. III, S. 105 Nr. 0462 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 2 (ad Kant). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 2 (ad Kant). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-371">Königsberg</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-371"
+                      sortKey="1787-06-12"
+                      when="1787-06-12"
+                      where="#orgplc-371">
+                  <label>1787, Juni 12</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-371">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-371">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Metzger, Johann Daniel</persName>
          </creation>

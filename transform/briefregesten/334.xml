@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Christian Gottlob Heyne erläutert Blumenbach die antiken Quellen zur Heimatregion antiker Völker am Schwarzen Meer und empfiehlt den Vergleich mit aktuellen Reiseberichten. </title>
+            <title type="main">Christian Gottlob Heyne erläutert Blumenbach die antiken Quellen zur Heimatregion antiker Völker am Schwarzen Meer und empfiehlt den Vergleich mit aktuellen Reiseberichten. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Heyne, Christian Gottlob</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1786-08-30"> 1786, nach Aug. 30</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/334.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 45 Nr. 0424.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 45 Nr. 0424.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> KÜnstlich deformierter Schädel aus der Schwarzmeerregion (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 583; Abb. in Decas craniorum 1 (1790), Tafel 3;Bibliographie Nr. 00092).</rs>
+               <rs type="object">Künstlich deformierter Schädel aus der Schwarzmeerregion (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 583; Abb. in Decas craniorum 1 (1790), Tafel 3;Bibliographie Nr. 00092).</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=63"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 45 Nr. 0424 </rs>
+               <rs type="edition">Corresp. III, S. 45 Nr. 0424 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach IV, fol. 29. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach IV, fol. 29. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Heyne, Christian Gottlob</persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-334">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1786-08-30">
-                  <label> 1786, nach Aug. 30</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-334"
+                      sortKey="1786-08-30"
+                      notBefore="1786-08-30"
+                      where="#orgplc-334">
+                  <label>1786, nach Aug. 30</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-334">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-334">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0330</classCode>
-            <classCode scheme="anchor"> Okt1786</classCode>
+            <classCode scheme="anchor">Okt1786</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

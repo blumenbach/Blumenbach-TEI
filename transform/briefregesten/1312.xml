@@ -3,9 +3,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Bernhard Joachim von BÜlow berichtet BlumenbachÜber zwei Blumenbach von seiner Schweizer Reise her bekannte Albinos in dem Dorf Le Brie und Über dienormal pigmentierten Kinder eines der beiden. </title>
+            <title type="main">Bernhard Joachim von Bülow berichtet Blumenbachüber zwei Blumenbach von seiner Schweizer Reise her bekannte Albinos in dem Dorf Le Brie und über dienormal pigmentierten Kinder eines der beiden. </title>
             <author>
-               <persName ref="http://d-nb.info/gnd/">BÜlow, Bernhard Joachim von </persName>
+               <persName ref="http://d-nb.info/gnd/">Bülow, Bernhard Joachim von </persName>
             </author>
             <editor>
                <persName ref="http://d-nb.info/gnd/">
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1805-08-31"> 1805, August</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1312.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,25 +69,28 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Vollständig transkribiert in Dougherty, Corresp. III, S. 244 Nr. 0565 Anm. 19. </rs>
+               <rs type="bibl">Vollständig transkribiert in Dougherty, Corresp. III, S. 244 Nr. 0565 Anm. 19. </rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=262"/>
             </note>
             <note>
-               <rs type="edition"> Corresp.III, S. 244 Nr. 0565 Anm. 19 </rs>
+               <rs type="edition">Corresp.III, S. 244 Nr. 0565 Anm. 19 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach XXI (Visitenkarte, eingeklebt auf dem hinteren Buchdeckel).</title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach XXI (Visitenkarte, eingeklebt auf dem hinteren Buchdeckel).</title>
                   <author>
-                     <persName ref="http://d-nb.info/gnd/">BÜlow, Bernhard Joachim von </persName>
+                     <persName ref="http://d-nb.info/gnd/">Bülow, Bernhard Joachim von </persName>
                   </author>
                </titleStmt>
                <publicationStmt>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1312">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1805-08-31">
-                  <label> 1805, August</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1312"
+                      sortKey="1805-08-31"
+                      notAfter="1805-08-31"
+                      where="#orgplc-1312">
+                  <label>1805, August</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1312">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1312">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

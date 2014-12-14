@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Samuel Thomas Soemmerring fragt Blumenbach, wie er den ihm leihweise Überlassenen Schädel einer Georgierin fÜr Blumenbach zeichnen lassen soll, und berichtet Über seine gegenwärtig geplanten Publikationen, bei denen er zum Teil Blumenbachs UnterstÜtzung erbittet und ihn dafÜr an den Honoraren beteiligen will. </title>
+            <title type="main">Samuel Thomas Soemmerring fragt Blumenbach, wie er den ihm leihweise überlassenen Schädel einer Georgierin für Blumenbach zeichnen lassen soll, und berichtet über seine gegenwärtig geplanten Publikationen, bei denen er zum Teil Blumenbachs Unterstützung erbittet und ihn dafür an den Honoraren beteiligen will. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Soemmerring, Samuel Thomas</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Frankfurt am Main</pubPlace>
-            <date type="publication" when=" 1795-11-28"> 1795, Nov. 28</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/828.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,38 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 482 Nr. 0957.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 482 Nr. 0957.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Der Kupferstich des Frankfurter Zeichners Christian Koeck wurde in denAbbildungen naturhistorischer Gegenstände 6 (1802) verwendet.</note>
             <note>
-               <rs type="object"> Schädel einer Georgierin (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 546 [Modellschädel fÜr Blumenbachs kaukasische Varietät der Spezies Mensch]; Abb. in Decas craniorum 3 (1795; Bibliographie Nr.00094), Tafel Nr. 21 und inAbbildungen naturhistorischerGegenstände 6 (1802; Bibliographie Nr.00707), Tafel Nr.51.</rs>
+               <rs type="object">Schädel einer Georgierin (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 546 [Modellschädel für Blumenbachs kaukasische Varietät der Spezies Mensch]; Abb. in Decas craniorum 3 (1795; Bibliographie Nr.00094), Tafel Nr. 21 und inAbbildungen naturhistorischerGegenstände 6 (1802; Bibliographie Nr.00707), Tafel Nr.51.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Dumont, Soemmerring-Briefwechsel. 1792&#x96;1805 (2001), Nr. 740, S. 251&#x96;253.</rs>
+               <rs type="bibl">Dumont, Soemmerring-Briefwechsel. 1792&#x96;1805 (2001), Nr. 740, S. 251&#x96;253.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=494"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 482 Nr. 0957 </rs>
+               <rs type="edition">Corresp. IV, S. 482 Nr. 0957 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 23, fol. 11. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 23, fol. 11. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Soemmerring, Samuel Thomas</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-828">Frankfurt am Main</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-828"
+                      sortKey="1795-11-28"
+                      when="1795-11-28"
+                      where="#orgplc-828">
+                  <label>1795, Nov. 28</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-828">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-828">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

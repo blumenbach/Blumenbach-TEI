@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach an Charles de Villers. </title>
+            <title type="main">Blumenbach an Charles de Villers. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>  [Göttingen ?]</pubPlace>
-            <date type="publication" when=" 1812-12-07"> 1812, Dez. 7</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1416.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -66,26 +66,29 @@
                <rs type="object"/>
             </note>
             <note>
-               <rs type="span">  </rs>
+               <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> </rs>
+               <rs type="bibl">   </rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://www.sub.uni-hamburg.de/bibliotheken/fuer-die-fachwelt/allegro-hans.html"/>
             </note>
             <note>
-               <rs type="edition"> http://www.sub.uni-hamburg.de/ bibliotheken/fuer-die-fachwelt/ allegro-hans.html </rs>
+               <rs type="edition">http://www.sub.uni-hamburg.de/ bibliotheken/fuer-die-fachwelt/ allegro-hans.html </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hamburg, Staats- und Universitätsbibliothek,NV : 12 : 450&#x96;512, vgl. online-Katalog der Handschriften der Staats- und Universitätsbibliothek Hamburg (http://www.sub.uni-hamburg.de/ bibliotheken/fuer-die-fachwelt/ allegro-hans.html).</title>
+                  <title level="m" type="main">Hamburg, Staats- und Universitätsbibliothek,NV : 12 : 450&#x96;512, vgl. online-Katalog der Handschriften der Staats- und Universitätsbibliothek Hamburg (http://www.sub.uni-hamburg.de/ bibliotheken/fuer-die-fachwelt/ allegro-hans.html).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1416"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1416"
+                      sortKey="1812-12-07"
+                      when="1812-12-07"
+                      where="#orgplc-1416">
+                  <label>1812, Dez. 7   [Göttingen ?]</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,8 +129,16 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1416">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1416">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
-            <persName type="addressee"> Villers, Charles François Dominique de</persName>
+            <persName type="addressee">Villers, Charles François Dominique de</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">00</classCode>

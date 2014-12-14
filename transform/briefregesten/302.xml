@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach bittet Christian Gottlob Heyne um dessen Zustimmung, einen Abschnitt aus einem ihm fÜr die Medicinische Bibliothek Überlassenen Aufsatz von Jacob Reineggs [= Pseudonym fÜr Christian Rudolph E(h)lich] dem Magazin fÜr das Neueste aus der Physik und Naturgeschichtezur Publikation anzubieten. </title>
+            <title type="main">Blumenbach bittet Christian Gottlob Heyne um dessen Zustimmung, einen Abschnitt aus einem ihm für die Medicinische Bibliothek überlassenen Aufsatz von Jacob Reineggs [= Pseudonym für Christian Rudolph E(h)lich] dem Magazin für das Neueste aus der Physik und Naturgeschichtezur Publikation anzubieten. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1785-12-21"> 1785, vor Dez. 21</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/302.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,22 +57,25 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 333 Nr. 0390.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 333 Nr. 0390.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Die Überlieferungsangaben im Druck bei Dougherty, Corresp. II, Nr. 0390 lassen nicht erkennen, in welchem Kontext dieser Briefausschnitt Überliefert ist. </note>
+            <note>Die überlieferungsangaben im Druck bei Dougherty, Corresp. II, Nr. 0390 lassen nicht erkennen, in welchem Kontext dieser Briefausschnitt überliefert ist. </note>
             <note>
                <rs type="object"/>
             </note>
             <note>
-               <rs type="span"> &#x84;Von den Meerschaumenen und andern tÜrkischen Pfeifenköpfen. Aus einem Briefe des Hrn. Dr. Reinegg in Persien,[&#x85;] . Mitgetheilt vom Hrn. Prof. Blumenbach in Göttingen&#x93; in Magazin fÜr das Neueste aus der Physik und Naturgeschichte Bd. 4, 3. StÜck (1787), S. 13&#x96;19 (= Bibliographie Nr. 00818). </rs>
+               <rs type="span"/>
             </note>
             <note>
                <rs type="bibl"> </rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"> &#x84;Von den Meerschaumenen und andern türkischen Pfeifenköpfen. Aus einem Briefe des Hrn. Dr. Reinegg in Persien,[&#x85;] . Mitgetheilt vom Hrn. Prof. Blumenbach in Göttingen&#x93; in Magazin für das Neueste aus der Physik und Naturgeschichte Bd. 4, 3. Stück (1787), S. 13&#x96;19 (= Bibliographie Nr. 00818). </rs>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Auszug/Ausschnitt in Göttingen, Universitätsbibliothek, 2 Cod. Ms. Asch 1, II (1801/1806). </title>
+                  <title level="m" type="main">Auszug/Ausschnitt in Göttingen, Universitätsbibliothek, 2 Cod. Ms. Asch 1, II (1801/1806). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -96,9 +99,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-302">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1785-12-21">
-                  <label> 1785, vor Dez. 21</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-302"
+                      sortKey="1785-12-21"
+                      notAfter="1785-12-21"
+                      where="#orgplc-302">
+                  <label>1785, vor Dez. 21</label>
                </event>
             </listEvent>
             <msDesc>
@@ -115,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-302">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-302">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Heyne, Christian Gottlob</persName>
          </creation>

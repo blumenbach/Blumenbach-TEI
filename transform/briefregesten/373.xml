@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach bittet Joseph Banks, ihm fÜr seine Sammlung menschlicher Schädel ein Original, einen Gipsabguss oder eine Zeichnung von einem der nach England gelangten menschlichen Schädel von Inseln im Pazifikraum zu beschaffen. </title>
+            <title type="main">Blumenbach bittet Joseph Banks, ihm für seine Sammlung menschlicher Schädel ein Original, einen Gipsabguss oder eine Zeichnung von einem der nach England gelangten menschlichen Schädel von Inseln im Pazifikraum zu beschaffen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1787-06-20"> 1787, Juni 20</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/373.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,38 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 109 Nr. 0464.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 109 Nr. 0464.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Vier von Georg Thomas von Asch geschenkteTatarenschädel und vollständiges Skelett eines Kosaken, vgl. Identifikation im Regest zum Brief von Asch an Blumenbach vom 30. Juni (julian. 19. Juni) 1786 (Dougherty, Corresp. III, Nr. 420).</rs>
+               <rs type="object">Vier von Georg Thomas von Asch geschenkteTatarenschädel und vollständiges Skelett eines Kosaken, vgl. Identifikation im Regest zum Brief von Asch an Blumenbach vom 30. Juni (julian. 19. Juni) 1786 (Dougherty, Corresp. III, Nr. 420).</rs>
             </note>
             <note>
-               <rs type="span"> Institutiones physiologicae (1787; Bibliographie Nr.00065).</rs>
+               <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Dougherty, Commercium epistolicum (1984), S. 114&#x96;116 KatNr. 134 (mit Abb. von fol. 384r); vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S 110 Nr. 3.</rs>
+               <rs type="bibl">Dougherty, Commercium epistolicum (1984), S. 114&#x96;116 KatNr. 134 (mit Abb. von fol. 384r); vgl. ausführl. Regest in Dawson, The Banks Letters (1958), S 110 Nr. 3.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">Institutiones physiologicae (1787; Bibliographie Nr.00065).</rs>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=127"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 109 Nr. 0464 </rs>
+               <rs type="edition">Corresp. III, S. 109 Nr. 0464 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, British Library, Add MS 8096, fol. 383&#x96;384. </title>
+                  <title level="m" type="main">London, British Library, Add MS 8096, fol. 383&#x96;384. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-373">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-373"
+                      sortKey="1787-06-20"
+                      when="1787-06-20"
+                      where="#orgplc-373">
+                  <label>1787, Juni 20</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-373">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-373">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Banks, Joseph</persName>
          </creation>

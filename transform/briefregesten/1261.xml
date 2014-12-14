@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teiltFranz Xaver von Zach u. a. seine zustimmende Ansicht zu der ihm von von Zach mitgeteilten Hypothese Pierre-Simon de Laplaces [, dassMeteoriten von vulkanischen Eruptionen auf dem Mond stammen?]. </title>
+            <title type="main">Blumenbach teiltFranz Xaver von Zach u. a. seine zustimmende Ansicht zu der ihm von von Zach mitgeteilten Hypothese Pierre-Simon de Laplaces [, dassMeteoriten von vulkanischen Eruptionen auf dem Mond stammen?]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> [Göttingen]</pubPlace>
-            <date type="publication" when=" 1802-09-01"> vor 1802, Sept.</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1261.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,16 +69,20 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> AuszÜge in Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde, Bd. 6 (September 1802), S. 303&#x96;315 (&#x84;XXIX. Fortgesetzte Nachrichten Über den neuen Haupt-Planeten unseres Sonnensystems, Pallas Olbersiana&#x93;, Bibliographie Nr. 00973), hier in Anm. auf S. 305.</rs>
+               <rs type="bibl">Auszüge in Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde, Bd. 6 (September 1802), S. 303&#x96;315 (&#x84;XXIX. Fortgesetzte Nachrichten über den neuen Haupt-Planeten unseres Sonnensystems, Pallas Olbersiana&#x93;, Bibliographie Nr. 00973), hier in Anm. auf S. 305.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00973 (siehe &#x84;Dr.&#x93;). 
+</rs>
+            </note>
+            <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00973"/>
             </note>
             <note>
-               <rs type="edition"> 00973 </rs>
+               <rs type="edition">00973 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -98,9 +102,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1261"/>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1802-09-01">
-                  <label> vor 1802, Sept.</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1261"
+                      sortKey="1802-09-01"
+                      notAfter="1802-09-01"
+                      where="#orgplc-1261">
+                  <label>vor 1802, Sept.  [Göttingen]</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1261">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1261">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Zach, Franz Xaver von </persName>
          </creation>

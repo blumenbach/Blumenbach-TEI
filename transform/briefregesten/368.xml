@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teilt Daniel Nicolaus Chodowiecki seine geänderten WÜnsche fÜr einen Kupferstich zu der Neuauflage seiner Abhandlung Über den Bildungstrieb mit, bittet um Probeabdrucke und erinnert an die versprochene Lieferung der fertigen Druckplatten bis Mitte Juli [1787]. </title>
+            <title type="main">Blumenbach teilt Daniel Nicolaus Chodowiecki seine geänderten Wünsche für einen Kupferstich zu der Neuauflage seiner Abhandlung über den Bildungstrieb mit, bittet um Probeabdrucke und erinnert an die versprochene Lieferung der fertigen Druckplatten bis Mitte Juli 1787. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1787-05-26"> 1787, Mai 26</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/368.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 98 Nr. 0459.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 98 Nr. 0459.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,21 +72,24 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Über den Bildungstrieb (1789; Bibliographie Nr. 00055).</rs>
+               <rs type="lz"> über den Bildungstrieb (1789; Bibliographie Nr. 00055).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00055"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=116"/>
             </note>
             <note>
-               <rs type="edition"> 00055   Corresp. III, S. 98 Nr. 0459 </rs>
+               <rs type="edition">00055  Corresp. III, S. 98 Nr. 0459 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, 2 Cod. Ms. Philos. 171B, fol. 1. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, 2 Cod. Ms. Philos. 171B, fol. 1. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-368">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-368"
+                      sortKey="1787-05-26"
+                      when="1787-05-26"
+                      where="#orgplc-368">
+                  <label>1787, Mai 26</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-368">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-368">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Chodowiecki, Daniel Nicolaus</persName>
          </creation>

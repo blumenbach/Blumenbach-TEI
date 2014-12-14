@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach dankt Heinrich Christian Gottfried von Struve [u. a. fÜr dreiSibirite, Schmetterlingsabdrucke und eine &#x84;ausnehmend elegante Flußwespe&#x93;]. </title>
+            <title type="main">Blumenbach dankt Heinrich Christian Gottfried von Struve [u. a. für dreiSibirite, Schmetterlingsabdrucke und eine &#x84;ausnehmend elegante Flußwespe&#x93;]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" [ca. 1812]-08-30"> [ca. 1812], Aug. 30</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1414.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,38 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Nur mit Tages, ohne Jahresdatum Überliefert; Vorschlag zur Datierungseingrenzung aufgr. des Erscheinungsjahr vonStruve, H. Chr. G., &#x84;Ueber die Kunst Schmetterlinge nach dem Leben abzudrÜcken&#x93;, in: Annalen der Wetterauischen Gesellschaft fÜr die gesammte Naturkunde 3 (1812), S. 188&#x96;192; Struve korrespondierte 1811 auch mit den Göttinger Professoren Chr. G. Heyne und C. F. Gauß. - Erwähnung des Briefes und Über den Eintrag im Göttinger Hs.-Katalog Angaben hinausgehende Information in Weidner, H. und Kraus, O,&#x84;Aus der Geschichte des Naturwissenschaftlichen Vereins Hamburg&#x93;, in: Verhandlungen des Naturwissenschaftlichen Vereins in Hamburg (N.F.) 30 (1988), S. 5&#x96;150, S. 14. </note>
+            <note>Nur mit Tages, ohne Jahresdatum überliefert; Vorschlag zur Datierungseingrenzung aufgr. des Erscheinungsjahr vonStruve, H. Chr. G., &#x84;Ueber die Kunst Schmetterlinge nach dem Leben abzudrücken&#x93;, in: Annalen der Wetterauischen Gesellschaft für die gesammte Naturkunde 3 (1812), S. 188&#x96;192; Struve korrespondierte 1811 auch mit den Göttinger Professoren Chr. G. Heyne und C. F. Gauß. - Erwähnung des Briefes und über den Eintrag im Göttinger Hs.-Katalog Angaben hinausgehende Information in Weidner, H. und Kraus, O,&#x84;Aus der Geschichte des Naturwissenschaftlichen Vereins Hamburg&#x93;, in: Verhandlungen des Naturwissenschaftlichen Vereins in Hamburg (N.F.) 30 (1988), S. 5&#x96;150, S. 14. </note>
             <note>
                <rs type="object"/>
             </note>
             <note>
-               <rs type="span">  </rs>
+               <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> </rs>
+               <rs type="bibl">   </rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://hans.sub.uni-goettingen.de/"/>
             </note>
             <note>
-               <rs type="edition"> http://hans.sub.uni-goettingen.de/ </rs>
+               <rs type="edition">http://hans.sub.uni-goettingen.de/ </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, 2 Cod. Ms. philos. 182 : J. F. Blumenbach, o.J. (Bl. 88), vgl. online-Katalog der Handschriften der Staats- und Universitätsbibliothek Göttingen (http://hans.sub.uni-goettingen.de/). </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, 2 Cod. Ms. philos. 182 : J. F. Blumenbach, o.J. (Bl. 88), vgl. online-Katalog der Handschriften der Staats- und Universitätsbibliothek Göttingen (http://hans.sub.uni-goettingen.de/). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1414">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1414"
+                      sortKey="[ca. 1812]-08-30"
+                      when="[ca. 1812]-08-30"
+                      where="#orgplc-1414">
+                  <label> [ca. 1812], Aug. 30</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1414">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1414">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Struve, Heinrich Christian Gottfried von </persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Alexander von Humboldt sendet Blumenbach eine eigene Übersetzung eines Beitragsaus einer seltenen englischen Publikation aus Kalkutta. </title>
+            <title type="main">Alexander von Humboldt sendet Blumenbach eine eigene übersetzung eines Beitragsaus einer seltenen englischen Publikation aus Kalkutta. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Humboldt, Alexander von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Mainz</pubPlace>
-            <date type="publication" when=" 1790-03-23"> 1790, März 23</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/505.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 295 Nr. 0606.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 295 Nr. 0606.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Blumenbach verwendete Humboldts oder eine später entstandene eigene Übersetzung in seinem Vorwort zu Reisen zur Entdeckung der Quellen des Nils in den Jahren 1768, 1769, 1770, 1771, 1772 und 1773 (Bd. 1, 1790; Bibliographie Nr. 00164), S. XIV-XVIII.</note>
+            <note>Blumenbach verwendete Humboldts oder eine später entstandene eigene übersetzung in seinem Vorwort zu Reisen zur Entdeckung der Quellen des Nils in den Jahren 1768, 1769, 1770, 1771, 1772 und 1773 (Bd. 1, 1790; Bibliographie Nr. 00164), S. XIV-XVIII.</note>
             <note>
                <rs type="object"/>
             </note>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=313"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 295 Nr. 0606 </rs>
+               <rs type="edition">Corresp. III, S. 295 Nr. 0606 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 3 (Alexander von Humboldt Nr. 2). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 3 (Alexander von Humboldt Nr. 2). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Humboldt, Alexander von</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-505">Mainz</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-505"
+                      sortKey="1790-03-23"
+                      when="1790-03-23"
+                      where="#orgplc-505">
+                  <label>1790, März 23</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-505">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-505">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

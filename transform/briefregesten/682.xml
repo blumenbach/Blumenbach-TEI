@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann David Schoepf sendet Blumenbach zahlreiche aufgelistete Mineralien aus Oberbayern und aus Nordamerika. </title>
+            <title type="main">Johann David Schoepf sendet Blumenbach zahlreiche aufgelistete Mineralien aus Oberbayern und aus Nordamerika. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Schoepf, Johann David</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when="nach 1793-03-01 "> 1793, März Ansbach</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/682.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 245 Nr. 0803.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 245 Nr. 0803.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,20 +72,23 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Beyträge zur mineralogischen Kenntniß des östlichen Theils von Nordamerika (1787).</rs>
+               <rs type="lz">Beyträge zur mineralogischen Kenntniß des östlichen Theils von Nordamerika (1787).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=257"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 245 Nr. 0803 </rs>
+               <rs type="edition">Corresp. IV, S. 245 Nr. 0803 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren, Überlieferung als Entwurf, Berlin, Museum fÜr Naturkunde, Historische Bild- und Schriftgutsammlung, Bestand: Zoologisches Museum, Signatur S 1 Nachlass Schoepf III, Blumenbach, J.F.; Blatt 5. </title>
+                  <title level="m" type="main">Or. verloren, überlieferung als Entwurf, Berlin, Museum für Naturkunde, Historische Bild- und Schriftgutsammlung, Bestand: Zoologisches Museum, Signatur S 1 Nachlass Schoepf III, Blumenbach, J.F.; Blatt 5. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Schoepf, Johann David</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-682"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-682"
+                      sortKey="nach 1793-03-01 "
+                      when="nach 1793-03-01 "
+                      where="#orgplc-682">
+                  <label>1793, März Ansbach</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-682">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-682">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0676</classCode>
-            <classCode scheme="anchor"> Apr1793</classCode>
+            <classCode scheme="anchor">Apr1793</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

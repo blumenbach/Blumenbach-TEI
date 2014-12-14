@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> August Ferdinand von Veltheim kommentiert gegenÜber Blumenbach dessen ergänzende Angaben zu zwei von seinen mineralogischen und gemmologischen Publikationen und mineralogische Beobachtungen in neueren Publikationen. </title>
+            <title type="main">August Ferdinand von Veltheim kommentiert gegenüber Blumenbach dessen ergänzende Angaben zu zwei von seinen mineralogischen und gemmologischen Publikationen und mineralogische Beobachtungen in neueren Publikationen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Veltheim, August Ferdinand von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Harbke</pubPlace>
-            <date type="publication" when=" 1795-06-18"> 1795, nach Juni 18</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/786.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 411 Nr. 0914.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 411 Nr. 0914.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=423"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 411 Nr. 0914 </rs>
+               <rs type="edition">Corresp. IV, S. 411 Nr. 0914 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren, Überlieferung durch Entwurf in Wernigerode, Landeshauptarchiv Sachsen-Anhalt, Abt. Magdeburg, H 95, Gutsarchiv Harbke, Nr. 4200, fol. 59&#x96;60. </title>
+                  <title level="m" type="main">Or. verloren, überlieferung durch Entwurf in Wernigerode, Landeshauptarchiv Sachsen-Anhalt, Abt. Magdeburg, H 95, Gutsarchiv Harbke, Nr. 4200, fol. 59&#x96;60. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Veltheim, August Ferdinand von</persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-786">Harbke</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1795-06-18">
-                  <label> 1795, nach Juni 18</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-786"
+                      sortKey="1795-06-18"
+                      notBefore="1795-06-18"
+                      where="#orgplc-786">
+                  <label>1795, nach Juni 18</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-786">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-786">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

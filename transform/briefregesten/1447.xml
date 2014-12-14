@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Das hannoversche Cabinets-Ministerium teilt Blumenbach mit, dass &#x96; wie von Blumenbach beantragt&#x96;Friedrich Benjamin Osiander die Mitaufsicht Über die zoologische und ethnographische Sammlung des Academischen Museums der Universität Göttingen Übertragen und Johann Friedrich Ludwig Hausmann zum Unteraufseher fÜr die mineralogische Sammlung ernannt wurdeund dass beide fÜr hochrangige Besucher des Museums als FÜhrer durch die ihnen unterstellten Abteilungen fungieren sollen. </title>
+            <title type="main">Das hannoversche Cabinets-Ministerium teilt Blumenbach mit, dass &#x96; wie von Blumenbach beantragt&#x96;Friedrich Benjamin Osiander die Mitaufsicht über die zoologische und ethnographische Sammlung des Academischen Museums der Universität Göttingen übertragen und Johann Friedrich Ludwig Hausmann zum Unteraufseher für die mineralogische Sammlung ernannt wurdeund dass beide für hochrangige Besucher des Museums als Führer durch die ihnen unterstellten Abteilungen fungieren sollen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Cabinets-Ministerium des Königreichs Hannover</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Hannover</pubPlace>
-            <date type="publication" when=" 1815-10-04"> 1815, Okt. 4</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1447.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Vgl. Nawa, Christine:&#x84;Zum »öffentlichen Gebrauch« bestimmt: Das Academische Museum Göttingen&#x93;, in Göttinger Jahrbuch 58 (2010), S. 23&#x96;63, hier S. 38 mit Anm. 136 (mit irrtÜmlicher, von der zeitl. Einordnung im Text abweichender Jahresangabe &#x84;1813&#x93; in der Fußnote). </rs>
+               <rs type="bibl">Vgl. Nawa, Christine:&#x84;Zum »öffentlichen Gebrauch« bestimmt: Das Academische Museum Göttingen&#x93;, in Göttinger Jahrbuch 58 (2010), S. 23&#x96;63, hier S. 38 mit Anm. 136 (mit irrtümlicher, von der zeitl. Einordnung im Text abweichender Jahresangabe &#x84;1813&#x93; in der Fußnote). </rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsarchiv, Kur. 4 V g 5.</title>
+                  <title level="m" type="main">Göttingen, Universitätsarchiv, Kur. 4 V g 5.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Cabinets-Ministerium des Königreichs Hannover</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1447">Hannover</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1447"
+                      sortKey="1815-10-04"
+                      when="1815-10-04"
+                      where="#orgplc-1447">
+                  <label>1815, Okt. 4</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1447">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1447">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

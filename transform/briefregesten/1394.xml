@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach berichtet Ernst Friedrich von Schlotheim [u. a. , dass Edward Ash versprochen habe, ihm eine Materialprobe des Minerals Strontianit zu senden]. </title>
+            <title type="main">Blumenbach berichtet Ernst Friedrich von Schlotheim [u. a. , dass Edward Ash versprochen habe, ihm eine Materialprobe des Minerals Strontianit zu senden]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> [Göttingen]</pubPlace>
-            <date type="publication" when=" 1811-02-12"> 1811, Febr. 12</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1394.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug inDougherty, Corresp. IV,S. 188 Nr. 0767 Anm. *.</rs>
+               <rs type="bibl">Auszug inDougherty, Corresp. IV,S. 188 Nr. 0767 Anm. *.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=200"/>
             </note>
             <note>
-               <rs type="edition"> Dougherty, Corresp. IV,S. 188 Nr. 0767 Anm. * </rs>
+               <rs type="edition">Dougherty, Corresp. IV,S. 188 Nr. 0767 Anm. * </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, 2 Cod. Ms. philos. 182 : J. F. Blumenbach, 25.10.1796. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, 2 Cod. Ms. philos. 182 : J. F. Blumenbach, 25.10.1796. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1394"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1394"
+                      sortKey="1811-02-12"
+                      when="1811-02-12"
+                      where="#orgplc-1394">
+                  <label>1811, Febr. 12  [Göttingen]</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1394">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1394">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Soemmerring, Samuel Thomas </persName>
          </creation>

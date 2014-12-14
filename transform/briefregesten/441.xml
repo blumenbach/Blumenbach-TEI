@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Friedrich Gabriel Sulzer sendet Blumenbach Informationen Über eine Schweinerasse in der Normandie. </title>
+            <title type="main">Friedrich Gabriel Sulzer sendet Blumenbach Informationen über eine Schweinerasse in der Normandie. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Sulzer, Friedrich Gabriel</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Ronneburg</pubPlace>
-            <date type="publication" when=" 1789-03-31"> 1789, vor März 31</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/441.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 208 Nr. 0540.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 208 Nr. 0540.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,20 +72,24 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Magazin fÜr das Neueste aus der Physik und Naturgeschichte VI, 1 (1789), S. 12.</rs>
+               <rs type="lz">Magazin für das Neueste aus der Physik und Naturgeschichte VI, 1 (1789), S. 12.</rs>
+            </note>
+            <note>
+               <rs type="item">Teil des Aufsatzes &#x84;über Menschen- und Schweinerassen&#x93; inMagazin für das Neueste aus der Physik und Naturgeschichte VI, 1 (1789), S. 1&#x96;13 (Bibliographie Nr. 00822).
+</rs>
             </note>
             <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=226"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 208 Nr. 0540 </rs>
+               <rs type="edition">Corresp. III, S. 208 Nr. 0540 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren, Überliefert durch Druck in Magazin fÜr das Neueste aus der Physik und Naturgeschichte VI, 1. </title>
+                  <title level="m" type="main">Or. verloren, überliefert durch Druck in Magazin für das Neueste aus der Physik und Naturgeschichte VI, 1. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Sulzer, Friedrich Gabriel</persName>
                   </author>
@@ -98,9 +102,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-441">Ronneburg</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1789-03-31">
-                  <label> 1789, vor März 31</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-441"
+                      sortKey="1789-03-31"
+                      notAfter="1789-03-31"
+                      where="#orgplc-441">
+                  <label>1789, vor März 31</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,12 +130,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-441">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-441">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0437</classCode>
-            <classCode scheme="anchor"> Apr1789</classCode>
+            <classCode scheme="anchor">Apr1789</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

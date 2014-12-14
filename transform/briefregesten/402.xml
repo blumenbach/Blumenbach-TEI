@@ -3,9 +3,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Friedrich BÜchner berichtet Blumenbach von einem an Albinismus leidenden Jungen in Gotha. </title>
+            <title type="main">Friedrich Büchner berichtet Blumenbach von einem an Albinismus leidenden Jungen in Gotha. </title>
             <author>
-               <persName ref="http://d-nb.info/gnd/">BÜchner, Friedrich </persName>
+               <persName ref="http://d-nb.info/gnd/">Büchner, Friedrich </persName>
             </author>
             <editor>
                <persName ref="http://d-nb.info/gnd/">
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Gotha</pubPlace>
-            <date type="publication" when=" 1788-03-22"> 1788, vor März 25</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/402.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,38 +57,41 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp.III, S. 150 Nr. 0496.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp.III, S. 150 Nr. 0496.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Kopfhaar eines an Albinismus leidenden Jungen aus Gotha, vgl. Blumenbachs hs. Sammlungsverzeichnis, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, II, fol. 18r.</rs>
+               <rs type="object">Kopfhaar eines an Albinismus leidenden Jungen aus Gotha, vgl. Blumenbachs hs. Sammlungsverzeichnis, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, II, fol. 18r.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Erwähnung in Blumenbachs Bericht &#x84;Ein Kackerlacke in Gotha&#x93; inMedicinische Bibliothek Bd. 3,1. StÜck(1788), S. 169.</rs>
+               <rs type="bibl">Erwähnung in Blumenbachs Bericht &#x84;Ein Kackerlacke in Gotha&#x93; inMedicinische Bibliothek Bd. 3,1. Stück(1788), S. 169.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#MedBiblIII1-Buechner"/>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#MedBiblIII1-Buechner"/>
             </note>
             <note>
-               <rs type="edition"> Medicinische Bibliothek </rs>
+               <rs type="edition">Medicinische Bibliothek </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren, Erwähnung inMedicinische Bibliothek Bd. 3,1. StÜck. </title>
+                  <title level="m" type="main">Or. verloren, Erwähnung inMedicinische Bibliothek Bd. 3,1. Stück. </title>
                   <author>
-                     <persName ref="http://d-nb.info/gnd/">BÜchner, Friedrich </persName>
+                     <persName ref="http://d-nb.info/gnd/">Büchner, Friedrich </persName>
                   </author>
                </titleStmt>
                <publicationStmt>
@@ -99,9 +102,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-402">Gotha</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1788-03-22">
-                  <label> 1788, vor März 25</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-402"
+                      sortKey="1788-03-22"
+                      notAfter="1788-03-22"
+                      where="#orgplc-402">
+                  <label>1788, vor März 25</label>
                </event>
             </listEvent>
             <msDesc>
@@ -118,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-402">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-402">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>

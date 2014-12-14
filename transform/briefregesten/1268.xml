@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach dankt Johann Wolfgang von Goethe fÜr seltene Literatur Über Fossilien und die KÜsten Hokkaidos, die dieser ihm in Anschluss an Blumenbachs Besuch in Weimar im Oktober 1802 geschickt hatte, und sendet mineralogische und anatomische AuskÜnfte. </title>
+            <title type="main">Blumenbach dankt Johann Wolfgang von Goethe für seltene Literatur über Fossilien und die Küsten Hokkaidos, die dieser ihm in Anschluss an Blumenbachs Besuch in Weimar im Oktober 1802 geschickt hatte, und sendet mineralogische und anatomische Auskünfte. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> 1802, Mitte Dez. Göttingen</pubPlace>
-            <date type="publication" when=" ca. 1802-12-15"/>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1268.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,22 +57,25 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Zwillingskristall des Carlsbader Feldspaths.</rs>
+               <rs type="object">Zwillingskristall des Carlsbader Feldspaths.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Teildruck: Goethe. Die Schriften zur Naturwissenschaft.Abt. II, Bd. 9b, S. 201&#x96;202; Regest: Briefe an Goethe. Gesamtausgabe in Regestform 1764&#x96;1817. Herausgegeben von der Klassik Stiftung Weimar Goethe- und Schiller-Archiv (online-Version), Regest Nr. 4/514a.</rs>
+               <rs type="bibl">Teildruck: Goethe. Die Schriften zur Naturwissenschaft.Abt. II, Bd. 9b, S. 201&#x96;202; Regest: Briefe an Goethe. Gesamtausgabe in Regestform 1764&#x96;1817. Herausgegeben von der Klassik Stiftung Weimar Goethe- und Schiller-Archiv (online-Version), Regest Nr. 4/514a.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv: GSA 26/LXX, Bl. 58&#x96;59.</title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv: GSA 26/LXX, Bl. 58&#x96;59.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1268"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1268"
+                      sortKey="1802-12-15"
+                      when="1802-12-15"
+                      where="#orgplc-1268">
+                  <label>1802, Mitte Dez. Göttingen</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1268">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1268">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Goethe, Johann Wolfgang von</persName>
          </creation>

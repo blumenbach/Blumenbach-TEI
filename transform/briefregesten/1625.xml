@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teiltJoseph Frank seine Aufnahme in die Königliche Societät der Wissenschaften mit, sendet ihm das entsprechende Diplom und sichert die ErfÜllung die Verpflichtungen zu, die die Societät mit der Annahme eines finanziellen Legats von Frank eingegangen ist. </title>
+            <title type="main">Blumenbach teiltJoseph Frank seine Aufnahme in die Königliche Societät der Wissenschaften mit, sendet ihm das entsprechende Diplom und sichert die Erfüllung die Verpflichtungen zu, die die Societät mit der Annahme eines finanziellen Legats von Frank eingegangen ist. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1831-10-11"> 1831, Okt. 11</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1625.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Zu Joseph Frank (1771&#x96;1842) als Adressat des Briefes vgl. entspr. Notiz J. de Carros auf dem Brief; Frank war1785 Student beiBlumenbach (was der Angabe Blumenbach in dem Brief entspricht) und wurde 1831 Mitglied der Societät der Wissenschaften, vgl. PÜtter, Versuch (1838), S. 94 (Nr. 89 in den Fußnoten). </note>
+            <note>Zu Joseph Frank (1771&#x96;1842) als Adressat des Briefes vgl. entspr. Notiz J. de Carros auf dem Brief; Frank war1785 Student beiBlumenbach (was der Angabe Blumenbach in dem Brief entspricht) und wurde 1831 Mitglied der Societät der Wissenschaften, vgl. Pütter, Versuch (1838), S. 94 (Nr. 89 in den Fußnoten). </note>
             <note>
                <rs type="object"/>
             </note>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Digitalisat der öNB: http://data.onb.ac.at/ rec/AL00228442 (Tabellenzeile &#x84;Digitales Objekt&#x93;).</rs>
+               <rs type="bibl">Digitalisat der öNB: http://data.onb.ac.at/ rec/AL00228442 (Tabellenzeile &#x84;Digitales Objekt&#x93;).</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://data.onb.ac.at/rec/AL00228442"/>
             </note>
             <note>
-               <rs type="edition"> http://data.onb.ac.at/ rec/AL00228442 </rs>
+               <rs type="edition">http://data.onb.ac.at/ rec/AL00228442 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Wien, österreichische Nationalbibliothek (öNB), Handschriftensammlung, Autogr. 21/57-3. </title>
+                  <title level="m" type="main">Wien, österreichische Nationalbibliothek (öNB), Handschriftensammlung, Autogr. 21/57-3. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1625">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1625"
+                      sortKey="1831-10-11"
+                      when="1831-10-11"
+                      where="#orgplc-1625">
+                  <label>1831, Okt. 11</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1625">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1625">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Frank, Joseph </persName>
          </creation>

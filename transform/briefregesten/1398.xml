@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach dankt Johann Wolfgang von Goethe fÜr die Probe des ihm bisher nur aus der Literatur bekannten &#x84;Pilzsteins&#x93; (pietra fungaja), zu dem er zahlreiche Literaturbelege nennt, und sendet einAutograph Nikolaus Ludwig von Zinzendorfs und ein Exemplar seiner Beyträge zur Naturgeschichte (2. Teil, 1811). </title>
+            <title type="main">Blumenbach dankt Johann Wolfgang von Goethe für die Probe des ihm bisher nur aus der Literatur bekannten &#x84;Pilzsteins&#x93; (pietra fungaja), zu dem er zahlreiche Literaturbelege nennt, und sendet einAutograph Nikolaus Ludwig von Zinzendorfs und ein Exemplar seiner Beyträge zur Naturgeschichte (2. Teil, 1811). </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 18"> 1811, Okt. 8</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1398.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Teildruck: Goethe. Die Schriften zur Naturwissenschaft.Abt. II, Bd. 9b, S. 336&#x96;337; Regest: Briefe an Goethe. Gesamtausgabe in Regestform 1764&#x96;1817. Herausgegeben von der Klassik Stiftung Weimar Goethe- und Schiller-Archiv (online-Version), Regest Nr. 6/240.</rs>
+               <rs type="bibl">Teildruck: Goethe. Die Schriften zur Naturwissenschaft.Abt. II, Bd. 9b, S. 336&#x96;337; Regest: Briefe an Goethe. Gesamtausgabe in Regestform 1764&#x96;1817. Herausgegeben von der Klassik Stiftung Weimar Goethe- und Schiller-Archiv (online-Version), Regest Nr. 6/240.</rs>
             </note>
             <note>
-               <rs type="lz"> Beyträge zur Naturgeschichte (2. Teil, 1811; Bibliographie 00113). </rs>
+               <rs type="lz">Beyträge zur Naturgeschichte (2. Teil, 1811; Bibliographie 00113). </rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00113"/>
             </note>
             <note>
-               <rs type="edition"> 00113 </rs>
+               <rs type="edition">00113 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv: GSA 28/57, Bl. 215f.</title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv: GSA 28/57, Bl. 215f.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1398">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1398"
+                      sortKey="18"
+                      when="18"
+                      where="#orgplc-1398">
+                  <label>1811, Okt. 8</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1398">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1398">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Goethe, Johann Wolfgang von</persName>
          </creation>

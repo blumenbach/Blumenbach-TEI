@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Charles Bonnet dankt Blumenbach fÜr die Zusendung seines Specimen physiologiae comparatae inter animantia calidi et frigidi sanguinis, empfiehlt ihm, sich nicht der Medizingeschichte, sondern der Naturforschung zu widmen, und macht Vorschläge fÜr die Untersuchung der Anatomie von WasserwÜrmern. </title>
+            <title type="main">Charles Bonnet dankt Blumenbach für die Zusendung seines Specimen physiologiae comparatae inter animantia calidi et frigidi sanguinis, empfiehlt ihm, sich nicht der Medizingeschichte, sondern der Naturforschung zu widmen, und macht Vorschläge für die Untersuchung der Anatomie von Wasserwürmern. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Bonnet, Charles</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Genthod</pubPlace>
-            <date type="publication" when=" 1787-05-29"> 1787, Mai 29</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/369.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 99 Nr. 0460.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 99 Nr. 0460.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,21 +72,24 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Specimen physiologiae comparatae inter animantia calidi et frigidi sanguinis (1787; Bibliographie Nr. 00121); Introductio in historiam medicinae litterariam (1786; Bibliographie Nr. 00142).</rs>
+               <rs type="lz">Specimen physiologiae comparatae inter animantia calidi et frigidi sanguinis (1787; Bibliographie Nr. 00121); Introductio in historiam medicinae litterariam (1786; Bibliographie Nr. 00142).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00121"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=117"/>
             </note>
             <note>
-               <rs type="edition"> 00121   Corresp. III, S. 99 Nr. 0460 </rs>
+               <rs type="edition">00121  Corresp. III, S. 99 Nr. 0460 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Leipzig, Universitätsbibliothek, Sammlung Kestner II C IX, 9; Kopie in Genf, Bibliothèque de Genève, MS. Bonnet 77, fol. 62r&#x96;v. </title>
+                  <title level="m" type="main">Leipzig, Universitätsbibliothek, Sammlung Kestner II C IX, 9; Kopie in Genf, Bibliothèque de Genève, MS. Bonnet 77, fol. 62r&#x96;v. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Bonnet, Charles</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-369">Genthod</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-369"
+                      sortKey="1787-05-29"
+                      when="1787-05-29"
+                      where="#orgplc-369">
+                  <label>1787, Mai 29</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,12 +130,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-369">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-369">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0365</classCode>
-            <classCode scheme="anchor"> Juni1787</classCode>
+            <classCode scheme="anchor">Juni1787</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

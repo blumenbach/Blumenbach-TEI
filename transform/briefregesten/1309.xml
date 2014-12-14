@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Heinrich von Langsdorff antwortet Blumenbach auf einige an ihn gerichteteFragen zur Tierwelt Sibiriens, berichtet Über die Tätowierungen der Bewohner der zu den Marquesasinseln gehörende Insel Nuku Hiva (&#x84;Nukahiwah&#x93;) und Über einen Orkan während der Reisenach Japan und sendet eine Liste mit Fischarten aus den Gewässern vor Japan. </title>
+            <title type="main">Georg Heinrich von Langsdorff antwortet Blumenbach auf einige an ihn gerichteteFragen zur Tierwelt Sibiriens, berichtet über die Tätowierungen der Bewohner der zu den Marquesasinseln gehörende Insel Nuku Hiva (&#x84;Nukahiwah&#x93;) und über einen Orkan während der Reisenach Japan und sendet eine Liste mit Fischarten aus den Gewässern vor Japan. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Langsdorff, Georg Heinrich von</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when="1805-06-07"> 1805, Juni 7 Petropawlowsk, Kamtschatka</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1309.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,29 +57,33 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Zeichnung eines Apollofalters und Schädels eines Argali-Schafs von der Halbinsel Kamtschatka; Zeichnung der tätowierten linken Hand der Königin von Nuku Hiva; Schädel eines Marquesas-Insulaners; Silhouetten und eine farbige Zeichnung von Einwohnern von Japan, vgl. dazu vgl. Spengel, Anthropologische Sammlung, S. 90 unten: &#x84;11 kleine kolorierte Relief-Darstellungen von Japanern und Ainos, 6 grosse aufgerollte Bilder von Japanern&#x93;. </rs>
+               <rs type="object">Zeichnung eines Apollofalters und Schädels eines Argali-Schafs von der Halbinsel Kamtschatka; Zeichnung der tätowierten linken Hand der Königin von Nuku Hiva; Schädel eines Marquesas-Insulaners; Silhouetten und eine farbige Zeichnung von Einwohnern von Japan, vgl. dazu vgl. Spengel, Anthropologische Sammlung, S. 90 unten: &#x84;11 kleine kolorierte Relief-Darstellungen von Japanern und Ainos, 6 grosse aufgerollte Bilder von Japanern&#x93;. </rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 11, 4. StÜck (1806), S. 297&#x96;309 (&#x84;II. Fernere Reisenachrichten vom Herrn D. Langsdorff&#x93;, Bibliographie Nr.00915).</rs>
+               <rs type="bibl">Auszug in Magazin für den neuesten Zustand der Naturkunde, Bd. 11, 4. Stück (1806), S. 297&#x96;309 (&#x84;II. Fernere Reisenachrichten vom Herrn D. Langsdorff&#x93;, Bibliographie Nr.00915).</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00915(siehe&#x84;Dr.&#x93;). 
+</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00915"/>
                <ref target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553"/>
             </note>
             <note>
-               <rs type="edition"> 00915   Spengel, Anthropologische Sammlung </rs>
+               <rs type="edition">00915  Spengel, Anthropologische Sammlung </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -99,6 +103,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1309">Petropawlowsk, Kamtschatka</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1309"
+                      sortKey="1805-06-07"
+                      when="1805-06-07"
+                      where="#orgplc-1309">
+                  <label>1805, Juni 7</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +131,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1309">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1309">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach fragt Joseph Banks, wer der Verfasser einer anonym erschienenen Monographie Über Jamaika ist, und kÜndigt die Zusendung von Publikationen verschiedener deutscher Autoren an. </title>
+            <title type="main">Blumenbach fragt Joseph Banks, wer der Verfasser einer anonym erschienenen Monographie über Jamaika ist, und kündigt die Zusendung von Publikationen verschiedener deutscher Autoren an. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1794-12-28"> 1794, Dez. 28</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/756.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 361 Nr. 0881.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 361 Nr. 0881.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S. 113 Nr. 31.</rs>
+               <rs type="bibl">Vgl. ausführl. Regest in Dawson, The Banks Letters (1958), S. 113 Nr. 31.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=373"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 361 Nr. 0881 </rs>
+               <rs type="edition">Corresp. IV, S. 361 Nr. 0881 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, British Library, Add MS 8098, fol. 221&#x96;222. </title>
+                  <title level="m" type="main">London, British Library, Add MS 8098, fol. 221&#x96;222. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-756">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-756"
+                      sortKey="1794-12-28"
+                      when="1794-12-28"
+                      where="#orgplc-756">
+                  <label>1794, Dez. 28</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-756">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-756">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Banks, Joseph</persName>
          </creation>

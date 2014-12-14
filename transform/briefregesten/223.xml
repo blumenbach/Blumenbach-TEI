@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach berichtet Gottlieb Emanuel von Haller Über private Vorkommnisse, formuliert eine ärztliche Einschätzung zu Hallers Gesundheitszustand, teilt bibliographische Angaben zu neueren Publikationen mit und bittet um die Zusendung naturkundlicher Sammlungsobjekte. </title>
+            <title type="main">Blumenbach berichtet Gottlieb Emanuel von Haller über private Vorkommnisse, formuliert eine ärztliche Einschätzung zu Hallers Gesundheitszustand, teilt bibliographische Angaben zu neueren Publikationen mit und bittet um die Zusendung naturkundlicher Sammlungsobjekte. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1784-10-10"> 1784, Okt. 10</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/223.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 210 Nr. 0310 aus Ebstein; verbesserte Version nachdem Or. in Dietikon: Dougherty, Corresp. III, S. 372 Appendix Nr. 08.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 210 Nr. 0310 aus Ebstein; verbesserte Version nachdem Or. in Dietikon: Dougherty, Corresp. III, S. 372 Appendix Nr. 08.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Ebstein, Erich, &#x84;Aus Blumenbachs Studierstube&#x93; in Archiv fÜr die Geschichte der Naturwissenschaften und Technik 4 (1913),S. 234&#x96;238, hier S. 236&#x96;238 (ungenaue Transkription); Graber, Heinz (Hg.): Bonstettiana. Briefkorrespondenz Karl Viktor von Bonstettens [&#x85;]. Band 5/1 (1784&#x96;1786). Göttingen 2005, S. 15&#x96;18.</rs>
+               <rs type="bibl">Ebstein, Erich, &#x84;Aus Blumenbachs Studierstube&#x93; in Archiv für die Geschichte der Naturwissenschaften und Technik 4 (1913),S. 234&#x96;238, hier S. 236&#x96;238 (ungenaue Transkription); Graber, Heinz (Hg.): Bonstettiana. Briefkorrespondenz Karl Viktor von Bonstettens [&#x85;]. Band 5/1 (1784&#x96;1786). Göttingen 2005, S. 15&#x96;18.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Dietikon, Karl Viktor von Bonstetten-Archiv, 84.10.10. </title>
+                  <title level="m" type="main">Dietikon, Karl Viktor von Bonstetten-Archiv, 84.10.10. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-223">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-223"
+                      sortKey="1784-10-10"
+                      when="1784-10-10"
+                      where="#orgplc-223">
+                  <label>1784, Okt. 10</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-223">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-223">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Haller, Gottlieb Emanuel von </persName>
          </creation>

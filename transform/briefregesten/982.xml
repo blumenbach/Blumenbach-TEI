@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teilt Georg Christoph Lichtenberg mit, in welchen Erzen das neu entdeckte Metall Tellur enthalten ist, und sendet Proben von zweien dieserErze. </title>
+            <title type="main">Blumenbach teilt Georg Christoph Lichtenberg mit, in welchen Erzen das neu entdeckte Metall Tellur enthalten ist, und sendet Proben von zweien dieserErze. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1798-02-06"> 1798, Febr. 6</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/982.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,36 +57,39 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 210&#x96;211 Nr. 1118.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 210&#x96;211 Nr. 1118.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Probe von tellurhaltigem &#x84;Schriffterz&#x93; (Sylvanit, Schrifttellur); Probe von tellurhaltigem &#x84;Nagyager Blättererz&#x93; ((Nagyágit, Blättertellur).</rs>
+               <rs type="object">Probe von tellurhaltigem &#x84;Schriffterz&#x93; (Sylvanit, Schrifttellur); Probe von tellurhaltigem &#x84;Nagyager Blättererz&#x93; ((Nagyágit, Blättertellur).</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Lichtenberg, Briefwechsel, Bd. 4 (1992), Nr. 2816, S. 817. </rs>
+               <rs type="bibl">Lichtenberg, Briefwechsel, Bd. 4 (1992), Nr. 2816, S. 817. </rs>
             </note>
             <note>
-               <rs type="lz"> Handbuch der Naturgeschichte (5. Aufl. 1797; Bibliographie Nr. 00026).</rs>
+               <rs type="lz">Handbuch der Naturgeschichte (5. Aufl. 1797; Bibliographie Nr. 00026).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00026"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=226"/>
             </note>
             <note>
-               <rs type="edition"> 00026   Corresp. V, S. 210&#x96;211 Nr. 1118 </rs>
+               <rs type="edition">00026  Corresp. V, S. 210&#x96;211 Nr. 1118 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Lichtenberg VII, B 11, fol. 51 (46).</title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Lichtenberg VII, B 11, fol. 51 (46).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-982">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-982"
+                      sortKey="1798-02-06"
+                      when="1798-02-06"
+                      where="#orgplc-982">
+                  <label>1798, Febr. 6</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-982">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-982">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Lichtenberg, Georg Christoph</persName>
          </creation>

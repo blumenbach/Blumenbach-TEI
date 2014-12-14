@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> William Scoular schickt Blumenbach im Auftrag König Georgs IV. einen [von ihm angefertigten] Abguss des Schädels des schottischen Königs Robert I. (the Bruce). </title>
+            <title type="main">William Scoular schickt Blumenbach im Auftrag König Georgs IV. einen [von ihm angefertigten] Abguss des Schädels des schottischen Königs Robert I. (the Bruce). </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Scoular, William</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when="1821-02-03"> 1821, Febr. 3 London</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1507.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,22 +57,25 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Abguss des Schädels des schottischen Königs Robert I. (the Bruce).</rs>
+               <rs type="object">Abguss des Schädels des schottischen Königs Robert I. (the Bruce).</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Dougherty, Commercium epistolicum (1984), S. 138 KatNr. 162.</rs>
+               <rs type="bibl">Dougherty, Commercium epistolicum (1984), S. 138 KatNr. 162.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms.Blumenbach VI,1, fol. 14&#x96;15; Abschrift von Blumenbachs Hand ebd. fol. 16. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms.Blumenbach VI,1, fol. 14&#x96;15; Abschrift von Blumenbachs Hand ebd. fol. 16. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Scoular, William</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1507">London</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1507"
+                      sortKey="1821-02-03"
+                      when="1821-02-03"
+                      where="#orgplc-1507">
+                  <label>1821, Febr. 3</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1507">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1507">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

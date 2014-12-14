@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Franz Xaver von Zach informiert Blumenbach Über die Begleitumstände des Endes seiner geschäftlichen Beziehungen zuFriedrich Justin Bertuch, dessen Zugehörigkeit zum Judentum er mehrfach in herabsetzender Weise hervorhebt,bittet Blumenbach um einen Beitrag fÜr das Anfang 1800 erscheinende erste Heft seiner neuen Zeitschrift Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde. </title>
+            <title type="main">Franz Xaver von Zach informiert Blumenbach über die Begleitumstände des Endes seiner geschäftlichen Beziehungen zuFriedrich Justin Bertuch, dessen Zugehörigkeit zum Judentum er mehrfach in herabsetzender Weise hervorhebt,bittet Blumenbach um einen Beitrag für das Anfang 1800 erscheinende erste Heft seiner neuen Zeitschrift Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Zach, Franz Xaver von</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when="1799-12-12"> 1799, Dez. 12  Seeberg</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1130.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 423&#x96;425 Nr. 1265.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 423&#x96;425 Nr. 1265.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=439"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 423&#x96;425 Nr. 1265 </rs>
+               <rs type="edition">Corresp. V, S. 423&#x96;425 Nr. 1265 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 2 (ZachNr. 17).</title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 2 (ZachNr. 17).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Zach, Franz Xaver von</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1130"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1130"
+                      sortKey="1799-12-12"
+                      when="1799-12-12"
+                      where="#orgplc-1130">
+                  <label>1799, Dez. 12 Seeberg</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1130">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1130">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

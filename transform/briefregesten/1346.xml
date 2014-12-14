@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach anJohann Albert Heinrich Reimarus. </title>
+            <title type="main">Blumenbach anJohann Albert Heinrich Reimarus. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1807-03-19"> 1807, März 19</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1346.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -66,26 +66,29 @@
                <rs type="object"/>
             </note>
             <note>
-               <rs type="span">  </rs>
+               <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> </rs>
+               <rs type="bibl">   </rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://www.sub.uni-hamburg.de/bibliotheken/fuer-die-fachwelt/allegro-hans.html"/>
             </note>
             <note>
-               <rs type="edition"> http://www.sub.uni-hamburg.de/ bibliotheken/fuer-die-fachwelt/ allegro-hans.html </rs>
+               <rs type="edition">http://www.sub.uni-hamburg.de/ bibliotheken/fuer-die-fachwelt/ allegro-hans.html </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hamburg, Staats- und Universitätsbibliothek, Campe-Sammlung, Mappe 12 (Blumenbach) Nr. 11, vgl. online-Katalog der Handschriften der Staats- und Universitätsbibliothek Hamburg (http://www.sub.uni-hamburg.de/ bibliotheken/fuer-die-fachwelt/ allegro-hans.html).</title>
+                  <title level="m" type="main">Hamburg, Staats- und Universitätsbibliothek, Campe-Sammlung, Mappe 12 (Blumenbach) Nr. 11, vgl. online-Katalog der Handschriften der Staats- und Universitätsbibliothek Hamburg (http://www.sub.uni-hamburg.de/ bibliotheken/fuer-die-fachwelt/ allegro-hans.html).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1346">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1346"
+                      sortKey="1807-03-19"
+                      when="1807-03-19"
+                      where="#orgplc-1346">
+                  <label>1807, März 19</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1346">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1346">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Reimarus, Johann Albert Heinrich </persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach schlägt dem Geheimen Ratskollegium in Hannover vor, in London Sammlungsobjekte von der zweiten Cookschen Weltumsegelung fÜr das Academische Museumder Universität Göttingenzu erbitten. </title>
+            <title type="main">Blumenbach schlägt dem Geheimen Ratskollegium in Hannover vor, in London Sammlungsobjekte von der zweiten Cookschen Weltumsegelung für das Academische Museumder Universität Göttingenzu erbitten. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1781-08-27"> 1781, Aug. 27</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/121.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 257 Nr. 0160.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 257 Nr. 0160.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Plischke, Die Ethnographische Sammlung der Universität Göttingen (1931), S. 19&#x96;20; Urban, Manfred, 200 Jahre Göttinger Cook-Sammlung. Göttingen 1982, S. 22&#x96;23; Auszug und Abb. in Urban, Manfred, &#x84;The Acquisition History of the Göttingen Collection&#x93;, inHauser-Schäublin und KrÜger, James Cook (1998), S. 57&#x96;58; HinÜber, Hartmut von, &#x84;Ein Hauch von SÜdsee weht durch die Familiengeschichte&#x93;, in: von HinÜber&#x92;sche Familienzeitung 97 (2005), S. 10.</rs>
+               <rs type="bibl">Plischke, Die Ethnographische Sammlung der Universität Göttingen (1931), S. 19&#x96;20; Urban, Manfred, 200 Jahre Göttinger Cook-Sammlung. Göttingen 1982, S. 22&#x96;23; Auszug und Abb. in Urban, Manfred, &#x84;The Acquisition History of the Göttingen Collection&#x93;, inHauser-Schäublin und Krüger, James Cook (1998), S. 57&#x96;58; Hinüber, Hartmut von, &#x84;Ein Hauch von Südsee weht durch die Familiengeschichte&#x93;, in: von Hinüber&#x92;sche Familienzeitung 97 (2005), S. 10.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Inst. fÜr Ethnologie und Ethnologische Sammlung, Archiv, Erwerbungen. </title>
+                  <title level="m" type="main">Göttingen, Inst. für Ethnologie und Ethnologische Sammlung, Archiv, Erwerbungen. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-121">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-121"
+                      sortKey="1781-08-27"
+                      when="1781-08-27"
+                      where="#orgplc-121">
+                  <label>1781, Aug. 27</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-121">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-121">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Geheimes Ratskollegium </persName>
          </creation>

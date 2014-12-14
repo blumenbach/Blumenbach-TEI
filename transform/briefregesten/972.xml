@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach berichtetFranz Xaver von Zach unter anderem Über die Entdeckung von vier weiteren Monden des Planeten Uranus durch William Herschel. </title>
+            <title type="main">Blumenbach berichtetFranz Xaver von Zach unter anderem über die Entdeckung von vier weiteren Monden des Planeten Uranus durch William Herschel. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1798-01-14"> 1798, Jan. 14</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/972.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 198&#x96;199 Nr. 1108.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 198&#x96;199 Nr. 1108.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,24 +69,28 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Allgemeine geographische Ephemeriden, Bd. 1, 2. StÜck (Februar 1798), S. 224&#x96;225 (&#x84;1) Auszug aus einem Schreiben des Herrn Hofrath Blumenbach an den Herausgeber. Göttingen, den 14. Jan. 1798&#x93;, Bibliographie Nr.00759).</rs>
+               <rs type="bibl">Auszug in Allgemeine geographische Ephemeriden, Bd. 1, 2. Stück (Februar 1798), S. 224&#x96;225 (&#x84;1) Auszug aus einem Schreiben des Herrn Hofrath Blumenbach an den Herausgeber. Göttingen, den 14. Jan. 1798&#x93;, Bibliographie Nr.00759).</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00759 (siehe &#x84;Dr.&#x93;). 
+</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00759"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=214"/>
             </note>
             <note>
-               <rs type="edition"> 00759   Corresp. V, S. 198&#x96;199 Nr. 1108 </rs>
+               <rs type="edition">00759  Corresp. V, S. 198&#x96;199 Nr. 1108 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren; Druck nach dem Auszug in Allgemeine geographische Ephemeriden, s. Dr. </title>
+                  <title level="m" type="main">Or. verloren; Druck nach dem Auszug in Allgemeine geographische Ephemeriden, s. Dr. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +103,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-972">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-972"
+                      sortKey="1798-01-14"
+                      when="1798-01-14"
+                      where="#orgplc-972">
+                  <label>1798, Jan. 14</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +131,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-972">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-972">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Zach, Franz Xaver von </persName>
          </creation>

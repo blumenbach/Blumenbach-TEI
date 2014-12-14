@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Christoph Meiners teilt Blumenbach mit, dass er die von diesem vorgeschlagenen änderungen an einer Rezension in denGöttingischen Anzeigen von gelehrten Sachen fÜr sachlich nicht erforderlich hält. </title>
+            <title type="main">Christoph Meiners teilt Blumenbach mit, dass er die von diesem vorgeschlagenen änderungen an einer Rezension in denGöttingischen Anzeigen von gelehrten Sachen für sachlich nicht erforderlich hält. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Meiners, Christoph </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1785-01-15"> 1785, vor Jan. 15</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/241.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 233 Nr. 0328.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 233 Nr. 0328.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Akademie der Wissenschaften, Archiv, Scient. 47,3 Nr. 972-1 </title>
+                  <title level="m" type="main">Göttingen, Akademie der Wissenschaften, Archiv, Scient. 47,3 Nr. 972-1 </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Meiners, Christoph </persName>
                   </author>
@@ -96,9 +99,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-241">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1785-01-15">
-                  <label> 1785, vor Jan. 15</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-241"
+                      sortKey="1785-01-15"
+                      notAfter="1785-01-15"
+                      where="#orgplc-241">
+                  <label>1785, vor Jan. 15</label>
                </event>
             </listEvent>
             <msDesc>
@@ -115,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-241">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-241">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

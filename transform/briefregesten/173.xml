@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Joseph Banks von diesem erbetene fremde und eigene Publikationen Über das Gefrieren von Quecksilber, berichtet Über seine Beobachtungen zur Struktur von Blättern und zur Fortpflanzung von Algen und fragt nach der genauen Bezeichnung einer SÜdsee-Pflanze. </title>
+            <title type="main">Blumenbach sendet Joseph Banks von diesem erbetene fremde und eigene Publikationen über das Gefrieren von Quecksilber, berichtet über seine Beobachtungen zur Struktur von Blättern und zur Fortpflanzung von Algen und fragt nach der genauen Bezeichnung einer Südsee-Pflanze. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1783-01-30"> 1783, Jan. 30</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/173.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 14 Nr. 0234.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 14 Nr. 0234.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,14 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Dougherty, Commercium epistolicum (1984), S. 112&#x96;113 KatNr. 132 (mit Abb. von Blumenbachs Zeichnungen); vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S 110 Nr. 1.</rs>
+               <rs type="bibl">Dougherty, Commercium epistolicum (1984), S. 112&#x96;113 KatNr. 132 (mit Abb. von Blumenbachs Zeichnungen); vgl. ausführl. Regest in Dawson, The Banks Letters (1958), S 110 Nr. 1.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item">Blumenbachs Societätsbericht über seine Quecksilber-Versuche, GAgS 1774 (13. Stück, 29. Jan.), S. 106−107 (= Bibliographie Nr. 00209). 
+</rs>
             </note>
             <note/>
             <note>
@@ -83,7 +87,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, British Library, Add MS 8096 fol. 6&#x96;8. </title>
+                  <title level="m" type="main">London, British Library, Add MS 8096 fol. 6&#x96;8. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -96,6 +100,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-173">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-173"
+                      sortKey="1783-01-30"
+                      when="1783-01-30"
+                      where="#orgplc-173">
+                  <label>1783, Jan. 30</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +128,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-173">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-173">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Banks, Joseph </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0171</classCode>
-            <classCode scheme="anchor"> Maerz1783</classCode>
+            <classCode scheme="anchor">Maerz1783</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teiltFriedrich Justin Bertuch [u. a. mit, dass sein Student G. Heinrich Röntgen fÜr Bertuchs Zeitschrift Allgemeines Archiv fÜr Ethnographie und Linguistik Exzerpte aus Reiseberichten in der Göttinger Universitätsbibliothek anfertigen werde]. </title>
+            <title type="main">Blumenbach teiltFriedrich Justin Bertuch [u. a. mit, dass sein Student G. Heinrich Röntgen für Bertuchs Zeitschrift Allgemeines Archiv für Ethnographie und Linguistik Exzerpte aus Reiseberichten in der Göttinger Universitätsbibliothek anfertigen werde]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> [Göttingen ?]</pubPlace>
-            <date type="publication" when=" 1810-02-15"> 1808, Febr. 15</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1361.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Middell zitiertBlumenbachs auf seine Dissertation De humani generis varietate bezogene Bem. &#x84;so hab ich auch beständig eine Leidenschaft fÜr diesen Erstling behalten&#x93; und die AnkÜndigung, &#x84;dass [G. Heinrich Röntgen] Ihnen intereßante Excerpte fÜrs Archiv bereitet&#x93;. </note>
+            <note>Middell zitiertBlumenbachs auf seine Dissertation De humani generis varietate bezogene Bem. &#x84;so hab ich auch beständig eine Leidenschaft für diesen Erstling behalten&#x93; und die Ankündigung, &#x84;dass [G. Heinrich Röntgen] Ihnen intereßante Excerpte fürs Archiv bereitet&#x93;. </note>
             <note>
                <rs type="object"/>
             </note>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Erwähnt in Middell, Katharina: Die Bertuchs mÜssen doch in dieser Welt Überall GlÜck haben: Der Verleger Friedrich Justin Bertuch und sein Landes-Industrie-Comptoir um 1800. Leipzig 2002, S. 282 Anm. 169 und S. 283 Anm. 172. </rs>
+               <rs type="bibl">Erwähnt in Middell, Katharina: Die Bertuchs müssen doch in dieser Welt überall Glück haben: Der Verleger Friedrich Justin Bertuch und sein Landes-Industrie-Comptoir um 1800. Leipzig 2002, S. 282 Anm. 169 und S. 283 Anm. 172. </rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv,GSA, Nachlass Bertuch 06/189 (= Briefe Blumenbachs an Bertuch).</title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv,GSA, Nachlass Bertuch 06/189 (= Briefe Blumenbachs an Bertuch).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1361"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1361"
+                      sortKey="1810-02-15"
+                      when="1810-02-15"
+                      where="#orgplc-1361">
+                  <label>1808, Febr. 15  [Göttingen ?]</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1361">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1361">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Bertuch, Friedrich Justin </persName>
          </creation>

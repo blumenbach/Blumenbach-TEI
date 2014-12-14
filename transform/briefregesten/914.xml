@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Alexander von Humboldt sendetBlumenbach Proben eines von ihm entdeckten magnetischen Serpentingesteins und teilt mit, wo er darÜber publiziert habe, und erinnert Blumenbach an das von diesem zugesagte Vorwort zu seiner Studie Versuche Über die gereizte Muskel- und Nervenfaser. </title>
+            <title type="main">Alexander von Humboldt sendetBlumenbach Proben eines von ihm entdeckten magnetischen Serpentingesteins und teilt mit, wo er darüber publiziert habe, und erinnert Blumenbach an das von diesem zugesagte Vorwort zu seiner Studie Versuche über die gereizte Muskel- und Nervenfaser. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Humboldt, Alexander von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Wunsiedel</pubPlace>
-            <date type="publication" when=" 1797-02-18"> 1797, Febr. 18</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/914.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,38 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 108&#x96;110 Nr. 1047.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 108&#x96;110 Nr. 1047.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note/>
+            <note>  </note>
             <note>
-               <rs type="object"> Proben von magnetischem Serpentingestein (Geschenk Alexander von Humboldts); zwei Kolibris in Sommer- und Wintergefieder (Geschenk Alexander von Humboldts).</rs>
+               <rs type="object">Proben von magnetischem Serpentingestein (Geschenk Alexander von Humboldts); zwei Kolibris in Sommer- und Wintergefieder (Geschenk Alexander von Humboldts).</rs>
             </note>
             <note>
-               <rs type="span">  </rs>
+               <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Jahn/Lange (Hg.), Jugendbriefe Humboldts (1973), Nr. 381, S. 543&#x96;546.</rs>
+               <rs type="bibl">Jahn/Lange (Hg.), Jugendbriefe Humboldts (1973), Nr. 381, S. 543&#x96;546.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=124"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 108&#x96;110 Nr. 1047 </rs>
+               <rs type="edition">Corresp. V, S. 108&#x96;110 Nr. 1047 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 3 (Alexander von HumboldtNr. 11).</title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 3 (Alexander von HumboldtNr. 11).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Humboldt, Alexander von</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-914">Wunsiedel</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-914"
+                      sortKey="1797-02-18"
+                      when="1797-02-18"
+                      where="#orgplc-914">
+                  <label>1797, Febr. 18</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-914">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-914">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

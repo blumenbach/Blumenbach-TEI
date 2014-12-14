@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Johann Wolfgang von Goethe [u. a. Skizzen desenglischen Porträtmalers George Dawevon Schädeln seinerSammlung]. </title>
+            <title type="main">Blumenbach sendet Johann Wolfgang von Goethe [u. a. Skizzen desenglischen Porträtmalers George Dawevon Schädeln seinerSammlung]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1819-06-03"> 1819, Juli 3</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1483.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,28 +57,31 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Zu dem Schädel Nr. 773 (?) vgl. Schlothauer (2012).</note>
             <note>
-               <rs type="object"> Schädel eines antiken Griechen und eines &#x84;Botokuden-Kannibalen&#x93; (letzterer evt. Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 773; Abb. inDecas craniorum 5 (1808), Tafel 47; Bibliographie Nr. 00096 und (Nachstich) in Tantini, Opuscoli scientifici, Bd. 1 (1812), Bibliographie Nr. 00115).</rs>
+               <rs type="object">Schädel eines antiken Griechen und eines &#x84;Botokuden-Kannibalen&#x93; (letzterer evt. Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 773; Abb. inDecas craniorum 5 (1808), Tafel 47; Bibliographie Nr. 00096 und (Nachstich) in Tantini, Opuscoli scientifici, Bd. 1 (1812), Bibliographie Nr. 00115).</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Moeller, Klara von, &#x84;Indianischer Federschmuck in Goethes Sammlungen&#x93;. In: Viermonatsschriftder Goethe-Gesellschaft, NF Bd. 7 (1942), Heft2, S. 199&#x96;205, hier S. 202.</rs>
+               <rs type="bibl">Moeller, Klara von, &#x84;Indianischer Federschmuck in Goethes Sammlungen&#x93;. In: Viermonatsschriftder Goethe-Gesellschaft, NF Bd. 7 (1942), Heft2, S. 199&#x96;205, hier S. 202.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://www.about-africa.de/kunst-und-kontext/ausgabe-03-2012/347-34-besondere-stueck-kunst-kontext-3-2012"/>
             </note>
             <note>
-               <rs type="edition"> Schlothauer (2012) </rs>
+               <rs type="edition">Schlothauer (2012) </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1483">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1483"
+                      sortKey="1819-06-03"
+                      when="1819-06-03"
+                      where="#orgplc-1483">
+                  <label>1819, Juli 3</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1483">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1483">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Goethe, Johann Wolfgang von</persName>
          </creation>

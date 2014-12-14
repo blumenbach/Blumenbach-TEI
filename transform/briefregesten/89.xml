@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Christiane Henriette von Waldeck dankt Blumenbach fÜr die Zusendung eines Exemplars des zweiten Bandes von dessenHandbuch der Naturgeschichte und kommentiert Blumenbachs Reise in die Umgebung von Pyrmont. </title>
+            <title type="main">Christiane Henriette von Waldeck dankt Blumenbach für die Zusendung eines Exemplars des zweiten Bandes von dessenHandbuch der Naturgeschichte und kommentiert Blumenbachs Reise in die Umgebung von Pyrmont. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Waldeck, Christiane Henriette von </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Arolsen</pubPlace>
-            <date type="publication" when=" 1780-05-23"> 1780, Mai 23</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/89.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 197 Nr. 0123.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 197 Nr. 0123.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -66,7 +66,7 @@
                <rs type="object"/>
             </note>
             <note>
-               <rs type="span"> Handbuch der Naturgeschichte, Band 2 (1. Aufl. 1780, Bibliographie Nr. 00022).</rs>
+               <rs type="span"/>
             </note>
             <note>
                <rs type="bibl"> </rs>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">Handbuch der Naturgeschichte, Band 2 (1. Aufl. 1780, Bibliographie Nr. 00022).</rs>
+            </note>
+            <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00022"/>
             </note>
             <note>
-               <rs type="edition"> 00022 </rs>
+               <rs type="edition">00022 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 1 (Christiane von Waldeck Nr. 8). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 1 (Christiane von Waldeck Nr. 8). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Waldeck, Christiane Henriette von </persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-89">Arolsen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-89"
+                      sortKey="1780-05-23"
+                      when="1780-05-23"
+                      where="#orgplc-89">
+                  <label>1780, Mai 23</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-89">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-89">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0088</classCode>
-            <classCode scheme="anchor"> Juni1780</classCode>
+            <classCode scheme="anchor">Juni1780</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

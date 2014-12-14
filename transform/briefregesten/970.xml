@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Heinrich von Langsdorff berichtet Blumenbach wegen des vermutlich verspäteten Eintreffens eines frÜherenBriefes erneut Über das Naturalienkabinett des Königs von Portugal in Belemund Über in Lissabon erhältliche, bisher wenig bekannte Mineralien aus Brasilien, und bittet u. a. um die Zusendung von Mineralien aus Deutschland, um dafÜr in Portugal seltene Mineralien aus Brasilien fÜr Blumenbach einzutauschen. </title>
+            <title type="main">Georg Heinrich von Langsdorff berichtet Blumenbach wegen des vermutlich verspäteten Eintreffens eines früherenBriefes erneut über das Naturalienkabinett des Königs von Portugal in Belemund über in Lissabon erhältliche, bisher wenig bekannte Mineralien aus Brasilien, und bittet u. a. um die Zusendung von Mineralien aus Deutschland, um dafür in Portugal seltene Mineralien aus Brasilien für Blumenbach einzutauschen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Langsdorff, Georg Heinrich von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Lissabon</pubPlace>
-            <date type="publication" when=" 1798-01-09"> 1798, Jan. 9</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/970.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,36 +57,40 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 192&#x96;196 Nr. 1106.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 192&#x96;196 Nr. 1106.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Zwei Proben brasilianischer Mineralien (Topas; Chrysolith). </rs>
+               <rs type="object">Zwei Proben brasilianischer Mineralien (Topas; Chrysolith). </rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszugin Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 1, 2. StÜck (1798), S. 52&#x96;53 (&#x84;V. Nachricht von einigen Naturseltenheiten&#x93;, Bibliographie Nr. 00839).</rs>
+               <rs type="bibl">Auszugin Magazin für den neuesten Zustand der Naturkunde, Bd. 1, 2. Stück (1798), S. 52&#x96;53 (&#x84;V. Nachricht von einigen Naturseltenheiten&#x93;, Bibliographie Nr. 00839).</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00839 (siehe&#x84;Dr.&#x93;).
+</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00839"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=208"/>
             </note>
             <note>
-               <rs type="edition"> 00839   Corresp. V, S. 192&#x96;196 Nr. 1106 </rs>
+               <rs type="edition">00839  Corresp. V, S. 192&#x96;196 Nr. 1106 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Leipzig, Universitätsbibliothek, Sammlung Kestner II A IV, 1023. </title>
+                  <title level="m" type="main">Leipzig, Universitätsbibliothek, Sammlung Kestner II A IV, 1023. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Langsdorff, Georg Heinrich von</persName>
                   </author>
@@ -99,6 +103,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-970">Lissabon</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-970"
+                      sortKey="1798-01-09"
+                      when="1798-01-09"
+                      where="#orgplc-970">
+                  <label>1798, Jan. 9</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +131,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-970">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-970">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

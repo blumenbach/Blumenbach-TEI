@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Christiane Henriette von Waldeck kÜndigt die baldige RÜckgabe von BÜchern an, die sie von Blumenbach erhalten hatte, dankt fÜr die Zusendung weiterer BÜcher, berichtet Über ihre geologischen Exkursionen und bittet um Blumenbachs Expertise zu einige zugesandten Gesteinsproben. </title>
+            <title type="main">Christiane Henriette von Waldeck kündigt die baldige Rückgabe von Büchern an, die sie von Blumenbach erhalten hatte, dankt für die Zusendung weiterer Bücher, berichtet über ihre geologischen Exkursionen und bittet um Blumenbachs Expertise zu einige zugesandten Gesteinsproben. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Waldeck, Christiane Henriette von </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Arolsen</pubPlace>
-            <date type="publication" when=" 1779-10-30"> 1779, Okt. 30</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/80.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 189 Nr. 0115</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 189 Nr. 0115</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 1 (Christiane von Waldeck Nr. 6). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 1 (Christiane von Waldeck Nr. 6). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Waldeck, Christiane Henriette von </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-80">Arolsen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-80"
+                      sortKey="1779-10-30"
+                      when="1779-10-30"
+                      where="#orgplc-80">
+                  <label>1779, Okt. 30</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-80">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-80">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0079</classCode>
-            <classCode scheme="anchor"> Nov1779</classCode>
+            <classCode scheme="anchor">Nov1779</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

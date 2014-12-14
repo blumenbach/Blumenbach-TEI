@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Heinrich von Kreutzer bittetBlumenbach im Auftrage König Ludwigs I. von Bayern um Auskunft Über möglichestandesgemäße UnterkÜnfte fÜr dessen Sohn[, den Kronprinzen Maximilian,] während dessen geplantem einjährigen Studium in Göttingen. </title>
+            <title type="main">Heinrich von Kreutzer bittetBlumenbach im Auftrage König Ludwigs I. von Bayern um Auskunft über möglichestandesgemäße Unterkünfte für dessen Sohn[, den Kronprinzen Maximilian,] während dessen geplantem einjährigen Studium in Göttingen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Kreutzer, Heinrich von </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> MÜnchen?</pubPlace>
-            <date type="publication" when=" 1827-01-27"> 1827, Jan. 27</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1580.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Wagener, Pedelle, Mägde und Lakaien, S. 141 mit Anm. 69.</rs>
+               <rs type="bibl">Auszug in Wagener, Pedelle, Mägde und Lakaien, S. 141 mit Anm. 69.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1580">München?</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1580"
+                      sortKey="1827-01-27"
+                      when="1827-01-27"
+                      where="#orgplc-1580">
+                  <label>1827, Jan. 27</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1580">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1580">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

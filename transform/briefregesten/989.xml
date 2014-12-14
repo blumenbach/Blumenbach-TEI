@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Alexander von Humboldt berichtet Blumenbach Über seinen Aufenthalt in den österreichischen Alpen, eine geplante Reise nach Parisund Über die Möglichkeit einer ägyptenreise im Herbst und Winter 1798, bittet um bibliographische Angaben zu Literatur Über ägypten und sendet drei Mineralienproben aus den Alpen. </title>
+            <title type="main">Alexander von Humboldt berichtet Blumenbach über seinen Aufenthalt in den österreichischen Alpen, eine geplante Reise nach Parisund über die Möglichkeit einer ägyptenreise im Herbst und Winter 1798, bittet um bibliographische Angaben zu Literatur über ägypten und sendet drei Mineralienproben aus den Alpen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Humboldt, Alexander von </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Berchtesgaden</pubPlace>
-            <date type="publication" when=" 1798-02-28"> 1798, Febr. 28</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/989.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 223&#x96;224 Nr. 1125.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 223&#x96;224 Nr. 1125.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Drei Mineralienproben: Titanium aus dem MÜhlbachtal im Oberpinzgau; Madreporstein; Geschiebe vom Russbachtal in der Abtenau.</rs>
+               <rs type="object">Drei Mineralienproben: Titanium aus dem Mühlbachtal im Oberpinzgau; Madreporstein; Geschiebe vom Russbachtal in der Abtenau.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=240"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 223&#x96;224 Nr. 1125 </rs>
+               <rs type="edition">Corresp. V, S. 223&#x96;224 Nr. 1125 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 3 (Alexander von HumboldtNr. 12). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 3 (Alexander von HumboldtNr. 12). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Humboldt, Alexander von </persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-989">Berchtesgaden</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-989"
+                      sortKey="1798-02-28"
+                      when="1798-02-28"
+                      where="#orgplc-989">
+                  <label>1798, Febr. 28</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-989">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-989">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0972</classCode>
-            <classCode scheme="anchor"> Maerz1798</classCode>
+            <classCode scheme="anchor">Maerz1798</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

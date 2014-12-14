@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Thomas von Asch sendet Blumenbach fÜr dessen Sammlung den Schädel eines persischen Bey [Beg] und ein unvollständiges Exemplar der russischen Übersetzung (1797) [der dritten Auflage] von dessen Handbuch der Naturgeschichte. </title>
+            <title type="main">Georg Thomas von Asch sendet Blumenbach für dessen Sammlung den Schädel eines persischen Bey [Beg] und ein unvollständiges Exemplar der russischen übersetzung (1797) [der dritten Auflage] von dessen Handbuch der Naturgeschichte. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Asch, Georg Thomas von</persName>
             </author>
@@ -37,9 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> 1797, Juli 3  St. Petersburg</pubPlace>
-            <date type="publication"
-                  when=" [= julian. Kal.: Juni 22]  1797-07-03  [= julian. Kal.: 1797-06-22]"/>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -47,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/941.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -58,36 +57,39 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 148&#x96;149 Nr. 1075.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 148&#x96;149 Nr. 1075.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Zum Schädel des persischen Bey vgl.Meyer, Handschriften in Göttingen 3 (1894), S. 79: Brief von Ungebauer an von Asch, Moskau 19. März 1797. </note>
             <note>
-               <rs type="object"> Schädel eines persischen Beys [Begs] aus dem Dorf Rutbari nahe dem Fluss Kur(a) (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 581; Abb. in Decas craniorum 4 (1800), Tafel 35, Bibliographie Nr.00095).</rs>
+               <rs type="object">Schädel eines persischen Beys [Begs] aus dem Dorf Rutbari nahe dem Fluss Kur(a) (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 581; Abb. in Decas craniorum 4 (1800), Tafel 35, Bibliographie Nr.00095).</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Dougherty, Commercium epistolicum (1984), S. 69&#x96;70 KatNr. 77.</rs>
+               <rs type="bibl">Dougherty, Commercium epistolicum (1984), S. 69&#x96;70 KatNr. 77.</rs>
             </note>
             <note>
-               <rs type="lz"> Rukovodstvo k estestvennoj istorīi D. Īog. Fridr. Blumenbacha , (1797; Bibliographie Nr. 00051).</rs>
+               <rs type="lz">Rukovodstvo k estestvennoj istorīi D. Īog. Fridr. Blumenbacha , (1797; Bibliographie Nr. 00051).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00051"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=164"/>
             </note>
             <note>
-               <rs type="edition"> 00051   Corresp. V, S. 148&#x96;149 Nr. 1075 </rs>
+               <rs type="edition">00051  Corresp. V, S. 148&#x96;149 Nr. 1075 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms.Blumenbach III, fol. 27. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms.Blumenbach III, fol. 27. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Asch, Georg Thomas von</persName>
                   </author>
@@ -100,6 +102,28 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-941">St. Petersburg</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-941"
+                      sortKey="1797-07-03"
+                      when="1797-07-03"
+                      where="#orgplc-941">
+                  <label>1797, Juli 3</label>
+               </event>
+            </listEvent>
+            <listEvent>
+               <event type="julian-origin"
+                      datingMethod="#julian-941"
+                      when="1797-06-22"
+                      where="#orgplc">
+                  <label>1797, Juli 3</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -114,6 +138,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-941">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-941">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

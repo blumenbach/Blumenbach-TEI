@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Friedrich Scholl berichtet Blumenbach Über seine neue Anstellung als Stadtphysicus in Vevey und Über seine Beobachtungen während des Besuchs einer mesmeristischen Therapiesitzung in Bern. </title>
+            <title type="main">Friedrich Scholl berichtet Blumenbach über seine neue Anstellung als Stadtphysicus in Vevey und über seine Beobachtungen während des Besuchs einer mesmeristischen Therapiesitzung in Bern. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Scholl, Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Vevey</pubPlace>
-            <date type="publication" when=" 1784-08-14"> 1784, Aug. 14</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/219.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 186 Nr. 0305.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 186 Nr. 0305.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 4 (Student friends Nr. 6&#x96; Scholl Nr. 3). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 4 (Student friends Nr. 6&#x96; Scholl Nr. 3). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Scholl, Friedrich </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-219">Vevey</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-219"
+                      sortKey="1784-08-14"
+                      when="1784-08-14"
+                      where="#orgplc-219">
+                  <label>1784, Aug. 14</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-219">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-219">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0216</classCode>
-            <classCode scheme="anchor"> Sept1784</classCode>
+            <classCode scheme="anchor">Sept1784</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

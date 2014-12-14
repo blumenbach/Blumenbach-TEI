@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach bestätigt der Medizinischen Fakultät der Universität Göttingenseine Teilnahme an dem vorgesehenen PrÜfungstermin [von Johannes Schumacher] und sein Einverständnis [damit, dass die PrÜfung ausnahmsweise auf Deutsch abgehalten wird]. </title>
+            <title type="main">Blumenbach bestätigt der Medizinischen Fakultät der Universität Göttingenseine Teilnahme an dem vorgesehenen Prüfungstermin [von Johannes Schumacher] und sein Einverständnis [damit, dass die Prüfung ausnahmsweise auf Deutsch abgehalten wird]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1795-06-30"> 1795, Juni 30</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/793.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 431 Nr. 0922.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 431 Nr. 0922.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=443"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 431 Nr. 0922 </rs>
+               <rs type="edition">Corresp. IV, S. 431 Nr. 0922 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsarchiv, Medizin. Fak., Dekanats- und Promotionsvorgänge und -urkunden fÜr das Jahr 1795. </title>
+                  <title level="m" type="main">Göttingen, Universitätsarchiv, Medizin. Fak., Dekanats- und Promotionsvorgänge und -urkunden für das Jahr 1795. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-793">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-793"
+                      sortKey="1795-06-30"
+                      when="1795-06-30"
+                      where="#orgplc-793">
+                  <label>1795, Juni 30</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-793">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-793">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Medizinische Fakultät der Universität Göttingen</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0786</classCode>
-            <classCode scheme="anchor"> Juli1795</classCode>
+            <classCode scheme="anchor">Juli1795</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

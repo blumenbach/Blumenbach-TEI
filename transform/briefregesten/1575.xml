@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Wolfgang von Goethe sendet Blumenbach Neuigkeiten aus dem gesellschaftlichen und akademischen Leben Weimars und dankt fÜr dessenBericht Über die chirurgische Entfernung eines missgebildeten Zwischenkieferknochens. </title>
+            <title type="main">Johann Wolfgang von Goethe sendet Blumenbach Neuigkeiten aus dem gesellschaftlichen und akademischen Leben Weimars und dankt für dessenBericht über die chirurgische Entfernung eines missgebildeten Zwischenkieferknochens. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Goethe, Johann Wolfgang von</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when="[1826-06-03 bis]&#xA; 1826-06-05"> 1826, Juni [3&#x96;]  5 Weimar</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1575.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Schädel eines Kamtschadalen (Geschenk der Erbgroßherzogin Maria Paulowna von Weimar; Abb. in Nova pentas craniorum (1828), Tafel 62, Bibliographie Nr. 00098). </rs>
+               <rs type="object">Schädel eines Kamtschadalen (Geschenk der Erbgroßherzogin Maria Paulowna von Weimar; Abb. in Nova pentas craniorum (1828), Tafel 62, Bibliographie Nr. 00098). </rs>
             </note>
             <note>
                <rs type="span"/>
@@ -72,20 +72,23 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Goethe&#x92;s Naturwissenschaftliche Correspondenz (1812&#x96;1832). Bd. 1 (1874), S. 54&#x96;56 Nr. 34; Goethes Werke. Weimarer Ausgabe Abt. IV, Bd. 41, S. 50&#x96;52 (Brief WA-Nr. 41041).</rs>
+               <rs type="lz">Goethe&#x92;s Naturwissenschaftliche Correspondenz (1812&#x96;1832). Bd. 1 (1874), S. 54&#x96;56 Nr. 34; Goethes Werke. Weimarer Ausgabe Abt. IV, Bd. 41, S. 50&#x96;52 (Brief WA-Nr. 41041).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://archive.org/stream/naturwissenschaf01goet#page/54/mode/2up"/>
             </note>
             <note>
-               <rs type="edition"> S. 54&#x96;56 Nr. 34 </rs>
+               <rs type="edition">S. 54&#x96;56 Nr. 34 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Sammlung Blumenbach Sig.: Ka (34) Bl. 11&#x96;12;Konzept (Weimar, Goethe- und Schiller-Archiv: GSA 29/102, II).</title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Sammlung Blumenbach Sig.: Ka (34) Bl. 11&#x96;12;Konzept (Weimar, Goethe- und Schiller-Archiv: GSA 29/102, II).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Goethe, Johann Wolfgang von</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1575"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1575"
+                      sortKey="1826-06-03 bis&#xA; 1826-06-05"
+                      when="1826-06-03 bis&#xA; 1826-06-05"
+                      where="#orgplc-1575">
+                  <label>1826, Juni 3&#x96; 5 Weimar</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1575">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1575">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

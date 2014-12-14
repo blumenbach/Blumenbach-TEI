@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> [Satire in Form eines fingierten Briefes von] Liborius Meyer, derim Namen der Universität von Paderborn Blumenbach bittet, sich beimLandgrafen von Hessen-Kassel dafÜr einzusetzen, fÜr das Kasseler Museum Fridericianum einen Paderborner Domherrn in Spiritus zu konservieren. </title>
+            <title type="main"> [Satire in Form eines fingierten Briefes von] Liborius Meyer, derim Namen der Universität von Paderborn Blumenbach bittet, sich beimLandgrafen von Hessen-Kassel dafür einzusetzen, für das Kasseler Museum Fridericianum einen Paderborner Domherrn in Spiritus zu konservieren. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Domkapitel von Paderborn/ Meyer, Liborius</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Paderborn</pubPlace>
-            <date type="publication" when=" 1798-02-18"> 1798, Febr. 18</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/987.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,28 +57,31 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 216&#x96;219 Nr. 1123.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 216&#x96;219 Nr. 1123.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note/>
+            <note>  </note>
             <note>
                <rs type="object"/>
             </note>
             <note>
-               <rs type="span">  </rs>
+               <rs type="span"/>
             </note>
             <note>
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Schreiben von der Universität zu Paderborn an den Herrn Hofrath und Professor Blumenbach in Göttingen. Paderborn 1798; Auszug in Vorwahl, H.: &#x84;Ein Brief an Professor Blumenbach&#x93;, in Die Spinnstube. Heimatkundliche Nachrichten fÜr das Niedersächsische Bergland, Nr. 5 (1925), Anhang, S.37&#x96;38.</rs>
+               <rs type="lz">Schreiben von der Universität zu Paderborn an den Herrn Hofrath und Professor Blumenbach in Göttingen. Paderborn 1798; Auszug in Vorwahl, H.: &#x84;Ein Brief an Professor Blumenbach&#x93;, in Die Spinnstube. Heimatkundliche Nachrichten für das Niedersächsische Bergland, Nr. 5 (1925), Anhang, S.37&#x96;38.</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=232"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 216&#x96;219 Nr. 1123 </rs>
+               <rs type="edition">Corresp. V, S. 216&#x96;219 Nr. 1123 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-987">Paderborn</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-987"
+                      sortKey="1798-02-18"
+                      when="1798-02-18"
+                      where="#orgplc-987">
+                  <label>1798, Febr. 18</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-987">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-987">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

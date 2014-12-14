@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Joseph Banks verspricht Blumenbach die Beschaffung weiterer menschlicher Schädel fÜr dessen Sammlung, erklärt sein allgemeines Interesse an aktuellen Publikationen aus Göttingen und teilt biographische Informationen zu dem Forschungsreisenden Alexander Anderson mit. </title>
+            <title type="main">Joseph Banks verspricht Blumenbach die Beschaffung weiterer menschlicher Schädel für dessen Sammlung, erklärt sein allgemeines Interesse an aktuellen Publikationen aus Göttingen und teilt biographische Informationen zu dem Forschungsreisenden Alexander Anderson mit. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>London</pubPlace>
-            <date type="publication" when=" 1789-12-30"> 1789, Dez. 30</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/492.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 281 Nr. 0593.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 281 Nr. 0593.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Vgl. auch Blumenbachs hs. Verzeichnis seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, I, fol. 8. </note>
             <note>
-               <rs type="object"> Schädel eines Kariben-Häuptlings (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 778; Abbildung in Decas craniorum 1 (1790), Tafel 10; Bibliographie Nr. 00092).</rs>
+               <rs type="object">Schädel eines Kariben-Häuptlings (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 778; Abbildung in Decas craniorum 1 (1790), Tafel 10; Bibliographie Nr. 00092).</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=299"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 281 Nr. 0593 </rs>
+               <rs type="edition">Corresp. III, S. 281 Nr. 0593 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 3 (Banks, Nr. 1). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 3 (Banks, Nr. 1). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-492">London</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-492"
+                      sortKey="1789-12-30"
+                      when="1789-12-30"
+                      where="#orgplc-492">
+                  <label>1789, Dez. 30</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,13 +129,21 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-492">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-492">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0488</classCode>
-            <classCode scheme="anchor"> 1790
-1790  Jan1790</classCode>
+            <classCode scheme="anchor">1790
+1790 Jan1790</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

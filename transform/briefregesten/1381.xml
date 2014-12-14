@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Friedrich Justin Bertuch [u. a. eine kurze biographische Selbstdarstellung und beschreibt die Herkunft der Informationen fÜr seine Angaben Über das Tätowieren in den Allgemeinen geographischen Ephemeriden (1811)]. </title>
+            <title type="main">Blumenbach sendet Friedrich Justin Bertuch [u. a. eine kurze biographische Selbstdarstellung und beschreibt die Herkunft der Informationen für seine Angaben über das Tätowieren in den Allgemeinen geographischen Ephemeriden (1811)]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> [Göttingen ?]</pubPlace>
-            <date type="publication" when=" 1810-02-28"> 1810, Febr. 28</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1381.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,24 +69,28 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> AuszÜge inAllgemeine Geographische Ephemeriden, Bd. 32, 2. StÜck (Juni1810), S. 214&#x96;217 (&#x84;Einige biographische Notizen zu Hrn. Hofraths Blumenbach in Göttingen Portrait&#x93;, Bibliographie Nr. 00769) undinAllgemeine geographische Ephemeriden Bd. 34, 1. StÜck (Jan. 1811), S. 3&#x96;9 (&#x84;Beschreibung von Nukahiwa. [&#x85;] Einleitung des Hrn Hofr. Blumenbach, Über die Gewohnheit des Tatowirens&#x93;, Bibliographie Nr. 00770); Auszug in Dougherty, F. W. .P. und Klatt, N.: Bibliographie der Werke und Schriften von Johann Friedrich Blumenbach. Göttingen 2009, S. 152 Anm. 187. </rs>
+               <rs type="bibl">Auszüge inAllgemeine Geographische Ephemeriden, Bd. 32, 2. Stück (Juni1810), S. 214&#x96;217 (&#x84;Einige biographische Notizen zu Hrn. Hofraths Blumenbach in Göttingen Portrait&#x93;, Bibliographie Nr. 00769) undinAllgemeine geographische Ephemeriden Bd. 34, 1. Stück (Jan. 1811), S. 3&#x96;9 (&#x84;Beschreibung von Nukahiwa. [&#x85;] Einleitung des Hrn Hofr. Blumenbach, über die Gewohnheit des Tatowirens&#x93;, Bibliographie Nr. 00770); Auszug in Dougherty, F. W. .P. und Klatt, N.: Bibliographie der Werke und Schriften von Johann Friedrich Blumenbach. Göttingen 2009, S. 152 Anm. 187. </rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item">Brieftext verwendet in BibliographieNr. 00769und Nr. 00770 (siehe &#x84;Dr.&#x93;). 
+</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00769"/>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00770"/>
             </note>
             <note>
-               <rs type="edition"> 00769Nr. 00770 </rs>
+               <rs type="edition">00769Nr. 00770 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv,GSA, Nachlass Bertuch 06/189 (= Briefe Blumenbachs an Bertuch), Nr. 20. </title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv,GSA, Nachlass Bertuch 06/189 (= Briefe Blumenbachs an Bertuch), Nr. 20. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +103,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1381"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1381"
+                      sortKey="1810-02-28"
+                      when="1810-02-28"
+                      where="#orgplc-1381">
+                  <label>1810, Febr. 28  [Göttingen ?]</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +131,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1381">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1381">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Bertuch, Friedrich Justin </persName>
          </creation>

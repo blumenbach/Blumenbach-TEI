@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach bestätigt Ernst Martin Gräff, dass er an den zuvor mitgeteilten Konditionen fÜreine Übersetzung von James Bruces Travels to Discover the Source of the Nile (1790) festhalte. </title>
+            <title type="main">Blumenbach bestätigt Ernst Martin Gräff, dass er an den zuvor mitgeteilten Konditionen füreine übersetzung von James Bruces Travels to Discover the Source of the Nile (1790) festhalte. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1790-01-20"> 1790, Jan. 20</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/495.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 285 Nr. 0596.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 285 Nr. 0596.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Blumenbach verfasst lediglich ein Vorwort und Anmerkungen zu der vonJohann Jacob Volkmann stammenden Übersetzung der Travels (Bibliographie Nr. 00164).</note>
+            <note>Blumenbach verfasst lediglich ein Vorwort und Anmerkungen zu der vonJohann Jacob Volkmann stammenden übersetzung der Travels (Bibliographie Nr. 00164).</note>
             <note>
                <rs type="object"/>
             </note>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=303"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 285 Nr. 0596 </rs>
+               <rs type="edition">Corresp. III, S. 285 Nr. 0596 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Krakau, Biblioteka Jagiellonska, Sammlung Autographa. </title>
+                  <title level="m" type="main">Krakau, Biblioteka Jagiellonska, Sammlung Autographa. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-495">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-495"
+                      sortKey="1790-01-20"
+                      when="1790-01-20"
+                      where="#orgplc-495">
+                  <label>1790, Jan. 20</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-495">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-495">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Gräff, Ernst Martin</persName>
          </creation>

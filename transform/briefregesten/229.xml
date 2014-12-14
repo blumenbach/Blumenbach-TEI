@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Leopoldo Marc&#x92;Antonio Caldani beschreibt Blumenbach die von ihm beobachteten Symptome einer Augenkrankheit.   Auszug in Medicinische Bibliothek Bd. 2, 4. StÜck (1787), S. 754&#x96;755 (&#x84;Eine merkwÜrdige Augenkrankheit&#x93;,Bibliographie Nr. 00954).</title>
+            <title type="main">Leopoldo Marc&#x92;Antonio Caldani beschreibt Blumenbach die von ihm beobachteten Symptome einer Augenkrankheit.  Auszug in Medicinische Bibliothek Bd. 2, 4. Stück (1787), S. 754&#x96;755 (&#x84;Eine merkwürdige Augenkrankheit&#x93;,Bibliographie Nr. 00954).</title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Caldani, Leopoldo Marc&#x92;Antonio </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Padua</pubPlace>
-            <date type="publication" when=" 1784-10-29"> 1784, Okt. 29</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/229.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 219 Nr. 0317.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 219 Nr. 0317.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,21 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00954 (siehe &#x84;Dr.&#x93;).
+</rs>
+            </note>
+            <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00954"/>
             </note>
             <note>
-               <rs type="edition"> 00954 </rs>
+               <rs type="edition">00954 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren, Überliefert durch Druck in Medicinische Bibliothek Bd. 2, 4. StÜck. </title>
+                  <title level="m" type="main">Or. verloren, überliefert durch Druck in Medicinische Bibliothek Bd. 2, 4. Stück. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Caldani, Leopoldo Marc&#x92;Antonio </persName>
                   </author>
@@ -98,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-229">Padua</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-229"
+                      sortKey="1784-10-29"
+                      when="1784-10-29"
+                      where="#orgplc-229">
+                  <label>1784, Okt. 29</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +130,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-229">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-229">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0226</classCode>
-            <classCode scheme="anchor"> Nov1784</classCode>
+            <classCode scheme="anchor">Nov1784</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> David-François de Gaudot bittet Blumenbach um die Zusendung von bei diesem zur Aufbewahrung zurÜckgelassenen Papieren und BÜchern und berichtet Über seine Reise nach österreich, Ungarn und Italien in den Jahren 1779-1781. </title>
+            <title type="main">David-François de Gaudot bittet Blumenbach um die Zusendung von bei diesem zur Aufbewahrung zurückgelassenen Papieren und Büchern und berichtet über seine Reise nach österreich, Ungarn und Italien in den Jahren 1779-1781. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Gaudot, David-François de </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Paris</pubPlace>
-            <date type="publication" when=" 1781-10-07"> 1781, Okt. 7</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/127.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 274 Nr. 0166.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 274 Nr. 0166.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 4 (French friends Nr. 8) </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 4 (French friends Nr. 8) </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Gaudot, David-François de </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-127">Paris</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-127"
+                      sortKey="1781-10-07"
+                      when="1781-10-07"
+                      where="#orgplc-127">
+                  <label>1781, Okt. 7</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-127">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-127">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>

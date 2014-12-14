@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach nennt Carl August Böttiger Beispiele fÜr antike Kunstwerke, fÜr die nach seiner Beobachtung das Mineral Onyx und nicht Glaspasten verwendet wurde, und diskutiert aktuelle Vorkommen von Onyx. </title>
+            <title type="main">Blumenbach nennt Carl August Böttiger Beispiele für antike Kunstwerke, für die nach seiner Beobachtung das Mineral Onyx und nicht Glaspasten verwendet wurde, und diskutiert aktuelle Vorkommen von Onyx. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>  Göttingen</pubPlace>
-            <date type="publication" when=" 1795-09-06"> 1795, nach Sept. 6</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/811.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,36 +57,39 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 460 Nr. 0941.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 460 Nr. 0941.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Vgl. die Nennung antiker, von Charles Townley1792 erhaltener Glaspasten in Blumenbachs hs. Verzeichnis seiner Sammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, II, fol. 188.</rs>
+               <rs type="object">Vgl. die Nennung antiker, von Charles Townley1792 erhaltener Glaspasten in Blumenbachs hs. Verzeichnis seiner Sammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, II, fol. 188.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Böttiger, Carl August, &#x84;Ueber die Aechtheit und das Vaterland der antiken Onyxkameen von außerordentlicher Größe&#x93;, in Neue Bibliothek der schönen Wissenschaften und der freyen KÜnste, LVII, 1 (Leipzig 1796), S. 3&#x96;41, hier S. 20&#x96;22 (auch als Sonderdruck erschienen).</rs>
+               <rs type="bibl">Auszug in Böttiger, Carl August, &#x84;Ueber die Aechtheit und das Vaterland der antiken Onyxkameen von außerordentlicher Größe&#x93;, in Neue Bibliothek der schönen Wissenschaften und der freyen Künste, LVII, 1 (Leipzig 1796), S. 3&#x96;41, hier S. 20&#x96;22 (auch als Sonderdruck erschienen).</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/Sammlungskataloge/cod_ms-Blumenbach_1_II_Blumenbach_Handschriften_1794_1800_Katalog%20zur%20Naturgeschichte%20des%20Menschengeschlechts.pdf#page=381"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=472"/>
             </note>
             <note>
-               <rs type="edition"> Cod. Ms. Blumenbach 1, II, fol. 188.   Corresp. IV, S. 460 Nr. 0941 </rs>
+               <rs type="edition">Cod. Ms. Blumenbach 1, II, fol. 188.  Corresp. IV, S. 460 Nr. 0941 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Dresden, Sächsische Landesbibliothek &#x96; Staats- und Universitätsbibliothek (SLUB), Mscr. Dresd. h.37. misc, 4o VIII, Nr. 9. </title>
+                  <title level="m" type="main">Dresden, Sächsische Landesbibliothek &#x96; Staats- und Universitätsbibliothek (SLUB), Mscr. Dresd. h.37. misc, 4o VIII, Nr. 9. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,9 +102,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-811"/>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1795-09-06">
-                  <label> 1795, nach Sept. 6</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-811"
+                      sortKey="1795-09-06"
+                      notBefore="1795-09-06"
+                      where="#orgplc-811">
+                  <label>1795, nach Sept. 6   Göttingen</label>
                </event>
             </listEvent>
             <msDesc>
@@ -118,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-811">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-811">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Böttiger, Carl August</persName>
          </creation>

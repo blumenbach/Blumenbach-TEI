@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Christoph Lichtenberg bittet Blumenbach um die Ausleihe von vier Mineralienproben und berichtet eine Anekdote vom Berliner Königshof. </title>
+            <title type="main">Georg Christoph Lichtenberg bittet Blumenbach um die Ausleihe von vier Mineralienproben und berichtet eine Anekdote vom Berliner Königshof. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when="nach 1791-02-12"> 1791, Febr. 12 Göttingen</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/553.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,36 +57,39 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 23 Nr. 0655.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 23 Nr. 0655.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> GranitstÜcke aus der Schweiz; &#x84;Gläschen mit [&#x85;] Zirkonen&#x93;; &#x84;etwas von dem was Werner in seiner Classification Porphyr=Schiefer und was er Topasfels nennt&#x93;.</rs>
+               <rs type="object">Granitstücke aus der Schweiz; &#x84;Gläschen mit [&#x85;] Zirkonen&#x93;; &#x84;etwas von dem was Werner in seiner Classification Porphyr=Schiefer und was er Topasfels nennt&#x93;.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 51; Lichtenberg, Briefwechsel, Bd. 3 (1990), Nr. 1819, S. 844&#x96;845.</rs>
+               <rs type="bibl">Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 51; Lichtenberg, Briefwechsel, Bd. 3 (1990), Nr. 1819, S. 844&#x96;845.</rs>
             </note>
             <note>
-               <rs type="lz"> Handbuch der Naturgeschichte (3. Auf., 1791; Bibliographie Nr.00025).</rs>
+               <rs type="lz">Handbuch der Naturgeschichte (3. Auf., 1791; Bibliographie Nr.00025).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00025"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=35"/>
             </note>
             <note>
-               <rs type="edition"> 00025   Corresp. IV, S. 23 Nr. 0655 </rs>
+               <rs type="edition">00025  Corresp. IV, S. 23 Nr. 0655 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826. </title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-553">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-553"
+                      sortKey="nach 1791-02-12"
+                      when="nach 1791-02-12"
+                      where="#orgplc-553">
+                  <label>1791, Febr. 12</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-553">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-553">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Kaspar Horner sendet Blumenbach eine Seegurke und zwei Flaschen mit Wasserproben aus dem Atlantik und berichtet Über seine Beobachtungen zur Biolumineszenz von Tieren als Ursache des sog. Meerleuchtens. </title>
+            <title type="main">Johann Kaspar Horner sendet Blumenbach eine Seegurke und zwei Flaschen mit Wasserproben aus dem Atlantik und berichtet über seine Beobachtungen zur Biolumineszenz von Tieren als Ursache des sog. Meerleuchtens. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Horner,Johann Kaspar</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> [unbekannt]</pubPlace>
-            <date type="publication" when=" 1803 vor 1806-12-01"> nach 1803/ vor 1806, Dez.</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1341.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Datierung: Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 12, 6. StÜck erschien laut Titelblatt im Dez. 1806; die AtlantikÜberquerung im Rahmen der russischen Weltumsegelung unter Ivan Fedorovic Kruzenstern, an der Horner teilnahm, fand Ende 1803 statt. </note>
+            <note>Datierung: Magazin für den neuesten Zustand der Naturkunde, Bd. 12, 6. Stück erschien laut Titelblatt im Dez. 1806; die Atlantiküberquerung im Rahmen der russischen Weltumsegelung unter Ivan Fedorovic Kruzenstern, an der Horner teilnahm, fand Ende 1803 statt. </note>
             <note>
                <rs type="object"/>
             </note>
@@ -69,17 +69,21 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> AuszÜge in Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 12, 6. StÜck (1806), S. 506&#x96;507 (&#x84;15) Ueber eben dasselbe [das Leuchten der See]&#x93;, Bibliographie Nr. 00931) und S.507&#x96;508 (&#x84;16) Holothuria physalis etc&#x93;, Bibliographie Nr.00932).</rs>
+               <rs type="bibl">Auszüge in Magazin für den neuesten Zustand der Naturkunde, Bd. 12, 6. Stück (1806), S. 506&#x96;507 (&#x84;15) Ueber eben dasselbe [das Leuchten der See]&#x93;, Bibliographie Nr. 00931) und S.507&#x96;508 (&#x84;16) Holothuria physalis etc&#x93;, Bibliographie Nr.00932).</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item">Brieftext verwendet in BibliographieNr. 00931 undNr.00932 (siehe &#x84;Dr.&#x93;). 
+</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00931"/>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00932"/>
             </note>
             <note>
-               <rs type="edition"> 0093100932 </rs>
+               <rs type="edition">0093100932 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -99,9 +103,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1341"/>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1803 vor 1806-12-01">
-                  <label> nach 1803/ vor 1806, Dez.</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1341"
+                      sortKey="1803 vor 1806-12-01"
+                      notBefore="1803 vor 1806-12-01"
+                      where="#orgplc-1341">
+                  <label>nach 1803/ vor 1806, Dez.  [unbekannt]</label>
                </event>
             </listEvent>
             <msDesc>
@@ -118,6 +131,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1341">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1341">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

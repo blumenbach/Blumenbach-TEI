@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Friedrich Brandes an Blumenbach </title>
+            <title type="main">Georg Friedrich Brandes an Blumenbach </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Brandes, Georg Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Hannover</pubPlace>
-            <date type="publication" when=" 1785-01-03"> 1785, Jan. 03</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/234.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Nicht in Dougherty, Corresp. I.</biblScope>
+            <biblScope unit="volume">Nicht in Dougherty, Corresp. I.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>http://kalliope.staatsbibliothek- berlin.de/ verzeichnet auch einen Brief von Brandes an Blumenbach aus dem Jahr 1777 mit demselben Tagesdatum; möglicherweise ist eine der Datumsangaben irrtÜmlich.</note>
+            <note>http://kalliope.staatsbibliothek- berlin.de/ verzeichnet auch einen Brief von Brandes an Blumenbach aus dem Jahr 1777 mit demselben Tagesdatum; möglicherweise ist eine der Datumsangaben irrtümlich.</note>
             <note>
                <rs type="object"/>
             </note>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://kalliope.staatsbibliothek-berlin.de/"/>
             </note>
             <note>
-               <rs type="edition"> http://kalliope.staatsbibliothek- berlin.de/ </rs>
+               <rs type="edition">http://kalliope.staatsbibliothek- berlin.de/ </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Heidelberg, Universitätsbibliothek, Heid. Hs. 1333,89,vgl. http://kalliope.staatsbibliothek- berlin.de/ [Zugriff: 2012-10-12]; siehe &#x84;Anm.&#x93;.</title>
+                  <title level="m" type="main">Heidelberg, Universitätsbibliothek, Heid. Hs. 1333,89,vgl. http://kalliope.staatsbibliothek- berlin.de/ [Zugriff: 2012-10-12]; siehe &#x84;Anm.&#x93;.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Brandes, Georg Friedrich </persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-234">Hannover</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-234"
+                      sortKey="1785-01-03"
+                      when="1785-01-03"
+                      where="#orgplc-234">
+                  <label>1785, Jan. 03</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-234">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-234">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>

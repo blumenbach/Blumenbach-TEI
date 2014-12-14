@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendetJohann Wolfgang von Goethe eines der StÜcke versteinerter Hyänenexkremente [album graecum] aus der &#x84;Guenet&#x93;-Höhle [Höhle von Lunel] bei Montpellier, die er von William Buckland erhalten hatte. </title>
+            <title type="main">Blumenbach sendetJohann Wolfgang von Goethe eines der Stücke versteinerter Hyänenexkremente [album graecum] aus der &#x84;Guenet&#x93;-Höhle [Höhle von Lunel] bei Montpellier, die er von William Buckland erhalten hatte. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1828-03-23"> 1828, März 23</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1589.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Prähistorische (&#x84;präadamitische&#x93;) Hyänen-Exkremente (Göttingen, Geowissenschaftliche Sammlungen, Inv.-Nr. 101-2(Geschenk vonWilliam Buckland).</rs>
+               <rs type="object">Prähistorische (&#x84;präadamitische&#x93;) Hyänen-Exkremente (Göttingen, Geowissenschaftliche Sammlungen, Inv.-Nr. 101-2(Geschenk vonWilliam Buckland).</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -72,13 +72,16 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Goethe&#x92;s Naturwissenschaftliche Correspondenz (1812&#x96;1832). Bd. 1 (1874), S. 56 Nr. 35.</rs>
+               <rs type="lz">Goethe&#x92;s Naturwissenschaftliche Correspondenz (1812&#x96;1832). Bd. 1 (1874), S. 56 Nr. 35.</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://archive.org/stream/naturwissenschaf01goet#page/56/mode/2up"/>
             </note>
             <note>
-               <rs type="edition"> S. 56 Nr. 35 </rs>
+               <rs type="edition">S. 56 Nr. 35 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1589">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1589"
+                      sortKey="1828-03-23"
+                      when="1828-03-23"
+                      where="#orgplc-1589">
+                  <label>1828, März 23</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1589">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1589">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Goethe, Johann Wolfgang von</persName>
          </creation>

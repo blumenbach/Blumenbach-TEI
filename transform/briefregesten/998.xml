@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach dankt Joseph Banks fÜr zahlreiche Sammlungsobjekte, darunter denAbguss des Fußes einer Chinesin, undfÜr Exemplare der Proceedings [der African Association] zur Vorbereitung von Friedrich Hornemanns Afrikareise, sendet eigene und fremde Publikationenund fragt nach NeuigkeitenÜber Mungo Parks Afrika-Expedition. </title>
+            <title type="main">Blumenbach dankt Joseph Banks für zahlreiche Sammlungsobjekte, darunter denAbguss des Fußes einer Chinesin, undfür Exemplare der Proceedings [der African Association] zur Vorbereitung von Friedrich Hornemanns Afrikareise, sendet eigene und fremde Publikationenund fragt nach Neuigkeitenüber Mungo Parks Afrika-Expedition. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1798-04-02"> 1798, Apr. 2</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/998.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,36 +57,39 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S.232&#x96;234 Nr. 1134. </biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S.232&#x96;234 Nr. 1134. </biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Abguss des Fußes einer Chinesin. </rs>
+               <rs type="object">Abguss des Fußes einer Chinesin. </rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S. 115 Nr. 48.</rs>
+               <rs type="bibl">Vgl. ausführl. Regest in Dawson, The Banks Letters (1958), S. 115 Nr. 48.</rs>
             </note>
             <note>
-               <rs type="lz"> Abbildungen naturhistorischer Gegenstände, Heft 3 (1798; Bibliographie Nr. 00677).</rs>
+               <rs type="lz">Abbildungen naturhistorischer Gegenstände, Heft 3 (1798; Bibliographie Nr. 00677).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00677"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=248"/>
             </note>
             <note>
-               <rs type="edition"> 00677   Corresp. V, S.232&#x96;234 Nr. 1134 </rs>
+               <rs type="edition">00677  Corresp. V, S.232&#x96;234 Nr. 1134 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, British Library, Add MS 8098, fol. 429&#x96;430. </title>
+                  <title level="m" type="main">London, British Library, Add MS 8098, fol. 429&#x96;430. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-998">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-998"
+                      sortKey="1798-04-02"
+                      when="1798-04-02"
+                      where="#orgplc-998">
+                  <label>1798, Apr. 2</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-998">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-998">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Banks, Joseph</persName>
          </creation>

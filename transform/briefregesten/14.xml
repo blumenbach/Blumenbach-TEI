@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Christian Wilhelm Heinrich de Marées berichtet Blumenbach Über seine negative Beurteilung des Pelvimeters und der Milchpumpe von Georg Wilhelm Stein, einer geburtshilflichen Zange und der Physiognomie Lavaters und Über seine Ansicht zu einer anatomischen Frage. </title>
+            <title type="main">Christian Wilhelm Heinrich de Marées berichtet Blumenbach über seine negative Beurteilung des Pelvimeters und der Milchpumpe von Georg Wilhelm Stein, einer geburtshilflichen Zange und der Physiognomie Lavaters und über seine Ansicht zu einer anatomischen Frage. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Marées, Christian WilhelmHeinrich de</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Dessau</pubPlace>
-            <date type="publication" when=" 1775-07-14"> 1775, Juli 14</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/14.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 34 Nr. 0018.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 34 Nr. 0018.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -73,6 +73,9 @@
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-14">Dessau</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-14"
+                      sortKey="1775-07-14"
+                      when="1775-07-14"
+                      where="#orgplc-14">
+                  <label>1775, Juli 14</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-14">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-14">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0014</classCode>
-            <classCode scheme="anchor"> Nov1775</classCode>
+            <classCode scheme="anchor">Nov1775</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

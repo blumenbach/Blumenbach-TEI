@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Christoph Lichtenberg berichtet Blumenbach Über Experimente mit einem StÜck fluoreszierenden Schwerspats (Baryt; Bononischer Stein) aus dem Academischen Museumder Universität Göttingenund Über seine Arbeitsfortschritte. </title>
+            <title type="main">Georg Christoph Lichtenberg berichtet Blumenbach über Experimente mit einem Stück fluoreszierenden Schwerspats (Baryt; Bononischer Stein) aus dem Academischen Museumder Universität Göttingenund über seine Arbeitsfortschritte. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1789-05-05"> 1789, nach Mai 5</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/449.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,38 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 222 Nr. 0548.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 222 Nr. 0548.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Schwerspat (Baryt; Bononischer Stein).</rs>
+               <rs type="object">Schwerspat (Baryt; Bononischer Stein).</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 44 (Datierung: Sommer 1789); Lichtenberg, Briefwechsel, Bd. 3 (1990), Nr. 1695, S. 729 (Datierung: Sommer 1789).</rs>
+               <rs type="bibl">Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 44 (Datierung: Sommer 1789); Lichtenberg, Briefwechsel, Bd. 3 (1990), Nr. 1695, S. 729 (Datierung: Sommer 1789).</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=240"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 222 Nr. 0548 </rs>
+               <rs type="edition">Corresp. III, S. 222 Nr. 0548 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826. </title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph</persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-449">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1789-05-05">
-                  <label> 1789, nach Mai 5</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-449"
+                      sortKey="1789-05-05"
+                      notBefore="1789-05-05"
+                      where="#orgplc-449">
+                  <label>1789, nach Mai 5</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-449">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-449">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

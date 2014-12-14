@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Jacques-Guillaume Thouret sendetBlumenbach zwei StÜcke Leichenlipid, die bei der Exhumierung vonLeichen auf dem Friedhof der Kirche von Saints Innocents in Paris gefunden wurden. </title>
+            <title type="main">Jacques-Guillaume Thouret sendetBlumenbach zwei Stücke Leichenlipid, die bei der Exhumierung vonLeichen auf dem Friedhof der Kirche von Saints Innocents in Paris gefunden wurden. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Thouret, Jacques-Guillaume</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Paris</pubPlace>
-            <date type="publication" when=" 1800-04-16"> 1800, Apr. 16</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1159.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S.457 Nr. 1294.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S.457 Nr. 1294.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Zwei StÜcke Leichenlipid vom Friedhof und der Kirche von Saints Innocents in Paris.</rs>
+               <rs type="object">Zwei Stücke Leichenlipid vom Friedhof und der Kirche von Saints Innocents in Paris.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=473"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S.457 Nr. 1294 </rs>
+               <rs type="edition">Corresp. V, S.457 Nr. 1294 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Enth. im Exemplar von Thouret, Jacques-Guillaume: Rapport sur les exhumations du cimitière et de l&#x92;Églisedes Saints Innocents (1789) der Universitätsbibliothek Göttingen, 4 Hist. Gall. Part. II 3218 Rara. </title>
+                  <title level="m" type="main">Enth. im Exemplar von Thouret, Jacques-Guillaume: Rapport sur les exhumations du cimitière et de l&#x92;Églisedes Saints Innocents (1789) der Universitätsbibliothek Göttingen, 4 Hist. Gall. Part. II 3218 Rara. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Thouret, Jacques-Guillaume</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1159">Paris</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1159"
+                      sortKey="1800-04-16"
+                      when="1800-04-16"
+                      where="#orgplc-1159">
+                  <label>1800, Apr. 16</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1159">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1159">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

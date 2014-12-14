@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Joseph Banks berichtetBlumenbachÜber William Herschels Experimentezum infraroten Lichtund Charles Hatchetts Versuche zur Zusammensetzung von tierischem Gewebe, sendet dieAbbildung eines Schnabeltierkopfes und schlägt Blumenbach vor, in dessen vor der Royal Society verlesenem Bericht Über das Schnabeltier die Angabe zu dessenZahnlosigkeit zu streichen, sodass der Berichtin den Transactions der Society gedruckt werden könne. </title>
+            <title type="main">Joseph Banks berichtetBlumenbachüber William Herschels Experimentezum infraroten Lichtund Charles Hatchetts Versuche zur Zusammensetzung von tierischem Gewebe, sendet dieAbbildung eines Schnabeltierkopfes und schlägt Blumenbach vor, in dessen vor der Royal Society verlesenem Bericht über das Schnabeltier die Angabe zu dessenZahnlosigkeit zu streichen, sodass der Berichtin den Transactions der Society gedruckt werden könne. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> London</pubPlace>
-            <date type="publication" when=" 1800-08-05"> 1800, Aug. 5</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1189.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 492&#x96;494 Nr. 1326.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 492&#x96;494 Nr. 1326.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,7 +72,11 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 2, 2. StÜck (1800),S. 295 (&#x84;4) Hrn. D. Herschel&#x92;s Versuche Über den Unterschied zwischen Licht- und Wärme-Stralen&#x93;, Bibliographie Nr. 00870).</rs>
+               <rs type="lz">Magazin für den neuesten Zustand der Naturkunde, Bd. 2, 2. Stück (1800),S. 295 (&#x84;4) Hrn. D. Herschel&#x92;s Versuche über den Unterschied zwischen Licht- und Wärme-Stralen&#x93;, Bibliographie Nr. 00870).</rs>
+            </note>
+            <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00870(siehe&#x84;Dr.&#x93;).
+</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00870"/>
@@ -80,14 +84,14 @@
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=508"/>
             </note>
             <note>
-               <rs type="edition"> 00870   00870   Corresp. V, S. 492&#x96;494 Nr. 1326 </rs>
+               <rs type="edition">00870  00870  Corresp. V, S. 492&#x96;494 Nr. 1326 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 3 (BanksNr. 13).</title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 3 (BanksNr. 13).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
                   </author>
@@ -100,6 +104,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1189">London</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1189"
+                      sortKey="1800-08-05"
+                      when="1800-08-05"
+                      where="#orgplc-1189">
+                  <label>1800, Aug. 5</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -114,6 +132,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1189">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1189">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

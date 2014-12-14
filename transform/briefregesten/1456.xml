@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Detmar Wilhelm Soemmerring berichtet Blumenbach Über die Untersuchungen seines Vaters Samuel Thomas Soemmerring an einem Flugsaurierfossil und einem Grottenolm und Über eigene Beobachtungen zur Anatomie des Salamanders. </title>
+            <title type="main">Detmar Wilhelm Soemmerring berichtet Blumenbach über die Untersuchungen seines Vaters Samuel Thomas Soemmerring an einem Flugsaurierfossil und einem Grottenolm und über eigene Beobachtungen zur Anatomie des Salamanders. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Soemmerring, Detmar Wilhelm</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>MÜnchen</pubPlace>
-            <date type="publication" when=" 1816-08-25"> 1816, Aug. 25</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1456.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://waller.ub.uu.se/32546.html"/>
             </note>
             <note>
-               <rs type="edition"> Digitalisat online verfÜgbar </rs>
+               <rs type="edition">Digitalisat online verfügbar </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Uppsala, Universiteitsbiblioteket, The Waller Manuscript Collection, Waller Ms de-05463;Digitalisat online verfÜgbar. </title>
+                  <title level="m" type="main">Uppsala, Universiteitsbiblioteket, The Waller Manuscript Collection, Waller Ms de-05463;Digitalisat online verfügbar. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Soemmerring, Detmar Wilhelm</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1456">München</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1456"
+                      sortKey="1816-08-25"
+                      when="1816-08-25"
+                      where="#orgplc-1456">
+                  <label>1816, Aug. 25</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1456">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1456">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

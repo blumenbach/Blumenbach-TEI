@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Legationsrat [Ferdinand Friedrich (von) ?] Reuss [sendetBlumenbach u. a. einen Bericht des wÜrttembergischen Konsuls in Rom, Carlvon Kolb, Über einen bei Vulci gefundenen Etruskerschädel?]. </title>
+            <title type="main">Legationsrat [Ferdinand Friedrich (von) ?] Reuss [sendetBlumenbach u. a. einen Bericht des württembergischen Konsuls in Rom, Carlvon Kolb, über einen bei Vulci gefundenen Etruskerschädel?]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Reuss, [Ferdinand Friedrich (von) ?]</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Stuttgart</pubPlace>
-            <date type="publication" when=" 1838-03-01"> 1838, März 1</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1652.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Identifizierungs- und Datierungsunsicherheit: Laut ADB ÜbersiedelteReuss erst 1839 aus Moskau nach Stuttgart. </note>
+            <note>Identifizierungs- und Datierungsunsicherheit: Laut ADB übersiedelteReuss erst 1839 aus Moskau nach Stuttgart. </note>
             <note>
-               <rs type="object"> Bei dem beschriebenen Schädel handelt es sichevt. um den1830 (?) an Blumenbach gesandten ital. Schädel vgl. Spengel, Anthropologische Sammlung, S. 20 Anm. ad. 317: &#x84;1830. Von Consul Kolb in Rom durch Leg.-Rath. Reuss. Ausgegraben bei Vulci.&#x93;</rs>
+               <rs type="object">Bei dem beschriebenen Schädel handelt es sichevt. um den1830 (?) an Blumenbach gesandten ital. Schädel vgl. Spengel, Anthropologische Sammlung, S. 20 Anm. ad. 317: &#x84;1830. Von Consul Kolb in Rom durch Leg.-Rath. Reuss. Ausgegraben bei Vulci.&#x93;</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553"/>
             </note>
             <note>
-               <rs type="edition"> Spengel, Anthropologische Sammlung </rs>
+               <rs type="edition">Spengel, Anthropologische Sammlung </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, fol. ?, vgl. Meyer, Handschriften in Göttingen 3 (1894), S. 79; dort drei Briefe dieses Inhalts genannt, jedoch nur zwei Datumsangaben. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, fol. ?, vgl. Meyer, Handschriften in Göttingen 3 (1894), S. 79; dort drei Briefe dieses Inhalts genannt, jedoch nur zwei Datumsangaben. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Reuss, [Ferdinand Friedrich (von) ?]</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1652">Stuttgart</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1652"
+                      sortKey="1838-03-01"
+                      when="1838-03-01"
+                      where="#orgplc-1652">
+                  <label>1838, März 1</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1652">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1652">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teilt Pieter Camper seine Auffassung zur Kategorisierung von Tier- und Menschenfossilien mit. </title>
+            <title type="main">Blumenbach teilt Pieter Camper seine Auffassung zur Kategorisierung von Tier- und Menschenfossilien mit. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1789-03-23"> 1789, März 23</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/439.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 204 Nr. 0538.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 204 Nr. 0538.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Kurze Inhaltsangabe in Gysel, Carlos, &#x84;Les relations du jeune Blumenbach avec Camper vieillissant&#x93;, in Histoire des sciences médicales, XVII (1983), S. 138&#x96;139.</rs>
+               <rs type="bibl">Kurze Inhaltsangabe in Gysel, Carlos, &#x84;Les relations du jeune Blumenbach avec Camper vieillissant&#x93;, in Histoire des sciences médicales, XVII (1983), S. 138&#x96;139.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=222"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 204 Nr. 0538 </rs>
+               <rs type="edition">Corresp. III, S. 204 Nr. 0538 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Amsterdam, Universiteitsbibliotheek, Bijzondere Collecties, Hs. X 11i. </title>
+                  <title level="m" type="main">Amsterdam, Universiteitsbibliotheek, Bijzondere Collecties, Hs. X 11i. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-439">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-439"
+                      sortKey="1789-03-23"
+                      when="1789-03-23"
+                      where="#orgplc-439">
+                  <label>1789, März 23</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-439">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-439">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Camper, Pieter</persName>
          </creation>

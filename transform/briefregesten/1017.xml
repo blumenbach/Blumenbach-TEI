@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Franz Xaver von Zach bittetBlumenbach um weitere Beiträge fÜr dieAllgemeinen Geographischen Ephemeridenund macht Themenvorschläge, beschreibt den internationalen Erfolg der Zeitschrift, den er auf Blumenbachs Beteiligung zurÜckfÜhrt, und bittet Blumenbach, sich an von Zachs BemÜhungen zu beteiligen, Blumenbachs Schwager Johann Heinrich Voigt den Titel eines Hofrats zu verschaffen. </title>
+            <title type="main">Franz Xaver von Zach bittetBlumenbach um weitere Beiträge für dieAllgemeinen Geographischen Ephemeridenund macht Themenvorschläge, beschreibt den internationalen Erfolg der Zeitschrift, den er auf Blumenbachs Beteiligung zurückführt, und bittet Blumenbach, sich an von Zachs Bemühungen zu beteiligen, Blumenbachs Schwager Johann Heinrich Voigt den Titel eines Hofrats zu verschaffen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Zach, Franz Xaver von</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when="1798-05-22&#xA; 1798-05-27"> 1798,Mai 22 und 27  Göttingen</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1017.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 260&#x96;265 Nr. 1154.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 260&#x96;265 Nr. 1154.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,21 +72,24 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Abbildungen naturhistorischer Gegenstände, Heft 3 (1798; Bibliographie Nr. 00677).</rs>
+               <rs type="lz">Abbildungen naturhistorischer Gegenstände, Heft 3 (1798; Bibliographie Nr. 00677).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00677"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=276"/>
             </note>
             <note>
-               <rs type="edition"> 00677   Corresp. V, S. 260&#x96;265 Nr. 1154 </rs>
+               <rs type="edition">00677  Corresp. V, S. 260&#x96;265 Nr. 1154 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 2 (ZachNr. 9).</title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 2 (ZachNr. 9).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Zach, Franz Xaver von</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1017">und 27</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1017"
+                      sortKey="1798-05-22&#xA; 1798-05-27"
+                      when="1798-05-22&#xA; 1798-05-27"
+                      where="#orgplc-1017">
+                  <label>1798,Mai 22 Göttingen</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1017">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1017">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach berichtet Christian Gottlob Heyne von den in Bad Pyrmont anwesenden Kurgästen und bittet um die Beschaffung eines ihn interessierenden Werks Über ägypten durch die Göttinger Universitätsbibliothek. </title>
+            <title type="main">Blumenbach berichtet Christian Gottlob Heyne von den in Bad Pyrmont anwesenden Kurgästen und bittet um die Beschaffung eines ihn interessierenden Werks über ägypten durch die Göttinger Universitätsbibliothek. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Pyrmont</pubPlace>
-            <date type="publication" when=" 1790-07-01"> 1790, Juli 1</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/518.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -74,6 +74,10 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item">Vorwort und Anmerkungen zu Reisen zur Entdeckung der Quellen des Nils in den Jahren 1768, 1769, 1770, 1771, 1772 und 1773 (Bd. 1, 1790; Bibliographie Nr. 00164).
+</rs>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +87,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Heyne 131, fol. 123. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Heyne 131, fol. 123. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -96,6 +100,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-518">Pyrmont</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-518"
+                      sortKey="1790-07-01"
+                      when="1790-07-01"
+                      where="#orgplc-518">
+                  <label>1790, Juli 1</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +128,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-518">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-518">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Heyne, Christian Gottlob</persName>
          </creation>

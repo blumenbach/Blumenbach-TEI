@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Thomas Turner berichtet Blumenbach Über seine vorerst erfolglosen BemÜhungen zur Beschaffung eines Mumienkopfes, Über eine zerstörte Mumie in der Bibliothek von Cambridge und einen in Tropfstein eingeschlossenen menschlichen Schädel von der Insel Kreta. </title>
+            <title type="main">Thomas Turner berichtet Blumenbach über seine vorerst erfolglosen Bemühungen zur Beschaffung eines Mumienkopfes, über eine zerstörte Mumie in der Bibliothek von Cambridge und einen in Tropfstein eingeschlossenen menschlichen Schädel von der Insel Kreta. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Turner, Thomas</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Cambridge</pubPlace>
-            <date type="publication" when=" 1794-02-15"> 1794, Febr. 15</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/709.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 304 Nr. 0833.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 304 Nr. 0833.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Vgl. Blumenbachs Notizen zu seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, IV, fol. 5.</note>
             <note>
-               <rs type="object"> Kopf einer ägyptischen Mumie, den Blumenbach später (vor dem 11. Dez. 1795) erhielt (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 641; Abb. inDecas craniorum 4 (1800), Tafel 31; Bibliographie Nr. 00095).</rs>
+               <rs type="object">Kopf einer ägyptischen Mumie, den Blumenbach später (vor dem 11. Dez. 1795) erhielt (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 641; Abb. inDecas craniorum 4 (1800), Tafel 31; Bibliographie Nr. 00095).</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=316"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 304 Nr. 0833 </rs>
+               <rs type="edition">Corresp. IV, S. 304 Nr. 0833 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 4. </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 4. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Turner, Thomas</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-709">Cambridge</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-709"
+                      sortKey="1794-02-15"
+                      when="1794-02-15"
+                      where="#orgplc-709">
+                  <label>1794, Febr. 15</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-709">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-709">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

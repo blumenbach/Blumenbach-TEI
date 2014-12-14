@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Carl August Böttiger fragt Blumenbach, ob er die durch Johann Reinhold Forsters Tod vakante Herausgeberfunktion fÜr eine Reihe mit deutschsprachigen Übersetzungen von Reisebeschreibungen Übernehmen wolle, bittet um eine Kopie nach der Zeichnung eines indischen Lingamreliefs in Blumenbachs Besitz, fÜr die die er im Tausch zwei Kopiennach antiken Vasenabbildungen erotischen Inhalts anbietet, und fragt nach Blumenbachs Urteil Über Franz Joseph Galls phrenologischeTheorien. </title>
+            <title type="main">Carl August Böttiger fragt Blumenbach, ob er die durch Johann Reinhold Forsters Tod vakante Herausgeberfunktion für eine Reihe mit deutschsprachigen übersetzungen von Reisebeschreibungen übernehmen wolle, bittet um eine Kopie nach der Zeichnung eines indischen Lingamreliefs in Blumenbachs Besitz, für die die er im Tausch zwei Kopiennach antiken Vasenabbildungen erotischen Inhalts anbietet, und fragt nach Blumenbachs Urteil über Franz Joseph Galls phrenologischeTheorien. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Böttiger, Carl August</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Weimar</pubPlace>
-            <date type="publication" when=" 1799-01-11"> 1799, Jan. 11</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1075.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,36 +57,39 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 351&#x96;353 Nr. 1211.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 351&#x96;353 Nr. 1211.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Von Charles Townley erhaltene Zeichnung eines indischen Lingamreliefs (erhalten in SUB Göttingen, 2 ARCH I, 1895).</rs>
+               <rs type="object">Von Charles Townley erhaltene Zeichnung eines indischen Lingamreliefs (erhalten in SUB Göttingen, 2 ARCH I, 1895).</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Klatt, Norbert: &#x84;Blumenbachs Aufenthalt in England &#x96; Versuch einer Rekonstruktion&#x93;, in ders.: Kleine Beiträge zur Blumenbach-Forschung. Bd. 4. Göttingen 2012, S.7&#x96;105; hier S. 60&#x96;61, Anm.172.</rs>
+               <rs type="bibl">Auszug in Klatt, Norbert: &#x84;Blumenbachs Aufenthalt in England &#x96; Versuch einer Rekonstruktion&#x93;, in ders.: Kleine Beiträge zur Blumenbach-Forschung. Bd. 4. Göttingen 2012, S.7&#x96;105; hier S. 60&#x96;61, Anm.172.</rs>
             </note>
             <note>
-               <rs type="lz"> Handbuch der Naturgeschichte (6. Aufl. 1799 [im Druck], Bibliographie Nr. 00027).</rs>
+               <rs type="lz">Handbuch der Naturgeschichte (6. Aufl. 1799 [im Druck], Bibliographie Nr. 00027).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00027"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=367"/>
             </note>
             <note>
-               <rs type="edition"> 00027   Corresp. V, S. 351&#x96;353 Nr. 1211 </rs>
+               <rs type="edition">00027  Corresp. V, S. 351&#x96;353 Nr. 1211 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Leipzig, Universitätsbibliothek, Sammlung Kestner II A IV, 203, fol. 10&#x96;11.</title>
+                  <title level="m" type="main">Leipzig, Universitätsbibliothek, Sammlung Kestner II A IV, 203, fol. 10&#x96;11.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Böttiger, Carl August</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1075">Weimar</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1075"
+                      sortKey="1799-01-11"
+                      when="1799-01-11"
+                      where="#orgplc-1075">
+                  <label>1799, Jan. 11</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1075">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1075">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

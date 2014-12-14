@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teiltCharles de Pougens mit, dass die Göttinger Societät der Wissenschaften nicht die nötige Fachkompetenz habe, um dessen Vorhaben zur Erarbeitung einesTrésor des origines et dictionnaire grammatical raisonné de la langue française und die von ihmeingereichten Aufsätze zu beurteilen. </title>
+            <title type="main">Blumenbach teiltCharles de Pougens mit, dass die Göttinger Societät der Wissenschaften nicht die nötige Fachkompetenz habe, um dessen Vorhaben zur Erarbeitung einesTrésor des origines et dictionnaire grammatical raisonné de la langue française und die von ihmeingereichten Aufsätze zu beurteilen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1814-11-20"> 1814, Nov.20</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1429.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://waller.ub.uu.se/18098.html"/>
             </note>
             <note>
-               <rs type="edition"> Digitalisat online verfÜgbar </rs>
+               <rs type="edition">Digitalisat online verfügbar </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Uppsala, Universiteitsbiblioteket, The Waller Manuscript Collection, Waller Ms de-00376;Digitalisat online verfÜgbar. </title>
+                  <title level="m" type="main">Uppsala, Universiteitsbiblioteket, The Waller Manuscript Collection, Waller Ms de-00376;Digitalisat online verfügbar. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1429">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1429"
+                      sortKey="1814-11-20"
+                      when="1814-11-20"
+                      where="#orgplc-1429">
+                  <label>1814, Nov.20</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1429">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1429">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Pougens, Charles de</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">00</classCode>
-            <classCode scheme="anchor"> 1815</classCode>
+            <classCode scheme="anchor">1815</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

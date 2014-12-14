@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Charles Konig berichtet Blumenbach[u. a. , dass die Untersuchung der Leiche des in London als Frau lebenden Charles d&#x92;Éon gezeigt habe, dass erein Mann gewesen sei]. </title>
+            <title type="main">Charles Konig berichtet Blumenbach[u. a. , dass die Untersuchung der Leiche des in London als Frau lebenden Charles d&#x92;Éon gezeigt habe, dass erein Mann gewesen sei]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Konig, Charles </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> [unbekannt]</pubPlace>
-            <date type="publication" when=" 1815-03-09"> 1815, März 9</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1435.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug inDougherty, Corresp. IV,S. 150 Nr. 0730 Anm.1.</rs>
+               <rs type="bibl">Auszug inDougherty, Corresp. IV,S. 150 Nr. 0730 Anm.1.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=162"/>
             </note>
             <note>
-               <rs type="edition"> Dougherty, Corresp. IV,S. 150 Nr. 0730 Anm.1 </rs>
+               <rs type="edition">Dougherty, Corresp. IV,S. 150 Nr. 0730 Anm.1 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 4 (ad la Chevalière d&#x92;Eon). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 4 (ad la Chevalière d&#x92;Eon). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Konig, Charles </persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1435"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1435"
+                      sortKey="1815-03-09"
+                      when="1815-03-09"
+                      where="#orgplc-1435">
+                  <label>1815, März 9  [unbekannt]</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1435">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1435">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

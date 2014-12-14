@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teilt Jeremias David Reuss [u. a. den korrekten Vornamen von Jacob Bryant mit]. </title>
+            <title type="main">Blumenbach teilt Jeremias David Reuss [u. a. den korrekten Vornamen von Jacob Bryant mit]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>[Göttingen]</pubPlace>
-            <date type="publication" when=" 1804-05-09"> 1804, Mai 9</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1297.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug inDougherty, Corresp. IV,S. 432 Nr. 0925 Anm. *.</rs>
+               <rs type="bibl">Auszug inDougherty, Corresp. IV,S. 432 Nr. 0925 Anm. *.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=444"/>
             </note>
             <note>
-               <rs type="edition"> Dougherty, Corresp. IV,S. 432 Nr. 0925 Anm. * </rs>
+               <rs type="edition">Dougherty, Corresp. IV,S. 432 Nr. 0925 Anm. * </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek , Cod. Ms. philos. 169: I, Bl. 236a. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek , Cod. Ms. philos. 169: I, Bl. 236a. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1297">[Göttingen]</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1297"
+                      sortKey="1804-05-09"
+                      when="1804-05-09"
+                      where="#orgplc-1297">
+                  <label>1804, Mai 9</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1297">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1297">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Reuss, Jeremias David</persName>
          </creation>

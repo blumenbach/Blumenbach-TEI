@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teiltAdriaan Gilles Camper mit, welche der von diesem erbetenen Mineralienproben er ihm senden könne und bei welchen dies nur mit hohen Kosten möglich wäre, bittet um die Beschaffung des Schädels einesMulatten und berichtet Über den Mineralien- und Fossilienbestand seiner Sammlung. </title>
+            <title type="main">Blumenbach teiltAdriaan Gilles Camper mit, welche der von diesem erbetenen Mineralienproben er ihm senden könne und bei welchen dies nur mit hohen Kosten möglich wäre, bittet um die Beschaffung des Schädels einesMulatten und berichtet über den Mineralien- und Fossilienbestand seiner Sammlung. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1799-07-27"> 1799, Juli 27</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1111.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 397&#x96;400 Nr. 1246.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 397&#x96;400 Nr. 1246.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Mineralien in Blumenbachs (privater?) Sammlung (&#x84;weisse[r] nadelförmige[r] sogenannte[r] Schörl&#x93;, fÜnfflächiger Schwefelkies (Pyrit) von Elba in großen Kristallen; dreiflächiger Schwefelkies (Pyrit) in erbsengroßen Kristallen; Fossilien des&#x84;Mammutohioticum&#x93;; &#x84;DiamantSpath&#x93;&#x84;Arendaliteu. Piniteaus Norwegen&#x93;, &#x84;TitanSpathe [aus Norwegen]&#x93;. Erwartet: Zeichnungen eines neuen amerikanischen Fundes eines &#x84;Mammutohioticum&#x93;;</rs>
+               <rs type="object">Mineralien in Blumenbachs (privater?) Sammlung (&#x84;weisse[r] nadelförmige[r] sogenannte[r] Schörl&#x93;, fünfflächiger Schwefelkies (Pyrit) von Elba in großen Kristallen; dreiflächiger Schwefelkies (Pyrit) in erbsengroßen Kristallen; Fossilien des&#x84;Mammutohioticum&#x93;; &#x84;DiamantSpath&#x93;&#x84;Arendaliteu. Piniteaus Norwegen&#x93;, &#x84;TitanSpathe [aus Norwegen]&#x93;. Erwartet: Zeichnungen eines neuen amerikanischen Fundes eines &#x84;Mammutohioticum&#x93;;</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=413"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S.397&#x96;400 Nr. 1246 </rs>
+               <rs type="edition">Corresp. V, S.397&#x96;400 Nr. 1246 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Amsterdam, Special Collections of the University of Amsterdam, Hs. X.12.</title>
+                  <title level="m" type="main">Amsterdam, Special Collections of the University of Amsterdam, Hs. X.12.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1111">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1111"
+                      sortKey="1799-07-27"
+                      when="1799-07-27"
+                      where="#orgplc-1111">
+                  <label>1799, Juli 27</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1111">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1111">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Camper, Adriaan Gilles</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">1095</classCode>
-            <classCode scheme="anchor"> Aug1799</classCode>
+            <classCode scheme="anchor">Aug1799</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

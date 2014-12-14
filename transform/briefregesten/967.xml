@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach danktAlexandre Brongniart drei fossile KnochenstÜcke aus dem Gipssteinbruch von Montmartre, von denen er einen als Unterkiefer eines Bären identifiziert, und bietet an, regelmäßig wissenschaftliche Neuigkeiten vor allem aus den Gebieten Mineralogie und Zoologie auszutauschen. </title>
+            <title type="main">Blumenbach danktAlexandre Brongniart drei fossile Knochenstücke aus dem Gipssteinbruch von Montmartre, von denen er einen als Unterkiefer eines Bären identifiziert, und bietet an, regelmäßig wissenschaftliche Neuigkeiten vor allem aus den Gebieten Mineralogie und Zoologie auszutauschen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1798-01-06"> 1798, Jan. 6</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/967.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 190&#x96;191 Nr. 1104.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 190&#x96;191 Nr. 1104.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Drei fossile KnochenstÜcke aus dem Gipssteinbruch von Montmartre.</rs>
+               <rs type="object">Drei fossile Knochenstücke aus dem Gipssteinbruch von Montmartre.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=206"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 190&#x96;191 Nr. 1104 </rs>
+               <rs type="edition">Corresp. V, S. 190&#x96;191 Nr. 1104 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Paris, Bibliothèque centrale du Muséum national d&#x92;Histoire naturelle, Cod MS 1964 (Correspondance Brongniart), Nr. 94. </title>
+                  <title level="m" type="main">Paris, Bibliothèque centrale du Muséum national d&#x92;Histoire naturelle, Cod MS 1964 (Correspondance Brongniart), Nr. 94. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-967">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-967"
+                      sortKey="1798-01-06"
+                      when="1798-01-06"
+                      where="#orgplc-967">
+                  <label>1798, Jan. 6</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-967">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-967">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Brongniart, Alexandre </persName>
          </creation>

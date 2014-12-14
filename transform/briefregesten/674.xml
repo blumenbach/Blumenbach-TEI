@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Rudolph Forsten bietet Blumenbach an, ihm leihweise einen menschlichen Schädel aus Java zu senden, und berichtet Über medizinische Publikationen gemeinsamer Bekannter. </title>
+            <title type="main">Rudolph Forsten bietet Blumenbach an, ihm leihweise einen menschlichen Schädel aus Java zu senden, und berichtet über medizinische Publikationen gemeinsamer Bekannter. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Forsten, Rudolph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Harderwyk</pubPlace>
-            <date type="publication" when=" 1793-01-03"> 1793, Jan. 3</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/674.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 237 Nr. 0796.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 237 Nr. 0796.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Vgl. Blumenbachs hs. Verzeichnis seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, III, fol. 8.</note>
             <note>
-               <rs type="object"> Menschlicher Schädel aus Java; Blumenbach erhielt den Schädel 1796 als Geschenk(Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 617, Abb. in Decas craniorum 4 (1800), Tafel 39; Bibliographie Nr. 00095).</rs>
+               <rs type="object">Menschlicher Schädel aus Java; Blumenbach erhielt den Schädel 1796 als Geschenk(Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 617, Abb. in Decas craniorum 4 (1800), Tafel 39; Bibliographie Nr. 00095).</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=249"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 237 Nr. 0796 </rs>
+               <rs type="edition">Corresp. IV, S. 237 Nr. 0796 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 27, fol. 14&#x96;15. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 27, fol. 14&#x96;15. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Forsten, Rudolph</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-674">Harderwyk</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-674"
+                      sortKey="1793-01-03"
+                      when="1793-01-03"
+                      where="#orgplc-674">
+                  <label>1793, Jan. 3</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-674">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-674">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

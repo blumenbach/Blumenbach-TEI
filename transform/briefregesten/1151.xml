@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Friedrich Justin Bertuch Abbildungen von Tieren und kÜndigt einen Aufsatz Über das neu entdeckte australische Schnabeltier fÜr Johann Heinrich Voigts Magazin fÜr den neuesten Zustand der Naturkunde an undversprichtBeiträge fÜr die Allgemeinen Geographischen Ephemeriden. </title>
+            <title type="main">Blumenbach sendet Friedrich Justin Bertuch Abbildungen von Tieren und kündigt einen Aufsatz über das neu entdeckte australische Schnabeltier für Johann Heinrich Voigts Magazin für den neuesten Zustand der Naturkunde an undversprichtBeiträge für die Allgemeinen Geographischen Ephemeriden. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1800-03-24"> 1800, März 24</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1151.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 446&#x96;448 Nr. 1286.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 446&#x96;448 Nr. 1286.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> AuszuginMiddell, Katharina: Die Bertuchs mÜssen doch in dieser Welt Überall GlÜck haben: Der Verleger Friedrich Justin Bertuch und sein Landes-Industrie-Comptoir um 1800. Leipzig 2002, S. 279&#x96;280 Anm. 160, S. 284 mit Anm. 179 und S. 318&#x96;319. </rs>
+               <rs type="bibl">AuszuginMiddell, Katharina: Die Bertuchs müssen doch in dieser Welt überall Glück haben: Der Verleger Friedrich Justin Bertuch und sein Landes-Industrie-Comptoir um 1800. Leipzig 2002, S. 279&#x96;280 Anm. 160, S. 284 mit Anm. 179 und S. 318&#x96;319. </rs>
             </note>
             <note>
-               <rs type="lz"> Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 2, 1. StÜck (1800), S. 205&#x96;214 (Bibliographie Nr. 00865). </rs>
+               <rs type="lz">Magazin für den neuesten Zustand der Naturkunde, Bd. 2, 1. Stück (1800), S. 205&#x96;214 (Bibliographie Nr. 00865). </rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=462"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 446&#x96;448 Nr. 1286 </rs>
+               <rs type="edition">Corresp. V, S. 446&#x96;448 Nr. 1286 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv,GSA, Nachlass Bertuch 06/189 (= Briefe Blumenbachs an Bertuch), Nr. 3.</title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv,GSA, Nachlass Bertuch 06/189 (= Briefe Blumenbachs an Bertuch), Nr. 3.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1151">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1151"
+                      sortKey="1800-03-24"
+                      when="1800-03-24"
+                      where="#orgplc-1151">
+                  <label>1800, März 24</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1151">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1151">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Bertuch, Friedrich Justin </persName>
          </creation>

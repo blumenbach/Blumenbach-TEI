@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Christoph Lichtenberg schickt Blumenbach ein fÜr diesen bestimmtes Paket mit einem präparierten menschlichen Embryo und einem vergrößerten Wachsmodell der Gehörknöchelchen im menschlichen Ohr weiter, das er mit einer Postsendung von Samuel Thomas Soemmerring erhalten hatte. </title>
+            <title type="main">Georg Christoph Lichtenberg schickt Blumenbach ein für diesen bestimmtes Paket mit einem präparierten menschlichen Embryo und einem vergrößerten Wachsmodell der Gehörknöchelchen im menschlichen Ohr weiter, das er mit einer Postsendung von Samuel Thomas Soemmerring erhalten hatte. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1791-04-15"> 1791, Apr. 15</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/571.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,38 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 50 Nr. 0672.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 50 Nr. 0672.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Der mitgeschickte präparierte Embryo war wohl nur zur Ansicht gedachtund wurde an Soemmerring zurÜckgeschickt.</note>
+            <note>Der mitgeschickte präparierte Embryo war wohl nur zur Ansicht gedachtund wurde an Soemmerring zurückgeschickt.</note>
             <note>
-               <rs type="object"> Neunfach vergrößertes Wachsmodell der Knochenstandteile des Gehörgangs.</rs>
+               <rs type="object">Neunfach vergrößertes Wachsmodell der Knochenstandteile des Gehörgangs.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 55; Lichtenberg, Briefwechsel, Bd. 3 (1990), Nr. 1857, S. 878.</rs>
+               <rs type="bibl">Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 55; Lichtenberg, Briefwechsel, Bd. 3 (1990), Nr. 1857, S. 878.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=62"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 50 Nr. 0672 </rs>
+               <rs type="edition">Corresp. IV, S. 50 Nr. 0672 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826. </title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-571">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-571"
+                      sortKey="1791-04-15"
+                      when="1791-04-15"
+                      where="#orgplc-571">
+                  <label>1791, Apr. 15</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-571">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-571">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

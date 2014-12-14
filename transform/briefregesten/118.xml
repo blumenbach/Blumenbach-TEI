@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Christoph Lichtenberg weist Blumenbach auf eine lesenswerte Reisebeschreibung von einem Teilnehmer an der Weltumsegelung James Cooks in, diskutiert die [fälschlich] vermutete Autorschaft [Georg oder Johann Reinhold?] Forsters an einem Zeitschriftenaufsatz und erwähnt den aktuellen Stand seines Konflikts mit Johann Heinrich Voß. </title>
+            <title type="main">Georg Christoph Lichtenberg weist Blumenbach auf eine lesenswerte Reisebeschreibung von einem Teilnehmer an der Weltumsegelung James Cooks in, diskutiert die [fälschlich] vermutete Autorschaft [Georg oder Johann Reinhold?] Forsters an einem Zeitschriftenaufsatz und erwähnt den aktuellen Stand seines Konflikts mit Johann Heinrich Voß. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" ca. 1781-08-01"> 1781, ca. Aug. 1</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/118.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 248 Nr. 0156.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 248 Nr. 0156.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 18; Lichtenberg, Briefwechsel, Bd. 2 (1985), Nr. 484, S. 244&#x96;246.</rs>
+               <rs type="bibl">Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 18; Lichtenberg, Briefwechsel, Bd. 2 (1985), Nr. 484, S. 244&#x96;246.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826. </title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-118">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-118"
+                      sortKey="1781-08-01"
+                      when="1781-08-01"
+                      where="#orgplc-118">
+                  <label>1781, ca. Aug. 1</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-118">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-118">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>

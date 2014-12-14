@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Wien</pubPlace>
-            <date type="publication" when=" 1823-05-24"> 1823, Mai24</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1527.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Meyer, Handschriften in Göttingen 3 (1894), S. 80, nennt als Gegenstand des Briefes den Schädel &#x84;eines alten Eingeborenen&#x93;; vgl. zu dem Schädel in Breuners Besitz, von dem er AbgÜsse versandte, Tschudi, J.J. von: &#x84;Ein Awarenschädel&#x93;, in Archiv fÜr Anatomie, Physiologie und wissenschaftliche Medicin, Band 1845, S. 277&#x96;280. </note>
+            <note>Meyer, Handschriften in Göttingen 3 (1894), S. 80, nennt als Gegenstand des Briefes den Schädel &#x84;eines alten Eingeborenen&#x93;; vgl. zu dem Schädel in Breuners Besitz, von dem er Abgüsse versandte, Tschudi, J.J. von: &#x84;Ein Awarenschädel&#x93;, in Archiv für Anatomie, Physiologie und wissenschaftliche Medicin, Band 1845, S. 277&#x96;280. </note>
             <note>
-               <rs type="object"> Zur Identifikation des Schädels vgl. Spengel, Anthropologische Sammlung, S. 29 Anm. ad 261&#x84;(Abguss des Avarenschädels von Grafenegg [&#x85;].)&#x93; und S. 90 Nr. 261.</rs>
+               <rs type="object">Zur Identifikation des Schädels vgl. Spengel, Anthropologische Sammlung, S. 29 Anm. ad 261&#x84;(Abguss des Avarenschädels von Grafenegg [&#x85;].)&#x93; und S. 90 Nr. 261.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553"/>
             </note>
             <note>
-               <rs type="edition"> Spengel, Anthropologische Sammlung </rs>
+               <rs type="edition">Spengel, Anthropologische Sammlung </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms.Blumenbach VI,fol. ?, vgl. Meyer, Handschriften in Göttingen 3 (1894), S. 80. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms.Blumenbach VI,fol. ?, vgl. Meyer, Handschriften in Göttingen 3 (1894), S. 80. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Breuner[-Enckevoirth, August Ferdinand ?] </persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1527">Wien</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1527"
+                      sortKey="1823-05-24"
+                      when="1823-05-24"
+                      where="#orgplc-1527">
+                  <label>1823, Mai24</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1527">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1527">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

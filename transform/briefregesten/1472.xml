@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Maximilian von Wied-Neuwied sendet Blumenbach [u. a. einen menschlichen Schädel aus Brasilien?]. </title>
+            <title type="main">Maximilian von Wied-Neuwied sendet Blumenbach [u. a. einen menschlichen Schädel aus Brasilien?]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Wied-Neuwied, Maxilimian von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Neuwied</pubPlace>
-            <date type="publication" when=" 1817"> 1817</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1472.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Evt. Begleitbrief zum Schädel eines &#x84;Botokuden&#x93;, den B. laut Bibliographienr. 00199 (1820), S. 171, von Maximilian von Wied-Neuwied erhielt und Über den er im Juli 1818 (?) in der Societät der Wissenschaften zu Göttingen berichete.</note>
+            <note>Evt. Begleitbrief zum Schädel eines &#x84;Botokuden&#x93;, den B. laut Bibliographienr. 00199 (1820), S. 171, von Maximilian von Wied-Neuwied erhielt und über den er im Juli 1818 (?) in der Societät der Wissenschaften zu Göttingen berichete.</note>
             <note>
-               <rs type="object"> Evt. Begleitbrief zum Schädel eines &#x84;Botokuden&#x93;, vgl.Spengel, Anthropologische Sammlung, S. 70 Anm. ad 74: &#x84;Von Prinz Max von Neuwied.&#x93;</rs>
+               <rs type="object">Evt. Begleitbrief zum Schädel eines &#x84;Botokuden&#x93;, vgl.Spengel, Anthropologische Sammlung, S. 70 Anm. ad 74: &#x84;Von Prinz Max von Neuwied.&#x93;</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,18 +75,21 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553"/>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00199"/>
             </note>
             <note>
-               <rs type="edition"> Spengel, Anthropologische Sammlung   00199 </rs>
+               <rs type="edition">Spengel, Anthropologische Sammlung  00199 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms.Blumenbach XI, nach S. 454, vgl. Meyer, Handschriften in Göttingen 3 (1894), S. 81.</title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms.Blumenbach XI, nach S. 454, vgl. Meyer, Handschriften in Göttingen 3 (1894), S. 81.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Wied-Neuwied, Maxilimian von</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1472">Neuwied</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1472"
+                      sortKey="1817"
+                      when="1817"
+                      where="#orgplc-1472">
+                  <label>1817</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,12 +130,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1472">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1472">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">00</classCode>
-            <classCode scheme="anchor"> 1818</classCode>
+            <classCode scheme="anchor">1818</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Fr. Beneker sendetBlumenbach [den Schädel einer Mulattin ausGuayana]. </title>
+            <title type="main">Fr. Beneker sendetBlumenbach [den Schädel einer Mulattin ausGuayana]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Beneker, Fr.</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Ovelgönne</pubPlace>
-            <date type="publication" when=" 1808-02-01"> 1808, Febr.1</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1359.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Schädel einer Mulattin; Abb. inDecas craniorum 6 (1820), Tafel 56; Bibliographie Nr. 00097), vgl.Spengel, Anthropologische Sammlung, S. 58 Anm. ad 23: &#x84;»Der Vater war ein Holländer, die Mutter eine Negresse.« Von Dr. Beneker, Chirurgien major zu Amsterdam.&#x93;</rs>
+               <rs type="object">Schädel einer Mulattin; Abb. inDecas craniorum 6 (1820), Tafel 56; Bibliographie Nr. 00097), vgl.Spengel, Anthropologische Sammlung, S. 58 Anm. ad 23: &#x84;»Der Vater war ein Holländer, die Mutter eine Negresse.« Von Dr. Beneker, Chirurgien major zu Amsterdam.&#x93;</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, fol. ?, vgl. Meyer, Handschriften in Göttingen 3 (1894), S. 79. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, fol. ?, vgl. Meyer, Handschriften in Göttingen 3 (1894), S. 79. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Beneker, Fr.</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1359">Ovelgönne</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1359"
+                      sortKey="1808-02-01"
+                      when="1808-02-01"
+                      where="#orgplc-1359">
+                  <label>1808, Febr.1</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1359">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1359">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

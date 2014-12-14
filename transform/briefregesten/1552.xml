@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Gottfried Eichhorn anBlumenbach [u. a. die Eignung Christian Liebaus als Vertreter fÜr Christian David Hennicke, den Pedell derSocietät der Wissenschaften zu Göttingen, betreffend]. </title>
+            <title type="main">Johann Gottfried Eichhorn anBlumenbach [u. a. die Eignung Christian Liebaus als Vertreter für Christian David Hennicke, den Pedell derSocietät der Wissenschaften zu Göttingen, betreffend]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Eichhorn, Johann Gottfried</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1825-01-10"> 1825, Jan. 10</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1552.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> AuszuginWagener,Pedelle, Mägde und Lakaien, S. 352 mit Anm. 463ff.</rs>
+               <rs type="bibl">AuszuginWagener,Pedelle, Mägde und Lakaien, S. 352 mit Anm. 463ff.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Archiv der Akademie der Wissenschaften, Pers. 70,2 Nr. 27(10.1.1825). </title>
+                  <title level="m" type="main">Göttingen, Archiv der Akademie der Wissenschaften, Pers. 70,2 Nr. 27(10.1.1825). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Eichhorn, Johann Gottfried</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1552">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1552"
+                      sortKey="1825-01-10"
+                      when="1825-01-10"
+                      where="#orgplc-1552">
+                  <label>1825, Jan. 10</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1552">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1552">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

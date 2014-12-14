@@ -3,9 +3,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Christian Wilhelm BÜttner berichtet Blumenbach [u. a. Über seine körperliche Verfassung]. </title>
+            <title type="main">Christian Wilhelm Büttner berichtet Blumenbach [u. a. über seine körperliche Verfassung]. </title>
             <author>
-               <persName ref="http://d-nb.info/gnd/">BÜttner, Christian Wilhelm</persName>
+               <persName ref="http://d-nb.info/gnd/">Büttner, Christian Wilhelm</persName>
             </author>
             <editor>
                <persName ref="http://d-nb.info/gnd/">
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when="vor 1798-10-08"> 1798, vor Okt. 8 Jena</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1042.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 302 Nr. 1179.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 302 Nr. 1179.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,16 +69,19 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in &#x84;Christian Wilhelm BÜttner&#x93;, in Schlichtegroll, Friedrich (Hg.), Nekrolog der Teutschen fÜr das neunzehnte Jahrhundert. Bd. 1. Gotha 1802, S. 211&#x96;240, hier S. 230. </rs>
+               <rs type="bibl">Auszug in &#x84;Christian Wilhelm Büttner&#x93;, in Schlichtegroll, Friedrich (Hg.), Nekrolog der Teutschen für das neunzehnte Jahrhundert. Bd. 1. Gotha 1802, S. 211&#x96;240, hier S. 230. </rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=318"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 302 Nr. 1179 </rs>
+               <rs type="edition">Corresp. V, S. 302 Nr. 1179 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -87,7 +90,7 @@
                <titleStmt>
                   <title level="m" type="main"> </title>
                   <author>
-                     <persName ref="http://d-nb.info/gnd/">BÜttner, Christian Wilhelm</persName>
+                     <persName ref="http://d-nb.info/gnd/">Büttner, Christian Wilhelm</persName>
                   </author>
                </titleStmt>
                <publicationStmt>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1042">Jena</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1042"
+                      sortKey="vor 1798-10-08"
+                      when="vor 1798-10-08"
+                      where="#orgplc-1042">
+                  <label>1798, vor Okt. 8</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1042">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1042">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

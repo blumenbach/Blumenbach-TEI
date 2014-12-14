@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach kommentiert gegenÜber Friedrich Christian Schmidt den gegenseitigen Austausch von Briefen, Geschenken und naturkundlichen Sammlungsgegenständenund berichtet Über Göttinger Ereignisse. </title>
+            <title type="main">Blumenbach kommentiert gegenüber Friedrich Christian Schmidt den gegenseitigen Austausch von Briefen, Geschenken und naturkundlichen Sammlungsgegenständenund berichtet über Göttinger Ereignisse. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1776-12-29"> 1776, Dez. 29</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/34.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 95 Nr. 0050.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 95 Nr. 0050.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. 1999. 17/1:1.</title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. 1999. 17/1:1.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-34">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-34"
+                      sortKey="1776-12-29"
+                      when="1776-12-29"
+                      where="#orgplc-34">
+                  <label>1776, Dez. 29</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-34">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-34">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Schmidt, Friedrich Christian</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0034</classCode>
-            <classCode scheme="anchor"> 1777
+            <classCode scheme="anchor">1777
 1770
 1771
 1772

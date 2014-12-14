@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Gottfried Philipp Michaelis sendet Blumenbach die Zeichnung eines menschlichen Schädels aus dem Salzburger Land. </title>
+            <title type="main">Gottfried Philipp Michaelis sendet Blumenbach die Zeichnung eines menschlichen Schädels aus dem Salzburger Land. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Michaelis, Gottfried Philipp</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1793-07-20"> 1793, vor Juli 20</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/693.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 279 Nr. 0816.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 279 Nr. 0816.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Zeichnung eines menschlichen Schädels aus dem Salzburger Land, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, II, fol. 52a.</rs>
+               <rs type="object">Zeichnung eines menschlichen Schädels aus dem Salzburger Land, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, II, fol. 52a.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,18 +75,21 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/Sammlungskataloge/cod_ms-Blumenbach_1_II_Blumenbach_Handschriften_1794_1800_Katalog%20zur%20Naturgeschichte%20des%20Menschengeschlechts.pdf#page=110"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=291"/>
             </note>
             <note>
-               <rs type="edition"> Cod. Ms. Blumenbach 1, II, fol. 52a   Corresp. IV, S. 279 Nr. 0816 </rs>
+               <rs type="edition">Cod. Ms. Blumenbach 1, II, fol. 52a  Corresp. IV, S. 279 Nr. 0816 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, II, fol. 52a. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, II, fol. 52a. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Michaelis, Gottfried Philipp</persName>
                   </author>
@@ -99,9 +102,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-693">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1793-07-20">
-                  <label> 1793, vor Juli 20</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-693"
+                      sortKey="1793-07-20"
+                      notAfter="1793-07-20"
+                      where="#orgplc-693">
+                  <label>1793, vor Juli 20</label>
                </event>
             </listEvent>
             <msDesc>
@@ -118,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-693">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-693">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

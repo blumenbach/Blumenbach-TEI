@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Joseph Banks dankt Blumenbach fÜr zugesandte Publikationen und indische MÜnzen, bittet um die Beschaffung eines Folgebandes zu einer der Publikationen und kÜndigt die Zusendung eines Aufsatzes und einer Landkarte von Afrika von James Rennell an. </title>
+            <title type="main">Joseph Banks dankt Blumenbach für zugesandte Publikationen und indische Münzen, bittet um die Beschaffung eines Folgebandes zu einer der Publikationen und kündigt die Zusendung eines Aufsatzes und einer Landkarte von Afrika von James Rennell an. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Banks, Joseph </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> London</pubPlace>
-            <date type="publication" when=" 1798-08-11"> 1798, Aug. 11</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1029.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 287&#x96;288 Nr. 1166.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 287&#x96;288 Nr. 1166.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Allgemeine geographische Ephemeriden, Bd. 1, 3. StÜck (März 1798), S. 353&#x96;354 (&#x84;7. Aus einem Schreiben des Hofraths Blumenbach. Göttingen, den 5. May 1798&#x93;, Bibliographie Nr. 00763). </rs>
+               <rs type="bibl">Auszug in Allgemeine geographische Ephemeriden, Bd. 1, 3. Stück (März 1798), S. 353&#x96;354 (&#x84;7. Aus einem Schreiben des Hofraths Blumenbach. Göttingen, den 5. May 1798&#x93;, Bibliographie Nr. 00763). </rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=303"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 287&#x96;288 Nr. 1166 </rs>
+               <rs type="edition">Corresp. V, S. 287&#x96;288 Nr. 1166 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Sidney (Austr.), State Library of New South Wales: Letter written by Sir Joseph Banks [...] to Professor J. F. Blumenbach of Goettingen, dated 11 August 1798. / in Letters written by Sir Joseph Banks to various people, 1789-1818, togetherwith biographicalextract, 1857pp. 14-17Callno. Safe1 / 460. </title>
+                  <title level="m" type="main">Sidney (Austr.), State Library of New South Wales: Letter written by Sir Joseph Banks [...] to Professor J. F. Blumenbach of Goettingen, dated 11 August 1798. / in Letters written by Sir Joseph Banks to various people, 1789-1818, togetherwith biographicalextract, 1857pp. 14-17Callno. Safe1 / 460. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Banks, Joseph </persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1029">London</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1029"
+                      sortKey="1798-08-11"
+                      when="1798-08-11"
+                      where="#orgplc-1029">
+                  <label>1798, Aug. 11</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1029">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1029">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">1013</classCode>
-            <classCode scheme="anchor"> Sept1798</classCode>
+            <classCode scheme="anchor">Sept1798</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

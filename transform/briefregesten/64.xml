@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Der kurfÜrstlich-hannoversche Großvogt Ludwig Eberhard von Gemmingen äußert sich anerkennend Über das von Blumenbach verfasste Bestandsverzeichnis des Academischen Museums in Göttingen und stellte eine Anerkennung durch den Landesherrn in Aussicht. </title>
+            <title type="main">Der kurfürstlich-hannoversche Großvogt Ludwig Eberhard von Gemmingen äußert sich anerkennend über das von Blumenbach verfasste Bestandsverzeichnis des Academischen Museums in Göttingen und stellte eine Anerkennung durch den Landesherrn in Aussicht. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Gemmingen, Ludwig Eberhard von </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Hannover</pubPlace>
-            <date type="publication" when=" 1778-10-26"> 1778, Okt. 26</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/64.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 156 Nr. 0090.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 156 Nr. 0090.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,10 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item">Handschr. Bestandverzeichnis des Academischen Museums.
+</rs>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +87,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Leipzig, Universitätsbibliothek, Sammlung Kestner, II A I, 255. </title>
+                  <title level="m" type="main">Leipzig, Universitätsbibliothek, Sammlung Kestner, II A I, 255. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Gemmingen, Ludwig Eberhard von </persName>
                   </author>
@@ -96,6 +100,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-64">Hannover</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-64"
+                      sortKey="1778-10-26"
+                      when="1778-10-26"
+                      where="#orgplc-64">
+                  <label>1778, Okt. 26</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +128,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-64">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-64">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0063</classCode>
-            <classCode scheme="anchor"> Nov1778</classCode>
+            <classCode scheme="anchor">Nov1778</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

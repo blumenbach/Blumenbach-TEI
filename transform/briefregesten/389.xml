@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Edward Fryer sendet Blumenbach das Manuskript eines Aufsatzes Über die Lebenskraft des Blutes und begrÜndet, weshalb er die Existenz dieser Kraft annimmt. </title>
+            <title type="main">Edward Fryer sendet Blumenbach das Manuskript eines Aufsatzes über die Lebenskraft des Blutes und begründet, weshalb er die Existenz dieser Kraft annimmt. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Fryer, Edward</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1787-11-01"> 1787, Nov.</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/389.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 131 Nr. 0480.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 131 Nr. 0480.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=149"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 131 Nr. 0480 </rs>
+               <rs type="edition">Corresp. III, S. 131 Nr. 0480 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, 8 Cod. Ms. Hist. Nat. 26, S. I&#x96;IV. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, 8 Cod. Ms. Hist. Nat. 26, S. I&#x96;IV. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Fryer, Edward</persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-389">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1787-11-01">
-                  <label> 1787, Nov.</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-389"
+                      sortKey="1787-11-01"
+                      notBefore="1787-11-01"
+                      where="#orgplc-389">
+                  <label>1787, Nov.</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-389">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-389">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

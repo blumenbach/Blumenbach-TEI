@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach dankt Johann Heinrich Merck fÜr den Stich eines Giraffenskeletts und sendet ihm die vollständige Abschrift eines Aufsatzes von [William?] Hunter. </title>
+            <title type="main">Blumenbach dankt Johann Heinrich Merck für den Stich eines Giraffenskeletts und sendet ihm die vollständige Abschrift eines Aufsatzes von [William?] Hunter. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1785-04-30"> 1785, Apr. 30</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/266.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 272 Nr. 0353.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 272 Nr. 0353.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Wagner, Briefe an Johann Heinrich Merck (1835), Nr. 218, S. 446;Leuschner/Luserke-Jaqui, Merck-Briefwechsel, Bd. 3 (2007), S. 730&#x96;731 Nr. 748.</rs>
+               <rs type="bibl">Wagner, Briefe an Johann Heinrich Merck (1835), Nr. 218, S. 446;Leuschner/Luserke-Jaqui, Merck-Briefwechsel, Bd. 3 (2007), S. 730&#x96;731 Nr. 748.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Halle (Saale), Universitäts- und Landesbibliothek Sachsen-Anhalt, 1/D/ b/1 (16). </title>
+                  <title level="m" type="main">Halle (Saale), Universitäts- und Landesbibliothek Sachsen-Anhalt, 1/D/ b/1 (16). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-266">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-266"
+                      sortKey="1785-04-30"
+                      when="1785-04-30"
+                      where="#orgplc-266">
+                  <label>1785, Apr. 30</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-266">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-266">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Merck, Johann Heinrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0262</classCode>
-            <classCode scheme="anchor"> Mai1785</classCode>
+            <classCode scheme="anchor">Mai1785</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

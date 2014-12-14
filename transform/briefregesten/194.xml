@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Christian Gottlob Heyne antwortet Blumenbach auf einige Fragen zu Rezensions- und Bibliotheksangelegenheiten. </title>
+            <title type="main">Christian Gottlob Heyne antwortet Blumenbach auf einige Fragen zu Rezensions- und Bibliotheksangelegenheiten. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Heyne, Christian Gottlob </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 17"> 1783, Dez. 26</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/194.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 120 Nr. 0262.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 120 Nr. 0262.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Leipzig, Universitätsbibliothek, Sammlung Kestner II C IX,9 (ad Charles Bonnet). </title>
+                  <title level="m" type="main">Leipzig, Universitätsbibliothek, Sammlung Kestner II C IX,9 (ad Charles Bonnet). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Heyne, Christian Gottlob </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-194">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-194"
+                      sortKey="17"
+                      when="17"
+                      where="#orgplc-194">
+                  <label>1783, Dez. 26</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-194">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-194">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0192</classCode>
-            <classCode scheme="anchor"> 1784  Jan1784</classCode>
+            <classCode scheme="anchor">1784 Jan1784</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

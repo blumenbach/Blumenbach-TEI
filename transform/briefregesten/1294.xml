@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach berichtetFranz Xaver von Zach u. a. von dem Göttingen-Aufenthalt J. E. Jacobsens, des zeitweiligen Reisebegleiters von Jasper Ulrich Seetzen auf dessen Orient-Expedition, und Über Stationen dieser Expedition. </title>
+            <title type="main">Blumenbach berichtetFranz Xaver von Zach u. a. von dem Göttingen-Aufenthalt J. E. Jacobsens, des zeitweiligen Reisebegleiters von Jasper Ulrich Seetzen auf dessen Orient-Expedition, und über Stationen dieser Expedition. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> [Göttingen]</pubPlace>
-            <date type="publication" when=" 1803-12-23/ vor 1804-03-01"> nach 1803, Dez. 23/ vor 1804, März</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1294.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,16 +69,20 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde, Bd. 9 (März 1804), S. 262&#x96;264 (&#x84;XXVIII. Aus einem Schreiben des Pfarrers P. U. Seetzen&#x93;, Bibliographie Nr. 00974), hier in Anm. auf S. 262&#x96;263.</rs>
+               <rs type="bibl">Auszug in Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde, Bd. 9 (März 1804), S. 262&#x96;264 (&#x84;XXVIII. Aus einem Schreiben des Pfarrers P. U. Seetzen&#x93;, Bibliographie Nr. 00974), hier in Anm. auf S. 262&#x96;263.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00974 (siehe &#x84;Dr.&#x93;). 
+</rs>
+            </note>
+            <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00974"/>
             </note>
             <note>
-               <rs type="edition"> 00974 </rs>
+               <rs type="edition">00974 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -98,9 +102,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1294"/>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1803-12-23/ vor 1804-03-01">
-                  <label> nach 1803, Dez. 23/ vor 1804, März</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1294"
+                      sortKey="1803-12-23/ vor 1804-03-01"
+                      notBefore="1803-12-23/ vor 1804-03-01"
+                      where="#orgplc-1294">
+                  <label>nach 1803, Dez. 23/ vor 1804, März  [Göttingen]</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1294">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1294">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Zach, Franz Xaver von </persName>
          </creation>

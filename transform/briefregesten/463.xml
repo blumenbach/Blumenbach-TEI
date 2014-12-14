@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach rät Paulus Usteri zu einem weniger aggressiven Ton bei kritischen Rezensionen in dessen Zeitschrift Magazin fÜr die Botanik und fragt, bis wann er einen versprochenen Beitrag Über Albrecht von Haller vorlegen mÜsse. </title>
+            <title type="main">Blumenbach rät Paulus Usteri zu einem weniger aggressiven Ton bei kritischen Rezensionen in dessen Zeitschrift Magazin für die Botanik und fragt, bis wann er einen versprochenen Beitrag über Albrecht von Haller vorlegen müsse. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1789-08-01"> 1789, Aug. 1</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/463.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 239 Nr. 0562.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 239 Nr. 0562.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,21 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">Blumenbachs Vorrede in Des Herrn von Hallers Tagebuch der medicinischen Litteratur der Jahre 1745 bis 1774 (1790; Bibliographie Nr. 00167). 
+</rs>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=257"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 239 Nr. 0562 </rs>
+               <rs type="edition">Corresp. III, S. 239 Nr. 0562 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> ZÜrich, Zentralbibliothek ZÜrich, Autogr. Ott: Blumenbach, Johann Friedrich. </title>
+                  <title level="m" type="main">Zürich, Zentralbibliothek Zürich, Autogr. Ott: Blumenbach, Johann Friedrich. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-463">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-463"
+                      sortKey="1789-08-01"
+                      when="1789-08-01"
+                      where="#orgplc-463">
+                  <label>1789, Aug. 1</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-463">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-463">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Usteri, Paulus</persName>
          </creation>

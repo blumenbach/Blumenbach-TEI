@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Wolfgang von Goethe [bittet Blumenbach um die Ausleihe eines kunstgeschichtlichen Werkesaus der Bibliothek der Universität Göttingen?]. </title>
+            <title type="main">Johann Wolfgang von Goethe [bittet Blumenbach um die Ausleihe eines kunstgeschichtlichen Werkesaus der Bibliothek der Universität Göttingen?]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Goethe, Johann Wolfgang von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Weimar</pubPlace>
-            <date type="publication" when=" 1806-02-18"> 1806, Febr. 18</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1319.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://ora-web.swkk.de/swk-db/goerep/"/>
             </note>
             <note>
-               <rs type="edition"> online Goethe-Repertorium </rs>
+               <rs type="edition">online Goethe-Repertorium </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Abschrift (nach dem Or. im Familienarchiv Blumenbach in Hannover) inWeimar, Goethe- und Schiller-Archiv: GSA 29/102, IV, S. 6.</title>
+                  <title level="m" type="main">Abschrift (nach dem Or. im Familienarchiv Blumenbach in Hannover) inWeimar, Goethe- und Schiller-Archiv: GSA 29/102, IV, S. 6.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Goethe, Johann Wolfgang von</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1319">Weimar</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1319"
+                      sortKey="1806-02-18"
+                      when="1806-02-18"
+                      where="#orgplc-1319">
+                  <label>1806, Febr. 18</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1319">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1319">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Ulrich Jasper Seetzen den Antwortbrief Franz Xaver von Zachs auf Blumenbachs, auf Bitten Seetzens an diesen gerichteten Brief mit derFrage nach Beschaffungsmöglichkeiten fÜr einen Hadleyschen Spiegelsextanten und mit derBitte um UnterstÜtzung von Seetzens Reiseplänen. </title>
+            <title type="main">Blumenbach sendet Ulrich Jasper Seetzen den Antwortbrief Franz Xaver von Zachs auf Blumenbachs, auf Bitten Seetzens an diesen gerichteten Brief mit derFrage nach Beschaffungsmöglichkeiten für einen Hadleyschen Spiegelsextanten und mit derBitte um Unterstützung von Seetzens Reiseplänen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>[Göttingen]</pubPlace>
-            <date type="publication" when=" 1801-03-13"> 1801, März 13</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1226.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Evt. Fehllesung des Monatsnamens &#x84;Mai&#x93; zu&#x84;März&#x93; im Druck bei Kruse, a. a. O., vgl. die Angabe in Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde, Bd. 3 (Juni 1801), S. 556&#x96;581 (&#x84;XLIV. Über die beym April-Hefte befindliche Persische Karte&#x93;, Bibliographie Nr. 00972), hier S. 557 (mit Briefauszug), wonach Blumenbach sich erst am 17. April [1801] mit der Frage nach dem Spiegelsextanten an von Zach gewandt habe.</note>
+            <note>Evt. Fehllesung des Monatsnamens &#x84;Mai&#x93; zu&#x84;März&#x93; im Druck bei Kruse, a. a. O., vgl. die Angabe in Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde, Bd. 3 (Juni 1801), S. 556&#x96;581 (&#x84;XLIV. über die beym April-Hefte befindliche Persische Karte&#x93;, Bibliographie Nr. 00972), hier S. 557 (mit Briefauszug), wonach Blumenbach sich erst am 17. April 1801 mit der Frage nach dem Spiegelsextanten an von Zach gewandt habe.</note>
             <note>
                <rs type="object"/>
             </note>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Kruse, Friedrich (Hg.): Ulrich Jasper Seetzen&#x92;s Reisen durch Syrien, Palästina, Phönicienund die Transjordan-Länder, Arabia Petraea und Unter-Aegypten. Band 1. Berlin 1854, S. 14 mit Datumsangabe &#x84;13. März 1801&#x93;.</rs>
+               <rs type="bibl">Auszug in Kruse, Friedrich (Hg.): Ulrich Jasper Seetzen&#x92;s Reisen durch Syrien, Palästina, Phönicienund die Transjordan-Länder, Arabia Petraea und Unter-Aegypten. Band 1. Berlin 1854, S. 14 mit Datumsangabe &#x84;13. März 1801&#x93;.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1226">[Göttingen]</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1226"
+                      sortKey="1801-03-13"
+                      when="1801-03-13"
+                      where="#orgplc-1226">
+                  <label>1801, März 13</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1226">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1226">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Seetzen,Ulrich Jasper</persName>
          </creation>

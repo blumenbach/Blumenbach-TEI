@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Joseph Banks berichtet Blumenbach [u. a.Übereinen Brief Friedrich Hornemannsmit Informationen Über die erfolgreiche Behandlung der Syphilis mit Kochsalz und Koloquinten in Nordafrika und Über seine geplante Weiterreise nach &#x84;Burnu&#x93; (die Region des heutigen Nigeria)]. </title>
+            <title type="main">Joseph Banks berichtet Blumenbach [u. a.übereinen Brief Friedrich Hornemannsmit Informationen über die erfolgreiche Behandlung der Syphilis mit Kochsalz und Koloquinten in Nordafrika und über seine geplante Weiterreise nach &#x84;Burnu&#x93; (die Region des heutigen Nigeria)]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> London</pubPlace>
-            <date type="publication" when=" 1801-03-23"> 1801, März 23</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1228.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,29 +57,33 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note/>
+            <note>  </note>
             <note>
                <rs type="object"/>
             </note>
             <note>
-               <rs type="span">  </rs>
+               <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> AuszÜge in Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 2, 4. StÜck (1801), S. 771&#x96;772 (&#x84;9) Herr Hornemann Über die Lustseuche im Innern von Africa&#x93;,Bibliographie Nr. 00887) und inMonatliche Correspondenz zur Beförderung der Erd- und Himmelskunde, Bd. 3 (Mai 1801), S. 507 (&#x84;XXXVIII. Nachricht von Hornemann&#x92;s Afrikanischer Reise. Aus einem Briefe des Baronets Banks an den Hofrath Blumenbach, vom 23. März 1801&#x93;, Bibliographie Nr. 00971), hier S. 496&#x96;497 (Weiterreise nach Burnu).</rs>
+               <rs type="bibl">Auszüge in Magazin für den neuesten Zustand der Naturkunde, Bd. 2, 4. Stück (1801), S. 771&#x96;772 (&#x84;9) Herr Hornemann über die Lustseuche im Innern von Africa&#x93;,Bibliographie Nr. 00887) und inMonatliche Correspondenz zur Beförderung der Erd- und Himmelskunde, Bd. 3 (Mai 1801), S. 507 (&#x84;XXXVIII. Nachricht von Hornemann&#x92;s Afrikanischer Reise. Aus einem Briefe des Baronets Banks an den Hofrath Blumenbach, vom 23. März 1801&#x93;, Bibliographie Nr. 00971), hier S. 496&#x96;497 (Weiterreise nach Burnu).</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00887 und Nr. 00971(siehe&#x84;Dr.&#x93;).
+</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00887"/>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00971"/>
             </note>
             <note>
-               <rs type="edition"> 0088700971 </rs>
+               <rs type="edition">0088700971 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -99,6 +103,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1228">London</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1228"
+                      sortKey="1801-03-23"
+                      when="1801-03-23"
+                      where="#orgplc-1228">
+                  <label>1801, März 23</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +131,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1228">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1228">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

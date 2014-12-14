@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Christian Wilhelm Heinrich de Marées berichtet Über seine von Blumenbach angeregte LektÜre von Johann Wolfgang Goethes Roman Die Leiden des jungen Werthers und bittet um die Ausleihe eines anatomischen Tafelwerks von Bernhard Siegfried Albinus. </title>
+            <title type="main">Christian Wilhelm Heinrich de Marées berichtet über seine von Blumenbach angeregte Lektüre von Johann Wolfgang Goethes Roman Die Leiden des jungen Werthers und bittet um die Ausleihe eines anatomischen Tafelwerks von Bernhard Siegfried Albinus. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Marées, Christian Wilhelm Heinrich de</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1774-11-08"> 1774, Nov. 8</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/5.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -72,7 +72,10 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Corresp. I, S. 6 Nr. 0005.</rs>
+               <rs type="lz">Corresp. I, S. 6 Nr. 0005.</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-5">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-5"
+                      sortKey="1774-11-08"
+                      when="1774-11-08"
+                      where="#orgplc-5">
+                  <label>1774, Nov. 8</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-5">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-5">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

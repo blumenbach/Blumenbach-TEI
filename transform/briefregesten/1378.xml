@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach erwähnt in einem Brief an Johann Abraham Albers [u. a. , dass er in Carl Wenzels Sammlung in Frankfurt Schädel von Mitgliedern der Bande des &#x84;Schinderhannes&#x93; gesehenhabe ]. </title>
+            <title type="main">Blumenbach erwähnt in einem Brief an Johann Abraham Albers [u. a. , dass er in Carl Wenzels Sammlung in Frankfurt Schädel von Mitgliedern der Bande des &#x84;Schinderhannes&#x93; gesehenhabe ]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> ]</pubPlace>
-            <date type="publication" when=" 1809-11-20"> 1809, Nov.20 [Göttingen?</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1378.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug inDougherty, Corresp. IV, S. 236 Nr. 0795 Anm. 3.</rs>
+               <rs type="bibl">Auszug inDougherty, Corresp. IV, S. 236 Nr. 0795 Anm. 3.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=248"/>
             </note>
             <note>
-               <rs type="edition"> Dougherty, Corresp. IV, S. 236 Nr. 0795 Anm. 3 </rs>
+               <rs type="edition">Dougherty, Corresp. IV, S. 236 Nr. 0795 Anm. 3 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Bremen, Staats- und Universitätsbibliothek, MSb 130, Nr. 42. </title>
+                  <title level="m" type="main">Bremen, Staats- und Universitätsbibliothek, MSb 130, Nr. 42. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1378">[Göttingen?</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1378"
+                      sortKey="1809-11-20"
+                      when="1809-11-20"
+                      where="#orgplc-1378">
+                  <label>1809, Nov.20  ]</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1378">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1378">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Albers, Johann Abraham </persName>
          </creation>

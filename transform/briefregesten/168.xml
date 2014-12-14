@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach gratuliert Johann Heinrich Fischer zu dessen Berufung auf eine Professur in Göttingen, dankt fÜr zwei von ihm erhaltene Rezensionen [fÜr die Medicinische Bibliothek] und bittet um weitere Tätigkeit Fischers als Rezensent und Einsender von Forschungsbeiträgen. </title>
+            <title type="main">Blumenbach gratuliert Johann Heinrich Fischer zu dessen Berufung auf eine Professur in Göttingen, dankt für zwei von ihm erhaltene Rezensionen [für die Medicinische Bibliothek] und bittet um weitere Tätigkeit Fischers als Rezensent und Einsender von Forschungsbeiträgen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1782-11-30"> 1782, Nov. 30</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/168.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 352 Nr. 0225.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 352 Nr. 0225.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Coburg, Kunstsammlung der Veste Coburg (Coburger Landesstiftung), Inventar-Nr. IV, 939,2 (Kasten 114). </title>
+                  <title level="m" type="main">Coburg, Kunstsammlung der Veste Coburg (Coburger Landesstiftung), Inventar-Nr. IV, 939,2 (Kasten 114). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-168">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-168"
+                      sortKey="1782-11-30"
+                      when="1782-11-30"
+                      where="#orgplc-168">
+                  <label>1782, Nov. 30</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-168">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-168">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Fischer, Johann Heinrich </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0166</classCode>
-            <classCode scheme="anchor"> Dez1782</classCode>
+            <classCode scheme="anchor">Dez1782</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

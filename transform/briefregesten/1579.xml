@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Nathan Lister schicktBlumenbach [einen Schädel aus Edinburgh]. </title>
+            <title type="main">Nathan Lister schicktBlumenbach [einen Schädel aus Edinburgh]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Lister, Nathan</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>  London</pubPlace>
-            <date type="publication" when=" 1826"> 1826</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1579.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Schädel aus Edinburgh; zur Identifikation des Schädels vgl. Spengel, Anthropologische Sammlung, S. 14ad 280: &#x84;1826, von Dr. Nathan Lister.»Von dem alten Kirchhof zu Edinburg [&#x85;]«&#x93;und 281: &#x84;1826. Aus derselben Quelle wie Nr. 280&#x93;.</rs>
+               <rs type="object">Schädel aus Edinburgh; zur Identifikation des Schädels vgl. Spengel, Anthropologische Sammlung, S. 14ad 280: &#x84;1826, von Dr. Nathan Lister.»Von dem alten Kirchhof zu Edinburg [&#x85;]«&#x93;und 281: &#x84;1826. Aus derselben Quelle wie Nr. 280&#x93;.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553"/>
             </note>
             <note>
-               <rs type="edition"> Spengel, Anthropologische Sammlung </rs>
+               <rs type="edition">Spengel, Anthropologische Sammlung </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Vgl. Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, fol. ?, vgl. Meyer, Handschriften in Göttingen 3 (1894), S. 79 mit dem Angebot eines Schädels aus Edinburgh und Spengel, Anthropologische Sammlung, S. 14 ad 280 und 281 (siehe &#x84;Obj.&#x93;).</title>
+                  <title level="m" type="main">Vgl. Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, fol. ?, vgl. Meyer, Handschriften in Göttingen 3 (1894), S. 79 mit dem Angebot eines Schädels aus Edinburgh und Spengel, Anthropologische Sammlung, S. 14 ad 280 und 281 (siehe &#x84;Obj.&#x93;).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Lister, Nathan</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1579"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1579"
+                      sortKey="1826"
+                      when="1826"
+                      where="#orgplc-1579">
+                  <label>1826   London</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1579">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1579">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">00</classCode>
-            <classCode scheme="anchor"> 1827</classCode>
+            <classCode scheme="anchor">1827</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

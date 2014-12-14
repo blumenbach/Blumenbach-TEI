@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Joseph Banks ein Exemplar des fÜnften Heftes derAbbildungen naturhistorischer Gegenstände (1800) und andere deutschsprachige Publikationen, u. a. Über den Zucker aus RunkelrÜben, berichtet in satirischer Form von der These Johann Gottfried Hasses, dass Preußen wegen der dortigen Bernsteinvorkommen das biblische Paradies gewesen sein mÜsse,und bittet fÜr den Fall, dass Banks ihm mit einem von den Franzosen aufgebrachten englischen Schiff nach Cuxhaven ein Paket geschickt habe, um eine Beschreibungdes Inhalts dieses verlorenen Pakets. </title>
+            <title type="main">Blumenbach sendet Joseph Banks ein Exemplar des fünften Heftes derAbbildungen naturhistorischer Gegenstände (1800) und andere deutschsprachige Publikationen, u. a. über den Zucker aus Runkelrüben, berichtet in satirischer Form von der These Johann Gottfried Hasses, dass Preußen wegen der dortigen Bernsteinvorkommen das biblische Paradies gewesen sein müsse,und bittet für den Fall, dass Banks ihm mit einem von den Franzosen aufgebrachten englischen Schiff nach Cuxhaven ein Paket geschickt habe, um eine Beschreibungdes Inhalts dieses verlorenen Pakets. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1800-07-09"> 1800, Juli 9</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1182.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 484&#x96;486 Nr. 1320.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 484&#x96;486 Nr. 1320.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,24 +69,27 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S. 116 Nr. 56.</rs>
+               <rs type="bibl">Vgl. ausführl. Regest in Dawson, The Banks Letters (1958), S. 116 Nr. 56.</rs>
             </note>
             <note>
-               <rs type="lz"> Abbildungen naturhistorischer Gegenstände 5 (1800; Bibliographie Nr. 00697). </rs>
+               <rs type="lz">Abbildungen naturhistorischer Gegenstände 5 (1800; Bibliographie Nr. 00697). </rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00697"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=500"/>
             </note>
             <note>
-               <rs type="edition"> 00697   Corresp. V, S. 484&#x96;486 Nr. 1320 </rs>
+               <rs type="edition">00697  Corresp. V, S. 484&#x96;486 Nr. 1320 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, British Library, Add MS 8099, fol. 19&#x96;20. </title>
+                  <title level="m" type="main">London, British Library, Add MS 8099, fol. 19&#x96;20. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1182">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1182"
+                      sortKey="1800-07-09"
+                      when="1800-07-09"
+                      where="#orgplc-1182">
+                  <label>1800, Juli 9</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1182">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1182">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Banks, Joseph</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach bestätigt Joseph Banks den Erhalt von 50 Pfund Sterling fÜr Friedrich Hornemann, berichtet Über die laufenden Vorbereitungen fÜr dessenAfrika-Expedition und bittet um die zusätzliche Finanzierung astronomischer Instrumente fÜr diese, bietet die Zusendung von Literatur an und sendet einen Literaturauszug Über die auch von Banks betriebene Hyazinthenzucht. </title>
+            <title type="main">Blumenbach bestätigt Joseph Banks den Erhalt von 50 Pfund Sterling für Friedrich Hornemann, berichtet über die laufenden Vorbereitungen für dessenAfrika-Expedition und bittet um die zusätzliche Finanzierung astronomischer Instrumente für diese, bietet die Zusendung von Literatur an und sendet einen Literaturauszug über die auch von Banks betriebene Hyazinthenzucht. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>  Göttingen</pubPlace>
-            <date type="publication" when=" 1796-09-19"> 1796, Sept.19</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/876.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 55&#x96;57 Nr. 1006. </biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 55&#x96;57 Nr. 1006. </biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S. 113&#x96;114 Nr. 35.</rs>
+               <rs type="bibl">Vgl. ausführl. Regest in Dawson, The Banks Letters (1958), S. 113&#x96;114 Nr. 35.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=71"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 55&#x96;57 Nr. 1006 </rs>
+               <rs type="edition">Corresp. V, S. 55&#x96;57 Nr. 1006 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, British Library, Add MS 8098, fol. 313. </title>
+                  <title level="m" type="main">London, British Library, Add MS 8098, fol. 313. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-876"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-876"
+                      sortKey="1796-09-19"
+                      when="1796-09-19"
+                      where="#orgplc-876">
+                  <label>1796, Sept.19   Göttingen</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-876">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-876">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Banks, Joseph</persName>
          </creation>

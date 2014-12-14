@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> John Crawfurdberichtet[Blumenbach ?][Über Birmanen?]. </title>
+            <title type="main">John Crawfurdberichtet[Blumenbach ?][über Birmanen?]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Crawfurd, John </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> London?</pubPlace>
-            <date type="publication" when=" 1832-05-13"> 1832, Mai 13</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1630.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Meyer, a. a. O., S. 78 nennt denBriefin Zusammenhang mit den beiden Briefen [Carl?, Alexander?] Königs an Blumenbach (10. Febr. und 15. Mai 1832); erwarevt. an König gerichtet, nicht an Blumenbach. </note>
             <note>
-               <rs type="object"> Vgl. die Nennung von zweiSchädeln aus Birma inBlumenbachs Sammlung inSpengel, Anthropologische Sammlung, S. 48 Anm. ad 120: &#x84;1832, von Crawford [sic] durch Alex. [sic] König. »Schädel eines birmanischen Soldaten, von den Engländern vom Bord aus geschossen bei Rangoon.«&#x93; und S. 49 Anm. ad. 121:&#x84;1832, von Demselben [d. h. Crawford]. »Bei Nobhar nächtlings erschossen.«&#x93;</rs>
+               <rs type="object">Vgl. die Nennung von zweiSchädeln aus Birma inBlumenbachs Sammlung inSpengel, Anthropologische Sammlung, S. 48 Anm. ad 120: &#x84;1832, von Crawford [sic] durch Alex. [sic] König. »Schädel eines birmanischen Soldaten, von den Engländern vom Bord aus geschossen bei Rangoon.«&#x93; und S. 49 Anm. ad. 121:&#x84;1832, von Demselben [d. h. Crawford]. »Bei Nobhar nächtlings erschossen.«&#x93;</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553"/>
             </note>
             <note>
-               <rs type="edition"> Spengel, Anthropologische Sammlung </rs>
+               <rs type="edition">Spengel, Anthropologische Sammlung </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, fol. ?, vgl. Meyer, Handschriften in Göttingen 3 (1894), S. 78. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, fol. ?, vgl. Meyer, Handschriften in Göttingen 3 (1894), S. 78. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Crawfurd, John </persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1630">London?</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1630"
+                      sortKey="1832-05-13"
+                      when="1832-05-13"
+                      where="#orgplc-1630">
+                  <label>1832, Mai 13</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1630">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1630">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee"> [Blumenbach, Johann Friedrich ?]</persName>
          </creation>

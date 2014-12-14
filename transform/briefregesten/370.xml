@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach dankt Johann Heinrich Merck fÜr den Hinweis auf eine von ihm herausgegebene Übersetzung einer englischen Publikation zur Botanik, verspricht, ihm ein Exemplar des englischen Originals beschaffen zu lassen, und bittet darum, ihm von einer geplanten Reise in die Schweiz verschiedene, genauer bezeichnete Gesteinsproben mitzubringen. </title>
+            <title type="main">Blumenbach dankt Johann Heinrich Merck für den Hinweis auf eine von ihm herausgegebene übersetzung einer englischen Publikation zur Botanik, verspricht, ihm ein Exemplar des englischen Originals beschaffen zu lassen, und bittet darum, ihm von einer geplanten Reise in die Schweiz verschiedene, genauer bezeichnete Gesteinsproben mitzubringen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1787-06-08"> 1787, Juni 8</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/370.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 101 Nr. 0461.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 101 Nr. 0461.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Wagner, Briefe an Johann Heinrich Merck (1835), Nr. 250, S. 496&#x96;498; Leuschner/ Luserke-Jaqui, Merck-Briefwechsel, Bd. 4 (2007), S. 438&#x96;440 Nr. 909.</rs>
+               <rs type="bibl">Wagner, Briefe an Johann Heinrich Merck (1835), Nr. 250, S. 496&#x96;498; Leuschner/ Luserke-Jaqui, Merck-Briefwechsel, Bd. 4 (2007), S. 438&#x96;440 Nr. 909.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=119"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 101 Nr. 0461 </rs>
+               <rs type="edition">Corresp. III, S. 101 Nr. 0461 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Darmstadt, Merck-Archiv A/186. </title>
+                  <title level="m" type="main">Darmstadt, Merck-Archiv A/186. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-370">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-370"
+                      sortKey="1787-06-08"
+                      when="1787-06-08"
+                      where="#orgplc-370">
+                  <label>1787, Juni 8</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-370">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-370">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Merck, Johann Heinrich</persName>
          </creation>

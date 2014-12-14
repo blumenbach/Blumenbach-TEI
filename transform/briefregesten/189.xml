@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach bittet Christian Gottlob Heyne um dessen Zustimmung dazu, dass Lebrecht Friedrich Benjamin Lentin dieselben Publikationen sowohl fÜr die Göttingischen Anzeigen von gelehrten Sachen alsfÜr Blumenbachs Medicinische Bibliothek rezensiert. </title>
+            <title type="main">Blumenbach bittet Christian Gottlob Heyne um dessen Zustimmung dazu, dass Lebrecht Friedrich Benjamin Lentin dieselben Publikationen sowohl für die Göttingischen Anzeigen von gelehrten Sachen alsfür Blumenbachs Medicinische Bibliothek rezensiert. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1783-11-16"> 1783, nach Nov. 16</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/189.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 101 Nr. 0257.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 101 Nr. 0257.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Archiv der Akademie der Wissenschaften, Scient. 47,3 ad Nr. 404. </title>
+                  <title level="m" type="main">Göttingen, Archiv der Akademie der Wissenschaften, Scient. 47,3 ad Nr. 404. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -96,9 +99,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-189">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1783-11-16">
-                  <label> 1783, nach Nov. 16</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-189"
+                      sortKey="1783-11-16"
+                      notBefore="1783-11-16"
+                      where="#orgplc-189">
+                  <label>1783, nach Nov. 16</label>
                </event>
             </listEvent>
             <msDesc>
@@ -115,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-189">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-189">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Heyne, Christian Gottlob </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0187</classCode>
-            <classCode scheme="anchor"> Dez1783</classCode>
+            <classCode scheme="anchor">Dez1783</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

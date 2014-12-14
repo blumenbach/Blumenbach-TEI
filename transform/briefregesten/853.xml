@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach danktJoseph Banks fÜr Materialproben von Mineralien, sendet ihm Friedrich Hornemanns an die African Association in London gerichteten Antrag auf Finanzierung einer Afrikaexpedition, bestätigt die Eignung Hornemanns fÜrdie DurchfÜhrung derExpedition und dessen wissenschaftliches Vorbereitungsprogramm fÜr die Reise und berichtet ÜberBeobachtungen deutschen Botanikerzur Keimfähigkeit von Hyazinthenknollen. </title>
+            <title type="main">Blumenbach danktJoseph Banks für Materialproben von Mineralien, sendet ihm Friedrich Hornemanns an die African Association in London gerichteten Antrag auf Finanzierung einer Afrikaexpedition, bestätigt die Eignung Hornemanns fürdie Durchführung derExpedition und dessen wissenschaftliches Vorbereitungsprogramm für die Reise und berichtet überBeobachtungen deutschen Botanikerzur Keimfähigkeit von Hyazinthenknollen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1796-05-04"> 1796, Mai 4</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/853.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,36 +57,39 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp.V, S. 21&#x96;23 Nr. 0983. </biblScope>
+            <biblScope unit="volume">Dougherty, Corresp.V, S. 21&#x96;23 Nr. 0983. </biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Mineralienproben von Joseph Banks.</rs>
+               <rs type="object">Mineralienproben von Joseph Banks.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Dr. (aus Abschr. in Royal Geographical Society in Hallett, Robin (Hg.): Records of the African Association 1788&#x96;1831 [...]. London u. a. 1964), S. 172&#x96;173; Auszug (betr. Hyazinthenknollen) in Dougherty, Corresp. IV,S. 450 Nr. 0935 Anm. 1;ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S. 113 Nr. 34; Auszug (betr. Hornemann; mit Datierung auf 12. Mai 1796 und abweichender Signatur) in Gascoigne, John, &#x84;Blumenbach, Banks, and the Beginnings of Anthropology at Göttingen&#x93;, in Rupke, Nicolaas (Hg.): Göttingen and the Development of the Natural Science. Göttingen 2002, S. 86&#x96;98, hier S. 89.</rs>
+               <rs type="bibl">Dr. (aus Abschr. in Royal Geographical Society in Hallett, Robin (Hg.): Records of the African Association 1788&#x96;1831 [...]. London u. a. 1964), S. 172&#x96;173; Auszug (betr. Hyazinthenknollen) in Dougherty, Corresp. IV,S. 450 Nr. 0935 Anm. 1;ausführl. Regest in Dawson, The Banks Letters (1958), S. 113 Nr. 34; Auszug (betr. Hornemann; mit Datierung auf 12. Mai 1796 und abweichender Signatur) in Gascoigne, John, &#x84;Blumenbach, Banks, and the Beginnings of Anthropology at Göttingen&#x93;, in Rupke, Nicolaas (Hg.): Göttingen and the Development of the Natural Science. Göttingen 2002, S. 86&#x96;98, hier S. 89.</rs>
             </note>
             <note>
-               <rs type="lz"> De vi vitali sanguini neganda (1795, Bibliographie Nr. 00127). </rs>
+               <rs type="lz">De vi vitali sanguini neganda (1795, Bibliographie Nr. 00127). </rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00127"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=37"/>
             </note>
             <note>
-               <rs type="edition"> 00127   Corresp.V, S. 21&#x96;23 Nr. 0983 </rs>
+               <rs type="edition">00127  Corresp.V, S. 21&#x96;23 Nr. 0983 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Cambridge, Fitzwilliam Museum Library, MS Perceval H 228 Nr.62; Abschrift von Dawson Turner in London, British Museum (Natural History), Dept. of Botany, Turner collection, vol. 10 part 1, fol. 50&#x96;52; Abschrift der Passagen zum Expeditionsprojekt in London Royal Geographical Society, record book of the African Association (zu:3.VI.1796). </title>
+                  <title level="m" type="main">Cambridge, Fitzwilliam Museum Library, MS Perceval H 228 Nr.62; Abschrift von Dawson Turner in London, British Museum (Natural History), Dept. of Botany, Turner collection, vol. 10 part 1, fol. 50&#x96;52; Abschrift der Passagen zum Expeditionsprojekt in London Royal Geographical Society, record book of the African Association (zu:3.VI.1796). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-853">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-853"
+                      sortKey="1796-05-04"
+                      when="1796-05-04"
+                      where="#orgplc-853">
+                  <label>1796, Mai 4</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-853">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-853">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Banks, Joseph</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Thomas von Asch dankt Christian Gottlob Heyne fÜr eine Zusendung, schickt seinerseits dem Academischen Museum der Universität Göttingen verschiedene Objekte und erkundigt sich nach dem Eintreffen einer frÜheren Sendung fÜr das Museum. </title>
+            <title type="main">Georg Thomas von Asch dankt Christian Gottlob Heyne für eine Zusendung, schickt seinerseits dem Academischen Museum der Universität Göttingen verschiedene Objekte und erkundigt sich nach dem Eintreffen einer früheren Sendung für das Museum. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Asch, Georg Thomas von </persName>
             </author>
@@ -37,9 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> 1779, Juni 12  St. Petersburg</pubPlace>
-            <date type="publication"
-                  when=" [= julian. Kal.: Juni, 1]  1779-06-12  [= julian. Kal.: 1779-06-01]"/>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -47,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/70.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -58,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 171 Nr. 0105.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 171 Nr. 0105.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -84,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, 2 Cod. Ms. Asch I: 1 (1772/1779), S. 124&#x96;125. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, 2 Cod. Ms. Asch I: 1 (1772/1779), S. 124&#x96;125. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Asch, Georg Thomas von </persName>
                   </author>
@@ -97,6 +99,28 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-70">St. Petersburg</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-70"
+                      sortKey="1779-06-12"
+                      when="1779-06-12"
+                      where="#orgplc-70">
+                  <label>1779, Juni 12</label>
+               </event>
+            </listEvent>
+            <listEvent>
+               <event type="julian-origin"
+                      datingMethod="#julian-70"
+                      when="1779-06-01"
+                      where="#orgplc">
+                  <label>1779, Juni 12</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -111,11 +135,19 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-70">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-70">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Heyne, Christian Gottlob </persName>
          </creation>
          <textClass>
-            <classCode scheme="RegNr"> [0069]</classCode>
+            <classCode scheme="RegNr"> 0069</classCode>
             <classCode scheme="anchor"/>
             <classCode scheme=""/>
          </textClass>

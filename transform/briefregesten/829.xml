@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Joseph Willard das Diplom Über dessen Ernennung zum korrespondierenden Mitglied der Akademie der Wissenschaften zu Göttingen und ein Exemplar seiner PublikationDe vi vitali sanguini neganda (1795). </title>
+            <title type="main">Blumenbach sendet Joseph Willard das Diplom über dessen Ernennung zum korrespondierenden Mitglied der Akademie der Wissenschaften zu Göttingen und ein Exemplar seiner PublikationDe vi vitali sanguini neganda (1795). </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1795-11-29"> 1795, Nov. 29</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/829.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 485 Nr. 0958.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 485 Nr. 0958.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,21 +72,24 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> De vi vitali sanguini neganda (1795; Bibliographie Nr. 00127).</rs>
+               <rs type="lz">De vi vitali sanguini neganda (1795; Bibliographie Nr. 00127).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00127"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=497"/>
             </note>
             <note>
-               <rs type="edition"> 00127   Corresp. IV, S. 485 Nr. 0958 </rs>
+               <rs type="edition">00127  Corresp. IV, S. 485 Nr. 0958 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Boston, Massachusetts, Boston Athenaeum; American Academy of Arts and Sciences, Letters II (1792&#x96;1803), 38; Abdruck des Textes von der Bostoner Akademie nicht genehmigt. </title>
+                  <title level="m" type="main">Boston, Massachusetts, Boston Athenaeum; American Academy of Arts and Sciences, Letters II (1792&#x96;1803), 38; Abdruck des Textes von der Bostoner Akademie nicht genehmigt. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-829">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-829"
+                      sortKey="1795-11-29"
+                      when="1795-11-29"
+                      where="#orgplc-829">
+                  <label>1795, Nov. 29</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,12 +130,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-829">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-829">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Willard, Joseph</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0821</classCode>
-            <classCode scheme="anchor"> Dez1795</classCode>
+            <classCode scheme="anchor">Dez1795</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

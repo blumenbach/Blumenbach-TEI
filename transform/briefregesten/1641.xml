@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Heinrich von Kreutzer sendetBlumenbach auf Befehl König Ludwigs I. von Bayern einen in einem antiken GrabhÜgel bei Eichstätt gefundenenSchädel. </title>
+            <title type="main">Heinrich von Kreutzer sendetBlumenbach auf Befehl König Ludwigs I. von Bayern einen in einem antiken Grabhügel bei Eichstätt gefundenenSchädel. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Kreutzer, Heinrich von </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> MÜnchen</pubPlace>
-            <date type="publication" when=" 1835-06-25"> 1835, Juni 25</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1641.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Thiersch, Hermann: Ludwig I. von Bayern und die Georgia Augusta. Berlin 1927, S.81&#x96;82. </rs>
+               <rs type="bibl">Thiersch, Hermann: Ludwig I. von Bayern und die Georgia Augusta. Berlin 1927, S.81&#x96;82. </rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://resolver.sub.uni-goettingen.de/purl?PPN640023711"/>
             </note>
             <note>
-               <rs type="edition"> Ludwig I. von Bayern und die Georgia Augusta </rs>
+               <rs type="edition">Ludwig I. von Bayern und die Georgia Augusta </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, fol. ?; vgl. Meyer, Handschriften in Göttingen 3 (1894), S. 78.</title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, fol. ?; vgl. Meyer, Handschriften in Göttingen 3 (1894), S. 78.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Kreutzer, Heinrich von </persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1641">München</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1641"
+                      sortKey="1835-06-25"
+                      when="1835-06-25"
+                      where="#orgplc-1641">
+                  <label>1835, Juni 25</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1641">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1641">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

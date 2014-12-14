@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Clemens Tode bestätigt Blumenbach, dass Fried[e]rich Christian Nelle 1783 in Kopenhagen ein medizinisches Abschlussexamen bestanden habe. </title>
+            <title type="main">Johann Clemens Tode bestätigt Blumenbach, dass Fried[e]rich Christian Nelle 1783 in Kopenhagen ein medizinisches Abschlussexamen bestanden habe. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Tode, Johann Clemens</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when="1793-02-15"> 1793, Febr. 15 Kopenhagen</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/676.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 239 Nr. 0797.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 239 Nr. 0797.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=251"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 239 Nr. 0797 </rs>
+               <rs type="edition">Corresp. IV, S. 239 Nr. 0797 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsarchiv, Medizin. Fak., Dekanats- und Promotionsvorgänge und -urkunden fÜr das Jahr 1793. </title>
+                  <title level="m" type="main">Göttingen, Universitätsarchiv, Medizin. Fak., Dekanats- und Promotionsvorgänge und -urkunden für das Jahr 1793. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Tode, Johann Clemens</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-676">Kopenhagen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-676"
+                      sortKey="1793-02-15"
+                      when="1793-02-15"
+                      where="#orgplc-676">
+                  <label>1793, Febr. 15</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-676">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-676">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

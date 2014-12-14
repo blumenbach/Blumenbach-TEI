@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Die hannoversche Landesregierung teilt Blumenbach mit, dass Arnold Ludwig Heeren Sammlungsobjekte im Academischen Museum der Universität fÜr seine geographischen und ethnographischen Lehrveranstaltungen nutzen darf und dass Blumenbach mit ihm entsprechende Vereinbarungen treffen soll. </title>
+            <title type="main">Die hannoversche Landesregierung teilt Blumenbach mit, dass Arnold Ludwig Heeren Sammlungsobjekte im Academischen Museum der Universität für seine geographischen und ethnographischen Lehrveranstaltungen nutzen darf und dass Blumenbach mit ihm entsprechende Vereinbarungen treffen soll. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Hannoversche Landesregierung</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Hannover</pubPlace>
-            <date type="publication" when=" 1803-02-02"> 1803, Febr. 2</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1271.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,7 +72,10 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> 250 Jahre Georg-August-Universität. Ausstellungskatalog. Göttingen 1987, S. 160 (Auszug).</rs>
+               <rs type="lz">250 Jahre Georg-August-Universität. Ausstellungskatalog. Göttingen 1987, S. 160 (Auszug).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1271">Hannover</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1271"
+                      sortKey="1803-02-02"
+                      when="1803-02-02"
+                      where="#orgplc-1271">
+                  <label>1803, Febr. 2</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1271">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1271">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

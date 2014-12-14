@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> August Gottlob Richter teiltBlumenbachals gegenwärtigem Dekan der Medizinischen Fakultät der Universität Göttingen mit, dass er verreise, und bittet ihn, seinen Anteil an den Fakultätseinnahmen an Conrad Julius Hieronymus Tuckermann zu senden und ihn falls erforderlich als PrÜfungsvorsitzender zu vertreten. </title>
+            <title type="main">August Gottlob Richter teiltBlumenbachals gegenwärtigem Dekan der Medizinischen Fakultät der Universität Göttingen mit, dass er verreise, und bittet ihn, seinen Anteil an den Fakultätseinnahmen an Conrad Julius Hieronymus Tuckermann zu senden und ihn falls erforderlich als Prüfungsvorsitzender zu vertreten. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Richter, August Gottlob</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1800-09-01"> 1800, nach Sept. 1</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1198.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 509&#x96;510 Nr. 1337.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 509&#x96;510 Nr. 1337.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=525"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 509&#x96;510 Nr. 1337 </rs>
+               <rs type="edition">Corresp. V, S. 509&#x96;510 Nr. 1337 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsarchiv, Medizin. Fak., Dekanats- und Promotionsvorgänge und -urkunden fÜr das Jahr 1835.</title>
+                  <title level="m" type="main">Göttingen, Universitätsarchiv, Medizin. Fak., Dekanats- und Promotionsvorgänge und -urkunden für das Jahr 1835.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Richter, August Gottlob</persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1198">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1800-09-01">
-                  <label> 1800, nach Sept. 1</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1198"
+                      sortKey="1800-09-01"
+                      notBefore="1800-09-01"
+                      where="#orgplc-1198">
+                  <label>1800, nach Sept. 1</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1198">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1198">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

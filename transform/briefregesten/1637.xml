@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Friedrich Carl Ludwig Sickler sendet Blumenbach seine Publikation Über die in der Nähe von Hildburghausen gefundenen versteinerten Tierfährten. </title>
+            <title type="main">Friedrich Carl Ludwig Sickler sendet Blumenbach seine Publikation über die in der Nähe von Hildburghausen gefundenen versteinerten Tierfährten. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Sickler, Friedrich Carl Ludwig </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>  Hildburghausen</pubPlace>
-            <date type="publication" when=" 1834"> 1834</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1637.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,22 +57,25 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Wohl authentischer Begleitbrief, enthalten in der gedruckten Fassung der als &#x84;Sendschreiben&#x93; bezeichneten wiss. Beschreibung der Spurenfunde. </note>
             <note>
-               <rs type="object"> Sandsteinplatte aus Hildburghausen mitFährten von Tieren (wird als von Blumenbach bestellt und durch Sickler bereits nach Göttingen versandt erwähnt).</rs>
+               <rs type="object">Sandsteinplatte aus Hildburghausen mitFährten von Tieren (wird als von Blumenbach bestellt und durch Sickler bereits nach Göttingen versandt erwähnt).</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Sickler, F. K. L.: Sendschreiben an [&#x85;] J. F. Blumenbach Über die höchst merkwÜrdigen, vor einigen Monaten erst entdeckten Reliefs der Fährten urweltlicher, grosser und unbekannter Thiere in den Hessberger SandsteinbrÜchen bei der Stadt Hildburghausen. Hildburghausen 1834, S. 3.</rs>
+               <rs type="bibl">Sickler, F. K. L.: Sendschreiben an [&#x85;] J. F. Blumenbach über die höchst merkwürdigen, vor einigen Monaten erst entdeckten Reliefs der Fährten urweltlicher, grosser und unbekannter Thiere in den Hessberger Sandsteinbrüchen bei der Stadt Hildburghausen. Hildburghausen 1834, S. 3.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1637"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1637"
+                      sortKey="1834"
+                      when="1834"
+                      where="#orgplc-1637">
+                  <label>1834   Hildburghausen</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1637">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1637">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">00</classCode>
-            <classCode scheme="anchor"> 1835</classCode>
+            <classCode scheme="anchor">1835</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

@@ -3,9 +3,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbachs Eintrag in das Stammbuch von Adolph Theodor Eggers. </title>
+            <title type="main">Blumenbachs Eintrag in das Stammbuch von Adolph Theodor Eggers. </title>
             <author>
-               <persName ref="http://d-nb.info/gnd/"> Blumenbach, Johann Friedrich</persName>
+               <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
             <editor>
                <persName ref="http://d-nb.info/gnd/">
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1774-09-22"> 1774, Sept. 22</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/2.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume">    Dougherty, Corresp. III, S. 368 Appendix Nr. 02. </biblScope>
+            <biblScope unit="volume">   Dougherty, Corresp. III, S. 368 Appendix Nr. 02. </biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,10 +75,13 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=386"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 368 Appendix Nr. 02 </rs>
+               <rs type="edition">Corresp. III, S. 368 Appendix Nr. 02 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -87,7 +90,7 @@
                <titleStmt>
                   <title level="m" type="main"/>
                   <author>
-                     <persName ref="http://d-nb.info/gnd/"> Blumenbach, Johann Friedrich</persName>
+                     <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
                </titleStmt>
                <publicationStmt>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-2">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-2"
+                      sortKey="1774-09-22"
+                      when="1774-09-22"
+                      where="#orgplc-2">
+                  <label>1774, Sept. 22</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-2">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-2">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Eggers, Adolph Theodor</persName>
          </creation>

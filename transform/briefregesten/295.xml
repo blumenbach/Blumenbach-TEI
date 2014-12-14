@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Gottlieb Emanuel von Haller von diesem erbetene Publikationen und Druckfahnen von eigenen Publikationen Über seine Schweizreise und Über Albrecht von Haller. </title>
+            <title type="main">Blumenbach sendet Gottlieb Emanuel von Haller von diesem erbetene Publikationen und Druckfahnen von eigenen Publikationen über seine Schweizreise und über Albrecht von Haller. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1785-10-28"> 1785, Okt. 28</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/295.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp.II, S. 323 Nr. 0383.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp.II, S. 323 Nr. 0383.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,7 +72,10 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Medicinische Bibliothek Bd. 1, 4. StÜck (1784), S. 725&#x96;742 (= Bibliographie Nr. 00944) undBd. 2, 1. StÜck (1785), S. 163&#x96;178 (= Bibliographie Nr. 00946); biograph. Skizze &#x84;Haller&#x93;in Medicinische Bibliothek Bd. 2, 1. StÜck (1785), S. 179&#x96;186 (= Bibliographie Nr. 00947).</rs>
+               <rs type="lz">Medicinische Bibliothek Bd. 1, 4. Stück (1784), S. 725&#x96;742 (= Bibliographie Nr. 00944) undBd. 2, 1. Stück (1785), S. 163&#x96;178 (= Bibliographie Nr. 00946); biograph. Skizze &#x84;Haller&#x93;in Medicinische Bibliothek Bd. 2, 1. Stück (1785), S. 179&#x96;186 (= Bibliographie Nr. 00947).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Berlin, Staatsbibliothek zu Berlin &#x96; Preußischer Kulturbesitz, Handschriftenabt., Slg. Autogr.: Blumenbach, Johann Friedrich. </title>
+                  <title level="m" type="main">Berlin, Staatsbibliothek zu Berlin &#x96; Preußischer Kulturbesitz, Handschriftenabt., Slg. Autogr.: Blumenbach, Johann Friedrich. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-295">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-295"
+                      sortKey="1785-10-28"
+                      when="1785-10-28"
+                      where="#orgplc-295">
+                  <label>1785, Okt. 28</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-295">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-295">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Haller, Gottlieb Emanuel von</persName>
          </creation>

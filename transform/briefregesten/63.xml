@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Das Geheime Ratskollegium bestätigt den Eingang des von Blumenbach verfassten Bestandsverzeichnisses des Academischen Museums der Universität Göttingen und spricht eine Belobigung aus. </title>
+            <title type="main">Das Geheime Ratskollegium bestätigt den Eingang des von Blumenbach verfassten Bestandsverzeichnisses des Academischen Museums der Universität Göttingen und spricht eine Belobigung aus. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Geheimes Ratskollegium </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Hannover</pubPlace>
-            <date type="publication" when=" 1778-10-26"> 1778, Okt. 26</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/63.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 154 Nr. 0088.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 154 Nr. 0088.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,10 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item">Handschr. Bestandverzeichnis des Academischen Museums.
+</rs>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +87,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsarchiv, Kur. 7345, S. 3.</title>
+                  <title level="m" type="main">Göttingen, Universitätsarchiv, Kur. 7345, S. 3.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Geheimes Ratskollegium </persName>
                   </author>
@@ -96,6 +100,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-63">Hannover</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-63"
+                      sortKey="1778-10-26"
+                      when="1778-10-26"
+                      where="#orgplc-63">
+                  <label>1778, Okt. 26</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +128,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-63">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-63">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Heinrich von Kreutzer kÜndigtBlumenbach auf Befehl König Ludwigs I. von Bayern die Zusendung des antiken Schädels eines Griechen und des Schädelseines TÜrken von der Athener Akropolis an. </title>
+            <title type="main">Heinrich von Kreutzer kündigtBlumenbach auf Befehl König Ludwigs I. von Bayern die Zusendung des antiken Schädels eines Griechen und des Schädelseines Türken von der Athener Akropolis an. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Kreutzer, Heinrich von </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> MÜnchen</pubPlace>
-            <date type="publication" when=" 1836-04-25"> 1836, Apr. 25</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1647.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,38 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Antiker Schädel aus Athen, vgl.Spengel, Anthropologische Sammlung, S. 22 Anm. ad. 321: &#x84;1836. Geschenk des Königs Ludwig I. von Bayern.»Schädel eines alten Hellenen aus einem altgriechischen Grabebei Athen.«&#x93; Schädel eines TÜrken, vgl.Spengel, Anthropologische Sammlung, S. 22 Anm. ad. 170: &#x84;1836. Geschenk des Königs Ludwig I. von Bayern.»Aus einem tÜrkischen Grabe auf der Akropolis zu Athen.«&#x93;</rs>
+               <rs type="object">Antiker Schädel aus Athen, vgl.Spengel, Anthropologische Sammlung, S. 22 Anm. ad. 321: &#x84;1836. Geschenk des Königs Ludwig I. von Bayern.»Schädel eines alten Hellenen aus einem altgriechischen Grabebei Athen.«&#x93; Schädel eines Türken, vgl.Spengel, Anthropologische Sammlung, S. 22 Anm. ad. 170: &#x84;1836. Geschenk des Königs Ludwig I. von Bayern.»Aus einem türkischen Grabe auf der Akropolis zu Athen.«&#x93;</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Ranke, Johannes: Die akademische Kommission fÜr Erforschung der Urgeschichte und die Organisation der urgeschichtlichen Forschung in Bayern durch König Ludwig I. MÜnchen 1900, S.66; Thiersch, Hermann: Ludwig I. von Bayern und die Georgia Augusta. Berlin 1927, S.83.</rs>
+               <rs type="bibl">Ranke, Johannes: Die akademische Kommission für Erforschung der Urgeschichte und die Organisation der urgeschichtlichen Forschung in Bayern durch König Ludwig I. München 1900, S.66; Thiersch, Hermann: Ludwig I. von Bayern und die Georgia Augusta. Berlin 1927, S.83.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553"/>
             </note>
             <note>
-               <rs type="edition"> Spengel, Anthropologische SammlungSpengel, Anthropologische Sammlung </rs>
+               <rs type="edition">Spengel, Anthropologische SammlungSpengel, Anthropologische Sammlung </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, fol. ?; vgl. Meyer, Handschriften in Göttingen 3 (1894), S. 78.</title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, fol. ?; vgl. Meyer, Handschriften in Göttingen 3 (1894), S. 78.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Kreutzer, Heinrich von </persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1647">München</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1647"
+                      sortKey="1836-04-25"
+                      when="1836-04-25"
+                      where="#orgplc-1647">
+                  <label>1836, Apr. 25</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1647">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1647">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

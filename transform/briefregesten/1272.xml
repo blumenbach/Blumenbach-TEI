@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Joseph Banks einen dänischen Zeitungsbericht Über Friedrich Hornemann, dankt fÜr einen englischen Aufsatz Über das Mammut, fragt nach der Möglichkeit, ein in Spiritus konserviertes Exemplar des Schnabeltiers zu erhalten, und nach neuen Fossilienfunden auf der Isle of Dogs, und berichtet Über Friedrich Grotefends Erfolge bei der Entzifferung der Keilschrift. </title>
+            <title type="main">Blumenbach sendet Joseph Banks einen dänischen Zeitungsbericht über Friedrich Hornemann, dankt für einen englischen Aufsatz über das Mammut, fragt nach der Möglichkeit, ein in Spiritus konserviertes Exemplar des Schnabeltiers zu erhalten, und nach neuen Fossilienfunden auf der Isle of Dogs, und berichtet über Friedrich Grotefends Erfolge bei der Entzifferung der Keilschrift. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1803-02-02"> 1803, Febr. 2</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1272.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Auszug aus Banks Antwortbriefen (nach 2. Febr. 1803/ vor 1805, März) wohl Grundlage fÜr den Abschnitt Über die Fossilienfunde auf der Isle of Dogs in&#x84;Ueber den Gerbestoff aus Hindustan und den vorgeblichen unterirdischen Wald, der (den Zeitungsnachrichten zu Folge) mit Menschen- und Pferde-Gerippen auf der Isle of Dogs aufgegraben seyn sollte&#x93; in Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 9, 3. StÜck (1805), S. 213&#x96;215 (Bibliographie Nr. 00910).</note>
+            <note>Auszug aus Banks Antwortbriefen (nach 2. Febr. 1803/ vor 1805, März) wohl Grundlage für den Abschnitt über die Fossilienfunde auf der Isle of Dogs in&#x84;Ueber den Gerbestoff aus Hindustan und den vorgeblichen unterirdischen Wald, der (den Zeitungsnachrichten zu Folge) mit Menschen- und Pferde-Gerippen auf der Isle of Dogs aufgegraben seyn sollte&#x93; in Magazin für den neuesten Zustand der Naturkunde, Bd. 9, 3. Stück (1805), S. 213&#x96;215 (Bibliographie Nr. 00910).</note>
             <note>
                <rs type="object"/>
             </note>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S.117&#x96;118 Nr. 66.</rs>
+               <rs type="bibl">Vgl. ausführl. Regest in Dawson, The Banks Letters (1958), S.117&#x96;118 Nr. 66.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, British Library, Add MS 8099, fol. 220&#x96;221.</title>
+                  <title level="m" type="main">London, British Library, Add MS 8099, fol. 220&#x96;221.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1272">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1272"
+                      sortKey="1803-02-02"
+                      when="1803-02-02"
+                      where="#orgplc-1272">
+                  <label>1803, Febr. 2</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1272">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1272">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Banks, Joseph</persName>
          </creation>

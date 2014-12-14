@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach meldet dem Geheimen Ratskollegium in Hannover den Abschluss der Arbeiten zur Integration der fÜr das Academische Museum der Universität Göttingen angekauften Stelznerschen Sammlung von Mineralien und Modellen in den Museumsbestand. </title>
+            <title type="main">Blumenbach meldet dem Geheimen Ratskollegium in Hannover den Abschluss der Arbeiten zur Integration der für das Academische Museum der Universität Göttingen angekauften Stelznerschen Sammlung von Mineralien und Modellen in den Museumsbestand. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Hannover</pubPlace>
-            <date type="publication" when=" 1782-08-26"> 1782, Aug. 26</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/161.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 339 Nr. 0216.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 339 Nr. 0216.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Mineralien- und Modellsammlung des Clausthaler Oberbergmeisters Stelzner, angekauft fÜr das Academ. Museum.</rs>
+               <rs type="object">Mineralien- und Modellsammlung des Clausthaler Oberbergmeisters Stelzner, angekauft für das Academ. Museum.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsarchiv, Kur. 7343, S. 1&#x96;2. </title>
+                  <title level="m" type="main">Göttingen, Universitätsarchiv, Kur. 7343, S. 1&#x96;2. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-161">Hannover</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-161"
+                      sortKey="1782-08-26"
+                      when="1782-08-26"
+                      where="#orgplc-161">
+                  <label>1782, Aug. 26</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-161">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-161">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Geheimes Ratskollegium </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0160</classCode>
-            <classCode scheme="anchor"> Sept1782</classCode>
+            <classCode scheme="anchor">Sept1782</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

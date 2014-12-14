@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach dankt Georg Christoph Lichtenberg fÜr das Honorar fÜr einen Beitrag zum Göttingischen Magazin fÜr Wissenschaften und Litteratur, kÜndigt weiter Beiträge an und gibt Lichtenbergeinen Rat im Umgang mit Johann Heinrich Voß. </title>
+            <title type="main">Blumenbach dankt Georg Christoph Lichtenberg für das Honorar für einen Beitrag zum Göttingischen Magazin für Wissenschaften und Litteratur, kündigt weiter Beiträge an und gibt Lichtenbergeinen Rat im Umgang mit Johann Heinrich Voß. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1781-06-20"> 1781, Juni 20</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/117.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 247 Nr. 0155.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 247 Nr. 0155.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Lichtenberg, Briefwechsel, Bd. 2 (1985), Nr. 835, S. 232.</rs>
+               <rs type="bibl">Lichtenberg, Briefwechsel, Bd. 2 (1985), Nr. 835, S. 232.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Lichtenberg III, 24, fol. 1. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Lichtenberg III, 24, fol. 1. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-117">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-117"
+                      sortKey="1781-06-20"
+                      when="1781-06-20"
+                      where="#orgplc-117">
+                  <label>1781, Juni 20</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-117">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-117">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Lichtenberg, Georg Christoph </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0116</classCode>
-            <classCode scheme="anchor"> Aug1781</classCode>
+            <classCode scheme="anchor">Aug1781</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

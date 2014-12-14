@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach informiert Christian Gottlob Heyne Über das Angebot zum Kauf der Sammlung anatomischer Präparate aus dem Nachlass des Johann Nathaniel LieberkÜhn und spricht sich gegen deren AnkauffÜr die Universität Göttingen aus, da sie zwar in wissenschaftlicher Hinsicht einzigartig, aber nicht als Lehrsammlunggeeignet sei. </title>
+            <title type="main">Blumenbach informiert Christian Gottlob Heyne über das Angebot zum Kauf der Sammlung anatomischer Präparate aus dem Nachlass des Johann Nathaniel Lieberkühn und spricht sich gegen deren Ankauffür die Universität Göttingen aus, da sie zwar in wissenschaftlicher Hinsicht einzigartig, aber nicht als Lehrsammlunggeeignet sei. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1774-10-06"> 1774, Okt. 6</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/4.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume">    Dougherty, Corresp. I, S. 6 Nr. 0004. </biblScope>
+            <biblScope unit="volume">   Dougherty, Corresp. I, S. 6 Nr. 0004. </biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Der Brief ist an Heyne in &#x84;Hannover&#x93; adressiert. Dem Brief beigelegt waren der Katalog der Sammlung und der Or.-Brief von J. S. LieberkÜhn.</note>
+            <note>Der Brief ist an Heyne in &#x84;Hannover&#x93; adressiert. Dem Brief beigelegt waren der Katalog der Sammlung und der Or.-Brief von J. S. Lieberkühn.</note>
             <note>
                <rs type="object"/>
             </note>
@@ -73,6 +73,9 @@
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-4">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-4"
+                      sortKey="1774-10-06"
+                      when="1774-10-06"
+                      where="#orgplc-4">
+                  <label>1774, Okt. 6</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-4">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-4">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Heyne, Christian Gottlob</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0004</classCode>
-            <classCode scheme="anchor"> Nov1774</classCode>
+            <classCode scheme="anchor">Nov1774</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

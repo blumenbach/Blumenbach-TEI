@@ -3,9 +3,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Samuel LieberkÜhn gibt Blumenbach Auskunft Über Georg Heinrich Loskiel, den Herausgeber einer Publikation Über die Mission der Herrnhuter BrÜder in Nordamerika, und sendet und verspricht Sammlungsobjekte und Informationen aus Nordamerika. </title>
+            <title type="main">Johann Samuel Lieberkühn gibt Blumenbach Auskunft über Georg Heinrich Loskiel, den Herausgeber einer Publikation über die Mission der Herrnhuter Brüder in Nordamerika, und sendet und verspricht Sammlungsobjekte und Informationen aus Nordamerika. </title>
             <author>
-               <persName ref="http://d-nb.info/gnd/">LieberkÜhn, Johann Samuel</persName>
+               <persName ref="http://d-nb.info/gnd/">Lieberkühn, Johann Samuel</persName>
             </author>
             <editor>
                <persName ref="http://d-nb.info/gnd/">
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Barby</pubPlace>
-            <date type="publication" when=" 1789-05-09"> 1789, Mai 9</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/451.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 223 Nr. 0550.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 223 Nr. 0550.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Eine anonyme Rez. der Publikation von Loskiel auch in Medicinische Bibliothek, Bd. 3, 1. StÜck (1789), S. 284&#x96;291.</note>
+            <note>Eine anonyme Rez. der Publikation von Loskiel auch in Medicinische Bibliothek, Bd. 3, 1. Stück (1789), S. 284&#x96;291.</note>
             <note>
-               <rs type="object"> Indianischer Pfeifenkopf aus Nordamerika; indianischer Wampun/Wampon aus Nordamerika.</rs>
+               <rs type="object">Indianischer Pfeifenkopf aus Nordamerika; indianischer Wampun/Wampon aus Nordamerika.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,20 +75,24 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">Rezension von Loskiel, Georg Heinrich: Geschichte der Mission der evangelischen Brüder unter den Indianern in Nordamerika (1789; Bibliographie Nr. 00319);  Geschichte und Beschreibung der Knochen des menschlichen Körpers (1786, Bibliographie Nr.00062).
+</rs>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=241"/>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00145"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 223 Nr. 0550   Medicinische Bibliothek </rs>
+               <rs type="edition">Corresp. III, S. 223 Nr. 0550  Medicinische Bibliothek </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, 2 Cod. Ms. Hist. Lit. 179, IV, fol. 102r-103v </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, 2 Cod. Ms. Hist. Lit. 179, IV, fol. 102r-103v </title>
                   <author>
-                     <persName ref="http://d-nb.info/gnd/">LieberkÜhn, Johann Samuel</persName>
+                     <persName ref="http://d-nb.info/gnd/">Lieberkühn, Johann Samuel</persName>
                   </author>
                </titleStmt>
                <publicationStmt>
@@ -99,6 +103,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-451">Barby</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-451"
+                      sortKey="1789-05-09"
+                      when="1789-05-09"
+                      where="#orgplc-451">
+                  <label>1789, Mai 9</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +131,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-451">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-451">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

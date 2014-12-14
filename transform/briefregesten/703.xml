@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Joseph Banks berichtet Blumenbach von Einschränkungen bei der Nutzung des königlichen Kurierdienstes zwischen London und Hannover fÜr nicht-amtliche Zwecke und bestätigt Blumenbachs Zweifel an der Zuverlässigkeit von zwei Abbildungen von Ureinwohnern Australiens. </title>
+            <title type="main">Joseph Banks berichtet Blumenbach von Einschränkungen bei der Nutzung des königlichen Kurierdienstes zwischen London und Hannover für nicht-amtliche Zwecke und bestätigt Blumenbachs Zweifel an der Zuverlässigkeit von zwei Abbildungen von Ureinwohnern Australiens. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>London</pubPlace>
-            <date type="publication" when=" 1793-12-31"> 1793, Dez. 31</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/703.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,38 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 294 Nr. 0825.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 294 Nr. 0825.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> AngekÜndigt: Schädel eines Tahitianers (Schädelsammlung Nr. 769, Abb. inDecas craniorum 3 (1795), Tafel 26 [Modellschädel fÜr Blumenbachs malayische Varietät der Spezies Mensch]; Bibliographie Nr. 00094).</rs>
+               <rs type="object">Angekündigt: Schädel eines Tahitianers (Schädelsammlung Nr. 769, Abb. inDecas craniorum 3 (1795), Tafel 26 [Modellschädel für Blumenbachs malayische Varietät der Spezies Mensch]; Bibliographie Nr. 00094).</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Chambers, Neil (Hg.): The Letters of Sir Joseph Banks. A Selection, 1768-1820. London 2000,S. 157&#x96;158 Nr. 54; Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 4 (2007), S. 261&#x96;262 Nr. 1232.</rs>
+               <rs type="bibl">Chambers, Neil (Hg.): The Letters of Sir Joseph Banks. A Selection, 1768-1820. London 2000,S. 157&#x96;158 Nr. 54; Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 4 (2007), S. 261&#x96;262 Nr. 1232.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=306"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 294 Nr. 0825 </rs>
+               <rs type="edition">Corresp. IV, S. 294 Nr. 0825 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach III, fol. 40&#x96;41. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach III, fol. 40&#x96;41. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-703">London</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-703"
+                      sortKey="1793-12-31"
+                      when="1793-12-31"
+                      where="#orgplc-703">
+                  <label>1793, Dez. 31</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-703">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-703">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0696</classCode>
-            <classCode scheme="anchor"> 1794  Jan1794</classCode>
+            <classCode scheme="anchor">1794 Jan1794</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

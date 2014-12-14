@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Rudolph Forsten kommentiert ihm bekannt gewordene Publikationen Blumenbachs und berichtet Über den Übersetzer vonBlumenbachs Institutiones physiologicae (1786) ins Niederländische, Gisbert Jacob Wolff, fÜr den erBlumenbach um Hilfe bei der Organisation seines Studienaufenthalts in Göttingen bittet. </title>
+            <title type="main">Rudolph Forsten kommentiert ihm bekannt gewordene Publikationen Blumenbachs und berichtet über den übersetzer vonBlumenbachs Institutiones physiologicae (1786) ins Niederländische, Gisbert Jacob Wolff, für den erBlumenbach um Hilfe bei der Organisation seines Studienaufenthalts in Göttingen bittet. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Forsten, Rudolph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Harderwyk</pubPlace>
-            <date type="publication" when=" 1790-07-15"> 1790, Juli 15</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/519.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 315 Nr. 0620.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 315 Nr. 0620.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Erwähnung eines menschlichen Schädel aus Java (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 617, Abb. inDecas craniorum 4 (1800), Tafel 39; Bibliographie Nr. 00095); Forsten schenkte Blumenbach den Schädel1796, vgl. Forstens Brief vom 5. Mai 1796.</rs>
+               <rs type="object">Erwähnung eines menschlichen Schädel aus Java (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 617, Abb. inDecas craniorum 4 (1800), Tafel 39; Bibliographie Nr. 00095); Forsten schenkte Blumenbach den Schädel1796, vgl. Forstens Brief vom 5. Mai 1796.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -72,21 +72,24 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Medicinische Bibliothek Bd. 1 (1783&#x96;1784; Bibliographie Nr. 00145);Decas craniorum 1 (1790;Bibliographie Nr. 00092); Grondbeginselen der natuurkunde van den mensch (1791; Bibliographie Nr. 00082).</rs>
+               <rs type="lz">Medicinische Bibliothek Bd. 1 (1783&#x96;1784; Bibliographie Nr. 00145);Decas craniorum 1 (1790;Bibliographie Nr. 00092); Grondbeginselen der natuurkunde van den mensch (1791; Bibliographie Nr. 00082).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00145"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=333"/>
             </note>
             <note>
-               <rs type="edition"> 00145   Corresp. III, S. 315 Nr. 0620 </rs>
+               <rs type="edition">00145  Corresp. III, S. 315 Nr. 0620 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 27, fol. 12&#x96;13. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 27, fol. 12&#x96;13. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Forsten, Rudolph</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-519">Harderwyk</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-519"
+                      sortKey="1790-07-15"
+                      when="1790-07-15"
+                      where="#orgplc-519">
+                  <label>1790, Juli 15</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-519">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-519">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

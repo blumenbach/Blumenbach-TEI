@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Heinrich Ferdinand Autenrieth sendet Blumenbach weitere Angaben zu den Sprachen der nordamerikanischen Indianer, zunordamerikanischen Tieren und zur GlaubwÜrdigkeit des amerikanischen Naturforschers William Bartrams, bittet ihn, nichts aus dem ihm gesandten ManuskriptÜberfossile Zähne aus Nordamerika zu publizieren, da er selbst eine entsprechende Publikation plane, und berichtet Über die Experimente Ernst Florens Friedrich Chladnis zu Resonanzfiguren. </title>
+            <title type="main">Johann Heinrich Ferdinand Autenrieth sendet Blumenbach weitere Angaben zu den Sprachen der nordamerikanischen Indianer, zunordamerikanischen Tieren und zur Glaubwürdigkeit des amerikanischen Naturforschers William Bartrams, bittet ihn, nichts aus dem ihm gesandten Manuskriptüberfossile Zähne aus Nordamerika zu publizieren, da er selbst eine entsprechende Publikation plane, und berichtet über die Experimente Ernst Florens Friedrich Chladnis zu Resonanzfiguren. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Autenrieth, Johann Heinrich Ferdinand</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Stuttgart</pubPlace>
-            <date type="publication" when=" 1796-05-30"> 1796, Mai 30</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/860.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 30 Nr. 0990. </biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 30 Nr. 0990. </biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=46"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 30 Nr. 0990 </rs>
+               <rs type="edition">Corresp. V, S. 30 Nr. 0990 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Leipzig, Universitätsbibliothek, Sammlung Kestner II A IV, 57, fol. 11&#x96;12. </title>
+                  <title level="m" type="main">Leipzig, Universitätsbibliothek, Sammlung Kestner II A IV, 57, fol. 11&#x96;12. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Autenrieth, Johann Heinrich Ferdinand</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-860">Stuttgart</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-860"
+                      sortKey="1796-05-30"
+                      when="1796-05-30"
+                      where="#orgplc-860">
+                  <label>1796, Mai 30</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-860">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-860">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0853</classCode>
-            <classCode scheme="anchor"> Juni1796</classCode>
+            <classCode scheme="anchor">Juni1796</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

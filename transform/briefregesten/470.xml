@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach erklärt sich gegenÜber der Medizinischen Fakultät der Universität Göttingen einverstanden mit der Zulassung des Universitätschirurgen Johann Carl Bodenstein zur gemeinsamen PromotionsprÜfung drei anderen Doktoranden. </title>
+            <title type="main">Blumenbach erklärt sich gegenüber der Medizinischen Fakultät der Universität Göttingen einverstanden mit der Zulassung des Universitätschirurgen Johann Carl Bodenstein zur gemeinsamen Promotionsprüfung drei anderen Doktoranden. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when="1789-08-27"> 1789, Aug. 27 Göttingen</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/470.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 250 Nr. 0569.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 250 Nr. 0569.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=268"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 250 Nr. 0569 </rs>
+               <rs type="edition">Corresp. III, S. 250 Nr. 0569 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsarchiv, Medizin. Fak., Dekanats- und Promotionsvorgänge und -urkunden fÜr das Jahr 1789. </title>
+                  <title level="m" type="main">Göttingen, Universitätsarchiv, Medizin. Fak., Dekanats- und Promotionsvorgänge und -urkunden für das Jahr 1789. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-470">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-470"
+                      sortKey="1789-08-27"
+                      when="1789-08-27"
+                      where="#orgplc-470">
+                  <label>1789, Aug. 27</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-470">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-470">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Medizinische Fakultät der Universität Göttingen</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0466</classCode>
-            <classCode scheme="anchor"> Sept1789</classCode>
+            <classCode scheme="anchor">Sept1789</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

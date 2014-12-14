@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Carsten Niebuhr teilt Blumenbach mit, dass er die Beweiskraft verschiedener eigener ethnographischer Beobachtungen und Beobachtungen an archäologischen FundstÜcken fÜr Blumenbachs Vermutungen Über die &#x84;Nationalphysiognomie&#x93; der antiken ägypter fÜr gering halte, und sendet die Zeichnung eines ägyptischen Mädchens, von der Blumenbach eine Kopie anfertigen lassen möchte. </title>
+            <title type="main">Carsten Niebuhr teilt Blumenbach mit, dass er die Beweiskraft verschiedener eigener ethnographischer Beobachtungen und Beobachtungen an archäologischen Fundstücken für Blumenbachs Vermutungen über die &#x84;Nationalphysiognomie&#x93; der antiken ägypter für gering halte, und sendet die Zeichnung eines ägyptischen Mädchens, von der Blumenbach eine Kopie anfertigen lassen möchte. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Niebuhr, Carsten</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Meldorf</pubPlace>
-            <date type="publication" when=" 1785-07-22"> 1785, Juli 22</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/284.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 308 Nr. 0372.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 308 Nr. 0372.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Zeichnung eines beschnittenen ägyptischen Mädchens, Göttingen, Universitätsbibliothek, 8 Cod. Ms. Hist. nat. 24, fol. 2r.</rs>
+               <rs type="object">Zeichnung eines beschnittenen ägyptischen Mädchens, Göttingen, Universitätsbibliothek, 8 Cod. Ms. Hist. nat. 24, fol. 2r.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -72,20 +72,23 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Göttingisches Magazin der Wissenschaften und Litteratur 1. Jg., 1. StÜck (1780), S. 109-139 (= Bibliographie Nr. 00795). </rs>
+               <rs type="lz">Göttingisches Magazin der Wissenschaften und Litteratur 1. Jg., 1. Stück (1780), S. 109-139 (= Bibliographie Nr. 00795). </rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00795"/>
             </note>
             <note>
-               <rs type="edition"> 00795 </rs>
+               <rs type="edition">00795 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 2 (Niebuhr Nr. 2). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 2 (Niebuhr Nr. 2). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Niebuhr, Carsten</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-284">Meldorf</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-284"
+                      sortKey="1785-07-22"
+                      when="1785-07-22"
+                      where="#orgplc-284">
+                  <label>1785, Juli 22</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-284">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-284">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

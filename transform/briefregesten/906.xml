@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Friedrich Philipp Rosenstiel sendet Blumenbach die ersten 10 Druckbögen von Alexander von HumboldtsStudie Versuche Über die gereizte Muskel- und Nervenfaser als Grundlage fÜr die von Blumenbach zugesagteVorrede zu diesem Werk. </title>
+            <title type="main">Friedrich Philipp Rosenstiel sendet Blumenbach die ersten 10 Druckbögen von Alexander von HumboldtsStudie Versuche über die gereizte Muskel- und Nervenfaser als Grundlage für die von Blumenbach zugesagteVorrede zu diesem Werk. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Rosenstiel, Friedrich Philipp</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>  Berlin</pubPlace>
-            <date type="publication" when=" 1797-01-31"> 1797, Jan. 31</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/906.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 94&#x96;95 Nr. 1039. </biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 94&#x96;95 Nr. 1039. </biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=110"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 94&#x96;95 Nr. 1039 </rs>
+               <rs type="edition">Corresp. V, S. 94&#x96;95 Nr. 1039 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 3 (Ad Alexander von HumboldtNr. 10).</title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 3 (Ad Alexander von HumboldtNr. 10).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Rosenstiel, Friedrich Philipp</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-906"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-906"
+                      sortKey="1797-01-31"
+                      when="1797-01-31"
+                      where="#orgplc-906">
+                  <label>1797, Jan. 31   Berlin</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-906">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-906">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0898</classCode>
-            <classCode scheme="anchor"> Febr1797</classCode>
+            <classCode scheme="anchor">Febr1797</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

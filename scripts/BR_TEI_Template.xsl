@@ -49,16 +49,8 @@
                         <country></country>
                     </address>
                 </publisher>
-                <pubPlace><xsl:value-of select="place"/></pubPlace>
-                <xsl:if test="notbefore">
-                   <date type="publication" when="{notbefore}"><xsl:value-of select="date"/></date>
-                </xsl:if>    
-                <xsl:if test="notafter">
-                   <date type="publication" when="{notafter}"><xsl:value-of select="date"/></date>
-                </xsl:if>  
-                <xsl:if test="altdate">
-                    <date type="publication" when="{altdate}"><xsl:value-of select="date"/></date>
-                </xsl:if>                 
+                <pubPlace></pubPlace> 
+                <date></date>
                 <availability>
                     <licence>
                         <p></p>
@@ -66,7 +58,7 @@
                 </availability>
                 <idno>
                     <idno type="URLWeb"></idno>
-                    <idno type="URLXML"></idno>
+                    <idno type="URLXML"><xsl:value-of select="$filename"/></idno>
                     <idno type="URLHTML"></idno>
                     <idno type="URLText"></idno>
                 </idno>
@@ -86,6 +78,7 @@
                 <note><rs type="span"><xsl:value-of select="span"/></rs></note>
                 <note> <rs type="bibl"><xsl:value-of select="bibl"/></rs></note>
                 <note> <rs type="lz"><xsl:value-of select="Lit_in_Zusatzdaten"/></rs></note>
+                <note> <rs type="item"><xsl:value-of select="relatedItem"/></rs></note>
                 <note>
                         <xsl:for-each select="ref">
                             <xsl:if test="@target">
@@ -112,22 +105,42 @@
                         <date type="publication"></date>
                     </publicationStmt>
                 </biblFull> 
+                <listPlace type="origin">
+                    <place>
+                        <placeName xml:id="orgplc-{$count}">
+                            <xsl:value-of select="place"/>
+                        </placeName>
+                    </place>
+                </listPlace>
+                <xsl:if test="altdate">
+                <listEvent>
+                    <event type="iso-origin" datingMethod="#ISO-{$count}" sortKey="{altdate}" when="{altdate}" where="#orgplc-{$count}">
+                        <label><xsl:value-of select="date"/></label>
+                    </event>                                  
+                </listEvent>  
+                </xsl:if>
+                <xsl:if test="notbefore">
+                <listEvent>
+                    <event type="iso-origin" datingMethod="#ISO-{$count}" sortKey="{notbefore}" notBefore="{notbefore}" where="#orgplc-{$count}">
+                         <label><xsl:value-of select="date"/></label>
+                    </event>
+                 </listEvent>    
+                 </xsl:if>
                 
-                    <xsl:if test="notbefore">
-                        <listEvent>
-                        <event type="origin" notBefore="{notbefore}">
+                 <xsl:if test="notafter">
+                 <listEvent>
+                     <event type="iso-origin" datingMethod="#ISO-{$count}" sortKey="{notafter}" notAfter="{notafter}" where="#orgplc-{$count}">
+                          <label><xsl:value-of select="date"/></label>
+                     </event>
+                 </listEvent>
+                 </xsl:if>  
+                <xsl:if test="julian">
+                    <listEvent>
+                        <event type="julian-origin" datingMethod="#julian-{$count}" when="{julian}" where="#orgplc">
                             <label><xsl:value-of select="date"/></label>
                         </event>
-                        </listEvent>    
-                    </xsl:if>
-                
-                    <xsl:if test="notafter">
-                        <listEvent>
-                        <event type="origin" notAfter="{notafter}">
-                            <label><xsl:value-of select="date"/></label>
-                        </event>
-                        </listEvent>
-                    </xsl:if>                
+                    </listEvent>
+                </xsl:if>    
                 
                 <msDesc>
                     <msIdentifier>
@@ -144,6 +157,14 @@
             <langUsage>
                 <language ident="deu"></language>
             </langUsage>
+            <calendarDesc>
+                <calendar xml:id="julian-{$count}">
+                    <p>Julian calendar (including proleptic)</p>
+                </calendar>
+                <calendar xml:id="ISO-{$count}">
+                    <p>ISO 8601 calendar</p>
+                </calendar>
+            </calendarDesc>
             <creation>
                 <persName type="addressee">
                     <xsl:value-of select="receiver"/>

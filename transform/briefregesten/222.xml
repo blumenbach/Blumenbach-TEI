@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Christian Gottlob Heyne eine mineralogische Information fÜr eine Rezension Heynes fÜr die Göttingischen Anzeigen von gelehrten Sachen und kommentiert einen Aufsatz Über ein achromatisches Mikroskop. </title>
+            <title type="main">Blumenbach sendet Christian Gottlob Heyne eine mineralogische Information für eine Rezension Heynes für die Göttingischen Anzeigen von gelehrten Sachen und kommentiert einen Aufsatz über ein achromatisches Mikroskop. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1784-10-09"> 1784, vor Okt. 9</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/222.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 198 Nr. 0309.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 198 Nr. 0309.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Dougherty, Corresp. II, Nr. 0309 Anm. 3 identifiziert eine Passage in der betr. Rezension Heynes, die auf Blumenbachs Information zurÜckgehen dÜrfte.</note>
+            <note>Dougherty, Corresp. II, Nr. 0309 Anm. 3 identifiziert eine Passage in der betr. Rezension Heynes, die auf Blumenbachs Information zurückgehen dürfte.</note>
             <note>
                <rs type="object"/>
             </note>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Akademie der Wissenschaften, Archiv, Scient. 47,3 Nr. 433.</title>
+                  <title level="m" type="main">Göttingen, Akademie der Wissenschaften, Archiv, Scient. 47,3 Nr. 433.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -96,9 +99,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-222">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1784-10-09">
-                  <label> 1784, vor Okt. 9</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-222"
+                      sortKey="1784-10-09"
+                      notAfter="1784-10-09"
+                      where="#orgplc-222">
+                  <label>1784, vor Okt. 9</label>
                </event>
             </listEvent>
             <msDesc>
@@ -115,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-222">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-222">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Heyne, Christian Gottlob </persName>
          </creation>

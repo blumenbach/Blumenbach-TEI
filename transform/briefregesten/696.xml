@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Rudolph Forsten berichtet Blumenbach Über seine familiäre und berufliche Situation und bittet fÜr die von Blumenbach gewÜnschte Zeichnung eines menschlichen Schädels aus Java in Forstens Besitz um Angaben Über den gewÜnschten Blickwinkel. </title>
+            <title type="main">Rudolph Forsten berichtet Blumenbach über seine familiäre und berufliche Situation und bittet für die von Blumenbach gewünschte Zeichnung eines menschlichen Schädels aus Java in Forstens Besitz um Angaben über den gewünschten Blickwinkel. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Forsten, Rudolph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Harderwyk</pubPlace>
-            <date type="publication" when=" 1793-08-20"> 1793, Aug. 20</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/696.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 285 Nr. 0819.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 285 Nr. 0819.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Vgl. Blumenbachs hs. Verzeichnis seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, III, fol. 8.</note>
             <note>
-               <rs type="object"> Zeichnung eines menschlichen Schädels aus Java; den Schädel selbst erhielt Blumenbach 1796(Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 617, Abb. inDecas craniorum 4 (1800), Tafel 39; Bibliographie Nr. 00095).</rs>
+               <rs type="object">Zeichnung eines menschlichen Schädels aus Java; den Schädel selbst erhielt Blumenbach 1796(Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 617, Abb. inDecas craniorum 4 (1800), Tafel 39; Bibliographie Nr. 00095).</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=297"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 285 Nr. 0819 </rs>
+               <rs type="edition">Corresp. IV, S. 285 Nr. 0819 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 27, fol. 16&#x96;17. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 27, fol. 16&#x96;17. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Forsten, Rudolph</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-696">Harderwyk</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-696"
+                      sortKey="1793-08-20"
+                      when="1793-08-20"
+                      where="#orgplc-696">
+                  <label>1793, Aug. 20</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-696">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-696">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0690</classCode>
-            <classCode scheme="anchor"> Sept1793</classCode>
+            <classCode scheme="anchor">Sept1793</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

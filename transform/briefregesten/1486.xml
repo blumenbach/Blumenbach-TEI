@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Arthur Schopenhauer berichtetBlumenbach Über seine Entscheidung fÜr eineHochschullaufbahn und fragt nach denformalen Voraussetzungen hierfÜr in Göttingen und nach den Aussichten, als Privatdozent in Göttingen ausreichend Hörer zu finden. </title>
+            <title type="main">Arthur Schopenhauer berichtetBlumenbach über seine Entscheidung für eineHochschullaufbahn und fragt nach denformalen Voraussetzungen hierfür in Göttingen und nach den Aussichten, als Privatdozent in Göttingen ausreichend Hörer zu finden. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Schopenhauer, Arthur</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Dresden</pubPlace>
-            <date type="publication" when=" 1819-12-15"> 1819, vor Dez. 15</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1486.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,24 +69,27 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Gwinner, Wilhelm: Schopenhauer&#x92;s Leben. Leipzig 1878, S. 221&#x96;223; Gebhart, Carl: Der Briefwechsel Arthur Schopenhauers. Band 1. MÜnchen 1929, S. 265&#x96;267; HÜbscher, Arthur (Hg.):Arthur Schopenhauer. Gesammelte Briefe. Bonn 1978,S.43&#x96;44Nr. 53 [Reinschrift] dazu Anm. S. 503, Datierung auf Anf. Dez. 1819;HÜbscher, Angelika: Arthur Schopenhauer: ein Lebensbild in Briefen. Frankfurt (Main) 1987, S. 281.</rs>
+               <rs type="bibl">Gwinner, Wilhelm: Schopenhauer&#x92;s Leben. Leipzig 1878, S. 221&#x96;223; Gebhart, Carl: Der Briefwechsel Arthur Schopenhauers. Band 1. München 1929, S. 265&#x96;267; Hübscher, Arthur (Hg.):Arthur Schopenhauer. Gesammelte Briefe. Bonn 1978,S.43&#x96;44Nr. 53 [Reinschrift] dazu Anm. S. 503, Datierung auf Anf. Dez. 1819;Hübscher, Angelika: Arthur Schopenhauer: ein Lebensbild in Briefen. Frankfurt (Main) 1987, S. 281.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://kalliope.staatsbibliothek-berlin.de/"/>
                <ref target="http://www.archive.org/details/schopenhauersle00gwingooghttp://archive.org/stream/schopenhauersle00gwingoog#page/n251/mode/2up"/>
             </note>
             <note>
-               <rs type="edition"> http://kalliope.staatsbibliothek- berlin.de/   Schopenhauer&#x92;s Leben221&#x96;223 </rs>
+               <rs type="edition">http://kalliope.staatsbibliothek- berlin.de/  Schopenhauer&#x92;s Leben221&#x96;223 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Frankfurt, Universitätsbibliothek Johann Christian Senckenberg, Schopenhauer-Archiv 12/003 vgl. http://kalliope.staatsbibliothek- berlin.de/ [Zugriff: 2012-10-12]. </title>
+                  <title level="m" type="main">Frankfurt, Universitätsbibliothek Johann Christian Senckenberg, Schopenhauer-Archiv 12/003 vgl. http://kalliope.staatsbibliothek- berlin.de/ [Zugriff: 2012-10-12]. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Schopenhauer, Arthur</persName>
                   </author>
@@ -99,9 +102,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1486">Dresden</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1819-12-15">
-                  <label> 1819, vor Dez. 15</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1486"
+                      sortKey="1819-12-15"
+                      notAfter="1819-12-15"
+                      where="#orgplc-1486">
+                  <label>1819, vor Dez. 15</label>
                </event>
             </listEvent>
             <msDesc>
@@ -118,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1486">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1486">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

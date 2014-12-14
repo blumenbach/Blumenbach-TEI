@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georges(-Léopold-Chrétien, Baron de) Cuvier sendet BlumenbachBeschreibungen, Zeichnungen und Maße der Schädel von drei im Museum d&#x92;histoire naturelle in Paris vorhandenen Bärenskeletten, bestätigt, dass er Blumenbachs Aufsatz Über das Schnabeltier an das Institut National des Sciences et Arts und an die Société philomathique de Paris weitergeleitet habe,berichtet Über neu entdeckte Säugetier- und Vogelfossilien und seineInterpretation dieser Funde und Über den aktuellen Stand der Nachforschungen zu einem vermeintlichen &#x84;Wolfskind &#x93; im Departement de l&#x92;Aveyron in Frankreich. </title>
+            <title type="main">Georges(-Léopold-Chrétien, Baron de) Cuvier sendet BlumenbachBeschreibungen, Zeichnungen und Maße der Schädel von drei im Museum d&#x92;histoire naturelle in Paris vorhandenen Bärenskeletten, bestätigt, dass er Blumenbachs Aufsatz über das Schnabeltier an das Institut National des Sciences et Arts und an die Société philomathique de Paris weitergeleitet habe,berichtet über neu entdeckte Säugetier- und Vogelfossilien und seineInterpretation dieser Funde und über den aktuellen Stand der Nachforschungen zu einem vermeintlichen &#x84;Wolfskind &#x93; im Departement de l&#x92;Aveyron in Frankreich. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Cuvier, Georges (Georges-Léopold-Chrétien, Baron de Cuvier)</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Paris</pubPlace>
-            <date type="publication" when=" 1800-08-25"> 1800, Aug. 25</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1196.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,36 +57,40 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 501&#x96;505 Nr. 1333.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 501&#x96;505 Nr. 1333.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Zeichnungen von drei Bärenschädeln (erwähnt in Handbuch der vergleichenden Anatomie [...] (1805, Bibliographie Nr. 00101), S.47&#x96;48).</rs>
+               <rs type="object">Zeichnungen von drei Bärenschädeln (erwähnt in Handbuch der vergleichenden Anatomie [...] (1805, Bibliographie Nr. 00101), S.47&#x96;48).</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in deutscher Übers. inMagazin fÜr den neuesten Zustand der Naturkunde, Bd. 2, 4. StÜck (1801),S. 633&#x96;635 (&#x84;3) Der vorgebliche wilde Junge von l&#x92;Aveyron&#x93;, Bibliographie Nr. 00881), hier S.633&#x96;634.</rs>
+               <rs type="bibl">Auszug in deutscher übers. inMagazin für den neuesten Zustand der Naturkunde, Bd. 2, 4. Stück (1801),S. 633&#x96;635 (&#x84;3) Der vorgebliche wilde Junge von l&#x92;Aveyron&#x93;, Bibliographie Nr. 00881), hier S.633&#x96;634.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00881(siehe&#x84;Dr.&#x93;). &#x84;De ornithorynchi paradoxi&#x93; in Mémoires de la Société Médicale d&#x92;Emulation, An VIII 1799-1800, i. e. 1800-1801, 4. Jg., S. 320&#x96;323 (Bibliographie Nr. 00965);&#x84;Sur un noveau genre de quadrupède édenté&#x93;, in Bulletin de la Société Philomathique de Paris, Bd. 2, No. 39 (Prairial, An 8 1800), S. 113 (Bibliographie Nr. 00965).
+</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00881"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=517"/>
             </note>
             <note>
-               <rs type="edition"> 00881   Corresp. V, S. 501&#x96;505 Nr. 1333 </rs>
+               <rs type="edition">00881  Corresp. V, S. 501&#x96;505 Nr. 1333 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 3 (Cuvier Nr. 3).</title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 3 (Cuvier Nr. 3).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Cuvier, Georges (Georges-Léopold-Chrétien, Baron de Cuvier)</persName>
                   </author>
@@ -99,6 +103,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1196">Paris</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1196"
+                      sortKey="1800-08-25"
+                      when="1800-08-25"
+                      where="#orgplc-1196">
+                  <label>1800, Aug. 25</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +131,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1196">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1196">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

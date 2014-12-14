@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach bittet Pieter Camper um eine Abschrift oder eine Neuanfertigung seiner zur Publikation in den Commentationes der Königlichen Societät der Wissenschaften zu Göttingen vorgesehenen brieflichen Abhandlung vom 8. August 1784 Über die Kröte &#x84;rana pipa&#x93;, da der Originalbrief in Göttingen verloren gegangen ist. </title>
+            <title type="main">Blumenbach bittet Pieter Camper um eine Abschrift oder eine Neuanfertigung seiner zur Publikation in den Commentationes der Königlichen Societät der Wissenschaften zu Göttingen vorgesehenen brieflichen Abhandlung vom 8. August 1784 über die Kröte &#x84;rana pipa&#x93;, da der Originalbrief in Göttingen verloren gegangen ist. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1787-02-14"> 1787, Febr. 14</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/355.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 74 Nr. 0445.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 74 Nr. 0445.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,24 +69,27 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Sehr kurzer und (laut Dougherty, Corresp. III, Nr. 0445) fehlerhafter Auszug in Gysel, Carlos, &#x84;Les relations du jeune Blumenbach avec Camper vieillissant&#x93;, in Histoire des sciences médicales, XVII (1983), S. 138.</rs>
+               <rs type="bibl">Sehr kurzer und (laut Dougherty, Corresp. III, Nr. 0445) fehlerhafter Auszug in Gysel, Carlos, &#x84;Les relations du jeune Blumenbach avec Camper vieillissant&#x93;, in Histoire des sciences médicales, XVII (1983), S. 138.</rs>
             </note>
             <note>
-               <rs type="lz"> Geschichte und Beschreibung der Knochen des menschlichen Körpers (1786; Bibliographie Nr.00062); Institutiones physiologicae (1787; Bibliographie Nr.00065).</rs>
+               <rs type="lz">Geschichte und Beschreibung der Knochen des menschlichen Körpers (1786; Bibliographie Nr.00062); Institutiones physiologicae (1787; Bibliographie Nr.00065).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00062"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=92"/>
             </note>
             <note>
-               <rs type="edition"> 00062   Corresp. III, S. 74 Nr. 0445 </rs>
+               <rs type="edition">00062  Corresp. III, S. 74 Nr. 0445 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Amsterdam, Universiteitsbibliotheek (Camper Papers), Hs. X 11h. </title>
+                  <title level="m" type="main">Amsterdam, Universiteitsbibliotheek (Camper Papers), Hs. X 11h. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-355">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-355"
+                      sortKey="1787-02-14"
+                      when="1787-02-14"
+                      where="#orgplc-355">
+                  <label>1787, Febr. 14</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-355">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-355">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Camper, Pieter</persName>
          </creation>

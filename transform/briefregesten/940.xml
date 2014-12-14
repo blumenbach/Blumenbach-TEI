@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teiltJoseph Banks mit, dass er ein Paket an Adam Seybert in Philadelphia und zwei Briefe an Verwandte von Christiaan Hendrik Persoon in Kapstadt mit der Bitte um Weiterleitung an Banks habe schicken lassenund sendet von Banks erbetene Publikationen. </title>
+            <title type="main">Blumenbach teiltJoseph Banks mit, dass er ein Paket an Adam Seybert in Philadelphia und zwei Briefe an Verwandte von Christiaan Hendrik Persoon in Kapstadt mit der Bitte um Weiterleitung an Banks habe schicken lassenund sendet von Banks erbetene Publikationen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1797-07-02"> 1797, Juli 2</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/940.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 147&#x96;148 Nr. 1074.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 147&#x96;148 Nr. 1074.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S114 Nr. 43.</rs>
+               <rs type="bibl">Vgl. ausführl. Regest in Dawson, The Banks Letters (1958), S114 Nr. 43.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=163"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 147&#x96;148 Nr. 1074 </rs>
+               <rs type="edition">Corresp. V, S. 147&#x96;148 Nr. 1074 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, British Library, Add MS 8098, fol. 321. </title>
+                  <title level="m" type="main">London, British Library, Add MS 8098, fol. 321. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-940">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-940"
+                      sortKey="1797-07-02"
+                      when="1797-07-02"
+                      where="#orgplc-940">
+                  <label>1797, Juli 2</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-940">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-940">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Banks, Joseph</persName>
          </creation>

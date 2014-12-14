@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Christiane Henriette von Waldeck dankt Blumenbach fÜr ein Exemplar der vierten Auflage des Handbuchs der Naturgeschichte (1791) und eine Materialprobe Menacanit, kÜndigt an, ihm eine Quecksilberstufe zu senden und bittet ihm, sich bei Christian Gottlob Heyne fÜr einen Freitisch fÜr Georg Heinrich Adolph Kneuper, den Sohn eines Arolsener Beamten, einzusetzen. </title>
+            <title type="main">Christiane Henriette von Waldeck dankt Blumenbach für ein Exemplar der vierten Auflage des Handbuchs der Naturgeschichte (1791) und eine Materialprobe Menacanit, kündigt an, ihm eine Quecksilberstufe zu senden und bittet ihm, sich bei Christian Gottlob Heyne für einen Freitisch für Georg Heinrich Adolph Kneuper, den Sohn eines Arolsener Beamten, einzusetzen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Waldeck, Christiane Henriette von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Arolsen</pubPlace>
-            <date type="publication" when=" 1791-04-25"> 1791, nach Apr. 25</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/573.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 541 Nr. App. 10.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 541 Nr. App. 10.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,21 +72,24 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Handbuch der Naturgeschichte (4. Auf., 1791; Bibliographie Nr.00025).</rs>
+               <rs type="lz">Handbuch der Naturgeschichte (4. Auf., 1791; Bibliographie Nr.00025).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00025"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=557"/>
             </note>
             <note>
-               <rs type="edition"> 00025   Corresp. V, S. 541 Nr. App. 10 </rs>
+               <rs type="edition">00025  Corresp. V, S. 541 Nr. App. 10 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 1 (Christiane von Waldeck Nr. 11). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 1 (Christiane von Waldeck Nr. 11). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Waldeck, Christiane Henriette von</persName>
                   </author>
@@ -99,9 +102,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-573">Arolsen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1791-04-25">
-                  <label> 1791, nach Apr. 25</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-573"
+                      sortKey="1791-04-25"
+                      notBefore="1791-04-25"
+                      where="#orgplc-573">
+                  <label>1791, nach Apr. 25</label>
                </event>
             </listEvent>
             <msDesc>
@@ -118,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-573">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-573">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

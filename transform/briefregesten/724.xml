@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Jan Gerard Le Dulx teilt Blumenbach die aktuelle Postanschrift von Johann Gerard van Angelbeek in Ceylon mit, dessen Sendung mit drei menschlichen Schädeln an Blumenbach verloren gegangen war, und erklärt, dass er entgegen seiner frÜheren Planung nicht als Hofmeister eines niederländischen Studenten nach Göttingen kommen werde. </title>
+            <title type="main">Jan Gerard Le Dulx teilt Blumenbach die aktuelle Postanschrift von Johann Gerard van Angelbeek in Ceylon mit, dessen Sendung mit drei menschlichen Schädeln an Blumenbach verloren gegangen war, und erklärt, dass er entgegen seiner früheren Planung nicht als Hofmeister eines niederländischen Studenten nach Göttingen kommen werde. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Le Dulx, Jan Gerard</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when=" 1794-05-17"> 1794, Mai 17 Stendal</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/724.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 321 Nr. 0848.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 321 Nr. 0848.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Drei menschliche Schädel aus SÜdindien/Ceylon, gesendet von Jan Gerard von Angelbeek (auf dem Transportweg verloren gegangen).</rs>
+               <rs type="object">Drei menschliche Schädel aus Südindien/Ceylon, gesendet von Jan Gerard von Angelbeek (auf dem Transportweg verloren gegangen).</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=333"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 321 Nr. 0848 </rs>
+               <rs type="edition">Corresp. IV, S. 321 Nr. 0848 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach III, fol. 6&#x96;7. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach III, fol. 6&#x96;7. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Le Dulx, Jan Gerard</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-724">Stendal</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-724"
+                      sortKey="1794-05-17"
+                      when="1794-05-17"
+                      where="#orgplc-724">
+                  <label>1794, Mai 17</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-724">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-724">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

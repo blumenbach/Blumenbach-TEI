@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Samuel-August-André-David Tissot sendet Blumenbach eine eigene Publikation. </title>
+            <title type="main">Samuel-August-André-David Tissot sendet Blumenbach eine eigene Publikation. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Tissot, Samuel-August-André-David</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Lausanne</pubPlace>
-            <date type="publication" when=" 1790-02-24"> 1790, Febr. 24</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/498.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 288 Nr. 0599.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 288 Nr. 0599.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=306"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 288 Nr. 0599 </rs>
+               <rs type="edition">Corresp. III, S. 288 Nr. 0599 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 2. </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 2. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Tissot, Samuel-August-André-David</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-498">Lausanne</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-498"
+                      sortKey="1790-02-24"
+                      when="1790-02-24"
+                      where="#orgplc-498">
+                  <label>1790, Febr. 24</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-498">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-498">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0494</classCode>
-            <classCode scheme="anchor"> Maerz1790</classCode>
+            <classCode scheme="anchor">Maerz1790</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

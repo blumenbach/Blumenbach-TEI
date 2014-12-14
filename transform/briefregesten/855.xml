@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Rudolph Forsten sendet Blumenbach einen menschlichen Schädel aus Java und fragt nach dem Erscheinungsdatum einen neuen Ausgabe von BlumenbachsInstitutiones Physiologicae als Grundlage fÜr eine Ergänzung der holländische Übersetzung der ersten Ausgabe. </title>
+            <title type="main">Rudolph Forsten sendet Blumenbach einen menschlichen Schädel aus Java und fragt nach dem Erscheinungsdatum einen neuen Ausgabe von BlumenbachsInstitutiones Physiologicae als Grundlage für eine Ergänzung der holländische übersetzung der ersten Ausgabe. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Forsten, Rudolph </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Harderwyk</pubPlace>
-            <date type="publication" when=" 1796-05-05"> 1796, Mai 5</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/855.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 25&#x96;27 Nr. 0985.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 25&#x96;27 Nr. 0985.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Vgl. Blumenbachs hs. Verzeichnis seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, III, fol. 8. </note>
             <note>
-               <rs type="object"> Menschlicher Schädel aus Java (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 617, Abb. in Decas craniorum 4 (1800), Tafel 39; Bibliographie Nr. 00095).</rs>
+               <rs type="object">Menschlicher Schädel aus Java (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 617, Abb. in Decas craniorum 4 (1800), Tafel 39; Bibliographie Nr. 00095).</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -72,21 +72,24 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Grondbeginselen der natuurkunde van den mensch (1791, Bibliographie Nr.00082). </rs>
+               <rs type="lz">Grondbeginselen der natuurkunde van den mensch (1791, Bibliographie Nr.00082). </rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00082"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=41"/>
             </note>
             <note>
-               <rs type="edition"> 00082   Corresp. </rs>
+               <rs type="edition">00082  Corresp. </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 27, fol. 18-19. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 27, fol. 18-19. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Forsten, Rudolph </persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-855">Harderwyk</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-855"
+                      sortKey="1796-05-05"
+                      when="1796-05-05"
+                      where="#orgplc-855">
+                  <label>1796, Mai 5</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-855">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-855">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

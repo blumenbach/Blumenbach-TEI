@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Christian Friedrich Ludwig sendet Blumenbach aus Leipzig [eine Liste mit?] Leipziger und Jenaer medizinische[n] Publikationen der Jahre 1792 und 1793. </title>
+            <title type="main">Christian Friedrich Ludwig sendet Blumenbach aus Leipzig [eine Liste mit?] Leipziger und Jenaer medizinische[n] Publikationen der Jahre 1792 und 1793. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Ludwig, Christian Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Leipzig</pubPlace>
-            <date type="publication" when=" 1793-03-31"> 1793, März 31</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/681.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 256 Nr. 0802.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 256 Nr. 0802.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,20 +72,23 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Beyträge zur mineralogischen Kenntniß des östlichen Theils von Nordamerika (1787).</rs>
+               <rs type="lz">Beyträge zur mineralogischen Kenntniß des östlichen Theils von Nordamerika (1787).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=256"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 256 Nr. 0802 </rs>
+               <rs type="edition">Corresp. IV, S. 256 Nr. 0802 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Leipzig, Universitätsbibliothek Cod. Ms. 0663, fol. 67r (nur Liste). </title>
+                  <title level="m" type="main">Leipzig, Universitätsbibliothek Cod. Ms. 0663, fol. 67r (nur Liste). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Ludwig, Christian Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-681">Leipzig</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-681"
+                      sortKey="1793-03-31"
+                      when="1793-03-31"
+                      where="#orgplc-681">
+                  <label>1793, März 31</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-681">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-681">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

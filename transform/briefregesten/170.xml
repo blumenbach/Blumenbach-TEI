@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Christoph Lichtenberg bittet Blumenbach um ein Buch, kommentiert eine aktuelle Forschungskontroverse Über den afrikanischen Wind &#x84;Harmattan&#x93; und macht Angaben zu seiner aktuellen LektÜre und erhaltenen Briefen. </title>
+            <title type="main">Georg Christoph Lichtenberg bittet Blumenbach um ein Buch, kommentiert eine aktuelle Forschungskontroverse über den afrikanischen Wind &#x84;Harmattan&#x93; und macht Angaben zu seiner aktuellen Lektüre und erhaltenen Briefen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1782-12-25"> 1782, vor Dez. 25</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/170.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 357 Nr. 0230.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 357 Nr. 0230.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 19; Lichtenberg, Briefwechsel, Bd. 2 (1985), Nr. 1006, S. 490&#x96;491.</rs>
+               <rs type="bibl">Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 19; Lichtenberg, Briefwechsel, Bd. 2 (1985), Nr. 1006, S. 490&#x96;491.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826. </title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph </persName>
                   </author>
@@ -96,9 +99,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-170">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1782-12-25">
-                  <label> 1782, vor Dez. 25</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-170"
+                      sortKey="1782-12-25"
+                      notAfter="1782-12-25"
+                      where="#orgplc-170">
+                  <label>1782, vor Dez. 25</label>
                </event>
             </listEvent>
             <msDesc>
@@ -115,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-170">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-170">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0168</classCode>
-            <classCode scheme="anchor"> 1783  Jan1783</classCode>
+            <classCode scheme="anchor">1783 Jan1783</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

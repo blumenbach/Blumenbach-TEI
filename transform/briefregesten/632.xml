@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann David Schoepf bittet Blumenbach fÜr seine Forschungen Über Schildkröten und die Ausleihe des Exemplars einer von Blumenbach in dessen Handbuch der Naturgeschichte beschriebenen Art oder eine Zeichnung davon. </title>
+            <title type="main">Johann David Schoepf bittet Blumenbach für seine Forschungen über Schildkröten und die Ausleihe des Exemplars einer von Blumenbach in dessen Handbuch der Naturgeschichte beschriebenen Art oder eine Zeichnung davon. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Schoepf, Johann David</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Ansbach</pubPlace>
-            <date type="publication" when=" 1792-05-20"> 1792, Mai 20</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/632.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 160 Nr. 0741.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 160 Nr. 0741.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Exemplar der Schildkrötenart Testudo Membranacea.</rs>
+               <rs type="object">Exemplar der Schildkrötenart Testudo Membranacea.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -72,21 +72,24 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Handbuch der Naturgeschichte (1. Aufl. 1780?; Bibliographie Nr. 00021). </rs>
+               <rs type="lz">Handbuch der Naturgeschichte (1. Aufl. 1780?; Bibliographie Nr. 00021). </rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00021"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=172"/>
             </note>
             <note>
-               <rs type="edition"> 00021   Corresp. IV, S. 160 Nr. 0741 </rs>
+               <rs type="edition">00021  Corresp. IV, S. 160 Nr. 0741 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren, Überlieferung des Entwurfsin Museum fÜr Naturkunde Berlin, Historische Bild- und Schriftgutsammlung, Bestand: Zoologisches Museum, Signatur S 1 Nachlass Schoepf III, Blumenbach, J.F.; Blatt 1. </title>
+                  <title level="m" type="main">Or. verloren, überlieferung des Entwurfsin Museum für Naturkunde Berlin, Historische Bild- und Schriftgutsammlung, Bestand: Zoologisches Museum, Signatur S 1 Nachlass Schoepf III, Blumenbach, J.F.; Blatt 1. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Schoepf, Johann David</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-632">Ansbach</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-632"
+                      sortKey="1792-05-20"
+                      when="1792-05-20"
+                      where="#orgplc-632">
+                  <label>1792, Mai 20</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-632">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-632">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

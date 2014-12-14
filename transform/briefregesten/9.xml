@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Albrecht von Haller dankt Blumenbach fÜr dessen bibliographische Hinweise zu seinerBibliotheca medica, äußert seine Einschätzung zu den Themen Albinismus und Kretinismus und gibt Blumenbach Ratschläge fÜr anatomische Forschungsvorhaben, unter anderem Hinweise auf wenig erforschte Gebiete der Anatomie des Nervensystems. </title>
+            <title type="main">Albrecht von Haller dankt Blumenbach für dessen bibliographische Hinweise zu seinerBibliotheca medica, äußert seine Einschätzung zu den Themen Albinismus und Kretinismus und gibt Blumenbach Ratschläge für anatomische Forschungsvorhaben, unter anderem Hinweise auf wenig erforschte Gebiete der Anatomie des Nervensystems. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Haller, Albrecht von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Bern</pubPlace>
-            <date type="publication" when=" 1775-03-28"> 1775, März 28</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/9.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 16 Nr. 0009.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 16 Nr. 0009.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 3 (Albrecht von Haller Nr. 5).</title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 3 (Albrecht von Haller Nr. 5).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Haller, Albrecht von</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-9">Bern</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-9"
+                      sortKey="1775-03-28"
+                      when="1775-03-28"
+                      where="#orgplc-9">
+                  <label>1775, März 28</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-9">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-9">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0009</classCode>
-            <classCode scheme="anchor"> Juni1775</classCode>
+            <classCode scheme="anchor">Juni1775</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

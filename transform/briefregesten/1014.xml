@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach danktJohann Reinhold Forster fÜr die Zusendung von dessen Beobachtungen und Wahrheiten (1798), sendet ihm Heft 3 seiner Abbildungen naturhistorischer Gegenstände (1798), kÜndigt die Zusendung erbetener Publikationen an und bittet um Proben von &#x84;Demant-Spath&#x93; vom Kap Komorin in Indien und Melanit aus Fuscati. </title>
+            <title type="main">Blumenbach danktJohann Reinhold Forster für die Zusendung von dessen Beobachtungen und Wahrheiten (1798), sendet ihm Heft 3 seiner Abbildungen naturhistorischer Gegenstände (1798), kündigt die Zusendung erbetener Publikationen an und bittet um Proben von &#x84;Demant-Spath&#x93; vom Kap Komorin in Indien und Melanit aus Fuscati. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1798-05-21"> 1798, Mai 21</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1014.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 258 Nr. 1151.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 258 Nr. 1151.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Erbeten: &#x84;Demant-Spath&#x93; vom Kap Komorin in Indien und Melanit aus Fuscati. </rs>
+               <rs type="object">Erbeten: &#x84;Demant-Spath&#x93; vom Kap Komorin in Indien und Melanit aus Fuscati. </rs>
             </note>
             <note>
                <rs type="span"/>
@@ -72,21 +72,24 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Abbildungen naturhistorischer Gegenstände, Heft 3 (1798; Bibliographie Nr. 00677).</rs>
+               <rs type="lz">Abbildungen naturhistorischer Gegenstände, Heft 3 (1798; Bibliographie Nr. 00677).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00677"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=274"/>
             </note>
             <note>
-               <rs type="edition"> 00677   Corresp. V, S. 258 Nr. 1151 </rs>
+               <rs type="edition">00677  Corresp. V, S. 258 Nr. 1151 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Berlin, Archiv der Berlin-Brandenburgischen Akademie der Wissenschaften, ABBAW, Nachlass Johann Reinhold Forster 5, Nr. 12. </title>
+                  <title level="m" type="main">Berlin, Archiv der Berlin-Brandenburgischen Akademie der Wissenschaften, ABBAW, Nachlass Johann Reinhold Forster 5, Nr. 12. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1014">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1014"
+                      sortKey="1798-05-21"
+                      when="1798-05-21"
+                      where="#orgplc-1014">
+                  <label>1798, Mai 21</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1014">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1014">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Forster, Johann Reinhold</persName>
          </creation>

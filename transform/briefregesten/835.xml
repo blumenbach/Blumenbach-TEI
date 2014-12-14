@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Alexander von Humboldt beschreibt [in Form eines (fingierten?) Briefes an Blumenbach] seine Selbstversuche zu den physiologischen Wirkungen von Elektrizität und neue Versuche zur ÜberprÜfung der Elektrizitätstheorie Alessandro Voltas, insbesondere durch Erhöhung der Reizbarkeit von präpariertem Froschgewebe mithilfe von Säuren und Laugen. </title>
+            <title type="main">Alexander von Humboldt beschreibt [in Form eines (fingierten?) Briefes an Blumenbach] seine Selbstversuche zu den physiologischen Wirkungen von Elektrizität und neue Versuche zur überprüfung der Elektrizitätstheorie Alessandro Voltas, insbesondere durch Erhöhung der Reizbarkeit von präpariertem Froschgewebe mithilfe von Säuren und Laugen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Humboldt, Alexander von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> 1795, Dez. [Bayreuth]</pubPlace>
-            <date type="publication" when=" 1795-12-01"/>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/835.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 496 Nr. 0965.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 496 Nr. 0965.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Evt. Überarbeitete Fassung von Humboldts [fingiertem?] Brief an Blumenbach von 1795, Nov. 17,Dougherty, Corresp. IV, Nr. 0956.</note>
+            <note>Evt. überarbeitete Fassung von Humboldts [fingiertem?] Brief an Blumenbach von 1795, Nov. 17,Dougherty, Corresp. IV, Nr. 0956.</note>
             <note>
                <rs type="object"/>
             </note>
@@ -72,20 +72,23 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Neues Journal der Physik, Bd. 3, 2. Heft (1796), S. 165&#x96;184.</rs>
+               <rs type="lz">Neues Journal der Physik, Bd. 3, 2. Heft (1796), S. 165&#x96;184.</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=508"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 496 Nr. 0965 </rs>
+               <rs type="edition">Corresp. IV, S. 496 Nr. 0965 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren, Überlieferung durch Druck in Neues Journal der Physik, Bd. 3, 2. Heft (1796).</title>
+                  <title level="m" type="main">Or. verloren, überlieferung durch Druck in Neues Journal der Physik, Bd. 3, 2. Heft (1796).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Humboldt, Alexander von</persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-835"/>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1795-12-01">
-                  <label/>
+               <event type="iso-origin"
+                      datingMethod="#ISO-835"
+                      sortKey="1795-12-01"
+                      notBefore="1795-12-01"
+                      where="#orgplc-835">
+                  <label>1795, Dez. [Bayreuth]</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-835">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-835">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0827</classCode>
-            <classCode scheme="anchor"> 1796  Jan1796</classCode>
+            <classCode scheme="anchor">1796 Jan1796</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

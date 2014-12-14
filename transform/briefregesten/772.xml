@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Heinrich Ferdinand Autenrieth berichtet Blumenbach aufgrund seiner eigenen Beobachtungen im östlichen Nordamerika Über die Physiognomie und Schädelmerkmale der dortigen Indianer, Über den Forschungsstand zum fossilen &#x84;Ohio-Tier&#x93; [das amerikanische Mastodon] und Über geologische und zoologische Beobachtungen und sendet Zeichnungen von menschlichen Schädeln und von verschiedenen indianischen Artefakten, deren Nutzung er beschreibt. </title>
+            <title type="main">Johann Heinrich Ferdinand Autenrieth berichtet Blumenbach aufgrund seiner eigenen Beobachtungen im östlichen Nordamerika über die Physiognomie und Schädelmerkmale der dortigen Indianer, über den Forschungsstand zum fossilen &#x84;Ohio-Tier&#x93; [das amerikanische Mastodon] und über geologische und zoologische Beobachtungen und sendet Zeichnungen von menschlichen Schädeln und von verschiedenen indianischen Artefakten, deren Nutzung er beschreibt. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Autenrieth, Johann Heinrich Ferdinand</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Delaware Bay</pubPlace>
-            <date type="publication" when=" 1795-04-12"> 1795, Apr. 12</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/772.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 380 Nr. 0899.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 380 Nr. 0899.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>LautDougherty, Corresp. IV, Nr. 0899 Anm. 93 wird in Blumenbachs handschriftl. Sammlungsverzeichnissen kein Mastodonzahnerwähnt. Laut Antwortbrief Blumenbachs v. 20. Juni 1795 erhielt Blumenbach auch indianische Pfeilspitzen und eine Axt. Zu dem Schädel Nr. 714vgl. Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, IV, fol. 5.</note>
             <note>
-               <rs type="object"> Zahn des &#x84;Ohio-Tieres&#x93; (= Mastodon); Schädel eines Illinois-Indianers (1795 in der Sammlung von B. Smith Barton, von demihn Blumenbach 1797 erhielt (Göttingen, Inst. f. Anatomie, Schädelsammlung, Nr. 714; Abb. inDecas craniorum 4 (1800), Tafel 38; Bibliographie Nr. 00095); Zeichnungen des Schädels eines Wabash-Indianers und vonindianischen Artefakte (Friedenspfeife; Tongefäß; Tabakspfeife; Steinwerkzeuge; Axt; Pfeifenkopf, hergestellt von europ. Siedlern in den USA aus einem lokalen schwärzlichen Stein). </rs>
+               <rs type="object">Zahn des &#x84;Ohio-Tieres&#x93; (= Mastodon); Schädel eines Illinois-Indianers (1795 in der Sammlung von B. Smith Barton, von demihn Blumenbach 1797 erhielt (Göttingen, Inst. f. Anatomie, Schädelsammlung, Nr. 714; Abb. inDecas craniorum 4 (1800), Tafel 38; Bibliographie Nr. 00095); Zeichnungen des Schädels eines Wabash-Indianers und vonindianischen Artefakte (Friedenspfeife; Tongefäß; Tabakspfeife; Steinwerkzeuge; Axt; Pfeifenkopf, hergestellt von europ. Siedlern in den USA aus einem lokalen schwärzlichen Stein). </rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=392"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 380 Nr. 0899 </rs>
+               <rs type="edition">Corresp. IV, S. 380 Nr. 0899 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Leipzig, Universitätsbibliothek, Sammlung Kestner II A IV, 57, fol. 1&#x96;5. </title>
+                  <title level="m" type="main">Leipzig, Universitätsbibliothek, Sammlung Kestner II A IV, 57, fol. 1&#x96;5. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Autenrieth, Johann Heinrich Ferdinand</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-772">Delaware Bay</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-772"
+                      sortKey="1795-04-12"
+                      when="1795-04-12"
+                      where="#orgplc-772">
+                  <label>1795, Apr. 12</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-772">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-772">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

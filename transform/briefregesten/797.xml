@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Jacob Bryant die von diesem erbetenen Angaben Über die Körpergröße und Biographie von zwei hannoverschen Soldaten von besonderer Körpergröße aus dem 17. und 18. Jahrhundert und Über weitere ihm aus der Literatur bekannte Fälle von besonderer Körpergröße, bittet seinerseits um eine mineralogische Auskunft und schickt ein Exemplar der dritten Auflage von De generis humani varietate nativa (1795), deren Übereinstimmung mit der christliche Lehre er betont. </title>
+            <title type="main">Blumenbach sendet Jacob Bryant die von diesem erbetenen Angaben über die Körpergröße und Biographie von zwei hannoverschen Soldaten von besonderer Körpergröße aus dem 17. und 18. Jahrhundert und über weitere ihm aus der Literatur bekannte Fälle von besonderer Körpergröße, bittet seinerseits um eine mineralogische Auskunft und schickt ein Exemplar der dritten Auflage von De generis humani varietate nativa (1795), deren übereinstimmung mit der christliche Lehre er betont. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1795-07-07"> 1795, Juli 7</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/797.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 433 Nr. 0926.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 433 Nr. 0926.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,21 +72,24 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> De humani generis varietate nativa (3. Aufl. (1795); Bibliographie Nr.00004).</rs>
+               <rs type="lz">De humani generis varietate nativa (3. Aufl. (1795); Bibliographie Nr.00004).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00004"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=445"/>
             </note>
             <note>
-               <rs type="edition"> 00004   Corresp. IV, S. 433 Nr. 0926 </rs>
+               <rs type="edition">00004  Corresp. IV, S. 433 Nr. 0926 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, 2 Cod. Ms. Philos. 182: J. F. Blumenbach 7.7.1795; vgl. Fragment eines Entwurfs in Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach IXd, fol. 7. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, 2 Cod. Ms. Philos. 182: J. F. Blumenbach 7.7.1795; vgl. Fragment eines Entwurfs in Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach IXd, fol. 7. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-797">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-797"
+                      sortKey="1795-07-07"
+                      when="1795-07-07"
+                      where="#orgplc-797">
+                  <label>1795, Juli 7</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-797">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-797">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Bryant, Jacob</persName>
          </creation>

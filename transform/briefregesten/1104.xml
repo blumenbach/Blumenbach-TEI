@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Heinrich Friedrich Link berichtet Blumenbach [u. a. Über ein fortpflanzungsfähiges Maultier in Portugal]. </title>
+            <title type="main">Heinrich Friedrich Link berichtet Blumenbach [u. a. über ein fortpflanzungsfähiges Maultier in Portugal]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Link, Heinrich Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> [unbekannt]</pubPlace>
-            <date type="publication" when=" 1799-06-24"> 1799, Juni 24</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1104.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S.391 Nr. 1240.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S.391 Nr. 1240.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,17 +69,21 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug inMagazin fÜr den neuesten Zustand der Naturkunde, Bd. 2, 1. StÜck (1800), S. 22&#x96;23 (&#x84;3) Ein neues Beyspiel eines Maulthiers, das sein Geschlecht fortgepflanzt hat&#x93;, Bibliographie Nr. 00859).</rs>
+               <rs type="bibl">Auszug inMagazin für den neuesten Zustand der Naturkunde, Bd. 2, 1. Stück (1800), S. 22&#x96;23 (&#x84;3) Ein neues Beyspiel eines Maulthiers, das sein Geschlecht fortgepflanzt hat&#x93;, Bibliographie Nr. 00859).</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00859 (siehe&#x84;Dr.&#x93;).
+</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00859"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=407"/>
             </note>
             <note>
-               <rs type="edition"> 00859   Corresp. V, S.391 Nr. 1240 </rs>
+               <rs type="edition">00859  Corresp. V, S.391 Nr. 1240 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -99,6 +103,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1104"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1104"
+                      sortKey="1799-06-24"
+                      when="1799-06-24"
+                      where="#orgplc-1104">
+                  <label>1799, Juni 24  [unbekannt]</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +131,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1104">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1104">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Johann Reinhold Forster ein Empfehlungsschreiben fÜr Paul Scheel. </title>
+            <title type="main">Blumenbach sendet Johann Reinhold Forster ein Empfehlungsschreiben für Paul Scheel. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when=" 1797-09-21"> 1797, Sept.21 Göttingen</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/946.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 156&#x96;157 Nr. 1083.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 156&#x96;157 Nr. 1083.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=172"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 156&#x96;157 Nr. 1083 </rs>
+               <rs type="edition">Corresp. V, S. 156&#x96;157 Nr. 1083 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Berlin, Archiv der Berlin-Brandenburgischen Akademie der Wissenschaften, ABBAW, Nachlass Johann Reinhold Forster 5, Nr. 15. </title>
+                  <title level="m" type="main">Berlin, Archiv der Berlin-Brandenburgischen Akademie der Wissenschaften, ABBAW, Nachlass Johann Reinhold Forster 5, Nr. 15. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-946">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-946"
+                      sortKey="1797-09-21"
+                      when="1797-09-21"
+                      where="#orgplc-946">
+                  <label>1797, Sept.21</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-946">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-946">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Forster, Johann Reinhold</persName>
          </creation>

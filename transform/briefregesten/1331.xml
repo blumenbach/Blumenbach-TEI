@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Heinrich von Langsdorff berichtet Blumenbach Über seine Reise von Kamtschatka nach San Franzisco und beklagtsich unter anderem Über die schlechteBehandlung durch den russischen Expeditionsteilnehmer Nikolai Petrowitsch Resanow [&#x84;Resanoff&#x93;]. </title>
+            <title type="main">Georg Heinrich von Langsdorff berichtet Blumenbach über seine Reise von Kamtschatka nach San Franzisco und beklagtsich unter anderem über die schlechteBehandlung durch den russischen Expeditionsteilnehmer Nikolai Petrowitsch Resanow [&#x84;Resanoff&#x93;]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Langsdorff, Georg Heinrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> San Franzisco</pubPlace>
-            <date type="publication" when=" 1806-05-06"> 1806, Mai 6</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1331.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Die Passage Über N. P. Resanow hat Blumenbach in dem an Fr. J. Bertuch gesandten Auszug weggelassen, referiert sie aber im Begleitbrief. </note>
+            <note>Die Passage über N. P. Resanow hat Blumenbach in dem an Fr. J. Bertuch gesandten Auszug weggelassen, referiert sie aber im Begleitbrief. </note>
             <note>
                <rs type="object"/>
             </note>
@@ -69,23 +69,27 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug(von Fr. J. Bertuch weiter gekÜrzt ?) in Allgemeine Geographische Ephemeriden, Bd. 25, 4. StÜck (April 1808), S. 477&#x96;482 (&#x84;1. Auszug eines Briefs des Hrn. Dr. Langsdorffs, an Hrn. Hofrath Blumenbach zu Göttingen&#x93;, Bibliographie Nr. 00768). </rs>
+               <rs type="bibl">Auszug(von Fr. J. Bertuch weiter gekürzt ?) in Allgemeine Geographische Ephemeriden, Bd. 25, 4. Stück (April 1808), S. 477&#x96;482 (&#x84;1. Auszug eines Briefs des Hrn. Dr. Langsdorffs, an Hrn. Hofrath Blumenbach zu Göttingen&#x93;, Bibliographie Nr. 00768). </rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00768 (siehe &#x84;Dr.&#x93;).
+</rs>
+            </note>
+            <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00768"/>
             </note>
             <note>
-               <rs type="edition"> 00768 </rs>
+               <rs type="edition">00768 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Auszug enthalten in Brief Blumenbachs an Fr. J. Bertuch vom 25. Febr. 1808, Weimar, Goethe- und Schiller-Archiv,GSA, Nachlass Bertuch 06/189 (= Briefe Blumenbachs an Bertuch), Nr. 18 ? </title>
+                  <title level="m" type="main">Auszug enthalten in Brief Blumenbachs an Fr. J. Bertuch vom 25. Febr. 1808, Weimar, Goethe- und Schiller-Archiv,GSA, Nachlass Bertuch 06/189 (= Briefe Blumenbachs an Bertuch), Nr. 18 ? </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Langsdorff, Georg Heinrich </persName>
                   </author>
@@ -98,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1331">San Franzisco</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1331"
+                      sortKey="1806-05-06"
+                      when="1806-05-06"
+                      where="#orgplc-1331">
+                  <label>1806, Mai 6</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1331">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1331">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

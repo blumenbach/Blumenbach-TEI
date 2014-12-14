@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Das Geheime Ratskollegium erteilt Blumenbach die Genehmigung zum Ankauf der zoologischen Naturaliensammlung des Hildesheimer Medizinalrats Joachim Dietrich Brandis. </title>
+            <title type="main">Das Geheime Ratskollegium erteilt Blumenbach die Genehmigung zum Ankauf der zoologischen Naturaliensammlung des Hildesheimer Medizinalrats Joachim Dietrich Brandis. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Geheimes Ratskollegium</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Hannover</pubPlace>
-            <date type="publication" when=" 1791-03-17"> 1791, März 17</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/560.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 35 Nr. 0662.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 35 Nr. 0662.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Siehe detaillierte Zahlenangaben zur Anzahl der Objekte in der zoologisch ausgerichteten Sammlung Brandis in Brief v. 14. März 1791.</rs>
+               <rs type="object">Siehe detaillierte Zahlenangaben zur Anzahl der Objekte in der zoologisch ausgerichteten Sammlung Brandis in Brief v. 14. März 1791.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=47"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 35 Nr. 0662 </rs>
+               <rs type="edition">Corresp. IV, S. 35 Nr. 0662 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsarchiv, Kur. 7347, S. 4. </title>
+                  <title level="m" type="main">Göttingen, Universitätsarchiv, Kur. 7347, S. 4. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Geheimes Ratskollegium</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-560">Hannover</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-560"
+                      sortKey="1791-03-17"
+                      when="1791-03-17"
+                      where="#orgplc-560">
+                  <label>1791, März 17</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-560">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-560">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

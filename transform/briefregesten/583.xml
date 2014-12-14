@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> David-François de Gaudot sendet Blumenbach ein Empfehlungsschreiben fÜr Alexandre Jean Joseph Brodelet und macht Angaben zu seinen Plänen fÜr einen Besuch in Göttingen. </title>
+            <title type="main">David-François de Gaudot sendet Blumenbach ein Empfehlungsschreiben für Alexandre Jean Joseph Brodelet und macht Angaben zu seinen Plänen für einen Besuch in Göttingen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Gaudot, David-François de</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when="1791-06-07"> 1791, Juni 7 Paris</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/583.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 67 Nr. 0683.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 67 Nr. 0683.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=79"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 67 Nr. 0683 </rs>
+               <rs type="edition">Corresp. IV, S. 67 Nr. 0683 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 4 (French friends Nr. 2). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 4 (French friends Nr. 2). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Gaudot, David-François de</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-583">Paris</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-583"
+                      sortKey="1791-06-07"
+                      when="1791-06-07"
+                      where="#orgplc-583">
+                  <label>1791, Juni 7</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-583">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-583">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

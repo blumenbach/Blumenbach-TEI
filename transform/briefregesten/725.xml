@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johannes Loretz sendet Blumenbach eine neu erschienene Biographie des Herrnhuter Bischofs August Gottlieb Spangenberg. </title>
+            <title type="main">Johannes Loretz sendet Blumenbach eine neu erschienene Biographie des Herrnhuter Bischofs August Gottlieb Spangenberg. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Loretz, Johannes</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Herrnhut</pubPlace>
-            <date type="publication" when=" 1794-05-18"> 1794, Mai 18</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/725.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 322 Nr. 0849.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 322 Nr. 0849.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Vgl. Blumenbachs hs. Verzeichnis seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, I, fol. 7. </note>
             <note>
-               <rs type="object"> Zwei menschliche Schädel (&#x84;Esquimaux&#x93;-Schädel) aus Nain, Labrador (Göttingen, Inst. f. Anatomie, Schädelsammlung Nrr. 703 und 704; Abb. in Decas craniorum 3 (1795), Tafel 25 (= Nr. 703) und Tafel 24 (= Nr. 704), Bibliographie Nr. 00094).</rs>
+               <rs type="object">Zwei menschliche Schädel (&#x84;Esquimaux&#x93;-Schädel) aus Nain, Labrador (Göttingen, Inst. f. Anatomie, Schädelsammlung Nrr. 703 und 704; Abb. in Decas craniorum 3 (1795), Tafel 25 (= Nr. 703) und Tafel 24 (= Nr. 704), Bibliographie Nr. 00094).</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=334"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 322 Nr. 0849 </rs>
+               <rs type="edition">Corresp. IV, S. 322 Nr. 0849 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 21, fol. 8. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 21, fol. 8. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Loretz, Johannes</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-725">Herrnhut</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-725"
+                      sortKey="1794-05-18"
+                      when="1794-05-18"
+                      where="#orgplc-725">
+                  <label>1794, Mai 18</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-725">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-725">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

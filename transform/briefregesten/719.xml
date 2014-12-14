@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Christian Friedrich Ludwig sendet Blumenbach aus Leipzig [eine Liste mit?] Leipziger medizinische[n] Publikationen der Jahre 1793-1794. </title>
+            <title type="main">Christian Friedrich Ludwig sendet Blumenbach aus Leipzig [eine Liste mit?] Leipziger medizinische[n] Publikationen der Jahre 1793-1794. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Ludwig, Christian Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Leipzig</pubPlace>
-            <date type="publication" when=" 1794-04-20"> 1794, Apr. 20</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/719.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 316 Nr. 0843.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 316 Nr. 0843.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=328"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 316 Nr. 0843 </rs>
+               <rs type="edition">Corresp. IV, S. 316 Nr. 0843 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Leipzig, Universitätsbibliothek Cod. Ms. 0663, fol. 68r (nur Liste). </title>
+                  <title level="m" type="main">Leipzig, Universitätsbibliothek Cod. Ms. 0663, fol. 68r (nur Liste). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Ludwig, Christian Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-719">Leipzig</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-719"
+                      sortKey="1794-04-20"
+                      when="1794-04-20"
+                      where="#orgplc-719">
+                  <label>1794, Apr. 20</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-719">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-719">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0712</classCode>
-            <classCode scheme="anchor"> Mai1794</classCode>
+            <classCode scheme="anchor">Mai1794</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

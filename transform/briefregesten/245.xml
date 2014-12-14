@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Therese Heyne (Therese Huber) beschreibt Blumenbach ihre Einschätzung ihrer Persönlichkeit und ihre GefÜhle angesichts der geplanten Ehe mit Georg Forster und der Übersiedelung nach Vilnius. </title>
+            <title type="main">Therese Heyne (Therese Huber) beschreibt Blumenbach ihre Einschätzung ihrer Persönlichkeit und ihre Gefühle angesichts der geplanten Ehe mit Georg Forster und der übersiedelung nach Vilnius. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Heyne, Therese (Huber, Therese) </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Gotha</pubPlace>
-            <date type="publication" when=" 1785-01-20"> 1785, Jan. 20</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/245.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 240 Nr. 0332.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 240 Nr. 0332.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Geiger, Therese Huber (1901), S. 41 [mit falschem Datum &#x84;Jan.30&#x93; und mit nicht vermerkten Auslassungen]; Huber, Therese: Die reinste Freiheitsliebe [&#x85;] . Ein Lebensbild [&#x85;] herausgeben von Andrea Hahn. Berlin 1889, S. 28&#x96;29 [ohne das Postskriptum]; Heuser, Therese Huber. Briefe. Band 1 (1999) Nr. 84 S. 169&#x96;170.</rs>
+               <rs type="bibl">Geiger, Therese Huber (1901), S. 41 [mit falschem Datum &#x84;Jan.30&#x93; und mit nicht vermerkten Auslassungen]; Huber, Therese: Die reinste Freiheitsliebe [&#x85;] . Ein Lebensbild [&#x85;] herausgeben von Andrea Hahn. Berlin 1889, S. 28&#x96;29 [ohne das Postskriptum]; Heuser, Therese Huber. Briefe. Band 1 (1999) Nr. 84 S. 169&#x96;170.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Therese Huber VIII, Nr. 57. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Therese Huber VIII, Nr. 57. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Heyne, Therese (Huber, Therese) </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-245">Gotha</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-245"
+                      sortKey="1785-01-20"
+                      when="1785-01-20"
+                      where="#orgplc-245">
+                  <label>1785, Jan. 20</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-245">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-245">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

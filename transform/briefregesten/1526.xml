@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach schreibt anGeorges(-Léopold-Chrétien, Baron de)Cuvier Über naturhistorische Fragen. </title>
+            <title type="main">Blumenbach schreibt anGeorges(-Léopold-Chrétien, Baron de)Cuvier über naturhistorische Fragen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Cuvier, Georges (Georges-Léopold-Chrétien, Baron de Cuvier)</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1823-05-03"> 1823, Mai 3</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1526.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Regest in Dehérain, Catalogue du fonds Cuvier, S. 87.</rs>
+               <rs type="bibl">Regest in Dehérain, Catalogue du fonds Cuvier, S. 87.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Paris, Bibliothèque de l&#x92;Institut de France, Cod. Ms. Fonds Cuvier, liasse 245, Nr.7. </title>
+                  <title level="m" type="main">Paris, Bibliothèque de l&#x92;Institut de France, Cod. Ms. Fonds Cuvier, liasse 245, Nr.7. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Cuvier, Georges (Georges-Léopold-Chrétien, Baron de Cuvier)</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1526">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1526"
+                      sortKey="1823-05-03"
+                      when="1823-05-03"
+                      where="#orgplc-1526">
+                  <label>1823, Mai 3</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1526">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1526">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

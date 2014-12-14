@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Georg Zimmermann sendet [Blumenbach?] ein Empfehlungsschreiben fÜr Johann Georg Friedrich MÜhry, der in Göttingen ein Medizinstudium beginnt. </title>
+            <title type="main">Johann Georg Zimmermann sendet [Blumenbach?] ein Empfehlungsschreiben für Johann Georg Friedrich Mühry, der in Göttingen ein Medizinstudium beginnt. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Zimmermann, Johann Georg</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when=" 1793-04-14"> 1793, April 14 Hannover</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/687.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 255 Nr. 0810.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 255 Nr. 0810.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=267"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 255 Nr. 0810 </rs>
+               <rs type="edition">Corresp. IV, S. 255 Nr. 0810 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Stadtbibliothek, Niedersächsisches Handschriftenarchiv. </title>
+                  <title level="m" type="main">Hannover, Stadtbibliothek, Niedersächsisches Handschriftenarchiv. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Zimmermann, Johann Georg</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-687">Hannover</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-687"
+                      sortKey="1793-04-14"
+                      when="1793-04-14"
+                      where="#orgplc-687">
+                  <label>1793, April 14</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-687">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-687">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee"> [Blumenbach, Johann Friedrich?]</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0681</classCode>
-            <classCode scheme="anchor"> Mai1793</classCode>
+            <classCode scheme="anchor">Mai1793</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

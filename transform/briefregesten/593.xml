@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Joseph Banks berichtet Blumenbach, dass die Angaben Bernhard Christoph Fausts in dessen Abhandlung Wie der Geschlechtstrieb des Menschen in Ordnung zu bringen (1791) zu den gesundheitlichen Vorteilen des Verzichts auf Hosen seinen Beobachtungen in Schottland und in der SÜdsee nach nicht zutreffen, rät ihm, negative Rezensionen seiner Publikationen in englischen Zeitschriften als unqualifiziert zu ignorieren, und sendet eine Mineralienprobe von der Insel St. Helena. </title>
+            <title type="main">Joseph Banks berichtet Blumenbach, dass die Angaben Bernhard Christoph Fausts in dessen Abhandlung Wie der Geschlechtstrieb des Menschen in Ordnung zu bringen (1791) zu den gesundheitlichen Vorteilen des Verzichts auf Hosen seinen Beobachtungen in Schottland und in der Südsee nach nicht zutreffen, rät ihm, negative Rezensionen seiner Publikationen in englischen Zeitschriften als unqualifiziert zu ignorieren, und sendet eine Mineralienprobe von der Insel St. Helena. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>London</pubPlace>
-            <date type="publication" when=" 1791-08-05"> 1791, Aug. 5</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/593.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 80 Nr. 0693.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 80 Nr. 0693.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,14 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in dt. Übers. in Medicinische Bibliothek, Bd. 3, 3. StÜck (1791), S. 400&#x96;414 (&#x84;III. Wie der Geschlechtstrieb der Menschen in Ordnung zu bringen und wie die Menschen besser und glÜcklicher zu machen von Dr. Bernh. Christ. Faust&#x93;, Bibliographie Nr. [ohne Nr.]), hier S. 413&#x96;414.</rs>
+               <rs type="bibl">Auszug in dt. übers. in Medicinische Bibliothek, Bd. 3, 3. Stück (1791), S. 400&#x96;414 (&#x84;III. Wie der Geschlechtstrieb der Menschen in Ordnung zu bringen und wie die Menschen besser und glücklicher zu machen von Dr. Bernh. Christ. Faust&#x93;, Bibliographie Nr. [ohne Nr.]), hier S. 413&#x96;414.</rs>
             </note>
             <note>
-               <rs type="lz"> Handbuch der Naturgeschichte, 5. Aufl. (1797, Bibliographie Nr. 00026), S. 563 mit wörtl. Übers. der brieflichenAngabenvon Banks).</rs>
+               <rs type="lz">Handbuch der Naturgeschichte, 5. Aufl. (1797, Bibliographie Nr. 00026), S. 563 mit wörtl. übers. der brieflichenAngabenvon Banks).</rs>
+            </note>
+            <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.[ohne Nr.] (siehe &#x84;Dr.&#x93;). 
+</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#MedBiblIII3-Faust"/>
@@ -80,14 +84,14 @@
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=92"/>
             </note>
             <note>
-               <rs type="edition"> [ohne Nr.]   00026   Corresp. IV, S. 80 Nr. 0693 </rs>
+               <rs type="edition"> [ohne Nr.]  00026  Corresp. IV, S. 80 Nr. 0693 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 3 (Banks Nr. 5). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 3 (Banks Nr. 5). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
                   </author>
@@ -100,6 +104,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-593">London</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-593"
+                      sortKey="1791-08-05"
+                      when="1791-08-05"
+                      where="#orgplc-593">
+                  <label>1791, Aug. 5</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -114,6 +132,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-593">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-593">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

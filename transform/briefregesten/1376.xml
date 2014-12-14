@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Friedrich Justin Bertuch bittet Blumenbach [u. a., ihm eine Porträtzeichnung von sich und eine kurze biographische Selbstdarstellung zu senden]. </title>
+            <title type="main">Friedrich Justin Bertuch bittet Blumenbach [u. a., ihm eine Porträtzeichnung von sich und eine kurze biographische Selbstdarstellung zu senden]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Bertuch, Friedrich Justin</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> unbekannt</pubPlace>
-            <date type="publication" when=" 1809-07-19"> 1809, Juli 19</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1376.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, Nr. 0003.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, Nr. 0003.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Dougherty, F. W. .P. und Klatt, N.: Bibliographie der Werke und Schriften von Johann Friedrich Blumenbach. Göttingen 2009, S. 152 Anm. 187.</rs>
+               <rs type="bibl">Auszug in Dougherty, F. W. .P. und Klatt, N.: Bibliographie der Werke und Schriften von Johann Friedrich Blumenbach. Göttingen 2009, S. 152 Anm. 187.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2009/ppn%20613623401.pdf#page=152"/>
             </note>
             <note>
-               <rs type="edition"> Bibliographie der Werke und Schriften von Johann Friedrich Blumenbach </rs>
+               <rs type="edition">Bibliographie der Werke und Schriften von Johann Friedrich Blumenbach </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Leipzig, Universitätsbibliothek, Sammlung Kestner, II A IV, Nr. 141 Bertuch an Blumenbach.</title>
+                  <title level="m" type="main">Leipzig, Universitätsbibliothek, Sammlung Kestner, II A IV, Nr. 141 Bertuch an Blumenbach.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Bertuch, Friedrich Justin</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1376">unbekannt</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1376"
+                      sortKey="1809-07-19"
+                      when="1809-07-19"
+                      where="#orgplc-1376">
+                  <label>1809, Juli 19</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1376">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1376">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

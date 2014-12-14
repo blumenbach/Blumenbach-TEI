@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach dankt Joseph Banks fÜr den Verzicht auf RÜckzahlung der Schulden des verstorbenenJohann Reinhold Forster durch dessen Witwe, fÜr den erbetenenzweiten menschlichen Schädel aus Australien, fÜr Mungo Parks Travels in the interior districts of Africa (1799) und wissenschaftliche AuskÜnfte, kÜndigt die Zusendung zahlreicher deutscher Publikationen fÜr Banks und dessen wissenschaftliche Korrespondenten an, spricht eine Empfehlung fÜr Georg Heinrich Noehden aus undberichtet Über weitere deutscheWissenschaftler, die an der DurchfÜhrung von Forschungsreisen interessiert sind. </title>
+            <title type="main">Blumenbach dankt Joseph Banks für den Verzicht auf Rückzahlung der Schulden des verstorbenenJohann Reinhold Forster durch dessen Witwe, für den erbetenenzweiten menschlichen Schädel aus Australien, für Mungo Parks Travels in the interior districts of Africa (1799) und wissenschaftliche Auskünfte, kündigt die Zusendung zahlreicher deutscher Publikationen für Banks und dessen wissenschaftliche Korrespondenten an, spricht eine Empfehlung für Georg Heinrich Noehden aus undberichtet über weitere deutscheWissenschaftler, die an der Durchführung von Forschungsreisen interessiert sind. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1799-06-12"> 1799, Juni 12</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1100.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,39 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 385&#x96;389 Nr. 1236.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 385&#x96;389 Nr. 1236.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Zweiter menschlicher Schädel aus Botany Bay/ Australien (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 782; Abb. in Decas craniorum 4 (1800), Tafel40; Bibliographie Nr. 00095), zur Identifikation dieses Schädels vgl.Spengel, Anthropologische Sammlung, S. 77 ad 29. AngekÜndigt: Stamm eines westindischen Baumfarns.</rs>
+               <rs type="object">Zweiter menschlicher Schädel aus Botany Bay/ Australien (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 782; Abb. in Decas craniorum 4 (1800), Tafel40; Bibliographie Nr. 00095), zur Identifikation dieses Schädels vgl.Spengel, Anthropologische Sammlung, S. 77 ad 29. Angekündigt: Stamm eines westindischen Baumfarns.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 4 (2007), S.590&#x96;592 Nr. 1513 (mit Transkriptionsfehlern);vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S. 116 Nr. 52.</rs>
+               <rs type="bibl">Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 4 (2007), S.590&#x96;592 Nr. 1513 (mit Transkriptionsfehlern);vgl. ausführl. Regest in Dawson, The Banks Letters (1958), S. 116 Nr. 52.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">Rezension vonProposals for forming [&#x85;] a public institution for diffusing the knowledge 1799 in GAgS 1799 (95. Stück, 15. Juni), S. 945&#x96;949 (Bibliographie Nr. 00410); Rezension von Band 1 (1798) von Catalogus bibliothecae historico-naturalis Josephi Banks in GAgS 1799 (93. Stück, 13. Juni), S. 927&#x96;928 (Bibliographie Nr. 00408); dänische übersetzung desHandbuchs der Naturgeschichte (1793; Bibliographie Nr. 00043); Handbuch der Naturgeschichte (5. Aufl. (1797); Bibliographie Nr. 00026);Handbuch der Naturgeschichte (6. Aufl. (1799); Bibliographie Nr. 00027).
+</rs>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=401"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 385&#x96;389 Nr. 1236 </rs>
+               <rs type="edition">Corresp. V, S. 385&#x96;389 Nr. 1236 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, British Library, Add MS 8099, fol. 13&#x96;14.</title>
+                  <title level="m" type="main">London, British Library, Add MS 8099, fol. 13&#x96;14.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1100">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1100"
+                      sortKey="1799-06-12"
+                      when="1799-06-12"
+                      where="#orgplc-1100">
+                  <label>1799, Juni 12</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1100">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1100">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Banks, Joseph</persName>
          </creation>

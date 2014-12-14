@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Stefano Borgia benachrichtigt Blumenbach vomVersandeiner Gesteinsprobe von ägyptischem Basalt und eines antiken menschlichen Schädels aus Rom. </title>
+            <title type="main">Stefano Borgia benachrichtigt Blumenbach vomVersandeiner Gesteinsprobe von ägyptischem Basalt und eines antiken menschlichen Schädels aus Rom. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Borgia, Stefano</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Rom</pubPlace>
-            <date type="publication" when=" 1795-04-25"> 1795, Apr. 25</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/775.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,39 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 393 Nr. 0902.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 393 Nr. 0902.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Vgl. zum Schädel Nr. 401 auch Brief von Borgia an A. H. L. Heeren, Dougherty, Corresp. IV, Nr. 890 vom 7. Febr. 1795; Schädel auch erwähnt in De generis humani varietate (3. Aufl., 1795; Bibliographie Nr.00004), S. XXXI. </note>
             <note>
-               <rs type="object"> AngekÜndigt: Schädel eines röm. Soldaten (Göttingen, Inst. f. Anatomie, Schädelsammlung, Nr. 401; Abb. in Decas craniorum 4 (1800), Tafel 32 (Bibliographie Nr.00095)); ägyptischer Basalt.</rs>
+               <rs type="object">Angekündigt: Schädel eines röm. Soldaten (Göttingen, Inst. f. Anatomie, Schädelsammlung, Nr. 401; Abb. in Decas craniorum 4 (1800), Tafel 32 (Bibliographie Nr.00095)); ägyptischer Basalt.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Dougherty, Commercium epistolicum (1984), S. 167&#x96;168 KatNr. 201.</rs>
+               <rs type="bibl">Dougherty, Commercium epistolicum (1984), S. 167&#x96;168 KatNr. 201.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">Rezension vonFossilia aegyptiaca musei Borgiani(1794; BibliographieNr. 00359). 
+</rs>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=405"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 393 Nr. 0902 </rs>
+               <rs type="edition">Corresp. IV, S. 393 Nr. 0902 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 32, fol. 8&#x96;9. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 32, fol. 8&#x96;9. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Borgia, Stefano</persName>
                   </author>
@@ -98,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-775">Rom</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-775"
+                      sortKey="1795-04-25"
+                      when="1795-04-25"
+                      where="#orgplc-775">
+                  <label>1795, Apr. 25</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +130,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-775">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-775">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0768</classCode>
-            <classCode scheme="anchor"> Mai1795</classCode>
+            <classCode scheme="anchor">Mai1795</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

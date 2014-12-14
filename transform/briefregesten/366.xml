@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach rechtfertigt gegenÜber Leopoldo Marc&#x92;Antonio Caldani seine epigenetische Überzeugung mit seinen Beobachtungsdaten und bittet um Zusendung einer Publikation Caldanis und die Beschaffung einer schwer erhältlichen Publikation von Giovanni Battista Canano. </title>
+            <title type="main">Blumenbach rechtfertigt gegenüber Leopoldo Marc&#x92;Antonio Caldani seine epigenetische überzeugung mit seinen Beobachtungsdaten und bittet um Zusendung einer Publikation Caldanis und die Beschaffung einer schwer erhältlichen Publikation von Giovanni Battista Canano. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1787-05-26"> 1787, Mai 26</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/366.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 91 Nr. 0457.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 91 Nr. 0457.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -66,7 +66,7 @@
                <rs type="object"/>
             </note>
             <note>
-               <rs type="span"> Institutiones physiologicae (1787; Bibliographie Nr.00065), speziell erwähnt wird der Abschnitt Über den &#x84;nisus formativus&#x93;, S. 460&#x96;470;Introductio in historiam medicinae litterariam(1786;Bibliographie Nr. 00142); De nisu formativo et generationis negotio nuperae observationes (1787; Bibliographie Nr. 00054).</rs>
+               <rs type="span"/>
             </note>
             <note>
                <rs type="bibl"> </rs>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">Institutiones physiologicae (1787; Bibliographie Nr.00065), speziell erwähnt wird der Abschnitt über den &#x84;nisus formativus&#x93;, S. 460&#x96;470;Introductio in historiam medicinae litterariam(1786;Bibliographie Nr. 00142); De nisu formativo et generationis negotio nuperae observationes (1787; Bibliographie Nr. 00054).</rs>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=109"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 91 Nr. 0457 </rs>
+               <rs type="edition">Corresp. III, S. 91 Nr. 0457 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Bologna, Biblioteca dell&#x92;Archiginnasio, Collezione autografi, VIII, 2574. </title>
+                  <title level="m" type="main">Bologna, Biblioteca dell&#x92;Archiginnasio, Collezione autografi, VIII, 2574. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-366">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-366"
+                      sortKey="1787-05-26"
+                      when="1787-05-26"
+                      where="#orgplc-366">
+                  <label>1787, Mai 26</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-366">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-366">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Caldani, Leopoldo Marc&#x92;Antonio</persName>
          </creation>

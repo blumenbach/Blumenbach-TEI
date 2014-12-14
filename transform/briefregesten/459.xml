@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Thomas von Asch sendet Blumenbach aktuelle russische Landkarten, Stiche und einige Mineralien und kÜndigt den Versand von weiteren menschlichen Schädeln fÜr Blumenbachs Sammlung an. </title>
+            <title type="main">Georg Thomas von Asch sendet Blumenbach aktuelle russische Landkarten, Stiche und einige Mineralien und kündigt den Versand von weiteren menschlichen Schädeln für Blumenbachs Sammlung an. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Asch, Georg Thomas von</persName>
             </author>
@@ -37,9 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> 1789, Juli 14  St. Petersburg</pubPlace>
-            <date type="publication"
-                  when=" [= julian. Kal.: Juli 3]  1789-07-14  [= julian. Kal.: 1789-07-03]"/>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -47,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/459.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -58,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 235 Nr. 0559.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 235 Nr. 0559.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Russische Landkarten und Kupferstiche fÜr das Academische Museum der Universität Göttingen, sowiezwei russische Landkarten als persönliches Geschenk an Blumenbach; Mineralstufen (keine genaueren Angaben im Brief).</rs>
+               <rs type="object">Russische Landkarten und Kupferstiche für das Academische Museum der Universität Göttingen, sowiezwei russische Landkarten als persönliches Geschenk an Blumenbach; Mineralstufen (keine genaueren Angaben im Brief).</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -76,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=253"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 235 Nr. 0559 </rs>
+               <rs type="edition">Corresp. III, S. 235 Nr. 0559 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach III, fol. 15. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach III, fol. 15. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Asch, Georg Thomas von</persName>
                   </author>
@@ -99,6 +101,28 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-459">St. Petersburg</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-459"
+                      sortKey="1789-07-14"
+                      when="1789-07-14"
+                      where="#orgplc-459">
+                  <label>1789, Juli 14</label>
+               </event>
+            </listEvent>
+            <listEvent>
+               <event type="julian-origin"
+                      datingMethod="#julian-459"
+                      when="1789-07-03"
+                      where="#orgplc">
+                  <label>1789, Juli 14</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +137,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-459">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-459">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Joseph Banks berichtet Blumenbach Über erste englische Analyseergebnisse und Über traditionelle und moderne Verwendungsweisen der in Indien produzierten Stahlart &#x84;Wootz&#x93; und Über die geologischen und mineralogischen Merkmale eines neu entdeckten Goldvorkommens in Irland. </title>
+            <title type="main">Joseph Banks berichtet Blumenbach über erste englische Analyseergebnisse und über traditionelle und moderne Verwendungsweisen der in Indien produzierten Stahlart &#x84;Wootz&#x93; und über die geologischen und mineralogischen Merkmale eines neu entdeckten Goldvorkommens in Irland. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>London</pubPlace>
-            <date type="publication" when=" 1795-11-16"> 1795, Nov. 16</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/826.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 474 Nr. 0955.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 474 Nr. 0955.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Blumenbach teilte den Abschnitt Über das irische Goldvorkommen am 4. Febr. 1796 brieflich Johann Heinrich Voigt mit, der ihn in einem Aufsatz in Magazin fÜr das Neueste aus der Physik und Naturgeschichte, Bd. 10, 4. Heft (1796), S. 144&#x96;145 (siehe &#x84;Dr.&#x93;) zitiert.</note>
+            <note>Blumenbach teilte den Abschnitt über das irische Goldvorkommen am 4. Febr. 1796 brieflich Johann Heinrich Voigt mit, der ihn in einem Aufsatz in Magazin für das Neueste aus der Physik und Naturgeschichte, Bd. 10, 4. Heft (1796), S. 144&#x96;145 (siehe &#x84;Dr.&#x93;) zitiert.</note>
             <note>
                <rs type="object"/>
             </note>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Abschnitt Über das irische Goldvorkommen in dt. Übers. in Magazin fÜr das Neueste aus der Physik und Naturgeschichte, Bd. 10, 4. Heft (1796), S. 144&#x96;145.</rs>
+               <rs type="bibl">Abschnitt über das irische Goldvorkommen in dt. übers. in Magazin für das Neueste aus der Physik und Naturgeschichte, Bd. 10, 4. Heft (1796), S. 144&#x96;145.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=486"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 474 Nr. 0955 </rs>
+               <rs type="edition">Corresp. IV, S. 474 Nr. 0955 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 3 (Banks Nr. 8). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 3 (Banks Nr. 8). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-826">London</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-826"
+                      sortKey="1795-11-16"
+                      when="1795-11-16"
+                      where="#orgplc-826">
+                  <label>1795, Nov. 16</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-826">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-826">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

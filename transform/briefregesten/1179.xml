@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendetJoseph Banks ein Empfehlungsschreiben fÜr Carl von Beaulieu-Marconnay und erwähnt dessenbesonderes Interesse an der Forstwirtschaft. </title>
+            <title type="main">Blumenbach sendetJoseph Banks ein Empfehlungsschreiben für Carl von Beaulieu-Marconnay und erwähnt dessenbesonderes Interesse an der Forstwirtschaft. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1800-06-29"> 1800, Juni 29</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1179.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 479&#x96;480 Nr. 1316.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 479&#x96;480 Nr. 1316.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Vgl. Regest in Dawson, The Banks Letters (1958), S. 116 Nr. 58 (datiert auf Sept. 29).</rs>
+               <rs type="bibl">Vgl. Regest in Dawson, The Banks Letters (1958), S. 116 Nr. 58 (datiert auf Sept. 29).</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=495"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 479&#x96;480 Nr. 1316 </rs>
+               <rs type="edition">Corresp. V, S. 479&#x96;480 Nr. 1316 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, British Library, Add MS 8099, fol. 24. </title>
+                  <title level="m" type="main">London, British Library, Add MS 8099, fol. 24. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1179">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1179"
+                      sortKey="1800-06-29"
+                      when="1800-06-29"
+                      where="#orgplc-1179">
+                  <label>1800, Juni 29</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1179">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1179">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Banks, Joseph</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">1163</classCode>
-            <classCode scheme="anchor"> Juli1800</classCode>
+            <classCode scheme="anchor">Juli1800</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach kommentiert Blumenbach an Belsazar (Balthasar) (de la Motte) Hacquetsbriefliche BemerkungenÜber die Mumifizierungstechnik der ägypter, Beobachtungen zur Hautfarbe von Afrikanern und die Theorie, dass die Afrikaner die &#x84;Stammrasse&#x93;der Spezies Menschseien, äußert seine Ansichten unter anderem zur Produktion von Zucker aus RunkelrÜben und zu der von Edward Jenner entdeckten Pockenschutzimpfung durch Kuhpockenserum und berichtet ÜberFossilienfunde in Paris undin Mitteldeutschland. </title>
+            <title type="main">Blumenbach kommentiert Blumenbach an Belsazar (Balthasar) (de la Motte) Hacquetsbriefliche Bemerkungenüber die Mumifizierungstechnik der ägypter, Beobachtungen zur Hautfarbe von Afrikanern und die Theorie, dass die Afrikaner die &#x84;Stammrasse&#x93;der Spezies Menschseien, äußert seine Ansichten unter anderem zur Produktion von Zucker aus Runkelrüben und zu der von Edward Jenner entdeckten Pockenschutzimpfung durch Kuhpockenserum und berichtet überFossilienfunde in Paris undin Mitteldeutschland. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/"> (de la Motte) Hacquet, Belsazar (Balthasar) </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1799-10-17"> 1799, nach Okt. 17</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1124.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 412&#x96;417 Nr. 1259.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 412&#x96;417 Nr. 1259.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=428"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S.412&#x96;417 Nr. 1259 </rs>
+               <rs type="edition">Corresp. V, S.412&#x96;417 Nr. 1259 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, 2 Cod. Ms. Philos. 182, J. Fr. Blumenbach. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, 2 Cod. Ms. Philos. 182, J. Fr. Blumenbach. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/"> (de la Motte) Hacquet, Belsazar (Balthasar) </persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1124">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1799-10-17">
-                  <label> 1799, nach Okt. 17</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1124"
+                      sortKey="1799-10-17"
+                      notBefore="1799-10-17"
+                      where="#orgplc-1124">
+                  <label>1799, nach Okt. 17</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1124">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1124">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">1108</classCode>
-            <classCode scheme="anchor"> Nov1799</classCode>
+            <classCode scheme="anchor">Nov1799</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

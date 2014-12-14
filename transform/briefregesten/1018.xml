@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Georg Koch beschreibt Blumenbach [u. a. die Verwendung von Asbest als Modelliermasse]. </title>
+            <title type="main">Johann Georg Koch beschreibt Blumenbach [u. a. die Verwendung von Asbest als Modelliermasse]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Koch, Johann Georg</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> St. Petersburg</pubPlace>
-            <date type="publication" when=" 1798-05-25"> 1798, Mai 25</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1018.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,29 +57,33 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 265&#x96;266 Nr. 1155.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 265&#x96;266 Nr. 1155.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Drei aus &#x84;Asbest oder Amianth von Nertschinsk&#x93; angefertigter AbdrÜcke von Medaillons.</rs>
+               <rs type="object">Drei aus &#x84;Asbest oder Amianth von Nertschinsk&#x93; angefertigter Abdrücke von Medaillons.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszugin Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 2, 1. StÜck (1800), S. 31 (&#x84;7) Ueber den Gebrauch des Asbests zur Plastik&#x93;, Bibliographie Nr. 00863).</rs>
+               <rs type="bibl">Auszugin Magazin für den neuesten Zustand der Naturkunde, Bd. 2, 1. Stück (1800), S. 31 (&#x84;7) Ueber den Gebrauch des Asbests zur Plastik&#x93;, Bibliographie Nr. 00863).</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00863 (siehe&#x84;Dr.&#x93;).
+</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00863"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=281"/>
             </note>
             <note>
-               <rs type="edition"> 00863   Corresp. V, S. 265&#x96;266 Nr. 1155 </rs>
+               <rs type="edition">00863  Corresp. V, S. 265&#x96;266 Nr. 1155 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -99,6 +103,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1018">St. Petersburg</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1018"
+                      sortKey="1798-05-25"
+                      when="1798-05-25"
+                      where="#orgplc-1018">
+                  <label>1798, Mai 25</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +131,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1018">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1018">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

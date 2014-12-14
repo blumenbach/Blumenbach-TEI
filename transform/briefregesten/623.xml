@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Christian Friedrich Ludwig sendet Blumenbach aus Leipzig [eine Liste mit?] Leipziger medizinische[n] Publikationen der Jahre 1791-1792. </title>
+            <title type="main">Christian Friedrich Ludwig sendet Blumenbach aus Leipzig [eine Liste mit?] Leipziger medizinische[n] Publikationen der Jahre 1791-1792. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Ludwig, Christian Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Leipzig</pubPlace>
-            <date type="publication" when=" 1792-04-08"> 1792, April 8</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/623.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 150 Nr. 0731.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 150 Nr. 0731.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=162"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 150 Nr. 0731 </rs>
+               <rs type="edition">Corresp. IV, S. 150 Nr. 0731 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Leipzig, Universitätsbibliothek Cod. Ms. 0663, fol. 67v (nur Liste). </title>
+                  <title level="m" type="main">Leipzig, Universitätsbibliothek Cod. Ms. 0663, fol. 67v (nur Liste). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Ludwig, Christian Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-623">Leipzig</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-623"
+                      sortKey="1792-04-08"
+                      when="1792-04-08"
+                      where="#orgplc-623">
+                  <label>1792, April 8</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-623">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-623">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

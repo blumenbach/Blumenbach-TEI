@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teilt der Königlichen Societät der Wissenschaften zu Göttingen seine negative Beurteilung der auf diePreisfrage der physikalischen Klasse der Societät fÜr das Jahr 1799 eingereichten Abhandlung mit und empfiehlt, die Frage erneut zur Beantwortung auszuschreiben. </title>
+            <title type="main">Blumenbach teilt der Königlichen Societät der Wissenschaften zu Göttingen seine negative Beurteilung der auf diePreisfrage der physikalischen Klasse der Societät für das Jahr 1799 eingereichten Abhandlung mit und empfiehlt, die Frage erneut zur Beantwortung auszuschreiben. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1799-09-30"> 1799, nach Sept. 30</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1120.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 408&#x96;409 Nr. 1255.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 408&#x96;409 Nr. 1255.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Datierung anhand des Eingangsdatums der beurteilten Abhandlung (30. Sept. 1799). Brieftext mit leichten stilistischen Eingriffen von Chr. G. Heyne verwendet in dessen Bericht zur Tätigkeit der Akademie in den GAgS 1799, 196. StÜck, S. 1953&#x96;1960, hier S. 1955&#x96;1956.</note>
+            <note>Datierung anhand des Eingangsdatums der beurteilten Abhandlung (30. Sept. 1799). Brieftext mit leichten stilistischen Eingriffen von Chr. G. Heyne verwendet in dessen Bericht zur Tätigkeit der Akademie in den GAgS 1799, 196. Stück, S. 1953&#x96;1960, hier S. 1955&#x96;1956.</note>
             <note>
                <rs type="object"/>
             </note>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=424"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 408&#x96;409 Nr. 1255 </rs>
+               <rs type="edition">Corresp. V, S. 408&#x96;409 Nr. 1255 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Akademie der Wissenschaften, Archiv, Scient. 183, 2, Fasc.8, Nr. 2. </title>
+                  <title level="m" type="main">Göttingen, Akademie der Wissenschaften, Archiv, Scient. 183, 2, Fasc.8, Nr. 2. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1120">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1799-09-30">
-                  <label> 1799, nach Sept. 30</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1120"
+                      sortKey="1799-09-30"
+                      notBefore="1799-09-30"
+                      where="#orgplc-1120">
+                  <label>1799, nach Sept. 30</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1120">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1120">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Königliche Societät der Wissenschaften zu Göttingen</persName>
          </creation>

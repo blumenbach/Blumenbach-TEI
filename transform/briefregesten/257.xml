@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach Übermittelt der Königlichen Societät der Wissenschaften zu Göttingen den Wunsch Matthäus Mederer von Wuthwehrs, zum korrespondierenden Mitglied der Societät der Wissenschaften gewählt zu werden, und gibt eine knappe Einschätzung von dessen wissenschaftlichen Verdiensten. </title>
+            <title type="main">Blumenbach übermittelt der Königlichen Societät der Wissenschaften zu Göttingen den Wunsch Matthäus Mederer von Wuthwehrs, zum korrespondierenden Mitglied der Societät der Wissenschaften gewählt zu werden, und gibt eine knappe Einschätzung von dessen wissenschaftlichen Verdiensten. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1785-04-07 oder 1785-04-08"> 1785, Apr. 7 oder Apr. 8</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/257.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp.II, S. 261 Nr. 0344.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp.II, S. 261 Nr. 0344.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Akademie der Wissenschaften, Archiv, Pers. 20, Nr. 63.</title>
+                  <title level="m" type="main">Göttingen, Akademie der Wissenschaften, Archiv, Pers. 20, Nr. 63.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-257">oder Apr. 8 Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-257"
+                      sortKey="1785-04-07 oder 1785-04-08"
+                      when="1785-04-07 oder 1785-04-08"
+                      where="#orgplc-257">
+                  <label>1785, Apr. 7</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-257">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-257">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Königliche Societät der Wissenschaften zu Göttingen </persName>
          </creation>

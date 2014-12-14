@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbachbeantragt bei Christian Gottlob Heyne fÜr seinen Studenten Johann Friedrich Wilhelm Richter die Genehmigung, die Universitätsbibliothek zeitweilig auch vormittags zu nutzen. </title>
+            <title type="main">Blumenbachbeantragt bei Christian Gottlob Heyne für seinen Studenten Johann Friedrich Wilhelm Richter die Genehmigung, die Universitätsbibliothek zeitweilig auch vormittags zu nutzen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1800-09-20"> 1800, vor Sept. 20</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1201.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 512 Nr. 1340.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 512 Nr. 1340.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -66,26 +66,29 @@
                <rs type="object"/>
             </note>
             <note>
-               <rs type="span">  </rs>
+               <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> </rs>
+               <rs type="bibl">   </rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=528"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 512 Nr. 1340 </rs>
+               <rs type="edition">Corresp. V, S. 512 Nr. 1340 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Bibliotheksarchiv A 23 e , 27, fol. 95. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Bibliotheksarchiv A 23 e , 27, fol. 95. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1201">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1800-09-20">
-                  <label> 1800, vor Sept. 20</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1201"
+                      sortKey="1800-09-20"
+                      notAfter="1800-09-20"
+                      where="#orgplc-1201">
+                  <label>1800, vor Sept. 20</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1201">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1201">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Heyne, Christian Gottlob </persName>
          </creation>

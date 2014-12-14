@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> [Christian Erhard ?] Kapp berichtet Blumenbach [Über die durch Johann Gottfried Schadow 1800 in Berlin gezeichneten Köpfe von zwei Begleiterinnen der Herzogin von Holstein-Beck, 1) der Ann. Terneiff aus der Gegend von Otschakov, 2) der Circassierin Catiche Beléwa]. </title>
+            <title type="main"> [Christian Erhard ?] Kapp berichtet Blumenbach [über die durch Johann Gottfried Schadow 1800 in Berlin gezeichneten Köpfe von zwei Begleiterinnen der Herzogin von Holstein-Beck, 1) der Ann. Terneiff aus der Gegend von Otschakov, 2) der Circassierin Catiche Beléwa]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Kapp, [Christian Erhard ?]</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Leipzig</pubPlace>
-            <date type="publication" when=" 1801-11-29"> 1801, Nov. 29</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1242.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms.Blumenbach IX,fol. ?, Meyer, Handschriften in Göttingen 3 (1894), S. 80.</title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms.Blumenbach IX,fol. ?, Meyer, Handschriften in Göttingen 3 (1894), S. 80.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Kapp, [Christian Erhard ?]</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1242">Leipzig</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1242"
+                      sortKey="1801-11-29"
+                      when="1801-11-29"
+                      where="#orgplc-1242">
+                  <label>1801, Nov. 29</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1242">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1242">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

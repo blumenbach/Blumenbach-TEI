@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Joseph Banks teilt Blumenbach mit, dass er ihmeineGuanchen-Mumie von Teneriffa senden werde, und berichtet [u. a. Über erste Ergebnisse der Untersuchungen zurAnatomie derFortpflanzungsorgane männlicher und weiblicher Schnabeltiere und Über das neu entdeckte Metall Niob (&#x84;Columbium&#x93;)]. </title>
+            <title type="main">Joseph Banks teilt Blumenbach mit, dass er ihmeineGuanchen-Mumie von Teneriffa senden werde, und berichtet [u. a. über erste Ergebnisse der Untersuchungen zurAnatomie derFortpflanzungsorgane männlicher und weiblicher Schnabeltiere und über das neu entdeckte Metall Niob (&#x84;Columbium&#x93;)]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> London</pubPlace>
-            <date type="publication" when=" 1801-11-26"> 1801, Nov. 26</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1241.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,22 +57,26 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> AngekÜndigt: Guanchen-Mumie (Göttingen, Inst. fÜr Anthropologie; Abb. des Schädels inDecas craniorum 5 (1808), Tafel 42; Bibliographie Nr. 00096); S/W-Foto von Mumie und Schädel in250 Jahre Georg-August-Universität. Ausstellungskatalog. Göttingen 1987, S. 109&#x96;110.</rs>
+               <rs type="object">Angekündigt: Guanchen-Mumie (Göttingen, Inst. für Anthropologie; Abb. des Schädels inDecas craniorum 5 (1808), Tafel 42; Bibliographie Nr. 00096); S/W-Foto von Mumie und Schädel in250 Jahre Georg-August-Universität. Ausstellungskatalog. Göttingen 1987, S. 109&#x96;110.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> AuszÜge in Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 3, 4. StÜck (1802), S. 723 (&#x84;4) Eine Guanchen-Mumie von Tenerife&#x93;,Bibliographie Nr. 00893), S. 724&#x96;725 (&#x84;5) Zur Anatomie des Schnabelthiers&#x93;,Bibliographie Nr. 00894) und S. 724&#x96;725 (&#x84;6) Columbium, ein neues Metall&#x93;,Bibliographie Nr. ).</rs>
+               <rs type="bibl">Auszüge in Magazin für den neuesten Zustand der Naturkunde, Bd. 3, 4. Stück (1802), S. 723 (&#x84;4) Eine Guanchen-Mumie von Tenerife&#x93;,Bibliographie Nr. 00893), S. 724&#x96;725 (&#x84;5) Zur Anatomie des Schnabelthiers&#x93;,Bibliographie Nr. 00894) und S. 724&#x96;725 (&#x84;6) Columbium, ein neues Metall&#x93;,Bibliographie Nr. ).</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00893, 00894 und 00895 (siehe&#x84;Dr.&#x93;).
+</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00893"/>
@@ -80,7 +84,7 @@
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00895"/>
             </note>
             <note>
-               <rs type="edition"> 008930089400895 </rs>
+               <rs type="edition">008930089400895 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -100,6 +104,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1241">London</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1241"
+                      sortKey="1801-11-26"
+                      when="1801-11-26"
+                      where="#orgplc-1241">
+                  <label>1801, Nov. 26</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -114,6 +132,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1241">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1241">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

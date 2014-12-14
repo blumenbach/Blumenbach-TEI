@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teilt Adolph Murray Forschungsergebnisse von Samuel Thomas Soemmerring zur Anatomie der Sehnerven und des Gehirns und von Paul Christian Friedrich Werner zur Parasitologie mit. </title>
+            <title type="main">Blumenbach teilt Adolph Murray Forschungsergebnisse von Samuel Thomas Soemmerring zur Anatomie der Sehnerven und des Gehirns und von Paul Christian Friedrich Werner zur Parasitologie mit. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1786-03-24"> 1786, März 24</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/318.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 25 Nr. 0408.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 25 Nr. 0408.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=43"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 25 Nr. 0408 </rs>
+               <rs type="edition">Corresp. III, S. 25 Nr. 0408 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Stockholm, Riksarkivet, Murrayska släktarkivet, vol. 68, S. 156&#x96;157. </title>
+                  <title level="m" type="main">Stockholm, Riksarkivet, Murrayska släktarkivet, vol. 68, S. 156&#x96;157. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-318">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-318"
+                      sortKey="1786-03-24"
+                      when="1786-03-24"
+                      where="#orgplc-318">
+                  <label>1786, März 24</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-318">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-318">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Murray, Adolph</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0314</classCode>
-            <classCode scheme="anchor"> Apr1786</classCode>
+            <classCode scheme="anchor">Apr1786</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

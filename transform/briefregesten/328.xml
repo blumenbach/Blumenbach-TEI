@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Christoph Lichtenberg lädt Blumenbach ein, seinen Nachbau einer hydraulischen Maschine zu besichtigen, und kommentiert zustimmend Blumenbachs negative Rezension von J. Chr. Henckes Völligentdektes Geheimniß der Natur (1786). </title>
+            <title type="main">Georg Christoph Lichtenberg lädt Blumenbach ein, seinen Nachbau einer hydraulischen Maschine zu besichtigen, und kommentiert zustimmend Blumenbachs negative Rezension von J. Chr. Henckes Völligentdektes Geheimniß der Natur (1786). </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1786-06-21"> 1786, nach Juni 21</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/328.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 38 Nr. 0418.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 38 Nr. 0418.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,27 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 31 (Datierung: nach Juni 21); Lichtenberg, Briefwechsel, Bd. 3 (1990), Nr. 1453, S. 230&#x96;231 (Datierung: kurz nach Juni 21).</rs>
+               <rs type="bibl">Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 31 (Datierung: nach Juni 21); Lichtenberg, Briefwechsel, Bd. 3 (1990), Nr. 1453, S. 230&#x96;231 (Datierung: kurz nach Juni 21).</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">Rezension von Hencke, Johann Christoph: Völlig entdektes Geheimniß der Natur, sowol in der Erzeugung des Menschen als auch in der willkührlichen Wahl des Geschlechts der Kinder (1786) in GAgS 1786 (98. Stück, 21. Juni), S. 978&#x96;982 (= Bibliographie Nr. 00289). 
+</rs>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=56"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 38 Nr. 0418 </rs>
+               <rs type="edition">Corresp. III, S. 38 Nr. 0418 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826. </title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph</persName>
                   </author>
@@ -98,9 +102,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-328">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1786-06-21">
-                  <label> 1786, nach Juni 21</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-328"
+                      sortKey="1786-06-21"
+                      notBefore="1786-06-21"
+                      where="#orgplc-328">
+                  <label>1786, nach Juni 21</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-328">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-328">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

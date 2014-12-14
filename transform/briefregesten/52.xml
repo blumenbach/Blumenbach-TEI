@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Christiane Henriette von Waldeck sendet Blumenbach drei Gesteinsproben zur Identifikation. </title>
+            <title type="main">Christiane Henriette von Waldeck sendet Blumenbach drei Gesteinsproben zur Identifikation. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Waldeck, Christiane Henriette von </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Arolsen</pubPlace>
-            <date type="publication" when=" 1777-12-18"> 1777, Dez. 18</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/52.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 137 Nr. 0075.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 137 Nr. 0075.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Schieferabdruck aus Wirminghausen mit &#x84;Schilf&#x93;; Basalt vom Lammesberg.</rs>
+               <rs type="object">Schieferabdruck aus Wirminghausen mit &#x84;Schilf&#x93;; Basalt vom Lammesberg.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 1 (Christiane von Waldeck Nr. 4). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 1 (Christiane von Waldeck Nr. 4). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Waldeck, Christiane Henriette von </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-52">Arolsen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-52"
+                      sortKey="1777-12-18"
+                      when="1777-12-18"
+                      where="#orgplc-52">
+                  <label>1777, Dez. 18</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-52">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-52">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>

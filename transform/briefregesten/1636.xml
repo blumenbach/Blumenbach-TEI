@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach dankt Ludwig I. von Bayern fÜr die Zusendung eines antiken Etruskerschädels aus Tarquinia fÜr seine Sammlung und fÜr andere, frÜher gesandte Sammlungsobjekte. </title>
+            <title type="main">Blumenbach dankt Ludwig I. von Bayern für die Zusendung eines antiken Etruskerschädels aus Tarquinia für seine Sammlung und für andere, früher gesandte Sammlungsobjekte. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1834-11-28"> 1834, Nov. 28</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1636.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,22 +57,25 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Etruskerschädel (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 403); etruskische Schädelfragmente; Aerolith von Maurkirchen; antiker griechischer Schädel aus der Vasensammlung des Bischofs zu Nola(Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 502;Abb. inDecas craniorum 6 (1820; Bibliographie Nr. 00097), Tafel 51).</rs>
+               <rs type="object">Etruskerschädel (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 403); etruskische Schädelfragmente; Aerolith von Maurkirchen; antiker griechischer Schädel aus der Vasensammlung des Bischofs zu Nola(Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 502;Abb. inDecas craniorum 6 (1820; Bibliographie Nr. 00097), Tafel 51).</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Dougherty, Commercium epistolicum (1984), S. 87&#x96;89 KatNr. 103 (mit Abbildung).</rs>
+               <rs type="bibl">Dougherty, Commercium epistolicum (1984), S. 87&#x96;89 KatNr. 103 (mit Abbildung).</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Philos. 182, J.F. Blumenbach, 28.11.1834. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Philos. 182, J.F. Blumenbach, 28.11.1834. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1636">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1636"
+                      sortKey="1834-11-28"
+                      when="1834-11-28"
+                      where="#orgplc-1636">
+                  <label>1834, Nov. 28</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1636">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1636">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Ludwig I. von Bayern</persName>
          </creation>

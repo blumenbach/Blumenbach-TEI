@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Joseph Banks teilt Blumenbach mit, dass er dessen in der Royal Society verlesenen Aufsatz Überdas Schnabeltier nicht in die Transactions der Society aufgenommen habe, weil die darin enthaltene Angabe zur Zahnlosigkeit des Tieresdurch Everard Homes Beobachtungen an einem neu eingetroffenen Schnabeltierexemplar Überholt sei, und berichtet Über William Herschels Experimentezum infraroten Licht,Über die Elektrolyse von Wasser mithilfe dervon Alessandro Volta entwickelten säulenförmigen galvanischen Batterieund Über einen Meteoritenschauer in Indien. </title>
+            <title type="main">Joseph Banks teilt Blumenbach mit, dass er dessen in der Royal Society verlesenen Aufsatz überdas Schnabeltier nicht in die Transactions der Society aufgenommen habe, weil die darin enthaltene Angabe zur Zahnlosigkeit des Tieresdurch Everard Homes Beobachtungen an einem neu eingetroffenen Schnabeltierexemplar überholt sei, und berichtet über William Herschels Experimentezum infraroten Licht,über die Elektrolyse von Wasser mithilfe dervon Alessandro Volta entwickelten säulenförmigen galvanischen Batterieund über einen Meteoritenschauer in Indien. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> London</pubPlace>
-            <date type="publication" when=" 1800-07-11"> 1800, Juli 11</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1183.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 486&#x96;487 Nr. 1321.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 486&#x96;487 Nr. 1321.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,14 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> AuszÜgein Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 2, 2. StÜck (1800), S. 292&#x96;293 (&#x84;2) Ueber ebendieselbe [i. e. die Volta&#x92;sche Säule]&#x93;, Bibliographie Nr. 00868), S. 295 (&#x84;4) Hrn. D. Herschel&#x92;s Versuche Über den Unterschied zwischen Licht- und Wärme-Stralen&#x93;, Bibliographie Nr. 00870) und S. 297&#x96;298 (&#x84;7) Nachricht von einem Steinregen in Hindustan&#x93;, Bibliographie Nr. 00873)</rs>
+               <rs type="bibl">Auszügein Magazin für den neuesten Zustand der Naturkunde, Bd. 2, 2. Stück (1800), S. 292&#x96;293 (&#x84;2) Ueber ebendieselbe [i. e. die Volta&#x92;sche Säule]&#x93;, Bibliographie Nr. 00868), S. 295 (&#x84;4) Hrn. D. Herschel&#x92;s Versuche über den Unterschied zwischen Licht- und Wärme-Stralen&#x93;, Bibliographie Nr. 00870) und S. 297&#x96;298 (&#x84;7) Nachricht von einem Steinregen in Hindustan&#x93;, Bibliographie Nr. 00873)</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00868,00870und 00873 (siehe&#x84;Dr.&#x93;).
+</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00868"/>
@@ -81,14 +85,14 @@
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=502"/>
             </note>
             <note>
-               <rs type="edition"> 008680087000873   Corresp. V, S. 486&#x96;487 Nr. 1321 </rs>
+               <rs type="edition">008680087000873  Corresp. V, S. 486&#x96;487 Nr. 1321 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 3 (BanksNr. 12).</title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 3 (BanksNr. 12).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
                   </author>
@@ -101,6 +105,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1183">London</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1183"
+                      sortKey="1800-07-11"
+                      when="1800-07-11"
+                      where="#orgplc-1183">
+                  <label>1800, Juli 11</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -115,6 +133,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1183">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1183">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Joseph Banks deutschsprachige Publikationen, bittet fÜr seine Sammlungen um eventuell neu eingetroffene Objekte aus der SÜdsee und leitet eine Anfrage von Johann David Schoepf Über neue Schildkrötenarten weiter. </title>
+            <title type="main">Blumenbach sendet Joseph Banks deutschsprachige Publikationen, bittet für seine Sammlungen um eventuell neu eingetroffene Objekte aus der Südsee und leitet eine Anfrage von Johann David Schoepf über neue Schildkrötenarten weiter. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1793-04-06"> 1793, April 6</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/683.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 249 Nr. 0804.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 249 Nr. 0804.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,24 +69,27 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S. 112 Nr. 23.</rs>
+               <rs type="bibl">Vgl. ausführl. Regest in Dawson, The Banks Letters (1958), S. 112 Nr. 23.</rs>
             </note>
             <note>
-               <rs type="lz"> Decas craniorum 2 (1793; Bibliographie Nr. 00093). </rs>
+               <rs type="lz">Decas craniorum 2 (1793; Bibliographie Nr. 00093). </rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00093"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=261"/>
             </note>
             <note>
-               <rs type="edition"> 00093   Corresp. IV, S. 249 Nr. 0804 </rs>
+               <rs type="edition">00093  Corresp. IV, S. 249 Nr. 0804 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, British Library, Add MS 8098, fol. 114. </title>
+                  <title level="m" type="main">London, British Library, Add MS 8098, fol. 114. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-683">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-683"
+                      sortKey="1793-04-06"
+                      when="1793-04-06"
+                      where="#orgplc-683">
+                  <label>1793, April 6</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-683">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-683">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Banks, Joseph</persName>
          </creation>

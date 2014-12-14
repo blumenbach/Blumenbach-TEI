@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teilt [der Redaktion der Tageszeitung Allgemeiner Anzeiger und Nationalzeitung der Deutschen] mit, dass ZeitungsberichteÜberÜbergriffe von hannoverschen Soldatenauf Blumenbach während der Unruhen in Göttingen [Ende Februar/Anfang März 1831] unzutreffend sind. </title>
+            <title type="main">Blumenbach teilt [der Redaktion der Tageszeitung Allgemeiner Anzeiger und Nationalzeitung der Deutschen] mit, dass Zeitungsberichteüberübergriffe von hannoverschen Soldatenauf Blumenbach während der Unruhen in Göttingen [Ende Februar/Anfang März 1831] unzutreffend sind. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1831-03-20"> 1831  , März 20</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1622.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,36 +57,39 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Vgl. die Meldung Über Soldatenunruhen in Göttingen (jedoch ohne Erwähnung Blumenbachs) inAllgemeiner Anzeiger und Nationalzeitung der Deutschen, 5. März 1831, Sp. 889. </note>
+            <note>Vgl. die Meldung über Soldatenunruhen in Göttingen (jedoch ohne Erwähnung Blumenbachs) inAllgemeiner Anzeiger und Nationalzeitung der Deutschen, 5. März 1831, Sp. 889. </note>
             <note>
                <rs type="object"/>
             </note>
             <note>
-               <rs type="span"> Allgemeiner Anzeiger und Nationalzeitung der Deutschen, von Freitag, 25. März 1831, Sp. 1185&#x96;1186 unter der Rubrik &#x84;Allerhand&#x93;mit der Überschrift &#x84;Berichtigung&#x93;.</rs>
+               <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> </rs>
+               <rs type="bibl">  Allgemeiner Anzeiger und Nationalzeitung der Deutschen, von Freitag, 25. März 1831, Sp. 1185&#x96;1186 unter der Rubrik &#x84;Allerhand&#x93;mit der überschrift &#x84;Berichtigung&#x93;.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://waller.ub.uu.se/18093.htmlhttp://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/Transkriptionen/Blumenbach_Anzeiger_1831Maerz20_Transkription.html"/>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/Transkriptionen/AllgemAnzeiger1831Maerz25.pdf"/>
             </note>
             <note>
-               <rs type="edition"> Digitalisat online verfÜgbarTranskription   25. März 1831, Sp. 1185&#x96;1186 </rs>
+               <rs type="edition">Digitalisat online verfügbarTranskription  25. März 1831, Sp. 1185&#x96;1186 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Uppsala, Universiteitsbiblioteket, The Waller Manuscript Collection, Waller Ms de-00381; Digitalisat online verfÜgbar. Transkription. </title>
+                  <title level="m" type="main">Uppsala, Universiteitsbiblioteket, The Waller Manuscript Collection, Waller Ms de-00381; Digitalisat online verfügbar. Transkription. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1622">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1622"
+                      sortKey="1831-03-20"
+                      when="1831-03-20"
+                      where="#orgplc-1622">
+                  <label>1831  , März 20</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1622">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1622">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee"> [Allgemeiner Anzeiger und Nationalzeitung der Deutschen]</persName>
          </creation>

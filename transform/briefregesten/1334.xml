@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Wolfgang von Goethe kÜndigtBlumenbach die Zusendung von Mineralien aus der Region Carlsbad an. </title>
+            <title type="main">Johann Wolfgang von Goethe kündigtBlumenbach die Zusendung von Mineralien aus der Region Carlsbad an. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Goethe, Johann Wolfgang von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Jena</pubPlace>
-            <date type="publication" when=" 1806-08-15"> 1806, Aug. 15</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1334.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> AngekÜndigt: &#x84;Stängliche[r] Quarz, ganz von der Steinkohle durchdrungen und schwarz, rauchtopasähnliche Krystalle, aus demselbigen Gestein [&#x85;], kleine [&#x85;] Feldspathkrystalle&#x93;; &#x84;derber Granat in pyropischer Schönheit, der in Steinkohle eingefaßt ist&#x93;. </rs>
+               <rs type="object">Angekündigt: &#x84;Stängliche[r] Quarz, ganz von der Steinkohle durchdrungen und schwarz, rauchtopasähnliche Krystalle, aus demselbigen Gestein [&#x85;], kleine [&#x85;] Feldspathkrystalle&#x93;; &#x84;derber Granat in pyropischer Schönheit, der in Steinkohle eingefaßt ist&#x93;. </rs>
             </note>
             <note>
                <rs type="span"/>
@@ -72,7 +72,10 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Goethes Werke. Weimarer Ausgabe Abt. IV, Bd. 19, S. 174&#x96;175 (Brief WA-Nr. 05228). </rs>
+               <rs type="lz">Goethes Werke. Weimarer Ausgabe Abt. IV, Bd. 19, S. 174&#x96;175 (Brief WA-Nr. 05228). </rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Abschrift (nach dem Or. im Familienarchiv Blumenbach in Hannover) inWeimar, Goethe- und Schiller-Archiv: GSA 29/102, IV, S. 8.</title>
+                  <title level="m" type="main">Abschrift (nach dem Or. im Familienarchiv Blumenbach in Hannover) inWeimar, Goethe- und Schiller-Archiv: GSA 29/102, IV, S. 8.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Goethe, Johann Wolfgang von</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1334">Jena</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1334"
+                      sortKey="1806-08-15"
+                      when="1806-08-15"
+                      where="#orgplc-1334">
+                  <label>1806, Aug. 15</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1334">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1334">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

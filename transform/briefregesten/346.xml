@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Carl Caspar Siebold sendet Blumenbach die Beschreibung eines an Albinismus leidenden Jungen in WÜrzburg. </title>
+            <title type="main">Carl Caspar Siebold sendet Blumenbach die Beschreibung eines an Albinismus leidenden Jungen in Würzburg. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Siebold, Carl Caspar</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> WÜrzburg</pubPlace>
-            <date type="publication" when=" 1786-12-05"> 1786, vor Dez. 5</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/346.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 62 Nr. 0436.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 62 Nr. 0436.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=80"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 62 Nr. 0436 </rs>
+               <rs type="edition">Corresp. III, S. 62 Nr. 0436 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren; Überlieferung durch Druck inMedicinische Bibliothek Bd. 3,1. StÜck. </title>
+                  <title level="m" type="main">Or. verloren; überlieferung durch Druck inMedicinische Bibliothek Bd. 3,1. Stück. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Siebold, Carl Caspar</persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-346">Würzburg</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1786-12-05">
-                  <label> 1786, vor Dez. 5</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-346"
+                      sortKey="1786-12-05"
+                      notAfter="1786-12-05"
+                      where="#orgplc-346">
+                  <label>1786, vor Dez. 5</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-346">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-346">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

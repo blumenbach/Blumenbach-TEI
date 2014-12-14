@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Friederika Amalia Katharina (gen. Emilie) von Haller sendetBlumenbach den Schädel einer Gemse, kÜndigt die Zusendung eines Murmeltier- und eines Adlerschädels an, schlägt vor, zwei an Jodmangelsyndrom leidende Schweizer nach Göttingen einzuladen und sie nach ihrem Todwissenschaftlich zu untersuchen, und weist auf die Möglichkeit zum Ankauf des Modells eines Schweizerischen Bauernhauses fÜr das Academische Museum der Universität hin. </title>
+            <title type="main">Friederika Amalia Katharina (gen. Emilie) von Haller sendetBlumenbach den Schädel einer Gemse, kündigt die Zusendung eines Murmeltier- und eines Adlerschädels an, schlägt vor, zwei an Jodmangelsyndrom leidende Schweizer nach Göttingen einzuladen und sie nach ihrem Todwissenschaftlich zu untersuchen, und weist auf die Möglichkeit zum Ankauf des Modells eines Schweizerischen Bauernhauses für das Academische Museum der Universität hin. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Haller, Friederika Amalia Katharina (gen. Emilie) von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Bern</pubPlace>
-            <date type="publication" when=" 1800-08-05"> 1800, Aug. 5</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1190.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 494&#x96;495 Nr. 1327.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 494&#x96;495 Nr. 1327.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Zu dem Gemsen-Schädel vgl. Blumenbachs handschriftl. Sammlungsverzeichnis, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, II, fol. 113r; zum Murmeltierschädel ebd, fol. 112r.</note>
             <note>
-               <rs type="object"> Schädel eines fÜnfjährigen Gemsenbocks; angekÜndigt: Schädel eines Murmeltiers und eines Adlers.</rs>
+               <rs type="object">Schädel eines fünfjährigen Gemsenbocks; angekündigt: Schädel eines Murmeltiers und eines Adlers.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -72,7 +72,11 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 2, 2. StÜck (1800),S. 295 (&#x84;4) Hrn. D. Herschel&#x92;s Versuche Über den Unterschied zwischen Licht- und Wärme-Stralen&#x93;, Bibliographie Nr. 00870).</rs>
+               <rs type="lz">Magazin für den neuesten Zustand der Naturkunde, Bd. 2, 2. Stück (1800),S. 295 (&#x84;4) Hrn. D. Herschel&#x92;s Versuche über den Unterschied zwischen Licht- und Wärme-Stralen&#x93;, Bibliographie Nr. 00870).</rs>
+            </note>
+            <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00870(siehe&#x84;Dr.&#x93;).
+</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00870"/>
@@ -80,14 +84,14 @@
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=511"/>
             </note>
             <note>
-               <rs type="edition"> 00870   00870   Corresp. V, S. 494&#x96;495 Nr. 1327 </rs>
+               <rs type="edition">00870  00870  Corresp. V, S. 494&#x96;495 Nr. 1327 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 3 (ad Albrecht von Haller).</title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 3 (ad Albrecht von Haller).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Haller, Friederika Amalia Katharina (gen. Emilie) von</persName>
                   </author>
@@ -100,6 +104,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1190">Bern</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1190"
+                      sortKey="1800-08-05"
+                      when="1800-08-05"
+                      where="#orgplc-1190">
+                  <label>1800, Aug. 5</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -114,6 +132,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1190">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1190">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

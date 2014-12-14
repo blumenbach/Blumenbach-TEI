@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Edward Everett an Blumenbach. </title>
+            <title type="main">Edward Everett an Blumenbach. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Everett, Edward </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Rom</pubPlace>
-            <date type="publication" when=" 1818-12-22"> 1818, Dez. 22</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1479.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -66,26 +66,29 @@
                <rs type="object"/>
             </note>
             <note>
-               <rs type="span">  </rs>
+               <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> </rs>
+               <rs type="bibl">   </rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://nrs.harvard.edu/urn-3:FHCL.Hough:hou00687"/>
             </note>
             <note>
-               <rs type="edition"> http://nrs.harvard.edu/urn-3: FHCL.Hough:hou00687 </rs>
+               <rs type="edition">http://nrs.harvard.edu/urn-3: FHCL.Hough:hou00687 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Cambridge (Mass.), Harvard University, Harvard College Library, Houghton Library, MS Am 1742: Edwad Everett letter book (1818&#x96;1819) (http://nrs.harvard.edu/urn-3: FHCL.Hough:hou00687).</title>
+                  <title level="m" type="main">Cambridge (Mass.), Harvard University, Harvard College Library, Houghton Library, MS Am 1742: Edwad Everett letter book (1818&#x96;1819) (http://nrs.harvard.edu/urn-3: FHCL.Hough:hou00687).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Everett, Edward </persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1479">Rom</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1479"
+                      sortKey="1818-12-22"
+                      when="1818-12-22"
+                      where="#orgplc-1479">
+                  <label>1818, Dez. 22</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1479">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1479">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

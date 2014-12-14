@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Thomas von Asch berichtet Blumenbach von Plänen fÜr eine russische Übersetzung der vierten Auflage (1791) von dessen Handbuch der Naturgeschichte, macht Angaben zum Fundort eines Blumenbach frÜher zugesandten Minerals aus Kirgisien und sendet ein neue Mineralienprobe aus Sibirien und kÜndigt die Zusendung des Schädels eines Jakuten an. </title>
+            <title type="main">Georg Thomas von Asch berichtet Blumenbach von Plänen für eine russische übersetzung der vierten Auflage (1791) von dessen Handbuch der Naturgeschichte, macht Angaben zum Fundort eines Blumenbach früher zugesandten Minerals aus Kirgisien und sendet ein neue Mineralienprobe aus Sibirien und kündigt die Zusendung des Schädels eines Jakuten an. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Asch, Georg Thomas von</persName>
             </author>
@@ -37,9 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> 1791, Apr.14  St. Petersburg</pubPlace>
-            <date type="publication"
-                  when=" [= julian. Kal.: Apr.3]  1791-04-14  [= julian. Kal.: 1791-04-03]"/>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -47,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/569.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -58,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 47 Nr. 0670.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 47 Nr. 0670.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Vgl. auch Blumenbachs hs. Verzeichnis seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, I, fol. 6. </note>
             <note>
-               <rs type="object"> Silbernschillernder Feldspat mit eingemischtem grÜnem Steinmark aus der Gegend von Tschebarkulskaja Sloboda; ein kleiner grÜner Schörlgranat, entdeckt vom Hofrath Laxmann unterhalb der MÜndung des Achtáragda; größere dunkle und grÜne Schörlgranate; Schädels eines Jakuten (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 559;Abb. in Decas craniorum 2 (1793), Tafel 15; Bibliographie Nr. 00093).</rs>
+               <rs type="object">Silbernschillernder Feldspat mit eingemischtem grünem Steinmark aus der Gegend von Tschebarkulskaja Sloboda; ein kleiner grüner Schörlgranat, entdeckt vom Hofrath Laxmann unterhalb der Mündung des Achtáragda; größere dunkle und grüne Schörlgranate; Schädels eines Jakuten (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 559;Abb. in Decas craniorum 2 (1793), Tafel 15; Bibliographie Nr. 00093).</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -73,21 +72,24 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Rukovodstvo k estestvennoj istorīi D. Īog. Fridr. Blumenbacha (1797; Bibliographie Nr. 00051); Handbuch der Naturgeschichte (4. Auf., 1791; Bibliographie Nr.00025).</rs>
+               <rs type="lz">Rukovodstvo k estestvennoj istorīi D. Īog. Fridr. Blumenbacha (1797; Bibliographie Nr. 00051); Handbuch der Naturgeschichte (4. Auf., 1791; Bibliographie Nr.00025).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00051"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=59"/>
             </note>
             <note>
-               <rs type="edition"> 00051   Corresp. IV, S. 47 Nr. 0670 </rs>
+               <rs type="edition">00051  Corresp. IV, S. 47 Nr. 0670 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach III, fol. 20. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach III, fol. 20. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Asch, Georg Thomas von</persName>
                   </author>
@@ -100,6 +102,28 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-569">St. Petersburg</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-569"
+                      sortKey="1791-04-14"
+                      when="1791-04-14"
+                      where="#orgplc-569">
+                  <label>1791, Apr.14</label>
+               </event>
+            </listEvent>
+            <listEvent>
+               <event type="julian-origin"
+                      datingMethod="#julian-569"
+                      when="1791-04-03"
+                      where="#orgplc">
+                  <label>1791, Apr.14</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -114,6 +138,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-569">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-569">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

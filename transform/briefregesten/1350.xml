@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Wolfgang von Goethe teilt Blumenbach Vermutungen zueinem mumifizierten Schädel und zum Grottenolm mit [, von denen Blumenbach ihm Zeichnungen gesandt hatte,] und antwortet auf Blumenbachs Frage, was ihm Über [die antike rote Glasmasse] &#x84;Purpurino&#x93; bekannt ist. </title>
+            <title type="main">Johann Wolfgang von Goethe teilt Blumenbach Vermutungen zueinem mumifizierten Schädel und zum Grottenolm mit [, von denen Blumenbach ihm Zeichnungen gesandt hatte,] und antwortet auf Blumenbachs Frage, was ihm über [die antike rote Glasmasse] &#x84;Purpurino&#x93; bekannt ist. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Goethe, Johann Wolfgang von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Weimar</pubPlace>
-            <date type="publication" when=" 1807-05-09"> 1807, Mai 9</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1350.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Alternative Bezeichnung fÜr &#x84;Purpurino&#x93;: Hämatinon.</note>
+            <note>Alternative Bezeichnung für &#x84;Purpurino&#x93;: Hämatinon.</note>
             <note>
-               <rs type="object"> Antiker Schädel eines Aturers (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 794; Abb. inDecas craniorum 5 (1808), Tafel 46; Bibliographie Nr. 00096). Gesteinsproben&#x84;von der merkwÜrdigen Uebergangsgebirgsart welche [in einer beiliegendenListe] mit C bezeichnet ist&#x93;.</rs>
+               <rs type="object">Antiker Schädel eines Aturers (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 794; Abb. inDecas craniorum 5 (1808), Tafel 46; Bibliographie Nr. 00096). Gesteinsproben&#x84;von der merkwürdigen Uebergangsgebirgsart welche [in einer beiliegendenListe] mit C bezeichnet ist&#x93;.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -72,7 +72,10 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Goethes Werke. Weimarer Ausgabe Abt. IV, Bd. 19, S. 326&#x96;329 (Brief WA-Nr. 05366); Dougherty, Commercium epistolicum (1984), S. 96&#x96;97 KatNr. 116.</rs>
+               <rs type="lz">Goethes Werke. Weimarer Ausgabe Abt. IV, Bd. 19, S. 326&#x96;329 (Brief WA-Nr. 05366); Dougherty, Commercium epistolicum (1984), S. 96&#x96;97 KatNr. 116.</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv; Abschrift (nach dem Or. im Familienarchiv Blumenbach in Hannover) inWeimar, Goethe- und Schiller-Archiv: GSA 29/102, IV, S. 13&#x96;15.</title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv; Abschrift (nach dem Or. im Familienarchiv Blumenbach in Hannover) inWeimar, Goethe- und Schiller-Archiv: GSA 29/102, IV, S. 13&#x96;15.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Goethe, Johann Wolfgang von</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1350">Weimar</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1350"
+                      sortKey="1807-05-09"
+                      when="1807-05-09"
+                      where="#orgplc-1350">
+                  <label>1807, Mai 9</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1350">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1350">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

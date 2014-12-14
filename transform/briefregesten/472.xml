@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Thomas von Asch sendet Blumenbach neun menschliche Schädel aus dem Wolga-Gebiet und der Ukraine. </title>
+            <title type="main">Georg Thomas von Asch sendet Blumenbach neun menschliche Schädel aus dem Wolga-Gebiet und der Ukraine. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Asch, Georg Thomas von</persName>
             </author>
@@ -37,9 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> 1789, Sept.12  St. Petersburg</pubPlace>
-            <date type="publication"
-                  when=" [= julian. Kal.: Sept. 1]  1789-09-12  [= julian. Kal.: 1789-09-01]"/>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -47,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/472.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -58,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 255 Nr. 0573.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 255 Nr. 0573.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Vgl. auch Blumenbachs hs. Verzeichnis seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, I, fol. 3 (Nrr. 465, 466, 470, 475, 476, 485), fol. 4 (Nr. 577), fol. 5 (Nrr. 513, 514).</note>
             <note>
-               <rs type="object"> Neun menschliche Schädel aus dem Wolga-Gebiet und der Ukraine (Göttingen, Inst. f. Anatomie, Schädelsammlung Nrr. 476 (&#x84;von Nyschenovogorodschen Gouvernement&#x93;, 485 (&#x84;vom Kostromschen Gouvernement&#x93;), 577 (&#x84;eines Tataren, [&#x85;] vom Kasanschen Gouvernement&#x93;; Abb. in Hauser-Schäublin und KrÜger, Siberia and Russian America (2007), S. 30), 513 (&#x84;von Oczakow [&#x85;] gebliebener TÜrke&#x93; = Decas craniorum 1 (1790), Tafel 2; Bibliographie Nr. 00092), 514 (&#x84;von Oczakow[&#x85;] gebliebener TÜrke [&#x85;] besonders schief und verschoben&#x93;), 465 (&#x84;vom Romanowschen Kreise&#x93;), 470 (&#x84;vom Swenigorodschen Kreise&#x93;), 466 (&#x84;aus der Stadt Rybnoi&#x93;), 475 (&#x84;vom Krasnoicholmskischen Kreise&#x93;)).</rs>
+               <rs type="object">Neun menschliche Schädel aus dem Wolga-Gebiet und der Ukraine (Göttingen, Inst. f. Anatomie, Schädelsammlung Nrr. 476 (&#x84;von Nyschenovogorodschen Gouvernement&#x93;, 485 (&#x84;vom Kostromschen Gouvernement&#x93;), 577 (&#x84;eines Tataren, [&#x85;] vom Kasanschen Gouvernement&#x93;; Abb. in Hauser-Schäublin und Krüger, Siberia and Russian America (2007), S. 30), 513 (&#x84;von Oczakow [&#x85;] gebliebener Türke&#x93; = Decas craniorum 1 (1790), Tafel 2; Bibliographie Nr. 00092), 514 (&#x84;von Oczakow[&#x85;] gebliebener Türke [&#x85;] besonders schief und verschoben&#x93;), 465 (&#x84;vom Romanowschen Kreise&#x93;), 470 (&#x84;vom Swenigorodschen Kreise&#x93;), 466 (&#x84;aus der Stadt Rybnoi&#x93;), 475 (&#x84;vom Krasnoicholmskischen Kreise&#x93;)).</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -76,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=273"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 255 Nr. 0573. </rs>
+               <rs type="edition">Corresp. III, S. 255 Nr. 0573. </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach III, fol. 16&#x96;17. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach III, fol. 16&#x96;17. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Asch, Georg Thomas von</persName>
                   </author>
@@ -99,6 +101,28 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-472">St. Petersburg</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-472"
+                      sortKey="1789-09-12"
+                      when="1789-09-12"
+                      where="#orgplc-472">
+                  <label>1789, Sept.12</label>
+               </event>
+            </listEvent>
+            <listEvent>
+               <event type="julian-origin"
+                      datingMethod="#julian-472"
+                      when="1789-09-01"
+                      where="#orgplc">
+                  <label>1789, Sept.12</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +137,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-472">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-472">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

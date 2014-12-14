@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach berichtet Wilhelm GottliebBecker, er habe soeben erfahren, dass er vor einem halben Jahraufgrund einer Verwechselung statt zweier von Becker gesandter Abbildungen von ägyptischen Mumien in Dresden eine fÜr einen anderen Adressaten gedachte BÜchersendung erhalten habe, mit dem er sich nun wegen des Austausches der Sendungen in Verbindung setzen werde. </title>
+            <title type="main">Blumenbach berichtet Wilhelm GottliebBecker, er habe soeben erfahren, dass er vor einem halben Jahraufgrund einer Verwechselung statt zweier von Becker gesandter Abbildungen von ägyptischen Mumien in Dresden eine für einen anderen Adressaten gedachte Büchersendung erhalten habe, mit dem er sich nun wegen des Austausches der Sendungen in Verbindung setzen werde. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1809-11-27"> 1809, Nov. 27</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1379.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://waller.ub.uu.se/18100.htmlhttp://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/Transkriptionen/Blumenbach_Becker_1809Nov27_Transkription.html"/>
             </note>
             <note>
-               <rs type="edition"> Digitalisat online verfÜgbarTranskription </rs>
+               <rs type="edition">Digitalisat online verfügbarTranskription </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Uppsala, Universiteitsbiblioteket, The Waller Manuscript Collection, Waller Ms de-00374;Digitalisat online verfÜgbar. Transkription. </title>
+                  <title level="m" type="main">Uppsala, Universiteitsbiblioteket, The Waller Manuscript Collection, Waller Ms de-00374;Digitalisat online verfügbar. Transkription. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1379">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1379"
+                      sortKey="1809-11-27"
+                      when="1809-11-27"
+                      where="#orgplc-1379">
+                  <label>1809, Nov. 27</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1379">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1379">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Becker, Wilhelm Gottlieb</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">00</classCode>
-            <classCode scheme="anchor"> 1810
+            <classCode scheme="anchor">1810
 1810</classCode>
             <classCode scheme=""/>
          </textClass>

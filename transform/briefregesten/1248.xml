@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Heinrich Wilhelm Blumenbach kÜndigt seinem Vater Johann Friedrich Blumenbach an, dass Joseph Banks ihm eine Guanchen-Mumie senden werde. </title>
+            <title type="main">Georg Heinrich Wilhelm Blumenbach kündigt seinem Vater Johann Friedrich Blumenbach an, dass Joseph Banks ihm eine Guanchen-Mumie senden werde. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Georg Heinrich Wilhelm</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Ort?</pubPlace>
-            <date type="publication" when=" 1802-03-14"> 1802, März 14</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1248.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Der Brief selbst enthält nur das Tagesdatum &#x84;Sonntag, 14. März". Dies passt zum Jahr 1802.</note>
             <note>
-               <rs type="object"> Guanchen-Mumie (Göttingen, Inst. fÜr Anthropologie; Abb. des Schädels inDecas craniorum 5 (1808), Tafel 42; Bibliographie Nr. 00096); S/W-Foto von Mumie und Schädel in250 Jahre Georg-August-Universität. Ausstellungskatalog. Göttingen 1987, S. 109&#x96;110.</rs>
+               <rs type="object">Guanchen-Mumie (Göttingen, Inst. für Anthropologie; Abb. des Schädels inDecas craniorum 5 (1808), Tafel 42; Bibliographie Nr. 00096); S/W-Foto von Mumie und Schädel in250 Jahre Georg-August-Universität. Ausstellungskatalog. Göttingen 1987, S. 109&#x96;110.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -72,7 +72,10 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> 250 Jahre Georg-August-Universität. Ausstellungskatalog. Göttingen 1987, S. 108&#x96;109 (Inhaltsangabe; Abb. von Seite 1).</rs>
+               <rs type="lz">250 Jahre Georg-August-Universität. Ausstellungskatalog. Göttingen 1987, S. 108&#x96;109 (Inhaltsangabe; Abb. von Seite 1).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V,48,fol. 3 und 13. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V,48,fol. 3 und 13. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Georg Heinrich Wilhelm</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1248">Ort?</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1248"
+                      sortKey="1802-03-14"
+                      when="1802-03-14"
+                      where="#orgplc-1248">
+                  <label>1802, März 14</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1248">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1248">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

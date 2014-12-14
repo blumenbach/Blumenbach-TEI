@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach danktGeorge Bellas Greenough fÜrnaturhistorische Sammlungsobjekte, derenBedeutung fÜr seine Forschungen er erläutert, und fÜr ein Exemplar von Joseph Priestleys The Doctrine of Phlogiston(1800), gibt Erklärungen zur Verarbeitung des Schmucksteins Gagat, berichtet Über neue wirtschaftlich und wissenschaftlich interessante Erfindungen und Entdeckungen in Deutschland undbittet um Angaben zum Gipsabguss einer Statue Guglielmo della Portas in London.</title>
+            <title type="main">Blumenbach danktGeorge Bellas Greenough fürnaturhistorische Sammlungsobjekte, derenBedeutung für seine Forschungen er erläutert, und für ein Exemplar von Joseph Priestleys The Doctrine of Phlogiston(1800), gibt Erklärungen zur Verarbeitung des Schmucksteins Gagat, berichtet über neue wirtschaftlich und wissenschaftlich interessante Erfindungen und Entdeckungen in Deutschland undbittet um Angaben zum Gipsabguss einer Statue Guglielmo della Portas in London.</title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1800-12-12"> 1800, Dez. 12</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1212.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 525&#x96;528 Nr. 1351.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 525&#x96;528 Nr. 1351.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,21 +72,24 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 2, 2. StÜck (1800),S. 302 (Bibliographie Nr. 00878); im Druck: Handbuch der vergleichenden Anatomie [...] (1805, Bibliographie Nr. 00101).</rs>
+               <rs type="lz">Magazin für den neuesten Zustand der Naturkunde, Bd. 2, 2. Stück (1800),S. 302 (Bibliographie Nr. 00878); im Druck: Handbuch der vergleichenden Anatomie [...] (1805, Bibliographie Nr. 00101).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00878"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=541"/>
             </note>
             <note>
-               <rs type="edition"> 00878   Corresp. V, S. 525&#x96;528 Nr. 1351 </rs>
+               <rs type="edition">00878  Corresp. V, S. 525&#x96;528 Nr. 1351 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, University College, Library Services,Special Collections, The Greenough Papers.</title>
+                  <title level="m" type="main">London, University College, Library Services,Special Collections, The Greenough Papers.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1212">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1212"
+                      sortKey="1800-12-12"
+                      when="1800-12-12"
+                      where="#orgplc-1212">
+                  <label>1800, Dez. 12</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1212">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1212">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Greenough, George Bellas</persName>
          </creation>

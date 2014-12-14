@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach berichtet Edward Ash Über Johann Christian Wilhelm Junckers Vorschläge zur Ausrottung der Pocken und Über unsachliche Kritik an diesen Vorschlägen, Über die erfolgreiche Anwendung von Edward Jenners Kuhpocken-Schutzimpfung im KurfÜrstentum Hannover und Über neue medizinische, chemische und gewerbliche Entdeckungen in Deutschland. </title>
+            <title type="main">Blumenbach berichtet Edward Ash über Johann Christian Wilhelm Junckers Vorschläge zur Ausrottung der Pocken und über unsachliche Kritik an diesen Vorschlägen, über die erfolgreiche Anwendung von Edward Jenners Kuhpocken-Schutzimpfung im Kurfürstentum Hannover und über neue medizinische, chemische und gewerbliche Entdeckungen in Deutschland. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1800-12-28"> 1800, Dez.28</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1215.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 533&#x96;536 Nr. 1355.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 533&#x96;536 Nr. 1355.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Erbeten: eine Probe englischen Papiers aus Stroh. </rs>
+               <rs type="object">Erbeten: eine Probe englischen Papiers aus Stroh. </rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,21 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">Im Druck: Handbuch der vergleichenden Anatomie [...] (1805, Bibliographie Nr. 00101).
+</rs>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=547"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 533&#x96;536 Nr. 1355. </rs>
+               <rs type="edition">Corresp. V, S. 533&#x96;536 Nr. 1355. </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, 2 Cod. Ms. philos. 182: J. F. Blumenbach, 28.12.1800. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, 2 Cod. Ms. philos. 182: J. F. Blumenbach, 28.12.1800. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1215">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1215"
+                      sortKey="1800-12-28"
+                      when="1800-12-28"
+                      where="#orgplc-1215">
+                  <label>1800, Dez.28</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1215">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1215">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Ash, Edward</persName>
          </creation>

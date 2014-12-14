@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Christoph Lichtenberg berichtet Blumenbach seine Beobachtung, dass einige der ihm von Blumenbach geliehenen Zirkone magnetisch sind. </title>
+            <title type="main">Georg Christoph Lichtenberg berichtet Blumenbach seine Beobachtung, dass einige der ihm von Blumenbach geliehenen Zirkone magnetisch sind. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1791-02-23"> 1791, Febr. 23</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/555.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,38 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 26 Nr. 0657.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 26 Nr. 0657.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Zirkone (genau beschrieben: &#x84;2 kleine rohe, die fast durchsichtig weiß, mit kleinen braunen Flecken&#x93;, davon einer mit einer &#x84;pyramidalen Spitze&#x93;; ein geschliffener, ovaler, orangefarbener&#x93;).</rs>
+               <rs type="object">Zirkone (genau beschrieben: &#x84;2 kleine rohe, die fast durchsichtig weiß, mit kleinen braunen Flecken&#x93;, davon einer mit einer &#x84;pyramidalen Spitze&#x93;; ein geschliffener, ovaler, orangefarbener&#x93;).</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 52; Lichtenberg, Briefwechsel, Bd. 3 (1990), Nr. 1823, S. 849.</rs>
+               <rs type="bibl">Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 52; Lichtenberg, Briefwechsel, Bd. 3 (1990), Nr. 1823, S. 849.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=38"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 26 Nr. 0657 </rs>
+               <rs type="edition">Corresp. IV, S. 26 Nr. 0657 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826. </title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-555">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-555"
+                      sortKey="1791-02-23"
+                      when="1791-02-23"
+                      where="#orgplc-555">
+                  <label>1791, Febr. 23</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-555">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-555">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

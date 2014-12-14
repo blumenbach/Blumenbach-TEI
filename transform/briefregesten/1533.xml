@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Lucas Alaman sendet Blumenbach fÜr dessen Sammlung den Schädel eines Ureinwohners von Mexiko. </title>
+            <title type="main">Lucas Alaman sendet Blumenbach für dessen Sammlung den Schädel eines Ureinwohners von Mexiko. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Alaman, Lucas</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Mexiko-Stadt</pubPlace>
-            <date type="publication" when=" 1823-11-05"> 1823, Nov. 5</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1533.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,38 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Schädel eines Ureinwohners von Mexiko; zur Identifikation des Schädels vgl.Spengel, Anthropologische Sammlung, S. 65 Anm. ad. 86: &#x84;1823. Von L. Alaman in Mexiko. »Ohne jede Vermischung mit spanischem oder afrikanischem Blut.« [= Übers. Zitat aus Alamans Brief]&#x93;, Abb. in Nova pentascraniorum(1873; Bibliographie Nr. 00099), Tafel IX.</rs>
+               <rs type="object">Schädel eines Ureinwohners von Mexiko; zur Identifikation des Schädels vgl.Spengel, Anthropologische Sammlung, S. 65 Anm. ad. 86: &#x84;1823. Von L. Alaman in Mexiko. »Ohne jede Vermischung mit spanischem oder afrikanischem Blut.« [= übers. Zitat aus Alamans Brief]&#x93;, Abb. in Nova pentascraniorum(1873; Bibliographie Nr. 00099), Tafel IX.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Dougherty, Commercium epistolicum (1984), S. 84 KatNr. 99.</rs>
+               <rs type="bibl">Dougherty, Commercium epistolicum (1984), S. 84 KatNr. 99.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553"/>
             </note>
             <note>
-               <rs type="edition"> Spengel, Anthropologische Sammlung </rs>
+               <rs type="edition">Spengel, Anthropologische Sammlung </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 38, fol. 5. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 38, fol. 5. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Alaman, Lucas</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1533">Mexiko-Stadt</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1533"
+                      sortKey="1823-11-05"
+                      when="1823-11-05"
+                      where="#orgplc-1533">
+                  <label>1823, Nov. 5</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1533">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1533">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

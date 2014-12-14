@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendetFriedrich Justin Bertuchzwei zoologische Abbildungen, einen Beitrag [Über die englische Missionsstation auf Tahiti]fÜr die Allgemeinen Geographischen Ephemeriden und die Zeichnung eines Schnabeltierkopfes, und kÜndigt die Zusendung des dazugehörigen Beitrags und weiterer Beiträge fÜr das Magazin fÜr den neuesten Zustand der Naturkunde an. </title>
+            <title type="main">Blumenbach sendetFriedrich Justin Bertuchzwei zoologische Abbildungen, einen Beitrag [über die englische Missionsstation auf Tahiti]für die Allgemeinen Geographischen Ephemeriden und die Zeichnung eines Schnabeltierkopfes, und kündigt die Zusendung des dazugehörigen Beitrags und weiterer Beiträge für das Magazin für den neuesten Zustand der Naturkunde an. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1800-08-29"> 1800, Aug. 29</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1197.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,16 +57,16 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 507 Nr. 1335.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 507 Nr. 1335.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Identifikation der englischen Vorlage der Berichts Über die Missionsstation auf Tahiti bei Dougherty,a.a.O., inkorrekt, vgl.Bibliographie Nr. [ohne Nr.].</note>
+            <note>Identifikation der englischen Vorlage der Berichts über die Missionsstation auf Tahiti bei Dougherty,a.a.O., inkorrekt, vgl.Bibliographie Nr. [ohne Nr.].</note>
             <note>
                <rs type="object"/>
             </note>
             <note>
-               <rs type="span"> Allgemeine Geographische Ephemeriden Bd. 6, 4. StÜck (Okt. 1800, Bibliographie Nr. [ohne Nr.]), S. 365&#x96;368.; &#x84;Joh. Fr. Blumenbach Über das Schnabelthier (Ornithorhynchus paradoxus) ein neuentdecktes Geschlecht von Säugethieren des fÜnften Welttheils&#x93;, in Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 2, 1. StÜck (1800), S.205&#x96;214 (Bibliographie Nr. 00865); &#x84;Einige anatomische Bemerkungen Über den Ornithorhynchus paradoxus aus Neu-SÜdwallis&#x93;, in Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 2, 2. StÜck (1800), S.284&#x96;291 (Bibliographie Nr. 00866).</rs>
+               <rs type="span"/>
             </note>
             <note>
                <rs type="bibl"> </rs>
@@ -75,19 +75,22 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">Allgemeine Geographische Ephemeriden Bd. 6, 4. Stück (Okt. 1800, Bibliographie Nr. [ohne Nr.]), S. 365&#x96;368.; &#x84;Joh. Fr. Blumenbach über das Schnabelthier (Ornithorhynchus paradoxus) ein neuentdecktes Geschlecht von Säugethieren des fünften Welttheils&#x93;, in Magazin für den neuesten Zustand der Naturkunde, Bd. 2, 1. Stück (1800), S.205&#x96;214 (Bibliographie Nr. 00865); &#x84;Einige anatomische Bemerkungen über den Ornithorhynchus paradoxus aus Neu-Südwallis&#x93;, in Magazin für den neuesten Zustand der Naturkunde, Bd. 2, 2. Stück (1800), S.284&#x96;291 (Bibliographie Nr. 00866).</rs>
+            </note>
+            <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#AllgemGeogrEphem1800_6"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=523"/>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#AllgemGeogrEphem1800_6"/>
             </note>
             <note>
-               <rs type="edition"> [ohne Nr.]   Corresp. V, S. 507 Nr. 1335   [ohne Nr.] </rs>
+               <rs type="edition"> [ohne Nr.]  Corresp. V, S. 507 Nr. 1335   [ohne Nr.] </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv,GSA, Nachlass Bertuch 06/189 (= Briefe Blumenbachs an Bertuch), Nr. 6.</title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv,GSA, Nachlass Bertuch 06/189 (= Briefe Blumenbachs an Bertuch), Nr. 6.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -100,6 +103,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1197">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1197"
+                      sortKey="1800-08-29"
+                      when="1800-08-29"
+                      where="#orgplc-1197">
+                  <label>1800, Aug. 29</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -114,12 +131,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1197">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1197">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Bertuch, Friedrich Justin </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">1180</classCode>
-            <classCode scheme="anchor"> Sept1800</classCode>
+            <classCode scheme="anchor">Sept1800</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

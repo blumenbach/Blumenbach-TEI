@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach danktJohann Wolfgang von Goethe fÜr zugesandte Mineralien und in Bernstein eingeschlossene Insekten, beschreibt die bisherigen Ergebnisse von deren Untersuchung und sendet einen fossilen Knochenaus Yorkshire fÜr die Sammlung August von Goethes, die Abbildung eines tätowierten und mumifizierten menschlichen Schädels aus Neuseeland und diegeflochtene Haarsträhne einer ägyptischen Mumie. </title>
+            <title type="main">Blumenbach danktJohann Wolfgang von Goethe für zugesandte Mineralien und in Bernstein eingeschlossene Insekten, beschreibt die bisherigen Ergebnisse von deren Untersuchung und sendet einen fossilen Knochenaus Yorkshire für die Sammlung August von Goethes, die Abbildung eines tätowierten und mumifizierten menschlichen Schädels aus Neuseeland und diegeflochtene Haarsträhne einer ägyptischen Mumie. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1823-02-2"> 1823, Febr.2</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1523.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Drei fossile Knochen aus einer Höhle in Yorkshire (Geschenk von William Buckland erhalten; Blumenbach verschenkt einen der Knochen an August von Goethe); geflochtene Haarsträhnen (von einervon sieben) ägyptischen Mumieaus dem Besitz Johann Heinrich Karl Menu von Minutolis (Blumenbach verschenkt eine Strähne an Johann Wolfgangvon Goethe).</rs>
+               <rs type="object">Drei fossile Knochen aus einer Höhle in Yorkshire (Geschenk von William Buckland erhalten; Blumenbach verschenkt einen der Knochen an August von Goethe); geflochtene Haarsträhnen (von einervon sieben) ägyptischen Mumieaus dem Besitz Johann Heinrich Karl Menu von Minutolis (Blumenbach verschenkt eine Strähne an Johann Wolfgangvon Goethe).</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -72,13 +72,16 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Goethe&#x92;s Naturwissenschaftliche Correspondenz (1812&#x96;1832). Bd. 1 (1874), S. 43&#x96;44 Nr. 25.</rs>
+               <rs type="lz">Goethe&#x92;s Naturwissenschaftliche Correspondenz (1812&#x96;1832). Bd. 1 (1874), S. 43&#x96;44 Nr. 25.</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://archive.org/stream/naturwissenschaf01goet#page/42/mode/2up"/>
             </note>
             <note>
-               <rs type="edition"> S. 43&#x96;44 Nr. 25 </rs>
+               <rs type="edition">S. 43&#x96;44 Nr. 25 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1523">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1523"
+                      sortKey="1823-02-2"
+                      when="1823-02-2"
+                      where="#orgplc-1523">
+                  <label>1823, Febr.2</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1523">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1523">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Goethe, Johann Wolfgang von</persName>
          </creation>

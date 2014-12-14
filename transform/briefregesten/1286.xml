@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Adam Seybertberichtet Blumenbach [u. a. Über die Ergebnisse seiner Untersuchungen zur Zusammensetzung der Luft während einer Gelbfieberepidemie in Philadelphia und sendet Mineralien und antike indianische Pfeilspitzen aus Nordamerika]. </title>
+            <title type="main">Adam Seybertberichtet Blumenbach [u. a. über die Ergebnisse seiner Untersuchungen zur Zusammensetzung der Luft während einer Gelbfieberepidemie in Philadelphia und sendet Mineralien und antike indianische Pfeilspitzen aus Nordamerika]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Seybert, Adam</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Philadelphia</pubPlace>
-            <date type="publication" when=" 1803-12-24"> 1803, Dez. 24</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1286.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,28 +57,32 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Mineralien ausder Umgebung von Philadelphia (Korund, &#x84;schwarzen Stangenschörl&#x93;, zwei Granitarten, GrÜnsteinbasalt, Amianth, Asbest); sog.&#x84;Russisch Frauenglas&#x93; aus New Hampshire; Hepatit aus Virginia; Magneteisenstein aus Pennsylvania; antike indianische Pfeilspitzen aus Milchquarz.</rs>
+               <rs type="object">Mineralien ausder Umgebung von Philadelphia (Korund, &#x84;schwarzen Stangenschörl&#x93;, zwei Granitarten, Grünsteinbasalt, Amianth, Asbest); sog.&#x84;Russisch Frauenglas&#x93; aus New Hampshire; Hepatit aus Virginia; Magneteisenstein aus Pennsylvania; antike indianische Pfeilspitzen aus Milchquarz.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 9, 3. StÜck (1805), S. 207&#x96;212 (&#x84;3. PrÜfung der Luft in Pensylvanien, während das gelbe Fieber daselbst wÜthete! nebst mineralogischen Notizen daher&#x93; Bibliographie Nr. 00909).</rs>
+               <rs type="bibl">Auszug in Magazin für den neuesten Zustand der Naturkunde, Bd. 9, 3. Stück (1805), S. 207&#x96;212 (&#x84;3. Prüfung der Luft in Pensylvanien, während das gelbe Fieber daselbst wüthete! nebst mineralogischen Notizen daher&#x93; Bibliographie Nr. 00909).</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00909 (siehe&#x84;Dr.&#x93;).
+</rs>
+            </note>
+            <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00909"/>
             </note>
             <note>
-               <rs type="edition"> 00909 </rs>
+               <rs type="edition">00909 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -98,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1286">Philadelphia</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1286"
+                      sortKey="1803-12-24"
+                      when="1803-12-24"
+                      where="#orgplc-1286">
+                  <label>1803, Dez. 24</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1286">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1286">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

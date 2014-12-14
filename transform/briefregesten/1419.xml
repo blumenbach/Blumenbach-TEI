@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach an Friedrich August Fritze. </title>
+            <title type="main">Blumenbach an Friedrich August Fritze. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1813-01-12"> 1813, Jan. 12</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1419.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,24 +69,27 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> AuszuginDougherty, Corresp. III, S. 382 (verlorener Brief an Friedrich BÜchner) mit Datumsangabe &#x84;18. I. 1813&#x93;. </rs>
+               <rs type="bibl">AuszuginDougherty, Corresp. III, S. 382 (verlorener Brief an Friedrich Büchner) mit Datumsangabe &#x84;18. I. 1813&#x93;. </rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://hans.sub.uni-goettingen.de/nachlaesse/Blumenbach.pdf"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=400"/>
             </note>
             <note>
-               <rs type="edition"> http://hans.sub.uni-goettingen.de/ nachlaesse/Blumenbach.pdf   Corresp.III, S. 382 </rs>
+               <rs type="edition">http://hans.sub.uni-goettingen.de/ nachlaesse/Blumenbach.pdf  Corresp.III, S. 382 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. 2006.3, mit Datumsangabe &#x84;12.01.1813&#x93; vgl. http://hans.sub.uni-goettingen.de/ nachlaesse/Blumenbach.pdf.</title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. 2006.3, mit Datumsangabe &#x84;12.01.1813&#x93; vgl. http://hans.sub.uni-goettingen.de/ nachlaesse/Blumenbach.pdf.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1419">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1419"
+                      sortKey="1813-01-12"
+                      when="1813-01-12"
+                      where="#orgplc-1419">
+                  <label>1813, Jan. 12</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1419">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1419">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Fritze, Friedrich August </persName>
          </creation>

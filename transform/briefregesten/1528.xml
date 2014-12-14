@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Stammbuchblatt (?) Blumenbachs fÜr einen unbekannten Empfängermit einem längeren Zitat aus Baruch Spinozas Tractatus Theologico-Politicus. </title>
+            <title type="main">Stammbuchblatt (?) Blumenbachs für einen unbekannten Empfängermit einem längeren Zitat aus Baruch Spinozas Tractatus Theologico-Politicus. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> 1823, Juni Göttingen</pubPlace>
-            <date type="publication" when=" 1823-06-01 vor 1823-07-01"/>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1528.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://waller.ub.uu.se/18096.html"/>
             </note>
             <note>
-               <rs type="edition"> Digitalisat online verfÜgbar </rs>
+               <rs type="edition">Digitalisat online verfügbar </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Uppsala, Universiteitsbiblioteket, The Waller Manuscript Collection, Waller Ms de-00378;Digitalisat online verfÜgbar. </title>
+                  <title level="m" type="main">Uppsala, Universiteitsbiblioteket, The Waller Manuscript Collection, Waller Ms de-00378;Digitalisat online verfügbar. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1528"/>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1823-06-01 vor 1823-07-01">
-                  <label/>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1528"
+                      sortKey="1823-06-01 vor 1823-07-01"
+                      notBefore="1823-06-01 vor 1823-07-01"
+                      where="#orgplc-1528">
+                  <label>1823, Juni Göttingen</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1528">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1528">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee"> [unbekannt]</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Joachim Dietrich Brandis berichtet Blumenbach Über seine Untersuchungen zur Giftigkeit von Eibenblättern. </title>
+            <title type="main">Joachim Dietrich Brandis berichtet Blumenbach über seine Untersuchungen zur Giftigkeit von Eibenblättern. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Brandis, Joachim Dietrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> 1791, nach Sept. Hildesheim</pubPlace>
-            <date type="publication" when=" 1791-09-30"/>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/598.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 88 Nr. 0698.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 88 Nr. 0698.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=100"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 88 Nr. 0698 </rs>
+               <rs type="edition">Corresp. IV, S. 88 Nr. 0698 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren, Überlieferung durch Druck in Medicinische Bibliothek, Bd. 3, 4. StÜck. </title>
+                  <title level="m" type="main">Or. verloren, überlieferung durch Druck in Medicinische Bibliothek, Bd. 3, 4. Stück. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Brandis, Joachim Dietrich</persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-598"/>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1791-09-30">
-                  <label/>
+               <event type="iso-origin"
+                      datingMethod="#ISO-598"
+                      sortKey="1791-09-30"
+                      notBefore="1791-09-30"
+                      where="#orgplc-598">
+                  <label>1791, nach Sept. Hildesheim</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-598">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-598">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Joseph Banks erklärt Blumenbach, dass er wegen des Verlustes der Schiffe &#x84;Bounty&#x93; und &#x84;Guardian&#x93; nicht &#x96; wie erhofft &#x96; menschliche Schädel aus dem Pazifikraum erhalten habe, bietet die Zusendung eines weiteren Schädels aus der Karibik an und bittet um die Beschaffung aufgelisteter Göttinger Dissertationen. </title>
+            <title type="main">Joseph Banks erklärt Blumenbach, dass er wegen des Verlustes der Schiffe &#x84;Bounty&#x93; und &#x84;Guardian&#x93; nicht &#x96; wie erhofft &#x96; menschliche Schädel aus dem Pazifikraum erhalten habe, bietet die Zusendung eines weiteren Schädels aus der Karibik an und bittet um die Beschaffung aufgelisteter Göttinger Dissertationen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when="1790-05-19"> 1790, Mai 18 London</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/512.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 306 Nr. 0613.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 306 Nr. 0613.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,21 +72,24 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Decas craniorum 1 (1790;Bibliographie Nr. 00092).</rs>
+               <rs type="lz">Decas craniorum 1 (1790;Bibliographie Nr. 00092).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00092"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=324"/>
             </note>
             <note>
-               <rs type="edition"> Nr. 00092   Corresp. III, S. 306 Nr. 0613 </rs>
+               <rs type="edition">Nr. 00092  Corresp. III, S. 306 Nr. 0613 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 3 (Banks Nr. 2). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 3 (Banks Nr. 2). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-512">London</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-512"
+                      sortKey="1790-05-19"
+                      when="1790-05-19"
+                      where="#orgplc-512">
+                  <label>1790, Mai 18</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,12 +130,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-512">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-512">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0508</classCode>
-            <classCode scheme="anchor"> Juni1790</classCode>
+            <classCode scheme="anchor">Juni1790</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Joaquim José Antonio Lobo da SilveiraberichtetBlumenbachÜber eineLichterscheinung in Stockholm am 11. Februar 1806. </title>
+            <title type="main">Joaquim José Antonio Lobo da SilveiraberichtetBlumenbachüber eineLichterscheinung in Stockholm am 11. Februar 1806. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Lobo da Silveira, Joaquim José Antonio </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Stockholm</pubPlace>
-            <date type="publication" when=" 1806-03-04"> 1806, März 4</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1320.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,16 +69,20 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 11, 6. StÜck (1806), S. 537&#x96;538 (&#x84;VII. Nachricht von einer Feuerkugel&#x93;, Bibliographie Nr. 00916). </rs>
+               <rs type="bibl">Auszug in Magazin für den neuesten Zustand der Naturkunde, Bd. 11, 6. Stück (1806), S. 537&#x96;538 (&#x84;VII. Nachricht von einer Feuerkugel&#x93;, Bibliographie Nr. 00916). </rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00916 (siehe &#x84;Dr.&#x93;).
+</rs>
+            </note>
+            <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00916"/>
             </note>
             <note>
-               <rs type="edition"> 00916 </rs>
+               <rs type="edition">00916 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -98,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1320">Stockholm</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1320"
+                      sortKey="1806-03-04"
+                      when="1806-03-04"
+                      where="#orgplc-1320">
+                  <label>1806, März 4</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1320">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1320">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

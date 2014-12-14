@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Pieter Camper berichtet Blumenbach Über von ihm in verschiedenen naturkundlichen Sammlungen gefundene Exemplare geschwänzter Kaulquappen der Kröte &#x84;rana pipa&#x93;, wodurch entsprechende Beobachtungen Blumenbachs bestätigt werden. </title>
+            <title type="main">Pieter Camper berichtet Blumenbach über von ihm in verschiedenen naturkundlichen Sammlungen gefundene Exemplare geschwänzter Kaulquappen der Kröte &#x84;rana pipa&#x93;, wodurch entsprechende Beobachtungen Blumenbachs bestätigt werden. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Camper, Pieter </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Klein Lankum</pubPlace>
-            <date type="publication" when=" 1784-08-08"> 1784, Aug. 8</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/218.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 182 Nr. 0304.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 182 Nr. 0304.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Vgl. Blumenbachs Bericht Über den von ihm vorgetragenen Bericht Campers in den GAgS 1784 (156. StÜck, 27. Sept.), S. 1553&#x96;1555 (Bibliographie Nr. 00256). </note>
+            <note>Vgl. Blumenbachs Bericht über den von ihm vorgetragenen Bericht Campers in den GAgS 1784 (156. Stück, 27. Sept.), S. 1553&#x96;1555 (Bibliographie Nr. 00256). </note>
             <note>
-               <rs type="object"> Feuchtpräparate der &#x84;rana pipa&#x93;,vgl. Blumenbachs hs. Sammlungsverzeichnis Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, II, fol. 89r.</rs>
+               <rs type="object">Feuchtpräparate der &#x84;rana pipa&#x93;,vgl. Blumenbachs hs. Sammlungsverzeichnis Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, II, fol. 89r.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -72,20 +72,23 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Commentationes soc. reg. scient. Gottingensis Bd.IX (1789), Phys., S. 129&#x96;135.</rs>
+               <rs type="lz">Commentationes soc. reg. scient. Gottingensis Bd.IX (1789), Phys., S. 129&#x96;135.</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/Sammlungskataloge/cod_ms-Blumenbach_1_II_Blumenbach_Handschriften_1794_1800_Katalog%20zur%20Naturgeschichte%20des%20Menschengeschlechts.pdf#page=183"/>
             </note>
             <note>
-               <rs type="edition"> Cod. Ms. Blumenbach 1, II, fol. 89r. </rs>
+               <rs type="edition">Cod. Ms. Blumenbach 1, II, fol. 89r. </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren, Überl. als Druck inCommentationes soc. reg. scient. Gottingensis Bd. IX (1789). </title>
+                  <title level="m" type="main">Or. verloren, überl. als Druck inCommentationes soc. reg. scient. Gottingensis Bd. IX (1789). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Camper, Pieter </persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-218">Klein Lankum</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-218"
+                      sortKey="1784-08-08"
+                      when="1784-08-08"
+                      where="#orgplc-218">
+                  <label>1784, Aug. 8</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-218">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-218">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>

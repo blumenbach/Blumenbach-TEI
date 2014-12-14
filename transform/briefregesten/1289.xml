@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Heinrich von Langsdorff berichtet Blumenbach von seiner Entdeckung, dassMikroorganismen die Ursache des sog. Meerleuchtens sind, von seinem Eindruck von Vegetation und Tierwelt Brasiliens und Über die weitere geplante Reiseroute der russischen Weltumsegelung unter Ivan Fedorovic Kruzenstern. </title>
+            <title type="main">Georg Heinrich von Langsdorff berichtet Blumenbach von seiner Entdeckung, dassMikroorganismen die Ursache des sog. Meerleuchtens sind, von seinem Eindruck von Vegetation und Tierwelt Brasiliens und über die weitere geplante Reiseroute der russischen Weltumsegelung unter Ivan Fedorovic Kruzenstern. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Langsdorff, Georg Heinrich von</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when="1804-01-15"> 1804, Jan. 15 Ilha de Santa Catarina, Brasilien</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1289.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,16 +69,20 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 9, 3. StÜck (1805), S. 220&#x96;223 (&#x84;6. Fernere Reisenachrichten vom Hrn. D. Langsdorff von der Insel St. Catharina an der KÜste von Brasilien den 15ten Januar 1804&#x93;, Bibliographie Nr.00912).</rs>
+               <rs type="bibl">Auszug in Magazin für den neuesten Zustand der Naturkunde, Bd. 9, 3. Stück (1805), S. 220&#x96;223 (&#x84;6. Fernere Reisenachrichten vom Hrn. D. Langsdorff von der Insel St. Catharina an der Küste von Brasilien den 15ten Januar 1804&#x93;, Bibliographie Nr.00912).</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00912(siehe&#x84;Dr.&#x93;). 
+</rs>
+            </note>
+            <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00912"/>
             </note>
             <note>
-               <rs type="edition"> 00912 </rs>
+               <rs type="edition">00912 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -98,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1289">Ilha de Santa Catarina, Brasilien</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1289"
+                      sortKey="1804-01-15"
+                      when="1804-01-15"
+                      where="#orgplc-1289">
+                  <label>1804, Jan. 15</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1289">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1289">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

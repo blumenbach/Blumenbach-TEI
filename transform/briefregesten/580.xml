@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Joseph Banks Literaturbelege Über die angebliche Pflanzenmonstrosität &#x84;Ranunculus bellidiflorus&#x93; und eine neue Publikation zur Widerlegung der Entdeckung einer neuen &#x84;Grunderde&#x93; und bittet ihn, fÜr eine Erwiderung auf eine negative englische Rezension seiner Publikation Specimen physiologiae comparatae inter animantia calidi sanguinis vivipara et ovipara (1788) in einer englischen Zeitschrift zu sorgen. </title>
+            <title type="main">Blumenbach sendet Joseph Banks Literaturbelege über die angebliche Pflanzenmonstrosität &#x84;Ranunculus bellidiflorus&#x93; und eine neue Publikation zur Widerlegung der Entdeckung einer neuen &#x84;Grunderde&#x93; und bittet ihn, für eine Erwiderung auf eine negative englische Rezension seiner Publikation Specimen physiologiae comparatae inter animantia calidi sanguinis vivipara et ovipara (1788) in einer englischen Zeitschrift zu sorgen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when=" 1791-06-05"> 1791, Juni 5 Göttingen</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/580.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 61 Nr. 0680.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 61 Nr. 0680.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,24 +69,27 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S. 112 Nr. 18.</rs>
+               <rs type="bibl">Vgl. ausführl. Regest in Dawson, The Banks Letters (1958), S. 112 Nr. 18.</rs>
             </note>
             <note>
-               <rs type="lz"> Specimen physiologiae comparatae inter animantia calidi sanguinis vivipara et ovipara (1788; Bibliographie Nr. 00184). </rs>
+               <rs type="lz">Specimen physiologiae comparatae inter animantia calidi sanguinis vivipara et ovipara (1788; Bibliographie Nr. 00184). </rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00184"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=73"/>
             </note>
             <note>
-               <rs type="edition"> 00184   Corresp. IV, S. 61 Nr. 0680 </rs>
+               <rs type="edition">00184  Corresp. IV, S. 61 Nr. 0680 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, British Library, Add MS 8097, fol. 368&#x96;370. </title>
+                  <title level="m" type="main">London, British Library, Add MS 8097, fol. 368&#x96;370. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-580">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-580"
+                      sortKey="1791-06-05"
+                      when="1791-06-05"
+                      where="#orgplc-580">
+                  <label>1791, Juni 5</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-580">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-580">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Banks, Joseph</persName>
          </creation>

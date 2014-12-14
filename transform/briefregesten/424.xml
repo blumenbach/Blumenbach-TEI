@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> August von Sachsen-Gotha und Altenburg sendet Blumenbach verschiedene Publikationen und informiert ihn Über kleinere gesellschaftliche Ereignisse in Gotha. </title>
+            <title type="main">August von Sachsen-Gotha und Altenburg sendet Blumenbach verschiedene Publikationen und informiert ihn über kleinere gesellschaftliche Ereignisse in Gotha. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Sachsen-Gotha und Altenburg, August von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Gotha</pubPlace>
-            <date type="publication" when=" 17"> 1788, Nov. 6</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/424.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 186 Nr. 0523.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 186 Nr. 0523.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=204"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 186 Nr. 0523 </rs>
+               <rs type="edition">Corresp. III, S. 186 Nr. 0523 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 1 (August Prinz zu Sachsen Nr. 9). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 1 (August Prinz zu Sachsen Nr. 9). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Sachsen-Gotha und Altenburg, August von</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-424">Gotha</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-424"
+                      sortKey="17"
+                      when="17"
+                      where="#orgplc-424">
+                  <label>1788, Nov. 6</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-424">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-424">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0420</classCode>
-            <classCode scheme="anchor"> Dez1788</classCode>
+            <classCode scheme="anchor">Dez1788</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

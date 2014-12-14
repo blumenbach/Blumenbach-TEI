@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach vereinbart mit Georg Christoph Siebold die Art der Bezahlung und den Liefertermin einer Weinbestellung und erinnert an versprochene Beiträge zu seiner Zeitschrift Medicinische Bibliothek. </title>
+            <title type="main">Blumenbach vereinbart mit Georg Christoph Siebold die Art der Bezahlung und den Liefertermin einer Weinbestellung und erinnert an versprochene Beiträge zu seiner Zeitschrift Medicinische Bibliothek. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when="1790-06-09"> 1790, Juni 9 Göttingen</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/513.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 307 Nr. 0614.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 307 Nr. 0614.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=325"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 307 Nr. 0614 </rs>
+               <rs type="edition">Corresp. III, S. 307 Nr. 0614 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> WÜrzburg, Universitätsbibliothek, SC I 7a. </title>
+                  <title level="m" type="main">Würzburg, Universitätsbibliothek, SC I 7a. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-513">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-513"
+                      sortKey="1790-06-09"
+                      when="1790-06-09"
+                      where="#orgplc-513">
+                  <label>1790, Juni 9</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-513">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-513">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Siebold, Georg Christoph</persName>
          </creation>

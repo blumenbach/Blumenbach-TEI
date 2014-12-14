@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Johann Friedrich Schoepf von zwei präparierte Schildkröten fÜr dessen Forschungen, kommentiert Informationen Über Schildkröten in der Forschungsliteratur und bittet um die Zusendung der ihm von Schoepf angebotenen Mineralien aus Amerika und aus Bayreuth. </title>
+            <title type="main">Blumenbach sendet Johann Friedrich Schoepf von zwei präparierte Schildkröten für dessen Forschungen, kommentiert Informationen über Schildkröten in der Forschungsliteratur und bittet um die Zusendung der ihm von Schoepf angebotenen Mineralien aus Amerika und aus Bayreuth. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1792-09-10"> 1792, Sept. 10</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/655.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 191 Nr. 0768.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 191 Nr. 0768.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Zwei präparierte Schildkröten (testudo membranacea; Schildkröte aus dem Kaspischen Meer; vgl. Brief vom 30. Juli 1792). Erbeten: Mineralien aus Bayreuth (&#x84;crystallisierter Speckstein&#x93;) und aus Amerika.</rs>
+               <rs type="object">Zwei präparierte Schildkröten (testudo membranacea; Schildkröte aus dem Kaspischen Meer; vgl. Brief vom 30. Juli 1792). Erbeten: Mineralien aus Bayreuth (&#x84;crystallisierter Speckstein&#x93;) und aus Amerika.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=203"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 191 Nr. 0768 </rs>
+               <rs type="edition">Corresp. IV, S. 191 Nr. 0768 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Museum fÜr Naturkunde Berlin, Historische Bild- und Schriftgutsammlung, Bestand: Zoologisches Museum, Signatur S 1 Nachlass Schoepf III, Blumenbach, J.F.; Blatt 3. </title>
+                  <title level="m" type="main">Museum für Naturkunde Berlin, Historische Bild- und Schriftgutsammlung, Bestand: Zoologisches Museum, Signatur S 1 Nachlass Schoepf III, Blumenbach, J.F.; Blatt 3. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-655">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-655"
+                      sortKey="1792-09-10"
+                      when="1792-09-10"
+                      where="#orgplc-655">
+                  <label>1792, Sept. 10</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-655">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-655">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Schoepf, Johann David</persName>
          </creation>

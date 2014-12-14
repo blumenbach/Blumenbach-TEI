@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach bietet Friedrich Justin BertuchfÜr dessen Publikationenbisher von ihm selbst nicht publizierte, zuverlässige Abbildungen eines Kamels und eines afrikanischen Nashorns an. </title>
+            <title type="main">Blumenbach bietet Friedrich Justin Bertuchfür dessen Publikationenbisher von ihm selbst nicht publizierte, zuverlässige Abbildungen eines Kamels und eines afrikanischen Nashorns an. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1798-11-16"> 1798, Nov. 16</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1053.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 314&#x96;315 Nr. 1190.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 314&#x96;315 Nr. 1190.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Erwähnt in Middell, Katharina: Die Bertuchs mÜssen doch in dieser Welt Überall GlÜck haben: Der Verleger Friedrich Justin Bertuch und sein Landes-Industrie-Comptoir um 1800. Leipzig 2002,S. 284 mit Anm. 177. </rs>
+               <rs type="bibl">Erwähnt in Middell, Katharina: Die Bertuchs müssen doch in dieser Welt überall Glück haben: Der Verleger Friedrich Justin Bertuch und sein Landes-Industrie-Comptoir um 1800. Leipzig 2002,S. 284 mit Anm. 177. </rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=331"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 314&#x96;315 Nr. 1190 </rs>
+               <rs type="edition">Corresp. V, S. 314&#x96;315 Nr. 1190 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv,GSA, Nachlass Bertuch 06/189 Nr. 1.</title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv,GSA, Nachlass Bertuch 06/189 Nr. 1.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1053">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1053"
+                      sortKey="1798-11-16"
+                      when="1798-11-16"
+                      where="#orgplc-1053">
+                  <label>1798, Nov. 16</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1053">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1053">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Bertuch, Friedrich Justin </persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Helene Ludovika Friederike Blumenbach teilt ihrem Schwiegervater Johann Friedrich Blumenbach mit, dass sie einen vonLordFincastle beschafften, fÜr seine Sammlung bestimmtengälischen Schädel aus Kintail (Schottland) an ihn weitersenden werde, sobald er in Hannover eintreffe. </title>
+            <title type="main">Helene Ludovika Friederike Blumenbach teilt ihrem Schwiegervater Johann Friedrich Blumenbach mit, dass sie einen vonLordFincastle beschafften, für seine Sammlung bestimmtengälischen Schädel aus Kintail (Schottland) an ihn weitersenden werde, sobald er in Hannover eintreffe. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Helene Ludovika Friederike</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> 1829, vor Mai Hannover</pubPlace>
-            <date type="publication" when=" 1829-05-01"/>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1605.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Helene Blumenbach kÜndigt einen Besuch in Göttingen im Mai an; der Brief muss also vor Mai 1829 geschrieben worden sein. Meyer, Handschriften in Göttingen 3 (1894), S. 79 nennt ohne genaue Datumsnennung einen weiteren Brief H. L. F. Blumenbachs betr. den gälischen Schädel.</note>
+            <note>Helene Blumenbach kündigt einen Besuch in Göttingen im Mai an; der Brief muss also vor Mai 1829 geschrieben worden sein. Meyer, Handschriften in Göttingen 3 (1894), S. 79 nennt ohne genaue Datumsnennung einen weiteren Brief H. L. F. Blumenbachs betr. den gälischen Schädel.</note>
             <note>
                <rs type="object"/>
             </note>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Dougherty, Commercium epistolicum (1984), S. 23&#x96;24 KatNr. 009, mit der wohl falschen Tagesdatierung &#x84;ca. den 3. Juli&#x93;, s. Anm.</rs>
+               <rs type="bibl">Dougherty, Commercium epistolicum (1984), S. 23&#x96;24 KatNr. 009, mit der wohl falschen Tagesdatierung &#x84;ca. den 3. Juli&#x93;, s. Anm.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V,48, fol. 5&#x96;6. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V,48, fol. 5&#x96;6. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Helene Ludovika Friederike</persName>
                   </author>
@@ -96,9 +99,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1605"/>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1829-05-01">
-                  <label/>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1605"
+                      sortKey="1829-05-01"
+                      notAfter="1829-05-01"
+                      where="#orgplc-1605">
+                  <label>1829, vor Mai Hannover</label>
                </event>
             </listEvent>
             <msDesc>
@@ -115,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1605">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1605">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Albrecht Euler informiert Blumenbach durch kommentarlose Übersendung eines gedruckten Programms der St. Petersburger Akademie der Wissenschaften, dass dieser den Preis der Akademie gewonnen habe. </title>
+            <title type="main">Johann Albrecht Euler informiert Blumenbach durch kommentarlose übersendung eines gedruckten Programms der St. Petersburger Akademie der Wissenschaften, dass dieser den Preis der Akademie gewonnen habe. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Euler, Johann Albrecht</persName>
             </author>
@@ -37,9 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> 1788, Dez. 15  St. Petersburg</pubPlace>
-            <date type="publication"
-                  when=" [= julian. Kal.: Dez. 4]  1788-12-15  [= julian. Kal.: 1788-12-04]"/>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -47,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/425.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -58,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 189 Nr. 0524.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 189 Nr. 0524.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -76,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=207"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 189 Nr. 0524 </rs>
+               <rs type="edition">Corresp. III, S. 189 Nr. 0524 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach X: b, fol. 2&#x96;3. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach X: b, fol. 2&#x96;3. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Euler, Johann Albrecht</persName>
                   </author>
@@ -99,6 +101,28 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-425">St. Petersburg</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-425"
+                      sortKey="1788-12-15"
+                      when="1788-12-15"
+                      where="#orgplc-425">
+                  <label>1788, Dez. 15</label>
+               </event>
+            </listEvent>
+            <listEvent>
+               <event type="julian-origin"
+                      datingMethod="#julian-425"
+                      when="1788-12-04"
+                      where="#orgplc">
+                  <label>1788, Dez. 15</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +137,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-425">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-425">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

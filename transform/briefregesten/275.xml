@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach richtet an Johann Heinrich FÜßli [FÜssli] ein Empfehlungsschreiben fÜr Heinrich Ottokar August Reichard. </title>
+            <title type="main">Blumenbach richtet an Johann Heinrich Füßli [Füssli] ein Empfehlungsschreiben für Heinrich Ottokar August Reichard. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1785-06-05"> 1785, Juni 5</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/275.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp.II, S. 286 Nr. 0362.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp.II, S. 286 Nr. 0362.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>UnterschiedlicheOrthographie des Empfängernamens in Dougherty, Corresp. II, 0362 (&#x84;FÜßli&#x93;) und Nr. 0249 (&#x84;FÜssli&#x93;). </note>
+            <note>UnterschiedlicheOrthographie des Empfängernamens in Dougherty, Corresp. II, 0362 (&#x84;Füßli&#x93;) und Nr. 0249 (&#x84;Füssli&#x93;). </note>
             <note>
                <rs type="object"/>
             </note>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> ZÜrich, Zentralbibliothek ZÜrich, Ms. M 1.16. </title>
+                  <title level="m" type="main">Zürich, Zentralbibliothek Zürich, Ms. M 1.16. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-275">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-275"
+                      sortKey="1785-06-05"
+                      when="1785-06-05"
+                      where="#orgplc-275">
+                  <label>1785, Juni 5</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,8 +127,16 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-275">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-275">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
-            <persName type="addressee">FÜßli [FÜssli], Johann Heinrich</persName>
+            <persName type="addressee">Füßli [Füssli], Johann Heinrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0271</classCode>

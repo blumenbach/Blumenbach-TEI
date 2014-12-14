@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Charles Bonnet informiert Blumenbach, dass Lazzaro Spallanzani ähnliche Versuche wie Blumenbach zur Regenerationsfähigkeit von Salamandern durchgefÜhrt habe, und deutet sie als Belege fÜr seine präformationistische Auffassung, bittet um Angaben zu Blumenbach Regenerationsversuchen mit WÜrmern [?] und seinen Ansichten zum Problem der Regeneration und der Präformationstheorie und kommentiert Blumenbachs Untersuchungen zur Körperwärme der Tiere. </title>
+            <title type="main">Charles Bonnet informiert Blumenbach, dass Lazzaro Spallanzani ähnliche Versuche wie Blumenbach zur Regenerationsfähigkeit von Salamandern durchgeführt habe, und deutet sie als Belege für seine präformationistische Auffassung, bittet um Angaben zu Blumenbach Regenerationsversuchen mit Würmern [?] und seinen Ansichten zum Problem der Regeneration und der Präformationstheorie und kommentiert Blumenbachs Untersuchungen zur Körperwärme der Tiere. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Bonnet, Charles</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Genthod</pubPlace>
-            <date type="publication" when=" 1785-06-25"> 1785, Juni 25</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/278.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp.II, S. 291 Nr. 0366.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp.II, S. 291 Nr. 0366.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Leipzig, Universitätsbibliothek, Sammlung Kestner II C IX,9;Kopie in Genf, Bibliothek, Ms. Bonnet 76 fol. 208r&#x96;208r. </title>
+                  <title level="m" type="main">Leipzig, Universitätsbibliothek, Sammlung Kestner II C IX,9;Kopie in Genf, Bibliothek, Ms. Bonnet 76 fol. 208r&#x96;208r. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Bonnet, Charles</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-278">Genthod</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-278"
+                      sortKey="1785-06-25"
+                      when="1785-06-25"
+                      where="#orgplc-278">
+                  <label>1785, Juni 25</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-278">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-278">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

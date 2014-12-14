@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Carl Friedrich Schwickard berichtet Blumenbach von einem melkbaren Bock in Mariengarten. </title>
+            <title type="main">Carl Friedrich Schwickard berichtet Blumenbach von einem melkbaren Bock in Mariengarten. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Schwickard, Carl Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Mariengarten</pubPlace>
-            <date type="publication" when=" 1780-08-30"> 1780, Aug, 30.</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/95.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 206 Nr. 0131.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 206 Nr. 0131.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -66,13 +66,16 @@
                <rs type="object"/>
             </note>
             <note>
-               <rs type="span"> Von einem Bock, der Milch giebt&#x93; inHannoverisches Magazin 25. Jg., 48. StÜck, 15. Juni 1787, Sp. 753&#x96;762 (= Bibliographie Nr. 00804).</rs>
+               <rs type="span"/>
             </note>
             <note>
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Hannoverisches Magazin 25. Jg., 48. StÜck, 15. Juni 1787, Sp. 753.</rs>
+               <rs type="lz">Hannoverisches Magazin 25. Jg., 48. Stück, 15. Juni 1787, Sp. 753.</rs>
+            </note>
+            <note>
+               <rs type="item">Von einem Bock, der Milch giebt&#x93; inHannoverisches Magazin 25. Jg., 48. Stück, 15. Juni 1787, Sp. 753&#x96;762 (= Bibliographie Nr. 00804).</rs>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren; Überliefert durch Druck in Hannoverisches Magazin. </title>
+                  <title level="m" type="main">Or. verloren; überliefert durch Druck in Hannoverisches Magazin. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Schwickard, Carl Friedrich </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-95">Mariengarten</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-95"
+                      sortKey="1780-08-30"
+                      when="1780-08-30"
+                      where="#orgplc-95">
+                  <label>1780, Aug, 30.</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-95">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-95">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0094</classCode>
-            <classCode scheme="anchor"> Sept1780</classCode>
+            <classCode scheme="anchor">Sept1780</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

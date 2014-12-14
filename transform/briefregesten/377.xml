@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teilt der Königlichen Societät der Wissenschaften zu Göttingen mit, er werde seinen Vortrag [im Rahmen der Feierlichkeiten zum 50. Jahrestag der UniversitätsgrÜndung] wie vorgeschlagen kurz halten. </title>
+            <title type="main">Blumenbach teilt der Königlichen Societät der Wissenschaften zu Göttingen mit, er werde seinen Vortrag [im Rahmen der Feierlichkeiten zum 50. Jahrestag der Universitätsgründung] wie vorgeschlagen kurz halten. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1787-07-25"> 1787, Juli 25</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/377.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 116 Nr. 0468.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 116 Nr. 0468.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,21 +72,24 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Commentatio de vi vitali sanguinis recitata in consessu sollenni D. XVIII. Septemb. 1787 (1787; Bibliographie Nr. 00173). </rs>
+               <rs type="lz">Commentatio de vi vitali sanguinis recitata in consessu sollenni D. XVIII. Septemb. 1787 (1787; Bibliographie Nr. 00173). </rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00173"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=134"/>
             </note>
             <note>
-               <rs type="edition"> 00173   Corresp. III, S. 116 Nr. 0468 </rs>
+               <rs type="edition">00173  Corresp. III, S. 116 Nr. 0468 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Akademie der Wissenschaften, Archiv, Scient. 13,2 Nr. 7. </title>
+                  <title level="m" type="main">Göttingen, Akademie der Wissenschaften, Archiv, Scient. 13,2 Nr. 7. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-377">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-377"
+                      sortKey="1787-07-25"
+                      when="1787-07-25"
+                      where="#orgplc-377">
+                  <label>1787, Juli 25</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-377">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-377">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Königliche Societät der Wissenschaften zu Göttingen</persName>
          </creation>

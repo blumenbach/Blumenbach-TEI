@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach danktCharles Francis Greville fÜr die ihm zugesandten Diamantspath-Proben und einen Diamanten aus Ostindien, bestätigt, dass er neun Exemplare von Grevilles Aufsatz Über den Diamantspath und die dazugehörigen Proben wie von Greville gewÜnscht an verschiedene deutsche Forscher weitergesandt habe, und fragt, wie er mit zwei Aufsatzexemplaren undProbenverfahren soll, die fÜr zwischenzeitlich verstorbene Forscher gedacht waren. </title>
+            <title type="main">Blumenbach danktCharles Francis Greville für die ihm zugesandten Diamantspath-Proben und einen Diamanten aus Ostindien, bestätigt, dass er neun Exemplare von Grevilles Aufsatz über den Diamantspath und die dazugehörigen Proben wie von Greville gewünscht an verschiedene deutsche Forscher weitergesandt habe, und fragt, wie er mit zwei Aufsatzexemplaren undProbenverfahren soll, die für zwischenzeitlich verstorbene Forscher gedacht waren. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1799-01-10"> 1799, Jan. 10</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1073.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 349&#x96;350 Nr. 1209.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 349&#x96;350 Nr. 1209.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Ostindischer Diamant (2 1/8 Karat schwer); Diamantspath aus Coromandel. Blumenbach fragt ausdrÜcklich, ob er neben der fÜr ihn selbst gedachten Diamantspathprobe eine der verwaisten Proben fÜr das Academische Museum der Universität Göttingen behalten dÜrfe.</rs>
+               <rs type="object">Ostindischer Diamant (2 1/8 Karat schwer); Diamantspath aus Coromandel. Blumenbach fragt ausdrücklich, ob er neben der für ihn selbst gedachten Diamantspathprobe eine der verwaisten Proben für das Academische Museum der Universität Göttingen behalten dürfe.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=365"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 349&#x96;350 Nr. 1209 </rs>
+               <rs type="edition">Corresp. V, S. 349&#x96;350 Nr. 1209 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, British Library, Add MS 42071, fol.99&#x96;100. </title>
+                  <title level="m" type="main">London, British Library, Add MS 42071, fol.99&#x96;100. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1073">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1073"
+                      sortKey="1799-01-10"
+                      when="1799-01-10"
+                      where="#orgplc-1073">
+                  <label>1799, Jan. 10</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1073">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1073">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Greville, Charles Francis </persName>
          </creation>

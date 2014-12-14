@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Thomas von Asch sendet Blumenbach menschliche Schädel, u. a. aus Sibirien, und einige Mineralien. </title>
+            <title type="main">Georg Thomas von Asch sendet Blumenbach menschliche Schädel, u. a. aus Sibirien, und einige Mineralien. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Asch, Georg Thomas von</persName>
             </author>
@@ -37,9 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> 1787, Juni 30  St. Petersburg</pubPlace>
-            <date type="publication"
-                  when=" [= julian. Kal.: Juni, 19]  1787-06-30  [= julian. Kal.: 1787-06-19]"/>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -47,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/376.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -58,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 114 Nr. 0467.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 114 Nr. 0467.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -67,27 +66,30 @@
                <rs type="object"/>
             </note>
             <note>
-               <rs type="span"> Introductio in historiam medicinae litterariam (1786; Bibliographie Nr. 00142).</rs>
+               <rs type="span"/>
             </note>
             <note>
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Decas craniorum 1 (1790), Tafel 5; Bibliographie Nr. 00092) und eines Tschuwaschen (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 584).</rs>
+               <rs type="lz">Decas craniorum 1 (1790), Tafel 5; Bibliographie Nr. 00092) und eines Tschuwaschen (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 584).</rs>
+            </note>
+            <note>
+               <rs type="item">Introductio in historiam medicinae litterariam (1786; Bibliographie Nr. 00142).</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00092"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=132"/>
             </note>
             <note>
-               <rs type="edition"> 00092   Corresp. III, S. 114 Nr. 0467 </rs>
+               <rs type="edition">00092  Corresp. III, S. 114 Nr. 0467 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach III, fol. 8. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach III, fol. 8. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Asch, Georg Thomas von</persName>
                   </author>
@@ -100,6 +102,28 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-376">St. Petersburg</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-376"
+                      sortKey="1787-06-30"
+                      when="1787-06-30"
+                      where="#orgplc-376">
+                  <label>1787, Juni 30</label>
+               </event>
+            </listEvent>
+            <listEvent>
+               <event type="julian-origin"
+                      datingMethod="#julian-376"
+                      when="1787-06-19"
+                      where="#orgplc">
+                  <label>1787, Juni 30</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -114,12 +138,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-376">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-376">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0372</classCode>
-            <classCode scheme="anchor"> Juli1787</classCode>
+            <classCode scheme="anchor">Juli1787</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

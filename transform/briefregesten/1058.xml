@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Adam Seybert berichtet Blumenbach [u. a.] Über im westlichen Nordamerika gefundene fossile Knocheneines Mammuts. </title>
+            <title type="main">Adam Seybert berichtet Blumenbach [u. a.] über im westlichen Nordamerika gefundene fossile Knocheneines Mammuts. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Seybert, Adam</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Philadelphia</pubPlace>
-            <date type="publication" when=" 1798-11-26"> 1798, Nov. 26</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1058.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 330&#x96;331 Nr. 1195.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 330&#x96;331 Nr. 1195.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Seybert spricht von den Kochen einesMammut;Dougherty, a.a.O., S. 330 Anm. 3,vermutet, es habe sich um Knochen eines fossilen Riesenfaultiers (megalonyx) gehandelt. </note>
             <note>
-               <rs type="object"> AngekÜndigt: Zeichnungen der fossilen Knochen eines Mastodons. </rs>
+               <rs type="object">Angekündigt: Zeichnungen der fossilen Knochen eines Mastodons. </rs>
             </note>
             <note>
                <rs type="span"/>
@@ -72,14 +72,18 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 2, 1. StÜck (1800), S. 24 (&#x84;4) Von dem colossalischen Land-Ungeheuer der Vorwelt, dem Mammut (Mammut ohioticum).&#x93; Bibliographie Nr. 00860).</rs>
+               <rs type="lz">Magazin für den neuesten Zustand der Naturkunde, Bd. 2, 1. Stück (1800), S. 24 (&#x84;4) Von dem colossalischen Land-Ungeheuer der Vorwelt, dem Mammut (Mammut ohioticum).&#x93; Bibliographie Nr. 00860).</rs>
+            </note>
+            <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00860 (siehe&#x84;Dr.&#x93;).
+</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00860"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=346"/>
             </note>
             <note>
-               <rs type="edition"> 00860   Corresp. V, S. 330&#x96;331 Nr. 1195 </rs>
+               <rs type="edition">00860  Corresp. V, S. 330&#x96;331 Nr. 1195 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -99,6 +103,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1058">Philadelphia</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1058"
+                      sortKey="1798-11-26"
+                      when="1798-11-26"
+                      where="#orgplc-1058">
+                  <label>1798, Nov. 26</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +131,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1058">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1058">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Pieter Camper die neue, zweite Auflage seiner Dissertation De generis humani varietate nativa (1781), berichtet Über den Fortgang seiner Forschungen zu Missbildungen und bittet Camper um weitere Informationen zu dessen Beobachtungen zu diesem Thema. </title>
+            <title type="main">Blumenbach sendet Pieter Camper die neue, zweite Auflage seiner Dissertation De generis humani varietate nativa (1781), berichtet über den Fortgang seiner Forschungen zu Missbildungen und bittet Camper um weitere Informationen zu dessen Beobachtungen zu diesem Thema. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1781-05-22"> 1781, Mai 22</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/115.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 244 Nr. 0153.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 244 Nr. 0153.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -66,26 +66,29 @@
                <rs type="object"/>
             </note>
             <note>
-               <rs type="span"> De humani generis varietate nativa (1781) (= Bibliographie Nr. 00003).</rs>
+               <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Gysel,Carlos: &#x84;Les relations du jeune Blumenbach avec Camper vieillissant&#x93;, in Histoire des sciences médicales, XVII (1983), S. 137&#x96;138.</rs>
+               <rs type="bibl">Gysel,Carlos: &#x84;Les relations du jeune Blumenbach avec Camper vieillissant&#x93;, in Histoire des sciences médicales, XVII (1983), S. 137&#x96;138.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">De humani generis varietate nativa (1781) (= Bibliographie Nr. 00003).</rs>
+            </note>
+            <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00003"/>
             </note>
             <note>
-               <rs type="edition"> 00003 </rs>
+               <rs type="edition">00003 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Amsterdam, Universiteitsbibliotheek (Camper Papers), Hs. X 11c. </title>
+                  <title level="m" type="main">Amsterdam, Universiteitsbibliotheek (Camper Papers), Hs. X 11c. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-115">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-115"
+                      sortKey="1781-05-22"
+                      when="1781-05-22"
+                      where="#orgplc-115">
+                  <label>1781, Mai 22</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-115">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-115">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Camper, Pieter </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0114</classCode>
-            <classCode scheme="anchor"> Juni1781</classCode>
+            <classCode scheme="anchor">Juni1781</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach dankt August [und Johann Wolfgang?] von Goethe fÜr die Zusendung eines antiken Schädels aus einem GrabhÜgel bei Romstedt in ThÜringen, gibt eine wissenschaftliche Einschätzung zu Alter und Geschlecht des Toten und schlägtzur Bestimmung von dessen ethnischer Zugehörigkeit eine Publikation von Zeichnungen der Grabbeigaben an. </title>
+            <title type="main">Blumenbach dankt August [und Johann Wolfgang?] von Goethe für die Zusendung eines antiken Schädels aus einem Grabhügel bei Romstedt in Thüringen, gibt eine wissenschaftliche Einschätzung zu Alter und Geschlecht des Toten und schlägtzur Bestimmung von dessen ethnischer Zugehörigkeit eine Publikation von Zeichnungen der Grabbeigaben an. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1815-02-20"> 1815, nach Febr. 20</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1434.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,22 +57,25 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Schädel eines &#x84;alten Germanen&#x93; (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 5; Abb. in Nova pentas craniorum (1828), Tafel 61, Bibliographie Nr. 00098), Fotos inKárolyi, Zeitschrift fÜr Morphologie und Anthropologie 1966, Tafel 16, unten; zur Identifikation des Schädels vgl.Spengel, Anthropologische Sammlung, S. 12 ad 240.</rs>
+               <rs type="object">Schädel eines &#x84;alten Germanen&#x93; (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 5; Abb. in Nova pentas craniorum (1828), Tafel 61, Bibliographie Nr. 00098), Fotos inKárolyi, Zeitschrift für Morphologie und Anthropologie 1966, Tafel 16, unten; zur Identifikation des Schädels vgl.Spengel, Anthropologische Sammlung, S. 12 ad 240.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Paraphrase in: Voit, Max: Ein Brief von Goethes Sohn August an J. F. Blumenbach. Göttingen 1928 [Gedr. in 100 Ex. zur 6jähr. Jahresfeier d. Vereinigung Göttinger BÜcherfreunde am 23. Juni 1928].</rs>
+               <rs type="bibl">Paraphrase in: Voit, Max: Ein Brief von Goethes Sohn August an J. F. Blumenbach. Göttingen 1928 [Gedr. in 100 Ex. zur 6jähr. Jahresfeier d. Vereinigung Göttinger Bücherfreunde am 23. Juni 1928].</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Konzept beiliegend zu Brief August von Goethes an Blumenbach vom 20. Febr. 1815, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 19, fol. 2&#x96;3. </title>
+                  <title level="m" type="main">Konzept beiliegend zu Brief August von Goethes an Blumenbach vom 20. Febr. 1815, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 19, fol. 2&#x96;3. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -96,9 +99,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1434">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1815-02-20">
-                  <label> 1815, nach Febr. 20</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1434"
+                      sortKey="1815-02-20"
+                      notBefore="1815-02-20"
+                      where="#orgplc-1434">
+                  <label>1815, nach Febr. 20</label>
                </event>
             </listEvent>
             <msDesc>
@@ -115,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1434">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1434">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Goethe,August von / Johann Wolfgang von</persName>
          </creation>

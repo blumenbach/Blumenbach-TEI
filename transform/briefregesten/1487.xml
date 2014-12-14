@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Arthur Schopenhauer an Blumenbach. </title>
+            <title type="main">Arthur Schopenhauer an Blumenbach. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Schopenhauer, Arthur</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when="1819"> 1819  Dresden</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1487.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://kalliope.staatsbibliothek-berlin.de/"/>
             </note>
             <note>
-               <rs type="edition"> http://kalliope.staatsbibliothek- berlin.de/ </rs>
+               <rs type="edition">http://kalliope.staatsbibliothek- berlin.de/ </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Konzept: Frankfurt, Universitätsbibliothek Johann Christian Senckenberg, Schopenhauer-Archiv III 3, vgl. http://kalliope.staatsbibliothek- berlin.de/ [Zugriff: 2012-10-12]. </title>
+                  <title level="m" type="main">Konzept: Frankfurt, Universitätsbibliothek Johann Christian Senckenberg, Schopenhauer-Archiv III 3, vgl. http://kalliope.staatsbibliothek- berlin.de/ [Zugriff: 2012-10-12]. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Schopenhauer, Arthur</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1487"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1487"
+                      sortKey="1819"
+                      when="1819"
+                      where="#orgplc-1487">
+                  <label>1819 Dresden</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1487">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1487">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

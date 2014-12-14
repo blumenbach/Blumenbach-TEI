@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Gottlieb Tilesius von Tilenau berichtetBlumenbach ÜberEinwohner und geologische Beschaffenheit der Marquesasinsel Nuku Hiva (&#x84;Nukahiwah&#x93;)und Über die Fähigkeiteiner dortige Eidechse, ein abgebrochenes SchwanzstÜck neu wachsen zu lassen, und beschreibt die Anatomie des Schädels des Argali-Schafes von der Kodiak-Insel. </title>
+            <title type="main">Gottlieb Tilesius von Tilenau berichtetBlumenbach überEinwohner und geologische Beschaffenheit der Marquesasinsel Nuku Hiva (&#x84;Nukahiwah&#x93;)und über die Fähigkeiteiner dortige Eidechse, ein abgebrochenes Schwanzstück neu wachsen zu lassen, und beschreibt die Anatomie des Schädels des Argali-Schafes von der Kodiak-Insel. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Tilesius von Tilenau, Gottlieb</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when="1805-06-09"> 1805, Juni 9 Petropawlowsk, Kamtschatka</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1310.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,31 +57,35 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Zeichnungen einer Eidechse von Nuku Hiva (Vorlage fÜr die Abb. in Bibliographie Nr. 00926 (siehe &#x84;Dr.&#x93;)) und des Kopfes und desskelettierten Schädels eines Argali-Schafes (Vorlage fÜr die beiden Abb. in Bibliographie Nr. 00927; angekÜndigt: skelettierter Schädel eines Argali-Schafes.</rs>
+               <rs type="object">Zeichnungen einer Eidechse von Nuku Hiva (Vorlage für die Abb. in Bibliographie Nr. 00926 (siehe &#x84;Dr.&#x93;)) und des Kopfes und desskelettierten Schädels eines Argali-Schafes (Vorlage für die beiden Abb. in Bibliographie Nr. 00927; angekündigt: skelettierter Schädel eines Argali-Schafes.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> AuszÜge in Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 12, 6. StÜck (1806), S. 492&#x96;498 (&#x84;10) Fernere Nachrichten von den neuen Marquesas-Inseln und deren Bewohnern&#x93;, Bibliographie Nr.00926) und S. 498&#x96;502 (&#x84;11) Naturhistorische Bemerkungen aus Kamtschatka&#x93;, Bibliographie Nr.00927), hier S. 498&#x96;499.</rs>
+               <rs type="bibl">Auszüge in Magazin für den neuesten Zustand der Naturkunde, Bd. 12, 6. Stück (1806), S. 492&#x96;498 (&#x84;10) Fernere Nachrichten von den neuen Marquesas-Inseln und deren Bewohnern&#x93;, Bibliographie Nr.00926) und S. 498&#x96;502 (&#x84;11) Naturhistorische Bemerkungen aus Kamtschatka&#x93;, Bibliographie Nr.00927), hier S. 498&#x96;499.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00926 und Nr. 00927 (siehe&#x84;Dr.&#x93;). 
+</rs>
+            </note>
+            <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00926"/>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00927"/>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00926"/>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00927"/>
             </note>
             <note>
-               <rs type="edition"> 0092600927   0092600927 </rs>
+               <rs type="edition">0092600927  0092600927 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -101,6 +105,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1310">Petropawlowsk, Kamtschatka</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1310"
+                      sortKey="1805-06-09"
+                      when="1805-06-09"
+                      where="#orgplc-1310">
+                  <label>1805, Juni 9</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -115,6 +133,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1310">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1310">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

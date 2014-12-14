@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach dankt Carl Friedrich von Wiebeking fÜr BÜcher, die der Königlichen Gesellschaft der Wissenschaften zu Göttingen geschenkt worden waren. </title>
+            <title type="main">Blumenbach dankt Carl Friedrich von Wiebeking für Bücher, die der Königlichen Gesellschaft der Wissenschaften zu Göttingen geschenkt worden waren. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1815-01-05"> 1815, Jan. 5</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1431.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -66,26 +66,29 @@
                <rs type="object"/>
             </note>
             <note>
-               <rs type="span">  </rs>
+               <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> </rs>
+               <rs type="bibl">   </rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://hans.sub.uni-goettingen.de/nachlaesse/Blumenbach.pdf"/>
             </note>
             <note>
-               <rs type="edition"> http://hans.sub.uni-goettingen.de/ nachlaesse/Blumenbach.pdf </rs>
+               <rs type="edition">http://hans.sub.uni-goettingen.de/ nachlaesse/Blumenbach.pdf </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, 4 Cod. Ms. hist. lit. 116: I, Nr. 32a, vgl. http://hans.sub.uni-goettingen.de/ nachlaesse/Blumenbach.pdf. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, 4 Cod. Ms. hist. lit. 116: I, Nr. 32a, vgl. http://hans.sub.uni-goettingen.de/ nachlaesse/Blumenbach.pdf. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1431">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1431"
+                      sortKey="1815-01-05"
+                      when="1815-01-05"
+                      where="#orgplc-1431">
+                  <label>1815, Jan. 5</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1431">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1431">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Wiebeking, Carl Friedrich von</persName>
          </creation>

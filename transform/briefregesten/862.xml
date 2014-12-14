@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Martinus van Marum sendet Blumenbach eine Zweitausfertigung des auf dem Postweg verloren gegangenen Diploms Über dessen Ernennung zum Mitglied der Hollandsche Maatschappij der Wetenschappen in Haarlem und berichtet, dass er ihm die erbetene Probe des Minerals Prehnit und einen Orang-Utan-Schädel bisher nicht habe beschaffen können. </title>
+            <title type="main">Martinus van Marum sendet Blumenbach eine Zweitausfertigung des auf dem Postweg verloren gegangenen Diploms über dessen Ernennung zum Mitglied der Hollandsche Maatschappij der Wetenschappen in Haarlem und berichtet, dass er ihm die erbetene Probe des Minerals Prehnit und einen Orang-Utan-Schädel bisher nicht habe beschaffen können. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Marum, Martinus van</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Haarlem</pubPlace>
-            <date type="publication" when=" 1796-06-02"> 1796, Juni 2</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/862.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,38 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 35&#x96;36 Nr. 0992. </biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 35&#x96;36 Nr. 0992. </biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Zu dem Orang-Utan-Schädel vgl. Blumenbachs handschriftl. Sammlungsverzeichnisse, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, II, fol. 111 und 1, III, fol. 8 und 1, IV, fol. 13. </note>
             <note>
-               <rs type="object"> Erbeten: Probe des Minerals Prehnit; Orang-Utan-Schädel (erhalten 1798; Abb. in Abbildungen naturhistorischer . Gegenstände, Heft 6 (1802; Bibliographie Nr. 00708), Tafel Nr. 52.</rs>
+               <rs type="object">Erbeten: Probe des Minerals Prehnit; Orang-Utan-Schädel (erhalten 1798; Abb. in Abbildungen naturhistorischer . Gegenstände, Heft 6 (1802; Bibliographie Nr. 00708), Tafel Nr. 52.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 69; Lichtenberg, Briefwechsel, Bd. 4 (1992), Nr. 2636, S. 591.</rs>
+               <rs type="bibl">Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 69; Lichtenberg, Briefwechsel, Bd. 4 (1992), Nr. 2636, S. 591.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=51"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 35&#x96;36 Nr. 0992 </rs>
+               <rs type="edition">Corresp. V, S. 35&#x96;36 Nr. 0992 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv, GSA 96/1826. </title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv, GSA 96/1826. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Marum, Martinus van</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-862">Haarlem</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-862"
+                      sortKey="1796-06-02"
+                      when="1796-06-02"
+                      where="#orgplc-862">
+                  <label>1796, Juni 2</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-862">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-862">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

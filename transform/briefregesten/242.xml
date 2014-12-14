@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach berichtet Franz Caspar Buchholz Über die unqualifizierte Vorlesungsauswahl des von Buchholz empfohlenen Studenten Johannes Theodor Joseph Köbbing und schlägt vor, dass Buchholz Köbbing schriftlich zu einer systematischeren Auswahl von Vorlesungen auffordere. </title>
+            <title type="main">Blumenbach berichtet Franz Caspar Buchholz über die unqualifizierte Vorlesungsauswahl des von Buchholz empfohlenen Studenten Johannes Theodor Joseph Köbbing und schlägt vor, dass Buchholz Köbbing schriftlich zu einer systematischeren Auswahl von Vorlesungen auffordere. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1785-01-15"> 1785, Jan. 15</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/242.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 234 Nr. 0329.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 234 Nr. 0329.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> MÜnster, Universitätsbibliothek, N. Gallitzin Kaps. 1,17. </title>
+                  <title level="m" type="main">Münster, Universitätsbibliothek, N. Gallitzin Kaps. 1,17. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-242">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-242"
+                      sortKey="1785-01-15"
+                      when="1785-01-15"
+                      where="#orgplc-242">
+                  <label>1785, Jan. 15</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-242">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-242">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Buchholz, Franz Caspar </persName>
          </creation>

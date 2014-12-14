@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Ernst Gottfried Baldinger kÜndigt Blumenbach an, dass er bei seinem Besuch in Göttingen eine aufwendige hessische Dienstuniform tragen werde. </title>
+            <title type="main">Ernst Gottfried Baldinger kündigt Blumenbach an, dass er bei seinem Besuch in Göttingen eine aufwendige hessische Dienstuniform tragen werde. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Baldinger, Ernst Gottfried </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Kassel</pubPlace>
-            <date type="publication" when=" 1782-10-18"> 1782, vor Okt. 18</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/165.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 343 Nr. 0220.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 343 Nr. 0220.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 2 (Baldinger Nr. 2). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 2 (Baldinger Nr. 2). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Baldinger, Ernst Gottfried </persName>
                   </author>
@@ -96,9 +99,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-165">Kassel</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1782-10-18">
-                  <label> 1782, vor Okt. 18</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-165"
+                      sortKey="1782-10-18"
+                      notAfter="1782-10-18"
+                      where="#orgplc-165">
+                  <label>1782, vor Okt. 18</label>
                </event>
             </listEvent>
             <msDesc>
@@ -115,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-165">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-165">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0163</classCode>
-            <classCode scheme="anchor"> Nov1782</classCode>
+            <classCode scheme="anchor">Nov1782</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

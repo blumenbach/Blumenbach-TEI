@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach macht Christian Gottlob Heyne Vorschläge fÜr die Anschaffung von Sammlungsobjekten fÜr das Academische Museum der Universität Göttingen und fragt nach der Verwendbarkeit der &#x84;Venus genetrix&#x93; als Symbol fÜr den &#x84;Bildungstrieb&#x93;. </title>
+            <title type="main">Blumenbach macht Christian Gottlob Heyne Vorschläge für die Anschaffung von Sammlungsobjekten für das Academische Museum der Universität Göttingen und fragt nach der Verwendbarkeit der &#x84;Venus genetrix&#x93; als Symbol für den &#x84;Bildungstrieb&#x93;. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1787-05-26"> 1787, vor Mai 26</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/367.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 97 Nr. 0458.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 97 Nr. 0458.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -66,27 +66,30 @@
                <rs type="object"/>
             </note>
             <note>
-               <rs type="span"> Kommerziell angebotene &#x84;Sammlung der ThÜringischen GebÜrgsarten&#x93; von Johann Carl Wilhelm Voigt.</rs>
+               <rs type="span">Kommerziell angebotene &#x84;Sammlung der Thüringischen Gebürgsarten&#x93; von Johann Carl Wilhelm Voigt.</rs>
             </note>
             <note>
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Handbuch der Naturgeschichte (3. Auf., 1788; Bibliographie Nr.00024). </rs>
+               <rs type="lz">Handbuch der Naturgeschichte (3. Auf., 1788; Bibliographie Nr.00024). </rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00024"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=115"/>
             </note>
             <note>
-               <rs type="edition"> 00024   Corresp. III, S. 97 Nr. 0458 </rs>
+               <rs type="edition">00024  Corresp. III, S. 97 Nr. 0458 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Akademie der Wissenschaften, Archiv, Scient. 47, Nr. 907. </title>
+                  <title level="m" type="main">Göttingen, Akademie der Wissenschaften, Archiv, Scient. 47, Nr. 907. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,9 +102,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-367">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1787-05-26">
-                  <label> 1787, vor Mai 26</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-367"
+                      sortKey="1787-05-26"
+                      notAfter="1787-05-26"
+                      where="#orgplc-367">
+                  <label>1787, vor Mai 26</label>
                </event>
             </listEvent>
             <msDesc>
@@ -118,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-367">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-367">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Heyne, Christian Gottlob</persName>
          </creation>

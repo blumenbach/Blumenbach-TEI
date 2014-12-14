@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach berichtet Christian Gottlob Heyne Über seinen Aufenthalt in Weimar und besonders Über seine Begegnungen mit Johann Wolfgang von Goethe und Über seine Weiterreise nach Jena und den Zustand der dortigen Universität. </title>
+            <title type="main">Blumenbach berichtet Christian Gottlob Heyne über seinen Aufenthalt in Weimar und besonders über seine Begegnungen mit Johann Wolfgang von Goethe und über seine Weiterreise nach Jena und den Zustand der dortigen Universität. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Jena</pubPlace>
-            <date type="publication" when=" 1783-05-04"> 1783, Mai 4</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/179.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 28 Nr. 0241.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 28 Nr. 0241.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Schmidt, Erich: FS Karl Weinhold. Weimar 1893, I, S. 3&#x96;4 (kurzer Auszug, datiert auf März 4; wiederholt in Goethe-Jahrbuch XV (1894), S. 358, und in Leitzmann, Albert: &#x84;Ein Bericht von Therese Heyne Über Weimar und Jena 1783&#x93;, in Euphorion 1 (1894), S. 72); Bode, Wilhelm: Goethe in vertraulichen Briefen seiner Zeitgenossen. Band 1.Berlin 1918, S. 303&#x96;304 Auszug, mit Datierung auf Mai 4 (Neuausgabe 1979, S. 290, hier laut Dougherty, Corresp., wiederum datiert auf März 4).</rs>
+               <rs type="bibl">Schmidt, Erich: FS Karl Weinhold. Weimar 1893, I, S. 3&#x96;4 (kurzer Auszug, datiert auf März 4; wiederholt in Goethe-Jahrbuch XV (1894), S. 358, und in Leitzmann, Albert: &#x84;Ein Bericht von Therese Heyne über Weimar und Jena 1783&#x93;, in Euphorion 1 (1894), S. 72); Bode, Wilhelm: Goethe in vertraulichen Briefen seiner Zeitgenossen. Band 1.Berlin 1918, S. 303&#x96;304 Auszug, mit Datierung auf Mai 4 (Neuausgabe 1979, S. 290, hier laut Dougherty, Corresp., wiederum datiert auf März 4).</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 2 (ad Johann Wolfgang Goethe). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 2 (ad Johann Wolfgang Goethe). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-179">Jena</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-179"
+                      sortKey="1783-05-04"
+                      when="1783-05-04"
+                      where="#orgplc-179">
+                  <label>1783, Mai 4</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-179">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-179">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Heyne, Christian Gottlob </persName>
          </creation>

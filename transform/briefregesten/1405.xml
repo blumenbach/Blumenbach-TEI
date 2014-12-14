@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Leopold Gmelin bittetBlumenbach alsDekan der Medizinischen Fakultät der Universität Göttingen um die Genehmigung zur Promotion &#x84;in absentia&#x93; und zum Druck der Dissertation inWien und fragt nachDetails des Promotionsverfahrens. </title>
+            <title type="main">Leopold Gmelin bittetBlumenbach alsDekan der Medizinischen Fakultät der Universität Göttingen um die Genehmigung zur Promotion &#x84;in absentia&#x93; und zum Druck der Dissertation inWien und fragt nachDetails des Promotionsverfahrens. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Gmelin, Leopold</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Wien</pubPlace>
-            <date type="publication" when=" 1812-03-07"> 1812, März 7</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1405.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Stumm, Petra Renate: Leopold Gmelin (1788 - 1853) &#x96; Leben und Werk eines Heidelberger Chemikers. Diss. Heidelberg 2011, S. 170&#x96;171 Nr. 5; vgl. die Druckfassung der Diss. (Freiburg 2012).</rs>
+               <rs type="bibl">Stumm, Petra Renate: Leopold Gmelin (1788 - 1853) &#x96; Leben und Werk eines Heidelberger Chemikers. Diss. Heidelberg 2011, S. 170&#x96;171 Nr. 5; vgl. die Druckfassung der Diss. (Freiburg 2012).</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://nbn-resolving.de/urn:nbn:de:bsz:16-opus-128361"/>
             </note>
             <note>
-               <rs type="edition"> Leopold Gmelin (1788 - 1853) &#x96; Leben und Werk eines Heidelberger Chemikers </rs>
+               <rs type="edition">Leopold Gmelin (1788 - 1853) &#x96; Leben und Werk eines Heidelberger Chemikers </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsarchiv, Medizin. Fak., Dekanats- und Promotionsvorgänge und -urkunden fÜr das Jahr 1812.</title>
+                  <title level="m" type="main">Göttingen, Universitätsarchiv, Medizin. Fak., Dekanats- und Promotionsvorgänge und -urkunden für das Jahr 1812.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Gmelin, Leopold</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1405">Wien</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1405"
+                      sortKey="1812-03-07"
+                      when="1812-03-07"
+                      where="#orgplc-1405">
+                  <label>1812, März 7</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1405">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1405">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

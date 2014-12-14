@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Carl August Böttiger sendet Blumenbach die ausgeliehene Zeichnung eines indischen Lingamreliefs zurÜck, schickt ihm leihweise vier Kopien Johann Heinrich Wilhelm Tischbeins nach antiken Vasenabbildungen erotischen Inhalts und kÜndigt Fragen zu den in antiken Bodenmosaiken verwendeten Materialien an. </title>
+            <title type="main">Carl August Böttiger sendet Blumenbach die ausgeliehene Zeichnung eines indischen Lingamreliefs zurück, schickt ihm leihweise vier Kopien Johann Heinrich Wilhelm Tischbeins nach antiken Vasenabbildungen erotischen Inhalts und kündigt Fragen zu den in antiken Bodenmosaiken verwendeten Materialien an. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Böttiger, Carl August</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Weimar</pubPlace>
-            <date type="publication" when=" 1799-05-20"> 1799, Mai 20</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1096.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 380&#x96;381 Nr. 1232.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 380&#x96;381 Nr. 1232.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Von Charles Townley erhaltene Zeichnung eines indischen Lingamreliefs (erhalten in SUB Göttingen, 2 ARCH I, 1895).</rs>
+               <rs type="object">Von Charles Townley erhaltene Zeichnung eines indischen Lingamreliefs (erhalten in SUB Göttingen, 2 ARCH I, 1895).</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -72,21 +72,24 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Handbuch der Naturgeschichte (6. Aufl. 1799, Bibliographie Nr. 00027).</rs>
+               <rs type="lz">Handbuch der Naturgeschichte (6. Aufl. 1799, Bibliographie Nr. 00027).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00027"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=396"/>
             </note>
             <note>
-               <rs type="edition"> 00027   Corresp. V, S. 380&#x96;381 Nr. 1232 </rs>
+               <rs type="edition">00027  Corresp. V, S. 380&#x96;381 Nr. 1232 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Leipzig, Universitätsbibliothek, Sammlung Kestner II A IV, 203, fol. 12&#x96;13.</title>
+                  <title level="m" type="main">Leipzig, Universitätsbibliothek, Sammlung Kestner II A IV, 203, fol. 12&#x96;13.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Böttiger, Carl August</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1096">Weimar</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1096"
+                      sortKey="1799-05-20"
+                      when="1799-05-20"
+                      where="#orgplc-1096">
+                  <label>1799, Mai 20</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1096">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1096">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

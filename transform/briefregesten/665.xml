@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Emanuel Bozenhard sendet Blumenbach einen antiken menschlichen Schädel von der Ostseeinsel Seeland und beschreibt die Fundumstände. </title>
+            <title type="main">Emanuel Bozenhard sendet Blumenbach einen antiken menschlichen Schädel von der Ostseeinsel Seeland und beschreibt die Fundumstände. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Bozenhard, Emanuel</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1792-11-24"> 1792, Nov. 24</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/665.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 216 Nr. 0785.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 216 Nr. 0785.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Vgl. Blumenbachs hs. Verzeichnis seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, I, fol. 2.</note>
             <note>
-               <rs type="object"> Antiker (&#x84;cimbrischer&#x93;) menschlicher Schädel von der Insel Seeland (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 359); vgl. Spengel, Anthropologische Sammlung, S. 12, ad 288.</rs>
+               <rs type="object">Antiker (&#x84;cimbrischer&#x93;) menschlicher Schädel von der Insel Seeland (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 359); vgl. Spengel, Anthropologische Sammlung, S. 12, ad 288.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,18 +75,21 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=228"/>
             </note>
             <note>
-               <rs type="edition"> Spengel, Anthropologische Sammlung   Corresp. IV, S. 216 Nr. 0785 </rs>
+               <rs type="edition">Spengel, Anthropologische Sammlung  Corresp. IV, S. 216 Nr. 0785 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 18, fol. 2&#x96;3. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 18, fol. 2&#x96;3. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Bozenhard, Emanuel</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-665">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-665"
+                      sortKey="1792-11-24"
+                      when="1792-11-24"
+                      where="#orgplc-665">
+                  <label>1792, Nov. 24</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,12 +130,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-665">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-665">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0659</classCode>
-            <classCode scheme="anchor"> Dez1792</classCode>
+            <classCode scheme="anchor">Dez1792</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

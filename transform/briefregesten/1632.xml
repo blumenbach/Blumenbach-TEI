@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet [dem Verleger Hermann Dieterich ?] Angaben zur Reihenfolge vonBeiträgen in Band 7 der Commentationes Societatis Regiae Scientiarum Gottingensis recentiores, zu der fÜreinen eigenen Beitragzu verwendendenSchriftgrößeund zu Anzahl undPapiersorten der zu druckenden Exemplare. </title>
+            <title type="main">Blumenbach sendet [dem Verleger Hermann Dieterich ?] Angaben zur Reihenfolge vonBeiträgen in Band 7 der Commentationes Societatis Regiae Scientiarum Gottingensis recentiores, zu der füreinen eigenen Beitragzu verwendendenSchriftgrößeund zu Anzahl undPapiersorten der zu druckenden Exemplare. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> , ca. Juni? Göttingen</pubPlace>
-            <date type="publication" when=" ca. 1832-06-01"> 1832</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1632.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,21 +72,24 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Commentationes Societatis Regiae Scientiarum Gottingensis recentiores Bd. VII (1832), Math., S. 149-156 (= Bibliographie Nr. 00207).</rs>
+               <rs type="lz">Commentationes Societatis Regiae Scientiarum Gottingensis recentiores Bd. VII (1832), Math., S. 149-156 (= Bibliographie Nr. 00207).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://waller.ub.uu.se/18088.htmlhttp://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/Transkriptionen/Blumenbach_Lichtenstein_1834Jan31_Transkription.html"/>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00207"/>
             </note>
             <note>
-               <rs type="edition"> Digitalisat online verfÜgbarTranskription   00207 </rs>
+               <rs type="edition">Digitalisat online verfügbarTranskription  00207 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Uppsala, Universiteitsbiblioteket, The Waller Manuscript Collection, Waller Ms de-00386; Digitalisat online verfÜgbar. Transkription. </title>
+                  <title level="m" type="main">Uppsala, Universiteitsbiblioteket, The Waller Manuscript Collection, Waller Ms de-00386; Digitalisat online verfügbar. Transkription. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1632"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1632"
+                      sortKey="1832-06-01"
+                      when="1832-06-01"
+                      where="#orgplc-1632">
+                  <label>1832  , ca. Juni? Göttingen</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1632">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1632">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee"> [Dieterich, Hermann ?] </persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach erklärt sich gegenÜber der Königlichen Societät der Wissenschaften zu Göttingen einverstanden mit der Entbindung Abraham Gotthelf Kästners von der BuchfÜhrung der Societät. </title>
+            <title type="main">Blumenbach erklärt sich gegenüber der Königlichen Societät der Wissenschaften zu Göttingen einverstanden mit der Entbindung Abraham Gotthelf Kästners von der Buchführung der Societät. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1787-03-13"> 1787, nach März 13</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/359.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 81 Nr. 0450.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 81 Nr. 0450.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=99"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 81 Nr. 0450 </rs>
+               <rs type="edition">Corresp. III, S. 81 Nr. 0450 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Akademie der Wissenschaften, Archiv, Etat 1, ad Nr. 6. </title>
+                  <title level="m" type="main">Göttingen, Akademie der Wissenschaften, Archiv, Etat 1, ad Nr. 6. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-359">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1787-03-13">
-                  <label> 1787, nach März 13</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-359"
+                      sortKey="1787-03-13"
+                      notBefore="1787-03-13"
+                      where="#orgplc-359">
+                  <label>1787, nach März 13</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-359">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-359">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Königliche Societät der Wissenschaften zu Göttingen</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0355</classCode>
-            <classCode scheme="anchor"> April1787</classCode>
+            <classCode scheme="anchor">April1787</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Franz Xaver von Zach dankt Blumenbach fÜrdessen Beiträge zu den Allgemeine geographischen Ephemeriden, sendet Literaturhinweise und Informationen Über Alexander von Humboldts Reisepläne und äußert sich kritisch Über Jean André Delucs christlich-missionarisches Sendungsbewusstsein. </title>
+            <title type="main">Franz Xaver von Zach dankt Blumenbach fürdessen Beiträge zu den Allgemeine geographischen Ephemeriden, sendet Literaturhinweise und Informationen über Alexander von Humboldts Reisepläne und äußert sich kritisch über Jean André Delucs christlich-missionarisches Sendungsbewusstsein. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Zach, Franz Xaver von </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Seeberg</pubPlace>
-            <date type="publication" when=" 1798-02-01"> 1798, Febr.1</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/979.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 205&#x96;207 Nr. 1115.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 205&#x96;207 Nr. 1115.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -66,7 +66,7 @@
                <rs type="object"/>
             </note>
             <note>
-               <rs type="span"> inAllgemeine geographische Ephemeriden, Bd. 1, 2. StÜck (Februar 1798), S. 224&#x96;225(Bibliographie Nr. 00759); &#x84;Proceedings of the Association for promoting the Discovery of the interior parts of Africa. Vol. II. Part. I. London 1797. 31. S. in Median-Quart, mit aller typographischen Schönheit gedruckt in Shakespeare Printing-Office&#x93;, ebd., S.209&#x96;213 (Bibliographie [ohne Nr.]).</rs>
+               <rs type="span"/>
             </note>
             <note>
                <rs type="bibl"> </rs>
@@ -75,17 +75,20 @@
                <rs type="lz">  </rs>
             </note>
             <note>
+               <rs type="item">inAllgemeine geographische Ephemeriden, Bd. 1, 2. Stück (Februar 1798), S. 224&#x96;225(Bibliographie Nr. 00759); &#x84;Proceedings of the Association for promoting the Discovery of the interior parts of Africa. Vol. II. Part. I. London 1797. 31. S. in Median-Quart, mit aller typographischen Schönheit gedruckt in Shakespeare Printing-Office&#x93;, ebd., S.209&#x96;213 (Bibliographie [ohne Nr.]).</rs>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=221"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 205&#x96;207 Nr. 1115 </rs>
+               <rs type="edition">Corresp. V, S. 205&#x96;207 Nr. 1115 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 2 (von Zach Nr. 6). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 2 (von Zach Nr. 6). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Zach, Franz Xaver von </persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-979">Seeberg</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-979"
+                      sortKey="1798-02-01"
+                      when="1798-02-01"
+                      where="#orgplc-979">
+                  <label>1798, Febr.1</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-979">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-979">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

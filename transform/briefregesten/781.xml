@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Jean André Deluc die gedruckte Fassung seiner Übersetzung des vierten vondessen Lettres à Blumenbach sur l&#x92;histoire physique de la terre, schlägt vor, die Publikation der Übersetzungen mit dem fÜnften Brief einzustellen und erklärt, dass er in der mitgesandten Neuauflage seines inhaltlich bibelkonformen Werks De generis humani varietate (1795) bewusst auf eine Diskussion der Aussagen der Bibel verzichtet habe, um Religionskritikern keinen Anlass zu geben, das Werk zu ignorieren. </title>
+            <title type="main">Blumenbach sendet Jean André Deluc die gedruckte Fassung seiner übersetzung des vierten vondessen Lettres à Blumenbach sur l&#x92;histoire physique de la terre, schlägt vor, die Publikation der übersetzungen mit dem fünften Brief einzustellen und erklärt, dass er in der mitgesandten Neuauflage seines inhaltlich bibelkonformen Werks De generis humani varietate (1795) bewusst auf eine Diskussion der Aussagen der Bibel verzichtet habe, um Religionskritikern keinen Anlass zu geben, das Werk zu ignorieren. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1795-06-03"> 1795, Juni 3</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/781.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 402 Nr. 0909.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 402 Nr. 0909.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,24 +69,27 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Dougherty, Frank William Peter, &#x84;Der Begriff der Naturgeschichte nach J. F. Blumenbach anhand seiner Korrespondenz mit Jean-André DeLuc&#x93;, in Berichte zur Wissenschaftsgeschichte 9 (1986), S. 95&#x96;107, hier S. 100 (Nachdruck:Dougherty, Gesammelte Aufsätze (1996), S. 148&#x96;158, hier S. 153).</rs>
+               <rs type="bibl">Auszug in Dougherty, Frank William Peter, &#x84;Der Begriff der Naturgeschichte nach J. F. Blumenbach anhand seiner Korrespondenz mit Jean-André DeLuc&#x93;, in Berichte zur Wissenschaftsgeschichte 9 (1986), S. 95&#x96;107, hier S. 100 (Nachdruck:Dougherty, Gesammelte Aufsätze (1996), S. 148&#x96;158, hier S. 153).</rs>
             </note>
             <note>
-               <rs type="lz"> De humani generis varietate nativa (3. Aufl. (1795); Bibliographie Nr.00004).</rs>
+               <rs type="lz">De humani generis varietate nativa (3. Aufl. (1795); Bibliographie Nr.00004).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00004"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=414"/>
             </note>
             <note>
-               <rs type="edition"> 00004   Corresp. IV, S. 402 Nr. 0909 </rs>
+               <rs type="edition">00004  Corresp. IV, S. 402 Nr. 0909 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> New Haven, Yale University Library, Manuscripts and Archives, Jean André DeLuc Papers (MS 179).</title>
+                  <title level="m" type="main">New Haven, Yale University Library, Manuscripts and Archives, Jean André DeLuc Papers (MS 179).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-781">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-781"
+                      sortKey="1795-06-03"
+                      when="1795-06-03"
+                      where="#orgplc-781">
+                  <label>1795, Juni 3</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-781">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-781">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Deluc, Jean André</persName>
          </creation>

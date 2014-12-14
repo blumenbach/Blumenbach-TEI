@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach berichtet Samuel Thomas Soemmerring Über seine osteologischen Forschungspläne und -ergebnisse, darunter die Beobachtung des Zwischenkieferknochens (&#x84;os intermaxillare&#x93;) beim Menschen, und macht Anmerkungen zu zwischen ihm und Soemmerring ausgetauschten naturkundlichen Objekten und Instrumenten. </title>
+            <title type="main">Blumenbach berichtet Samuel Thomas Soemmerring über seine osteologischen Forschungspläne und -ergebnisse, darunter die Beobachtung des Zwischenkieferknochens (&#x84;os intermaxillare&#x93;) beim Menschen, und macht Anmerkungen zu zwischen ihm und Soemmerring ausgetauschten naturkundlichen Objekten und Instrumenten. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1781-03-24"> 1781, März 24</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/109.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,22 +57,25 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 226 Nr. 0145.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 226 Nr. 0145.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Evt. Beleg fÜr die Priorität Blumenbachs ggÜ. J. W. v. Goethe bei der Entdeckung des &#x84;os intermaxillare&#x93;. </note>
+            <note>Evt. Beleg für die Priorität Blumenbachs ggü. J. W. v. Goethe bei der Entdeckung des &#x84;os intermaxillare&#x93;. </note>
             <note>
-               <rs type="object"> Ein Blumenbach von Soemmerring geschenkter, (von ihm präparierter?) Tier- oder Menschenschädel.</rs>
+               <rs type="object">Ein Blumenbach von Soemmerring geschenkter, (von ihm präparierter?) Tier- oder Menschenschädel.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Wagner, Samuel Thomas Sömmerring&#x92;s Leben 1 (1844), Nr. 154, S. 296&#x96;298; Dumont, Soemmerring-Briefwechsel. 1761/65&#x96;Oktober 1784 (1996), Nr. 134, S. 321&#x96;323.</rs>
+               <rs type="bibl">Wagner, Samuel Thomas Sömmerring&#x92;s Leben 1 (1844), Nr. 154, S. 296&#x96;298; Dumont, Soemmerring-Briefwechsel. 1761/65&#x96;Oktober 1784 (1996), Nr. 134, S. 321&#x96;323.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Frankfurt am Main, Freies Deutsches Hochstift (Frankfurter Goethemuseum) Nr. 4955. </title>
+                  <title level="m" type="main">Frankfurt am Main, Freies Deutsches Hochstift (Frankfurter Goethemuseum) Nr. 4955. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-109">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-109"
+                      sortKey="1781-03-24"
+                      when="1781-03-24"
+                      where="#orgplc-109">
+                  <label>1781, März 24</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-109">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-109">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Soemmerring, Samuel Thomas </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0108</classCode>
-            <classCode scheme="anchor"> Apr1781</classCode>
+            <classCode scheme="anchor">Apr1781</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

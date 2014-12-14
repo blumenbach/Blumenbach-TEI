@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Charlotte Friederike Henriette von Dalwigk dankt Blumenbach fÜr die Zusendung eines Porträts (einer nicht identifizierten Person) und kommentierteinige Ereignisse während Blumenbachs Arolsen-Aufenthalt im November 1779. </title>
+            <title type="main">Charlotte Friederike Henriette von Dalwigk dankt Blumenbach für die Zusendung eines Porträts (einer nicht identifizierten Person) und kommentierteinige Ereignisse während Blumenbachs Arolsen-Aufenthalt im November 1779. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Dalwigk, Charlotte Friederike Henriette von </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Arolsen</pubPlace>
-            <date type="publication" when=" 1779-11-25"> 1779, Nov. 25</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/81.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 190 Nr. 0116.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 190 Nr. 0116.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 1 (Christiane von Waldeck Nr. 19). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 1 (Christiane von Waldeck Nr. 19). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Dalwigk, Charlotte Friederike Henriette von </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-81">Arolsen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-81"
+                      sortKey="1779-11-25"
+                      when="1779-11-25"
+                      where="#orgplc-81">
+                  <label>1779, Nov. 25</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-81">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-81">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0080</classCode>
-            <classCode scheme="anchor"> Dez1779</classCode>
+            <classCode scheme="anchor">Dez1779</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

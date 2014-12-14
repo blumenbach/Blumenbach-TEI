@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Joseph Banks teilt Blumenbach mit, er könne ihm zu einem späteren Zeitpunkt vermutlich Originale menschlicher Schädel aus dem Pazifikraum beschaffen, und fragt nach, ob Blumenbach dennoch die Anfertigung von GipsabgÜssen oder Zeichnungen von in England bereits vorhandenen Schädeln wÜnsche. </title>
+            <title type="main">Joseph Banks teilt Blumenbach mit, er könne ihm zu einem späteren Zeitpunkt vermutlich Originale menschlicher Schädel aus dem Pazifikraum beschaffen, und fragt nach, ob Blumenbach dennoch die Anfertigung von Gipsabgüssen oder Zeichnungen von in England bereits vorhandenen Schädeln wünsche. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> London</pubPlace>
-            <date type="publication" when=" 1787-08-24"> 1787, Aug. 24</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/380.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 119 Nr. 0471.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 119 Nr. 0471.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Dougherty, Commercium epistolicum (1984), S. 116 [als Teil vonKatNr. 134] (mit Abb. auf S. 115); vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S 110 Nr. 3 (Klammerzusatz).</rs>
+               <rs type="bibl">Dougherty, Commercium epistolicum (1984), S. 116 [als Teil vonKatNr. 134] (mit Abb. auf S. 115); vgl. ausführl. Regest in Dawson, The Banks Letters (1958), S 110 Nr. 3 (Klammerzusatz).</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=137"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 119 Nr. 0471 </rs>
+               <rs type="edition">Corresp. III, S. 119 Nr. 0471 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren; Überliefert als unvollst. Entwurf in London, British Library, Add MS 8096, fol. 384r&#x96;v. </title>
+                  <title level="m" type="main">Or. verloren; überliefert als unvollst. Entwurf in London, British Library, Add MS 8096, fol. 384r&#x96;v. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-380">London</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-380"
+                      sortKey="1787-08-24"
+                      when="1787-08-24"
+                      where="#orgplc-380">
+                  <label>1787, Aug. 24</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-380">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-380">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0376</classCode>
-            <classCode scheme="anchor"> Sept1787</classCode>
+            <classCode scheme="anchor">Sept1787</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

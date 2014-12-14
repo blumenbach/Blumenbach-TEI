@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Joseph Banks kÜndigt Blumenbach den baldigen Versand eines menschlichen Schädels von Tahiti an ihn an, gibt Auskunft Über die Qualität dreier Porträts des Tahitianers O-mai, sendet das Manuskript der englischen Übersetzung von Blumenbachs Aufsatz Über Mumien und bittet ihn, nach eigenem Ermessen regelmäßig BÜcher fÜr ihn zu beschaffen. </title>
+            <title type="main">Joseph Banks kündigt Blumenbach den baldigen Versand eines menschlichen Schädels von Tahiti an ihn an, gibt Auskunft über die Qualität dreier Porträts des Tahitianers O-mai, sendet das Manuskript der englischen übersetzung von Blumenbachs Aufsatz über Mumien und bittet ihn, nach eigenem Ermessen regelmäßig Bücher für ihn zu beschaffen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>London</pubPlace>
-            <date type="publication" when=" 1794-02-07"> 1794, Febr. 7</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/706.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,36 +57,40 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 301 Nr. 0830.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 301 Nr. 0830.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> AngekÜndigt: Schädel eines Tahitianers (Schädelsammlung Nr. 769, Abb. inDecas craniorum 3 (1795), Tafel 26 [Modellschädel fÜr Blumenbachs malayische Varietät der Spezies Mensch]; Bibliographie Nr. 00094).</rs>
+               <rs type="object">Angekündigt: Schädel eines Tahitianers (Schädelsammlung Nr. 769, Abb. inDecas craniorum 3 (1795), Tafel 26 [Modellschädel für Blumenbachs malayische Varietät der Spezies Mensch]; Bibliographie Nr. 00094).</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Dougherty, Commercium epistolicum (1984), S. 153&#x96;154 KatNr. 188.</rs>
+               <rs type="bibl">Dougherty, Commercium epistolicum (1984), S. 153&#x96;154 KatNr. 188.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item">Manuskript der englischen Fassung von&#x84;Observations on some Egyptian Mummies opened in London&#x93; (1794; Bibliographie Nr. 00992).
+</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00992"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=313"/>
             </note>
             <note>
-               <rs type="edition"> 00992   Corresp. IV, S. 301 Nr. 0830 </rs>
+               <rs type="edition">00992  Corresp. IV, S. 301 Nr. 0830 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach III, fol. 42&#x96;43. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach III, fol. 42&#x96;43. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
                   </author>
@@ -99,6 +103,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-706">London</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-706"
+                      sortKey="1794-02-07"
+                      when="1794-02-07"
+                      where="#orgplc-706">
+                  <label>1794, Febr. 7</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +131,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-706">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-706">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

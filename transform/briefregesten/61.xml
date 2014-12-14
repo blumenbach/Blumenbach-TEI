@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Christoph Lichtenberg entschuldigt sich dafÜr, Blumenbachs Besuch abgewiesen zu haben, trifft weitere Regelungen fÜr die Beherbergung Jonathan Blackwells und sendet Angaben u. a. zu einem Vogel namens &#x84;Honigweiser&#x93;. </title>
+            <title type="main">Georg Christoph Lichtenberg entschuldigt sich dafür, Blumenbachs Besuch abgewiesen zu haben, trifft weitere Regelungen für die Beherbergung Jonathan Blackwells und sendet Angaben u. a. zu einem Vogel namens &#x84;Honigweiser&#x93;. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1778-08-01"> 1778, August</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/61.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 150 Nr. 0085.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 150 Nr. 0085.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 8; Lichtenberg, Briefwechsel, Bd. 1 (1983), Nr. 505 S. 861&#x96;862.</rs>
+               <rs type="bibl">Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 8; Lichtenberg, Briefwechsel, Bd. 1 (1983), Nr. 505 S. 861&#x96;862.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#01011"/>
             </note>
             <note>
-               <rs type="edition"> 01011 </rs>
+               <rs type="edition">01011 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826 </title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826 </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph </persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-61">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1778-08-01">
-                  <label> 1778, August</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-61"
+                      sortKey="1778-08-01"
+                      notBefore="1778-08-01"
+                      where="#orgplc-61">
+                  <label>1778, August</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-61">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-61">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>

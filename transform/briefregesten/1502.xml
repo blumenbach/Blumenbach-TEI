@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Isaac Buxton sendetBlumenbach den Schädel eines Iren und einen möglicherweise aus der angelsächsischen Zeit stammenden Schädel aus der Kirche in Hythe in der Grafschaft Kent. </title>
+            <title type="main">Isaac Buxton sendetBlumenbach den Schädel eines Iren und einen möglicherweise aus der angelsächsischen Zeit stammenden Schädel aus der Kirche in Hythe in der Grafschaft Kent. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Buxton, Isaac </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>  unbekannt</pubPlace>
-            <date type="publication" when=" ca. 1820"> ca. 1820</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1502.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Meyer, Handschriften in Göttingen 3 (1894), S. 78 datiert den Brief auf &#x84;nach 1802&#x93;; Datierung auf &#x84;1820&#x93; in Spengel, Anthropologische Sammlung, S.14, Fußn. zu Schädel-Nr. 286; vgl. Datierung&#x84;ca. 1820&#x93; in Gascoigne, John, &#x84;The German Enlightenment and the Pacific&#x93;, in Wolff, Larry und Cipolloni, Marco (Hgg.): The Anthropology of the Enlightenment. Stanford 2007, S. 141&#x96;170, hier S. 167 mit Anm. 116.</note>
             <note>
-               <rs type="object"> Schädel eines Iren, vgl. Spengel, Anthropologische Sammlung, S.14, Fußn. zu Schädel-Nr. 286: &#x84;1820, von Dr. Buxton aus dem Guys Hospital&#x93;;Schädel aus Hythe in der Grafschaft Kent, Spengel, Anthropologische Sammlung, S.15, Fußn. zu Schädel-Nr. 285: &#x84;Schädel unbekannter Abkunft aus dem berÜhmten grossen Beinhaus von Hythe zu Kent.&#x93;</rs>
+               <rs type="object">Schädel eines Iren, vgl. Spengel, Anthropologische Sammlung, S.14, Fußn. zu Schädel-Nr. 286: &#x84;1820, von Dr. Buxton aus dem Guys Hospital&#x93;;Schädel aus Hythe in der Grafschaft Kent, Spengel, Anthropologische Sammlung, S.15, Fußn. zu Schädel-Nr. 285: &#x84;Schädel unbekannter Abkunft aus dem berühmten grossen Beinhaus von Hythe zu Kent.&#x93;</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553"/>
             </note>
             <note>
-               <rs type="edition"> Anthropologische SammlungAnthropologische Sammlung </rs>
+               <rs type="edition">Anthropologische SammlungAnthropologische Sammlung </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, fol. ?, Meyer, Handschriften in Göttingen 3 (1894), S. 78.</title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, fol. ?, Meyer, Handschriften in Göttingen 3 (1894), S. 78.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Buxton, Isaac </persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1502"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1502"
+                      sortKey="1820"
+                      when="1820"
+                      where="#orgplc-1502">
+                  <label>ca. 1820   unbekannt</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1502">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1502">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>

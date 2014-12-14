@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Anton Heinrich Friedrich Radziwill lädt Blumenbach zu einer Abendgesellschaft ein. </title>
+            <title type="main">Anton Heinrich Friedrich Radziwill lädt Blumenbach zu einer Abendgesellschaft ein. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Radziwill, Anton Heinrich Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1794-02-02"> 1794, Febr. 2</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/705.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 300 Nr. 0829.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 300 Nr. 0829.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach III, fol. 42-43.</rs>
+               <rs type="bibl">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach III, fol. 42-43.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=312"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 300 Nr. 0829 </rs>
+               <rs type="edition">Corresp. IV, S. 300 Nr. 0829 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 1. </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 1. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Radziwill, Anton Heinrich Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-705">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-705"
+                      sortKey="1794-02-02"
+                      when="1794-02-02"
+                      where="#orgplc-705">
+                  <label>1794, Febr. 2</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-705">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-705">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach bittet Johann David Schoepf um die angebotene Zusendung oberbayerischer Mineralien, gibt Ratschläge fÜr Schoepfs wissenschaftliche Korrespondenz mit dem Britischen Museum in London. </title>
+            <title type="main">Blumenbach bittet Johann David Schoepf um die angebotene Zusendung oberbayerischer Mineralien, gibt Ratschläge für Schoepfs wissenschaftliche Korrespondenz mit dem Britischen Museum in London. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1793-04-12"> 1793, April 12</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/685.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 252 Nr. 0808.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 252 Nr. 0808.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Mineralien aus Nordamerika (aufgelistet in Schoepfs Brief v. März 1793,Dougherty, Corresp. IV, Nr. 0803); erbeten: Mineralien aus Oberbayern (Bayreuth). &#x84;Zwei kleine Zeichnungen von ein paar Eskimos&#x93; (= Göttingen, Inst. fÜr Ethnologie, Inv.-Nr. Bi. Kat. 27&#x96;28). &#x84;Backenzahn des Ohio-Incognitums [= des amerikanischen Mastodons] mit den Wurzeln [&#x85;] aus dem Britischen Museum&#x93;.</rs>
+               <rs type="object">Mineralien aus Nordamerika (aufgelistet in Schoepfs Brief v. März 1793,Dougherty, Corresp. IV, Nr. 0803); erbeten: Mineralien aus Oberbayern (Bayreuth). &#x84;Zwei kleine Zeichnungen von ein paar Eskimos&#x93; (= Göttingen, Inst. für Ethnologie, Inv.-Nr. Bi. Kat. 27&#x96;28). &#x84;Backenzahn des Ohio-Incognitums [= des amerikanischen Mastodons] mit den Wurzeln [&#x85;] aus dem Britischen Museum&#x93;.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=264"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 252 Nr. 0808 </rs>
+               <rs type="edition">Corresp. IV, S. 252 Nr. 0808 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Berlin, Museum fÜr Naturkunde, Historische Bild- und Schriftgutsammlung, Bestand: Zoologisches Museum, Signatur S 1 Nachlass Schoepf III, Blumenbach, J.F.; Blatt 7. </title>
+                  <title level="m" type="main">Berlin, Museum für Naturkunde, Historische Bild- und Schriftgutsammlung, Bestand: Zoologisches Museum, Signatur S 1 Nachlass Schoepf III, Blumenbach, J.F.; Blatt 7. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-685">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-685"
+                      sortKey="1793-04-12"
+                      when="1793-04-12"
+                      where="#orgplc-685">
+                  <label>1793, April 12</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-685">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-685">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Schoepf, Johann David</persName>
          </creation>

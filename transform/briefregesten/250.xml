@@ -3,9 +3,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> George Charlotte von HinÜber sendet Blumenbach Informationen Über den &#x84;wilden Peter&#x93;. </title>
+            <title type="main">George Charlotte von Hinüber sendet Blumenbach Informationen über den &#x84;wilden Peter&#x93;. </title>
             <author>
-               <persName ref="http://d-nb.info/gnd/">HinÜber, George Charlotte von </persName>
+               <persName ref="http://d-nb.info/gnd/">Hinüber, George Charlotte von </persName>
             </author>
             <editor>
                <persName ref="http://d-nb.info/gnd/">
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> London</pubPlace>
-            <date type="publication" when=" 1785-02-22"> 1785, nach Febr. 22</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/250.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 249 Nr. 0337.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 249 Nr. 0337.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,7 +72,11 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Magazin fÜr das Neueste aus der Physik und der Naturgeschichte IV, 3 (1787), S. 91&#x96;93.</rs>
+               <rs type="lz">Magazin für das Neueste aus der Physik und der Naturgeschichte IV, 3 (1787), S. 91&#x96;93.</rs>
+            </note>
+            <note>
+               <rs type="item">Erster Teil (S. 91&#x96;93)des Aufsatzes &#x84;Vom wilden Peter, der den 4ten May 1724. bey Hameln eingefangen worden&#x93;,Magazin für das Neueste aus der Physik und der Naturgeschichte IV, 3 (1787), S. 91-99 (Bibliographie Nr. 00819).
+</rs>
             </note>
             <note/>
             <note>
@@ -83,9 +87,9 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren; Überliefert durch Blumenbachs Abdruck in Magazin fÜr das Neueste aus der Physik und der Naturgeschichte IV, 3 (1787), S. 91&#x96;93. </title>
+                  <title level="m" type="main">Or. verloren; überliefert durch Blumenbachs Abdruck in Magazin für das Neueste aus der Physik und der Naturgeschichte IV, 3 (1787), S. 91&#x96;93. </title>
                   <author>
-                     <persName ref="http://d-nb.info/gnd/">HinÜber, George Charlotte von </persName>
+                     <persName ref="http://d-nb.info/gnd/">Hinüber, George Charlotte von </persName>
                   </author>
                </titleStmt>
                <publicationStmt>
@@ -96,9 +100,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-250">London</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1785-02-22">
-                  <label> 1785, nach Febr. 22</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-250"
+                      sortKey="1785-02-22"
+                      notBefore="1785-02-22"
+                      where="#orgplc-250">
+                  <label>1785, nach Febr. 22</label>
                </event>
             </listEvent>
             <msDesc>
@@ -115,12 +128,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-250">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-250">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0246</classCode>
-            <classCode scheme="anchor"> Maerz1785</classCode>
+            <classCode scheme="anchor">Maerz1785</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Friedrich Scholl berichtet Blumenbach Über seine geplante Hochzeit, verspricht BemÜhungen, Blumenbach den Schädel eines Schweizer &#x84;Cretins&#x93; zu beschaffen, und bittet um Abschriften [eines zur Veröffentlichung vorgesehenen Manuskripts?] des Göttinger Mediziners August Gottlob Richter. </title>
+            <title type="main">Friedrich Scholl berichtet Blumenbach über seine geplante Hochzeit, verspricht Bemühungen, Blumenbach den Schädel eines Schweizer &#x84;Cretins&#x93; zu beschaffen, und bittet um Abschriften [eines zur Veröffentlichung vorgesehenen Manuskripts?] des Göttinger Mediziners August Gottlob Richter. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Scholl, Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Vevey</pubPlace>
-            <date type="publication" when=" 1786-10-20"> 1786, nach Okt. 20</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/337.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 50 Nr. 0427.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 50 Nr. 0427.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -66,7 +66,7 @@
                <rs type="object"/>
             </note>
             <note>
-               <rs type="span"> Geschichte und Beschreibung der Knochen des menschlichen Körpers (1786, Bibliographie Nr. 00062); Hefte des ersten Bandes der Medicinischen Bibliothek.</rs>
+               <rs type="span"/>
             </note>
             <note>
                <rs type="bibl"> </rs>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">Geschichte und Beschreibung der Knochen des menschlichen Körpers (1786, Bibliographie Nr. 00062); Hefte des ersten Bandes der Medicinischen Bibliothek.</rs>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=68"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 50 Nr. 0427 </rs>
+               <rs type="edition">Corresp. III, S. 50 Nr. 0427 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 4 (Student friends Nr. 9&#x96; Scholl Nr. 6). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 4 (Student friends Nr. 9&#x96; Scholl Nr. 6). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Scholl, Friedrich</persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-337">Vevey</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1786-10-20">
-                  <label> 1786, nach Okt. 20</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-337"
+                      sortKey="1786-10-20"
+                      notBefore="1786-10-20"
+                      where="#orgplc-337">
+                  <label>1786, nach Okt. 20</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-337">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-337">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

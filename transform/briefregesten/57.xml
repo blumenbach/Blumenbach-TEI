@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Obristlieutenant von Nostiz berichtet Blumenbach Über die Spontanheilung eines Waldecker Soldaten. </title>
+            <title type="main">Obristlieutenant von Nostiz berichtet Blumenbach über die Spontanheilung eines Waldecker Soldaten. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Nostiz, Obristlieutenant von </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Arolsen</pubPlace>
-            <date type="publication" when=" 1778-07-01"> 1778, vor Juli</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/57.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 147 Nr. 0081.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 147 Nr. 0081.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. unbekannt; Überlieferungals Auszug in August Ludwig Schlözer&#x92;s Briefwechsel meist histor. u. polit. Inhalts. Dritter Theil. Göttingen 1778, Heft XVI, S. 230. </title>
+                  <title level="m" type="main">Or. unbekannt; überlieferungals Auszug in August Ludwig Schlözer&#x92;s Briefwechsel meist histor. u. polit. Inhalts. Dritter Theil. Göttingen 1778, Heft XVI, S. 230. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Nostiz, Obristlieutenant von </persName>
                   </author>
@@ -96,9 +99,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-57">Arolsen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1778-07-01">
-                  <label> 1778, vor Juli</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-57"
+                      sortKey="1778-07-01"
+                      notAfter="1778-07-01"
+                      where="#orgplc-57">
+                  <label>1778, vor Juli</label>
                </event>
             </listEvent>
             <msDesc>
@@ -115,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-57">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-57">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0056</classCode>
-            <classCode scheme="anchor"> Aug1778</classCode>
+            <classCode scheme="anchor">Aug1778</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

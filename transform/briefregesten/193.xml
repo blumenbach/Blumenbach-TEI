@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Charles Bonnet dankt Blumenbach fÜr den ihm Übersandten Bericht mit Blumenbachs Beobachtungen zur Spiralstruktur von Nervenfasern, diskutiert mögliche Einwände gegen die Zuverlässigkeit der Beobachtungen insbesondere hinsichtlich der abweichenden Beobachtungen von Leopoldo Marc&#x92;Antonio Caldani und fordert zu weiteren Forschungen hierÜber auf und sendet ausfÜhrliche, von einer detailliert erläuterten Abbildung begleitete Angaben zu seinem gläsernen Bienenstock. </title>
+            <title type="main">Charles Bonnet dankt Blumenbach für den ihm übersandten Bericht mit Blumenbachs Beobachtungen zur Spiralstruktur von Nervenfasern, diskutiert mögliche Einwände gegen die Zuverlässigkeit der Beobachtungen insbesondere hinsichtlich der abweichenden Beobachtungen von Leopoldo Marc&#x92;Antonio Caldani und fordert zu weiteren Forschungen hierüber auf und sendet ausführliche, von einer detailliert erläuterten Abbildung begleitete Angaben zu seinem gläsernen Bienenstock. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Bonnet, Charles </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Genthod</pubPlace>
-            <date type="publication" when=" 17"> 1783, Dez. 20</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/193.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 114 Nr. 0261.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 114 Nr. 0261.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Blumenbach Übersetzung von Bonnets Erläuterungen zur AbbildungBienenstocks und eine Reproduktion der Abb. inMagazin fÜr das Neueste aus der Physik und Naturgeschichte 3,1 (1785), S. 114-118 (= Bibliographie Nr. 00815).</note>
+            <note>Blumenbach übersetzung von Bonnets Erläuterungen zur AbbildungBienenstocks und eine Reproduktion der Abb. inMagazin für das Neueste aus der Physik und Naturgeschichte 3,1 (1785), S. 114-118 (= Bibliographie Nr. 00815).</note>
             <note>
                <rs type="object"/>
             </note>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Teildruck (nach der Genfer Abschrift und ohne Bonnets Abb.-Beschreibung) in: Dougherty, Commercium epistolicum (1984), S. 37&#x96;39 KatNr. 27; Auszug Über Nerven-Beobachtung in: Dougherty, Frank W. P., &#x84;Nervenmorphologie und -physiologie in den 80er Jahren des 18. Jahrhunderts [&#x85;]&#x93;, in Mann, Gunter, und Dumont, Franz (Hg.), Gehirn&#x96; Nerven&#x96; Seele. Anatomie und Physiologie im Umfeld Th. Soemmerrings. Stuttgart und New York 1988, S. 55&#x96;91, hier S.59&#x96;61(Nachdruck: Dougherty, Gesammelte Aufsätze (1996),S. 103).</rs>
+               <rs type="bibl">Teildruck (nach der Genfer Abschrift und ohne Bonnets Abb.-Beschreibung) in: Dougherty, Commercium epistolicum (1984), S. 37&#x96;39 KatNr. 27; Auszug über Nerven-Beobachtung in: Dougherty, Frank W. P., &#x84;Nervenmorphologie und -physiologie in den 80er Jahren des 18. Jahrhunderts [&#x85;]&#x93;, in Mann, Gunter, und Dumont, Franz (Hg.), Gehirn&#x96; Nerven&#x96; Seele. Anatomie und Physiologie im Umfeld Th. Soemmerrings. Stuttgart und New York 1988, S. 55&#x96;91, hier S.59&#x96;61(Nachdruck: Dougherty, Gesammelte Aufsätze (1996),S. 103).</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Leipzig, Universitätsbibliothek, Sammlung Kestner II C IX,9;Kopie mit abweichender Reihenfolge der Absätze in Genf, Bibliothek, Ms. Bonnet 76 fol. 135&#x96;137. </title>
+                  <title level="m" type="main">Leipzig, Universitätsbibliothek, Sammlung Kestner II C IX,9;Kopie mit abweichender Reihenfolge der Absätze in Genf, Bibliothek, Ms. Bonnet 76 fol. 135&#x96;137. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Bonnet, Charles </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-193">Genthod</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-193"
+                      sortKey="17"
+                      when="17"
+                      where="#orgplc-193">
+                  <label>1783, Dez. 20</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-193">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-193">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>

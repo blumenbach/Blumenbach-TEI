@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Therese Heyne (Therese Huber) lädt Blumenbach zu einem Besuch in TÜbingen ein und berichtet Über ihrefamiliäre Situation. </title>
+            <title type="main">Therese Heyne (Therese Huber) lädt Blumenbach zu einem Besuch in Tübingen ein und berichtet über ihrefamiliäre Situation. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Heyne, Therese (Huber, Therese)</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> TÜbingen</pubPlace>
-            <date type="publication" when=" 1798-09-30"> 1798, vor Sept. 30</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1041.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 300&#x96;301 Nr. 1178.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 300&#x96;301 Nr. 1178.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=316"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 300&#x96;301 Nr. 1178 </rs>
+               <rs type="edition">Corresp. V, S. 300&#x96;301 Nr. 1178 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 4 (Therese HeyneNr. 10). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 4 (Therese HeyneNr. 10). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Heyne, Therese (Huber, Therese)</persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1041">Tübingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1798-09-30">
-                  <label> 1798, vor Sept. 30</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1041"
+                      sortKey="1798-09-30"
+                      notAfter="1798-09-30"
+                      where="#orgplc-1041">
+                  <label>1798, vor Sept. 30</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1041">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1041">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">1025</classCode>
-            <classCode scheme="anchor"> Okt1798</classCode>
+            <classCode scheme="anchor">Okt1798</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

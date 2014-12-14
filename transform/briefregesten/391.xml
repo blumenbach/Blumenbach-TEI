@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Das Geheime Ratskollegium teilt Blumenbach und fÜnf weiteren Göttinger Professoren die Gewährung einer Gehaltserhöhung um 100 Reichstaler jährlich mit. </title>
+            <title type="main">Das Geheime Ratskollegium teilt Blumenbach und fünf weiteren Göttinger Professoren die Gewährung einer Gehaltserhöhung um 100 Reichstaler jährlich mit. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Geheimes Ratskollegium</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Hannover</pubPlace>
-            <date type="publication" when=" 1787-11-27"> 1787, Nov. 27</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/391.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 135 Nr. 0482.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 135 Nr. 0482.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=153"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 135 Nr. 0482 </rs>
+               <rs type="edition">Corresp. III, S. 135 Nr. 0482 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsarchiv, Kur. 4932, S. 41. </title>
+                  <title level="m" type="main">Göttingen, Universitätsarchiv, Kur. 4932, S. 41. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Geheimes Ratskollegium</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-391">Hannover</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-391"
+                      sortKey="1787-11-27"
+                      when="1787-11-27"
+                      where="#orgplc-391">
+                  <label>1787, Nov. 27</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-391">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-391">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

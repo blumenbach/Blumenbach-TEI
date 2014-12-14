@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> (Notizen fÜr ein nichtÜberliefertes Schreiben Samuel Thomas Soemmerrings an Blumenbach zu anatomischen Fragen.) </title>
+            <title type="main"> (Notizen für ein nichtüberliefertes Schreiben Samuel Thomas Soemmerrings an Blumenbach zu anatomischen Fragen.) </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Soemmerring, Samuel Thomas </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Kassel</pubPlace>
-            <date type="publication" when=" 1784-05-14"> 1784, nach Mai 14</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/207.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 151 Nr. 0284.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 151 Nr. 0284.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Frankfurt am Main, Freies Deutsches Hochstift (Frankfurter Goethemuseum) Nr. 4958. </title>
+                  <title level="m" type="main">Frankfurt am Main, Freies Deutsches Hochstift (Frankfurter Goethemuseum) Nr. 4958. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Soemmerring, Samuel Thomas </persName>
                   </author>
@@ -96,9 +99,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-207">Kassel</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1784-05-14">
-                  <label> 1784, nach Mai 14</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-207"
+                      sortKey="1784-05-14"
+                      notBefore="1784-05-14"
+                      where="#orgplc-207">
+                  <label>1784, nach Mai 14</label>
                </event>
             </listEvent>
             <msDesc>
@@ -115,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-207">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-207">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>

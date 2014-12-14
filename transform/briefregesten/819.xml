@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach bittet Joseph Banks um Informationen Über das ostindische [vermeintliche] Eisenerz &#x84;Wootz&#x93; und eine Materialprobe davon. </title>
+            <title type="main">Blumenbach bittet Joseph Banks um Informationen über das ostindische [vermeintliche] Eisenerz &#x84;Wootz&#x93; und eine Materialprobe davon. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>  Göttingen</pubPlace>
-            <date type="publication" when=" 1795-10-15"> 1795, Okt. 15</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/819.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,38 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 465 Nr. 0948.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 465 Nr. 0948.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Materialprobe des ostindischen Eisenerzes &#x84;Wootz&#x93;.</rs>
+               <rs type="object">Materialprobe des ostindischen Eisenerzes &#x84;Wootz&#x93;.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Chambers, Indian and Pacific Correspondence of Sir Joseph Banks, Bd. 4 (2011), S. 318&#x96;319 Nr. 202; vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S 113 Nr. 33.</rs>
+               <rs type="bibl">Chambers, Indian and Pacific Correspondence of Sir Joseph Banks, Bd. 4 (2011), S. 318&#x96;319 Nr. 202; vgl. ausführl. Regest in Dawson, The Banks Letters (1958), S 113 Nr. 33.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=477"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 465 Nr. 0948 </rs>
+               <rs type="edition">Corresp. IV, S. 465 Nr. 0948 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, British Library, Add MS 8098, fol. 224. </title>
+                  <title level="m" type="main">London, British Library, Add MS 8098, fol. 224. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-819"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-819"
+                      sortKey="1795-10-15"
+                      when="1795-10-15"
+                      where="#orgplc-819">
+                  <label>1795, Okt. 15   Göttingen</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-819">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-819">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Banks, Joseph</persName>
          </creation>

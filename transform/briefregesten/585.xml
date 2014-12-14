@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teilt Georg Forster mit, dass er ihm eine gewÜnschte Publikation nicht habe beschaffen können. </title>
+            <title type="main">Blumenbach teilt Georg Forster mit, dass er ihm eine gewünschte Publikation nicht habe beschaffen können. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1791-06-12"> 1791, Juni 12</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/585.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 69 Nr. 0685.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 69 Nr. 0685.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Teilweise Transkription und Abb. in Stargardt, J.A:[Auktionskatalog] Autographen und Urkunden 1791 bis 1850. Eine Folge von Lagerkatalogen in chronologischer Anordnung. Vierte Reihe, Heft 3. Katalog 656 (Berlin 1994), Autograph Nr. 4b; vgl. Erwähnung in Forsters Brieftagebuch, Steiner/Fiedler, Forsters Werke, Bd. 16 (1980), Anhang, S. 603.</rs>
+               <rs type="bibl">Teilweise Transkription und Abb. in Stargardt, J.A:[Auktionskatalog] Autographen und Urkunden 1791 bis 1850. Eine Folge von Lagerkatalogen in chronologischer Anordnung. Vierte Reihe, Heft 3. Katalog 656 (Berlin 1994), Autograph Nr. 4b; vgl. Erwähnung in Forsters Brieftagebuch, Steiner/Fiedler, Forsters Werke, Bd. 16 (1980), Anhang, S. 603.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=81"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 69 Nr. 0685 </rs>
+               <rs type="edition">Corresp. IV, S. 69 Nr. 0685 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Kiel, Privatbesitz Hans-Rudolf Wiedemann. </title>
+                  <title level="m" type="main">Kiel, Privatbesitz Hans-Rudolf Wiedemann. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-585">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-585"
+                      sortKey="1791-06-12"
+                      when="1791-06-12"
+                      where="#orgplc-585">
+                  <label>1791, Juni 12</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-585">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-585">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Forster, Georg</persName>
          </creation>

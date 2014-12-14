@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Samuel Thomas Soemmerring berichtet Blumenbach von einer Beobachtung an einer menschlichen Leiche, die die Kreuzung der Sehnerven beim Menschen zu bestätigen scheine. </title>
+            <title type="main">Samuel Thomas Soemmerring berichtet Blumenbach von einer Beobachtung an einer menschlichen Leiche, die die Kreuzung der Sehnerven beim Menschen zu bestätigen scheine. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Soemmerring, Samuel Thomas</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Mainz</pubPlace>
-            <date type="publication" when=" 1785-04-18"> 1785, Apr. 18</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/264.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp.II, S. 270 Nr. 0351.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp.II, S. 270 Nr. 0351.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,7 +72,10 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Soemmerring-Briefwechsel. 1784&#x96;1792. Teil 1 (1997), Nr. 293 S. 174&#x96;175.</rs>
+               <rs type="lz">Soemmerring-Briefwechsel. 1784&#x96;1792. Teil 1 (1997), Nr. 293 S. 174&#x96;175.</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren; Überlieferung durch Druck inMedicinische Bibliothek Bd. 2, 2. StÜck.</title>
+                  <title level="m" type="main">Or. verloren; überlieferung durch Druck inMedicinische Bibliothek Bd. 2, 2. Stück.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Soemmerring, Samuel Thomas</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-264">Mainz</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-264"
+                      sortKey="1785-04-18"
+                      when="1785-04-18"
+                      where="#orgplc-264">
+                  <label>1785, Apr. 18</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-264">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-264">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

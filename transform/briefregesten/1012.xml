@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Joseph Banks dankt Blumenbach fÜr zugesandte Publikationen und kÜndigt die Zusendung einer Landkarte zu Mungo Parks Beschreibung seiner Afrikareisean. </title>
+            <title type="main">Joseph Banks dankt Blumenbach für zugesandte Publikationen und kündigt die Zusendung einer Landkarte zu Mungo Parks Beschreibung seiner Afrikareisean. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Banks, Joseph </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> London</pubPlace>
-            <date type="publication" when=" 1798-05-17"> 1798, Mai 17</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1012.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 256&#x96;257 Nr. 1149.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 256&#x96;257 Nr. 1149.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>AngekÜndigte Karte verwendet fÜr Kartenbeilage zu Allgemeine geographische Ephemeriden, Bd. 2, 2. StÜck (Aug. 1798), vgl. ebd. S. 190 (Verweis auf Blumenbach).</note>
+            <note>Angekündigte Karte verwendet für Kartenbeilage zu Allgemeine geographische Ephemeriden, Bd. 2, 2. Stück (Aug. 1798), vgl. ebd. S. 190 (Verweis auf Blumenbach).</note>
             <note>
                <rs type="object"/>
             </note>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Allgemeine geographische Ephemeriden, Bd. 1, 3. StÜck (März 1798), S. 353&#x96;354 (&#x84;7. Aus einem Schreiben des Hofraths Blumenbach. Göttingen, den 5. May 1798&#x93;, Bibliographie Nr. 00763). </rs>
+               <rs type="bibl">Auszug in Allgemeine geographische Ephemeriden, Bd. 1, 3. Stück (März 1798), S. 353&#x96;354 (&#x84;7. Aus einem Schreiben des Hofraths Blumenbach. Göttingen, den 5. May 1798&#x93;, Bibliographie Nr. 00763). </rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=272"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 256&#x96;257 Nr. 1149 </rs>
+               <rs type="edition">Corresp. V, S. 256&#x96;257 Nr. 1149 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Philadelphia, Library of the American Philosophical Society. Miscellaneous MS Collection. </title>
+                  <title level="m" type="main">Philadelphia, Library of the American Philosophical Society. Miscellaneous MS Collection. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Banks, Joseph </persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1012">London</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1012"
+                      sortKey="1798-05-17"
+                      when="1798-05-17"
+                      where="#orgplc-1012">
+                  <label>1798, Mai 17</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1012">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1012">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

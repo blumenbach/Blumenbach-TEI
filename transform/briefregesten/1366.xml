@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Heinrich Wilhelm Tischbein teilt Blumenbach seine Selbstbeobachtungen zur Stimmungsabhängigkeit seines Beobachtungs- und Erkenntnisvermögens mit und zieht eine Parallele zwischen der Vielfalt der Spielarten bei Tieren und beim Menschen. </title>
+            <title type="main">Johann Heinrich Wilhelm Tischbein teilt Blumenbach seine Selbstbeobachtungen zur Stimmungsabhängigkeit seines Beobachtungs- und Erkenntnisvermögens mit und zieht eine Parallele zwischen der Vielfalt der Spielarten bei Tieren und beim Menschen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Tischbein, Johann Heinrich Wilhelm</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Hamburg</pubPlace>
-            <date type="publication" when=" 1808-06-13"> vor 1808, Juni 13</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1366.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Alten, Aus Tischbein&#x92;s Leben (1872), S. 150&#x96;152.</rs>
+               <rs type="bibl">Alten, Aus Tischbein&#x92;s Leben (1872), S. 150&#x96;152.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -96,9 +99,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1366">Hamburg</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1808-06-13">
-                  <label> vor 1808, Juni 13</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1366"
+                      sortKey="1808-06-13"
+                      notAfter="1808-06-13"
+                      where="#orgplc-1366">
+                  <label>vor 1808, Juni 13</label>
                </event>
             </listEvent>
             <msDesc>
@@ -115,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1366">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1366">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

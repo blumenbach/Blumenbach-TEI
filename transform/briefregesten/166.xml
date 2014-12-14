@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Therese Heyne (Therese Huber) bittet Blumenbach, fÜr sie ein Buch aus der Göttinger Universitätsbibliothek auszuleihen und ihr zu schicken. </title>
+            <title type="main">Therese Heyne (Therese Huber) bittet Blumenbach, für sie ein Buch aus der Göttinger Universitätsbibliothek auszuleihen und ihr zu schicken. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Heyne, Therese (Huber, Therese) </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" ca. 1782-11-04"> 1782, ca. Nov. 4</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/166.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 345 Nr. 0222.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 345 Nr. 0222.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Heuser, Therese Huber. Briefe. Bd. 1 (1999), Nr. 50, S. 96&#x96;97 (datiert auf Ende März/Anfang April 1783).</rs>
+               <rs type="bibl">Heuser, Therese Huber. Briefe. Bd. 1 (1999), Nr. 50, S. 96&#x96;97 (datiert auf Ende März/Anfang April 1783).</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Therese Huber 8, fol. 1094,4. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Therese Huber 8, fol. 1094,4. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Heyne, Therese (Huber, Therese) </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-166">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-166"
+                      sortKey="1782-11-04"
+                      when="1782-11-04"
+                      where="#orgplc-166">
+                  <label>1782, ca. Nov. 4</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-166">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-166">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>

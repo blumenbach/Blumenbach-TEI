@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet [einer befreundeten,in der Adresse als&#x84;Frau Comptoir Direktorin&#x93; bezeichneten Dame ] ein Exemplar eines so genannten &#x84;Schlangensteins&#x93;. </title>
+            <title type="main">Blumenbach sendet [einer befreundeten,in der Adresse als&#x84;Frau Comptoir Direktorin&#x93; bezeichneten Dame ] ein Exemplar eines so genannten &#x84;Schlangensteins&#x93;. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> [Göttingen?]</pubPlace>
-            <date type="publication" when=" 1840"> vor 1840</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1659.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,29 +57,32 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Undatiert; Absendeort vermutlich Göttingen, da die Adresse keine Ortsangabe enthält. </note>
             <note>
-               <rs type="object"> Sog. &#x84;Schlangenstein&#x93;, vgl. vgl.Blumenbachs hs. Sammlungsverz., Universitätsbibliothek Göttingen Cod. Ms. Blumenbach 1, II, fol. 72r.</rs>
+               <rs type="object">Sog. &#x84;Schlangenstein&#x93;, vgl. vgl.Blumenbachs hs. Sammlungsverz., Universitätsbibliothek Göttingen Cod. Ms. Blumenbach 1, II, fol. 72r.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Uppsala, Universiteitsbiblioteket, The Waller Manuscript Collection, Waller Ms de-00387; Digitalisat online verfÜgbar. Transkription.</rs>
+               <rs type="bibl">Uppsala, Universiteitsbiblioteket, The Waller Manuscript Collection, Waller Ms de-00387; Digitalisat online verfügbar. Transkription.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://waller.ub.uu.se/18087.htmlhttp://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/Transkriptionen/Blumenbach_Comptoir_Direktorin_vor1840_Transkription.html"/>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/Sammlungskataloge/cod_ms-Blumenbach_1_II_Blumenbach_Handschriften_1794_1800_Katalog%20zur%20Naturgeschichte%20des%20Menschengeschlechts.pdf#page=149"/>
             </note>
             <note>
-               <rs type="edition"> Digitalisat online verfÜgbarTranskription   Cod. Ms. Blumenbach 1, II, fol. 72r </rs>
+               <rs type="edition">Digitalisat online verfügbarTranskription  Cod. Ms. Blumenbach 1, II, fol. 72r </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -99,9 +102,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1659"/>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1840">
-                  <label> vor 1840</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1659"
+                      sortKey="1840"
+                      notAfter="1840"
+                      where="#orgplc-1659">
+                  <label>vor 1840  [Göttingen?]</label>
                </event>
             </listEvent>
             <msDesc>
@@ -118,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1659">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1659">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee"> [unbekannt &#x84;Frau Comptoir Direktorin&#x93;]</persName>
          </creation>

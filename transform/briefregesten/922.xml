@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Johann Reinhold Forsterdessen handschriftlichen Index ägyptischer Ortsnamen zurÜck und sendet Exemplare der neu erschienenen 5. Auflage seines Handbuchs der Naturgeschichte (1797) und des zweiten Heftes der Abbildungen naturhistorischer Gegenstände (1797). </title>
+            <title type="main">Blumenbach sendet Johann Reinhold Forsterdessen handschriftlichen Index ägyptischer Ortsnamen zurück und sendet Exemplare der neu erschienenen 5. Auflage seines Handbuchs der Naturgeschichte (1797) und des zweiten Heftes der Abbildungen naturhistorischer Gegenstände (1797). </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1796-04-07"> 1797, Apr. 7</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/922.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 120&#x96;121 Nr. 1056. </biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 120&#x96;121 Nr. 1056. </biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,21 +72,24 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Handbuch der Naturgeschichte (5. Aufl. 1797; Bibliographie Nr. 00026); Abbildungen naturhistorischerGegenstände, Heft 2 (1797; Bibliographie Nr. 00147).</rs>
+               <rs type="lz">Handbuch der Naturgeschichte (5. Aufl. 1797; Bibliographie Nr. 00026); Abbildungen naturhistorischerGegenstände, Heft 2 (1797; Bibliographie Nr. 00147).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00026"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=136"/>
             </note>
             <note>
-               <rs type="edition"> 00026   Corresp. V, S. 120&#x96;121 Nr. 1056 </rs>
+               <rs type="edition">00026  Corresp. V, S. 120&#x96;121 Nr. 1056 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Berlin, Archiv der Berlin-Brandenburgischen Akademie der Wissenschaften, ABBAW, Nachlass Johann Reinhold Forster 5, Nr. 14. </title>
+                  <title level="m" type="main">Berlin, Archiv der Berlin-Brandenburgischen Akademie der Wissenschaften, ABBAW, Nachlass Johann Reinhold Forster 5, Nr. 14. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-922">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-922"
+                      sortKey="1796-04-07"
+                      when="1796-04-07"
+                      where="#orgplc-922">
+                  <label>1797, Apr. 7</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-922">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-922">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Forster, Johann Reinhold</persName>
          </creation>

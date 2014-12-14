@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach bestätigt der Medizinischen Fakultät der Universität Göttingen, dass er an der gemeinsamen PromotionsprÜfung [von Heinrich Christian Gottlieb Endter, Jacob Erich Meier, Johann Georg Schroeder, Ulrich Jasper Seetzen, Johann Christian Weltzien und Christian Friedrich Ehmbsen] teilnehmen werde. </title>
+            <title type="main">Blumenbach bestätigt der Medizinischen Fakultät der Universität Göttingen, dass er an der gemeinsamen Promotionsprüfung [von Heinrich Christian Gottlieb Endter, Jacob Erich Meier, Johann Georg Schroeder, Ulrich Jasper Seetzen, Johann Christian Weltzien und Christian Friedrich Ehmbsen] teilnehmen werde. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1788-12-17"> 1788, Dez. 17</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/427.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 192 Nr. 0526.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 192 Nr. 0526.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=210"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 192 Nr. 0526 </rs>
+               <rs type="edition">Corresp. III, S. 192 Nr. 0526 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsarchiv, Medizin. Fak., Dekanats- und Promotionsvorgänge und -urkunden fÜr das Jahr 1835 [sic, laut Dougherty, Corresp. III, Nr. 0526]. </title>
+                  <title level="m" type="main">Göttingen, Universitätsarchiv, Medizin. Fak., Dekanats- und Promotionsvorgänge und -urkunden für das Jahr 1835 [sic, laut Dougherty, Corresp. III, Nr. 0526]. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-427">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-427"
+                      sortKey="1788-12-17"
+                      when="1788-12-17"
+                      where="#orgplc-427">
+                  <label>1788, Dez. 17</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-427">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-427">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Medizinische Fakultät der Universität Göttingen</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0423</classCode>
-            <classCode scheme="anchor"> 1789  Jan1789</classCode>
+            <classCode scheme="anchor">1789 Jan1789</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Wolfgang von Goethe teilt Blumenbach mit, dass der von diesem nach Weimar gesandte Gipsabguss einer antiken Statue [der &#x84;Clytia auf der Sonnenblume&#x93;] noch nicht eingetroffen ist, und sendet ihm seinerseits den Gipsabguss des [vermeintlichen] Schädels Raphaels. </title>
+            <title type="main">Johann Wolfgang von Goethe teilt Blumenbach mit, dass der von diesem nach Weimar gesandte Gipsabguss einer antiken Statue [der &#x84;Clytia auf der Sonnenblume&#x93;] noch nicht eingetroffen ist, und sendet ihm seinerseits den Gipsabguss des [vermeintlichen] Schädels Raphaels. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Goethe, Johann Wolfgang von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Weimar</pubPlace>
-            <date type="publication" when=" 1793-11-19"> 1793, Nov. 19</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/701.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 292 Nr. 0823.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 292 Nr. 0823.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Gipsabguss des [vermeintlichen] Schädels Raphaels (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 388); Abguss der Statue &#x84;Clytia auf der Sonnenblume&#x93;, von der auch Blumenbach möglicherweise eine Privatkopie besaß, vgl. Erwähnung in Decas craniorum 3 (1795), S. 5 (Bibliographie Nr. 00094).</rs>
+               <rs type="object">Gipsabguss des [vermeintlichen] Schädels Raphaels (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 388); Abguss der Statue &#x84;Clytia auf der Sonnenblume&#x93;, von der auch Blumenbach möglicherweise eine Privatkopie besaß, vgl. Erwähnung in Decas craniorum 3 (1795), S. 5 (Bibliographie Nr. 00094).</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -72,20 +72,23 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Goethes Werke. Weimarer AusgabeIV. Abt., Bd. 18 (1895), S. 54, WA-Nr. 03026a (nach einer Abschrift im Goethe- und Schiller-Archiv Weimar; Erstdruck); Dougherty, Commercium epistolicum (1984), S. 94&#x96;95 KatNr. 114 (nach dem Or., mit Abb.).</rs>
+               <rs type="lz">Goethes Werke. Weimarer AusgabeIV. Abt., Bd. 18 (1895), S. 54, WA-Nr. 03026a (nach einer Abschrift im Goethe- und Schiller-Archiv Weimar; Erstdruck); Dougherty, Commercium epistolicum (1984), S. 94&#x96;95 KatNr. 114 (nach dem Or., mit Abb.).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=304"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 292 Nr. 0823 </rs>
+               <rs type="edition">Corresp. IV, S. 292 Nr. 0823 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 2 (Goethe Nr. 1). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 2 (Goethe Nr. 1). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Goethe, Johann Wolfgang von</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-701">Weimar</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-701"
+                      sortKey="1793-11-19"
+                      when="1793-11-19"
+                      where="#orgplc-701">
+                  <label>1793, Nov. 19</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-701">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-701">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0694</classCode>
-            <classCode scheme="anchor"> Dez1793</classCode>
+            <classCode scheme="anchor">Dez1793</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendetJohann Wolfgang von Goethe zwei Exemplare seiner Nova pentas craniorum (1828) und weist auf die darin enthaltenen Abbildungen von zwei Schädeln hin, die erdurch Goethes Vermittlung erhalten hatte. </title>
+            <title type="main">Blumenbach sendetJohann Wolfgang von Goethe zwei Exemplare seiner Nova pentas craniorum (1828) und weist auf die darin enthaltenen Abbildungen von zwei Schädeln hin, die erdurch Goethes Vermittlung erhalten hatte. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1828-12-27"> 1828, Dez. 27</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1600.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Schädel eines &#x84;alten Germanen&#x93; (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 5; Abb. in Nova pentas craniorum (1828), Tafel 61, Bibliographie Nr. 00098), Fotos inKárolyi, Zeitschrift fÜr Morphologie und Anthropologie 1966, Tafel 16, unten; zur Identifikation des Schädels vgl.Spengel, Anthropologische Sammlung, S. 12 ad 240.; Schädel eines Kamtschadalen (Abb. in Nova pentas craniorum (1828), Tafel 62, Bibliographie Nr. 00098).</rs>
+               <rs type="object">Schädel eines &#x84;alten Germanen&#x93; (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 5; Abb. in Nova pentas craniorum (1828), Tafel 61, Bibliographie Nr. 00098), Fotos inKárolyi, Zeitschrift für Morphologie und Anthropologie 1966, Tafel 16, unten; zur Identifikation des Schädels vgl.Spengel, Anthropologische Sammlung, S. 12 ad 240.; Schädel eines Kamtschadalen (Abb. in Nova pentas craniorum (1828), Tafel 62, Bibliographie Nr. 00098).</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -72,14 +72,17 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Nova pentas craniorum (1828; Bibliographie Nr. 00098).  Goethe&#x92;s Naturwissenschaftliche Correspondenz (1812&#x96;1832). Bd. 1 (1874), S. 56&#x96;57 Nr. 36.</rs>
+               <rs type="lz">Nova pentas craniorum (1828; Bibliographie Nr. 00098). Goethe&#x92;s Naturwissenschaftliche Correspondenz (1812&#x96;1832). Bd. 1 (1874), S. 56&#x96;57 Nr. 36.</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00098"/>
                <ref target="http://archive.org/stream/naturwissenschaf01goet#page/56/mode/2up"/>
             </note>
             <note>
-               <rs type="edition"> 00098   S. 56&#x96;57 Nr. 36 </rs>
+               <rs type="edition">00098  S. 56&#x96;57 Nr. 36 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1600">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1600"
+                      sortKey="1828-12-27"
+                      when="1828-12-27"
+                      where="#orgplc-1600">
+                  <label>1828, Dez. 27</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1600">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1600">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Goethe, Johann Wolfgang von</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Christoph Lichtenberg bestätigt Blumenbach die vermutliche Echtheit eines ihm zur PrÜfung vorgelegten StÜcks Bernstein und weist ihn auf eine Anekdote Über Friedrich den Großen hin. </title>
+            <title type="main">Georg Christoph Lichtenberg bestätigt Blumenbach die vermutliche Echtheit eines ihm zur Prüfung vorgelegten Stücks Bernstein und weist ihn auf eine Anekdote über Friedrich den Großen hin. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>oder 3 Göttingen</pubPlace>
-            <date type="publication" when=" 1789-05-02 oder 1789-05-03"> 1789, Mai 2</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/446.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,38 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 216 Nr. 0545.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 216 Nr. 0545.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> BernsteinstÜck mit Einschluss kopulierender Insekten; Meteoriten (?) aus Hameln.</rs>
+               <rs type="object">Bernsteinstück mit Einschluss kopulierender Insekten; Meteoriten (?) aus Hameln.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 42 datiert auf Anfang Mai); Lichtenberg, Briefwechsel, Bd. 3 (1990), Nr. 1676, S. 698&#x96;699 (datiert &#x84;ca. Mai 2-5&#x93;).</rs>
+               <rs type="bibl">Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 42 datiert auf Anfang Mai); Lichtenberg, Briefwechsel, Bd. 3 (1990), Nr. 1676, S. 698&#x96;699 (datiert &#x84;ca. Mai 2-5&#x93;).</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=234"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 216 Nr. 0545 </rs>
+               <rs type="edition">Corresp. III, S. 216 Nr. 0545 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826. </title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-446">oder 3 Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-446"
+                      sortKey="1789-05-02 oder 1789-05-03"
+                      when="1789-05-02 oder 1789-05-03"
+                      where="#orgplc-446">
+                  <label>1789, Mai 2</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-446">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-446">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Heinrich Ferdinand Autenrieth bittetBlumenbach, ihm leihweise seine frÜheren Briefe zu Überlassen, damit er sich Abschriften davon anfertigen könne, berichtet kurz Über die Ergebnisse seiner Untersuchungen an Föten, bietet an, eventuelle WÜnsche Blumenbachs an seine nordamerikanischen Korrespondenten weiterzuleiten, und beschreibt einen Menschen mit missgebildeten Armen und Beinen. </title>
+            <title type="main">Johann Heinrich Ferdinand Autenrieth bittetBlumenbach, ihm leihweise seine früheren Briefe zu überlassen, damit er sich Abschriften davon anfertigen könne, berichtet kurz über die Ergebnisse seiner Untersuchungen an Föten, bietet an, eventuelle Wünsche Blumenbachs an seine nordamerikanischen Korrespondenten weiterzuleiten, und beschreibt einen Menschen mit missgebildeten Armen und Beinen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Autenrieth, Johann Heinrich Ferdinand</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> TÜbingen</pubPlace>
-            <date type="publication" when=" 1799-08-05"> 1799, Aug. 5</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1112.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 400&#x96;401 Nr. 1247.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 400&#x96;401 Nr. 1247.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=416"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S.400&#x96;401 Nr. 1247 </rs>
+               <rs type="edition">Corresp. V, S.400&#x96;401 Nr. 1247 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Leipzig, Universitätsbibliothek, Sammlung Kestner, II A IV, 57.</title>
+                  <title level="m" type="main">Leipzig, Universitätsbibliothek, Sammlung Kestner, II A IV, 57.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Autenrieth, Johann Heinrich Ferdinand</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1112">Tübingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1112"
+                      sortKey="1799-08-05"
+                      when="1799-08-05"
+                      where="#orgplc-1112">
+                  <label>1799, Aug. 5</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1112">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1112">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

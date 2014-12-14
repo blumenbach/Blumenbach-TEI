@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Johann Wolfgang von Goethe ein Exemplar seiner Publikation Specimen historiae naturalis antiquae artis operibus illustratae eaque vicissim illustrantis (1808),weist ihn auf in Osterode am Harz gefundene fossile Elefantenknochen hin und sendet Angaben fÜr Goethes Arbeit Über Benvenuto Cellinis. </title>
+            <title type="main">Blumenbach sendet Johann Wolfgang von Goethe ein Exemplar seiner Publikation Specimen historiae naturalis antiquae artis operibus illustratae eaque vicissim illustrantis (1808),weist ihn auf in Osterode am Harz gefundene fossile Elefantenknochen hin und sendet Angaben für Goethes Arbeit über Benvenuto Cellinis. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1808-11-28"> 1808, Nov. 28</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1372.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Teildrucke: Goethe. Begegnungen und Gespräche. Hrsg. von Ernst Grumach und Renate Grumach, Bd. 5. Berlin, New York 1985, S. 308; Goethe. Die Schriften zur Naturwissenschaft.Abt. II, Bd. 9b, S. 290; Regest: Briefe an Goethe. Gesamtausgabe in Regestform 1764&#x96;1817. Herausgegeben von der Klassik Stiftung Weimar Goethe- und Schiller-Archiv (online-Version), Regest Nr. 5/1040.</rs>
+               <rs type="bibl">Teildrucke: Goethe. Begegnungen und Gespräche. Hrsg. von Ernst Grumach und Renate Grumach, Bd. 5. Berlin, New York 1985, S. 308; Goethe. Die Schriften zur Naturwissenschaft.Abt. II, Bd. 9b, S. 290; Regest: Briefe an Goethe. Gesamtausgabe in Regestform 1764&#x96;1817. Herausgegeben von der Klassik Stiftung Weimar Goethe- und Schiller-Archiv (online-Version), Regest Nr. 5/1040.</rs>
             </note>
             <note>
-               <rs type="lz"> Specimen historiae naturalis antiquae artis operibus illustratae eaque vicissim illustrantis (1808; Bibliographie Nr. 00129). </rs>
+               <rs type="lz">Specimen historiae naturalis antiquae artis operibus illustratae eaque vicissim illustrantis (1808; Bibliographie Nr. 00129). </rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00129"/>
             </note>
             <note>
-               <rs type="edition"> 00129 </rs>
+               <rs type="edition">00129 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv: GSA 28/201, St. 5.</title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv: GSA 28/201, St. 5.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1372">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1372"
+                      sortKey="1808-11-28"
+                      when="1808-11-28"
+                      where="#orgplc-1372">
+                  <label>1808, Nov. 28</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1372">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1372">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Goethe, Johann Wolfgang von</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">00</classCode>
-            <classCode scheme="anchor"> 1809</classCode>
+            <classCode scheme="anchor">1809</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

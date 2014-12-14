@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> August von Sachsen-Gotha sendet Blumenbach [die Abbildung einer?] indischen Gottheit zurÜck und kommentiert den Verlauf der Ersten Koalitionskrieges gegen das revolutionäre Frankreich. </title>
+            <title type="main">August von Sachsen-Gotha sendet Blumenbach [die Abbildung einer?] indischen Gottheit zurück und kommentiert den Verlauf der Ersten Koalitionskrieges gegen das revolutionäre Frankreich. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Sachsen-Gotha und Altenburg, August von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1792-11-16"> 1792, Nov. 16</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/664.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 213 Nr. 0783.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 213 Nr. 0783.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=225"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 213 Nr. 0783 </rs>
+               <rs type="edition">Corresp. IV, S. 213 Nr. 0783 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 1 (August Nr. 13). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 1 (August Nr. 13). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Sachsen-Gotha und Altenburg, August von</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-664">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-664"
+                      sortKey="1792-11-16"
+                      when="1792-11-16"
+                      where="#orgplc-664">
+                  <label>1792, Nov. 16</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-664">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-664">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

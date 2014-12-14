@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach dankt Johann Friedrich Ludwig Hausmann fÜr ein aus afrikanischem Sepiolith (&#x84;Pfeifenkopfstein&#x93;; Meerschaum) geschnitztes (Pfeifen?)köpfchenund sendet eine vergleichbares Objektaus Kanada. </title>
+            <title type="main">Blumenbach dankt Johann Friedrich Ludwig Hausmann für ein aus afrikanischem Sepiolith (&#x84;Pfeifenkopfstein&#x93;; Meerschaum) geschnitztes (Pfeifen?)köpfchenund sendet eine vergleichbares Objektaus Kanada. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> [Göttingen]</pubPlace>
-            <date type="publication" when=" (nach) 1829"> (nach) 1829</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1614.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Zur Datierung: Der Brief ist adressiert an &#x84;Hofrath Ritter Hausmann&#x93;; Hausmann war ab 1829 Ritter des hannoverschen Guelphen-Ordens, vgl. Staats- und Adresskalender fÜr das Königreich Hannover auf das Jahr 1836. Hannover 1835, S. 13. Der Absendeort Göttingen ergibt sich aus dem Fehlen einer Ortsangabe in der Adresse. </note>
+            <note>Zur Datierung: Der Brief ist adressiert an &#x84;Hofrath Ritter Hausmann&#x93;; Hausmann war ab 1829 Ritter des hannoverschen Guelphen-Ordens, vgl. Staats- und Adresskalender für das Königreich Hannover auf das Jahr 1836. Hannover 1835, S. 13. Der Absendeort Göttingen ergibt sich aus dem Fehlen einer Ortsangabe in der Adresse. </note>
             <note>
-               <rs type="object"> Unbearbeiteter afrikanischer Sepiolith (&#x84;Pfeifenkopfstein&#x93;; Meerschaum), erhalten 1806 von (Christian Heinrich Friedrich?) Hesse; geschnitztes (Pfeifen?)köpfchen aus afrikanischem Sepiolith; geschnitztes (Pfeifen?)köpfchen aus Sepiolith, herstellt von kanadischen Ureinwohnern.</rs>
+               <rs type="object">Unbearbeiteter afrikanischer Sepiolith (&#x84;Pfeifenkopfstein&#x93;; Meerschaum), erhalten 1806 von (Christian Heinrich Friedrich?) Hesse; geschnitztes (Pfeifen?)köpfchen aus afrikanischem Sepiolith; geschnitztes (Pfeifen?)köpfchen aus Sepiolith, herstellt von kanadischen Ureinwohnern.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://dl.ub.uni-freiburg.de/diglit/autogr0288http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/Transkriptionen/Blumenbach_Hausmann_nach1829_Transkription.html"/>
             </note>
             <note>
-               <rs type="edition"> http://dl.ub.uni- freiburg.de/diglit/autogr0288Transkription </rs>
+               <rs type="edition">http://dl.ub.uni- freiburg.de/diglit/autogr0288Transkription </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Freiburg (Br.), Universitätsbibliothek, Autograph Nr. 288. Digitalisat: http://dl.ub.uni- freiburg.de/diglit/autogr0288 (persistente URL); Transkription.</title>
+                  <title level="m" type="main">Freiburg (Br.), Universitätsbibliothek, Autograph Nr. 288. Digitalisat: http://dl.ub.uni- freiburg.de/diglit/autogr0288 (persistente URL); Transkription.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1614"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1614"
+                      sortKey="(nach) 1829"
+                      when="(nach) 1829"
+                      where="#orgplc-1614">
+                  <label> (nach) 1829  [Göttingen]</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1614">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1614">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Hausmann, Johann Friedrich Ludwig </persName>
          </creation>

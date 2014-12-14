@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Marie Charlotte Amalie von Sachsen-Gotha und Altenburg sendet Blumenbach den Gipsabguss einer BÜste Isaak Newtons, verspricht die Zusendung einer BÜste von Tobias Mayer und regt an, dass der Gothaer Bildhauer Friedrich Wilhelm Döll eine BÜste Blumenbachs anfertigt. </title>
+            <title type="main">Marie Charlotte Amalie von Sachsen-Gotha und Altenburg sendet Blumenbach den Gipsabguss einer Büste Isaak Newtons, verspricht die Zusendung einer Büste von Tobias Mayer und regt an, dass der Gothaer Bildhauer Friedrich Wilhelm Döll eine Büste Blumenbachs anfertigt. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Sachsen-Gotha und Altenburg, Marie Charlotte Amalie von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Gotha</pubPlace>
-            <date type="publication" when=" 1790-03-25"> 1790, März 25</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/506.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 296 Nr. 0607.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 296 Nr. 0607.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=314"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 296 Nr. 0607 </rs>
+               <rs type="edition">Corresp. III, S. 296 Nr. 0607 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 1 (Charlotte Nr. 2). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 1 (Charlotte Nr. 2). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Sachsen-Gotha und Altenburg, Marie Charlotte Amalie von</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-506">Gotha</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-506"
+                      sortKey="1790-03-25"
+                      when="1790-03-25"
+                      where="#orgplc-506">
+                  <label>1790, März 25</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-506">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-506">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

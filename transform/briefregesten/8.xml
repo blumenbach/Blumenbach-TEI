@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach liefert Albrecht von Haller einige bibliographische Ergänzungen zu dessen Bibliotheca medica, berichtet von seinem eigenen Forschungsvorhaben Über die physiologische Variabilität der Spezies &#x84;Mensch&#x93; und fragte nach Haller eventuell bekannten unveröffentlichten Arbeiten Johann Friedrich Meckels [d. ä.] zur Anatomie der Nerven und Lymphgefäße. </title>
+            <title type="main">Blumenbach liefert Albrecht von Haller einige bibliographische Ergänzungen zu dessen Bibliotheca medica, berichtet von seinem eigenen Forschungsvorhaben über die physiologische Variabilität der Spezies &#x84;Mensch&#x93; und fragte nach Haller eventuell bekannten unveröffentlichten Arbeiten Johann Friedrich Meckels [d. ä.] zur Anatomie der Nerven und Lymphgefäße. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1775-02-23"> 1775, Febr. 23</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/8.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 12 Nr. 0008.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 12 Nr. 0008.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Dougherty, Commercium epistolicum (1984), S. 64−66 KatNr. 71.</rs>
+               <rs type="bibl">Dougherty, Commercium epistolicum (1984), S. 64−66 KatNr. 71.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Berlin, Staatsbibliothek− Preußischer Kulturbesitz, Handschriftenabt. Nachl. 141 (Slg. Adam), K 52: Blumenbach, Johann Friedrich.</title>
+                  <title level="m" type="main">Berlin, Staatsbibliothek− Preußischer Kulturbesitz, Handschriftenabt. Nachl. 141 (Slg. Adam), K 52: Blumenbach, Johann Friedrich.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-8">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-8"
+                      sortKey="1775-02-23"
+                      when="1775-02-23"
+                      where="#orgplc-8">
+                  <label>1775, Febr. 23</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-8">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-8">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Haller, Albrecht von</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0008</classCode>
-            <classCode scheme="anchor"> Maerz1775</classCode>
+            <classCode scheme="anchor">Maerz1775</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

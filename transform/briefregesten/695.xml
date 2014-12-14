@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Joseph Banks sendet Blumenbach einen menschlichen Schädel aus Australien, kÜndigt die Zusendung eines Schädels aus Tahiti an und berichtet Über eine bisher nicht beschriebene Wasserschildkrötenart aus Indonesien. </title>
+            <title type="main">Joseph Banks sendet Blumenbach einen menschlichen Schädel aus Australien, kündigt die Zusendung eines Schädels aus Tahiti an und berichtet über eine bisher nicht beschriebene Wasserschildkrötenart aus Indonesien. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>London</pubPlace>
-            <date type="publication" when=" 1793-08-16"> 1793, Aug. 16</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/695.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,38 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 283 Nr. 0818.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 283 Nr. 0818.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Vgl. Blumenbachs hs. Verzeichnis seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, I, fol. 9 (Nrr. 781, 769).</note>
             <note>
-               <rs type="object"> Schädel eines Ureinwohners von Australien (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 781; Abb. inDecas craniorum 3 (1795), Tafel 27; Bibliographie Nr. 00094); angekÜndigt: Schädel eines Tahitianers (Schädelsammlung Nr. 769, Abb. inDecas craniorum 3 (1795), Tafel 26 [Modellschädel fÜr Blumenbachs malayische Varietät der Spezies Mensch]; Bibliographie Nr. 00094).</rs>
+               <rs type="object">Schädel eines Ureinwohners von Australien (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 781; Abb. inDecas craniorum 3 (1795), Tafel 27; Bibliographie Nr. 00094); angekündigt: Schädel eines Tahitianers (Schädelsammlung Nr. 769, Abb. inDecas craniorum 3 (1795), Tafel 26 [Modellschädel für Blumenbachs malayische Varietät der Spezies Mensch]; Bibliographie Nr. 00094).</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 4 (2007), S. 241&#x96;242 Nr. 1217.</rs>
+               <rs type="bibl">Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 4 (2007), S. 241&#x96;242 Nr. 1217.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=295"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 283 Nr. 0818 </rs>
+               <rs type="edition">Corresp. IV, S. 283 Nr. 0818 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach III, fol. 38&#x96;39. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach III, fol. 38&#x96;39. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-695">London</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-695"
+                      sortKey="1793-08-16"
+                      when="1793-08-16"
+                      where="#orgplc-695">
+                  <label>1793, Aug. 16</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-695">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-695">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann David Schoepf bietet Blumenbachs die Zusendung eines bei Eichstätt gefundenen fossilen Elefantenzahns und eines Exemplars eines Carolina-Dosenschildkröte an und bittet um die Beschaffung oder Vermittlung eines Exemplars einer GrÜnen Meeresschildkröte (Suppenschildkröte) aus London, berichtet Über die kriegsbedingte Verzögerung bei derHerausgabe seiner Historia Testudinum (1792&#x96;1801) und erinnert daran,dass er noch zwei von Blumenbach ausgeliehene Schildkröten[panzer?]habe. </title>
+            <title type="main">Johann David Schoepf bietet Blumenbachs die Zusendung eines bei Eichstätt gefundenen fossilen Elefantenzahns und eines Exemplars eines Carolina-Dosenschildkröte an und bittet um die Beschaffung oder Vermittlung eines Exemplars einer Grünen Meeresschildkröte (Suppenschildkröte) aus London, berichtet über die kriegsbedingte Verzögerung bei derHerausgabe seiner Historia Testudinum (1792&#x96;1801) und erinnert daran,dass er noch zwei von Blumenbach ausgeliehene Schildkröten[panzer?]habe. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Schoepf, Johann David</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Ansbach</pubPlace>
-            <date type="publication" when=" 1799-09-01"> 1799, vor Sept. 1</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1117.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp.V, S. 405&#x96;406 Nr. 1252. </biblScope>
+            <biblScope unit="volume">Dougherty, Corresp.V, S. 405&#x96;406 Nr. 1252. </biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,21 +72,24 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Abbildungen naturhistorischer Gegenstände, Heft 2 (1797; Bibliographie Nr. 00147). </rs>
+               <rs type="lz">Abbildungen naturhistorischer Gegenstände, Heft 2 (1797; Bibliographie Nr. 00147). </rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00147"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=420"/>
             </note>
             <note>
-               <rs type="edition"> 00147   Corresp.V, S. 405&#x96;406Nr. 1252 </rs>
+               <rs type="edition">00147  Corresp.V, S. 405&#x96;406Nr. 1252 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Berlin, Museum fÜr Naturkunde, Historische Bild- u. Schriftgutsammlungen, Bestand: Zoologisches Museum, Signatur: S l, Nachl. Schoepf III, Blumenbach, J. F., Blatt 8 (Entwurf).</title>
+                  <title level="m" type="main">Berlin, Museum für Naturkunde, Historische Bild- u. Schriftgutsammlungen, Bestand: Zoologisches Museum, Signatur: S l, Nachl. Schoepf III, Blumenbach, J. F., Blatt 8 (Entwurf).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Schoepf, Johann David</persName>
                   </author>
@@ -99,9 +102,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1117">Ansbach</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1799-09-01">
-                  <label> 1799, vor Sept. 1</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1117"
+                      sortKey="1799-09-01"
+                      notAfter="1799-09-01"
+                      where="#orgplc-1117">
+                  <label>1799, vor Sept. 1</label>
                </event>
             </listEvent>
             <msDesc>
@@ -118,12 +130,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1117">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1117">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">1101</classCode>
-            <classCode scheme="anchor"> Sept1799</classCode>
+            <classCode scheme="anchor">Sept1799</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

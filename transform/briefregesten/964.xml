@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach schildertFranz Xaver von Zach die besondere Eignung und die Vorbereitungen Friedrich Hornemanns fÜr dessen Afrika-Expedition im Auftrag der African Association in London und den bisherigen Verlauf der Reise bis Kairo und verteidigt die African Association gegen den Verdacht, aus wirtschaftlichen GrÜnden Erkenntnisse Über Afrika zurÜckzuhalten. </title>
+            <title type="main">Blumenbach schildertFranz Xaver von Zach die besondere Eignung und die Vorbereitungen Friedrich Hornemanns für dessen Afrika-Expedition im Auftrag der African Association in London und den bisherigen Verlauf der Reise bis Kairo und verteidigt die African Association gegen den Verdacht, aus wirtschaftlichen Gründen Erkenntnisse über Afrika zurückzuhalten. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1797-12-15"> 1797, Dez. 15</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/964.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 185&#x96;188 Nr. 1102.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 185&#x96;188 Nr. 1102.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,24 +69,28 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Allgemeine geographische Ephemeriden, Bd. 1, 1. StÜck (Januar 1798), S. 116&#x96;120 (&#x84;1) Auszug aus einem Schreiben des Hrn. Hofrath J. F. Blumenbach an den Herausgeber, Über Hrn. Hornemanns Reise nach dem innern Afrika&#x93;, Bibliographie Nr.00758).</rs>
+               <rs type="bibl">Auszug in Allgemeine geographische Ephemeriden, Bd. 1, 1. Stück (Januar 1798), S. 116&#x96;120 (&#x84;1) Auszug aus einem Schreiben des Hrn. Hofrath J. F. Blumenbach an den Herausgeber, über Hrn. Hornemanns Reise nach dem innern Afrika&#x93;, Bibliographie Nr.00758).</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00758 (siehe &#x84;Dr.&#x93;). 
+</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00758"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=201"/>
             </note>
             <note>
-               <rs type="edition"> 00758   Corresp. V, S. 185&#x96;188 Nr. 1102 </rs>
+               <rs type="edition">00758  Corresp. V, S. 185&#x96;188 Nr. 1102 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren; Druck nach dem Auszug in Allgemeine geographische Ephemeriden, s. Dr. </title>
+                  <title level="m" type="main">Or. verloren; Druck nach dem Auszug in Allgemeine geographische Ephemeriden, s. Dr. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +103,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-964">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-964"
+                      sortKey="1797-12-15"
+                      when="1797-12-15"
+                      where="#orgplc-964">
+                  <label>1797, Dez. 15</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +131,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-964">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-964">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Zach, Franz Xaver von </persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach schildert Leopoldo Marc&#x92;Antonio Caldani eigene Beobachtungen zur Lichtempfindlichkeit der Iris, bittet ihn um die Beschaffung eines seltenen anatomischen Kupferstichs aus dem 17. Jh., informiert ihn Über die änderungen in der Bezeichnung der Göttinger Societäts-Kommentare seit 1751 und Über Samuel Thomas Soemmerrings Forschungen zur Kreuzung des Sehnervs. </title>
+            <title type="main">Blumenbach schildert Leopoldo Marc&#x92;Antonio Caldani eigene Beobachtungen zur Lichtempfindlichkeit der Iris, bittet ihn um die Beschaffung eines seltenen anatomischen Kupferstichs aus dem 17. Jh., informiert ihn über die änderungen in der Bezeichnung der Göttinger Societäts-Kommentare seit 1751 und über Samuel Thomas Soemmerrings Forschungen zur Kreuzung des Sehnervs. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1785-03-1"> 1785, März 1</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/251.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 250 Nr. 0338.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 250 Nr. 0338.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Gehirn eines Pferdes (Geschenk von S. Th. Soemmerring).</rs>
+               <rs type="object">Gehirn eines Pferdes (Geschenk von S. Th. Soemmerring).</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -72,20 +72,23 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Geschichte und Beschreibung der Knochen des menschlichen Körpers (1786, Bibliographie Nr.00062); De oculis leucaethiopum et iridis motu commentatio (1786, Bibliographie Nr.00120). </rs>
+               <rs type="lz">Geschichte und Beschreibung der Knochen des menschlichen Körpers (1786, Bibliographie Nr.00062); De oculis leucaethiopum et iridis motu commentatio (1786, Bibliographie Nr.00120). </rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00062"/>
             </note>
             <note>
-               <rs type="edition"> 00062 </rs>
+               <rs type="edition">00062 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Modena, Biblioteca Estense. Autografoteca Campori. Busta Blumenbach, J.F. 1. </title>
+                  <title level="m" type="main">Modena, Biblioteca Estense. Autografoteca Campori. Busta Blumenbach, J.F. 1. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-251">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-251"
+                      sortKey="1785-03-1"
+                      when="1785-03-1"
+                      where="#orgplc-251">
+                  <label>1785, März 1</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-251">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-251">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Caldani, Leopoldo Marc&#x92;Antonio </persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teilt Joseph Banks mit, dass er ein Paket mit neuen wissenschaftlichen Publikationen aus Deutschland an ihn abgesendet habe, und gibt eine Zusammenfassung der ebenfalls mitgesandtenAbhandlung Wie der Geschlechtstrieb des Menschen in Ordnung zu bringen (1791) von Bernhard Christoph Faust. </title>
+            <title type="main">Blumenbach teilt Joseph Banks mit, dass er ein Paket mit neuen wissenschaftlichen Publikationen aus Deutschland an ihn abgesendet habe, und gibt eine Zusammenfassung der ebenfalls mitgesandtenAbhandlung Wie der Geschlechtstrieb des Menschen in Ordnung zu bringen (1791) von Bernhard Christoph Faust. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1791-07-04"> 1791, Juli 4</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/588.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 73 Nr. 0688.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 73 Nr. 0688.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S. 112 Nr. 19.</rs>
+               <rs type="bibl">Vgl. ausführl. Regest in Dawson, The Banks Letters (1958), S. 112 Nr. 19.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=85"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 73 Nr. 0688 </rs>
+               <rs type="edition">Corresp. IV, S. 73 Nr. 0688 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, British Library, Add MS 8097, fol. 371&#x96;372. </title>
+                  <title level="m" type="main">London, British Library, Add MS 8097, fol. 371&#x96;372. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-588">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-588"
+                      sortKey="1791-07-04"
+                      when="1791-07-04"
+                      where="#orgplc-588">
+                  <label>1791, Juli 4</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-588">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-588">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Banks, Joseph</persName>
          </creation>

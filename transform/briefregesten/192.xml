@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Friedrich Scholl sendet Blumenbach ein in dessen Auftrag [fÜr den Herzog von Sachsen-Altenburg in Gotha?] von einem Schweizer Juwelier angefertigtes SchmuckstÜck, berichtet Über die Bedingungen, unter denen der von Blumenbach gewÜnschte Austausch von Mineralienproben mit dem Schweizer Sammler [Jean-Rodolphe de?] Treytorrens zustande kommen könne, und Über Beobachtungen aus seiner medizinischen Tätigkeit, bittet Blumenbach um Hilfe bei der Suche nach einer vorteilhafteren Anstellung und teilt Neuigkeiten Über Schweizer Forscher und zwei Kriminalfälle mit. </title>
+            <title type="main">Friedrich Scholl sendet Blumenbach ein in dessen Auftrag [für den Herzog von Sachsen-Altenburg in Gotha?] von einem Schweizer Juwelier angefertigtes Schmuckstück, berichtet über die Bedingungen, unter denen der von Blumenbach gewünschte Austausch von Mineralienproben mit dem Schweizer Sammler [Jean-Rodolphe de?] Treytorrens zustande kommen könne, und über Beobachtungen aus seiner medizinischen Tätigkeit, bittet Blumenbach um Hilfe bei der Suche nach einer vorteilhafteren Anstellung und teilt Neuigkeiten über Schweizer Forscher und zwei Kriminalfälle mit. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Scholl, Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Murten</pubPlace>
-            <date type="publication" when=" 1783-12-06"> 1783, Dez. 6</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/192.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 108 Nr. 0260.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 108 Nr. 0260.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 4 (Student friends Nr. 7&#x96; Scholl Nr. 4) </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 4 (Student friends Nr. 7&#x96; Scholl Nr. 4) </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Scholl, Friedrich </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-192">Murten</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-192"
+                      sortKey="1783-12-06"
+                      when="1783-12-06"
+                      where="#orgplc-192">
+                  <label>1783, Dez. 6</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-192">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-192">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>

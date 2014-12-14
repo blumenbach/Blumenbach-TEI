@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Wolfgang von Goethe sendet Blumenbach diebereits [in seinem Brief vom 9. April 1829] angekÜndigte Kinnlade aus einem antiken GrabhÜgel bei Romstedt in ThÜringen. </title>
+            <title type="main">Johann Wolfgang von Goethe sendet Blumenbach diebereits [in seinem Brief vom 9. April 1829] angekündigte Kinnlade aus einem antiken Grabhügel bei Romstedt in Thüringen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Goethe, Johann Wolfgang von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Weimar</pubPlace>
-            <date type="publication" when=" 1829-05-08 [Poststempel: 1829-05-11]"> 1829, Mai 8</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1608.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Kinnlade mit vollständiger Zahnreihe aus einem antiken GrabhÜgel bei Romstedt (ThÜringen); laut Voit, Max: Ein Brief von Goethes Sohn August an J. F. Blumenbach. Göttingen 1928 [Gedr. in 100 Ex. zur 6jähr. Jahresfeier d. Vereinigung Göttinger BÜcherfreunde am 23. Juni 1928] in der Schädelsammlung der Anatomie Göttingen nicht auffindbar.</rs>
+               <rs type="object">Kinnlade mit vollständiger Zahnreihe aus einem antiken Grabhügel bei Romstedt (Thüringen); laut Voit, Max: Ein Brief von Goethes Sohn August an J. F. Blumenbach. Göttingen 1928 [Gedr. in 100 Ex. zur 6jähr. Jahresfeier d. Vereinigung Göttinger Bücherfreunde am 23. Juni 1928] in der Schädelsammlung der Anatomie Göttingen nicht auffindbar.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -72,7 +72,10 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Goethes Werke. Weimarer Ausgabe Abt. IV, Bd. 45, S. 264 (Brief WA-Nr. 45220 und WA-Nr. 45220a+ (= Begleitvermerk Über das Briefkuvert)); Abdruck des Briefkuverts inDougherty, Commercium epistolicum (1984), S. 145 KatNr. 174.</rs>
+               <rs type="lz">Goethes Werke. Weimarer Ausgabe Abt. IV, Bd. 45, S. 264 (Brief WA-Nr. 45220 und WA-Nr. 45220a+ (= Begleitvermerk über das Briefkuvert)); Abdruck des Briefkuverts inDougherty, Commercium epistolicum (1984), S. 145 KatNr. 174.</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Konzept (Weimar, Goethe- und Schiller-Archiv: GSA 29/45, Bl. 66); das Briefkuvert mit dem Weimarer Poststempel &#x84;11. Mai 1829&#x93; erhalten in Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach III, fol. 55 (Adresse mit Angabe des Inhalts des mitgeschickten Pakets).</title>
+                  <title level="m" type="main">Konzept (Weimar, Goethe- und Schiller-Archiv: GSA 29/45, Bl. 66); das Briefkuvert mit dem Weimarer Poststempel &#x84;11. Mai 1829&#x93; erhalten in Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach III, fol. 55 (Adresse mit Angabe des Inhalts des mitgeschickten Pakets).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Goethe, Johann Wolfgang von</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1608">Weimar</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1608"
+                      sortKey="1829-05-08 [Poststempel: 1829-05-11]"
+                      when="1829-05-08 [Poststempel: 1829-05-11]"
+                      where="#orgplc-1608">
+                  <label>1829, Mai 8</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1608">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1608">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Stephan Weszprémy beklagt sich bei Blumenbach Über eine kritische Bemerkung in dessen Rezension seiner Abhandlung Über die &#x84;aqua Reginae Hungaricae&#x93; und verlangt eine öffentliche Richtigstellung. </title>
+            <title type="main">Stephan Weszprémy beklagt sich bei Blumenbach über eine kritische Bemerkung in dessen Rezension seiner Abhandlung über die &#x84;aqua Reginae Hungaricae&#x93; und verlangt eine öffentliche Richtigstellung. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Weszprémy, Stephan</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> (Ungarn)</pubPlace>
-            <date type="publication" when=" 1793-07-20"> 1793, Juli 20 Debrecen</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/694.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 280 Nr. 0817.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 280 Nr. 0817.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -66,7 +66,7 @@
                <rs type="object"/>
             </note>
             <note>
-               <rs type="span"> Blumenbachs Bericht zu seinem Vortrag der Abhandlungen von Stephan Weszprémi, &#x84;Ueber die Ungrische Reichskrone&#x93;, und &#x84;Ueber die Benennung der bekannten Aqua reginae Hungariae&#x93;] in GAgS1793 (89. StÜck, 6. Juni), S. 891&#x96;892 (Bibliographie Nr. 00352).</rs>
+               <rs type="span"/>
             </note>
             <note>
                <rs type="bibl"> </rs>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">Blumenbachs Bericht zu seinem Vortrag der Abhandlungen von Stephan Weszprémi, &#x84;Ueber die Ungrische Reichskrone&#x93;, und &#x84;Ueber die Benennung der bekannten Aqua reginae Hungariae&#x93;] in GAgS1793 (89. Stück, 6. Juni), S. 891&#x96;892 (Bibliographie Nr. 00352).</rs>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=292"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 280 Nr. 0817 </rs>
+               <rs type="edition">Corresp. IV, S. 280 Nr. 0817 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren, Überlieferung durch zeitgenöss. Abschrift, Budapest, National Széchényi Library, Fol. Lat 3175: Weszprémy Stephani litterae ad Joannem Fridericum Blumenbachprofessorem. Debrecinidie20.Julii 1793. </title>
+                  <title level="m" type="main">Or. verloren, überlieferung durch zeitgenöss. Abschrift, Budapest, National Széchényi Library, Fol. Lat 3175: Weszprémy Stephani litterae ad Joannem Fridericum Blumenbachprofessorem. Debrecinidie20.Julii 1793. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Weszprémy, Stephan</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-694">Debrecen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-694"
+                      sortKey="1793-07-20"
+                      when="1793-07-20"
+                      where="#orgplc-694">
+                  <label>1793, Juli 20  (Ungarn)</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-694">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-694">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0688</classCode>
-            <classCode scheme="anchor"> Aug1793</classCode>
+            <classCode scheme="anchor">Aug1793</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

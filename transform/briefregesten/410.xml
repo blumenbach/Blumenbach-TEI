@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Samuel-August-André-David Tissot sendet Blumenbach einige Publikationen verschiedener Verfasser, um die dieser gebeten hatte, und regt an, dass Blumenbach eine eventuelle zweite Auflage seiner Institutiones physiologicae inhaltlich stark erweitere.   Institutiones physiologicae (1. und 2. Aufl., 1788, bzw. 1797;Bibliographie Nr. 00065 und 00066).  </title>
+            <title type="main">Samuel-August-André-David Tissot sendet Blumenbach einige Publikationen verschiedener Verfasser, um die dieser gebeten hatte, und regt an, dass Blumenbach eine eventuelle zweite Auflage seiner Institutiones physiologicae inhaltlich stark erweitere.  Institutiones physiologicae (1. und 2. Aufl., 1788, bzw. 1797;Bibliographie Nr. 00065 und 00066).  </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Tissot, Samuel-August-André-David</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Lausanne</pubPlace>
-            <date type="publication" when=" 1788-05-02"> 1788, Mai 2</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/410.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 160 Nr. 0505.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 160 Nr. 0505.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=178"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 160 Nr. 0505 </rs>
+               <rs type="edition">Corresp. III, S. 160 Nr. 0505 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Leipzig, Universitätsbibliothek, Sammlung Kestner II C IX, 62 </title>
+                  <title level="m" type="main">Leipzig, Universitätsbibliothek, Sammlung Kestner II C IX, 62 </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Tissot, Samuel-August-André-David</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-410">Lausanne</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-410"
+                      sortKey="1788-05-02"
+                      when="1788-05-02"
+                      where="#orgplc-410">
+                  <label>1788, Mai 2</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-410">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-410">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georges(-Léopold-Chrétien, Baron de) Cuvier als ständiger Sekretär des Institut de Franceinformiert Blumenbach als Sekretär der Königlichen Societät der Wissenschaften zu Göttingen [, dass er die Verantwortung fÜr den Verkauf des 9. Bandes derCommentationesder Societät der Wissenschaften zu Göttingen dem Verlagshaus Treuttel et WÜrtz Übertragen habe ?]. </title>
+            <title type="main">Georges(-Léopold-Chrétien, Baron de) Cuvier als ständiger Sekretär des Institut de Franceinformiert Blumenbach als Sekretär der Königlichen Societät der Wissenschaften zu Göttingen [, dass er die Verantwortung für den Verkauf des 9. Bandes derCommentationesder Societät der Wissenschaften zu Göttingen dem Verlagshaus Treuttel et Würtz übertragen habe ?]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Cuvier, Georges (Georges-Léopold-Chrétien, Baron de Cuvier) </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Paris</pubPlace>
-            <date type="publication" when=" 1830-06-22"> 1830, Juni 22</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1618.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Die Inhaltsangabe bei Outram ist problematisch:Band 9 der älteren Reihe der Commentationes erschien schon 1789; die jÜngeren Reihe (Commentationes recentiores) endete mit dem 8. Band (1841); Band 6 erschien 1828, Band 7 erschien 1832. </note>
+            <note>Die Inhaltsangabe bei Outram ist problematisch:Band 9 der älteren Reihe der Commentationes erschien schon 1789; die jüngeren Reihe (Commentationes recentiores) endete mit dem 8. Band (1841); Band 6 erschien 1828, Band 7 erschien 1832. </note>
             <note>
                <rs type="object"/>
             </note>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Inhaltsangabe nach Outram, Dorinda (Hg.); The Letters of Georges Cuvier. Chalfont St Giles 1980, S. 34 Nr. 21/1, siehe dazu &#x84;Anm.&#x93;.</rs>
+               <rs type="bibl">Inhaltsangabe nach Outram, Dorinda (Hg.); The Letters of Georges Cuvier. Chalfont St Giles 1980, S. 34 Nr. 21/1, siehe dazu &#x84;Anm.&#x93;.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://kalliope.staatsbibliothek-berlin.de/"/>
             </note>
             <note>
-               <rs type="edition"> http://kalliope. staatsbibliothek-berlin.de/ </rs>
+               <rs type="edition">http://kalliope. staatsbibliothek-berlin.de/ </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Berlin, Staatsbibliothek − Preußischer Kulturbesitz, Handschriftenabt.Slg. Darmstaedter Lc 1801: Cuvier, Georg Leopold Christian Friedrich Dagobert,vgl.http://kalliope. staatsbibliothek-berlin.de/ [Zugriff:2012-10-12]. </title>
+                  <title level="m" type="main">Berlin, Staatsbibliothek − Preußischer Kulturbesitz, Handschriftenabt.Slg. Darmstaedter Lc 1801: Cuvier, Georg Leopold Christian Friedrich Dagobert,vgl.http://kalliope. staatsbibliothek-berlin.de/ [Zugriff:2012-10-12]. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Cuvier, Georges (Georges-Léopold-Chrétien, Baron de Cuvier) </persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1618">Paris</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1618"
+                      sortKey="1830-06-22"
+                      when="1830-06-22"
+                      where="#orgplc-1618">
+                  <label>1830, Juni 22</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1618">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1618">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>

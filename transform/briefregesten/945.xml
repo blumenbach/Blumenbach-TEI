@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Theodor Christian Eulner sendet Blumenbach einenmenschlichen Schädel aus Grönland und fÜhrt dessen schlechten Erhaltungszustand auf eine Hungersnotin Grönland zurÜck. </title>
+            <title type="main">Theodor Christian Eulner sendet Blumenbach einenmenschlichen Schädel aus Grönland und führt dessen schlechten Erhaltungszustand auf eine Hungersnotin Grönland zurück. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Eulner, Theodor Christian</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> (Grönland)</pubPlace>
-            <date type="publication" when=" 1797-09-04"> 1797, Sept. 4 Godhavn</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/945.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,36 +57,39 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 154&#x96;155 Nr. 1082.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 154&#x96;155 Nr. 1082.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Der in Meyer, Handschriften in Göttingen 3 (1894), S. 78 verzeichneteBrief Eulners (an Sören Lemming) vom 29. Aug. 1797 in Dougherty, Corresp. V, S. 153&#x96;154 Nr. 1081.</note>
             <note>
-               <rs type="object"> Schädel eines Grönländers (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 699; Abb. in Decas craniorum 4 (1800), Tafel 36; Bibliographie Nr. 00095).</rs>
+               <rs type="object">Schädel eines Grönländers (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 699; Abb. in Decas craniorum 4 (1800), Tafel 36; Bibliographie Nr. 00095).</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Dougherty, Commercium epistolicum (1984), S. 146&#x96;147 KatNr. 175.</rs>
+               <rs type="bibl">Dougherty, Commercium epistolicum (1984), S. 146&#x96;147 KatNr. 175.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00095"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=170"/>
             </note>
             <note>
-               <rs type="edition"> 00095   Corresp. V, S. 154&#x96;155 Nr. 1082 </rs>
+               <rs type="edition">00095  Corresp. V, S. 154&#x96;155 Nr. 1082 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 25, fol. 4&#x96;5. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 25, fol. 4&#x96;5. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Eulner, Theodor Christian</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-945">Godhavn</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-945"
+                      sortKey="1797-09-04"
+                      when="1797-09-04"
+                      where="#orgplc-945">
+                  <label>1797, Sept. 4  (Grönland)</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-945">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-945">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

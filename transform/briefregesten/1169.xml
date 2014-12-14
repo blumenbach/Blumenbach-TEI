@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach dankt Caleb Hillier Parry fÜr Proben unverarbeiteter und verarbeiteter Wolle aus England, sendet zwei deutsche Dissertationen Über die Angina pectoris und berichtet Über das erfolgreiche Studium der beiden SöhneParrys, George Frederick und Charles Henry Parry, in Göttingen. </title>
+            <title type="main">Blumenbach dankt Caleb Hillier Parry für Proben unverarbeiteter und verarbeiteter Wolle aus England, sendet zwei deutsche Dissertationen über die Angina pectoris und berichtet über das erfolgreiche Studium der beiden SöhneParrys, George Frederick und Charles Henry Parry, in Göttingen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1800-05-14"> 1800, Mai 14</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1169.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,38 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 465&#x96;466 Nr. 1304.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 465&#x96;466 Nr. 1304.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Proben unverarbeiteter und verarbeiteter Wolle aus England. </rs>
+               <rs type="object">Proben unverarbeiteter und verarbeiteter Wolle aus England. </rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Stargardt, Auktionskatalog 588 (Marburg 1969), S. 88. </rs>
+               <rs type="bibl">Auszug in Stargardt, Auktionskatalog 588 (Marburg 1969), S. 88. </rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=482"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 465&#x96;466 Nr. 1304 </rs>
+               <rs type="edition">Corresp. V, S. 465&#x96;466 Nr. 1304 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, 2 Cod. Ms. philos. 182, J. F. Blumenbach, 14.5.1800. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, 2 Cod. Ms. philos. 182, J. F. Blumenbach, 14.5.1800. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1169">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1169"
+                      sortKey="1800-05-14"
+                      when="1800-05-14"
+                      where="#orgplc-1169">
+                  <label>1800, Mai 14</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1169">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1169">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Parry, Caleb Hillier </persName>
          </creation>

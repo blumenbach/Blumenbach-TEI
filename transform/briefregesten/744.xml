@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Joseph Banks Ernst Florens Friedrich Chladnis Untersuchung Ueber den Ursprung der von Pallas gefundenen und anderer ihr ähnlicher Eisenmassen (1794), berichtet u. a. Über die russische Expedition von Joseph Billings [, Gawriil Andrejewitsch Sarytschew] und Christian Bering an die WestkÜste von Nordamerika und bittet um die Erlaubnis, zwei Porträts im Besitz von Banks kopieren zu lassen. </title>
+            <title type="main">Blumenbach sendet Joseph Banks Ernst Florens Friedrich Chladnis Untersuchung Ueber den Ursprung der von Pallas gefundenen und anderer ihr ähnlicher Eisenmassen (1794), berichtet u. a. über die russische Expedition von Joseph Billings [, Gawriil Andrejewitsch Sarytschew] und Christian Bering an die Westküste von Nordamerika und bittet um die Erlaubnis, zwei Porträts im Besitz von Banks kopieren zu lassen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1794-09-24"> 1794, Sept. 24</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/744.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,36 +57,39 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 346 Nr. 0869.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 346 Nr. 0869.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Die russische Nordpazifik-Expedition von 1785&#x96;1793/1784 wird meist als Billings-Sarytschew [Sarycev]-Expedition bezeichnet. Christian Bering (nicht, wieDougherty, Corresp. IV, Nr. 00869 Anm. 19 schreibt, dessen Großvater Vitus Bering [&#x86; 1741]) warTeilnehmer ohne leitende Funktion.</note>
             <note>
-               <rs type="object"> Probe eines sÜdamerikanischen Eisenmeteoriten; Zeichnungen nach verschiedenen Eskimo-Porträts und einem Porträt des Tahitianers O-mai im Besitz von Joseph Banks (Göttingen, Inst. fÜr Ethnologie, Inv.-Nr. Bi. Kat. 26, 27,28).</rs>
+               <rs type="object">Probe eines südamerikanischen Eisenmeteoriten; Zeichnungen nach verschiedenen Eskimo-Porträts und einem Porträt des Tahitianers O-mai im Besitz von Joseph Banks (Göttingen, Inst. für Ethnologie, Inv.-Nr. Bi. Kat. 26, 27,28).</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Dougherty, Commercium epistolicum (1984), S. 118&#x96;120 KatNr. 138; Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 4 (2007), S. 320&#x96;322 Nr. 1281; vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S. 113 Nr. 30.</rs>
+               <rs type="bibl">Dougherty, Commercium epistolicum (1984), S. 118&#x96;120 KatNr. 138; Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 4 (2007), S. 320&#x96;322 Nr. 1281; vgl. ausführl. Regest in Dawson, The Banks Letters (1958), S. 113 Nr. 30.</rs>
             </note>
             <note>
-               <rs type="lz"> Über den Bildungstrieb (1791; Bibliographie Nr. 00056); An essay on generation / by J. F. Blumenbach ; translated from the German [by Alexander Crichton] (1792; Bibliographie Nr. 00059); &#x84;Observations on some Egyptian Mummies opened in London&#x93; (1794; Bibliographie Nr. 00992).</rs>
+               <rs type="lz"> über den Bildungstrieb (1791; Bibliographie Nr. 00056); An essay on generation / by J. F. Blumenbach ; translated from the German [by Alexander Crichton] (1792; Bibliographie Nr. 00059); &#x84;Observations on some Egyptian Mummies opened in London&#x93; (1794; Bibliographie Nr. 00992).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00056"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=358"/>
             </note>
             <note>
-               <rs type="edition"> 00056   Corresp. IV, S. 346 Nr. 0869 </rs>
+               <rs type="edition">00056  Corresp. IV, S. 346 Nr. 0869 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, British Library, Add MS 8098, fol. 219&#x96;220. </title>
+                  <title level="m" type="main">London, British Library, Add MS 8098, fol. 219&#x96;220. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-744">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-744"
+                      sortKey="1794-09-24"
+                      when="1794-09-24"
+                      where="#orgplc-744">
+                  <label>1794, Sept. 24</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,12 +130,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-744">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-744">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Banks, Joseph</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0737</classCode>
-            <classCode scheme="anchor"> Okt1794</classCode>
+            <classCode scheme="anchor">Okt1794</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Samuel Thomas Soemmerring an Blumenbach. </title>
+            <title type="main">Samuel Thomas Soemmerring an Blumenbach. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Soemmerring, Samuel Thomas</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> [unbekannt]</pubPlace>
-            <date type="publication" when=" 1825-04-12"> 1825, Apr. 12</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1556.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Erwähnt in Dougherty, Frank William Peter, &#x84;Johann Friedrich Blumenbach und Samuel Thomas Soemmerring. Eine Auseinandersetzung in anthropologischer Hinsicht?&#x93;, in Mann, Gunther und Dumont, Franz (Hg.): Samuel Thomas Soemmerring und die Gelehrten der Goethezeit. Stuttgart und New York 1985, S. 35&#x96;56, Nachdruck in Nachdruck: Dougherty, Gesammelte Aufsätze (1996), S. 160&#x96;175, hier S. 402 Anm. 1. </rs>
+               <rs type="bibl">Erwähnt in Dougherty, Frank William Peter, &#x84;Johann Friedrich Blumenbach und Samuel Thomas Soemmerring. Eine Auseinandersetzung in anthropologischer Hinsicht?&#x93;, in Mann, Gunther und Dumont, Franz (Hg.): Samuel Thomas Soemmerring und die Gelehrten der Goethezeit. Stuttgart und New York 1985, S. 35&#x96;56, Nachdruck in Nachdruck: Dougherty, Gesammelte Aufsätze (1996), S. 160&#x96;175, hier S. 402 Anm. 1. </rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, 8 Cod. Ms. Rudolph Wagner I: Georg Heinrich Wilhelm Blumenbach (Abschrift). </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, 8 Cod. Ms. Rudolph Wagner I: Georg Heinrich Wilhelm Blumenbach (Abschrift). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Soemmerring, Samuel Thomas</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1556"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1556"
+                      sortKey="1825-04-12"
+                      when="1825-04-12"
+                      where="#orgplc-1556">
+                  <label>1825, Apr. 12  [unbekannt]</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1556">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1556">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

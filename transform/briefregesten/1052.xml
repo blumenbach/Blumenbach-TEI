@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Valeriano Luigi Brerabeschreibt Blumenbach detailliert das exotische Aussehen einer von ihm ärztlich behandelten Fraumit italienischer Mutter und tÜrkischem Vater als Beleg dafÜr, das Mischlingen äußerliche Merkmale beider Elternteile aufweisen können. </title>
+            <title type="main">Valeriano Luigi Brerabeschreibt Blumenbach detailliert das exotische Aussehen einer von ihm ärztlich behandelten Fraumit italienischer Mutter und türkischem Vater als Beleg dafür, das Mischlingen äußerliche Merkmale beider Elternteile aufweisen können. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Brera, Valeriano Luigi</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Pavia</pubPlace>
-            <date type="publication" when=" 1798-11-13"> 1798,Nov. 13</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1052.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 313&#x96;314 Nr. 1189.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 313&#x96;314 Nr. 1189.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=329"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 313&#x96;314 Nr. 1189 </rs>
+               <rs type="edition">Corresp. V, S. 313&#x96;314 Nr. 1189 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Leipzig, Universitätsbibliothek, Sammlung Kestner, II B, 101.</title>
+                  <title level="m" type="main">Leipzig, Universitätsbibliothek, Sammlung Kestner, II B, 101.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Brera, Valeriano Luigi</persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1052">Pavia</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1798-11-13">
-                  <label> 1798,Nov. 13</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1052"
+                      sortKey="1798-11-13"
+                      notAfter="1798-11-13"
+                      where="#orgplc-1052">
+                  <label>1798,Nov. 13</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1052">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1052">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

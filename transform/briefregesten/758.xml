@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Heinrich August Wrisberg quittiert Blumenbach als dem bisherigen Dekan der Medizinischen Fakultät der Universität Göttingen die Übergabe der Fakultätskasse. </title>
+            <title type="main">Heinrich August Wrisberg quittiert Blumenbach als dem bisherigen Dekan der Medizinischen Fakultät der Universität Göttingen die übergabe der Fakultätskasse. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Wrisberg, Heinrich August</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1794-12-31"> 1794, Dez. 31</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/758.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 364 Nr. 0883.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 364 Nr. 0883.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=376"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 364 Nr. 0883 </rs>
+               <rs type="edition">Corresp. IV, S. 364 Nr. 0883 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsarchiv, Kur. 4932, fol. 153. </title>
+                  <title level="m" type="main">Göttingen, Universitätsarchiv, Kur. 4932, fol. 153. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Wrisberg, Heinrich August</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-758">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-758"
+                      sortKey="1794-12-31"
+                      when="1794-12-31"
+                      where="#orgplc-758">
+                  <label>1794, Dez. 31</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-758">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-758">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0751</classCode>
-            <classCode scheme="anchor"> 1795  Jan1795</classCode>
+            <classCode scheme="anchor">1795 Jan1795</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

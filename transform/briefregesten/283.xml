@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach berichtet Gottlieb Emanuel von Haller von familiären Angelegenheiten, fragt nach dem Status der neu gegrÜndeten Société des Sciences Physiques in Lausanne und nach dem schweizerischen Brauch des &#x84;Kilte-Gehens&#x93; und bittet um die Beschaffung von zwei Publikationen Albrecht von Hallers. </title>
+            <title type="main">Blumenbach berichtet Gottlieb Emanuel von Haller von familiären Angelegenheiten, fragt nach dem Status der neu gegründeten Société des Sciences Physiques in Lausanne und nach dem schweizerischen Brauch des &#x84;Kilte-Gehens&#x93; und bittet um die Beschaffung von zwei Publikationen Albrecht von Hallers. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 17785-07-12"> 1785, Juli 12</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/283.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 305 Nr. 0371.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 305 Nr. 0371.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Dougherty, Frank William Peter: Christian Gottlob Heyne&#x92;s correspondence with Albrecht and Gottlieb Emanuel von Haller. Göttingen 1997, S. 363.</rs>
+               <rs type="bibl">Auszug in Dougherty, Frank William Peter: Christian Gottlob Heyne&#x92;s correspondence with Albrecht and Gottlieb Emanuel von Haller. Göttingen 1997, S. 363.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Pittsburgh, Hunt Institute for Botanical Documentation of the Carnegie-Mellon University, General Autograph Collection. </title>
+                  <title level="m" type="main">Pittsburgh, Hunt Institute for Botanical Documentation of the Carnegie-Mellon University, General Autograph Collection. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-283">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-283"
+                      sortKey="17785-07-12"
+                      when="17785-07-12"
+                      where="#orgplc-283">
+                  <label>1785, Juli 12</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-283">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-283">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Haller, Gottlieb Emanuel von</persName>
          </creation>

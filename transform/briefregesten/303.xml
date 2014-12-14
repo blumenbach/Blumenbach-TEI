@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach bestätigt Johann Christian Dieterich den Empfang einer Honorarsumme, bittet um eine weitere Zahlung und kÜndigt die termingerechte Lieferung von Manuskripten an. </title>
+            <title type="main">Blumenbach bestätigt Johann Christian Dieterich den Empfang einer Honorarsumme, bittet um eine weitere Zahlung und kündigt die termingerechte Lieferung von Manuskripten an. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1785-12-21"> 1785, Dez. 21</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/303.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 333 Nr. 0391.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 333 Nr. 0391.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,10 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item">Erwähnte Manuskripte: Medicinische Bibliothek, Bd. 2, Heft 2 und 3; Geschichte und Beschreibung der Knochen des menschlichen Körpers (1786, Bibliographie Nr. 00062); Introductio in historiam medicinae litterariam(1786,Bibliographie Nr. 00142).
+</rs>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +87,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Krakau, Biblioteka Jagiellonska. </title>
+                  <title level="m" type="main">Krakau, Biblioteka Jagiellonska. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -96,6 +100,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-303">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-303"
+                      sortKey="1785-12-21"
+                      when="1785-12-21"
+                      where="#orgplc-303">
+                  <label>1785, Dez. 21</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +128,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-303">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-303">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Dieterich, Johann Christian</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0299</classCode>
-            <classCode scheme="anchor"> 1786  Jan1786</classCode>
+            <classCode scheme="anchor">1786 Jan1786</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

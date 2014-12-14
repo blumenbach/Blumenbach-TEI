@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Thomas von Asch bestätigt Blumenbach, dass er die an ihn gesandten Pakete erhalten habe, und verspricht, sich weiter um Objekte fÜr Blumenbachs allgemeine Sammlungen und besonders die Sammlung menschlicher Schädel zu bemÜhen. </title>
+            <title type="main">Georg Thomas von Asch bestätigt Blumenbach, dass er die an ihn gesandten Pakete erhalten habe, und verspricht, sich weiter um Objekte für Blumenbachs allgemeine Sammlungen und besonders die Sammlung menschlicher Schädel zu bemühen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Asch, Georg Thomas von</persName>
             </author>
@@ -37,9 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> 1785, Aug. 30  St. Petersburg</pubPlace>
-            <date type="publication"
-                  when=" [= julian. Kal.: Aug. 19]  1785-08-30  [= julian. Kal.: 1785-08-19]"/>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -47,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/287.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -58,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 312 Nr. 0375.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 312 Nr. 0375.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -84,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, 2 Cod. Ms. Blumenbach III, fol. 10. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, 2 Cod. Ms. Blumenbach III, fol. 10. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Asch, Georg Thomas von</persName>
                   </author>
@@ -97,6 +99,28 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-287">St. Petersburg</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-287"
+                      sortKey="1785-08-30"
+                      when="1785-08-30"
+                      where="#orgplc-287">
+                  <label>1785, Aug. 30</label>
+               </event>
+            </listEvent>
+            <listEvent>
+               <event type="julian-origin"
+                      datingMethod="#julian-287"
+                      when="1785-08-19"
+                      where="#orgplc">
+                  <label>1785, Aug. 30</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -111,12 +135,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-287">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-287">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0283</classCode>
-            <classCode scheme="anchor"> Sept1785</classCode>
+            <classCode scheme="anchor">Sept1785</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

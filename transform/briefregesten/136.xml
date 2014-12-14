@@ -3,9 +3,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Carl Heinrich von HinÜber kÜndigt Blumenbach den Versand der fÜr das Academische Museum der Universität Göttingen zusammengestellten Sammlung von SÜdsee-Objekten an und äußert die Einschätzung, dass die Sammlung von auf dem europäischen Kontinent kaum zu findender Vollständigkeit sei. </title>
+            <title type="main">Carl Heinrich von Hinüber kündigt Blumenbach den Versand der für das Academische Museum der Universität Göttingen zusammengestellten Sammlung von Südsee-Objekten an und äußert die Einschätzung, dass die Sammlung von auf dem europäischen Kontinent kaum zu findender Vollständigkeit sei. </title>
             <author>
-               <persName ref="http://d-nb.info/gnd/">HinÜber, Carl Heinrich von </persName>
+               <persName ref="http://d-nb.info/gnd/">Hinüber, Carl Heinrich von </persName>
             </author>
             <editor>
                <persName ref="http://d-nb.info/gnd/">
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> London</pubPlace>
-            <date type="publication" when=" 1781-12-21"> 1781, Dez. 21</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/136.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,22 +57,25 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 300 Nr. 0180.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 300 Nr. 0180.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> 1781/1782 erworbeneObjekte der &#x84;Cook/Forster&#x93;-Sammlung des Academischen Museums.</rs>
+               <rs type="object">1781/1782 erworbeneObjekte der &#x84;Cook/Forster&#x93;-Sammlung des Academischen Museums.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> AuszÜge in Plischke, Die Ethnographische Sammlung der Universität Göttingen (1931), S. 20&#x96;21; AuszÜge inUrban, Manfred, &#x84;The Acquisition History of the Göttingen Collection&#x93;, inHauser-Schäublin und KrÜger, James Cook (1998), S. 59&#x96;58.</rs>
+               <rs type="bibl">Auszüge in Plischke, Die Ethnographische Sammlung der Universität Göttingen (1931), S. 20&#x96;21; Auszüge inUrban, Manfred, &#x84;The Acquisition History of the Göttingen Collection&#x93;, inHauser-Schäublin und Krüger, James Cook (1998), S. 59&#x96;58.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,9 +86,9 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Inst. fÜr Ethnologie und Ethnologische Sammlung, Archiv, Erwerbungen. </title>
+                  <title level="m" type="main">Göttingen, Inst. für Ethnologie und Ethnologische Sammlung, Archiv, Erwerbungen. </title>
                   <author>
-                     <persName ref="http://d-nb.info/gnd/">HinÜber, Carl Heinrich von </persName>
+                     <persName ref="http://d-nb.info/gnd/">Hinüber, Carl Heinrich von </persName>
                   </author>
                </titleStmt>
                <publicationStmt>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-136">London</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-136"
+                      sortKey="1781-12-21"
+                      when="1781-12-21"
+                      where="#orgplc-136">
+                  <label>1781, Dez. 21</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-136">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-136">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>

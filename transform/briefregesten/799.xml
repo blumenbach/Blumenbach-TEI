@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Gottfried Eichhorn bestätigt [Blumenbach] vertraglich die Bedingungen fÜr den vorgesehenen Band Blumenbachszur Geschichte der Anatomie, Physiologie und Naturhistorie in Eichhorns Geschichte der KÜnste und Wissenschaften. </title>
+            <title type="main">Johann Gottfried Eichhorn bestätigt [Blumenbach] vertraglich die Bedingungen für den vorgesehenen Band Blumenbachszur Geschichte der Anatomie, Physiologie und Naturhistorie in Eichhorns Geschichte der Künste und Wissenschaften. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Eichhorn, Johann Gottfried</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1795-07-17"> 1795, Juli 17</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/799.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 438 Nr. 0928.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 438 Nr. 0928.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=450"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 438 Nr. 0928 </rs>
+               <rs type="edition">Corresp. IV, S. 438 Nr. 0928 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Leipzig, Universitätsbibliothek, Sammlung Kestner II A IV, 415, fol. 2&#x96;3. </title>
+                  <title level="m" type="main">Leipzig, Universitätsbibliothek, Sammlung Kestner II A IV, 415, fol. 2&#x96;3. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Eichhorn, Johann Gottfried</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-799">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-799"
+                      sortKey="1795-07-17"
+                      when="1795-07-17"
+                      where="#orgplc-799">
+                  <label>1795, Juli 17</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-799">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-799">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

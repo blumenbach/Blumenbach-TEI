@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Friedrich Hornemann teilt Blumenbach zur Weiterleitung an die African Association in London mit, was ihnzurDurchfÜhrung einer Afrika-Expedition qualifiziere, welche Gebiete er zu erforschen und welche Art Beobachtungen zu liefern er anbiete und welche finanziellen und sonstigen Bedingungen er fÜr die DurchfÜhrung der Expedition stelle. </title>
+            <title type="main">Friedrich Hornemann teilt Blumenbach zur Weiterleitung an die African Association in London mit, was ihnzurDurchführung einer Afrika-Expedition qualifiziere, welche Gebiete er zu erforschen und welche Art Beobachtungen zu liefern er anbiete und welche finanziellen und sonstigen Bedingungen er für die Durchführung der Expedition stelle. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Hornemann, Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Leipzig</pubPlace>
-            <date type="publication" when=" 1796-05-04"> 1796, Mai 4</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/852.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S.18&#x96;21 Nr. 0982. </biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S.18&#x96;21 Nr. 0982. </biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Plischke, Hans: Johann Friedrich Blumenbachs Einfluß auf die Entdeckungsreisenden seiner Zeit. Göttingen 1937, S. 78&#x96;80, Anm. S. 105; engl. Übers. eines deutschsprachigen Auszugs, den Blumenbach an Joseph Banks sandte, in Hallett, Robin (Hg.): Records of the African Association 1788&#x96;1831 [...]. London u. a. 1964), S.173&#x96;175.</rs>
+               <rs type="bibl">Plischke, Hans: Johann Friedrich Blumenbachs Einfluß auf die Entdeckungsreisenden seiner Zeit. Göttingen 1937, S. 78&#x96;80, Anm. S. 105; engl. übers. eines deutschsprachigen Auszugs, den Blumenbach an Joseph Banks sandte, in Hallett, Robin (Hg.): Records of the African Association 1788&#x96;1831 [...]. London u. a. 1964), S.173&#x96;175.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=34"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S.18&#x96;21 Nr. 0982 </rs>
+               <rs type="edition">Corresp. V, S.18&#x96;21 Nr. 0982 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren; Überl.-Angabe in Plischke, Blumenbachs Einfluss [...] (1937) nicht zutreffend. </title>
+                  <title level="m" type="main">Or. verloren; überl.-Angabe in Plischke, Blumenbachs Einfluss [...] (1937) nicht zutreffend. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Hornemann, Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-852">Leipzig</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-852"
+                      sortKey="1796-05-04"
+                      when="1796-05-04"
+                      where="#orgplc-852">
+                  <label>1796, Mai 4</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-852">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-852">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0845</classCode>
-            <classCode scheme="anchor"> Mai1794</classCode>
+            <classCode scheme="anchor">Mai1794</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

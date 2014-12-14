@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Sebald Justinus Brugmans schlägt Blumenbach vor, sich gegenseitig bei der Beschaffung von Literatur zu unterstÜtzen, und teilt ihm seine Ansichten Über den afrikanischen Missionar und ehemaligen Sklaven Jacobus Elisa Johannes Capitein mit. </title>
+            <title type="main">Sebald Justinus Brugmans schlägt Blumenbach vor, sich gegenseitig bei der Beschaffung von Literatur zu unterstützen, und teilt ihm seine Ansichten über den afrikanischen Missionar und ehemaligen Sklaven Jacobus Elisa Johannes Capitein mit. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Brugmans, Sebald Justinus</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Leiden</pubPlace>
-            <date type="publication" when=" 1788-04-07"> 1788, Apr. 7</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/406.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 154 Nr. 0500.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 154 Nr. 0500.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,21 +72,24 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Handbuch der Naturgeschichte (3. Auf., 1788; Bibliographie Nr.00024).</rs>
+               <rs type="lz">Handbuch der Naturgeschichte (3. Auf., 1788; Bibliographie Nr.00024).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00024"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=172"/>
             </note>
             <note>
-               <rs type="edition"> 00024   Corresp. III, S. 154 Nr. 0500 </rs>
+               <rs type="edition">00024  Corresp. III, S. 154 Nr. 0500 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Leipzig, Universitätsbibliothek, Sammlung Kestner II C V, 44. </title>
+                  <title level="m" type="main">Leipzig, Universitätsbibliothek, Sammlung Kestner II C V, 44. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Brugmans, Sebald Justinus</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-406">Leiden</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-406"
+                      sortKey="1788-04-07"
+                      when="1788-04-07"
+                      where="#orgplc-406">
+                  <label>1788, Apr. 7</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-406">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-406">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

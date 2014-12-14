@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Carl August Böttiger bittet Blumenbach um Angaben zu historischen und aktuellen Vorkommen des Minerals Onyx. </title>
+            <title type="main">Carl August Böttiger bittet Blumenbach um Angaben zu historischen und aktuellen Vorkommen des Minerals Onyx. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Böttiger, Carl August</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Weimar</pubPlace>
-            <date type="publication" when=" 1795-09-06"> 1795, nach Sept. 6</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/810.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 457 Nr. 0940.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 457 Nr. 0940.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=469"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 457 Nr. 0940 </rs>
+               <rs type="edition">Corresp. IV, S. 457 Nr. 0940 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Leipzig, Universitätsbibliothek, Sammlung Kestner II A IV, 203, fol. 6&#x96;7. </title>
+                  <title level="m" type="main">Leipzig, Universitätsbibliothek, Sammlung Kestner II A IV, 203, fol. 6&#x96;7. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Böttiger, Carl August</persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-810">Weimar</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1795-09-06">
-                  <label> 1795, nach Sept. 6</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-810"
+                      sortKey="1795-09-06"
+                      notBefore="1795-09-06"
+                      where="#orgplc-810">
+                  <label>1795, nach Sept. 6</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-810">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-810">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

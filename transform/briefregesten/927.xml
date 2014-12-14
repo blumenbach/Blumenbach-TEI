@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teilt Gottfried Christoph Härtel sein Einverständnis dazu mit, dass die ohne seine Beteiligung von Johann Gottfried Gruber angefertigte Übersetzung der dritten Auflage seiner Dissertation De generis humani varietate nativa (1795) in Härtels Verlag publiziert wird, bittet um Belegexemplare und sendet Korrekturen zu dem Manuskript zur Weiterleitung an den Übersetzer Johann Gottfried Gruber. </title>
+            <title type="main">Blumenbach teilt Gottfried Christoph Härtel sein Einverständnis dazu mit, dass die ohne seine Beteiligung von Johann Gottfried Gruber angefertigte übersetzung der dritten Auflage seiner Dissertation De generis humani varietate nativa (1795) in Härtels Verlag publiziert wird, bittet um Belegexemplare und sendet Korrekturen zu dem Manuskript zur Weiterleitung an den übersetzer Johann Gottfried Gruber. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1797-04-17"> 1797, Apr. 17</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/927.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 127 Nr. 1061.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 127 Nr. 1061.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,24 +69,27 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Dougherty, Corresp. II, S. xx Anm. 89.</rs>
+               <rs type="bibl">Auszug in Dougherty, Corresp. II, S. xx Anm. 89.</rs>
             </note>
             <note>
-               <rs type="lz"> De generis humani varietate (3. Aufl., 1795; Bibliographie Nr. 00004); Über die natÜrlichen Verschiedenheiten im Menschengeschlechte (1798, Bibliographie Nr. 00008). </rs>
+               <rs type="lz">De generis humani varietate (3. Aufl., 1795; Bibliographie Nr. 00004); über die natürlichen Verschiedenheiten im Menschengeschlechte (1798, Bibliographie Nr. 00008). </rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00004"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=143"/>
             </note>
             <note>
-               <rs type="edition"> 00004   Corresp. V, S. 127 Nr. 1061 </rs>
+               <rs type="edition">00004  Corresp. V, S. 127 Nr. 1061 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Berlin, Staatsbibliothek &#x96; Preußischer Kulturbesitz, Handschriftenabt. Slg. Härtel: Blumenbach, Johann Friedrich.</title>
+                  <title level="m" type="main">Berlin, Staatsbibliothek &#x96; Preußischer Kulturbesitz, Handschriftenabt. Slg. Härtel: Blumenbach, Johann Friedrich.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-927">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-927"
+                      sortKey="1797-04-17"
+                      when="1797-04-17"
+                      where="#orgplc-927">
+                  <label>1797, Apr. 17</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,12 +130,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-927">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-927">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Härtel, Gottfried Christoph </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0909</classCode>
-            <classCode scheme="anchor"> Mai1797</classCode>
+            <classCode scheme="anchor">Mai1797</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

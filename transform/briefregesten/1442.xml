@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach Übermittelt alsDekan der Medizinischen Fakultät der Universität Göttingen Christian Ludwig August von Arnswaldt, dem Kurator der Universität, Friedrich Karl Lappes Konzept einer Ausbildung von Tierärzten an der Universität Göttingen. </title>
+            <title type="main">Blumenbach übermittelt alsDekan der Medizinischen Fakultät der Universität Göttingen Christian Ludwig August von Arnswaldt, dem Kurator der Universität, Friedrich Karl Lappes Konzept einer Ausbildung von Tierärzten an der Universität Göttingen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1815-08-15"> 1815, nach Aug.15</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1442.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Erwähnung in TÜtken, Johannes: Privatdozenten im Schatten der Georgia Augusta. Göttingen 2005, Bd. 2, S. 788. </rs>
+               <rs type="bibl">Erwähnung in Tütken, Johannes: Privatdozenten im Schatten der Georgia Augusta. Göttingen 2005, Bd. 2, S. 788. </rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -96,9 +99,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1442">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1815-08-15">
-                  <label> 1815, nach Aug.15</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1442"
+                      sortKey="1815-08-15"
+                      notBefore="1815-08-15"
+                      where="#orgplc-1442">
+                  <label>1815, nach Aug.15</label>
                </event>
             </listEvent>
             <msDesc>
@@ -115,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1442">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1442">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Arnswaldt, Christian Ludwig August von</persName>
          </creation>

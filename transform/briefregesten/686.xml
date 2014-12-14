@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach erkundigt sich bei Samuel Jacob Wyttenbach nach ihm von seinerReise in die Schweiz her bekannten Berner Naturforschern und berichtet Über wissenschaftliche Erträge seiner Londonreise. </title>
+            <title type="main">Blumenbach erkundigt sich bei Samuel Jacob Wyttenbach nach ihm von seinerReise in die Schweiz her bekannten Berner Naturforschern und berichtet über wissenschaftliche Erträge seiner Londonreise. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1793-04-12"> 1793, April 12</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/686.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 253 Nr. 0809.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 253 Nr. 0809.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,24 +69,28 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Wolf, Rudolf: Biographien zur Kulturgeschichte der Schweiz. ZÜrich 1858, S. 389&#x96;390.</rs>
+               <rs type="bibl">Auszug in Wolf, Rudolf: Biographien zur Kulturgeschichte der Schweiz. Zürich 1858, S. 389&#x96;390.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item">Arbeit an &#x84;Observations on some Egyptian Mummies opened in London&#x93; (1794; Bibliographie Nr. 00992). 
+</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00992"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=265"/>
             </note>
             <note>
-               <rs type="edition"> 00992   Corresp. IV, S. 253 Nr. 0809 </rs>
+               <rs type="edition">00992  Corresp. IV, S. 253 Nr. 0809 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Bern, Burgerbibliothek, Cod. Ms. Hist. Helv. XIV, 150, Vol. 1 Nr. 10. </title>
+                  <title level="m" type="main">Bern, Burgerbibliothek, Cod. Ms. Hist. Helv. XIV, 150, Vol. 1 Nr. 10. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +103,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-686">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-686"
+                      sortKey="1793-04-12"
+                      when="1793-04-12"
+                      where="#orgplc-686">
+                  <label>1793, April 12</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +131,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-686">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-686">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Wyttenbach, Jacob Samuel </persName>
          </creation>

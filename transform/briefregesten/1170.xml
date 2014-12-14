@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendetFranz Xaver von Zach Informationen ausBriefen von Joseph Banks mit Friedrich Hornemanns geologische und topographische Beobachtungen in der WÜste Sahara und kommentiert Hornemanns Bestätigung der Nachricht, dass Wanderheuschrecken in Nordafrika als Nahrungsmittel dienen. </title>
+            <title type="main">Blumenbach sendetFranz Xaver von Zach Informationen ausBriefen von Joseph Banks mit Friedrich Hornemanns geologische und topographische Beobachtungen in der Wüste Sahara und kommentiert Hornemanns Bestätigung der Nachricht, dass Wanderheuschrecken in Nordafrika als Nahrungsmittel dienen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1800-05-24"> 1800, Mai 24</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1170.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 466&#x96;468 Nr. 1305.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 466&#x96;468 Nr. 1305.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,17 +69,21 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde, Bd. 2 (Juli 1800), S. 48&#x96;51 (&#x84;XXXII. &#x84;&#x84;V. Nachrichten von Hornemann&#x92;s Afrikanischer Reise. Aus einem Schreiben des Hofraths Blumenbach. Göttingen, d. 24. May 1800&#x93;, Bibliographie Nr. 00968).</rs>
+               <rs type="bibl">Auszug in Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde, Bd. 2 (Juli 1800), S. 48&#x96;51 (&#x84;XXXII. &#x84;&#x84;V. Nachrichten von Hornemann&#x92;s Afrikanischer Reise. Aus einem Schreiben des Hofraths Blumenbach. Göttingen, d. 24. May 1800&#x93;, Bibliographie Nr. 00968).</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00968 (siehe &#x84;Dr.&#x93;). 
+</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00968"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=482"/>
             </note>
             <note>
-               <rs type="edition"> 00968   Corresp. V, S. 466&#x96;468 Nr. 1305 </rs>
+               <rs type="edition">00968  Corresp. V, S. 466&#x96;468 Nr. 1305 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -99,6 +103,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1170">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1170"
+                      sortKey="1800-05-24"
+                      when="1800-05-24"
+                      where="#orgplc-1170">
+                  <label>1800, Mai 24</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +131,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1170">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1170">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Zach, Franz Xaver von </persName>
          </creation>

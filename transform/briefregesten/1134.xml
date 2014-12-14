@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg I. von Sachsen-Meiningen sendetBlumenbach leihweise zahlreiche fossile Knochen aus den Höhlen bei Altenstein, bittetum die Mitteilung der Ergebnisse ihrer Erforschung und bietet ihm an, doppelt vorhandene Knochen zu behalten. </title>
+            <title type="main">Georg I. von Sachsen-Meiningen sendetBlumenbach leihweise zahlreiche fossile Knochen aus den Höhlen bei Altenstein, bittetum die Mitteilung der Ergebnisse ihrer Erforschung und bietet ihm an, doppelt vorhandene Knochen zu behalten. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Sachsen-Meiningen, Georg I. von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Meiningen</pubPlace>
-            <date type="publication" when=" 1799-12-29"> 1799, Dez. 29</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1134.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 430 Nr. 1269.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 430 Nr. 1269.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Fossile Knochen aus den Höhlen bei Altenstein.</rs>
+               <rs type="object">Fossile Knochen aus den Höhlen bei Altenstein.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=446"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S.430 Nr. 1269 </rs>
+               <rs type="edition">Corresp. V, S.430 Nr. 1269 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 1 (Georg von Sachsen-Meiningen Nr. 3).</title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 1 (Georg von Sachsen-Meiningen Nr. 3).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Sachsen-Meiningen, Georg I. von</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1134">Meiningen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1134"
+                      sortKey="1799-12-29"
+                      when="1799-12-29"
+                      where="#orgplc-1134">
+                  <label>1799, Dez. 29</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,13 +129,21 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1134">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1134">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">1118</classCode>
-            <classCode scheme="anchor"> 1800
-1800  Jan1800</classCode>
+            <classCode scheme="anchor">1800
+1800 Jan1800</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

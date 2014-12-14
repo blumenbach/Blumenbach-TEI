@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Christoph Lichtenberg beschreibt Blumenbach einen Konstruktionsfehler an einem von Samuel Christian Hollmann, Johann Beckmann und August Knierim entwickelten Barometer. </title>
+            <title type="main">Georg Christoph Lichtenberg beschreibt Blumenbach einen Konstruktionsfehler an einem von Samuel Christian Hollmann, Johann Beckmann und August Knierim entwickelten Barometer. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1785-01-09"> 1785, Jan. 9</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/236.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 323 Nr. 0323.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 323 Nr. 0323.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Aktualisierung der Überlieferungsangabe bei Dougherty, Corresp.II, Nr. 0323 (&#x84;Todtnau, Privatsammlung Barbara Hanning&#x93;)nachAnkauf der Sammlung durch dieUniversitätsbibliothek Göttingen im Jahr 2012.</note>
+            <note>Aktualisierung der überlieferungsangabe bei Dougherty, Corresp.II, Nr. 0323 (&#x84;Todtnau, Privatsammlung Barbara Hanning&#x93;)nachAnkauf der Sammlung durch dieUniversitätsbibliothek Göttingen im Jahr 2012.</note>
             <note>
                <rs type="object"/>
             </note>
@@ -72,7 +72,10 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> SÜddeutsche Monatshefte V, 2 (1908) Nr. 4 S. 314 (mit falscher Datierung&#x84;1785, Juni 9&#x93;); Lichtenberg, Briefwechsel, Bd. 3 (1990), Nr. 1340, S. 14&#x96;15.</rs>
+               <rs type="lz">Süddeutsche Monatshefte V, 2 (1908) Nr. 4 S. 314 (mit falscher Datierung&#x84;1785, Juni 9&#x93;); Lichtenberg, Briefwechsel, Bd. 3 (1990), Nr. 1340, S. 14&#x96;15.</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. 2012.23:17 (Provenienz: Sammlung Ludwig Saeng, Darmstadt); s. &#x84;Anm.&#x93;. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. 2012.23:17 (Provenienz: Sammlung Ludwig Saeng, Darmstadt); s. &#x84;Anm.&#x93;. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-236">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-236"
+                      sortKey="1785-01-09"
+                      when="1785-01-09"
+                      where="#orgplc-236">
+                  <label>1785, Jan. 9</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-236">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-236">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>

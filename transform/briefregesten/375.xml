@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teilt fÜr ein &#x84;responsum&#x93; der Medizinischen Fakultät der Universität Göttingen seine Diagnose mit. </title>
+            <title type="main">Blumenbach teilt für ein &#x84;responsum&#x93; der Medizinischen Fakultät der Universität Göttingen seine Diagnose mit. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 17"> 1787, Juni 21</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/375.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 114 Nr. 0466.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 114 Nr. 0466.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Fast identisch mit dem letzten Abschnitt in dem alsEntwurf Überlieferten Text Dougherty, Corresp. III, Nr. 0465 und möglicherweise die Vorlage fÜr diesen, sodass die zeitliche Reihenfolge vonDougherty, Corresp. III, Nr. 0465 undNr. 0466 umzukehren wäre.</note>
+            <note>Fast identisch mit dem letzten Abschnitt in dem alsEntwurf überlieferten Text Dougherty, Corresp. III, Nr. 0465 und möglicherweise die Vorlage für diesen, sodass die zeitliche Reihenfolge vonDougherty, Corresp. III, Nr. 0465 undNr. 0466 umzukehren wäre.</note>
             <note>
                <rs type="object"/>
             </note>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=132"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 114 Nr. 0466 </rs>
+               <rs type="edition">Corresp. III, S. 114 Nr. 0466 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsarchiv, Medizin. Fak., Dekanats- und Promotionsvorgänge und -urkunden fÜr das Jahr 1787.</title>
+                  <title level="m" type="main">Göttingen, Universitätsarchiv, Medizin. Fak., Dekanats- und Promotionsvorgänge und -urkunden für das Jahr 1787.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-375">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-375"
+                      sortKey="17"
+                      when="17"
+                      where="#orgplc-375">
+                  <label>1787, Juni 21</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-375">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-375">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Medizinische Fakultät der Universität Göttingen</persName>
          </creation>

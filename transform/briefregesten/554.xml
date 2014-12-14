@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teilt Joseph Banks mit, dass die Ergebnisse seiner eigenen Analyse der &#x84;arena australis&#x93; (Australsand) mit den ihm von Banks gesandten Ergebnissen Josiah Wedgwoods weitgehend Übereinstimmen, berichtet Über ihm bekannt gewordene neuere Beiträge zur Diskussion Über &#x84;Grunderden&#x93; und Über die Mineralien Strontianit und Witherit und sendet einen Aufsatz des Göttinger Professors Carl Felix Seyffer Über Vulkanismus auf dem Mond. </title>
+            <title type="main">Blumenbach teilt Joseph Banks mit, dass die Ergebnisse seiner eigenen Analyse der &#x84;arena australis&#x93; (Australsand) mit den ihm von Banks gesandten Ergebnissen Josiah Wedgwoods weitgehend übereinstimmen, berichtet über ihm bekannt gewordene neuere Beiträge zur Diskussion über &#x84;Grunderden&#x93; und über die Mineralien Strontianit und Witherit und sendet einen Aufsatz des Göttinger Professors Carl Felix Seyffer über Vulkanismus auf dem Mond. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1791-02-14"> 1791, Febr. 14</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/554.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,38 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 24 Nr. 0656.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 24 Nr. 0656.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Australsand (&#x84;arena australis&#x93;).</rs>
+               <rs type="object">Australsand (&#x84;arena australis&#x93;).</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 4 (2007), S. 37&#x96;38 Nr. 1035; vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S. 111 Nr. 16.</rs>
+               <rs type="bibl">Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 4 (2007), S. 37&#x96;38 Nr. 1035; vgl. ausführl. Regest in Dawson, The Banks Letters (1958), S. 111 Nr. 16.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=36"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 24 Nr. 0656 </rs>
+               <rs type="edition">Corresp. IV, S. 24 Nr. 0656 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, British Library, Add MS 8097, fol. 364&#x96;365. </title>
+                  <title level="m" type="main">London, British Library, Add MS 8097, fol. 364&#x96;365. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-554">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-554"
+                      sortKey="1791-02-14"
+                      when="1791-02-14"
+                      where="#orgplc-554">
+                  <label>1791, Febr. 14</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-554">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-554">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Banks, Joseph</persName>
          </creation>

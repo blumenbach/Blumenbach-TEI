@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Pickel beschreibt Blumenbach einige Fälle von Albinismus, die er im Gebiet um WÜrzburg beobachtet hat. </title>
+            <title type="main">Georg Pickel beschreibt Blumenbach einige Fälle von Albinismus, die er im Gebiet um Würzburg beobachtet hat. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Pickel, Georg</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> WÜrzburg</pubPlace>
-            <date type="publication" when=" 1787-01-01"> 1787, Anfang Jan.</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/350.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 69 Nr. 0440.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 69 Nr. 0440.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Kopfhaar von einem an Albinismus leidenden Europäers, vgl. Blumenbachs hs. Sammlungsverzeichnis, Göttingen, Universitätsbibliothek,Cod. Ms. Blumenbach 1, II, fol. 18r.</rs>
+               <rs type="object">Kopfhaar von einem an Albinismus leidenden Europäers, vgl. Blumenbachs hs. Sammlungsverzeichnis, Göttingen, Universitätsbibliothek,Cod. Ms. Blumenbach 1, II, fol. 18r.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,18 +75,21 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/Sammlungskataloge/cod_ms-Blumenbach_1_II_Blumenbach_Handschriften_1794_1800_Katalog%20zur%20Naturgeschichte%20des%20Menschengeschlechts.pdf#page=41"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=87"/>
             </note>
             <note>
-               <rs type="edition"> Cod. Ms. Blumenbach 1, II, fol. 18r   Corresp. III, S. 69 Nr. 0440 </rs>
+               <rs type="edition">Cod. Ms. Blumenbach 1, II, fol. 18r  Corresp. III, S. 69 Nr. 0440 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren; Überlieferung durch Druck in Medicinische Bibliothek Bd. 3, 1. StÜck. </title>
+                  <title level="m" type="main">Or. verloren; überlieferung durch Druck in Medicinische Bibliothek Bd. 3, 1. Stück. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Pickel, Georg</persName>
                   </author>
@@ -99,9 +102,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-350">Würzburg</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1787-01-01">
-                  <label> 1787, Anfang Jan.</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-350"
+                      sortKey="1787-01-01"
+                      notBefore="1787-01-01"
+                      where="#orgplc-350">
+                  <label>1787, Anfang Jan.</label>
                </event>
             </listEvent>
             <msDesc>
@@ -118,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-350">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-350">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

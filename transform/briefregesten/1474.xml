@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Ludwig I. von Bayern kÜndigtBlumenbach die Zusendung eines in einem antiken Grab beiNola gefundenen Schädels an und beschreibt die fÜr dessen Echtheit garantierende Herkunft aus der Vasensammlung des Bischofs von Nola. </title>
+            <title type="main">Ludwig I. von Bayern kündigtBlumenbach die Zusendung eines in einem antiken Grab beiNola gefundenen Schädels an und beschreibt die für dessen Echtheit garantierende Herkunft aus der Vasensammlung des Bischofs von Nola. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Bayern, Ludwig I. von </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Rom</pubPlace>
-            <date type="publication" when=" 1818-03-14"> 1818, März 14</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1474.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,22 +57,25 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Antiker Schädel aus Nola (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 502;Abb. inDecas craniorum 6 (1820; Bibliographie Nr. 00097), Tafel 51).</rs>
+               <rs type="object">Antiker Schädel aus Nola (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 502;Abb. inDecas craniorum 6 (1820; Bibliographie Nr. 00097), Tafel 51).</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Ranke, Johannes: Die akademische Kommission fÜr Erforschung der Urgeschichte und die Organisation der urgeschichtlichen Forschung in Bayern durch König Ludwig I. MÜnchen 1900, S. 65&#x96;66; Thiersch, Hermann: Ludwig I. von Bayern und die Georgia Augusta. Berlin 1927, S. 68&#x96;69; Klatt, Norbert (Hg.) : Rudolph Wagner. Physiologische Briefe (1851&#x96;1852).Göttingen 1997, S. 89. </rs>
+               <rs type="bibl">Ranke, Johannes: Die akademische Kommission für Erforschung der Urgeschichte und die Organisation der urgeschichtlichen Forschung in Bayern durch König Ludwig I. München 1900, S. 65&#x96;66; Thiersch, Hermann: Ludwig I. von Bayern und die Georgia Augusta. Berlin 1927, S. 68&#x96;69; Klatt, Norbert (Hg.) : Rudolph Wagner. Physiologische Briefe (1851&#x96;1852).Göttingen 1997, S. 89. </rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms.Blumenbach V,fol. ?; vgl.Meyer, Handschriften in Göttingen 3 (1894), S. 78.</title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms.Blumenbach V,fol. ?; vgl.Meyer, Handschriften in Göttingen 3 (1894), S. 78.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Bayern, Ludwig I. von </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1474">Rom</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1474"
+                      sortKey="1818-03-14"
+                      when="1818-03-14"
+                      where="#orgplc-1474">
+                  <label>1818, März 14</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1474">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1474">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Gottlieb Tilesius von Tilenau berichtetBlumenbach Über mehrere Funde vonMammutfossilien in Sibirien [und Über Aussehen und Lebensweise der Volkes der Ainu in Nordjapan, beschreibt eine neu entdeckte Fischart aus den nordjapanischen Gewässern und gibt an, welche tierischen Organismen das Meerleuchten im japanischen Meer verursachen]. </title>
+            <title type="main">Gottlieb Tilesius von Tilenau berichtetBlumenbach über mehrere Funde vonMammutfossilien in Sibirien [und über Aussehen und Lebensweise der Volkes der Ainu in Nordjapan, beschreibt eine neu entdeckte Fischart aus den nordjapanischen Gewässern und gibt an, welche tierischen Organismen das Meerleuchten im japanischen Meer verursachen]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Tilesius von Tilenau, Gottlieb</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when="1805-09-24"> 1805, Sept. 24 Petropawlowsk, Kamtschatka</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1313.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Herkunft der Berichte Über Japan (Bibliographie Nrr. 00928, 00929 und 00930) aus dem Brief vom 24. Sept. 1805 nicht völlig sicher. </note>
+            <note>Herkunft der Berichte über Japan (Bibliographie Nrr. 00928, 00929 und 00930) aus dem Brief vom 24. Sept. 1805 nicht völlig sicher. </note>
             <note>
                <rs type="object"/>
             </note>
@@ -69,10 +69,14 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> AuszÜge in Magazin fÜr den neuesten Zustand der NaturkundeS. 498&#x96;502 (&#x84;11) Naturhistorische Bemerkungen aus Kamtschatka&#x93;, Bibliographie Nr.00927), hier S. 500&#x96;502 (Mammutfunde), S.S. 502&#x96;503 (&#x84;12)Dergleichen [naturhistorische Bemerkungen] aus Segalien, (Tschoka) und Japan&#x93;, Bibliographie Nr.00928),S. 503&#x96;505 (&#x84;13) Dergleichen [naturhistorische Bemerkungen] aus Japan&#x93;, Bibliographie Nr.00929) und S. 505 (&#x84;14) Ueber das Leuchten der See&#x93;, Bibliographie Nr.00930).</rs>
+               <rs type="bibl">Auszüge in Magazin für den neuesten Zustand der NaturkundeS. 498&#x96;502 (&#x84;11) Naturhistorische Bemerkungen aus Kamtschatka&#x93;, Bibliographie Nr.00927), hier S. 500&#x96;502 (Mammutfunde), S.S. 502&#x96;503 (&#x84;12)Dergleichen [naturhistorische Bemerkungen] aus Segalien, (Tschoka) und Japan&#x93;, Bibliographie Nr.00928),S. 503&#x96;505 (&#x84;13) Dergleichen [naturhistorische Bemerkungen] aus Japan&#x93;, Bibliographie Nr.00929) und S. 505 (&#x84;14) Ueber das Leuchten der See&#x93;, Bibliographie Nr.00930).</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr. 00927, Nr. 00928, Nr.00929 und Nr.00930 (siehe&#x84;Dr.&#x93;). 
+</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00927"/>
@@ -81,7 +85,7 @@
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00930"/>
             </note>
             <note>
-               <rs type="edition"> 00927009280092900930 </rs>
+               <rs type="edition">00927009280092900930 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -101,6 +105,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1313">Petropawlowsk, Kamtschatka</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1313"
+                      sortKey="1805-09-24"
+                      when="1805-09-24"
+                      where="#orgplc-1313">
+                  <label>1805, Sept. 24</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -115,6 +133,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1313">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1313">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

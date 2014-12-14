@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Rudolf Schellenberg sendet die nach Blumenbachs Korrekturanweisungen neu angefertigten Tafeln[zu dessen AufsatzDe oculis leucaethiopum et iridis motu?] und macht Vorschläge fÜr die Art des Geldtransfers zu seiner Bezahlung. </title>
+            <title type="main">Johann Rudolf Schellenberg sendet die nach Blumenbachs Korrekturanweisungen neu angefertigten Tafeln[zu dessen AufsatzDe oculis leucaethiopum et iridis motu?] und macht Vorschläge für die Art des Geldtransfers zu seiner Bezahlung. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Schellenberg, Johann Rudolf </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Winterthur</pubPlace>
-            <date type="publication" when=" 1784-11-29"> 1784, Nov. 29</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/230.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 220 Nr. 0318.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 220 Nr. 0318.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Evt. handelt es sich um die Abb. fÜr&#x84;De oculis leucaethiopum et iridis motu commentatio recitata d. IX. Octobr. MDCCLXXXIV&#x93;, in Commentationes soc. reg. scient. Gottingensis, Bd. VII (1786), Phys., S. 29&#x96;62 (Bibliographie Nr. 00180).</note>
+            <note>Evt. handelt es sich um die Abb. für&#x84;De oculis leucaethiopum et iridis motu commentatio recitata d. IX. Octobr. MDCCLXXXIV&#x93;, in Commentationes soc. reg. scient. Gottingensis, Bd. VII (1786), Phys., S. 29&#x96;62 (Bibliographie Nr. 00180).</note>
             <note>
                <rs type="object"/>
             </note>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 4 (Schellenberg Nr. 2). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 4 (Schellenberg Nr. 2). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Schellenberg, Johann Rudolf </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-230">Winterthur</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-230"
+                      sortKey="1784-11-29"
+                      when="1784-11-29"
+                      where="#orgplc-230">
+                  <label>1784, Nov. 29</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-230">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-230">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0227</classCode>
-            <classCode scheme="anchor"> Dez1784</classCode>
+            <classCode scheme="anchor">Dez1784</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Lebrecht Friedrich Benjamin Lentin sendet Blumenbach einen Beitrag fÜr die Medicinische Bibliothek und bittet um eine medizinische Auskunft und um die Zusendung einer Publikation. </title>
+            <title type="main">Lebrecht Friedrich Benjamin Lentin sendet Blumenbach einen Beitrag für die Medicinische Bibliothek und bittet um eine medizinische Auskunft und um die Zusendung einer Publikation. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Lentin, Lebrecht Friedrich Benjamin</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> LÜneburg</pubPlace>
-            <date type="publication" when=" 1786-11-14"> 1786, Nov. 14</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/342.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 57 Nr. 0432.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 57 Nr. 0432.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Vgl. Lentins Beitrag &#x84;Von einer langwierigen GemÜtskrankheit&#x93;, in Medicinische Bibliothek Bd. 2, 4. StÜck (1787), S. 744&#x96;754. </note>
+            <note>Vgl. Lentins Beitrag &#x84;Von einer langwierigen Gemütskrankheit&#x93;, in Medicinische Bibliothek Bd. 2, 4. Stück (1787), S. 744&#x96;754. </note>
             <note>
                <rs type="object"/>
             </note>
@@ -75,18 +75,21 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=75"/>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00145"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 57 Nr. 0432   Medicinische Bibliothek </rs>
+               <rs type="edition">Corresp. III, S. 57 Nr. 0432  Medicinische Bibliothek </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Leipzig, Universitätsbibliothek, Sammlung Kestner II A IV, 1035. </title>
+                  <title level="m" type="main">Leipzig, Universitätsbibliothek, Sammlung Kestner II A IV, 1035. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Lentin, Lebrecht Friedrich Benjamin</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-342">Lüneburg</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-342"
+                      sortKey="1786-11-14"
+                      when="1786-11-14"
+                      where="#orgplc-342">
+                  <label>1786, Nov. 14</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-342">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-342">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

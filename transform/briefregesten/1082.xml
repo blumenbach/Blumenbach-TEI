@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach versieht ein Exemplar der sechsten Auflage des Handbuchs der Naturgeschichte (1799) miteiner Widmung an John Hawkins. </title>
+            <title type="main">Blumenbach versieht ein Exemplar der sechsten Auflage des Handbuchs der Naturgeschichte (1799) miteiner Widmung an John Hawkins. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1799-03-10"> 1799, nach März 10</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1082.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 360 Nr. 1218. </biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 360 Nr. 1218. </biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=376"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 360Nr. 1218 </rs>
+               <rs type="edition">Corresp. V, S. 360Nr. 1218 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Berlin, Staatsbibliothek zu Berlin &#x96; Preußischer Kulturbesitz, Handschriftenabteilung, Slg. Darmstaedter Lc 1785 (2): Blumenbach, Johann Friedrich, Bl. 32-33; f 32.</title>
+                  <title level="m" type="main">Berlin, Staatsbibliothek zu Berlin &#x96; Preußischer Kulturbesitz, Handschriftenabteilung, Slg. Darmstaedter Lc 1785 (2): Blumenbach, Johann Friedrich, Bl. 32-33; f 32.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1082">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1799-03-10">
-                  <label> 1799, nach März 10</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1082"
+                      sortKey="1799-03-10"
+                      notBefore="1799-03-10"
+                      where="#orgplc-1082">
+                  <label>1799, nach März 10</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1082">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1082">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Hawkins, John</persName>
          </creation>

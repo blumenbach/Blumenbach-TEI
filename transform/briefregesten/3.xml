@@ -3,9 +3,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Samuel LieberkÜhn sendet Blumenbach den gedruckten Katalog der Sammlung anatomischer Präparate aus dem Nachlass des Johann Nathaniel LieberkÜhn und bietet der Universität Göttingen die Sammlung zum Kauf an. </title>
+            <title type="main">Johann Samuel Lieberkühn sendet Blumenbach den gedruckten Katalog der Sammlung anatomischer Präparate aus dem Nachlass des Johann Nathaniel Lieberkühn und bietet der Universität Göttingen die Sammlung zum Kauf an. </title>
             <author>
-               <persName ref="http://d-nb.info/gnd/">LieberkÜhn, Johann Samuel</persName>
+               <persName ref="http://d-nb.info/gnd/">Lieberkühn, Johann Samuel</persName>
             </author>
             <editor>
                <persName ref="http://d-nb.info/gnd/">
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Barby</pubPlace>
-            <date type="publication" when=" 1774-09-26"> 1774, Sept. 26</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/3.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume">   Dougherty, Corresp. I, S. 4 Nr. 0003.</biblScope>
+            <biblScope unit="volume">  Dougherty, Corresp. I, S. 4 Nr. 0003.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -85,7 +88,7 @@
                <titleStmt>
                   <title level="m" type="main"/>
                   <author>
-                     <persName ref="http://d-nb.info/gnd/">LieberkÜhn, Johann Samuel</persName>
+                     <persName ref="http://d-nb.info/gnd/">Lieberkühn, Johann Samuel</persName>
                   </author>
                </titleStmt>
                <publicationStmt>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-3">Barby</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-3"
+                      sortKey="1774-09-26"
+                      when="1774-09-26"
+                      where="#orgplc-3">
+                  <label>1774, Sept. 26</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-3">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-3">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0003</classCode>
-            <classCode scheme="anchor"> Okt1774</classCode>
+            <classCode scheme="anchor">Okt1774</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

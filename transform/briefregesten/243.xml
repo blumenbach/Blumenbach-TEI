@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Christian Gottlob Heyne den Text einer Rezension von Samuel Thomas SoemmerringsÜber die körperliche Verschiedenheit des Mohren vom Europäer (1784) fÜr die Göttingischen Anzeigen von gelehrten Sachen und schlägt einen gÜnstigen Veröffentlichungszeitpunkt vor. </title>
+            <title type="main">Blumenbach sendet Christian Gottlob Heyne den Text einer Rezension von Samuel Thomas Soemmerringsüber die körperliche Verschiedenheit des Mohren vom Europäer (1784) für die Göttingischen Anzeigen von gelehrten Sachen und schlägt einen günstigen Veröffentlichungszeitpunkt vor. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1785-01-16"> 1785, Jan. 16</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/243.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 236 Nr. 0330.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 236 Nr. 0330.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,10 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item">Rezension von Samuel Thomas Soemmerring,über die körperliche Verschiedenheit des Mohren vom Europäer (1784) in GAgS 1785 (12. Stück, 22. Februar), S. 108&#x96;111 (Bibliographie Nr. 00266). 
+</rs>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +87,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Akademie der Wissenschaften, Archiv, Scient. 47,3 Nr. 900. </title>
+                  <title level="m" type="main">Göttingen, Akademie der Wissenschaften, Archiv, Scient. 47,3 Nr. 900. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -96,6 +100,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-243">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-243"
+                      sortKey="1785-01-16"
+                      when="1785-01-16"
+                      where="#orgplc-243">
+                  <label>1785, Jan. 16</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +128,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-243">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-243">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Heyne, Christian Gottlob </persName>
          </creation>

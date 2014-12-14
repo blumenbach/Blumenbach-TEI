@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Christian Friedrich Michaelis sendetBlumenbach den Schädel eines nordamerikanischen Indianers vom Stamm der &#x84;Choktah&#x93;. </title>
+            <title type="main">Christian Friedrich Michaelis sendetBlumenbach den Schädel eines nordamerikanischen Indianers vom Stamm der &#x84;Choktah&#x93;. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Michaelis, Christian Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> , Juni 19? Kassel</pubPlace>
-            <date type="publication" when=" 1784-06-19 ?"> 1784</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/211.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. nicht enth.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. nicht enth.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Meyer, Handschriften in Göttingen 3 (1894), S. 78 verzeichnet einen Brief von Chr. F. Michaelis Über einen Choktah-Schädel und datiert ihn vermutungsweise auf &#x84;19 Juni 1785&#x93; mitAbsendeort Kassel; in einem hs. Katalog zu seiner Schädelsammlung (Göttingen, Universitätsbibliothek , Cod. Ms. Blumenbach 1, I, fol. 8) gibt Blumenbach zu diesem Schädel an, er habe den inDecas craniorum 1 (1790), Tafel 9 beschriebenen Schädel 1784 von Michaelis in Marburg erhalten, vgl. Dougherty, Corresp. II, S. 216, Anm. 13.</note>
+            <note>Meyer, Handschriften in Göttingen 3 (1894), S. 78 verzeichnet einen Brief von Chr. F. Michaelis über einen Choktah-Schädel und datiert ihn vermutungsweise auf &#x84;19 Juni 1785&#x93; mitAbsendeort Kassel; in einem hs. Katalog zu seiner Schädelsammlung (Göttingen, Universitätsbibliothek , Cod. Ms. Blumenbach 1, I, fol. 8) gibt Blumenbach zu diesem Schädel an, er habe den inDecas craniorum 1 (1790), Tafel 9 beschriebenen Schädel 1784 von Michaelis in Marburg erhalten, vgl. Dougherty, Corresp. II, S. 216, Anm. 13.</note>
             <note>
-               <rs type="object"> Schädel eines amerikan. Cherokee-Indianers aus Carolina (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 713; Abb. inDecas craniorum 1 (1790), Tafel 9;Bibliographie Nr. 00092)</rs>
+               <rs type="object">Schädel eines amerikan. Cherokee-Indianers aus Carolina (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 713; Abb. inDecas craniorum 1 (1790), Tafel 9;Bibliographie Nr. 00092)</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, fol. ?, vgl. Meyer, Handschriften in Göttingen 3 (1894), S. 78.</title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, fol. ?, vgl. Meyer, Handschriften in Göttingen 3 (1894), S. 78.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Michaelis, Christian Friedrich </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-211"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-211"
+                      sortKey="1784-06-19 ?"
+                      when="1784-06-19 ?"
+                      where="#orgplc-211">
+                  <label>1784  , Juni 19? Kassel</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-211">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-211">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>

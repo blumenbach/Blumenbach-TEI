@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbachschlägt der Königlichen Societät der Wissenschaften zu Göttingen [u. a. erneut die Wahl Jean AndréDelucs zum Mitglied der Societät vor]. </title>
+            <title type="main">Blumenbachschlägt der Königlichen Societät der Wissenschaften zu Göttingen [u. a. erneut die Wahl Jean AndréDelucs zum Mitglied der Societät vor]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1815-09-14"> 1815, Sept. 14</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1444.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> AuszuginDougherty, Corresp. III, S. 260 Nr. 0578 Anm. 2.</rs>
+               <rs type="bibl">AuszuginDougherty, Corresp. III, S. 260 Nr. 0578 Anm. 2.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=278"/>
             </note>
             <note>
-               <rs type="edition"> Dougherty, Corresp. III, S. 260 Nr. 0578 Anm. 2 </rs>
+               <rs type="edition">Dougherty, Corresp. III, S. 260 Nr. 0578 Anm. 2 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Akademie der Wissenschaften, Archiv, Pers. 19, Nr. 80.</title>
+                  <title level="m" type="main">Göttingen, Akademie der Wissenschaften, Archiv, Pers. 19, Nr. 80.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1444">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1444"
+                      sortKey="1815-09-14"
+                      when="1815-09-14"
+                      where="#orgplc-1444">
+                  <label>1815, Sept. 14</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1444">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1444">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Königliche Societät der Wissenschaften zu Göttingen </persName>
          </creation>

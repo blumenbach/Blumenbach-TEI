@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach schickt August Ferdinand von Veltheim ein Exemplar der 4. Auflage seines Handbuchs der Naturgeschichte (1791) und lädt ihn nach Göttingen ein. </title>
+            <title type="main">Blumenbach schickt August Ferdinand von Veltheim ein Exemplar der 4. Auflage seines Handbuchs der Naturgeschichte (1791) und lädt ihn nach Göttingen ein. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1791-07-06"> 1791, Juli 6</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/590.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 76 Nr. 0690.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 76 Nr. 0690.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,21 +72,24 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Handbuch der Naturgeschichte (4. Auf., 1791; Bibliographie Nr.00025).</rs>
+               <rs type="lz">Handbuch der Naturgeschichte (4. Auf., 1791; Bibliographie Nr.00025).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00025"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=88"/>
             </note>
             <note>
-               <rs type="edition"> 00025   Corresp. IV, S. 76 Nr. 0690 </rs>
+               <rs type="edition">00025  Corresp. IV, S. 76 Nr. 0690 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Wernigerode, Landeshauptarchiv Sachsen-Anhalt, Abt. Magdeburg, H 95, Gutsarchiv Harbke, Nr. 4200, fol. 56. </title>
+                  <title level="m" type="main">Wernigerode, Landeshauptarchiv Sachsen-Anhalt, Abt. Magdeburg, H 95, Gutsarchiv Harbke, Nr. 4200, fol. 56. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-590">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-590"
+                      sortKey="1791-07-06"
+                      when="1791-07-06"
+                      where="#orgplc-590">
+                  <label>1791, Juli 6</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-590">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-590">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Veltheim, August Ferdinand von</persName>
          </creation>

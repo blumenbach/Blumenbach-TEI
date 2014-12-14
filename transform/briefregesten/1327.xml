@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Francisco de Mello Francoteilt Blumenbach mit, dass er ihm fÜr seine Sammlung drei menschliche Schädel aus Brasilien gesandt habe, und dankt fÜr einen Bericht Über seinen in Göttingen studierenden Sohn. </title>
+            <title type="main">Francisco de Mello Francoteilt Blumenbach mit, dass er ihm für seine Sammlung drei menschliche Schädel aus Brasilien gesandt habe, und dankt für einen Bericht über seinen in Göttingen studierenden Sohn. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Mello Franco, Francisco de</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Lissabon</pubPlace>
-            <date type="publication" when=" 1806-04-08"> 1806, April 8</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1327.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,38 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Zu dem mumifizierten Schädel aus Brasilien Am3453 vgl. Schlothauer (2012). </note>
             <note>
-               <rs type="object"> Drei menschliche Schädel aus Brasilien: (1) weiblicher Schädel aus Brasilien, Schädelsammlung Nr. 773,Abb. inDecas craniorum 5 (1808), Tafel 48; Bibliographie Nr. 00096); (2) männlicher Schädel aus Brasilien, Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 774; (3) mumifizierter Schädel mit Kopfschmuck, Göttingen, Inst. fÜr Ethnologie, Inv.-Nr. Am3453 (Abb. ohne den Kopfschmuck inDecas craniorum 5 (1808), Tafel 47; Bibliographie Nr. 00096 und (Nachstich) in Tantini, Opuscoli scientifici, Bd. 1 (1812), Bibliographie Nr. 00115).</rs>
+               <rs type="object">Drei menschliche Schädel aus Brasilien: (1) weiblicher Schädel aus Brasilien, Schädelsammlung Nr. 773,Abb. inDecas craniorum 5 (1808), Tafel 48; Bibliographie Nr. 00096); (2) männlicher Schädel aus Brasilien, Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 774; (3) mumifizierter Schädel mit Kopfschmuck, Göttingen, Inst. für Ethnologie, Inv.-Nr. Am3453 (Abb. ohne den Kopfschmuck inDecas craniorum 5 (1808), Tafel 47; Bibliographie Nr. 00096 und (Nachstich) in Tantini, Opuscoli scientifici, Bd. 1 (1812), Bibliographie Nr. 00115).</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Dougherty, Commercium epistolicum (1984), S. 80 KatNr. 90.</rs>
+               <rs type="bibl">Dougherty, Commercium epistolicum (1984), S. 80 KatNr. 90.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://www.about-africa.de/kunst-und-kontext/ausgabe-03-2012/347-34-besondere-stueck-kunst-kontext-3-2012"/>
             </note>
             <note>
-               <rs type="edition"> Schlothauer (2012) </rs>
+               <rs type="edition">Schlothauer (2012) </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms.Blumenbach V, 8, fol. 1. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms.Blumenbach V, 8, fol. 1. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Mello Franco, Francisco de</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1327">Lissabon</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1327"
+                      sortKey="1806-04-08"
+                      when="1806-04-08"
+                      where="#orgplc-1327">
+                  <label>1806, April 8</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1327">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1327">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

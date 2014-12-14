@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Karl August Friedrich von Waldeck dankt Blumenbach fÜr seinen Besuch in Arolsen und kÜndigt die Übersendung eines Buches an. </title>
+            <title type="main">Karl August Friedrich von Waldeck dankt Blumenbach für seinen Besuch in Arolsen und kündigt die übersendung eines Buches an. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Waldeck, Karl August Friedrich von </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Arolsen</pubPlace>
-            <date type="publication" when=" 1777-11-23"> 1777, Nov. 23</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/48.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 133 Nr. 0071.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 133 Nr. 0071.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 1 (Friedrich von Waldeck Nr. 1). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 1 (Friedrich von Waldeck Nr. 1). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Waldeck, Karl August Friedrich von </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-48">Arolsen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-48"
+                      sortKey="1777-11-23"
+                      when="1777-11-23"
+                      where="#orgplc-48">
+                  <label>1777, Nov. 23</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-48">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-48">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0047</classCode>
-            <classCode scheme="anchor"> Dez1777</classCode>
+            <classCode scheme="anchor">Dez1777</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Wolfgang von Goethe sendetBlumenbach ein Empfehlungsschreiben fÜr den englischen Porträtmaler George Dawe und schlägt Blumenbach vor, sich von diesem porträtieren zu lassen. </title>
+            <title type="main">Johann Wolfgang von Goethe sendetBlumenbach ein Empfehlungsschreiben für den englischen Porträtmaler George Dawe und schlägt Blumenbach vor, sich von diesem porträtieren zu lassen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Goethe, Johann Wolfgang von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Weimar</pubPlace>
-            <date type="publication" when=" 1819-06-04"> 1819, Juni 4</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1482.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,7 +72,10 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Goethes Werke. Weimarer Ausgabe Abt. IV, Bd. 31, S. 166&#x96;167 (Brief WA-Nr. 31166).</rs>
+               <rs type="lz">Goethes Werke. Weimarer Ausgabe Abt. IV, Bd. 31, S. 166&#x96;167 (Brief WA-Nr. 31166).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Abschrift nach dem Or. im Familienarchiv Blumenbach, Hannover (Weimar, Goethe- und Schiller-Archiv: GSA 29/102, IV, S. 18).</title>
+                  <title level="m" type="main">Abschrift nach dem Or. im Familienarchiv Blumenbach, Hannover (Weimar, Goethe- und Schiller-Archiv: GSA 29/102, IV, S. 18).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Goethe, Johann Wolfgang von</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1482">Weimar</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1482"
+                      sortKey="1819-06-04"
+                      when="1819-06-04"
+                      where="#orgplc-1482">
+                  <label>1819, Juni 4</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1482">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1482">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

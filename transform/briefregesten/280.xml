@@ -3,9 +3,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> George Charlotte von HinÜber beschreibt Blumenbach einen [in London aufbewahrten] Codex mit anatomischen und anderen Zeichnungen Leonardo da Vincis. </title>
+            <title type="main">George Charlotte von Hinüber beschreibt Blumenbach einen [in London aufbewahrten] Codex mit anatomischen und anderen Zeichnungen Leonardo da Vincis. </title>
             <author>
-               <persName ref="http://d-nb.info/gnd/">HinÜber, George Charlotte von</persName>
+               <persName ref="http://d-nb.info/gnd/">Hinüber, George Charlotte von</persName>
             </author>
             <editor>
                <persName ref="http://d-nb.info/gnd/">
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> London</pubPlace>
-            <date type="publication" when=" ca. 1785-06-26"> 1785, ca. Juni 26</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/280.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp.II, S. 301 Nr. 0368.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp.II, S. 301 Nr. 0368.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,25 +69,29 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Medicinische Bibliothek, Bd. 3, 1. StÜck (1788), S. 141&#x96;147 (&#x84;IV. Von den anatomischen Zeichnungen des Lion. Da Vinci in Sr. Maj. des Königs großen Sammlung von Handzeichnungen&#x93;, Bibliographie Nr.00957), hier144&#x96;147.</rs>
+               <rs type="bibl">Auszug in Medicinische Bibliothek, Bd. 3, 1. Stück (1788), S. 141&#x96;147 (&#x84;IV. Von den anatomischen Zeichnungen des Lion. Da Vinci in Sr. Maj. des Königs großen Sammlung von Handzeichnungen&#x93;, Bibliographie Nr.00957), hier144&#x96;147.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00957 (siehe &#x84;Dr.&#x93;). 
+</rs>
+            </note>
+            <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00957"/>
             </note>
             <note>
-               <rs type="edition"> 00957 </rs>
+               <rs type="edition">00957 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren, Überliefert durch Druck in Medicinische Bibliothek Bd. 3, 1. StÜck. </title>
+                  <title level="m" type="main">Or. verloren, überliefert durch Druck in Medicinische Bibliothek Bd. 3, 1. Stück. </title>
                   <author>
-                     <persName ref="http://d-nb.info/gnd/">HinÜber, George Charlotte von</persName>
+                     <persName ref="http://d-nb.info/gnd/">Hinüber, George Charlotte von</persName>
                   </author>
                </titleStmt>
                <publicationStmt>
@@ -98,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-280">London</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-280"
+                      sortKey="1785-06-26"
+                      when="1785-06-26"
+                      where="#orgplc-280">
+                  <label>1785, ca. Juni 26</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +130,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-280">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-280">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0276</classCode>
-            <classCode scheme="anchor"> Juli1785</classCode>
+            <classCode scheme="anchor">Juli1785</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

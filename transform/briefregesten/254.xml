@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach berichtet Franz Caspar Buchholz Über eine Verwarnung, die [der von Buchholz empfohlene und von Blumenbach betreute Student] Johannes Theodor Joseph Köbbing wegen Trunkenheit erhalten habe, und teilt mit, dass die fÜr Köbbing vorgesehenen 150 Reichstaler jährlich nicht ausreichend sind, da die Lebenshaltungskosten fÜr Studenten in Göttingen bei etwa 300 Reichstalern pro Jahr liegen. </title>
+            <title type="main">Blumenbach berichtet Franz Caspar Buchholz über eine Verwarnung, die [der von Buchholz empfohlene und von Blumenbach betreute Student] Johannes Theodor Joseph Köbbing wegen Trunkenheit erhalten habe, und teilt mit, dass die für Köbbing vorgesehenen 150 Reichstaler jährlich nicht ausreichend sind, da die Lebenshaltungskosten für Studenten in Göttingen bei etwa 300 Reichstalern pro Jahr liegen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1785-03-27"> 1785, März 27</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/254.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 259 Nr. 0341.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 259 Nr. 0341.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> MÜnster, Universitätsbibliothek, N. Gallitzin Kaps. 1,18. </title>
+                  <title level="m" type="main">Münster, Universitätsbibliothek, N. Gallitzin Kaps. 1,18. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-254">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-254"
+                      sortKey="1785-03-27"
+                      when="1785-03-27"
+                      where="#orgplc-254">
+                  <label>1785, März 27</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-254">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-254">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Buchholz, Franz Caspar </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0250</classCode>
-            <classCode scheme="anchor"> Apr1785</classCode>
+            <classCode scheme="anchor">Apr1785</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

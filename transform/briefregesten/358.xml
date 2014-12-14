@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Charles Bonnet ein Exemplar seines Bonnet gewidmeten Werkes Specimen physiologiae comparatae inter animantia calidi et frigidi sanguinis (1787) und berichtet Über Forschungsergebnisse zur Anatomie der Niere. </title>
+            <title type="main">Blumenbach sendet Charles Bonnet ein Exemplar seines Bonnet gewidmeten Werkes Specimen physiologiae comparatae inter animantia calidi et frigidi sanguinis (1787) und berichtet über Forschungsergebnisse zur Anatomie der Niere. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1787-03-20"> 1787, März 20</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/358.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 79 Nr. 0449.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 79 Nr. 0449.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,21 +72,24 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Geschichte und Beschreibung der Knochen des menschlichen Körpers (1786; Bibliographie Nr.00062); Introductio in historiam medicinae litterariam (1786; Bibliographie Nr. 00142); Specimen physiologiae comparatae inter animantia calidi et frigidi sanguinis (1787; Bibliographie Nr. 00121). </rs>
+               <rs type="lz">Geschichte und Beschreibung der Knochen des menschlichen Körpers (1786; Bibliographie Nr.00062); Introductio in historiam medicinae litterariam (1786; Bibliographie Nr. 00142); Specimen physiologiae comparatae inter animantia calidi et frigidi sanguinis (1787; Bibliographie Nr. 00121). </rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00062"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=97"/>
             </note>
             <note>
-               <rs type="edition"> 00062   Corresp. III, S. 79 Nr. 0449 </rs>
+               <rs type="edition">00062  Corresp. III, S. 79 Nr. 0449 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Genf, Bibliothèque de Genève, Ms. Bonnet 39 fol. 270&#x96;271. </title>
+                  <title level="m" type="main">Genf, Bibliothèque de Genève, Ms. Bonnet 39 fol. 270&#x96;271. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-358">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-358"
+                      sortKey="1787-03-20"
+                      when="1787-03-20"
+                      where="#orgplc-358">
+                  <label>1787, März 20</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-358">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-358">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Bonnet, Charles</persName>
          </creation>

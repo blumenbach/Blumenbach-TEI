@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Joseph Banks wissenschaftliche Neuerscheinungen aus Deutschland bittet um eine Abbildung von Banks arktischen Hunden fÜr neue Hefte seiner Abbildungen naturhistorischer Gegenstände. </title>
+            <title type="main">Blumenbach sendet Joseph Banks wissenschaftliche Neuerscheinungen aus Deutschland bittet um eine Abbildung von Banks arktischen Hunden für neue Hefte seiner Abbildungen naturhistorischer Gegenstände. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1819-02-10"> 1819, Febr. 10</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1481.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 6 (2007), S. 333&#x96;334 Nr. 2169; Vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S. 116 Nr. 70.</rs>
+               <rs type="bibl">Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 6 (2007), S. 333&#x96;334 Nr. 2169; Vgl. ausführl. Regest in Dawson, The Banks Letters (1958), S. 116 Nr. 70.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, British Library, Add MS 8100, fol. 199. </title>
+                  <title level="m" type="main">London, British Library, Add MS 8100, fol. 199. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1481">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1481"
+                      sortKey="1819-02-10"
+                      when="1819-02-10"
+                      where="#orgplc-1481">
+                  <label>1819, Febr. 10</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1481">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1481">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Banks, Joseph</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Carl von Beaulieu-Marconnay sendetBlumenbachu. a. Angaben aus dem 17.Jahrhundert zur Anzahl von Wölfen und zur Größe von Wildschweinen und Hirschen in SÜdniedersachen. </title>
+            <title type="main">Carl von Beaulieu-Marconnay sendetBlumenbachu. a. Angaben aus dem 17.Jahrhundert zur Anzahl von Wölfen und zur Größe von Wildschweinen und Hirschen in Südniedersachen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Beaulieu-Marconnay, Carl von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>  Hannover</pubPlace>
-            <date type="publication" when=" 1800-07-06"> 1800 (?), Juli 6</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1181.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 483&#x96;484 Nr. 1319.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 483&#x96;484 Nr. 1319.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,17 +69,21 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszugin Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 2, 2. StÜck (1800), S. 298&#x96;299 (&#x84;8) Ungeheure Menge von Wölfen, und ansehnliche Größe des Wildprets hiesigen Landes im vorigen Jahrhundert&#x93;, Bibliographie Nr. 00874).</rs>
+               <rs type="bibl">Auszugin Magazin für den neuesten Zustand der Naturkunde, Bd. 2, 2. Stück (1800), S. 298&#x96;299 (&#x84;8) Ungeheure Menge von Wölfen, und ansehnliche Größe des Wildprets hiesigen Landes im vorigen Jahrhundert&#x93;, Bibliographie Nr. 00874).</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00874 (siehe&#x84;Dr.&#x93;).
+</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00874"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=496"/>
             </note>
             <note>
-               <rs type="edition"> 00874   Corresp. V, S. 483&#x96;484 Nr. 1319 </rs>
+               <rs type="edition">00874  Corresp. V, S. 483&#x96;484 Nr. 1319 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -99,6 +103,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1181">(?), Juli 6</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1181"
+                      sortKey="1800-07-06"
+                      when="1800-07-06"
+                      where="#orgplc-1181">
+                  <label>1800   Hannover</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +131,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1181">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1181">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

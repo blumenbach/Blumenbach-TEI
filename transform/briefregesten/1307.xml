@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Joseph Banks berichtet Blumenbach [in mehreren Briefen u. a. Über Fossilienfunde auf der Isle of Dogs und sendet Proben eines indisches Gerbstoffs]. </title>
+            <title type="main">Joseph Banks berichtet Blumenbach [in mehreren Briefen u. a. über Fossilienfunde auf der Isle of Dogs und sendet Proben eines indisches Gerbstoffs]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> London</pubPlace>
-            <date type="publication" when=" 1805-03-01"> nach 1803, Febr. 2 / vor 1805, März</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1307.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,28 +57,32 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Die Datierungsgrenzen ergeben sich aus Blumenbachs Brief an Banks vom 2. Febr. 1803 mit seine Frage nach den Fossilienfunden auf der Isle of Dogs und dem Erscheinungsdatumdes Magazin fÜr den neuesten Zustand der Naturkunde (&#x84;1805. März&#x93;).</note>
+            <note>Die Datierungsgrenzen ergeben sich aus Blumenbachs Brief an Banks vom 2. Febr. 1803 mit seine Frage nach den Fossilienfunden auf der Isle of Dogs und dem Erscheinungsdatumdes Magazin für den neuesten Zustand der Naturkunde (&#x84;1805. März&#x93;).  </note>
             <note>
-               <rs type="object"> Proben eines indischen Gerbstoffs.</rs>
+               <rs type="object">Proben eines indischen Gerbstoffs.</rs>
             </note>
             <note>
-               <rs type="span"> AuszÜge in dt. Übersetzung in Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 9, 3. StÜck (1805), 213&#x96;215 (&#x84;Ueber den Gerbestoff aus Hindustan und den vorgeblichen unterirdischen Wald, der (den Zeitungsnachrichten zu Folge) mit Menschen- und Pferde-Gerippen auf der Isle of Dogs aufgegraben seyn sollte&#x93;, Bibliographie Nr.00910).   </rs>
+               <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> </rs>
+               <rs type="bibl">  Auszüge in dt. übersetzung in Magazin für den neuesten Zustand der Naturkunde, Bd. 9, 3. Stück (1805), 213&#x96;215 (&#x84;Ueber den Gerbestoff aus Hindustan und den vorgeblichen unterirdischen Wald, der (den Zeitungsnachrichten zu Folge) mit Menschen- und Pferde-Gerippen auf der Isle of Dogs aufgegraben seyn sollte&#x93;, Bibliographie Nr.00910).</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00910(siehe&#x84;Dr.&#x93;).
+</rs>
+            </note>
+            <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00910"/>
             </note>
             <note>
-               <rs type="edition"> 00910 </rs>
+               <rs type="edition">00910 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -98,9 +102,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1307">/ vor 1805, März London</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1805-03-01">
-                  <label> nach 1803, Febr. 2 / vor 1805, März</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1307"
+                      sortKey="1805-03-01"
+                      notAfter="1805-03-01"
+                      where="#orgplc-1307">
+                  <label>nach 1803, Febr. 2</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1307">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1307">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

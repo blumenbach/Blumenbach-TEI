@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach bittet Ernst Theodor Langer um die Ausleihe von Giovanni Gherardinis Relation du voyage fait à la Chine (1700) aus der Bibliothek in WolfenbÜttel. </title>
+            <title type="main">Blumenbach bittet Ernst Theodor Langer um die Ausleihe von Giovanni Gherardinis Relation du voyage fait à la Chine (1700) aus der Bibliothek in Wolfenbüttel. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1798-11-29"> 1798, Nov. 29</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1060.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 332 Nr. 1197.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 332 Nr. 1197.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=347"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 332 Nr. 1197 </rs>
+               <rs type="edition">Corresp. V, S. 332 Nr. 1197 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> WolfenbÜttel, Herzog August Bibliothek, BA II, 103, fol. 98r. </title>
+                  <title level="m" type="main">Wolfenbüttel, Herzog August Bibliothek, BA II, 103, fol. 98r. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1060">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1060"
+                      sortKey="1798-11-29"
+                      when="1798-11-29"
+                      where="#orgplc-1060">
+                  <label>1798, Nov. 29</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1060">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1060">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Langer, Ernst Theodor</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">1044</classCode>
-            <classCode scheme="anchor"> Dez1798</classCode>
+            <classCode scheme="anchor">Dez1798</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

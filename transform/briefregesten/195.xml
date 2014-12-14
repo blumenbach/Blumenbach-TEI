@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach dankt Johann Heinrich Merck fÜr AuskÜnfte Über das Gebiss des Rhinozeroses, kommentiert diese und verspricht, Merck Exzerpte von BÜchern der Göttinger Bibliothek zu beschaffen. </title>
+            <title type="main">Blumenbach dankt Johann Heinrich Merck für Auskünfte über das Gebiss des Rhinozeroses, kommentiert diese und verspricht, Merck Exzerpte von Büchern der Göttinger Bibliothek zu beschaffen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1784-01-02"> 1784, Jan. 2</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/195.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 125 Nr. 0266 nach Wagner, Briefe an Johann Heinrich Merck, ergänzt um ein dort ausgelassenes Albrecht von Haller-Zitat.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 125 Nr. 0266 nach Wagner, Briefe an Johann Heinrich Merck, ergänzt um ein dort ausgelassenes Albrecht von Haller-Zitat.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Wagner, Briefe an Johann Heinrich Merck [&#x85;]. (1835), Nr. 197 S. 413&#x96;414;Leuschner/Luserke-Jaqui, Merck-Briefwechsel, Bd. 3 (2007), S. 424&#x96;425 Nr. 651.</rs>
+               <rs type="bibl">Wagner, Briefe an Johann Heinrich Merck [&#x85;]. (1835), Nr. 197 S. 413&#x96;414;Leuschner/Luserke-Jaqui, Merck-Briefwechsel, Bd. 3 (2007), S. 424&#x96;425 Nr. 651.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren; Überlieferung durch Druck in Wagner, Briefe an Johann Heinrich Merck [&#x85;] (1835). </title>
+                  <title level="m" type="main">Or. verloren; überlieferung durch Druck in Wagner, Briefe an Johann Heinrich Merck [&#x85;] (1835). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-195">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-195"
+                      sortKey="1784-01-02"
+                      when="1784-01-02"
+                      where="#orgplc-195">
+                  <label>1784, Jan. 2</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-195">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-195">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Merck, Johann Heinrich </persName>
          </creation>

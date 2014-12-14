@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendetFranz Xaver von Zach aus einem Brief von Joseph Banks Informationen Über die Afrikareise von William George Browne,die Drucklegung einesHerodot-Kommentars von James Rennell, John McCluers Beschreibung seiner Reisen in den &#x84;Ost Indischen Archipelagus&#x93; und Über den laut William Marsden malayischen Ursprung einiger der Erzählungen aus Tausendundeiner Nacht. </title>
+            <title type="main">Blumenbach sendetFranz Xaver von Zach aus einem Brief von Joseph Banks Informationen über die Afrikareise von William George Browne,die Drucklegung einesHerodot-Kommentars von James Rennell, John McCluers Beschreibung seiner Reisen in den &#x84;Ost Indischen Archipelagus&#x93; und über den laut William Marsden malayischen Ursprung einiger der Erzählungen aus Tausendundeiner Nacht. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1798-11-19"> 1798, Nov. 19</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1054.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Allgemeine Geographische Ephemeriden, Bd. 3 (Januar 1799), S. 101&#x96;104 (&#x84;3.&#x84;Aus einem Schreiben des Hofraths Blumenbach&#x93;&#x93;, Bibliographie Nr. 00973). </rs>
+               <rs type="bibl">Auszug in Allgemeine Geographische Ephemeriden, Bd. 3 (Januar 1799), S. 101&#x96;104 (&#x84;3.&#x84;Aus einem Schreiben des Hofraths Blumenbach&#x93;&#x93;, Bibliographie Nr. 00973). </rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1054">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1054"
+                      sortKey="1798-11-19"
+                      when="1798-11-19"
+                      where="#orgplc-1054">
+                  <label>1798, Nov. 19</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1054">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1054">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Zach, Franz Xaver von </persName>
          </creation>

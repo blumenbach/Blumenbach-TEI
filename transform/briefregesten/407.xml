@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Christoph Lichtenberg korrigiert Blumenbachs Vorstellungen zu den optischen Voraussetzungen des Sehens in Medien von unterschiedlicher Dichte. </title>
+            <title type="main">Georg Christoph Lichtenberg korrigiert Blumenbachs Vorstellungen zu den optischen Voraussetzungen des Sehens in Medien von unterschiedlicher Dichte. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1788-04-12"> 1788, nach Apr. 12</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/407.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 156 Nr. 0501.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 156 Nr. 0501.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Lichtenberg, Briefwechsel, Bd. 3 (1990), Nr. 1591, S. 503&#x96;504; Joost, Ihre Hand, Ihren Mund (1998), Nr. 79. S. 218&#x96;220.</rs>
+               <rs type="bibl">Lichtenberg, Briefwechsel, Bd. 3 (1990), Nr. 1591, S. 503&#x96;504; Joost, Ihre Hand, Ihren Mund (1998), Nr. 79. S. 218&#x96;220.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=174"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 156 Nr. 0501 </rs>
+               <rs type="edition">Corresp. III, S. 156 Nr. 0501 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach XVII, ggÜ. S. 141 (Brieffragment). </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach XVII, ggü. S. 141 (Brieffragment). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph</persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-407">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1788-04-12">
-                  <label> 1788, nach Apr. 12</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-407"
+                      sortKey="1788-04-12"
+                      notBefore="1788-04-12"
+                      where="#orgplc-407">
+                  <label>1788, nach Apr. 12</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-407">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-407">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

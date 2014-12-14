@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Ludwig Heimbeschreibt und sendet Blumenbach Fremdkörper aus der Braunkohlelagerstätte Kaltennordheim bei Meiningen, die er entgegen der bisherigen Ansicht nicht fÜr Pflanzenreste, sondern fÜr Insektenlarven hält, und bittet Blumenbach um deren Bestimmung. </title>
+            <title type="main">Johann Ludwig Heimbeschreibt und sendet Blumenbach Fremdkörper aus der Braunkohlelagerstätte Kaltennordheim bei Meiningen, die er entgegen der bisherigen Ansicht nicht für Pflanzenreste, sondern für Insektenlarven hält, und bittet Blumenbach um deren Bestimmung. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Heim, Johann Ludwig</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Meiningen</pubPlace>
-            <date type="publication" when=" 1801-09-03"> vor 1801, Sept. 3</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1235.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,22 +57,25 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Undatiert abgedruckt; zur Datierung: Blumenbach entschuldigt sich am 3. Sept. 1801 fÜr seine &#x84;sehr verspätete&#x93; Antwort auf diese Anfrage.</note>
+            <note>Undatiert abgedruckt; zur Datierung: Blumenbach entschuldigt sich am 3. Sept. 1801 für seine &#x84;sehr verspätete&#x93; Antwort auf diese Anfrage.   </note>
             <note>
-               <rs type="object"> Suite von Braunkohleproben aus der Lagerstätte Kaltennordheim bei Meiningen. </rs>
+               <rs type="object">Suite von Braunkohleproben aus der Lagerstätte Kaltennordheim bei Meiningen. </rs>
             </note>
             <note>
-               <rs type="span">   </rs>
+               <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Voigt, Joh. Carl Wilhelm: Versuch einer Geschichte der Steinkohlen, der Braunkohlen und des Torfes. Weimar 1802-1805, Bd. 2, S. 162-168.</rs>
+               <rs type="bibl">Auszug in Voigt, Joh. Carl Wilhelm: Versuch einer Geschichte der Steinkohlen, der Braunkohlen und des Torfes. Weimar 1802-1805, Bd. 2, S. 162-168.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -96,9 +99,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1235">Meiningen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1801-09-03">
-                  <label> vor 1801, Sept. 3</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1235"
+                      sortKey="1801-09-03"
+                      notAfter="1801-09-03"
+                      where="#orgplc-1235">
+                  <label>vor 1801, Sept. 3</label>
                </event>
             </listEvent>
             <msDesc>
@@ -115,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1235">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1235">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

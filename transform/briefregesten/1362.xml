@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Friedrich Justin Bertuch einen Auszug aus einem Brief Georg Heinrich von Langsdorffs mit einer Beschreibung von dessen Reise von Kamtschatka nach San Franzisco zum Abdruck in den Allgemeinen Geographischen Ephemeriden und bittet zur Vermeidung von Konflikten mit in dem Bericht genannten Personen oder Personengruppen umredaktionelle KÜrzungen. </title>
+            <title type="main">Blumenbach sendet Friedrich Justin Bertuch einen Auszug aus einem Brief Georg Heinrich von Langsdorffs mit einer Beschreibung von dessen Reise von Kamtschatka nach San Franzisco zum Abdruck in den Allgemeinen Geographischen Ephemeriden und bittet zur Vermeidung von Konflikten mit in dem Bericht genannten Personen oder Personengruppen umredaktionelle Kürzungen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> [Göttingen ?]</pubPlace>
-            <date type="publication" when=" 1808-02-25"> 1808, Febr. 25</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1362.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,27 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug inAllgemeine Geographische Ephemeriden, Bd. 25, 4. StÜck (April 1808), S. 477&#x96;482 (&#x84;Auszug eines Briefs des Hrn. Dr. Langsdorffs, an Hrn. Hofrath Blumenbach zu Göttingen&#x93;, Bibliographie Nr. 00768);Auszug in Dougherty, F. W. .P. und Klatt, N.: Bibliographie der Werke und Schriften von Johann Friedrich Blumenbach. Göttingen 2009, S. 146 Anm. 180; erwähnt mit Auszug in Middell, Katharina: Die Bertuchs mÜssen doch in dieser Welt Überall GlÜck haben: Der Verleger Friedrich Justin Bertuch und sein Landes-Industrie-Comptoir um 1800. Leipzig 2002, S. 279 Anm. 156.</rs>
+               <rs type="bibl">Auszug inAllgemeine Geographische Ephemeriden, Bd. 25, 4. Stück (April 1808), S. 477&#x96;482 (&#x84;Auszug eines Briefs des Hrn. Dr. Langsdorffs, an Hrn. Hofrath Blumenbach zu Göttingen&#x93;, Bibliographie Nr. 00768);Auszug in Dougherty, F. W. .P. und Klatt, N.: Bibliographie der Werke und Schriften von Johann Friedrich Blumenbach. Göttingen 2009, S. 146 Anm. 180; erwähnt mit Auszug in Middell, Katharina: Die Bertuchs müssen doch in dieser Welt überall Glück haben: Der Verleger Friedrich Justin Bertuch und sein Landes-Industrie-Comptoir um 1800. Leipzig 2002, S. 279 Anm. 156.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00768 (siehe&#x84;Dr.&#x93;).
+</rs>
+            </note>
+            <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00768"/>
             </note>
             <note>
-               <rs type="edition"> 00768 </rs>
+               <rs type="edition">00768 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv,GSA, Nachlass Bertuch 06/189 (= Briefe Blumenbachs an Bertuch), Nr. 18. </title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv,GSA, Nachlass Bertuch 06/189 (= Briefe Blumenbachs an Bertuch), Nr. 18. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1362"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1362"
+                      sortKey="1808-02-25"
+                      when="1808-02-25"
+                      where="#orgplc-1362">
+                  <label>1808, Febr. 25  [Göttingen ?]</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1362">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1362">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Bertuch, Friedrich Justin </persName>
          </creation>

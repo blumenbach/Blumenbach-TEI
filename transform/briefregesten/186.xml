@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teilt Charles Bonnet eigene Beobachtungen mit, die die AngabenFelice Fontanas zur Spiralstruktur von Nervenfasern bestätigen, erinnert an die versprochenen Übersendung von Angaben zu Bonnets gläsernem Bienenstock und berichtet von seiner Begegnung mit den beiden von Albinismus betroffenen BrÜdern Grasset in Chamonix. </title>
+            <title type="main">Blumenbach teilt Charles Bonnet eigene Beobachtungen mit, die die AngabenFelice Fontanas zur Spiralstruktur von Nervenfasern bestätigen, erinnert an die versprochenen übersendung von Angaben zu Bonnets gläsernem Bienenstock und berichtet von seiner Begegnung mit den beiden von Albinismus betroffenen Brüdern Grasset in Chamonix. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1783-11-09"> 1783, Nov. 9</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/186.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 88 Nr. 0253.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 88 Nr. 0253.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Dougherty, Frank W. P., &#x84;Nervenmorphologie und -physiologie in den 80er Jahren des 18. Jahrhunderts [&#x85;]&#x93;, in Mann, Gunter, und Dumont, Franz (Hg.), Gehirn&#x96; Nerven&#x96; Seele. Anatomie und Physiologie im Umfeld Th. Soemmerrings. Stuttgart und New York 1988, S. 55&#x96;91, S.59 Teildruck mit Abb. von Blumenbachsdem Brief beiliegender Tuschzeichnung eines Pferdenervs (Nachdruck: Dougherty, Gesammelte Aufsätze (1996),S. 102&#x96;3).</rs>
+               <rs type="bibl">Dougherty, Frank W. P., &#x84;Nervenmorphologie und -physiologie in den 80er Jahren des 18. Jahrhunderts [&#x85;]&#x93;, in Mann, Gunter, und Dumont, Franz (Hg.), Gehirn&#x96; Nerven&#x96; Seele. Anatomie und Physiologie im Umfeld Th. Soemmerrings. Stuttgart und New York 1988, S. 55&#x96;91, S.59 Teildruck mit Abb. von Blumenbachsdem Brief beiliegender Tuschzeichnung eines Pferdenervs (Nachdruck: Dougherty, Gesammelte Aufsätze (1996),S. 102&#x96;3).</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Genf, Bibliothèque de Genève, Ms. Bonnet 37 fol. 274&#x96;275. </title>
+                  <title level="m" type="main">Genf, Bibliothèque de Genève, Ms. Bonnet 37 fol. 274&#x96;275. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-186">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-186"
+                      sortKey="1783-11-09"
+                      when="1783-11-09"
+                      where="#orgplc-186">
+                  <label>1783, Nov. 9</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-186">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-186">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Bonnet, Charles </persName>
          </creation>

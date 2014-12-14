@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Wolfgang von Goethe bittet Blumenbach um die teilweise Neuanfertigung des Gipsabgusses einer antiken Statue [der &#x84;Clytia auf der Sonnenblume&#x93;], da ein zuvor gesandtes Exemplar auf dem Transport stark beschädigt worden war. </title>
+            <title type="main">Johann Wolfgang von Goethe bittet Blumenbach um die teilweise Neuanfertigung des Gipsabgusses einer antiken Statue [der &#x84;Clytia auf der Sonnenblume&#x93;], da ein zuvor gesandtes Exemplar auf dem Transport stark beschädigt worden war. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Goethe, Johann Wolfgang von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Weimar</pubPlace>
-            <date type="publication" when=" 1793-12-18"> 1793, Dez. 18</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/702.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 293 Nr. 0824.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 293 Nr. 0824.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Abguss der Statue &#x84;Clytia auf der Sonnenblume&#x93;, von der auch Blumenbach möglicherweise eine Privatkopie besaß, vgl. Erwähnung in Decas craniorum 3 (1795), S. 5 (Bibliographie Nr. 00094).</rs>
+               <rs type="object">Abguss der Statue &#x84;Clytia auf der Sonnenblume&#x93;, von der auch Blumenbach möglicherweise eine Privatkopie besaß, vgl. Erwähnung in Decas craniorum 3 (1795), S. 5 (Bibliographie Nr. 00094).</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -72,20 +72,23 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Goethes Werke. Weimarer AusgabeIV. Abt., Bd. 18 (1895),S. 55&#x96;56 Nr. 03030a (nach einer Abschrift im Goethe- und Schiller-Archiv Weimar).</rs>
+               <rs type="lz">Goethes Werke. Weimarer AusgabeIV. Abt., Bd. 18 (1895),S. 55&#x96;56 Nr. 03030a (nach einer Abschrift im Goethe- und Schiller-Archiv Weimar).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=305"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 293 Nr. 0824 </rs>
+               <rs type="edition">Corresp. IV, S. 293 Nr. 0824 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 2 (Goethe Nr. 2). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 2 (Goethe Nr. 2). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Goethe, Johann Wolfgang von</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-702">Weimar</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-702"
+                      sortKey="1793-12-18"
+                      when="1793-12-18"
+                      where="#orgplc-702">
+                  <label>1793, Dez. 18</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-702">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-702">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

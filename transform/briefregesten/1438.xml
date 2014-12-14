@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teilt August von Goethe [u. a. seine anatomischen Beobachtungenan dem ihm von diesem gesandten Schädel aus einem GrabhÜgel bei Romstedt in ThÜringen mit, erklärt, dass fÜr die Bestimmung der ethnischen Zugehörigkeit von antiken mitteleuropäischen SchädelnFundumstände und Begleitfunde herangezogen werden mÜssen und verweist fÜr den Romstedter Schädel auf Vergleichsfundeaus einen &#x84;cimbrischen&#x93; GrabhÜgel auf der Insel Seeland]. </title>
+            <title type="main">Blumenbach teilt August von Goethe [u. a. seine anatomischen Beobachtungenan dem ihm von diesem gesandten Schädel aus einem Grabhügel bei Romstedt in Thüringen mit, erklärt, dass für die Bestimmung der ethnischen Zugehörigkeit von antiken mitteleuropäischen SchädelnFundumstände und Begleitfunde herangezogen werden müssen und verweist für den Romstedter Schädel auf Vergleichsfundeaus einen &#x84;cimbrischen&#x93; Grabhügel auf der Insel Seeland]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1815-05-08"> 1815, Mai 8</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1438.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,22 +57,25 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note/>
+            <note>  </note>
             <note>
-               <rs type="object"> Schädel eines &#x84;alten Germanen&#x93; (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 5; Abb. in Nova pentas craniorum (1828), Tafel 61, Bibliographie Nr. 00098), Fotos inKárolyi, Zeitschrift fÜr Morphologie und Anthropologie 1966, Tafel 16, unten; zur Identifikation des Schädels vgl.Spengel, Anthropologische Sammlung, S. 12 ad 240; antiker (&#x84;cimbrischer&#x93;) menschlicher Schädel von der Insel Seeland (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 359, vgl. Spengel, Anthropologische Sammlung, S. 12, ad 288); Glaskorallen aus einem 1802 bei GÜstrow entdeckten obodritischen Grab.</rs>
+               <rs type="object">Schädel eines &#x84;alten Germanen&#x93; (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 5; Abb. in Nova pentas craniorum (1828), Tafel 61, Bibliographie Nr. 00098), Fotos inKárolyi, Zeitschrift für Morphologie und Anthropologie 1966, Tafel 16, unten; zur Identifikation des Schädels vgl.Spengel, Anthropologische Sammlung, S. 12 ad 240; antiker (&#x84;cimbrischer&#x93;) menschlicher Schädel von der Insel Seeland (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 359, vgl. Spengel, Anthropologische Sammlung, S. 12, ad 288); Glaskorallen aus einem 1802 bei Güstrow entdeckten obodritischen Grab.</rs>
             </note>
             <note>
-               <rs type="span">  </rs>
+               <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Umfangreicher Auszug in Mommsen, Momme und Mommsen, Katharina: Die Entstehungvon Goethes Werken in Dokumenten.Band 1: Abaldemus-Byron [&#x85;]. Berlin 2006, S.178-179; Auszug (aus Mommsen und Mommsen, 2006) inDougherty, Corresp. IV,S. 217 Nr. 0785 Anm. 10.</rs>
+               <rs type="bibl">Umfangreicher Auszug in Mommsen, Momme und Mommsen, Katharina: Die Entstehungvon Goethes Werken in Dokumenten.Band 1: Abaldemus-Byron [&#x85;]. Berlin 2006, S.178-179; Auszug (aus Mommsen und Mommsen, 2006) inDougherty, Corresp. IV,S. 217 Nr. 0785 Anm. 10.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv: Fasz. August v. Goethe, III 5,7. </title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv: Fasz. August v. Goethe, III 5,7. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1438">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1438"
+                      sortKey="1815-05-08"
+                      when="1815-05-08"
+                      where="#orgplc-1438">
+                  <label>1815, Mai 8</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1438">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1438">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Goethe, August von</persName>
          </creation>

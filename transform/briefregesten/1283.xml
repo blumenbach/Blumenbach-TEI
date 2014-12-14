@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Johann Wolfgang von Goethe ein Exemplar seiner Publikation Specimen archaeologiae telluris terrarumque (1803) und berichtet Über eine Materialprobe von demim französischen L&#x92;Aigle niedergegangenenMeteoriten, die er von Jean-Baptiste Biot erhalten habe. </title>
+            <title type="main">Blumenbach sendet Johann Wolfgang von Goethe ein Exemplar seiner Publikation Specimen archaeologiae telluris terrarumque (1803) und berichtet über eine Materialprobe von demim französischen L&#x92;Aigle niedergegangenenMeteoriten, die er von Jean-Baptiste Biot erhalten habe. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1803-12-02"> 1803, Dez. 2</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1283.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,39 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Materialprobe des Meteoriten von L&#x92;Aigle, Dép. Orne, die Blumenbach vonJean-Baptiste Biot erhalten hat; Göttingen, Mineralog. Inst. Inv.-Nr. GZG.HST.0.327 (mit Blumenbach-Etikett und frz. Etikett, vermutlich von der HandBiots).</rs>
+               <rs type="object">Materialprobe des Meteoriten von L&#x92;Aigle, Dép. Orne, die Blumenbach vonJean-Baptiste Biot erhalten hat; Göttingen, Mineralog. Inst. Inv.-Nr. GZG.HST.0.327 (mit Blumenbach-Etikett und frz. Etikett, vermutlich von der HandBiots).</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Teildruck: Goethe. Begegnungen und Gespräche. Hrsg. von Ernst Grumach und Renate Grumach, Bd. 5. Berlin, New York 1985, S. 158; Regest: Briefe an Goethe. Gesamtausgabe in Regestform 1764&#x96;1817. Herausgegeben von der Klassik Stiftung Weimar Goethe- und Schiller-Archiv (online-Version), Regest Nr. 4/1142.</rs>
+               <rs type="bibl">Teildruck: Goethe. Begegnungen und Gespräche. Hrsg. von Ernst Grumach und Renate Grumach, Bd. 5. Berlin, New York 1985, S. 158; Regest: Briefe an Goethe. Gesamtausgabe in Regestform 1764&#x96;1817. Herausgegeben von der Klassik Stiftung Weimar Goethe- und Schiller-Archiv (online-Version), Regest Nr. 4/1142.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">Sonderdruck von &#x84;Specimen archaeologiae telluris terrarumque inprimis Hannoveranarum&#x93; (1803; Bibliographie Nr. 00139). 
+</rs>
+            </note>
+            <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00139"/>
             </note>
             <note>
-               <rs type="edition"> 00139 </rs>
+               <rs type="edition">00139 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv: GSA 28/42, Bl. 605.</title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv: GSA 28/42, Bl. 605.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1283">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1283"
+                      sortKey="1803-12-02"
+                      when="1803-12-02"
+                      where="#orgplc-1283">
+                  <label>1803, Dez. 2</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1283">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1283">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Goethe, Johann Wolfgang von</persName>
          </creation>

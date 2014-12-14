@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> John Hunter an Blumenbach </title>
+            <title type="main">John Hunter an Blumenbach </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Hunter, John</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>London</pubPlace>
-            <date type="publication" when=" 1793-10-16"> vor 1793, Okt. 16</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/698.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, nicht enthalten.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, nicht enthalten.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://kalliope.staatsbibliothek-berlin.de/"/>
             </note>
             <note>
-               <rs type="edition"> http://kalliope. staatsbibliothek-berlin.de/ </rs>
+               <rs type="edition">http://kalliope. staatsbibliothek-berlin.de/ </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Berlin, Staatsbibliothek zu Berlin &#x96; Preußischer Kulturbesitz, Handschriftenabt. Slg. Darmstaedter3e 1760: Hunter, John, vgl.http://kalliope. staatsbibliothek-berlin.de/ [Zugriff: 2012-10-12].</title>
+                  <title level="m" type="main">Berlin, Staatsbibliothek zu Berlin &#x96; Preußischer Kulturbesitz, Handschriftenabt. Slg. Darmstaedter3e 1760: Hunter, John, vgl.http://kalliope. staatsbibliothek-berlin.de/ [Zugriff: 2012-10-12].</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Hunter, John</persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-698">London</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1793-10-16">
-                  <label> vor 1793, Okt. 16</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-698"
+                      sortKey="1793-10-16"
+                      notAfter="1793-10-16"
+                      where="#orgplc-698">
+                  <label>vor 1793, Okt. 16</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-698">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-698">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">00</classCode>
-            <classCode scheme="anchor"> Okt1790</classCode>
+            <classCode scheme="anchor">Okt1790</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

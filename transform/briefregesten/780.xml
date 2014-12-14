@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teilt Eliphalet Pearson mit,dass er die Wahl zum Mitglied der American Academy of Arts and Sciences in Boston annimmt,und bietet die Zusendung von aktuellen deutschsprachigen Publikationen, eines Beitrags zu den Memoirs der Academy oder Mineralien fÜr die Sammlung der Academyan. </title>
+            <title type="main">Blumenbach teilt Eliphalet Pearson mit,dass er die Wahl zum Mitglied der American Academy of Arts and Sciences in Boston annimmt,und bietet die Zusendung von aktuellen deutschsprachigen Publikationen, eines Beitrags zu den Memoirs der Academy oder Mineralien für die Sammlung der Academyan. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1795-06-02"> 1795, Juni 2</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/780.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 400 Nr. 0908 (nur Anmerkungsapparat, da Abdruck des Brieftextes von der Bostoner Akademie nicht genehmigt).</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 400 Nr. 0908 (nur Anmerkungsapparat, da Abdruck des Brieftextes von der Bostoner Akademie nicht genehmigt).</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,18 +75,21 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://www.amacad.org/archive/images/000000367.001.jpghttp://www.amacad.org/archive/images/000000367.002.jpghttp://www.amacad.org/archive/images/000000367.003.jpghttp://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/Transkriptionen/Blumenbach_Pearson_1795Juni02_Transkription.html"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=412"/>
             </note>
             <note>
-               <rs type="edition"> Seite 1Seite 2Seite 3Transkription   Corresp. IV, S. 400 Nr. 0908 </rs>
+               <rs type="edition">Seite 1Seite 2Seite 3Transkription  Corresp. IV, S. 400 Nr. 0908 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Boston, Massachusetts, Boston Athenaeum; American Academy of Arts and Sciences, Letters II (1792&#x96;1803), 38. Digitalisat: Seite 1, Seite 2, Seite 3. Transkription. </title>
+                  <title level="m" type="main">Boston, Massachusetts, Boston Athenaeum; American Academy of Arts and Sciences, Letters II (1792&#x96;1803), 38. Digitalisat: Seite 1, Seite 2, Seite 3. Transkription. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-780">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-780"
+                      sortKey="1795-06-02"
+                      when="1795-06-02"
+                      where="#orgplc-780">
+                  <label>1795, Juni 2</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-780">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-780">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Pearson, Eliphalet</persName>
          </creation>

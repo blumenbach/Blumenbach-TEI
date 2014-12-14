@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Samuel Studer berichtet [Blumenbach], dass Schweizer Bauern zufolge [und entgegen der in der wissenschaftlichen Literatur vertretenen Ansicht] Zwillingskälber nicht unfruchtbar sind. </title>
+            <title type="main">Samuel Studer berichtet [Blumenbach], dass Schweizer Bauern zufolge [und entgegen der in der wissenschaftlichen Literatur vertretenen Ansicht] Zwillingskälber nicht unfruchtbar sind. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Studer, Samuel </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Bern</pubPlace>
-            <date type="publication" when=" 1788-03-25"> 1788, März 25</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/403.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 151 Nr. 0497.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 151 Nr. 0497.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Die Rez. von John Hunters Observations on certain parts of the animal oeconomy (1786) ist anonym, sodass der zitierte Studer-Brief auch an einen anderen Empfänger gerichtet sein könnte. FÜr die (plausible) Annahme, dassBlumenbach der Verf. der Rez. und somit auch derEmpfänger des Briefes ist, gibt es allerdings im Text der Rez. keine direkten Beweise. </note>
+            <note>Die Rez. von John Hunters Observations on certain parts of the animal oeconomy (1786) ist anonym, sodass der zitierte Studer-Brief auch an einen anderen Empfänger gerichtet sein könnte. Für die (plausible) Annahme, dassBlumenbach der Verf. der Rez. und somit auch derEmpfänger des Briefes ist, gibt es allerdings im Text der Rez. keine direkten Beweise. </note>
             <note>
                <rs type="object"/>
             </note>
@@ -69,24 +69,27 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Erwähnung in einer anonymen Rezension inMedicinische Bibliothek Bd. 3,1. StÜck(1788), S. 1-16, hier S.7&#x96;8.</rs>
+               <rs type="bibl">Erwähnung in einer anonymen Rezension inMedicinische Bibliothek Bd. 3,1. Stück(1788), S. 1-16, hier S.7&#x96;8.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00145"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=169"/>
             </note>
             <note>
-               <rs type="edition"> Medicinische Bibliothek   Corresp. III, S. 151 Nr. 0497 </rs>
+               <rs type="edition">Medicinische Bibliothek  Corresp. III, S. 151 Nr. 0497 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren, Erwähnung in Medicinische Bibliothek Bd. 3,1. StÜck. </title>
+                  <title level="m" type="main">Or. verloren, Erwähnung in Medicinische Bibliothek Bd. 3,1. Stück. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Studer, Samuel </persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-403">Bern</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-403"
+                      sortKey="1788-03-25"
+                      when="1788-03-25"
+                      where="#orgplc-403">
+                  <label>1788, März 25</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,12 +130,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-403">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-403">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee"> [Blumenbach, Johann Friedrich] </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0399</classCode>
-            <classCode scheme="anchor"> Apr1788</classCode>
+            <classCode scheme="anchor">Apr1788</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Christoph Lichtenberg kommentiert gegenÜber Blumenbach ein autobiographisches Manuskript des verstorbenen Samuel Christian Hollmann und eine Arbeit des [Kieler Anatomen] Johann Nicolas Pechlin. </title>
+            <title type="main">Georg Christoph Lichtenberg kommentiert gegenüber Blumenbach ein autobiographisches Manuskript des verstorbenen Samuel Christian Hollmann und eine Arbeit des [Kieler Anatomen] Johann Nicolas Pechlin. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1787-10-17"> 1787, Okt. 17</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/386.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 127 Nr. 0477.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 127 Nr. 0477.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Leitzmann, Albert, und SchÜddekopf, Carl (Hg.): Georg Christoph Lichtenberg.Briefe. Band 3. Leipzig 1904, Nr. 791, S. 252&#x96;253; Lichtenberg, Briefwechsel, Bd. 3 (1990), Nr. 1557, S. 455&#x96;459 mit Ab. der Hollmann-Karikaturen; Joost, Ihre Hand, Ihren Mund (1998), Nr. 79, S. 218&#x96;220; Joost, Ulrich, &#x84;Dieser unermÜdete Geist&#x85;&#x93; in Elsner, Norbert, undRupke Nicolaas (Hg.): Albrecht von Haller,. Göttingen 2009, S. 107&#x96;109 (Auszug mit Ab. der Hollmann-Karikaturen).</rs>
+               <rs type="bibl">Leitzmann, Albert, und Schüddekopf, Carl (Hg.): Georg Christoph Lichtenberg.Briefe. Band 3. Leipzig 1904, Nr. 791, S. 252&#x96;253; Lichtenberg, Briefwechsel, Bd. 3 (1990), Nr. 1557, S. 455&#x96;459 mit Ab. der Hollmann-Karikaturen; Joost, Ihre Hand, Ihren Mund (1998), Nr. 79, S. 218&#x96;220; Joost, Ulrich, &#x84;Dieser unermüdete Geist&#x85;&#x93; in Elsner, Norbert, undRupke Nicolaas (Hg.): Albrecht von Haller,. Göttingen 2009, S. 107&#x96;109 (Auszug mit Ab. der Hollmann-Karikaturen).</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=145"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 127 Nr. 0477 </rs>
+               <rs type="edition">Corresp. III, S. 127 Nr. 0477 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren, Überliefert durch Druck inLeitzmann/SchÜddekopf, Lichtenberg. Briefe, Band 3 (1904), Nr. 791. </title>
+                  <title level="m" type="main">Or. verloren, überliefert durch Druck inLeitzmann/Schüddekopf, Lichtenberg. Briefe, Band 3 (1904), Nr. 791. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-386">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-386"
+                      sortKey="1787-10-17"
+                      when="1787-10-17"
+                      where="#orgplc-386">
+                  <label>1787, Okt. 17</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-386">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-386">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

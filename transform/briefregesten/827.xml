@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Alexander von Humboldt beschreibt [in Form eines (fingierten?) Briefes an Blumenbach] seine Versuche zur Widerlegung von Alessandro Voltas Theorie zur Erklärung des Galvanismus und seine eigene Galvanismus-Theorie. </title>
+            <title type="main">Alexander von Humboldt beschreibt [in Form eines (fingierten?) Briefes an Blumenbach] seine Versuche zur Widerlegung von Alessandro Voltas Theorie zur Erklärung des Galvanismus und seine eigene Galvanismus-Theorie. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Humboldt, Alexander von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>[Bayreuth]</pubPlace>
-            <date type="publication" when=" 1795-11-17"> 1795, Nov. 17</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/827.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 476 Nr. 0956.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 476 Nr. 0956.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Evt. FrÜhfassung von Humboldts [fingiertem?] Brief an Blumenbach von Dez. 1795,Dougherty, Corresp. IV, Nr. 0965. </note>
+            <note>Evt. Frühfassung von Humboldts [fingiertem?] Brief an Blumenbach von Dez. 1795,Dougherty, Corresp. IV, Nr. 0965. </note>
             <note>
                <rs type="object"/>
             </note>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Jahn/Lange (Hg.), Jugendbriefe Humboldts (1973), Nr. 339, S. 465&#x96;471: &#x84;Zirkular an Marcus Herz, Sigismund, Friedrich Hermbstaedt und Martin Heinrich Klaproth.&#x93;.</rs>
+               <rs type="bibl">Jahn/Lange (Hg.), Jugendbriefe Humboldts (1973), Nr. 339, S. 465&#x96;471: &#x84;Zirkular an Marcus Herz, Sigismund, Friedrich Hermbstaedt und Martin Heinrich Klaproth.&#x93;.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=488"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 476 Nr. 0956 </rs>
+               <rs type="edition">Corresp. IV, S. 476 Nr. 0956 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv: GSA 26/LIX, 1a. </title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv: GSA 26/LIX, 1a. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Humboldt, Alexander von</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-827">[Bayreuth]</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-827"
+                      sortKey="1795-11-17"
+                      when="1795-11-17"
+                      where="#orgplc-827">
+                  <label>1795, Nov. 17</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-827">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-827">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

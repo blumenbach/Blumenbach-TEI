@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> [Der Braunschweiger Prosector] A. BergerberichtetBlumenbach [Über in Gifhorn im Königreich Hannover gefundeneSkelette und Schädel von Baschkiren und sendet einen Schädel]. </title>
+            <title type="main"> [Der Braunschweiger Prosector] A. BergerberichtetBlumenbach [über in Gifhorn im Königreich Hannover gefundeneSkelette und Schädel von Baschkiren und sendet einen Schädel]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Berger,A. </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Braunschweig</pubPlace>
-            <date type="publication" when=" 1818-02-05"> 1818, Febr. 5</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1473.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Zur Identifikation des Schädels vgl.Spengel, Anthropologische Sammlung, S. 40 Anm. ad 137: &#x84;1818. Von Prosector Berger. Dieser Schädel ist bei Giffhorn in Hannover [&#x85;] gefunden.&#x93;</rs>
+               <rs type="object">Zur Identifikation des Schädels vgl.Spengel, Anthropologische Sammlung, S. 40 Anm. ad 137: &#x84;1818. Von Prosector Berger. Dieser Schädel ist bei Giffhorn in Hannover [&#x85;] gefunden.&#x93;</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553"/>
             </note>
             <note>
-               <rs type="edition"> Spengel, Anthropologische Sammlung </rs>
+               <rs type="edition">Spengel, Anthropologische Sammlung </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, fol. ?, Meyer, Handschriften in Göttingen 3 (1894), S. 77. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, fol. ?, Meyer, Handschriften in Göttingen 3 (1894), S. 77. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Berger,A. </persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1473">Braunschweig</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1473"
+                      sortKey="1818-02-05"
+                      when="1818-02-05"
+                      where="#orgplc-1473">
+                  <label>1818, Febr. 5</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1473">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1473">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Georg Forster ein Empfehlungsschreiben fÜr Johann Christian Aycke. </title>
+            <title type="main">Blumenbach sendet Georg Forster ein Empfehlungsschreiben für Johann Christian Aycke. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1790-09-27"> 1790, Sept. 27</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/531.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 333 Nr. 0632.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 333 Nr. 0632.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=351"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 333 Nr. 0632 </rs>
+               <rs type="edition">Corresp. III, S. 333 Nr. 0632 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Berlin, Staatsbibliothek zu Berlin &#x96; Preußischer Kulturbesitz, Handschriftenabt. Slg. Darmstaedter Lc 1785 (2), fol. 24&#x96;25. </title>
+                  <title level="m" type="main">Berlin, Staatsbibliothek zu Berlin &#x96; Preußischer Kulturbesitz, Handschriftenabt. Slg. Darmstaedter Lc 1785 (2), fol. 24&#x96;25. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-531">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-531"
+                      sortKey="1790-09-27"
+                      when="1790-09-27"
+                      where="#orgplc-531">
+                  <label>1790, Sept. 27</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-531">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-531">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Forster, Georg</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0527</classCode>
-            <classCode scheme="anchor"> Okt1790</classCode>
+            <classCode scheme="anchor">Okt1790</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

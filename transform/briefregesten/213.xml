@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Das Geheime Ratskollegium weist Blumenbachs Rechtfertigung hinsichtlich der VorwÜrfe gegen den ZN-Orden zurÜck und wiederholt seine Anweisung an Blumenbach, fÜr die Auflösung des Ordens zu sorgen. </title>
+            <title type="main">Das Geheime Ratskollegium weist Blumenbachs Rechtfertigung hinsichtlich der Vorwürfe gegen den ZN-Orden zurück und wiederholt seine Anweisung an Blumenbach, für die Auflösung des Ordens zu sorgen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Geheimes Ratskollegium </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>  Hannover</pubPlace>
-            <date type="publication" when=" 1784-06-26"> 1784, Juni 26</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/213.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 169 Nr. 0295.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 169 Nr. 0295.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsarchiv, Sekretariatsakten, XG 1/ 661 (Abschrift). </title>
+                  <title level="m" type="main">Göttingen, Universitätsarchiv, Sekretariatsakten, XG 1/ 661 (Abschrift). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Geheimes Ratskollegium </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-213"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-213"
+                      sortKey="1784-06-26"
+                      when="1784-06-26"
+                      where="#orgplc-213">
+                  <label>1784, Juni 26   Hannover</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-213">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-213">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0210</classCode>
-            <classCode scheme="anchor"> Juli1784</classCode>
+            <classCode scheme="anchor">Juli1784</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Christoph Lichtenberg informiert Blumenbach Über die Anfertigung eines Kupferstichs fÜr die vorgesehene Veröffentlichung eines seiner Beiträge im Göttingischen Magazin der Wissenschaften und Litteratur und bitte um rechtzeitige Zusendung des Manuskripts. </title>
+            <title type="main">Georg Christoph Lichtenberg informiert Blumenbach über die Anfertigung eines Kupferstichs für die vorgesehene Veröffentlichung eines seiner Beiträge im Göttingischen Magazin der Wissenschaften und Litteratur und bitte um rechtzeitige Zusendung des Manuskripts. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" ca. 17780-07-15"> 1780, Juli (Mitte)</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/93.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 204 Nr. 0129.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 204 Nr. 0129.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 11; Lichtenberg, Briefwechsel, Bd. 2 (1985), Nr. 723 S. 90&#x96;91.</rs>
+               <rs type="bibl">Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 11; Lichtenberg, Briefwechsel, Bd. 2 (1985), Nr. 723 S. 90&#x96;91.</rs>
             </note>
             <note>
-               <rs type="lz"> Gött. Mag. d. Wiss. u. Lit. 1. Jg., 4. StÜck (1780), S. 117&#x96;127 (= Bibliographie Nr. 00796). </rs>
+               <rs type="lz">Gött. Mag. d. Wiss. u. Lit. 1. Jg., 4. Stück (1780), S. 117&#x96;127 (= Bibliographie Nr. 00796). </rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00796"/>
             </note>
             <note>
-               <rs type="edition"> 00796 </rs>
+               <rs type="edition">00796 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826. </title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph </persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-93">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-93"
+                      sortKey="17780-07-15"
+                      when="17780-07-15"
+                      where="#orgplc-93">
+                  <label>1780, Juli (Mitte)</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-93">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-93">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0092</classCode>
-            <classCode scheme="anchor"> Aug1780</classCode>
+            <classCode scheme="anchor">Aug1780</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Evert Jan Thomassen [à Thuessink] sendet Blumenbach Proben der Geoffroya surinamensis-Rinde und beschreibt seine Erfahrungen bei ihrem Einsatz fÜr Wurmkuren, und Proben von verschiedenen China-Rinden, deren unterschiedlichen therapeutischen Wert gegen Malaria er vergleicht. </title>
+            <title type="main">Evert Jan Thomassen [à Thuessink] sendet Blumenbach Proben der Geoffroya surinamensis-Rinde und beschreibt seine Erfahrungen bei ihrem Einsatz für Wurmkuren, und Proben von verschiedenen China-Rinden, deren unterschiedlichen therapeutischen Wert gegen Malaria er vergleicht. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Thomassen [à Thuessink], Evert Jan</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Den Haag</pubPlace>
-            <date type="publication" when=" 1791-11-02"> 1791, vor Nov. 2</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/617.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 136 Nr. 0719.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 136 Nr. 0719.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=148"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 136 Nr. 0719 </rs>
+               <rs type="edition">Corresp. IV, S. 136 Nr. 0719 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren, Überlieferung durch Druck in Medicinische Bibliothek, Bd. 3, 3. StÜck. </title>
+                  <title level="m" type="main">Or. verloren, überlieferung durch Druck in Medicinische Bibliothek, Bd. 3, 3. Stück. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Thomassen [à Thuessink], Evert Jan</persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-617">Den Haag</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1791-11-02">
-                  <label> 1791, vor Nov. 2</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-617"
+                      sortKey="1791-11-02"
+                      notAfter="1791-11-02"
+                      where="#orgplc-617">
+                  <label>1791, vor Nov. 2</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-617">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-617">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

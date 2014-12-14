@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Joseph Banks ein Exemplar des ersten Heftes seiner Decades craniorum (1790) und aktuelle wissenschaftliche Publikationen aus Göttingen und verspricht, ihm weiterhin Literatur zu senden. </title>
+            <title type="main">Blumenbach sendet Joseph Banks ein Exemplar des ersten Heftes seiner Decades craniorum (1790) und aktuelle wissenschaftliche Publikationen aus Göttingen und verspricht, ihm weiterhin Literatur zu senden. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1790-03-07"> 1790, März 7</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/500.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 290 Nr. 0601.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 290 Nr. 0601.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,24 +69,27 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S. 110&#x96;111 Nr. 9.</rs>
+               <rs type="bibl">Vgl. ausführl. Regest in Dawson, The Banks Letters (1958), S. 110&#x96;111 Nr. 9.</rs>
             </note>
             <note>
-               <rs type="lz"> Decas craniorum 1 (1790;Bibliographie Nr. 00092).</rs>
+               <rs type="lz">Decas craniorum 1 (1790;Bibliographie Nr. 00092).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00092"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=308"/>
             </note>
             <note>
-               <rs type="edition"> Nr. 00092   Corresp. III, S. 290 Nr. 0601 </rs>
+               <rs type="edition">Nr. 00092  Corresp. III, S. 290 Nr. 0601 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, British Library, Add MS 8097, fol. 260 </title>
+                  <title level="m" type="main">London, British Library, Add MS 8097, fol. 260 </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-500">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-500"
+                      sortKey="1790-03-07"
+                      when="1790-03-07"
+                      where="#orgplc-500">
+                  <label>1790, März 7</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-500">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-500">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Banks, Joseph</persName>
          </creation>

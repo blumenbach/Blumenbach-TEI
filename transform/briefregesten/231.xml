@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Therese Heyne (Therese Huber) berichtet Blumenbach Über ihren Aufenthalt in Gotha und Über die Konsequenzen ihrer bevorstehenden Eheschließung mit Georg Forster und des geplanten Umzugs nach Polen fÜr sie und ihre Familie. </title>
+            <title type="main">Therese Heyne (Therese Huber) berichtet Blumenbach über ihren Aufenthalt in Gotha und über die Konsequenzen ihrer bevorstehenden Eheschließung mit Georg Forster und des geplanten Umzugs nach Polen für sie und ihre Familie. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Heyne, Therese (Huber, Therese) </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Gotha</pubPlace>
-            <date type="publication" when=" 1784-12-16"> 1784, Dez. 16</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/231.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 221 Nr. 0319.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 221 Nr. 0319.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 4 (Therese Heyne Nr. 2). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 4 (Therese Heyne Nr. 2). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Heyne, Therese (Huber, Therese) </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-231">Gotha</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-231"
+                      sortKey="1784-12-16"
+                      when="1784-12-16"
+                      where="#orgplc-231">
+                  <label>1784, Dez. 16</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-231">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-231">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>

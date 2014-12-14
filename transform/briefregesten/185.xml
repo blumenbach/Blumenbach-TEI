@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach bittet Gottfried Emanuel von Haller, zwei GepäckstÜcke, die Blumenbach in der Schweiz leihweise benutzt und bei Haller zurÜckgelassen hatte, dem EigentÜmer zurÜckzusenden, und bittet außerdem um die Beschaffung zweier BÜcher und einer Landkarte der Schweiz. </title>
+            <title type="main">Blumenbach bittet Gottfried Emanuel von Haller, zwei Gepäckstücke, die Blumenbach in der Schweiz leihweise benutzt und bei Haller zurückgelassen hatte, dem Eigentümer zurückzusenden, und bittet außerdem um die Beschaffung zweier Bücher und einer Landkarte der Schweiz. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1783-11-04"> 1783, Nov. 4</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/185.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 86 Nr. 0252.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 86 Nr. 0252.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Bern, Burgerbibliothek Mss. H.h. III.201, S. 55-57. </title>
+                  <title level="m" type="main">Bern, Burgerbibliothek Mss. H.h. III.201, S. 55-57. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-185">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-185"
+                      sortKey="1783-11-04"
+                      when="1783-11-04"
+                      where="#orgplc-185">
+                  <label>1783, Nov. 4</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-185">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-185">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Haller, Gottlieb Emanuel von </persName>
          </creation>

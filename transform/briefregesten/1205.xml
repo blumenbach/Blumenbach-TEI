@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Franz Xaver von Zach berichtet Blumenbach, dass er aufeiner Reise durchNorddeutschland mit dem englischen Prinzen Adolphus Frederick und der Regierung in Hannover Über die geringe Qualifikation des Göttinger Astronomieprofessors Carl Felix von Seyffer, Über weitere Göttinger Professoren und den Neubau einer Sternwarte in Göttingen diskutiert habe, erklärt, dassdie Qualität der Allgemeinen Geographischen Ephemeriden nach seinem Ausscheiden aus deren Redaktion stark gesunken sei, fragt, ob er einen Brief Blumenbachs an Georg I. von Sachsen-Meiningen Über Höhlenbären in seiner Zeitschrift Monatliche Correspondenz zur Beförderung der Erd- und Himmels-Kunde abdrucken oder an Blumenbach zurÜcksenden solle, und beschreibt vier vomSachsen-Gothaischen ErbprinzenAugust Leopold Emil neu erworbene Chinesen-Puppen. </title>
+            <title type="main">Franz Xaver von Zach berichtet Blumenbach, dass er aufeiner Reise durchNorddeutschland mit dem englischen Prinzen Adolphus Frederick und der Regierung in Hannover über die geringe Qualifikation des Göttinger Astronomieprofessors Carl Felix von Seyffer, über weitere Göttinger Professoren und den Neubau einer Sternwarte in Göttingen diskutiert habe, erklärt, dassdie Qualität der Allgemeinen Geographischen Ephemeriden nach seinem Ausscheiden aus deren Redaktion stark gesunken sei, fragt, ob er einen Brief Blumenbachs an Georg I. von Sachsen-Meiningen über Höhlenbären in seiner Zeitschrift Monatliche Correspondenz zur Beförderung der Erd- und Himmels-Kunde abdrucken oder an Blumenbach zurücksenden solle, und beschreibt vier vomSachsen-Gothaischen ErbprinzenAugust Leopold Emil neu erworbene Chinesen-Puppen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Zach, Franz Xaver von</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when="1800-10-07"> 1800, Okt. 7  Seeberg</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1205.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 515&#x96;519 Nr. 1344.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 515&#x96;519 Nr. 1344.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=531"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 515&#x96;519 Nr. 1344 </rs>
+               <rs type="edition">Corresp. V, S. 515&#x96;519 Nr. 1344 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 2 (ZachNr. 20).</title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 2 (ZachNr. 20).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Zach, Franz Xaver von</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1205"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1205"
+                      sortKey="1800-10-07"
+                      when="1800-10-07"
+                      where="#orgplc-1205">
+                  <label>1800, Okt. 7 Seeberg</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1205">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1205">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

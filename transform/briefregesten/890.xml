@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Joseph Banks einen Brief Friedrich Hornemanns und berichtet Über HornemannsVorbereitung fÜr seine Afrikaexpedition, kÜndigt die Zusendung von erbetenen Publikationen fÜr Banks Bibliothek an, berichtet Über ein von Simon Pallas erhaltenes Porträt einer Burjatinund bittet um eine Kopie des Porträts einer Eskimo-Mutter mit ihrem Kind in Banks Bibliothek. </title>
+            <title type="main">Blumenbach sendet Joseph Banks einen Brief Friedrich Hornemanns und berichtet über HornemannsVorbereitung für seine Afrikaexpedition, kündigt die Zusendung von erbetenen Publikationen für Banks Bibliothek an, berichtet über ein von Simon Pallas erhaltenes Porträt einer Burjatinund bittet um eine Kopie des Porträts einer Eskimo-Mutter mit ihrem Kind in Banks Bibliothek. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1796-12-10"> 1796, Dez. 10</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/890.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,36 +57,39 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 76&#x96;77 Nr. 1022.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 76&#x96;77 Nr. 1022.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Text des mitgeschickten Briefes F. Hornemanns inDougherty, Corresp. V, S. 75&#x96;76 Nr. 1021. </note>
             <note>
-               <rs type="object"> Porträteiner Burjatin, erhalten von Simon Pallas; erbeten: Kopie des Porträt der Eskimo-Frau Mycock mit ihrem Kind (im Apr. 1797 als Geschenk von Joseph Banks; Göttingen, Inst. fÜr Ethnologie, Inv.-Nr. Bi. Kat. 26). </rs>
+               <rs type="object">Porträteiner Burjatin, erhalten von Simon Pallas; erbeten: Kopie des Porträt der Eskimo-Frau Mycock mit ihrem Kind (im Apr. 1797 als Geschenk von Joseph Banks; Göttingen, Inst. für Ethnologie, Inv.-Nr. Bi. Kat. 26). </rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Stargardt, Auktionskatalog 606 (Marburg 1975), S. 127, Nr.413; vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S. 114 Nr. 36. </rs>
+               <rs type="bibl">Auszug in Stargardt, Auktionskatalog 606 (Marburg 1975), S. 127, Nr.413; vgl. ausführl. Regest in Dawson, The Banks Letters (1958), S. 114 Nr. 36. </rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=92"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=91"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 76&#x96;77 Nr. 1022   Corresp. V, S. 75&#x96;76 Nr. 1021 </rs>
+               <rs type="edition">Corresp. V, S. 76&#x96;77 Nr. 1022  Corresp. V, S. 75&#x96;76 Nr. 1021 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, 2 Cod. Ms. philos. 182: J. F. Blumenbach, 10.12.1796; Abschrift von Dawson Turner in London, British Museum (Natural History), Dept. of Botany, Turner collection, vol. 10 part 1, fol. 93&#x96;95.</title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, 2 Cod. Ms. philos. 182: J. F. Blumenbach, 10.12.1796; Abschrift von Dawson Turner in London, British Museum (Natural History), Dept. of Botany, Turner collection, vol. 10 part 1, fol. 93&#x96;95.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-890">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-890"
+                      sortKey="1796-12-10"
+                      when="1796-12-10"
+                      where="#orgplc-890">
+                  <label>1796, Dez. 10</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-890">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-890">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Banks, Joseph</persName>
          </creation>

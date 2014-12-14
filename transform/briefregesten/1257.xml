@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teilt Johann Wolfgang von Goethe seine Identifikationsvorschlägezu verschiedenen Mineralien- und Fossilienfunden mit und nennt Parallelfunde und bittet um leihweise Übersendung eines StÜcks Elfenbein mit eingeschlossener Gewehrkugel. </title>
+            <title type="main">Blumenbach teilt Johann Wolfgang von Goethe seine Identifikationsvorschlägezu verschiedenen Mineralien- und Fossilienfunden mit und nennt Parallelfunde und bittet um leihweise übersendung eines Stücks Elfenbein mit eingeschlossener Gewehrkugel. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1802-06-04"> 1802, Juni 4</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1257.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,38 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Blumenbach besaß selbst ein StÜck Elfenbein mit eingeschlossener Gewehrkugel (Geschenk der Königin von England, vgl. Blumenbachs hs. Sammlungsverz., Universitätsbibliothek Göttingen Cod. Ms. Blumenbach 1, II, fol. 57r); das StÜck aus Goethes Besitz wird zu Vergleichzwecken erbeten.</note>
+            <note>Blumenbach besaß selbst ein Stück Elfenbein mit eingeschlossener Gewehrkugel (Geschenk der Königin von England, vgl. Blumenbachs hs. Sammlungsverz., Universitätsbibliothek Göttingen Cod. Ms. Blumenbach 1, II, fol. 57r); das Stück aus Goethes Besitz wird zu Vergleichzwecken erbeten.</note>
             <note>
-               <rs type="object"> Elfenbein mit eingeschlossener Gewehrkugel. </rs>
+               <rs type="object">Elfenbein mit eingeschlossener Gewehrkugel. </rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Teildruck: Goethe. Die Schriften zur Naturwissenschaft.Abt. II, Bd. 9b, S. 195; Regest: Briefe an Goethe. Gesamtausgabe in Regestform 1764&#x96;1817. Herausgegeben von der Klassik Stiftung Weimar Goethe- und Schiller-Archiv (online-Version), Regest Nr. 4/256.</rs>
+               <rs type="bibl">Teildruck: Goethe. Die Schriften zur Naturwissenschaft.Abt. II, Bd. 9b, S. 195; Regest: Briefe an Goethe. Gesamtausgabe in Regestform 1764&#x96;1817. Herausgegeben von der Klassik Stiftung Weimar Goethe- und Schiller-Archiv (online-Version), Regest Nr. 4/256.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/Sammlungskataloge/cod_ms-Blumenbach_1_II_Blumenbach_Handschriften_1794_1800_Katalog%20zur%20Naturgeschichte%20des%20Menschengeschlechts.pdf#page=119"/>
             </note>
             <note>
-               <rs type="edition"> Cod. Ms. Blumenbach 1, II, fol. 57r </rs>
+               <rs type="edition">Cod. Ms. Blumenbach 1, II, fol. 57r </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv: GSA 28/36, Bl. 374&#x96;375.</title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv: GSA 28/36, Bl. 374&#x96;375.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1257">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1257"
+                      sortKey="1802-06-04"
+                      when="1802-06-04"
+                      where="#orgplc-1257">
+                  <label>1802, Juni 4</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1257">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1257">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

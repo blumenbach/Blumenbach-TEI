@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Ludwig August Kraus beantragt bei Blumenbach als dem Dekan der Medizinischen Fakultät der Universität Göttingen, schon vor seiner Promotion Vorlesungen durch Anschlag am Schwarzen Brett der Universität ankÜndigen zu dÜrfen. </title>
+            <title type="main">Ludwig August Kraus beantragt bei Blumenbach als dem Dekan der Medizinischen Fakultät der Universität Göttingen, schon vor seiner Promotion Vorlesungen durch Anschlag am Schwarzen Brett der Universität ankündigen zu dürfen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Kraus, Ludwig August </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1806-04-30"> 1806, April 30</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1329.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Erwähnung und Zitat in TÜtken, Johannes: Privatdozenten im Schatten der Georgia Augusta. Göttingen 2005, Bd. 2, S. 631. </rs>
+               <rs type="bibl">Erwähnung und Zitat in Tütken, Johannes: Privatdozenten im Schatten der Georgia Augusta. Göttingen 2005, Bd. 2, S. 631. </rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsarchiv, Medizin. Fak., Dekanats- und Promotionsvorgänge und -urkunden fÜr das Jahr 1808 (auch die Unterlagen des Jahres 1806 enthaltend).</title>
+                  <title level="m" type="main">Göttingen, Universitätsarchiv, Medizin. Fak., Dekanats- und Promotionsvorgänge und -urkunden für das Jahr 1808 (auch die Unterlagen des Jahres 1806 enthaltend).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Kraus, Ludwig August </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1329">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1329"
+                      sortKey="1806-04-30"
+                      when="1806-04-30"
+                      where="#orgplc-1329">
+                  <label>1806, April 30</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1329">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1329">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

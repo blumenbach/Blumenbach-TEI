@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbachs Eintrag in das Stammbuch von Ferenc Benkö. </title>
+            <title type="main">Blumenbachs Eintrag in das Stammbuch von Ferenc Benkö. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Hannover</pubPlace>
-            <date type="publication" when=" 1782-08-14"> 1782, Aug. 14.</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/160.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 507 Appendix Nr. 09.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 507 Appendix Nr. 09.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Hubbes, Éva (Hg.): Benkő Ferenc Egyetemjárása. Tanulmány és Benkő Ferenc peregrinációs albuma. Rudabánya (Ungarn) 2004, S. 67.</rs>
+               <rs type="bibl">Hubbes, Éva (Hg.): Benkő Ferenc Egyetemjárása. Tanulmány és Benkő Ferenc peregrinációs albuma. Rudabánya (Ungarn) 2004, S. 67.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=519"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 507 Appendix Nr. 09 </rs>
+               <rs type="edition">Corresp. IV, S. 507 Appendix Nr. 09 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Odorheiu Secuiesc (Rumänien) (ungarischer Name: Székelyudvarhely), Haáz Rezső Múzeum, Wissenschaftliche Bibliothek, Manuskript Nr. 41223, S. 74 r. </title>
+                  <title level="m" type="main">Odorheiu Secuiesc (Rumänien) (ungarischer Name: Székelyudvarhely), Haáz Rezső Múzeum, Wissenschaftliche Bibliothek, Manuskript Nr. 41223, S. 74 r. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-160">Hannover</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-160"
+                      sortKey="1782-08-14"
+                      when="1782-08-14"
+                      where="#orgplc-160">
+                  <label>1782, Aug. 14.</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-160">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-160">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Benkö, Ferenc </persName>
          </creation>

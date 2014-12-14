@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Abraham Gotthelf Kästner bittet Blumenbach um die LektÜre und Weiterleitung eines zur Publikation im Magazin fÜr das Neueste aus der Physik und Naturgeschichte vorgesehenen Aufsatzes Über dieVogelart&#x84;Tölpel&#x93;. </title>
+            <title type="main">Abraham Gotthelf Kästner bittet Blumenbach um die Lektüre und Weiterleitung eines zur Publikation im Magazin für das Neueste aus der Physik und Naturgeschichte vorgesehenen Aufsatzes über dieVogelart&#x84;Tölpel&#x93;. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Kästner, Abraham Gotthelf</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1790-09-25"> 1790, Sept. 25</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/529.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 332 Nr. 0630.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 332 Nr. 0630.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=350"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 332 Nr. 0630 </rs>
+               <rs type="edition">Corresp. III, S. 332 Nr. 0630 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 2 (Kästner Nr. 2). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 2 (Kästner Nr. 2). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Kästner, Abraham Gotthelf</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-529">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-529"
+                      sortKey="1790-09-25"
+                      when="1790-09-25"
+                      where="#orgplc-529">
+                  <label>1790, Sept. 25</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-529">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-529">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Joseph Banks bestätigt Blumenbach, dass es sich bei einem an diesen gesandten menschlichen Schädel aus der Karibik um einen Frauenschädel handelt, und verspricht die Zusendung weiterer Schädel. </title>
+            <title type="main">Joseph Banks bestätigt Blumenbach, dass es sich bei einem an diesen gesandten menschlichen Schädel aus der Karibik um einen Frauenschädel handelt, und verspricht die Zusendung weiterer Schädel. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>London</pubPlace>
-            <date type="publication" when=" 1792-07-17"> 1792, Juli 17</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/645.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,38 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 176 Nr. 0756.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 176 Nr. 0756.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Vgl. Blumenbachs hs. Verzeichnis seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, I, fol. 8.</note>
             <note>
-               <rs type="object"> Weiblicher Karibenschädel (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 780, Abb. in Decas craniorum 2 (1793), Tafel 20, Bibliographie Nr.00093).</rs>
+               <rs type="object">Weiblicher Karibenschädel (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 780, Abb. in Decas craniorum 2 (1793), Tafel 20, Bibliographie Nr.00093).</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 4 (2007), S. 131 Nr. 1119.</rs>
+               <rs type="bibl">Chambers, Scientific correspondence of Sir Joseph Banks, Bd. 4 (2007), S. 131 Nr. 1119.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=188"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 176 Nr. 0756 </rs>
+               <rs type="edition">Corresp. IV, S. 176 Nr. 0756 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach III, fol. 36&#x96;37. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach III, fol. 36&#x96;37. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-645">London</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-645"
+                      sortKey="1792-07-17"
+                      when="1792-07-17"
+                      where="#orgplc-645">
+                  <label>1792, Juli 17</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-645">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-645">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

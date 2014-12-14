@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendetFriedrich Justin Bertucheine Zusatzinformation zu seinem BeitragÜber die englische Missionsstation auf Tahiti in denAllgemeinen Geographischen Ephemeriden. </title>
+            <title type="main">Blumenbach sendetFriedrich Justin Bertucheine Zusatzinformation zu seinem Beitragüber die englische Missionsstation auf Tahiti in denAllgemeinen Geographischen Ephemeriden. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1800-09-12"> 1800, Sept. 12</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1199.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,22 +57,25 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 510&#x96;511 Nr. 1338.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 510&#x96;511 Nr. 1338.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Identifikation der englischen Vorlage der Berichts Über die Missionsstation auf Tahiti bei Dougherty,a.a.O., inkorrekt, vgl.Bibliographie Nr. [ohne Nr.].</note>
+            <note>Identifikation der englischen Vorlage der Berichts über die Missionsstation auf Tahiti bei Dougherty,a.a.O., inkorrekt, vgl.Bibliographie Nr. [ohne Nr.].</note>
             <note>
                <rs type="object"/>
             </note>
             <note>
-               <rs type="span"> Allgemeine Geographische Ephemeriden Bd. 6, 4. StÜck (Okt. 1800, Bibliographie Nr. [ohne Nr.]), S. 365&#x96;368.</rs>
+               <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in &#x84;2. Neueste Nachrichten vom Zustand der Englischen Mission auf Otaheite&#x93; in Allgemeine Geographische Ephemeriden Bd. 6, 4. StÜck (Okt. 1800, Bibliographie Nr. [ohne Nr.]), S. 365&#x96;368, hier S. 368. </rs>
+               <rs type="bibl">Auszug in &#x84;2. Neueste Nachrichten vom Zustand der Englischen Mission auf Otaheite&#x93; in Allgemeine Geographische Ephemeriden Bd. 6, 4. Stück (Okt. 1800, Bibliographie Nr. [ohne Nr.]), S. 365&#x96;368, hier S. 368. </rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item">Allgemeine Geographische Ephemeriden Bd. 6, 4. Stück (Okt. 1800, Bibliographie Nr. [ohne Nr.]), S. 365&#x96;368.</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#AllgemGeogrEphem1800_6"/>
@@ -80,14 +83,14 @@
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#AllgemGeogrEphem1800_6"/>
             </note>
             <note>
-               <rs type="edition"> [ohne Nr.]   Corresp. V, S. 510&#x96;511 Nr. 1338   [ohne Nr.] </rs>
+               <rs type="edition"> [ohne Nr.]  Corresp. V, S. 510&#x96;511 Nr. 1338   [ohne Nr.] </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv,GSA, Nachlass Bertuch 06/189 (= Briefe Blumenbachs an Bertuch), Nr. 7.</title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv,GSA, Nachlass Bertuch 06/189 (= Briefe Blumenbachs an Bertuch), Nr. 7.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -100,6 +103,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1199">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1199"
+                      sortKey="1800-09-12"
+                      when="1800-09-12"
+                      where="#orgplc-1199">
+                  <label>1800, Sept. 12</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -114,6 +131,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1199">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1199">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Bertuch, Friedrich Justin </persName>
          </creation>

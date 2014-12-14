@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach berichtet Ernst Gottfried Baldinger, dass seiner Ansicht nach die dynastischen Beziehungen zwischen England und der Pfalz Ursache fÜr den Druck von William Harveys Werk Über den Blutkreislauf in Frankfurt waren. </title>
+            <title type="main">Blumenbach berichtet Ernst Gottfried Baldinger, dass seiner Ansicht nach die dynastischen Beziehungen zwischen England und der Pfalz Ursache für den Druck von William Harveys Werk über den Blutkreislauf in Frankfurt waren. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1785-05-06"> 1785, Mai 6</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/268.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp.II, S. 278 Nr. 0355.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp.II, S. 278 Nr. 0355.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,14 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Medicinisches Journal, Bd. 2, 7. StÜck (1786), S. 77&#x96;78 (&#x84;I. Herr Professor Blumenbach an den Herausgeber des Journals&#x93;, Bibliographie Nr.00964).</rs>
+               <rs type="bibl">Auszug in Medicinisches Journal, Bd. 2, 7. Stück (1786), S. 77&#x96;78 (&#x84;I. Herr Professor Blumenbach an den Herausgeber des Journals&#x93;, Bibliographie Nr.00964).</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item">Identisch mit einem Leserbrief Blumenbachs im Medicinischen Journal(= Bibliographie Nr.00964, siehe&#x84;Dr.&#x93;).
+</rs>
             </note>
             <note/>
             <note>
@@ -83,7 +87,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren; Überlieferung durch Druck in dem von Baldinger herausgegebenMedicinischen Journal, Bd. 2, 7. StÜck. </title>
+                  <title level="m" type="main">Or. verloren; überlieferung durch Druck in dem von Baldinger herausgegebenMedicinischen Journal, Bd. 2, 7. Stück. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -96,6 +100,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-268">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-268"
+                      sortKey="1785-05-06"
+                      when="1785-05-06"
+                      where="#orgplc-268">
+                  <label>1785, Mai 6</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +128,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-268">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-268">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Baldinger, Ernst Gottfried</persName>
          </creation>

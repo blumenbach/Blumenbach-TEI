@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Friedrich Gabriel Sulzer berichtet Blumenbach Über die physikalischen und chemischen Eigenschaften des von ihm entdeckten Minerals Strontianit und beschreibt ein von ihm in London gesehenes Känguru, eine Beutelratte und einen Lippenbären. </title>
+            <title type="main">Friedrich Gabriel Sulzer berichtet Blumenbach über die physikalischen und chemischen Eigenschaften des von ihm entdeckten Minerals Strontianit und beschreibt ein von ihm in London gesehenes Känguru, eine Beutelratte und einen Lippenbären. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Sulzer, Friedrich Gabriel</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Ronneburg</pubPlace>
-            <date type="publication" when=" 1791-02-09"> 1791, vor Febr. 9</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/550.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 18 Nr. 0652.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 18 Nr. 0652.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -66,20 +66,23 @@
                <rs type="object"/>
             </note>
             <note>
-               <rs type="span"> Brieftext verwendet inBibliographie Nr.00828und 00783(siehe &#x84;Dr.&#x93;).   AuszÜge in Magazin fÜr das Neueste aus der Physik und Naturgeschichte Bd. 7, 3. StÜck 1791), S. 68&#x96;72 (&#x84;Ueber den Strontianit, ein Schottisches Fossil, das ebenfals eine neue Grunderde zu enthalten scheint; und Über einige andere naturhistorische MerkwÜrdigkeiten. Aus einem Briefe des Hrn. Rath Sulzer zu Ronneburg mitgetheilt von J. F. Blumenbach&#x93;, Bibliographie Nr. 00783); nur Abschnitt Über den Stronianit ebenfalls in Bergmännisches Journal 4. Jg., 1. Bd. (1791) 5. StÜck (Mai), S. 433&#x96;435 (&#x84;VI. Uiber den Strontianit, ein Schottisches Foßil, das ebenfalls eine neue Grunderde zu enthalten scheint. (Aus einem Briefe des Herrn Rath Sulzer zu Ronneburg, mitgetheilt von J. F. Blumenbach.*)&#x93;, Bibliographie Nr.00828). </rs>
+               <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> </rs>
+               <rs type="bibl">  Auszüge in Magazin für das Neueste aus der Physik und Naturgeschichte Bd. 7, 3. Stück 1791), S. 68&#x96;72 (&#x84;Ueber den Strontianit, ein Schottisches Fossil, das ebenfals eine neue Grunderde zu enthalten scheint; und über einige andere naturhistorische Merkwürdigkeiten. Aus einem Briefe des Hrn. Rath Sulzer zu Ronneburg mitgetheilt von J. F. Blumenbach&#x93;, Bibliographie Nr. 00783); nur Abschnitt über den Stronianit ebenfalls in Bergmännisches Journal 4. Jg., 1. Bd. (1791) 5. Stück (Mai), S. 433&#x96;435 (&#x84;VI. Uiber den Strontianit, ein Schottisches Foßil, das ebenfalls eine neue Grunderde zu enthalten scheint. (Aus einem Briefe des Herrn Rath Sulzer zu Ronneburg, mitgetheilt von J. F. Blumenbach.*)&#x93;, Bibliographie Nr.00828). </rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item">Brieftext verwendet inBibliographie Nr.00828und 00783(siehe &#x84;Dr.&#x93;). </rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00828"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=30"/>
             </note>
             <note>
-               <rs type="edition"> 00828   Corresp. IV, S. 18 Nr. 0652 </rs>
+               <rs type="edition">00828  Corresp. IV, S. 18 Nr. 0652 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -99,9 +102,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-550">Ronneburg</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1791-02-09">
-                  <label> 1791, vor Febr. 9</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-550"
+                      sortKey="1791-02-09"
+                      notAfter="1791-02-09"
+                      where="#orgplc-550">
+                  <label>1791, vor Febr. 9</label>
                </event>
             </listEvent>
             <msDesc>
@@ -118,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-550">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-550">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

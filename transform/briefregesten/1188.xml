@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> George Bellas Greenough berichtetBlumenbachu. a. Über eine neu eröffnete Fabrik zur Produktion von Walrat aus Pferdefleisch fÜr die Kerzenherstellung und sendet zahlreiche Objekte fÜr Blumenbachs Sammlungen. </title>
+            <title type="main">George Bellas Greenough berichtetBlumenbachu. a. über eine neu eröffnete Fabrik zur Produktion von Walrat aus Pferdefleisch für die Kerzenherstellung und sendet zahlreiche Objekte für Blumenbachs Sammlungen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Greenough,George Bellas</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> London</pubPlace>
-            <date type="publication" when=" 1800-08-04"> 1800, Aug. 4</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1188.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 492 Nr. 1325.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 492 Nr. 1325.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,14 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszugin Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 2, 2. StÜck (1800),S. 302 (&#x84;12) Wallrath-Fabrication aus Pferdefleisch&#x93;, Bibliographie Nr. 00878).</rs>
+               <rs type="bibl">Auszugin Magazin für den neuesten Zustand der Naturkunde, Bd. 2, 2. Stück (1800),S. 302 (&#x84;12) Wallrath-Fabrication aus Pferdefleisch&#x93;, Bibliographie Nr. 00878).</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr.00878(siehe&#x84;Dr.&#x93;).
+</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00878"/>
@@ -80,7 +84,7 @@
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=541"/>
             </note>
             <note>
-               <rs type="edition"> 00878   Corresp. V, S. 492 Nr. 1325   Corresp. V, S. 525&#x96;528 Nr. 1351 </rs>
+               <rs type="edition">00878  Corresp. V, S. 492 Nr. 1325  Corresp. V, S. 525&#x96;528 Nr. 1351 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -100,6 +104,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1188">London</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1188"
+                      sortKey="1800-08-04"
+                      when="1800-08-04"
+                      where="#orgplc-1188">
+                  <label>1800, Aug. 4</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -114,6 +132,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1188">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1188">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

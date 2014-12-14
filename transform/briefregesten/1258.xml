@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach beschreibt Carl Erenbert von Moll, welche der von diesem angebotenen naturhistorischen Objekte fÜr Academische Museum der UniversitätGöttingen von Interesse sind, fragt nach der Möglichkeit, den Schädel eines &#x84;Cretins&#x93; zu beschaffen, und bittet um Auskunft Über die körperlichen Merkmale eines isoliert aufgewachsenen Kindes in Salzburg. </title>
+            <title type="main">Blumenbach beschreibt Carl Erenbert von Moll, welche der von diesem angebotenen naturhistorischen Objekte für Academische Museum der UniversitätGöttingen von Interesse sind, fragt nach der Möglichkeit, den Schädel eines &#x84;Cretins&#x93; zu beschaffen, und bittet um Auskunft über die körperlichen Merkmale eines isoliert aufgewachsenen Kindes in Salzburg. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1802-06-08"> 1802, Juni 8</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1258.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,28 +57,32 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Anthraconit aus der Region Salzburg (Geschenk Alex. v. Humboldts; weiteres StÜck wirderbeten); Biberfötus (Geschenk von Hartenkeil; weiterer wirderbeten); präparierter Biber und einzelner Biberschädel (beide ohneVorderzähne).</rs>
+               <rs type="object">Anthraconit aus der Region Salzburg (Geschenk Alex. v. Humboldts; weiteres Stück wirderbeten); Biberfötus (Geschenk von Hartenkeil; weiterer wirderbeten); präparierter Biber und einzelner Biberschädel (beide ohneVorderzähne).</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Moll, Carl Erenbert von: Mittheilungen aus seinem Briefwechsel. 1. Abt. Augsburg1829, S. 56&#x96;58.</rs>
+               <rs type="bibl">Moll, Carl Erenbert von: Mittheilungen aus seinem Briefwechsel. 1. Abt. Augsburg1829, S. 56&#x96;58.</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item">Handbuch der Naturgeschichte, 7. Auflage (1803; Bibliographie Nr. 00029) (wird als im Druck bez.). 
+</rs>
+            </note>
+            <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00029"/>
             </note>
             <note>
-               <rs type="edition"> 00029 </rs>
+               <rs type="edition">00029 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -98,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1258">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1258"
+                      sortKey="1802-06-08"
+                      when="1802-06-08"
+                      where="#orgplc-1258">
+                  <label>1802, Juni 8</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1258">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1258">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Moll, Carl Erenbert von</persName>
          </creation>

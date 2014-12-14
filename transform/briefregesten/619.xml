@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teilt Rudolph Forsten mit, dass die Schrift eines sÜdostasiatischen Manuskripts, das er aus Deventer mitgenommen hatte, von Londoner Experten als Buginesisch [heute: Lontara] identifiziert wurde. </title>
+            <title type="main">Blumenbach teilt Rudolph Forsten mit, dass die Schrift eines südostasiatischen Manuskripts, das er aus Deventer mitgenommen hatte, von Londoner Experten als Buginesisch [heute: Lontara] identifiziert wurde. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>London</pubPlace>
-            <date type="publication" when=" 1791-12-16"> 1791, nach Dez. 16</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/619.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 141 Nr. 0723 (aus Druck von 1832).</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 141 Nr. 0723 (aus Druck von 1832).</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,20 +72,23 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Catalogus Bibliothecae Publicae Daventriensis.Bibliothecae Publicae Daventriensis. Deventer 1832, S. 253&#x96;254; Catalogus der Handschriften berustende op de Athenaeum-Bibliotheek te Deventer. Deventer 1892, S. 79.</rs>
+               <rs type="lz">Catalogus Bibliothecae Publicae Daventriensis.Bibliothecae Publicae Daventriensis. Deventer 1832, S. 253&#x96;254; Catalogus der Handschriften berustende op de Athenaeum-Bibliotheek te Deventer. Deventer 1892, S. 79.</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=153"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 141 Nr. 0723 </rs>
+               <rs type="edition">Corresp. IV, S. 141 Nr. 0723 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren, Überlieferung durch Druck in Catalogus Bibliothecae Publicae Daventriensis.Bibliothecae Publicae Daventriensis (1832) </title>
+                  <title level="m" type="main">Or. verloren, überlieferung durch Druck in Catalogus Bibliothecae Publicae Daventriensis.Bibliothecae Publicae Daventriensis (1832) </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-619">London</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1791-12-16">
-                  <label> 1791, nach Dez. 16</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-619"
+                      sortKey="1791-12-16"
+                      notBefore="1791-12-16"
+                      where="#orgplc-619">
+                  <label>1791, nach Dez. 16</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-619">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-619">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Forsten, Rudolph</persName>
          </creation>

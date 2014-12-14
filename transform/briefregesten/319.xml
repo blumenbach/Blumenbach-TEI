@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Christoph Girtanner berichtet Blumenbach Über die Krankenhäuser in Paris und beschreibt kritisch die Quecksilbertherapien gegen Syphilis. </title>
+            <title type="main">Christoph Girtanner berichtet Blumenbach über die Krankenhäuser in Paris und beschreibt kritisch die Quecksilbertherapien gegen Syphilis. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Girtanner, Christoph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Paris</pubPlace>
-            <date type="publication" when=" 1786-04-04"> 1786, Apr. 4</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/319.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 26 Nr. 0409.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 26 Nr. 0409.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=44"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 26 Nr. 0409 </rs>
+               <rs type="edition">Corresp. III, S. 26 Nr. 0409 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren, Überlieferung durch Druck inMedicinische Bibliothek Bd. 2, 3. StÜck. </title>
+                  <title level="m" type="main">Or. verloren, überlieferung durch Druck inMedicinische Bibliothek Bd. 2, 3. Stück. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Girtanner, Christoph</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-319">Paris</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-319"
+                      sortKey="1786-04-04"
+                      when="1786-04-04"
+                      where="#orgplc-319">
+                  <label>1786, Apr. 4</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-319">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-319">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

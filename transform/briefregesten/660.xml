@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Franz Xaver von Zach sendet Blumenbach eine von diesem in Gotha zurÜck gelassene Handschrift in buginesischer[heute: &#x84;Lontara&#x93;] Schrift und eine neu erschienene Reisebeschreibung Über Japan nach Göttingen. </title>
+            <title type="main">Franz Xaver von Zach sendet Blumenbach eine von diesem in Gotha zurück gelassene Handschrift in buginesischer[heute: &#x84;Lontara&#x93;] Schrift und eine neu erschienene Reisebeschreibung über Japan nach Göttingen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Zach, Franz Xaver von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Gotha</pubPlace>
-            <date type="publication" when=" 1792-10-12"> 1792, Okt. 12</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/660.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 206 Nr. 0777.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 206 Nr. 0777.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Manuskript in buginesischer (heute &#x84;Lontara&#x93;) Schrift .</rs>
+               <rs type="object">Manuskript in buginesischer (heute &#x84;Lontara&#x93;) Schrift .</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=218"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 206 Nr. 0777 </rs>
+               <rs type="edition">Corresp. IV, S. 206 Nr. 0777 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover. Blumenbach Familienarchiv, Vol. 2 (von Zach Nr.1). </title>
+                  <title level="m" type="main">Hannover. Blumenbach Familienarchiv, Vol. 2 (von Zach Nr.1). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Zach, Franz Xaver von</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-660">Gotha</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-660"
+                      sortKey="1792-10-12"
+                      when="1792-10-12"
+                      where="#orgplc-660">
+                  <label>1792, Okt. 12</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-660">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-660">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

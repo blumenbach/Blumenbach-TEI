@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Ernst II. von Sachsen-Gotha und Altenburg begrÜndet Blumenbach seine Zweifel an der Existenz vorsätzlicher Schädeldeformation bei Kleinkindern unter anderem bei den TÜrken und berichtet von einer in Gotha eingetroffenen ägyptischen Mumie. </title>
+            <title type="main">Ernst II. von Sachsen-Gotha und Altenburg begründet Blumenbach seine Zweifel an der Existenz vorsätzlicher Schädeldeformation bei Kleinkindern unter anderem bei den Türken und berichtet von einer in Gotha eingetroffenen ägyptischen Mumie. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Sachsen-Gotha und Altenburg, Ernst II. von</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when="1789-12-24"> 1789, Dez. 24 Gotha</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/489.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 277 Nr. 0590.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 277 Nr. 0590.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,21 +72,24 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Beyträge zur Naturgeschichte. Zweyter Theil (1811), S. 51. Zur Identifikation vgl.Spengel, Anthropologische Sammlung, S. 55 ad 426: &#x84;ägyptische Mumie. [&#x85;] Geschenk des Herzogs zu Coburg-Gotha und seines Bruders des Prinzen Friedrich.&#x93;</rs>
+               <rs type="lz">Beyträge zur Naturgeschichte. Zweyter Theil (1811), S. 51. Zur Identifikation vgl.Spengel, Anthropologische Sammlung, S. 55 ad 426: &#x84;ägyptische Mumie. [&#x85;] Geschenk des Herzogs zu Coburg-Gotha und seines Bruders des Prinzen Friedrich.&#x93;</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=295"/>
             </note>
             <note>
-               <rs type="edition"> Spengel, Anthropologische Sammlung   Corresp. III, S. 277 Nr. 0590 </rs>
+               <rs type="edition">Spengel, Anthropologische Sammlung  Corresp. III, S. 277 Nr. 0590 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 1 (Ernst II. Nr. 3). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 1 (Ernst II. Nr. 3). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Sachsen-Gotha und Altenburg, Ernst II. von</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-489">Gotha</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-489"
+                      sortKey="1789-12-24"
+                      when="1789-12-24"
+                      where="#orgplc-489">
+                  <label>1789, Dez. 24</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-489">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-489">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

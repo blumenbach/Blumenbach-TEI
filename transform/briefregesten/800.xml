@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Heinrich Ferdinand Autenrieth berichtet Blumenbach Über sprachliche und kulturelle Gemeinsamkeiten, die auf eine Verwandtschaft der Bewohner Asiens und Amerikas hinweisen,spekuliert Über Ursachen fÜr die besonderen Gebissformen verschiedener Tierarten und beschreibt eine von ihm beobachtete Eidechsenart in dem US-amerikanischen Bundesstaat Maryland. </title>
+            <title type="main">Johann Heinrich Ferdinand Autenrieth berichtet Blumenbach über sprachliche und kulturelle Gemeinsamkeiten, die auf eine Verwandtschaft der Bewohner Asiens und Amerikas hinweisen,spekuliert über Ursachen für die besonderen Gebissformen verschiedener Tierarten und beschreibt eine von ihm beobachtete Eidechsenart in dem US-amerikanischen Bundesstaat Maryland. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Autenrieth, Johann Heinrich Ferdinand</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Stuttgart</pubPlace>
-            <date type="publication" when=" 1795-07-24"> 1795, Juli 24</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/800.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 440 Nr. 0929.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 440 Nr. 0929.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=452"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 440 Nr. 0929 </rs>
+               <rs type="edition">Corresp. IV, S. 440 Nr. 0929 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Leipzig, Universitätsbibliothek, Sammlung Kestner II A IV, 57, fol. 6&#x96;10. </title>
+                  <title level="m" type="main">Leipzig, Universitätsbibliothek, Sammlung Kestner II A IV, 57, fol. 6&#x96;10. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Autenrieth, Johann Heinrich Ferdinand</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-800">Stuttgart</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-800"
+                      sortKey="1795-07-24"
+                      when="1795-07-24"
+                      where="#orgplc-800">
+                  <label>1795, Juli 24</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-800">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-800">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

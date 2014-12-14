@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Ernst II. von Sachsen-Gotha und Altenburg eine englische Karikatur, einen Aufsatz von Jean André Deluc zur Hygrometrie und ein von Joseph Banks herausgegebenes Illustrationswerk zur japanischen Flora. </title>
+            <title type="main">Blumenbach sendet Ernst II. von Sachsen-Gotha und Altenburg eine englische Karikatur, einen Aufsatz von Jean André Deluc zur Hygrometrie und ein von Joseph Banks herausgegebenes Illustrationswerk zur japanischen Flora. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when="1791-06-05"> 1791, Juni 5 Göttingen</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/581.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 65 Nr. 0681.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 65 Nr. 0681.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=77"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 65 Nr. 0681 </rs>
+               <rs type="edition">Corresp. IV, S. 65 Nr. 0681 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Gotha, ThÜringisches Staatsarchiv, Geheimes Archiv E XIII a Nr. 7 (Blumenbach). </title>
+                  <title level="m" type="main">Gotha, Thüringisches Staatsarchiv, Geheimes Archiv E XIII a Nr. 7 (Blumenbach). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-581">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-581"
+                      sortKey="1791-06-05"
+                      when="1791-06-05"
+                      where="#orgplc-581">
+                  <label>1791, Juni 5</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-581">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-581">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Sachsen-Gotha und Altenburg, Ernst II. von</persName>
          </creation>

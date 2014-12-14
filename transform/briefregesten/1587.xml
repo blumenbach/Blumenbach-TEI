@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Jeremias David Reuss leitet Blumenbach und Arnold Hermann Ludwig Heeren als Mitgliedern der Bibliothekskommission das Gesuch des Bibliotheks-Pedells Ernst Friedrich Georg Stiepels weiter, seinen Sohn August Wilhelm Friedrich als Gehilfen anzustellen, weiter und kommentiert das Gesuch. </title>
+            <title type="main">Jeremias David Reuss leitet Blumenbach und Arnold Hermann Ludwig Heeren als Mitgliedern der Bibliothekskommission das Gesuch des Bibliotheks-Pedells Ernst Friedrich Georg Stiepels weiter, seinen Sohn August Wilhelm Friedrich als Gehilfen anzustellen, weiter und kommentiert das Gesuch. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Reuss, Jeremias David </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1828-01-01"> 1828, ca. Jan.</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1587.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug inWagener,Pedelle, Mägde und Lakaien, S. 450 mit Anm. 36.</rs>
+               <rs type="bibl">Auszug inWagener,Pedelle, Mägde und Lakaien, S. 450 mit Anm. 36.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, Archiv, B 8 (Personalakte Stiepel, ca. Jan. 1828).</title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, Archiv, B 8 (Personalakte Stiepel, ca. Jan. 1828).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Reuss, Jeremias David </persName>
                   </author>
@@ -96,9 +99,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1587">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1828-01-01">
-                  <label> 1828, ca. Jan.</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1587"
+                      sortKey="1828-01-01"
+                      notBefore="1828-01-01"
+                      where="#orgplc-1587">
+                  <label>1828, ca. Jan.</label>
                </event>
             </listEvent>
             <msDesc>
@@ -115,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1587">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1587">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich Heeren, Arnold Hermann Ludwig</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach dankt [Johann Georg Christoph Siebold] [fÜr zwei zugesandte Publikationen?], sendet eine eigene Publikation und bittet um Weiterleitung eines beigelegten Briefes. </title>
+            <title type="main">Blumenbach dankt [Johann Georg Christoph Siebold] [für zwei zugesandte Publikationen?], sendet eine eigene Publikation und bittet um Weiterleitung eines beigelegten Briefes. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1795-12-28"> 1795, Dez. 28</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/834.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 496 Nr. 0964.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 496 Nr. 0964.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,21 +72,24 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> De vi vitali sanguini neganda (1795; Bibliographie Nr. 00127) ?]</rs>
+               <rs type="lz">De vi vitali sanguini neganda (1795; Bibliographie Nr. 00127) ?]</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00127"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=508"/>
             </note>
             <note>
-               <rs type="edition"> 00127   Corresp. IV, S. 496 Nr. 0964 </rs>
+               <rs type="edition">00127  Corresp. IV, S. 496 Nr. 0964 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Berlin, Staatsbibliothek zu Berlin - Preußischer Kulturbesitz -, Handschriftenabteilung, Cod. Ms. Darmstaedter Lc 1785 (2), fol. 29 (Fragment). </title>
+                  <title level="m" type="main">Berlin, Staatsbibliothek zu Berlin - Preußischer Kulturbesitz -, Handschriftenabteilung, Cod. Ms. Darmstaedter Lc 1785 (2), fol. 29 (Fragment). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-834">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-834"
+                      sortKey="1795-12-28"
+                      when="1795-12-28"
+                      where="#orgplc-834">
+                  <label>1795, Dez. 28</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-834">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-834">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee"> [Siebold, Johann Georg Christoph]</persName>
          </creation>

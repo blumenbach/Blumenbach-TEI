@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teilt Johann Gottfried Gruberinhaltliche Verbesserungen zur dritten Auflage seiner Dissertation De humani generis varietate (1795) mit und bittet ihn, diese in die von Gruber anfertigte Übersetzung des Werks aufzunehmen. </title>
+            <title type="main">Blumenbach teilt Johann Gottfried Gruberinhaltliche Verbesserungen zur dritten Auflage seiner Dissertation De humani generis varietate (1795) mit und bittet ihn, diese in die von Gruber anfertigte übersetzung des Werks aufzunehmen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1797-04-17"> 1797, Apr. 17</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/926.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 126&#x96;127 Nr. 1060.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 126&#x96;127 Nr. 1060.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Dougherty, Corresp. II, S. xx&#x96;xxi Anm. 89, nimmt an, dass Blumenbach das Manuskript von Grubers Übersetzung nicht vorlag und dass es sich bei den Verbesserungen um Blumenbachs änderungen und Zusätze zu seinem eigenen lateinischen Text handelte, die Gruber in seine Übersetzung aufnehmen sollte. </note>
+            <note>Dougherty, Corresp. II, S. xx&#x96;xxi Anm. 89, nimmt an, dass Blumenbach das Manuskript von Grubers übersetzung nicht vorlag und dass es sich bei den Verbesserungen um Blumenbachs änderungen und Zusätze zu seinem eigenen lateinischen Text handelte, die Gruber in seine übersetzung aufnehmen sollte. </note>
             <note>
                <rs type="object"/>
             </note>
@@ -69,24 +69,27 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Dougherty, Corresp.II, S. xx&#x96;xxi Anm. 89.</rs>
+               <rs type="bibl">Auszug in Dougherty, Corresp.II, S. xx&#x96;xxi Anm. 89.</rs>
             </note>
             <note>
-               <rs type="lz"> De generis humani varietate (3. Aufl., 1795; Bibliographie Nr. 00004); Über die natÜrlichen Verschiedenheiten im Menschengeschlechte (1798, Bibliographie Nr. 00008).</rs>
+               <rs type="lz">De generis humani varietate (3. Aufl., 1795; Bibliographie Nr. 00004); über die natürlichen Verschiedenheiten im Menschengeschlechte (1798, Bibliographie Nr. 00008).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00004"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=142"/>
             </note>
             <note>
-               <rs type="edition"> 00004   Corresp. V, S. 126&#x96;127 Nr. 1060 </rs>
+               <rs type="edition">00004  Corresp. V, S. 126&#x96;127 Nr. 1060 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Amsterdam, Special Collections of the University of Amsterdam, Hs. 62 Dx 6.</title>
+                  <title level="m" type="main">Amsterdam, Special Collections of the University of Amsterdam, Hs. 62 Dx 6.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-926">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-926"
+                      sortKey="1797-04-17"
+                      when="1797-04-17"
+                      where="#orgplc-926">
+                  <label>1797, Apr. 17</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-926">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-926">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Gruber, Johann Gottfried </persName>
          </creation>

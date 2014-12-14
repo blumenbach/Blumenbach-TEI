@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Daniel Nicolaus Chodowiecki eine detaillierte Beschreibung seiner neuen WÜnsche fÜr einTitelkupfer [zur Neuauflage seiner Abhandlung Über den Bildungstrieb (1789)]. </title>
+            <title type="main">Blumenbach sendet Daniel Nicolaus Chodowiecki eine detaillierte Beschreibung seiner neuen Wünsche für einTitelkupfer [zur Neuauflage seiner Abhandlung über den Bildungstrieb (1789)]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1787-07-30"> 1787, Juli 30</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/378.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 116 Nr. 0469.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 116 Nr. 0469.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Der von Blumenbach beschriebene Kupferstich wurde von Chodowiecki angefertigt, aber von Blumenbach nicht verwendet. In der Literatur wird er irrtÜmlich mit verschiedenen Blumenbach-Werken in Verbindung gebracht.</note>
+            <note>Der von Blumenbach beschriebene Kupferstich wurde von Chodowiecki angefertigt, aber von Blumenbach nicht verwendet. In der Literatur wird er irrtümlich mit verschiedenen Blumenbach-Werken in Verbindung gebracht.</note>
             <note>
                <rs type="object"/>
             </note>
@@ -69,24 +69,27 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Engelmann, Wilhelm: Daniel Chodowieckis sämtliche Kupferstiche. Leipzig 1857, S. 310; erwähnt in Ebstein, Erich, &#x84;Johann Friedrich Blumenbach als Bibliophile&#x93;, in: Zeitschrift fÜr BÜcherfreunde 10,2 (1906/07), S. 466&#x96;467,S.466.</rs>
+               <rs type="bibl">Auszug in Engelmann, Wilhelm: Daniel Chodowieckis sämtliche Kupferstiche. Leipzig 1857, S. 310; erwähnt in Ebstein, Erich, &#x84;Johann Friedrich Blumenbach als Bibliophile&#x93;, in: Zeitschrift für Bücherfreunde 10,2 (1906/07), S. 466&#x96;467,S.466.</rs>
             </note>
             <note>
-               <rs type="lz"> Über den Bildungstrieb (1789; Bibliographie Nr. 00055).</rs>
+               <rs type="lz"> über den Bildungstrieb (1789; Bibliographie Nr. 00055).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00055"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=134"/>
             </note>
             <note>
-               <rs type="edition"> 00055   Corresp. III, S. 116 Nr. 0469 </rs>
+               <rs type="edition">00055  Corresp. III, S. 116 Nr. 0469 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, 2 Cod. Ms. Philos. 171B, fol. 2&#x96;3 </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, 2 Cod. Ms. Philos. 171B, fol. 2&#x96;3 </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-378">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-378"
+                      sortKey="1787-07-30"
+                      when="1787-07-30"
+                      where="#orgplc-378">
+                  <label>1787, Juli 30</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,12 +130,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-378">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-378">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Chodowiecki, Daniel Nicolaus</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0374</classCode>
-            <classCode scheme="anchor"> Aug1787</classCode>
+            <classCode scheme="anchor">Aug1787</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

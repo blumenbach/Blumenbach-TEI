@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Franz Xaver von Zach Informationen ÜberMungo ParksEntdeckungsreise in Westafrika. </title>
+            <title type="main">Blumenbach sendet Franz Xaver von Zach Informationen überMungo ParksEntdeckungsreise in Westafrika. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1798-07-05"> 1798, Juli 5</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1027.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 281&#x96;285 Nr. 1164.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 281&#x96;285 Nr. 1164.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,17 +69,21 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Allgemeine geographische Ephemeriden, Bd. 2, 2. StÜck (August 1798), S. 158&#x96;165(&#x84;1. Aus einem Schreiben des Hofraths Blumenbach. Beschluss der fernern Nachrichten von Park&#x92;s Reisen nach dem Innern von Afrika&#x93;, Bibliographie Nr. 00765). </rs>
+               <rs type="bibl">Auszug in Allgemeine geographische Ephemeriden, Bd. 2, 2. Stück (August 1798), S. 158&#x96;165(&#x84;1. Aus einem Schreiben des Hofraths Blumenbach. Beschluss der fernern Nachrichten von Park&#x92;s Reisen nach dem Innern von Afrika&#x93;, Bibliographie Nr. 00765). </rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item">Brieftext verwendet in Bibliographie Nr. 00765 (siehe &#x84;Dr.&#x93;). 
+</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00766"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=285"/>
             </note>
             <note>
-               <rs type="edition"> 00765   Corresp. V, S. 281&#x96;285 Nr. 1164 </rs>
+               <rs type="edition">00765  Corresp. V, S. 281&#x96;285 Nr. 1164 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -99,9 +103,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1027">Göttingen</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1798-07-05">
-                  <label> 1798, Juli 5</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1027"
+                      sortKey="1798-07-05"
+                      notAfter="1798-07-05"
+                      where="#orgplc-1027">
+                  <label>1798, Juli 5</label>
                </event>
             </listEvent>
             <msDesc>
@@ -118,6 +131,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1027">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1027">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Zach, Franz Xaver von</persName>
          </creation>

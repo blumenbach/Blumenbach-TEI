@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Christoph Lichtenberg sendet Blumenbach Dokumente und Objekte zurÜck, die dieser ihm geschickt hatte, und berichtet Über seine Beobachtungen zu den magnetischen Eigenschaften an einem Federmesser aus der indischen Stahlart &#x84;Wootz&#x93;. </title>
+            <title type="main">Georg Christoph Lichtenberg sendet Blumenbach Dokumente und Objekte zurück, die dieser ihm geschickt hatte, und berichtet über seine Beobachtungen zu den magnetischen Eigenschaften an einem Federmesser aus der indischen Stahlart &#x84;Wootz&#x93;. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1796-03-16"> 1796, März 16</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/843.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,38 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp.V, S. 10 Nr. 0973. </biblScope>
+            <biblScope unit="volume">Dougherty, Corresp.V, S. 10 Nr. 0973. </biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Federmesser aus dem indischen Stahl &#x84;Wootz&#x93;.</rs>
+               <rs type="object">Federmesser aus dem indischen Stahl &#x84;Wootz&#x93;.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 66; Lichtenberg, Briefwechsel, Bd. 4 (1992), Nr. 2616, S. 562. </rs>
+               <rs type="bibl">Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 66; Lichtenberg, Briefwechsel, Bd. 4 (1992), Nr. 2616, S. 562. </rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=26"/>
             </note>
             <note>
-               <rs type="edition"> Corresp.V, S. 10 Nr. 0973 </rs>
+               <rs type="edition">Corresp.V, S. 10 Nr. 0973 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv, GSA 96/1826. </title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv, GSA 96/1826. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-843">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-843"
+                      sortKey="1796-03-16"
+                      when="1796-03-16"
+                      where="#orgplc-843">
+                  <label>1796, März 16</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-843">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-843">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

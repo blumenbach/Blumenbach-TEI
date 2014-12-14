@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teilt [Georg Heinrich Pertz ?] mit, dass er 1837 zum Mitglied in der historisch-philologischen Klasse der Königlichen Societät der Wissenschaften gewählt wurde, undsendet ihm das Diplom darÜber. </title>
+            <title type="main">Blumenbach teilt [Georg Heinrich Pertz ?] mit, dass er 1837 zum Mitglied in der historisch-philologischen Klasse der Königlichen Societät der Wissenschaften gewählt wurde, undsendet ihm das Diplom darüber. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1838-08-20"> 1838, Aug. 20</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1657.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, Nr. 0575.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, Nr. 0575.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Adressaten-Vermutung: 1837 wurden drei neue Mitglieder in die hist.-phil. Klasse der Societät aufgenommen: B. Kopitar (Wien); G. H. Pertz (Hannover) und K.-B. Hase (Paris), vgl. PÜtter, Versuch (1838), S. 94 (Nr. 65 in den Fußnoten). Nur Pertz käme als Mitglied (nicht &#x84;auswärtiges Mitglied&#x93;) in Frage. </note>
+            <note>Adressaten-Vermutung: 1837 wurden drei neue Mitglieder in die hist.-phil. Klasse der Societät aufgenommen: B. Kopitar (Wien); G. H. Pertz (Hannover) und K.-B. Hase (Paris), vgl. Pütter, Versuch (1838), S. 94 (Nr. 65 in den Fußnoten). Nur Pertz käme als Mitglied (nicht &#x84;auswärtiges Mitglied&#x93;) in Frage. </note>
             <note>
                <rs type="object"/>
             </note>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Digitalisat der öNB erreichbar Über: http://data.onb.ac.at/ rec/AL00228442 (Tabellenzeile &#x84;Digitales Objekt&#x93;).</rs>
+               <rs type="bibl">Digitalisat der öNB erreichbar über: http://data.onb.ac.at/ rec/AL00228442 (Tabellenzeile &#x84;Digitales Objekt&#x93;).</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://data.onb.ac.at/rec/AL00228442"/>
             </note>
             <note>
-               <rs type="edition"> http://data.onb.ac.at/ rec/AL00228442 </rs>
+               <rs type="edition">http://data.onb.ac.at/ rec/AL00228442 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Wien, österreichische Nationalbibliothek (öNB), Handschriftensammlung, Autogr. 21/57-4. </title>
+                  <title level="m" type="main">Wien, österreichische Nationalbibliothek (öNB), Handschriftensammlung, Autogr. 21/57-4. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1657">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1657"
+                      sortKey="1838-08-20"
+                      when="1838-08-20"
+                      where="#orgplc-1657">
+                  <label>1838, Aug. 20</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1657">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1657">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee"> [Pertz, Georg Heinrich ?] </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">00</classCode>
-            <classCode scheme="anchor"> 1839</classCode>
+            <classCode scheme="anchor">1839</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

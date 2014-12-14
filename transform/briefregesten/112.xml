@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Georg Christoph Lichtenberg bittet Blumenbach um ein Mineral [aus dem Academischen Museumder Universität Göttingen?], äußert sich zustimmend Über die von Blumenbach in dessen Werk De nisu formativo formulierte, anti-präformationistische Theorie und ablehnend gegenÜber den theologischen Ansichten des Göttinger Theologieprofessors Johann Benjamin Koppe. </title>
+            <title type="main">Georg Christoph Lichtenberg bittet Blumenbach um ein Mineral [aus dem Academischen Museumder Universität Göttingen?], äußert sich zustimmend über die von Blumenbach in dessen Werk De nisu formativo formulierte, anti-präformationistische Theorie und ablehnend gegenüber den theologischen Ansichten des Göttinger Theologieprofessors Johann Benjamin Koppe. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" ca. 1781-04-12"> 1781, ca. Apr. 12</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/112.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,38 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 237 Nr. 0149.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 237 Nr. 0149.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Fluores minerales (= Flussspat?).</rs>
+               <rs type="object">Fluores minerales (= Flussspat?).</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 16; Lichtenberg, Briefwechsel, Bd. 2 (1985), Nr. 792, S. 192&#x96;194.</rs>
+               <rs type="bibl">Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 16; Lichtenberg, Briefwechsel, Bd. 2 (1985), Nr. 792, S. 192&#x96;194.</rs>
             </note>
             <note>
-               <rs type="lz"> Über den Bildungstrieb und das Zeugungsgeschäfte (1781, Bibliographie Nr. 00053). </rs>
+               <rs type="lz"> über den Bildungstrieb und das Zeugungsgeschäfte (1781, Bibliographie Nr. 00053). </rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00053"/>
             </note>
             <note>
-               <rs type="edition"> 00053 </rs>
+               <rs type="edition">00053 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826 </title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826 </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Lichtenberg, Georg Christoph </persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-112">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-112"
+                      sortKey="1781-04-12"
+                      when="1781-04-12"
+                      where="#orgplc-112">
+                  <label>1781, ca. Apr. 12</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-112">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-112">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0111</classCode>
-            <classCode scheme="anchor"> Mai1781</classCode>
+            <classCode scheme="anchor">Mai1781</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

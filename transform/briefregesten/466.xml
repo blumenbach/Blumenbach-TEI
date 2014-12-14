@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach dankt Joseph Banks fÜr die angekÜndigte Zusendung eines menschlichen Schädels aus der Karibik, sendet seinerseits einige eigene und fremde Publikationen aus Göttingen und informiert Banks Über neu bekannt gewordene Beispiele von Albinismus in verschiedenen Regionen Europas. </title>
+            <title type="main">Blumenbach dankt Joseph Banks für die angekündigte Zusendung eines menschlichen Schädels aus der Karibik, sendet seinerseits einige eigene und fremde Publikationen aus Göttingen und informiert Banks über neu bekannt gewordene Beispiele von Albinismus in verschiedenen Regionen Europas. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when="1789-08-09"> 1789, Aug. 9 Göttingen</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/466.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,36 +57,39 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 242 Nr. 0565.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 242 Nr. 0565.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note>Vgl. auch Blumenbachs hs. Verzeichnis seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, I, fol. 8.</note>
             <note>
-               <rs type="object"> Schädel eines Kariben-Häuptlings (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 778; Abbildung in Decas craniorum 1 (1790), Tafel 10; Bibliographie Nr. 00092).</rs>
+               <rs type="object">Schädel eines Kariben-Häuptlings (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 778; Abbildung in Decas craniorum 1 (1790), Tafel 10; Bibliographie Nr. 00092).</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Vgl. ausfÜhrl. Regest in Dawson, The Banks Letters (1958), S. 110 Nr. 6 (mit irrtÜmlicher Angabe &#x84;Berlin&#x93; als Absendeort).</rs>
+               <rs type="bibl">Vgl. ausführl. Regest in Dawson, The Banks Letters (1958), S. 110 Nr. 6 (mit irrtümlicher Angabe &#x84;Berlin&#x93; als Absendeort).</rs>
             </note>
             <note>
-               <rs type="lz"> Specimen physiologiae comparatae inter animantia calidi sanguinis vivipara et ovipara (1789; Bibliographie Nr. 00124); De oculis leucaethiopum et iridis motu commentatio (1786; Bibliographie Nr. 00120).</rs>
+               <rs type="lz">Specimen physiologiae comparatae inter animantia calidi sanguinis vivipara et ovipara (1789; Bibliographie Nr. 00124); De oculis leucaethiopum et iridis motu commentatio (1786; Bibliographie Nr. 00120).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00124"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=260"/>
             </note>
             <note>
-               <rs type="edition"> 00124   Corresp. III, S. 242 Nr. 0565 </rs>
+               <rs type="edition">00124  Corresp. III, S. 242 Nr. 0565 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> London, British Library, Add MS 8097, fol. 133. </title>
+                  <title level="m" type="main">London, British Library, Add MS 8097, fol. 133. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Banks, Joseph</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-466">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-466"
+                      sortKey="1789-08-09"
+                      when="1789-08-09"
+                      where="#orgplc-466">
+                  <label>1789, Aug. 9</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-466">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-466">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

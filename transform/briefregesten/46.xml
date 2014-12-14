@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach berichtet seinem Vater Johann Heinrich Blumenbach Über eine vierzehntägige Reise in das FÜrstentum Waldeck. </title>
+            <title type="main">Blumenbach berichtet seinem Vater Johann Heinrich Blumenbach über eine vierzehntägige Reise in das Fürstentum Waldeck. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" ca. 1777-10-30"> 1777, ca. Okt. 30</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/46.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,22 +57,25 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 116 Nr. 0070.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 116 Nr. 0070.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Von der FÜrstin geschenkte BÜcher (mit Titel) fÜr die Bibliothek und (nur summarisch) naturkundliche Objekte fÜr das Museum;dem Museum 1776 von der FÜrstin geschenkte Versteinerungen; von Blumenbach selbst gesammelte Versteinerungen aus dem Schieferbruch in Adorf/ Wirminghausen.</rs>
+               <rs type="object">Von der Fürstin geschenkte Bücher (mit Titel) für die Bibliothek und (nur summarisch) naturkundliche Objekte für das Museum;dem Museum 1776 von der Fürstin geschenkte Versteinerungen; von Blumenbach selbst gesammelte Versteinerungen aus dem Schieferbruch in Adorf/ Wirminghausen.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> KÜmmel, Birgit: &#x84;Johann Friedrich Blumenbach - Reise ins Waldeckische vom 1. bis 14. Oktober 1777. Ein unveröffentlichter Reisebericht&#x93; in: Geschichtsblätter fÜr Waldeck 84 (1996), S. 169-186; Teildruck in &#x84;Bemerkungen auf einigen Reisen ins Waldeckische [&#x85;]&#x93; in August Ludwig Schlözer&#x92;s Briefwechsel meist histor. u. polit. Inhalts. Dritter Theil. Göttingen 1778, Heft XVI, S. 229-237; Beschreibung des Arolsener Hofkonzerts gedruckt in Rouvel, Diether: Zur Geschichte der Musik am FÜrstlich Waldeckischen Hofe zu Arolsen. Regensburg 1962, S. 160-161.</rs>
+               <rs type="bibl">Kümmel, Birgit: &#x84;Johann Friedrich Blumenbach - Reise ins Waldeckische vom 1. bis 14. Oktober 1777. Ein unveröffentlichter Reisebericht&#x93; in: Geschichtsblätter für Waldeck 84 (1996), S. 169-186; Teildruck in &#x84;Bemerkungen auf einigen Reisen ins Waldeckische [&#x85;]&#x93; in August Ludwig Schlözer&#x92;s Briefwechsel meist histor. u. polit. Inhalts. Dritter Theil. Göttingen 1778, Heft XVI, S. 229-237; Beschreibung des Arolsener Hofkonzerts gedruckt in Rouvel, Diether: Zur Geschichte der Musik am Fürstlich Waldeckischen Hofe zu Arolsen. Regensburg 1962, S. 160-161.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Arolsen, FÜrstlich Waldeckische Hofbibliothek, V Waldec. 661 (Abschrift von 1903 durch Walther Herwig, Vorlage verloren). </title>
+                  <title level="m" type="main">Arolsen, Fürstlich Waldeckische Hofbibliothek, V Waldec. 661 (Abschrift von 1903 durch Walther Herwig, Vorlage verloren). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-46">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-46"
+                      sortKey="1777-10-30"
+                      when="1777-10-30"
+                      where="#orgplc-46">
+                  <label>1777, ca. Okt. 30</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-46">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-46">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Heinrich </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0045</classCode>
-            <classCode scheme="anchor"> Nov1777</classCode>
+            <classCode scheme="anchor">Nov1777</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

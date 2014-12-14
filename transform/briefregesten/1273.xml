@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach berichtet Philip Tidyman von Publikationen Über ein ihm von Tidyman geschenktes lebendes Opossum und äußert sich zustimmend zu der Ansicht, dass Mammutknochen und andere Fossilien von ausgestorbenen Organismen aus frÜheren Erdzeitaltern stammen. </title>
+            <title type="main">Blumenbach berichtet Philip Tidyman von Publikationen über ein ihm von Tidyman geschenktes lebendes Opossum und äußert sich zustimmend zu der Ansicht, dass Mammutknochen und andere Fossilien von ausgestorbenen Organismen aus früheren Erdzeitaltern stammen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1803-04-10"> 1803, Apr. 10</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1273.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,35 +57,38 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Zwei US-amerikanische MÜnzen; ein lebendes Opossum-Weibchen.</rs>
+               <rs type="object">Zwei US-amerikanische Münzen; ein lebendes Opossum-Weibchen.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Dougherty, Commercium epistolicum (1984), S. 181&#x96;182 KatNr. 220.</rs>
+               <rs type="bibl">Dougherty, Commercium epistolicum (1984), S. 181&#x96;182 KatNr. 220.</rs>
             </note>
             <note>
-               <rs type="lz"> Handbuch der vergleichenden Anatomie (1805; Bibliographie Nr. 00101); Abbildungen naturhistorischer Gegenständen6 (1802; Bibliographie Nr. 00710),Abb. Nr. 54; &#x84;Beobachtungen an einem lebendigen Beutelthier (Didelphis marsupialis)&#x93; (1802; Bibliographie Nr. 00890). </rs>
+               <rs type="lz">Handbuch der vergleichenden Anatomie (1805; Bibliographie Nr. 00101); Abbildungen naturhistorischer Gegenständen6 (1802; Bibliographie Nr. 00710),Abb. Nr. 54; &#x84;Beobachtungen an einem lebendigen Beutelthier (Didelphis marsupialis)&#x93; (1802; Bibliographie Nr. 00890). </rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00101"/>
             </note>
             <note>
-               <rs type="edition"> 00101 </rs>
+               <rs type="edition">00101 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> American Philosophical Society, Misc. Ms. Collection. </title>
+                  <title level="m" type="main">American Philosophical Society, Misc. Ms. Collection. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1273">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1273"
+                      sortKey="1803-04-10"
+                      when="1803-04-10"
+                      where="#orgplc-1273">
+                  <label>1803, Apr. 10</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1273">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1273">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Tidyman, Philip</persName>
          </creation>

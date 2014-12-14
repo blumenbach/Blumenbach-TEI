@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendet Daniel Nicolaus Chodowiecki änderungswÜnsche zu dem ihm zugesandten Entwurf einer (Schluss?)vignette zur Neuauflage seiner Abhandlung Über den Bildungstrieb. </title>
+            <title type="main">Blumenbach sendet Daniel Nicolaus Chodowiecki änderungswünsche zu dem ihm zugesandten Entwurf einer (Schluss?)vignette zur Neuauflage seiner Abhandlung über den Bildungstrieb. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when="1787-08-05"> 1787, Aug. 5 Göttingen</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/379.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 118 Nr. 0470.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 118 Nr. 0470.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -72,21 +72,24 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> Über den Bildungstrieb (1789; Bibliographie Nr. 00055).</rs>
+               <rs type="lz"> über den Bildungstrieb (1789; Bibliographie Nr. 00055).</rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00055"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=136"/>
             </note>
             <note>
-               <rs type="edition"> 00055   Corresp. III, S. 118 Nr. 0470 </rs>
+               <rs type="edition">00055  Corresp. III, S. 118 Nr. 0470 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsbibliothek, 2 Cod. Ms. Philos. 171b, fol. 4. </title>
+                  <title level="m" type="main">Göttingen, Universitätsbibliothek, 2 Cod. Ms. Philos. 171b, fol. 4. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-379">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-379"
+                      sortKey="1787-08-05"
+                      when="1787-08-05"
+                      where="#orgplc-379">
+                  <label>1787, Aug. 5</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-379">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-379">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Chodowiecki, Daniel Nicolaus</persName>
          </creation>

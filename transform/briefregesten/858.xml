@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Gilbert Blane dankt Blumenbach fÜr die Zusendung eines Exemplars von dessen Publikation De vi vitali sanguini neganda (1795) und verspricht die Beschaffung einer Probe Bitumen aus Barbados. </title>
+            <title type="main">Gilbert Blane dankt Blumenbach für die Zusendung eines Exemplars von dessen Publikation De vi vitali sanguini neganda (1795) und verspricht die Beschaffung einer Probe Bitumen aus Barbados. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blane, Gilbert </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>London</pubPlace>
-            <date type="publication" when=" 1796-05-18"> 1796, Mai 18</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/858.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 29 Nr. 0988. </biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 29 Nr. 0988. </biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Bitumen (im Handbuch der Naturgeschichte (1797), S. 632 als &#x84;Bergtheer&#x93; bezeichnet) aus Barbados. </rs>
+               <rs type="object">Bitumen (im Handbuch der Naturgeschichte (1797), S. 632 als &#x84;Bergtheer&#x93; bezeichnet) aus Barbados. </rs>
             </note>
             <note>
                <rs type="span"/>
@@ -72,21 +72,24 @@
                <rs type="bibl"> </rs>
             </note>
             <note>
-               <rs type="lz"> De vi vitali sanguini neganda (1795, Bibliographie Nr. 00127). </rs>
+               <rs type="lz">De vi vitali sanguini neganda (1795, Bibliographie Nr. 00127). </rs>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00127"/>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=45"/>
             </note>
             <note>
-               <rs type="edition"> 00127   Corresp. V, S. 29 Nr. 0988 </rs>
+               <rs type="edition">00127  Corresp. V, S. 29 Nr. 0988 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 2 (Blane Nr. 2). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 2 (Blane Nr. 2). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blane, Gilbert </persName>
                   </author>
@@ -99,6 +102,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-858">London</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-858"
+                      sortKey="1796-05-18"
+                      when="1796-05-18"
+                      where="#orgplc-858">
+                  <label>1796, Mai 18</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -113,6 +130,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-858">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-858">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

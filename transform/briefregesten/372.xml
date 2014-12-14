@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Johann Reinhold Forster berichtet Blumenbach Über einen Milch gebenden Bullen und einen Fall von männlicher Laktation beim Menschen. </title>
+            <title type="main">Johann Reinhold Forster berichtet Blumenbach über einen Milch gebenden Bullen und einen Fall von männlicher Laktation beim Menschen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Forster, Johann Reinhold</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Halle</pubPlace>
-            <date type="publication" when=" 1787-06-15"> 1787, vor Juni 15</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/372.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 108 Nr. 0463.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 108 Nr. 0463.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Zusammenfassung in Blumenbachs Beitrag&#x84;Von einem Bock, der Milch giebt&#x93; inHannoverischesMagazin 25. Jg., 48. StÜck (1787), S. 753&#x96;762, hier S. 754 (= Bibliographie Nr. 00804).</rs>
+               <rs type="bibl">Zusammenfassung in Blumenbachs Beitrag&#x84;Von einem Bock, der Milch giebt&#x93; inHannoverischesMagazin 25. Jg., 48. Stück (1787), S. 753&#x96;762, hier S. 754 (= Bibliographie Nr. 00804).</rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=126"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 108 Nr. 0463 </rs>
+               <rs type="edition">Corresp. III, S. 108 Nr. 0463 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren; Überliefert durch Zusammenfassung inHannoverischesMagazin 25. Jg. (1787). </title>
+                  <title level="m" type="main">Or. verloren; überliefert durch Zusammenfassung inHannoverischesMagazin 25. Jg. (1787). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Forster, Johann Reinhold</persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-372">Halle</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notAfter=" 1787-06-15">
-                  <label> 1787, vor Juni 15</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-372"
+                      sortKey="1787-06-15"
+                      notAfter="1787-06-15"
+                      where="#orgplc-372">
+                  <label>1787, vor Juni 15</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-372">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-372">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

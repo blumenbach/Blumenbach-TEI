@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach teilt Johann Reinhold Forster mit, dass die von diesem bei der Auktion der BÜcher Johann Andreas Murrays ersteigerten Bände wegen verspäteten Eintreffens der Bezahlung nicht mehr fÜr ihn zur VerfÜgung stehen, bittet um eine Probe des neuseeländischen Minerals &#x84;Punammustein&#x93;[= Nephrit] und bietet im Austausch Mineralien an, die er aus London mitgebracht hat. </title>
+            <title type="main">Blumenbach teilt Johann Reinhold Forster mit, dass die von diesem bei der Auktion der Bücher Johann Andreas Murrays ersteigerten Bände wegen verspäteten Eintreffens der Bezahlung nicht mehr für ihn zur Verfügung stehen, bittet um eine Probe des neuseeländischen Minerals &#x84;Punammustein&#x93;[= Nephrit] und bietet im Austausch Mineralien an, die er aus London mitgebracht hat. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1792-06-11"> 1792, Juni 11</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/638.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 168 Nr. 0749.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 168 Nr. 0749.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Als (im Academischen Museum?) vorhanden genannt: &#x84;faseriger phosphorsaurer Kalk, der [&#x85;] bey Schneeberg gefunden worden&#x93;; erbeten:neuseeländischer &#x84;Punammustein [= Nephrit]&#x93;.</rs>
+               <rs type="object">Als (im Academischen Museum?) vorhanden genannt: &#x84;faseriger phosphorsaurer Kalk, der [&#x85;] bey Schneeberg gefunden worden&#x93;; erbeten:neuseeländischer &#x84;Punammustein [= Nephrit]&#x93;.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=180"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 168 Nr. 0749 </rs>
+               <rs type="edition">Corresp. IV, S. 168 Nr. 0749 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Berlin, Archiv der Berlin-Brandenburgischen Akademie der Wissenschaften, Nachlass Johann Reinhold Forster 5, Nr. 6. </title>
+                  <title level="m" type="main">Berlin, Archiv der Berlin-Brandenburgischen Akademie der Wissenschaften, Nachlass Johann Reinhold Forster 5, Nr. 6. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-638">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-638"
+                      sortKey="1792-06-11"
+                      when="1792-06-11"
+                      where="#orgplc-638">
+                  <label>1792, Juni 11</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-638">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-638">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Forster, Johann Reinhold</persName>
          </creation>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Heinrich Friedrich Hesse sendet Blumenbach [in mehreren Briefen] anthropologische, zoologische und mineralogische Objekte aus SÜdafrika und gibt Erläuterungen dazu. </title>
+            <title type="main">Heinrich Friedrich Hesse sendet Blumenbach [in mehreren Briefen] anthropologische, zoologische und mineralogische Objekte aus Südafrika und gibt Erläuterungen dazu. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Hesse, Heinrich Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> [unbekannt]</pubPlace>
-            <date type="publication" when=" 1800/ vor 1806-12-01"> nach 1802/ vor 1806, Dez.</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1342.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,29 +57,33 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. (noch nicht ediert)</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. (noch nicht ediert)</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Datierung: Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 12, 6. StÜck erschien laut Titelblatt im Dez. 1806; Hesse hatte bereits vor Ende 1802 Berichte und Objekte an Blumenbach gesandt. </note>
+            <note>Datierung: Magazin für den neuesten Zustand der Naturkunde, Bd. 12, 6. Stück erschien laut Titelblatt im Dez. 1806; Hesse hatte bereits vor Ende 1802 Berichte und Objekte an Blumenbach gesandt. </note>
             <note>
-               <rs type="object"> Proben von Kopfhaaren verschiedener afrikanischer Völker; Präparate von zwei ungeborenen Stachelschweinen (vgl. Abbildungen naturhistorischer Gegenstände, Heft 9 (1809; Bibliographie Nr. 00737), Tafel Nr. 81; Spirituspräparat und Häute des Goldmaulwurfs; ein Leopardenfell; Fell einer Prunkgazelle; Antilopengehörn; Schädel eines WÜstenwarzenschweins und eines Nilpferdes; verschiedene sÜdafrikanische Vögelbälge; Mineralien aus SÜdafrika (Bergkristall mit eingewachsenen Glimmerblättchen; Granat aus dem Gebiet &#x84;Bokkeveld&#x93;; Nephrit; Sandstein vom Tafelberg; versteinertes Harz vom Ufer der Algoa-Bay; versteinerte Stachelschnecken aus Paarden Eiland. </rs>
+               <rs type="object">Proben von Kopfhaaren verschiedener afrikanischer Völker; Präparate von zwei ungeborenen Stachelschweinen (vgl. Abbildungen naturhistorischer Gegenstände, Heft 9 (1809; Bibliographie Nr. 00737), Tafel Nr. 81; Spirituspräparat und Häute des Goldmaulwurfs; ein Leopardenfell; Fell einer Prunkgazelle; Antilopengehörn; Schädel eines Wüstenwarzenschweins und eines Nilpferdes; verschiedene südafrikanische Vögelbälge; Mineralien aus Südafrika (Bergkristall mit eingewachsenen Glimmerblättchen; Granat aus dem Gebiet &#x84;Bokkeveld&#x93;; Nephrit; Sandstein vom Tafelberg; versteinertes Harz vom Ufer der Algoa-Bay; versteinerte Stachelschnecken aus Paarden Eiland. </rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> AuszÜge in Magazin fÜr den neuesten Zustand der Naturkunde, Bd. 12, 6. StÜck (1806), S. 508&#x96;518 (&#x84;17) Wieder naturhistorische Seltenheiten und Bemerkungen vom Vorgebirge der guten Hoffnung&#x93;, Bibliographie Nr. 00933), wörtliche Zitaten aus Hessen Brief(en) S. 509&#x96;510 und S. 511 (*-Anm.), sonst wohl Paraphrasen aus Hessen Briefen.</rs>
+               <rs type="bibl">Auszüge in Magazin für den neuesten Zustand der Naturkunde, Bd. 12, 6. Stück (1806), S. 508&#x96;518 (&#x84;17) Wieder naturhistorische Seltenheiten und Bemerkungen vom Vorgebirge der guten Hoffnung&#x93;, Bibliographie Nr. 00933), wörtliche Zitaten aus Hessen Brief(en) S. 509&#x96;510 und S. 511 (*-Anm.), sonst wohl Paraphrasen aus Hessen Briefen.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item">Brieftext verwendet in BibliographieNr.00933(siehe &#x84;Dr.&#x93;). 
+</rs>
             </note>
             <note>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00933"/>
                <ref target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00737"/>
             </note>
             <note>
-               <rs type="edition"> 00933   00737 </rs>
+               <rs type="edition">00933  00737 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -99,9 +103,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1342"/>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1800/ vor 1806-12-01">
-                  <label> nach 1802/ vor 1806, Dez.</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1342"
+                      sortKey="1800/ vor 1806-12-01"
+                      notBefore="1800/ vor 1806-12-01"
+                      where="#orgplc-1342">
+                  <label>nach 1802/ vor 1806, Dez.  [unbekannt]</label>
                </event>
             </listEvent>
             <msDesc>
@@ -118,6 +131,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1342">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1342">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

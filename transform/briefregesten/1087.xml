@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Franz Xaver von Zach bittet Blumenbach um die Ausleihe von James Rennells Karte zu Unregelmäßigkeiten des Magnetismus in Afrika und berichtet Über die BemÜhungen, die in Burgtonna gefundenen Elefantenknochen in Gotha zu einem Skelett zusammenzufÜgen, und Über das Vorhaben, Georg Christoph Lichtenbergs nachgelassene Schriften herauszugeben. </title>
+            <title type="main">Franz Xaver von Zach bittet Blumenbach um die Ausleihe von James Rennells Karte zu Unregelmäßigkeiten des Magnetismus in Afrika und berichtet über die Bemühungen, die in Burgtonna gefundenen Elefantenknochen in Gotha zu einem Skelett zusammenzufügen, und über das Vorhaben, Georg Christoph Lichtenbergs nachgelassene Schriften herauszugeben. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Zach, Franz Xaver von</persName>
             </author>
@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" when="1799-04-23"> 1799, Apr. 23  Seeberg</date>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1087.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty,Corresp. V, S. 367&#x96;369 Nr. 1223.</biblScope>
+            <biblScope unit="volume">Dougherty,Corresp. V, S. 367&#x96;369 Nr. 1223.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=383"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 367&#x96;369 Nr. 1223 </rs>
+               <rs type="edition">Corresp. V, S. 367&#x96;369 Nr. 1223 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 2 (ZachNr. 14).</title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 2 (ZachNr. 14).</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Zach, Franz Xaver von</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1087"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1087"
+                      sortKey="1799-04-23"
+                      when="1799-04-23"
+                      where="#orgplc-1087">
+                  <label>1799, Apr. 23 Seeberg</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1087">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1087">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

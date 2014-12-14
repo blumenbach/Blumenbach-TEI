@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach bittet das Geheime Ratskollegium um die Genehmigung einer Forschungs- und Erholungsreise in die Schweiz während des Sommers 1778. </title>
+            <title type="main">Blumenbach bittet das Geheime Ratskollegium um die Genehmigung einer Forschungs- und Erholungsreise in die Schweiz während des Sommers 1778. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1778-03-03"> 1778, März 3</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/55.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 140 Nr. 0079.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 140 Nr. 0079.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,10 +69,13 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Dougherty, Commercium epistolicum (1984), S. 35 KatNr. 21 (mit Jahresangabe &#x84;1783&#x93;).</rs>
+               <rs type="bibl">Dougherty, Commercium epistolicum (1984), S. 35 KatNr. 21 (mit Jahresangabe &#x84;1783&#x93;).</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsarchiv, Kur. 4932, S. 37.</title>
+                  <title level="m" type="main">Göttingen, Universitätsarchiv, Kur. 4932, S. 37.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-55">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-55"
+                      sortKey="1778-03-03"
+                      when="1778-03-03"
+                      where="#orgplc-55">
+                  <label>1778, März 3</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,12 +127,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-55">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-55">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Geheimes Ratskollegium </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0054</classCode>
-            <classCode scheme="anchor"> Juli1778</classCode>
+            <classCode scheme="anchor">Juli1778</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach sendetFriedrich Justin BertuchTierzeichnungen von Christian Eberhard Eberlein und schlägt eine Regelung fÜr die Bezahlung des verauslagten Honorars dafÜr vor,kÜndigtBeiträge fÜr die Allgemeinen geographischen Ephemeriden und das Magazin fÜr den neuesten Zustand der Naturkunde mit RÜcksicht auf die dazu gehörigen HÜlfswissenschaften (?) an und verspricht, Anzeigenvon aktuellen Ausgabenvon Bertuchs Zeitschriften [fÜrdie GöttingischenAnzeigen von gelehrten Sachen?] zu verfassen. </title>
+            <title type="main">Blumenbach sendetFriedrich Justin BertuchTierzeichnungen von Christian Eberhard Eberlein und schlägt eine Regelung für die Bezahlung des verauslagten Honorars dafür vor,kündigtBeiträge für die Allgemeinen geographischen Ephemeriden und das Magazin für den neuesten Zustand der Naturkunde mit Rücksicht auf die dazu gehörigen Hülfswissenschaften (?) an und verspricht, Anzeigenvon aktuellen Ausgabenvon Bertuchs Zeitschriften [fürdie GöttingischenAnzeigen von gelehrten Sachen?] zu verfassen. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1800-07-28"> 1800, Juli 28</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/1186.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. V, S. 489&#x96;490 Nr. 1323.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. V, S. 489&#x96;490 Nr. 1323.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -69,23 +69,26 @@
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Auszug in Middell, Katharina: Die Bertuchs mÜssen doch in dieser Welt Überall GlÜck haben: Der Verleger Friedrich Justin Bertuch und sein Landes-Industrie-Comptoir um 1800. Leipzig 2002, S. 283. </rs>
+               <rs type="bibl">Auszug in Middell, Katharina: Die Bertuchs müssen doch in dieser Welt überall Glück haben: Der Verleger Friedrich Justin Bertuch und sein Landes-Industrie-Comptoir um 1800. Leipzig 2002, S. 283. </rs>
             </note>
             <note>
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=505"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. V, S. 489&#x96;490 Nr. 1323 </rs>
+               <rs type="edition">Corresp. V, S. 489&#x96;490 Nr. 1323 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv,GSA, Nachlass Bertuch 06/189 (= Briefe Blumenbachs an Bertuch), Nr. 4.</title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv,GSA, Nachlass Bertuch 06/189 (= Briefe Blumenbachs an Bertuch), Nr. 4.</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-1186">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-1186"
+                      sortKey="1800-07-28"
+                      when="1800-07-28"
+                      where="#orgplc-1186">
+                  <label>1800, Juli 28</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1186">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1186">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Bertuch, Friedrich Justin </persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">1169</classCode>
-            <classCode scheme="anchor"> Aug1800</classCode>
+            <classCode scheme="anchor">Aug1800</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>

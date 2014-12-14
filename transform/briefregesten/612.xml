@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Abraham Gotthelf Kästner wÜnscht Blumenbach GlÜck fÜr seine geplante Englandreise und bittet um die Weiterleitung eines beigelegten Briefes an Blumenbachs Schwager [Ernst Brandes in Hannover]. </title>
+            <title type="main">Abraham Gotthelf Kästner wünscht Blumenbach Glück für seine geplante Englandreise und bittet um die Weiterleitung eines beigelegten Briefes an Blumenbachs Schwager [Ernst Brandes in Hannover]. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Kästner, Abraham Gotthelf</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>Göttingen</pubPlace>
-            <date type="publication" when=" 1791-10-25"> 1791, Okt. 25</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/612.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 130 Nr. 0714.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 130 Nr. 0714.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=142"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 130 Nr. 0714 </rs>
+               <rs type="edition">Corresp. IV, S. 130 Nr. 0714 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Hannover, Blumenbach Familienarchiv, Vol. 2 (Kästner Nr. 2). </title>
+                  <title level="m" type="main">Hannover, Blumenbach Familienarchiv, Vol. 2 (Kästner Nr. 2). </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Kästner, Abraham Gotthelf</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-612">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-612"
+                      sortKey="1791-10-25"
+                      when="1791-10-25"
+                      where="#orgplc-612">
+                  <label>1791, Okt. 25</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-612">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-612">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

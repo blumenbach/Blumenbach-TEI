@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach meldet dem Geheimen Ratskollegium in Hannover, dass er Ende Dezember 1781 die fÜr das Academische Museum der Universität Göttingen bestimmte Mineralien- und Modellsammlung des Bergrates Georg Andreas Stelzner in Clausthal besichtigt, ihren Transport nach Göttingen organisiert und das dazugehörige Inventarverzeichnis Überarbeitet und ergänzt habe. </title>
+            <title type="main">Blumenbach meldet dem Geheimen Ratskollegium in Hannover, dass er Ende Dezember 1781 die für das Academische Museum der Universität Göttingen bestimmte Mineralien- und Modellsammlung des Bergrates Georg Andreas Stelzner in Clausthal besichtigt, ihren Transport nach Göttingen organisiert und das dazugehörige Inventarverzeichnis überarbeitet und ergänzt habe. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 1782-01-10"> 1782, Jan. 10</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/141.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,13 +57,13 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. I, S. 306 Nr. 0186.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. I, S. 306 Nr. 0186.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Mineralien- und Modellsammlung des Clausthaler Oberbergmeisters Stelzner, angekauft fÜr das Academ. Museum; erwähnt wird ein Verzeichnis, das aber lautDougherty, Corresp., Nr. 0186 Anm. 13 nicht auffindbar ist.</rs>
+               <rs type="object">Mineralien- und Modellsammlung des Clausthaler Oberbergmeisters Stelzner, angekauft für das Academ. Museum; erwähnt wird ein Verzeichnis, das aber lautDougherty, Corresp., Nr. 0186 Anm. 13 nicht auffindbar ist.</rs>
             </note>
             <note>
                <rs type="span"/>
@@ -74,6 +74,9 @@
             <note>
                <rs type="lz"/>
             </note>
+            <note>
+               <rs type="item"/>
+            </note>
             <note/>
             <note>
                <rs type="edition"/>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Göttingen, Universitätsarchiv, Kur. 7343, S. 11&#x96;13. </title>
+                  <title level="m" type="main">Göttingen, Universitätsarchiv, Kur. 7343, S. 11&#x96;13. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-141">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-141"
+                      sortKey="1782-01-10"
+                      when="1782-01-10"
+                      where="#orgplc-141">
+                  <label>1782, Jan. 10</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-141">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-141">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Geheimes Ratskollegium </persName>
          </creation>

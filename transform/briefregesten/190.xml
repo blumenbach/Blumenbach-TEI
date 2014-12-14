@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Blumenbach berichtet Pieter Camper von seiner Reise in die Schweiz, darunter besonders Über Beobachtungen an einem Steinbockschädel, Über die Untersuchung an zwei an Albinismus leidenden BrÜdern in Chamonix und Über nicht identifizierte oder spektakuläre Fossilien und Knochen in verschiedenen Sammlungen, die er besichtigt hat, fragt nach zwei ihm bisher unzugänglichen medizinischen Werken und berichtet Über die Geburt seiner Tochter und die erfolgreich verlaufene Pockenimpfung seines Sohnes. </title>
+            <title type="main">Blumenbach berichtet Pieter Camper von seiner Reise in die Schweiz, darunter besonders über Beobachtungen an einem Steinbockschädel, über die Untersuchung an zwei an Albinismus leidenden Brüdern in Chamonix und über nicht identifizierte oder spektakuläre Fossilien und Knochen in verschiedenen Sammlungen, die er besichtigt hat, fragt nach zwei ihm bisher unzugänglichen medizinischen Werken und berichtet über die Geburt seiner Tochter und die erfolgreich verlaufene Pockenimpfung seines Sohnes. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> Göttingen</pubPlace>
-            <date type="publication" when=" 17"> 1783, Dez. 3</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/190.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,22 +57,25 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. II, S. 102 Nr. 0258.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. II, S. 102 Nr. 0258.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
             <note/>
             <note>
-               <rs type="object"> Schädel eines Steinbocks mit Hörnern aus der Umgebung des Mont Blanc; zu diesem &#x96; später verschenkten &#x96; Schädel vgl. Brief an Carl Erenbert von Moll [1808, Sommer].</rs>
+               <rs type="object">Schädel eines Steinbocks mit Hörnern aus der Umgebung des Mont Blanc; zu diesem &#x96; später verschenkten &#x96; Schädel vgl. Brief an Carl Erenbert von Moll 1808, Sommer.</rs>
             </note>
             <note>
                <rs type="span"/>
             </note>
             <note>
-               <rs type="bibl"> Zusammenfassung (laut Dougherty, Corresp. II, Nr. 0258 fehlerhaft) in Gysel, Carlos: &#x84;Les relations du jeune Blumenbach avec Camper vieillissant&#x93;, in Histoire des sciences médicales, XVII (1983), S. 138.</rs>
+               <rs type="bibl">Zusammenfassung (laut Dougherty, Corresp. II, Nr. 0258 fehlerhaft) in Gysel, Carlos: &#x84;Les relations du jeune Blumenbach avec Camper vieillissant&#x93;, in Histoire des sciences médicales, XVII (1983), S. 138.</rs>
             </note>
             <note>
                <rs type="lz"/>
+            </note>
+            <note>
+               <rs type="item"/>
             </note>
             <note/>
             <note>
@@ -83,7 +86,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Amsterdam, Universiteitsbibliotheek (UvA), Bijzondere Collecties, Hs. X 11e. </title>
+                  <title level="m" type="main">Amsterdam, Universiteitsbibliotheek (UvA), Bijzondere Collecties, Hs. X 11e. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Blumenbach, Johann Friedrich </persName>
                   </author>
@@ -96,6 +99,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-190">Göttingen</placeName>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-190"
+                      sortKey="17"
+                      when="17"
+                      where="#orgplc-190">
+                  <label>1783, Dez. 3</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -110,6 +127,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-190">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-190">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Camper, Pieter </persName>
          </creation>

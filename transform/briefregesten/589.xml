@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> John Sibthorp bittet Blumenbach, den Oxforder Anatomen Christopher Pegge bei dessen Göttingen-Aufenthalt zu unterstÜtzen, sendet ostindische Pflanzensamen und berichtet Über seine Publikations- und Reiseprojekte. </title>
+            <title type="main">John Sibthorp bittet Blumenbach, den Oxforder Anatomen Christopher Pegge bei dessen Göttingen-Aufenthalt zu unterstützen, sendet ostindische Pflanzensamen und berichtet über seine Publikations- und Reiseprojekte. </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Sibthorp, John</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>  Oxford</pubPlace>
-            <date type="publication" when=" 1791-07-04"> 1791, Juli 4</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/589.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,7 +57,7 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. IV, S. 74 Nr. 0689.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. IV, S. 74 Nr. 0689.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=86"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. IV, S. 74 Nr. 0689 </rs>
+               <rs type="edition">Corresp. IV, S. 74 Nr. 0689 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Weimar, Goethe- und Schiller-Archiv: GSA 33/663. </title>
+                  <title level="m" type="main">Weimar, Goethe- und Schiller-Archiv: GSA 33/663. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Sibthorp, John</persName>
                   </author>
@@ -98,6 +101,20 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-589"/>
+               </place>
+            </listPlace>
+            <listEvent>
+               <event type="iso-origin"
+                      datingMethod="#ISO-589"
+                      sortKey="1791-07-04"
+                      when="1791-07-04"
+                      where="#orgplc-589">
+                  <label>1791, Juli 4   Oxford</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
@@ -112,6 +129,14 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-589">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-589">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>

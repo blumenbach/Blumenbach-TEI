@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"> Alexander von Humboldt berichtet Blumenbach Über seine Beobachtungen und Theorien zu vulkanischem Gestein am Niederrhein. [wohl Fälschung?] </title>
+            <title type="main">Alexander von Humboldt berichtet Blumenbach über seine Beobachtungen und Theorien zu vulkanischem Gestein am Niederrhein. [wohl Fälschung?] </title>
             <author>
                <persName ref="http://d-nb.info/gnd/">Humboldt, Alexander von</persName>
             </author>
@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace>unbekannt</pubPlace>
-            <date type="publication" when=" 1780-03-27"> 1790, nach März 27</date>
+            <pubPlace/>
+            <date/>
             <availability>
                <licence>
                   <p/>
@@ -46,7 +46,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML"/>
+               <idno type="URLXML">briefregesten/508.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -57,11 +57,11 @@
                <resp>ed. by</resp>
                <name/>
             </respStmt>
-            <biblScope unit="volume"> Dougherty, Corresp. III, S. 299 Nr. 0609.</biblScope>
+            <biblScope unit="volume">Dougherty, Corresp. III, S. 299 Nr. 0609.</biblScope>
             <idno type="ISSN"/>
          </seriesStmt>
          <notesStmt>
-            <note>Zum Fälschungsverdacht vgl. Jahn/Lange, Jugendbriefe Humboldts (1973), S. XXXV; dagegen Dougherty, Corresp. III, Nr. 0609 mit Argumenten fÜrmögliche Echtheit.</note>
+            <note>Zum Fälschungsverdacht vgl. Jahn/Lange, Jugendbriefe Humboldts (1973), S. XXXV; dagegen Dougherty, Corresp. III, Nr. 0609 mit Argumenten fürmögliche Echtheit.</note>
             <note>
                <rs type="object"/>
             </note>
@@ -75,17 +75,20 @@
                <rs type="lz"/>
             </note>
             <note>
+               <rs type="item"/>
+            </note>
+            <note>
                <ref target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=317"/>
             </note>
             <note>
-               <rs type="edition"> Corresp. III, S. 299 Nr. 0609 </rs>
+               <rs type="edition">Corresp. III, S. 299 Nr. 0609 </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main"> Or. verloren; Überlieferung durch Druck inLöwenberg, Julius: Memoiren Alexander von Humboldt&#x92;s. Leipzig1861, Bd. 1, S. 11&#x96;14. </title>
+                  <title level="m" type="main">Or. verloren; überlieferung durch Druck inLöwenberg, Julius: Memoiren Alexander von Humboldt&#x92;s. Leipzig1861, Bd. 1, S. 11&#x96;14. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Humboldt, Alexander von</persName>
                   </author>
@@ -98,9 +101,18 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listPlace type="origin">
+               <place>
+                  <placeName xml:id="orgplc-508">unbekannt</placeName>
+               </place>
+            </listPlace>
             <listEvent>
-               <event type="origin" notBefore=" 1780-03-27">
-                  <label> 1790, nach März 27</label>
+               <event type="iso-origin"
+                      datingMethod="#ISO-508"
+                      sortKey="1780-03-27"
+                      notBefore="1780-03-27"
+                      where="#orgplc-508">
+                  <label>1790, nach März 27</label>
                </event>
             </listEvent>
             <msDesc>
@@ -117,12 +129,20 @@
          <langUsage>
             <language ident="deu"/>
          </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-508">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-508">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
          <creation>
             <persName type="addressee">Blumenbach, Johann Friedrich</persName>
          </creation>
          <textClass>
             <classCode scheme="RegNr">0504</classCode>
-            <classCode scheme="anchor"> Apr1790</classCode>
+            <classCode scheme="anchor">Apr1790</classCode>
             <classCode scheme=""/>
          </textClass>
       </profileDesc>
