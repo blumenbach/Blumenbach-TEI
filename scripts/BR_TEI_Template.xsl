@@ -51,10 +51,10 @@
                 </publisher>
                 <pubPlace><xsl:value-of select="place"/></pubPlace>
                 <xsl:if test="notbefore">
-                    <date type="publication" notBefore="{notbefore}"><xsl:value-of select="date"/></date>
+                   <date type="publication" when="{notbefore}"><xsl:value-of select="date"/></date>
                 </xsl:if>    
                 <xsl:if test="notafter">
-                    <date type="publication" notAfter="{notafter}"><xsl:value-of select="date"/></date>
+                   <date type="publication" when="{notafter}"><xsl:value-of select="date"/></date>
                 </xsl:if>  
                 <xsl:if test="altdate">
                     <date type="publication" when="{altdate}"><xsl:value-of select="date"/></date>
@@ -111,7 +111,24 @@
                         <pubPlace></pubPlace>
                         <date type="publication"></date>
                     </publicationStmt>
-                </biblFull>
+                </biblFull> 
+                
+                    <xsl:if test="notbefore">
+                        <listEvent>
+                        <event type="origin" notBefore="{notbefore}">
+                            <label><xsl:value-of select="date"/></label>
+                        </event>
+                        </listEvent>    
+                    </xsl:if>
+                
+                    <xsl:if test="notafter">
+                        <listEvent>
+                        <event type="origin" notAfter="{notafter}">
+                            <label><xsl:value-of select="date"/></label>
+                        </event>
+                        </listEvent>
+                    </xsl:if>                
+                
                 <msDesc>
                     <msIdentifier>
                     </msIdentifier>

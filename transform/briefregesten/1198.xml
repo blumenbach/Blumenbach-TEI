@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace> Göttingen</pubPlace>
-            <date type="publication" notBefore=" 1800-09-01"> 1800, nach Sept. 1</date>
+            <date type="publication" when=" 1800-09-01"> 1800, nach Sept. 1</date>
             <availability>
                <licence>
                   <p/>
@@ -98,6 +98,11 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listEvent>
+               <event type="origin" notBefore=" 1800-09-01">
+                  <label> 1800, nach Sept. 1</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>

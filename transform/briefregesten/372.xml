@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace> Halle</pubPlace>
-            <date type="publication" notAfter=" 1787-06-15"> 1787, vor Juni 15</date>
+            <date type="publication" when=" 1787-06-15"> 1787, vor Juni 15</date>
             <availability>
                <licence>
                   <p/>
@@ -98,6 +98,11 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listEvent>
+               <event type="origin" notAfter=" 1787-06-15">
+                  <label> 1787, vor Juni 15</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>

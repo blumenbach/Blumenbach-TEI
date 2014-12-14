@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace> Philadelphia</pubPlace>
-            <date type="publication" notAfter=" 1806-12-01"> vor 1806, Dez</date>
+            <date type="publication" when=" 1806-12-01"> vor 1806, Dez</date>
             <availability>
                <licence>
                   <p/>
@@ -104,6 +104,11 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listEvent>
+               <event type="origin" notAfter=" 1806-12-01">
+                  <label> vor 1806, Dez</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>

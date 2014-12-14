@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace> Kassel</pubPlace>
-            <date type="publication" notBefore=" 1784-08-01"> 1784, August</date>
+            <date type="publication" when=" 1784-08-01"> 1784, August</date>
             <availability>
                <licence>
                   <p/>
@@ -96,6 +96,11 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listEvent>
+               <event type="origin" notBefore=" 1784-08-01">
+                  <label> 1784, August</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>

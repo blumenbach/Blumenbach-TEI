@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace> Vevey</pubPlace>
-            <date type="publication" notBefore=" 1786-10-20"> 1786, nach Okt. 20</date>
+            <date type="publication" when=" 1786-10-20"> 1786, nach Okt. 20</date>
             <availability>
                <licence>
                   <p/>
@@ -98,6 +98,11 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listEvent>
+               <event type="origin" notBefore=" 1786-10-20">
+                  <label> 1786, nach Okt. 20</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>

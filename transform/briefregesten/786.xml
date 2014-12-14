@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> 1795, nach Juni 18 Harbke</pubPlace>
-            <date type="publication" notBefore=" 1795-06-18"/>
+            <pubPlace>Harbke</pubPlace>
+            <date type="publication" when=" 1795-06-18"> 1795, nach Juni 18</date>
             <availability>
                <licence>
                   <p/>
@@ -98,6 +98,11 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listEvent>
+               <event type="origin" notBefore=" 1795-06-18">
+                  <label> 1795, nach Juni 18</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>

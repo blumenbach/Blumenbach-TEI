@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace> Meiningen</pubPlace>
-            <date type="publication" notAfter=" 1801-09-03"> vor 1801, Sept. 3</date>
+            <date type="publication" when=" 1801-09-03"> vor 1801, Sept. 3</date>
             <availability>
                <licence>
                   <p/>
@@ -96,6 +96,11 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listEvent>
+               <event type="origin" notAfter=" 1801-09-03">
+                  <label> vor 1801, Sept. 3</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>

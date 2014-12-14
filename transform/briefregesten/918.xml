@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace/>
-            <date type="publication" notBefore=" 1797-03-10"> 1797, nach März 10 Gotha (Seeberg)</date>
+            <date type="publication" when=" 1797-03-10"> 1797, nach März 10 Gotha (Seeberg)</date>
             <availability>
                <licence>
                   <p/>
@@ -98,6 +98,11 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listEvent>
+               <event type="origin" notBefore=" 1797-03-10">
+                  <label> 1797, nach März 10 Gotha (Seeberg)</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>

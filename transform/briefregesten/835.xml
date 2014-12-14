@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace> 1795, Dez. [Bayreuth]</pubPlace>
-            <date type="publication" notBefore=" 1795-12-01"/>
+            <date type="publication" when=" 1795-12-01"/>
             <availability>
                <licence>
                   <p/>
@@ -98,6 +98,11 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listEvent>
+               <event type="origin" notBefore=" 1795-12-01">
+                  <label/>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>

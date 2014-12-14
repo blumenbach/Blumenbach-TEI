@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace> 1791, nach Sept. Hildesheim</pubPlace>
-            <date type="publication" notBefore=" 1791-09-30"/>
+            <date type="publication" when=" 1791-09-30"/>
             <availability>
                <licence>
                   <p/>
@@ -98,6 +98,11 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listEvent>
+               <event type="origin" notBefore=" 1791-09-30">
+                  <label/>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>

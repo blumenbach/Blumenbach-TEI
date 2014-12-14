@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> 1791, nach Apr. 14 Göttingen</pubPlace>
-            <date type="publication" notBefore=" 1791-04-14"/>
+            <pubPlace>Göttingen</pubPlace>
+            <date type="publication" when=" 1791-04-14"> 1791, nach Apr. 14</date>
             <availability>
                <licence>
                   <p/>
@@ -98,6 +98,11 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listEvent>
+               <event type="origin" notBefore=" 1791-04-14">
+                  <label> 1791, nach Apr. 14</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>

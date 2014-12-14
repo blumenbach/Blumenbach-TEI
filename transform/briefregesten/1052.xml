@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace> Pavia</pubPlace>
-            <date type="publication" notAfter=" 1798-11-13"> 1798,Nov. 13</date>
+            <date type="publication" when=" 1798-11-13"> 1798,Nov. 13</date>
             <availability>
                <licence>
                   <p/>
@@ -98,6 +98,11 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listEvent>
+               <event type="origin" notAfter=" 1798-11-13">
+                  <label> 1798,Nov. 13</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>

@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace> Gotha</pubPlace>
-            <date type="publication" notAfter=" 1788-03-22"> 1788, vor März 25</date>
+            <date type="publication" when=" 1788-03-22"> 1788, vor März 25</date>
             <availability>
                <licence>
                   <p/>
@@ -99,6 +99,11 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listEvent>
+               <event type="origin" notAfter=" 1788-03-22">
+                  <label> 1788, vor März 25</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>

@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace>  Marseille</pubPlace>
-            <date type="publication" notBefore=" 1820"> nach1820</date>
+            <date type="publication" when=" 1820"> nach1820</date>
             <availability>
                <licence>
                   <p/>
@@ -96,6 +96,11 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listEvent>
+               <event type="origin" notBefore=" 1820">
+                  <label> nach1820</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>

@@ -39,6 +39,11 @@ $content =~ s/(<altdate> nach)(.+?)(<\/altdate>)/$nb$2$nbend/sg;
 $na="<notafter>";
 $naend = "</notafter>";
 $content =~ s/(<altdate> vor)(.+?)(<\/altdate>)/$na$2$naend/sg;
+$plc = "\n<place>";
+$endplc = "</place>";
+$date = "<date>";
+$enddate ="</date>";
+$content =~ s/(<place>)(.+?)(\d)(\s)(.+?)(<\/place>)/$date$2$3$enddate$plc$5$endplc/g;
 
 
 print $content;

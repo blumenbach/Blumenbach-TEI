@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace> [Göttingen]</pubPlace>
-            <date type="publication" notBefore=" 1803-12-23/ vor 1804-03-01"> nach 1803, Dez. 23/ vor 1804, März</date>
+            <date type="publication" when=" 1803-12-23/ vor 1804-03-01"> nach 1803, Dez. 23/ vor 1804, März</date>
             <availability>
                <licence>
                   <p/>
@@ -98,6 +98,11 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listEvent>
+               <event type="origin" notBefore=" 1803-12-23/ vor 1804-03-01">
+                  <label> nach 1803, Dez. 23/ vor 1804, März</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>

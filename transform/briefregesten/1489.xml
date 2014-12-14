@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace> unbekannt</pubPlace>
-            <date type="publication" notBefore="1817-04-09 vor 1819-01-12"> nach April 1817&#x96;  vor Jan. 1819</date>
+            <date type="publication" when="1817-04-09 vor 1819-01-12"> nach April 1817&#x96;  vor Jan. 1819</date>
             <availability>
                <licence>
                   <p/>
@@ -96,6 +96,11 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listEvent>
+               <event type="origin" notBefore="1817-04-09 vor 1819-01-12">
+                  <label> nach April 1817&#x96;  vor Jan. 1819</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>

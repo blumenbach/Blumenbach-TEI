@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace> [unbekannt]</pubPlace>
-            <date type="publication" notBefore=" 1798-03-10"> nach 1798, März 10</date>
+            <date type="publication" when=" 1798-03-10"> nach 1798, März 10</date>
             <availability>
                <licence>
                   <p/>
@@ -98,6 +98,11 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listEvent>
+               <event type="origin" notBefore=" 1798-03-10">
+                  <label> nach 1798, März 10</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>

@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> 1791, vor Nov. 2 Den Haag</pubPlace>
-            <date type="publication" notAfter=" 1791-11-02"/>
+            <pubPlace>Den Haag</pubPlace>
+            <date type="publication" when=" 1791-11-02"> 1791, vor Nov. 2</date>
             <availability>
                <licence>
                   <p/>
@@ -98,6 +98,11 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listEvent>
+               <event type="origin" notAfter=" 1791-11-02">
+                  <label> 1791, vor Nov. 2</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>

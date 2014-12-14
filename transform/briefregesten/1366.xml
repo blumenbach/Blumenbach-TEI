@@ -37,8 +37,8 @@
                   <country/>
                </address>
             </publisher>
-            <pubPlace> vor 1808, Juni 13 Hamburg</pubPlace>
-            <date type="publication" notAfter=" 1808-06-13"/>
+            <pubPlace>Hamburg</pubPlace>
+            <date type="publication" when=" 1808-06-13"> vor 1808, Juni 13</date>
             <availability>
                <licence>
                   <p/>
@@ -96,6 +96,11 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listEvent>
+               <event type="origin" notAfter=" 1808-06-13">
+                  <label> vor 1808, Juni 13</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>

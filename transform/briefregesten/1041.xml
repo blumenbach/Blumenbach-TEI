@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace> TÜbingen</pubPlace>
-            <date type="publication" notAfter=" 1798-09-30"> 1798, vor Sept. 30</date>
+            <date type="publication" when=" 1798-09-30"> 1798, vor Sept. 30</date>
             <availability>
                <licence>
                   <p/>
@@ -98,6 +98,11 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listEvent>
+               <event type="origin" notAfter=" 1798-09-30">
+                  <label> 1798, vor Sept. 30</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>

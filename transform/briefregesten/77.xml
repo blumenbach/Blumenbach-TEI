@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace> Göttingen</pubPlace>
-            <date type="publication" notAfter=" 1779-10-19"> 1779, vor Okt. 19</date>
+            <date type="publication" when=" 1779-10-19"> 1779, vor Okt. 19</date>
             <availability>
                <licence>
                   <p/>
@@ -96,6 +96,11 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listEvent>
+               <event type="origin" notAfter=" 1779-10-19">
+                  <label> 1779, vor Okt. 19</label>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>

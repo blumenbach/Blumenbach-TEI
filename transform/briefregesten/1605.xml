@@ -38,7 +38,7 @@
                </address>
             </publisher>
             <pubPlace> 1829, vor Mai Hannover</pubPlace>
-            <date type="publication" notAfter=" 1829-05-01"/>
+            <date type="publication" when=" 1829-05-01"/>
             <availability>
                <licence>
                   <p/>
@@ -96,6 +96,11 @@
                   <date type="publication"/>
                </publicationStmt>
             </biblFull>
+            <listEvent>
+               <event type="origin" notAfter=" 1829-05-01">
+                  <label/>
+               </event>
+            </listEvent>
             <msDesc>
                <msIdentifier/>
                <physDesc>
