@@ -118,10 +118,19 @@
                                                    <date type="publication"><xsl:value-of select="./monogr/date"/></date>
                                                </imprint> 
                                            </xsl:when>
-                                           <xsl:otherwise>
-                                               <xsl:if test="./monogr/title[@type='main']"><title level="j" type="main"><xsl:value-of select="./monogr/title[@type='main']"/></title></xsl:if> 
-                                               
-                                               <xsl:if test="./monogr/title[@level='j'] or ./monogr/title[@level='a']">
+                                               <xsl:when test="./monogr/title[@level='a']">
+                                                   <xsl:if test="./monogr/title[@type='main']"><title level="a" type="main"><xsl:value-of select="./monogr/title[@type='main']"/></title></xsl:if>
+                                                   <xsl:if test="./monogr/title[@type='aut']"><title level="a" type="aut"><xsl:value-of select="./monogr/title[@type='aut']"/></title></xsl:if>
+                                                   <imprint>
+                                                       <publisher></publisher>
+                                                       <pubPlace></pubPlace>
+                                                       <date></date>  
+                                                   </imprint>
+                                               </xsl:when>   
+                                               <xsl:otherwise >                                                       
+                                                   <xsl:if test="./monogr/title[@type='main']"><title level="j" type="main"><xsl:value-of select="./monogr/title[@type='main']"/></title></xsl:if>                                                       
+                                                   <xsl:if test="./monogr/title[@type='aut']"><title level="j" type="aut"><xsl:value-of select="./monogr/title[@type='aut']"/></title></xsl:if>
+                                                   <xsl:if test="./monogr/title[@level='j'] or ./monogr/title[@level='a']">
                                                    <imprint>
                                                         <publisher></publisher>
                                                         <pubPlace></pubPlace>
@@ -135,7 +144,9 @@
                                            <xsl:if test="./monogr/extent"><extent><xsl:value-of select="./monogr/extent"/></extent> </xsl:if>
                                        </monogr>
                                        <xsl:if test="./monogr/citedRange"><citedRange><xsl:value-of select="./monogr/citedRange"/></citedRange></xsl:if> 
-                                       <xsl:if test="./ref/note"><note><xsl:value-of select="./ref/note"/></note> </xsl:if> 
+                                       <xsl:if test="./ref/note">
+                                           <ref><note><xsl:value-of select="./ref/note"/></note> </ref>
+                                       </xsl:if> 
                                        <ref><xsl:value-of select="./reference"/></ref>                      
                                          <xsl:if test="note">
                                             <xsl:for-each select="note">
@@ -162,9 +173,18 @@
                                                            <date type="publication"><xsl:value-of select="./monogr/date"/></date>
                                                        </imprint> 
                                                    </xsl:when>
-                                                   <xsl:otherwise>
-                                                       <xsl:if test="./monogr/title[@type='main']"><title level="j" type="main"><xsl:value-of select="./monogr/title[@type='main']"/></title></xsl:if> 
-                                                       
+                                                   <xsl:when test="./monogr/title[@level='a']">
+                                                       <xsl:if test="./monogr/title[@type='main']"><title level="a" type="main"><xsl:value-of select="./monogr/title[@type='main']"/></title></xsl:if>
+                                                       <xsl:if test="./monogr/title[@type='aut']"><title level="a" type="main"><xsl:value-of select="./monogr/title[@type='aut']"/></title></xsl:if>
+                                                       <imprint>
+                                                           <publisher></publisher>
+                                                           <pubPlace></pubPlace>
+                                                           <date></date>  
+                                                       </imprint>
+                                                   </xsl:when>   
+                                                   <xsl:otherwise >                                                       
+                                                       <xsl:if test="./monogr/title[@type='main']"><title level="j" type="main"><xsl:value-of select="./monogr/title[@type='main']"/></title></xsl:if>                                                       
+                                                       <xsl:if test="./monogr/title[@type='aut']"><title level="j" type="main"><xsl:value-of select="./monogr/title[@type='aut']"/></title></xsl:if>
                                                        <xsl:if test="./monogr/title[@level='j'] or ./monogr/title[@level='a']">
                                                            <imprint>
                                                                <publisher></publisher>
@@ -172,14 +192,14 @@
                                                                <date></date>  
                                                            </imprint>   
                                                            <biblScope><xsl:value-of select="./monogr/biblScope"/></biblScope>
-                                                       </xsl:if>
-                                                       <xsl:if test="./monogr/citedRange"><biblScope><xsl:value-of select="./monogr/citedRange"/></biblScope></xsl:if> 
+                                                       </xsl:if>                                                        
                                                    </xsl:otherwise>     
                                                </xsl:choose> 
                                                <xsl:if test="./monogr/extent"><extent><xsl:value-of select="./monogr/extent"/></extent> </xsl:if>
-                                           </monogr>                                           
+                                           </monogr>
+                                               <xsl:if test="./monogr/citedRange"><biblScope><xsl:value-of select="./monogr/citedRange"/></biblScope></xsl:if>
                                                <xsl:if test="./ref/note">
-                                                   <note><xsl:value-of select="./ref/note"/></note> 
+                                                   <ref><note><xsl:value-of select="./ref/note"/></note></ref> 
                                                </xsl:if> 
                                                <ref><xsl:value-of select="./reference"/></ref>                      
                                                <xsl:if test="note">
@@ -189,7 +209,7 @@
                                                </xsl:if>    
                                            </biblStruct> </relatedItem> 
                                                </xsl:if></xsl:for-each>             
-                                  </biblStruct> </relatedItem> </xsl:if></xsl:for-each>
+                                  </biblStruct></relatedItem> </xsl:if></xsl:for-each>
                            </biblStruct> 
                             <msDesc>
                                 <msIdentifier>

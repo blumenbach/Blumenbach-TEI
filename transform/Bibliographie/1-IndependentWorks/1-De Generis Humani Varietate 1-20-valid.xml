@@ -354,74 +354,102 @@
 
     <note>Die Vorlage enthält insgesamt 8 Bestandteile davon 3 Werke Blumenbachs in englischer Übersetzung (Titel laut Inhaltsvz.)</note>
     <relatedItem xmlid="bst-1"><monogr><title type="main" level="a">Memoir of J. F. Blumenbach</title>
-        <author>by K. F. H. Marx</author></monogr>
-        <monogr><note>Übersetzung von</note>[Lit.]<title type="main" level="m">Zum Andenken an Johann Friederich Blumenbach: Eine Gedächtniss-Rede</title>
-        <title type="aut" level="m" >von K. F. H. Marx</title>
-        <pubPlace>Göttingen</pubPlace>
-        <publisher> In der Dieterichschen Buchhandlung</publisher>
-        <date>1840</date></monogr>
+        <title type="aut" level="a">by K. F. H. Marx</title></monogr><ref><note>Übersetzung von</note></ref>
+        <relatedItem>[Lit.]<monogr><title type="main" level="m">Zum Andenken an Johann Friederich Blumenbach: Eine Gedächtniss-Rede</title>
+            <title type="aut" level="m" >von K. F. H. Marx</title>
+            <pubPlace>Göttingen</pubPlace>
+            <publisher> In der Dieterichschen Buchhandlung</publisher>
+            <date>1840</date></monogr>
+        </relatedItem>
     </relatedItem>
     <relatedItem xmlid="bst-2"><monogr><title type="main" level="a">Memoir of J. F. Blumenbach</title>
         <title type="aut" level="a">by M. Flourens; Übersetzung von</title></monogr>
+        <relatedItem>
               <monogr>[Lit.]<title type="main" level="m">Éloge historique de Jean-Frédéric Blumenbach : un des huit associés étrangers de lAcadémie</title>
-      <title type="aut" level="m">Par M. Flourens</title>
-        <pubPlace>Paris</pubPlace>
-        <publisher>librairie de Firmin Didot Frères</publisher>
-         <date>1847</date></monogr>
+                <title type="aut" level="m">Par M. Flourens</title>
+                 <pubPlace>Paris</pubPlace>
+                  <publisher>librairie de Firmin Didot Frères</publisher>
+                  <date>1847</date></monogr>
+        </relatedItem>
     </relatedItem>
-    <relatedItem xmlid="bst-3"><monogr><title type="main" level="a">On the natural variety of mankind</title><title type="ed" level="a">ed. 1775</title><note>Übersetzung von</note></monogr>        
+    <relatedItem xmlid="bst-3"><monogr><title type="main" level="a">On the natural variety of mankind</title><title type="ed" level="a">ed. 1775</title></monogr>
+        <ref><note>Übersetzung von</note></ref>
+        <relatedItem>        
             <monogr>[Lit.]<title type="main" level="m">De generis humani varietate nativa/ illustris facultatis medicae consensu pro gradu doctoris medicinae disputavit d. XVI. Sept. MDCCLXXV</title>
 	      <title type="aut" level="m">Ioann. Frider. Blumenbach Gothanus</title>
-    <pubPlace>Goettingae</pubPlace>
-        <publisher>Typis Frid. Andr. Rosenbuschii</publisher>
-        <date>[1775]</date>
+            <pubPlace>Goettingae</pubPlace>
+            <publisher>Typis Frid. Andr. Rosenbuschii</publisher>
+            <date>[1775]</date>
             </monogr><reference>1</reference>   
-    </relatedItem>
+        </relatedItem>
+    </relatedItem>    
     <relatedItem>
     <biblScope>S. 65-143</biblScope>        
-    <monogr><note>Enthält auf S. 99-100 in Anm. 4 (33. Mankind divided into five varieties) die englischsprachige Version von Paragraph 33 (Quinque generis humani varietates constituuntur, S. 51-52) aus</note>[Lit.]<title type="aut" level="m">Io. Frid. Blumenbachii</title>
+    <relatedItem><monogr>[Lit.]<title type="aut" level="m">Io. Frid. Blumenbachii</title>
             <title type="main" level="m">de generis humani varietate nativa liber: cum figuris aeri incisis</title>
             <title type="ed" level="m">Editio altera longe auctior et emendatior</title>
         <pubPlace>Goettingae</pubPlace>
         <publisher>Apud Viduam Abr. Vandenhoek</publisher>
         <date>1781</date>
-    </monogr> <reference>3</reference>
+    </monogr>
+        <ref><note>Enthält auf S. 99-100 in Anm. 4 (33. Mankind divided into five varieties) die englischsprachige Version von Paragraph 33 (Quinque generis humani varietates constituuntur, S. 51-52) aus</note></ref><reference>3</reference>
     </relatedItem>
     <relatedItem xmlid="bst-4"><monogr><title type="main" level="a">On the natural variety of mankind</title><title type="ed" level="a">3d ed., 1795</title>
-        <note>Übersetzung von</note></monogr>
-    <monogr>[Lit.]<title type="main" level="m">De generis humani varietate nativa</title>
-        <title type="aut" level="m">auctore Io. Frid. Blumenbach</title>
-        <title type="ed" level="m">Editio tertia praemissa est epistola ad<persName>Iosephum Banks</persName></title>
-        <pubPlace>Gottingae</pubPlace>
-        <publisher>Apud Vandenhoek et Ruprecht</publisher>
-        <date>1795</date>
-    </monogr>
-        <reference>4</reference>
-    </relatedItem>
+    </monogr><note>Übersetzung von</note>
+        <relatedItem>   
+            <monogr>[Lit.]<title type="main" level="m">De generis humani varietate nativa</title>
+                <title type="aut" level="m">auctore Io. Frid. Blumenbach</title>
+                <title type="ed" level="m">Editio tertia praemissa est epistola ad<persName>Iosephum Banks</persName></title>
+                <pubPlace>Gottingae</pubPlace>
+                <publisher>Apud Vandenhoek et Ruprecht</publisher>
+                <date>1795</date>
+            </monogr>
+            <reference>4</reference>
+        </relatedItem>
+    </relatedItem>    
     <relatedItem xmlid="bst-5"><monogr><title type="main" level="a">Contributions to natural history</title><title type="sub" level="a">pts. 1-2 (1806-1811)</title>
         <biblScope>S. 145-324.</biblScope>
-        <note>Übersetzung von</note></monogr>
-        <monogr>[Lit.]<title type="main" level="m">Beyträge zur Naturgeschichte</title>
-            <title type="aut" level="m">von Joh. Fr. Blumenbach</title>
-                <edition>Erster Theil, zweyte Ausgabe</edition>
+        </monogr><ref><note>Übersetzung von</note></ref></relatedItem>
+        <relatedItem>
+            <monogr>[Lit.]<title type="main" level="m">Beyträge zur Naturgeschichte</title>
+                 <title type="aut" level="m">von Joh. Fr. Blumenbach</title>
+                    <edition>Erster Theil, zweyte Ausgabe</edition>
                     <pubPlace>Göttingen</pubPlace>
                     <publisher>Bey Heinrich Dieterich</publisher>
                     <date>1806</date>
-</monogr>
+            </monogr>
         <reference>112</reference>
+        </relatedItem>
+    </relatedItem>    
+    <relatedItem><note>und</note>    
+        <monogr>[Lit.]<title type="main" level="m">Beyträge zur Naturgeschichte</title>
+         <title type="aut" level="m">Joh. Fr. Blumenbach</title>
+            <title type="ed" level="m">Zweyter Theil</title>
+            <pubPlace>Göttingen</pubPlace>
+            <publisher>Bey Heinrich Dieterich</publisher>
+            <date>1811</date>
+        </monogr><reference>113</reference>
     </relatedItem>
-    <relatedItem>    
-    <monogr><note>und</note>[Lit.]<title type="main" level="m">Beyträge zur Naturgeschichte</title>
-        <title type="aut" level="m">Joh. Fr. Blumenbach</title>
-        <title type="ed" level="m">Zweyter Theil. Göttingen: Bey Heinrich Dieterich, 1811</title>
-    </monogr><reference>113</reference>
+    <relatedItem xmlid="bst-6"><monogr><title type="main" level="a">Remarks on an Hippocratic macrocephalus</title>
+        <title type="aut" level="a">by J. F. Blumenbach</title>
+        <title type="main" level="j">GgA</title>
+        <biblScope>1833 (177. Stück, 4. November)</biblScope>
+        <citedRange>S. 1761-1763; Göttingen</citedRange>
+        </monogr>
+        <ref><note> Übersetzung von Blumenbachs Artikel aus</note></ref>
+        <reference>648</reference>
     </relatedItem>
-    <relatedItem xmlid="bst-6"><monogr><title type="main" level="a">Remarks on an Hippocratic macrocephalus</title><title type="aut" level="a">by J. F. Blumenbach</title><note> Übersetzung von Blumenbachs Artikel aus</note> GgA 1833 (177. Stück, 4. November), S. 1761-1763; Göttingen
-        <reference>648</reference></monogr>
+    <relatedItem xmlid="bst-7"><monogr><title type="main" level="a">An account of the Blumenbachian Museum</title>
+        <title type="aut" level="a">by R. Wagner</title>
+        <title type="main" level="a"> Die anthropologische Sammlung der Universität</title>
+        in <title type="main" level="j"> Nachrichten von der Georg-Augusts-Universität und der Königl. Gesellschaft der Wissenschaften zu Göttingen</title>
+        <biblScope>Bd. 14 (4. Okt.) 1856</biblScope>
+        <citedRange>S. 233-242.</citedRange></monogr>
+        <ref><note> Übersetzung des Artikels von Rudolph Wagner</note></ref>
     </relatedItem>
-    <relatedItem xmlid="bst-7"><monogr><title type="main" level="a">An account of the Blumenbachian Museum</title><title type="aut" level="a">by R. Wagner</title><note> Übersetzung des Artikels von </note>Rudolph Wagner<title type="aut" level="a"> Die anthropologische Sammlung der Universität</title>in Nachrichten von der Georg-Augusts-Universität und der Königl. Gesellschaft der Wissenschaften zu Göttingen, Bd. 14 (4. Okt.) 1856, S. 233-242.</monogr></relatedItem>
-    <relatedItem xmlid="bst-8"><monogr><title type="main" level="a">Inaugural disputation on the varieties of man</title><title type="aut" level="a">by J. Hunter, June 1775</title></monogr></relatedItem>
-
+    <relatedItem xmlid="bst-8"><monogr><title type="main" level="a">Inaugural disputation on the varieties of man</title>
+        <title type="aut" level="a">by J. Hunter, June 1775</title></monogr>
+    </relatedItem>
 <repository>SUB Göttingen</repository>
 <idno>8 ZOOL XI, 716</idno>
 </biblStruct>
@@ -486,7 +514,8 @@
     <category xml:id="1.2.2">
         <catDesc>Englisch</catDesc></category>
 <link>http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000012/00012.pdf</link>
-<title type="main" level="m">*The anthropological treatises of Johann Friedrich Blumenbach : with memoirs of him by Marx and Flourens, and an account of his anthropological museum by R. Wagner, and the inaugural dissertation of John Hunter, On the varieties of man</title>
+    <title type="main" level="m">*The anthropological treatises of Johann Friedrich Blumenbach</title>
+    <title type="sub" level="m">with memoirs of him by Marx and Flourens, and an account of his anthropological museum by R. Wagner, and the inaugural dissertation of John Hunter, On the varieties of man</title>
     <title type="profile">Translated and edited from the Latin, German, and French originals by Thomas Bendyshe</title>
     <source><certainty>no autopsy</certainty></source>
     <editor role="translator">Thomas Bendyshe</editor>
@@ -677,13 +706,13 @@
 <relatedItem> <monogr>
 <persName>Henri Augustin Le Pileur</persName>
    [Lit.]<title type="main" level="m">Mélanges dhistoire, de litterature, de géographie, de morale</title> 
-        <title type="aut">Par H. A. L. P</title>
-    <note>Á Leide, chez la veuve M. Cyfveer, J. Z.</note> 
+        <title type="aut">Par H. A. L. P</title>     
     <pubPlace> À Paris</pubPlace>
     <publisher> chez Th. Barrois et Tourneisen</publisher>
     <date>MDCCCVIII - MDCCCIX</date>
         <extent>3 Bde. (1 X, [104] S., 272 S., 1 gef. Bl. : 2 Ill (Tabellen) ; 2: 414 S.; 3: 423 S.), Bd. 1, S. 225-269</extent>
         </monogr>
+    <note>Á Leide, chez la veuve M. Cyfveer, J. Z.</note>
     <ref><note>Auszüge hieraus angefertigt und durch Paraphrasen des Originaltexts verbunden von in</note></ref> 
     <reference>http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#LePileur1808</reference>
 </relatedItem>

@@ -88,7 +88,9 @@
                            <date type="publication"/>
                         </imprint>
                      </monogr>
-                     <note>Auszug aus Abschnitt 3</note>
+                     <ref>
+                        <note>Auszug aus Abschnitt 3</note>
+                     </ref>
                      <ref/>
                      <relatedItem>
                         <biblStruct>
@@ -103,7 +105,9 @@
                                  <date type="publication">2006</date>
                               </imprint>
                            </monogr>
-                           <note>abgedruckt als in</note>
+                           <ref>
+                              <note>abgedruckt als in</note>
+                           </ref>
                            <ref/>
                         </biblStruct>
                      </relatedItem>
@@ -157,7 +161,6 @@
             <classCode scheme="cat">Originalausgaben</classCode>
             <classCode scheme="cat">Übersetzungen</classCode>
             <classCode scheme="cat">Englisch</classCode>
-            <classCode scheme=""/>
          </textClass>
       </profileDesc>
    </teiHeader>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">*The anthropological treatises of Johann Friedrich Blumenbach : with memoirs of him by Marx and Flourens, and an account of his anthropological museum by R. Wagner, and the inaugural dissertation of John Hunter, On the varieties of man</title>
+            <title type="main">*The anthropological treatises of Johann Friedrich Blumenbach</title>
             <author>
                <persName ref=" http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -54,7 +54,8 @@
          <sourceDesc>
             <biblStruct>
                <monogr>
-                  <title level="m" type="main">*The anthropological treatises of Johann Friedrich Blumenbach : with memoirs of him by Marx and Flourens, and an account of his anthropological museum by R. Wagner, and the inaugural dissertation of John Hunter, On the varieties of man</title>
+                  <title level="m" type="main">*The anthropological treatises of Johann Friedrich Blumenbach</title>
+                  <title level="m" type="sub">with memoirs of him by Marx and Flourens, and an account of his anthropological museum by R. Wagner, and the inaugural dissertation of John Hunter, On the varieties of man</title>
                   <author>
                      <persName ref=" http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
@@ -87,7 +88,9 @@
                            <date type="publication">1865</date>
                         </imprint>
                      </monogr>
-                     <note> Nachdruck der Ausgabe</note>
+                     <ref>
+                        <note> Nachdruck der Ausgabe</note>
+                     </ref>
                      <ref>10</ref>
                   </biblStruct>
                </relatedItem>
@@ -138,7 +141,6 @@
             <classCode scheme="cat">Originalausgaben</classCode>
             <classCode scheme="cat">Übersetzungen</classCode>
             <classCode scheme="cat">Englisch</classCode>
-            <classCode scheme=""/>
          </textClass>
       </profileDesc>
    </teiHeader>
