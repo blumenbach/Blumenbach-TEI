@@ -5,7 +5,7 @@
          <titleStmt>
             <title type="main">über die natürlichen Verschiedenheiten im Menschengeschlechte: mit Kupfern</title>
             <author>
-               <persName ref=" http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+               <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
             <editor>
                <persName ref="http://viaf.org/viaf/">
@@ -58,10 +58,10 @@
                   <title level="m" type="aut">D. Joh. Friedr. Blumenbach</title>
                   <title level="m" type="ed">Nach der dritten Ausgabe und den Erinnerungen des Verfassers übersetzt und mit einigen Zusätzen und erläuternden Anmerkungen herausgegeben von Johann Gottfried Gruber</title>
                   <author>
-                     <persName ref=" http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+                     <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                   <editor>
-                     <persName ref=" http://viaf.org/viaf">Johann Gottfried Gruber</persName>
+                     <persName ref="http://viaf.org/viaf">Johann Gottfried Gruber</persName>
                   </editor>
                   <imprint>
                      <publisher>
@@ -71,14 +71,14 @@
                      <date type="publication">1798</date>
                   </imprint>
                </monogr>
-               <note/>
+               <note>Widmungsempfänger: Johann Gottfried von Herder</note>
                <note>
                   <ref>http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000008/00008.pdf</ref>
                </note>
                <note>
                   <ref>http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000008/000008.html</ref>
                </note>
-               <relatedItem>
+               <relatedItem xml:id="relatedItem_d1e671">
                   <biblStruct>
                      <monogr>
                         <title level="j" type="main">Göttingische Anzeigen von gelehrten Sachen</title>
@@ -96,7 +96,7 @@
                      <ref>404</ref>
                   </biblStruct>
                </relatedItem>
-               <relatedItem>
+               <relatedItem xml:id="relatedItem_d1e694">
                   <biblStruct>
                      <monogr>
                         <title level="m" type="main"> Kleine Schriften zur vergleichenden Physiologie und Anatomie und Naturgeschichte gehörig</title>
@@ -110,31 +110,32 @@
                            <date type="publication">1800</date>
                         </imprint>
                      </monogr>
+                     <citedRange>S. 143-165</citedRange>
                      <ref>
                         <note>Bearbeitete Auszüge in &#x84;III. Auszüge aus der Sammlung von Hirnschädeln verschiedener Nationen.  Als Beitrag zur Naturgeschichte der Menschenspecies&#x93;, in</note>
                      </ref>
                      <ref>148</ref>
+                     <relatedItem>
+                        <biblStruct>
+                           <monogr>
+                              <title level="j" type="main">Neue allgemeine deutsche Bibliothek</title>
+                              <imprint>
+                                 <publisher/>
+                                 <pubPlace/>
+                                 <date/>
+                              </imprint>
+                              <biblScope>Bd. 47, 1. St. (1799)</biblScope>
+                           </monogr>
+                           <citedRange>S. 314: &#x84;Aber vor allen Dingen hätte nur Hr. Gr. richtig übersetzen sollen, [&#x85;].&#x93;</citedRange>
+                           <ref>
+                              <note>Die geringe Qualität von Grubers Übersetzung wurde schon von Zeitgenossen bemängelt, z. B. in</note>
+                           </ref>
+                           <ref/>
+                        </biblStruct>
+                     </relatedItem>
                   </biblStruct>
                </relatedItem>
-               <relatedItem>
-                  <biblStruct>
-                     <monogr>
-                        <title level="j" type="main">Neue allgemeine deutsche Bibliothek</title>
-                        <imprint>
-                           <publisher/>
-                           <pubPlace/>
-                           <date/>
-                        </imprint>
-                        <biblScope>Bd. 47, 1. St. (1799)</biblScope>
-                     </monogr>
-                     <citedRange>S. 314: &#x84;Aber vor allen Dingen hätte nur Hr. Gr. richtig übersetzen sollen, [&#x85;].&#x93;</citedRange>
-                     <ref>
-                        <note>Die geringe Qualität von Grubers Übersetzung wurde schon von Zeitgenossen bemängelt, z. B. in</note>
-                     </ref>
-                     <ref/>
-                  </biblStruct>
-               </relatedItem>
-               <relatedItem>
+               <relatedItem xml:id="relatedItem_d1e749">
                   <biblStruct>
                      <monogr>
                         <title level="m" type="main">kleine Schriften zur vergleichenden Physiologie und Anatomie und zur Naturgeschichte gehörig</title>

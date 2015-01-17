@@ -5,7 +5,7 @@
          <titleStmt>
             <title type="main">The anthropological treatises of Johann Friedrich Blumenbach</title>
             <author>
-               <persName ref=" http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+               <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
             <editor>
                <persName ref="http://viaf.org/viaf/">
@@ -58,10 +58,10 @@
                   <title level="m" type="sub">with memoirs of him by Marx and Flourens, and an account of his anthropological museum by</title>
                   <title level="m" type="sub">R. Wagner, and the inaugural dissertation of John Hunter &#x85; on the varieties of man</title>
                   <author>
-                     <persName ref=" http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+                     <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                   <editor>
-                     <persName ref=" http://viaf.org/viaf">Thomas Bendyshe</persName>
+                     <persName ref="http://viaf.org/viaf">Thomas Bendyshe</persName>
                   </editor>
                   <imprint>
                      <publisher>
@@ -71,22 +71,24 @@
                      <date type="publication">1865</date>
                   </imprint>
                </monogr>
-               <note/>
+               <note>Die Vorlage enthält insgesamt 8 Bestandteile davon 3 Werke Blumenbachs in englischer Übersetzung (Titel laut Inhaltsvz.)</note>
                <note>
                   <ref>http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000010/00010.pdf</ref>
                </note>
                <note>
                   <ref>http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000010/000010.html</ref>
                </note>
-               <relatedItem>
+               <relatedItem xml:id="relatedItem_d1e989">
                   <biblStruct>
                      <monogr>
-                        <title level="a" type="main">&#x84;Memoir of J. F. Blumenbach&#x93;</title>
-                        <title level="a" type="aut">by K. F. H. Marx</title>
+                        <title level="m" type="main">&#x84;Memoir of J. F. Blumenbach&#x93;</title>
+                        <title level="m" type="aut">by K. F. H. Marx</title>
                         <imprint>
-                           <publisher/>
+                           <publisher>
+                              <name/>
+                           </publisher>
                            <pubPlace/>
-                           <date/>
+                           <date type="publication"/>
                         </imprint>
                      </monogr>
                      <ref>
@@ -111,17 +113,22 @@
                      </relatedItem>
                   </biblStruct>
                </relatedItem>
-               <relatedItem>
+               <relatedItem xml:id="relatedItem_d1e1021">
                   <biblStruct>
                      <monogr>
-                        <title level="a" type="main">&#x84;Memoir of J. F. Blumenbach&#x93;</title>
-                        <title level="a" type="aut">by M. Flourens; Übersetzung von</title>
+                        <title level="m" type="main">&#x84;Memoir of J. F. Blumenbach&#x93;</title>
+                        <title level="m" type="aut">by M. Flourens</title>
                         <imprint>
-                           <publisher/>
+                           <publisher>
+                              <name/>
+                           </publisher>
                            <pubPlace/>
-                           <date/>
+                           <date type="publication"/>
                         </imprint>
                      </monogr>
+                     <ref>
+                        <note> Übersetzung von</note>
+                     </ref>
                      <ref/>
                      <relatedItem>
                         <biblStruct>
@@ -141,14 +148,17 @@
                      </relatedItem>
                   </biblStruct>
                </relatedItem>
-               <relatedItem>
+               <relatedItem xml:id="relatedItem_d1e1053">
                   <biblStruct>
                      <monogr>
-                        <title level="a" type="main">&#x84;On the natural variety of mankind&#x93;</title>
+                        <title level="m" type="main">&#x84;On the natural variety of mankind&#x93;</title>
+                        <title level="m" type="ed">ed. 1775</title>
                         <imprint>
-                           <publisher/>
+                           <publisher>
+                              <name/>
+                           </publisher>
                            <pubPlace/>
-                           <date/>
+                           <date type="publication"/>
                         </imprint>
                      </monogr>
                      <ref>
@@ -158,7 +168,8 @@
                      <relatedItem>
                         <biblStruct>
                            <monogr>
-                              <title level="m" type="main">De generis humani varietate nativa/ illustris facultatis medicae consensu pro gradu doctoris medicinae disputavit d. XVI. Sept. MDCCLXXV</title>
+                              <title level="m" type="main">De generis humani varietate nativa</title>
+                              <title level="m" type="sub">illustris facultatis medicae consensu pro gradu doctoris medicinae disputavit d. XVI. Sept. MDCCLXXV</title>
                               <title level="m" type="aut">Ioann. Frider. Blumenbach Gothanus</title>
                               <imprint>
                                  <publisher>
@@ -173,7 +184,96 @@
                      </relatedItem>
                   </biblStruct>
                </relatedItem>
-               <relatedItem>
+               <relatedItem xml:id="relatedItem_d1e1092">
+                  <biblStruct>
+                     <monogr>
+                        <title level="m" type="main">de generis humani varietate nativa liber: cum figuris aeri incisis</title>
+                        <title level="m" type="aut">Io. Frid. Blumenbachii</title>
+                        <title level="m" type="ed">Editio altera longe auctior et emendatior</title>
+                        <imprint>
+                           <publisher>
+                              <name>Apud Viduam Abr. Vandenhoek</name>
+                           </publisher>
+                           <pubPlace>Goettingae</pubPlace>
+                           <date type="publication">1781</date>
+                        </imprint>
+                     </monogr>
+                     <ref>
+                        <note>S. 65-143. Enthält auf S. 99-100 in Anm. 4 (&#x84;33. Mankind divided into five varieties&#x93;) die englischsprachige Version von Paragraph 33 (&#x84;Quinque generis humani varietates constituuntur&#x93;, S. 51-52) aus</note>
+                     </ref>
+                     <ref>3</ref>
+                  </biblStruct>
+               </relatedItem>
+               <relatedItem xml:id="relatedItem_d1e1120">
+                  <biblStruct>
+                     <monogr>
+                        <title level="m" type="main">&#x84;On the natural variety of mankind&#x93;</title>
+                        <title level="m" type="ed">3d ed., 1795</title>
+                        <imprint>
+                           <publisher>
+                              <name/>
+                           </publisher>
+                           <pubPlace/>
+                           <date type="publication"/>
+                        </imprint>
+                     </monogr>
+                     <ref/>
+                     <note>Übersetzung von</note>
+                     <relatedItem>
+                        <biblStruct>
+                           <monogr>
+                              <title level="m" type="main">De generis humani varietate nativa</title>
+                              <title level="m" type="aut">auctore Io. Frid. Blumenbach</title>
+                              <title level="m" type="ed">Editio tertia praemissa est epistola ad Iosephum Banks</title>
+                              <imprint>
+                                 <publisher>
+                                    <name>Apud Vandenhoek et Ruprecht</name>
+                                 </publisher>
+                                 <pubPlace>Gottingae</pubPlace>
+                                 <date type="publication">1795</date>
+                              </imprint>
+                           </monogr>
+                           <ref>4</ref>
+                        </biblStruct>
+                     </relatedItem>
+                  </biblStruct>
+               </relatedItem>
+               <relatedItem xml:id="relatedItem_d1e1161">
+                  <biblStruct>
+                     <monogr>
+                        <title level="m" type="main">&#x84;Contributions to natural history&#x93;</title>
+                        <title level="m" type="sub">pts. 1-2 (1806-1811)</title>
+                        <imprint>
+                           <publisher>
+                              <name/>
+                           </publisher>
+                           <pubPlace/>
+                           <date type="publication"/>
+                        </imprint>
+                     </monogr>
+                     <ref>
+                        <note>Übersetzung von</note>
+                     </ref>
+                     <ref/>
+                     <relatedItem>
+                        <biblStruct>
+                           <monogr>
+                              <title level="m" type="main">Beyträge zur Naturgeschichte</title>
+                              <title level="m" type="aut">von Joh. Fr. Blumenbach</title>
+                              <imprint>
+                                 <publisher>
+                                    <name>Bey Heinrich Dieterich</name>
+                                 </publisher>
+                                 <pubPlace>Göttingen</pubPlace>
+                                 <date type="publication">1806</date>
+                              </imprint>
+                           </monogr>
+                           <ref>112</ref>
+                        </biblStruct>
+                     </relatedItem>
+                  </biblStruct>
+               </relatedItem>
+               <relatedItem xml:id="relatedItem_d1e1204">
                   <biblStruct>
                      <monogr>
                         <title level="m" type="main">Beyträge zur Naturgeschichte</title>
@@ -191,16 +291,20 @@
                      <note>und</note>
                   </biblStruct>
                </relatedItem>
-               <relatedItem>
+               <relatedItem xml:id="relatedItem_d1e1234">
                   <biblStruct>
-                     <monogr>
-                        <title level="a" type="main">&#x84;Remarks on an Hippocratic macrocephalus&#x93; GgA</title>
+                     <analytic>
+                        <title level="a" type="main">&#x84;Remarks on an Hippocratic macrocephalus&#x93;</title>
                         <title level="a" type="aut">by J. F. Blumenbach</title>
+                     </analytic>
+                     <monogr>
+                        <title level="j" type="main">GgA</title>
                         <imprint>
                            <publisher/>
                            <pubPlace/>
                            <date/>
                         </imprint>
+                        <biblScope>1833 (177. Stück, 4. November)</biblScope>
                      </monogr>
                      <citedRange>S. 1761-1763; &#x84;Göttingen&#x93;</citedRange>
                      <ref>
@@ -209,16 +313,20 @@
                      <ref>648</ref>
                   </biblStruct>
                </relatedItem>
-               <relatedItem>
+               <relatedItem xml:id="relatedItem_d1e1262">
                   <biblStruct>
-                     <monogr>
-                        <title level="a" type="main">&#x84;An account of the Blumenbachian Museum&#x93;  &#x84;Die anthropologische Sammlung der Universität&#x93;  Nachrichten von der Georg-Augusts-Universität und der Königl. Gesellschaft der Wissenschaften zu Göttingen</title>
+                     <analytic>
+                        <title level="a" type="main">&#x84;An account of the Blumenbachian Museum&#x93;  &#x84;Die anthropologische Sammlung der Universität&#x93;</title>
                         <title level="a" type="aut">by R. Wagner</title>
+                     </analytic>
+                     <monogr>
+                        <title level="j" type="main"> Nachrichten von der Georg-Augusts-Universität und der Königl. Gesellschaft der Wissenschaften zu Göttingen</title>
                         <imprint>
                            <publisher/>
                            <pubPlace/>
                            <date/>
                         </imprint>
+                        <biblScope>Bd. 14 (4. Okt.) 1856</biblScope>
                      </monogr>
                      <citedRange>S. 233-242.</citedRange>
                      <ref>
@@ -227,15 +335,17 @@
                      <ref/>
                   </biblStruct>
                </relatedItem>
-               <relatedItem>
+               <relatedItem xml:id="relatedItem_d1e1289">
                   <biblStruct>
                      <monogr>
-                        <title level="a" type="main">&#x84;Inaugural disputation on the varieties of man&#x93;</title>
-                        <title level="a" type="aut">by J. Hunter, June 1775</title>
+                        <title level="m" type="main">&#x84;Inaugural disputation on the varieties of man&#x93;</title>
+                        <title level="m" type="aut">by J. Hunter, June 1775</title>
                         <imprint>
-                           <publisher/>
+                           <publisher>
+                              <name/>
+                           </publisher>
                            <pubPlace/>
-                           <date/>
+                           <date type="publication"/>
                         </imprint>
                      </monogr>
                      <ref/>

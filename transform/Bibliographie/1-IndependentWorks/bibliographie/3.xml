@@ -5,7 +5,7 @@
          <titleStmt>
             <title type="main">de generis humani varietate nativa liber : cum figuris aeri incisis</title>
             <author>
-               <persName ref=" http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+               <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
             <editor>
                <persName ref="http://viaf.org/viaf/">
@@ -58,10 +58,10 @@
                   <title level="m" type="aut">Io. Frid. Blumenbachii</title>
                   <title level="m" type="ed">Editio altera longe auctior et emendatior</title>
                   <author>
-                     <persName ref=" http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+                     <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                   <editor>
-                     <persName ref=" http://viaf.org/viaf"/>
+                     <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
@@ -71,15 +71,15 @@
                      <date type="publication">1781</date>
                   </imprint>
                </monogr>
-               <note/>
-               <note/>
+               <note>Erscheinungsjahr in der Vorlage als Chronogramm</note>
+               <note>Widmungsempfänger: Heinrich Blumenbach</note>
                <note>
                   <ref>http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000001/000003.html</ref>
                </note>
                <note>
                   <ref>http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000001/00003.pdf</ref>
                </note>
-               <relatedItem>
+               <relatedItem xml:id="relatedItem_d1e202">
                   <biblStruct>
                      <monogr>
                         <title level="j" type="main">Göttingische Anzeigen von gelehrten Sachen</title>
@@ -97,7 +97,7 @@
                      <ref>226</ref>
                   </biblStruct>
                </relatedItem>
-               <relatedItem>
+               <relatedItem xml:id="relatedItem_d1e223">
                   <biblStruct>
                      <monogr>
                         <title level="m" type="main">The correspondence of Johann Friedrich Blumenbach</title>
@@ -117,12 +117,13 @@
                      <ref>157</ref>
                   </biblStruct>
                </relatedItem>
-               <relatedItem>
+               <relatedItem xml:id="relatedItem_d1e247">
                   <biblStruct>
                      <monogr>
                         <title level="m" type="main">The anthropological treatises of Johann Friedrich Blumenbach</title>
                         <title level="m" type="sub">with memoirs of him by Marx and Flourens, and an account of his anthropological museum by</title>
-                        <title level="m" type="sub">R. Wagner, and the inaugural dissertation of John Hunter &#x85; on the varieties of man/ Translated and edited from the Latin, German, and French originals, by Thomas Bendyshe</title>
+                        <title level="m" type="sub">R. Wagner, and the inaugural dissertation of John Hunter &#x85; on the varieties of man</title>
+                        <title level="m" type="ed">Translated and edited from the Latin, German, and French originals, by Thomas Bendyshe</title>
                         <imprint>
                            <publisher>
                               <name>Longman, Roberts and Green</name>
