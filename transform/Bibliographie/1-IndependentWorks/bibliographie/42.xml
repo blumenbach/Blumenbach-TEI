@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">*The anthropological treatises of Johann Friedrich Blumenbach</title>
+            <title type="main">*Handbuch der Naturgeschichte : mit zwey Kupfertafeln</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -44,7 +44,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML">bibliographie/12.xml</idno>
+               <idno type="URLXML">bibliographie/42.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -52,57 +52,40 @@
          <sourceDesc>
             <biblStruct>
                <monogr>
-                  <title level="m" type="main">*The anthropological treatises of Johann Friedrich Blumenbach</title>
-                  <title level="m" type="sub">with memoirs of him by Marx and Flourens, and an account of his anthropological museum by R. Wagner, and the inaugural dissertation of John Hunter, On the varieties of man</title>
+                  <title level="m" type="main">*Handbuch der Naturgeschichte : mit zwey Kupfertafeln</title>
+                  <title level="m" type="aut">von Joh. Fried. Blumenbach</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
+                  <edition>Zwölfte Ausgabe</edition>
                   <editor>
-                     <persName ref="http://viaf.org/viaf">Thomas Bendyshe</persName>
+                     <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Milford House</name>
+                        <name>Bey Mich. Lechner</name>
                      </publisher>
-                     <pubPlace>Boston</pubPlace>
-                     <date type="publication">[1973]</date>
+                     <pubPlace>Wien</pubPlace>
+                     <date type="publication">1832</date>
                   </imprint>
                </monogr>
                <note>
-                  <ref>http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000012/00012.pdf</ref>
+                  <ref>http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000042/00042.pdf</ref>
                </note>
-               <relatedItem xml:id="relatedItem_d1e1506">
-                  <biblStruct>
-                     <monogr>
-                        <title level="m" type="main">The anthropological treatises of Johann Friedrich Blumenbach</title>
-                        <title level="m" type="sub">with memoirs of him by Marx and Flourens and an account of his anthropological museum by</title>
-                        <title level="m" type="sub">R. Wagner and the inaugural dissertation of John Hunter on the varieties of man</title>
-                        <title level="m" type="pro">Translated and edited from the Latin, German, and French originals, by Thomas Bendyshe</title>
-                        <imprint>
-                           <publisher>
-                              <name>Longman, Green, Longman, Roberts, and Green</name>
-                           </publisher>
-                           <pubPlace>London</pubPlace>
-                           <date type="publication">1865</date>
-                        </imprint>
-                     </monogr>
-                     <ref>
-                        <note> Nachdruck der Ausgabe</note>
-                     </ref>
-                     <ref>10</ref>
-                  </biblStruct>
-               </relatedItem>
+               <note>
+                  <ref>http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000042/000042.html</ref>
+               </note>
             </biblStruct>
             <msDesc>
                <msIdentifier>
-                  <repository>London, British Library</repository>
-                  <idno>74/2296 DSC</idno>
+                  <repository>Frankfurt a.M.: Universitätsbibliothek Johann Christian Senckenberg</repository>
+                  <idno>8 Q 5.42</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>XIV, 406 S., Ill.<dimensions>
-                              <dim>22 cm (8°)</dim>
+                        <extent>VIII, 531 S.,II Bl.: 2 Ill. (Kupferst.)<dimensions>
+                              <dim>20 cm (8°)</dim>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -127,12 +110,12 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="en-EN"/>
+            <language ident="de-DE"/>
          </langUsage>
          <textDesc>
             <channel mode="w"/>
             <constitution type="single"/>
-            <derivation type="translation"/>
+            <derivation/>
             <domain type="academic"/>
             <factuality/>
             <interaction/>
@@ -140,12 +123,11 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00012</classCode>
+            <classCode scheme="BiblNr">00042</classCode>
             <classCode scheme="cat">Selbständig erschienene Werke</classCode>
-            <classCode scheme="cat">De Generis Humani Varietate</classCode>
+            <classCode scheme="cat">Handbuch der Naturgeschichte</classCode>
             <classCode scheme="cat">Originalausgaben</classCode>
-            <classCode scheme="cat">Übersetzungen</classCode>
-            <classCode scheme="cat">Englisch</classCode>
+            <classCode scheme="cat">Deutschsprachige Ausgaben aus Österreich</classCode>
          </textClass>
       </profileDesc>
    </teiHeader>

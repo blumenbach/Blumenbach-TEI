@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">*The anthropological treatises of Johann Friedrich Blumenbach</title>
+            <title type="main">Handbuch der Naturgeschichte</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -44,7 +44,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML">bibliographie/12.xml</idno>
+               <idno type="URLXML">bibliographie/39.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -52,57 +52,38 @@
          <sourceDesc>
             <biblStruct>
                <monogr>
-                  <title level="m" type="main">*The anthropological treatises of Johann Friedrich Blumenbach</title>
-                  <title level="m" type="sub">with memoirs of him by Marx and Flourens, and an account of his anthropological museum by R. Wagner, and the inaugural dissertation of John Hunter, On the varieties of man</title>
+                  <title level="m" type="main">Handbuch der Naturgeschichte</title>
+                  <title level="m" type="aut">von Joh. Fried. Blumenbach.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
+                  <edition>Eilfte [sic] rechtmäßige Auflage</edition>
                   <editor>
-                     <persName ref="http://viaf.org/viaf">Thomas Bendyshe</persName>
+                     <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Milford House</name>
+                        <name>In der Dieterich&#x92;schen Buchhandlung</name>
                      </publisher>
-                     <pubPlace>Boston</pubPlace>
-                     <date type="publication">[1973]</date>
+                     <pubPlace>Göttingen</pubPlace>
+                     <date type="publication">1825.</date>
                   </imprint>
                </monogr>
+               <note>Vignette auf Titelblatt.</note>
                <note>
-                  <ref>http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000012/00012.pdf</ref>
+                  <ref>http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000039/00039.pdf</ref>
                </note>
-               <relatedItem xml:id="relatedItem_d1e1506">
-                  <biblStruct>
-                     <monogr>
-                        <title level="m" type="main">The anthropological treatises of Johann Friedrich Blumenbach</title>
-                        <title level="m" type="sub">with memoirs of him by Marx and Flourens and an account of his anthropological museum by</title>
-                        <title level="m" type="sub">R. Wagner and the inaugural dissertation of John Hunter on the varieties of man</title>
-                        <title level="m" type="pro">Translated and edited from the Latin, German, and French originals, by Thomas Bendyshe</title>
-                        <imprint>
-                           <publisher>
-                              <name>Longman, Green, Longman, Roberts, and Green</name>
-                           </publisher>
-                           <pubPlace>London</pubPlace>
-                           <date type="publication">1865</date>
-                        </imprint>
-                     </monogr>
-                     <ref>
-                        <note> Nachdruck der Ausgabe</note>
-                     </ref>
-                     <ref>10</ref>
-                  </biblStruct>
-               </relatedItem>
             </biblStruct>
             <msDesc>
                <msIdentifier>
-                  <repository>London, British Library</repository>
-                  <idno>74/2296 DSC</idno>
+                  <repository>SUB Göttingen</repository>
+                  <idno>Cod. Ms. Blumenbach 12</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>XIV, 406 S., Ill.<dimensions>
-                              <dim>22 cm (8°)</dim>
+                        <extent>S. 1-640 <dimensions>
+                              <dim>23 cm (8°)</dim>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -113,12 +94,12 @@
                      <recordHist>
                         <source>
                            <certainty locus="location">
-                              <desc>no autopsy</desc>
+                              <desc/>
                            </certainty>
                         </source>
                      </recordHist>
                      <note>
-                        <p/>
+                        <p>Durchschossenes, unvollständiges Exemplar. Mit sehr zahlreichen handschriftl. Zusätzen. Ohne Tafeln.</p>
                      </note>
                   </adminInfo>
                </additional>
@@ -127,12 +108,12 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="en-EN"/>
+            <language ident="de-DE"/>
          </langUsage>
          <textDesc>
             <channel mode="w"/>
             <constitution type="single"/>
-            <derivation type="translation"/>
+            <derivation/>
             <domain type="academic"/>
             <factuality/>
             <interaction/>
@@ -140,12 +121,11 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00012</classCode>
+            <classCode scheme="BiblNr">00039</classCode>
             <classCode scheme="cat">Selbständig erschienene Werke</classCode>
-            <classCode scheme="cat">De Generis Humani Varietate</classCode>
+            <classCode scheme="cat">Handbuch der Naturgeschichte</classCode>
             <classCode scheme="cat">Originalausgaben</classCode>
-            <classCode scheme="cat">Übersetzungen</classCode>
-            <classCode scheme="cat">Englisch</classCode>
+            <classCode scheme="cat">Blumenbachs Handexemplare</classCode>
          </textClass>
       </profileDesc>
    </teiHeader>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">*The anthropological treatises of Johann Friedrich Blumenbach</title>
+            <title type="main">Hand-Boek der natuurlijke historie of natuur-geschiedenis : met afbeeldingen</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -44,7 +44,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML">bibliographie/12.xml</idno>
+               <idno type="URLXML">bibliographie/50.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -52,57 +52,59 @@
          <sourceDesc>
             <biblStruct>
                <monogr>
-                  <title level="m" type="main">*The anthropological treatises of Johann Friedrich Blumenbach</title>
-                  <title level="m" type="sub">with memoirs of him by Marx and Flourens, and an account of his anthropological museum by R. Wagner, and the inaugural dissertation of John Hunter, On the varieties of man</title>
+                  <title level="m" type="main">Hand-Boek der natuurlijke historie of natuur-geschiedenis : met afbeeldingen</title>
+                  <title level="m" type="aut">door J. F. Blumenbach</title>
+                  <title level="m" type="ed">Uit het Hoogduitsch vertaald vermeerd door J. A. Bennet en G. van Olivier</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                   <editor>
-                     <persName ref="http://viaf.org/viaf">Thomas Bendyshe</persName>
+                     <persName ref="http://viaf.org/viaf">J. A. Bennet en G. van Olivier</persName>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Milford House</name>
+                        <name>Bij Herdingh</name>
                      </publisher>
-                     <pubPlace>Boston</pubPlace>
-                     <date type="publication">[1973]</date>
+                     <pubPlace>Leyden</pubPlace>
+                     <date type="publication">MDCCCII</date>
                   </imprint>
                </monogr>
+               <note>Laut Berghaus Übersetzung der sechsten Auflage</note>
                <note>
-                  <ref>http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000012/00012.pdf</ref>
+                  <ref>http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000050/00050.pdf</ref>
                </note>
-               <relatedItem xml:id="relatedItem_d1e1506">
+               <note>
+                  <ref>http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000050/000050.html</ref>
+               </note>
+               <relatedItem xml:id="relatedItem_d1e4745">
                   <biblStruct>
                      <monogr>
-                        <title level="m" type="main">The anthropological treatises of Johann Friedrich Blumenbach</title>
-                        <title level="m" type="sub">with memoirs of him by Marx and Flourens and an account of his anthropological museum by</title>
-                        <title level="m" type="sub">R. Wagner and the inaugural dissertation of John Hunter on the varieties of man</title>
-                        <title level="m" type="pro">Translated and edited from the Latin, German, and French originals, by Thomas Bendyshe</title>
+                        <title level="j" type="main">GgA</title>
                         <imprint>
-                           <publisher>
-                              <name>Longman, Green, Longman, Roberts, and Green</name>
-                           </publisher>
-                           <pubPlace>London</pubPlace>
-                           <date type="publication">1865</date>
+                           <publisher/>
+                           <pubPlace/>
+                           <date/>
                         </imprint>
+                        <biblScope>1804 (174. Stück, 1. November)</biblScope>
                      </monogr>
+                     <citedRange>S. 1735-1736; &#x84;Leyden&#x93;.</citedRange>
                      <ref>
-                        <note> Nachdruck der Ausgabe</note>
+                        <note>Rezensiert von Johann Isaak Berghaus in</note>
                      </ref>
-                     <ref>10</ref>
+                     <ref/>
                   </biblStruct>
                </relatedItem>
             </biblStruct>
             <msDesc>
                <msIdentifier>
-                  <repository>London, British Library</repository>
-                  <idno>74/2296 DSC</idno>
+                  <repository>SUB Göttingen</repository>
+                  <idno>8 H NAT I, 7253</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>XIV, 406 S., Ill.<dimensions>
-                              <dim>22 cm (8°)</dim>
+                        <extent>[1] Bl., XXIV, 1062 S., II Bl.: 2 Ill. (Kupferst.)<dimensions>
+                              <dim>23 cm (8°)</dim>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -113,7 +115,7 @@
                      <recordHist>
                         <source>
                            <certainty locus="location">
-                              <desc>no autopsy</desc>
+                              <desc/>
                            </certainty>
                         </source>
                      </recordHist>
@@ -127,7 +129,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="en-EN"/>
+            <language ident="nl-NL"/>
          </langUsage>
          <textDesc>
             <channel mode="w"/>
@@ -140,12 +142,11 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00012</classCode>
+            <classCode scheme="BiblNr">00050</classCode>
             <classCode scheme="cat">Selbständig erschienene Werke</classCode>
-            <classCode scheme="cat">De Generis Humani Varietate</classCode>
-            <classCode scheme="cat">Originalausgaben</classCode>
+            <classCode scheme="cat">Handbuch der Naturgeschichte</classCode>
             <classCode scheme="cat">Übersetzungen</classCode>
-            <classCode scheme="cat">Englisch</classCode>
+            <classCode scheme="cat">Niederländisch</classCode>
          </textClass>
       </profileDesc>
    </teiHeader>

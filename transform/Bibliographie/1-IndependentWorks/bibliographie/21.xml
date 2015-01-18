@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">*The anthropological treatises of Johann Friedrich Blumenbach</title>
+            <title type="main">Handbuch der Naturgeschichte : mit Kupfern; [Teil 1]</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -44,7 +44,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML">bibliographie/12.xml</idno>
+               <idno type="URLXML">bibliographie/21.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -52,57 +52,93 @@
          <sourceDesc>
             <biblStruct>
                <monogr>
-                  <title level="m" type="main">*The anthropological treatises of Johann Friedrich Blumenbach</title>
-                  <title level="m" type="sub">with memoirs of him by Marx and Flourens, and an account of his anthropological museum by R. Wagner, and the inaugural dissertation of John Hunter, On the varieties of man</title>
+                  <title level="m" type="main">Handbuch der Naturgeschichte : mit Kupfern; [Teil 1]</title>
+                  <title level="m" type="aut">D. Joh. Friedr. Blumenbachs</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                   <editor>
-                     <persName ref="http://viaf.org/viaf">Thomas Bendyshe</persName>
+                     <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Milford House</name>
+                        <name>Bey Johann Christian Dieterich</name>
                      </publisher>
-                     <pubPlace>Boston</pubPlace>
-                     <date type="publication">[1973]</date>
+                     <pubPlace>Göttingen</pubPlace>
+                     <date type="publication">1779</date>
                   </imprint>
                </monogr>
                <note>
-                  <ref>http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000012/00012.pdf</ref>
+                  <ref>http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000021/00021.pdf</ref>
                </note>
-               <relatedItem xml:id="relatedItem_d1e1506">
+               <note>
+                  <ref>http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000021/000021.html</ref>
+               </note>
+               <relatedItem xml:id="relatedItem_d1e2344">
                   <biblStruct>
                      <monogr>
-                        <title level="m" type="main">The anthropological treatises of Johann Friedrich Blumenbach</title>
-                        <title level="m" type="sub">with memoirs of him by Marx and Flourens and an account of his anthropological museum by</title>
-                        <title level="m" type="sub">R. Wagner and the inaugural dissertation of John Hunter on the varieties of man</title>
-                        <title level="m" type="pro">Translated and edited from the Latin, German, and French originals, by Thomas Bendyshe</title>
+                        <title level="j" type="main">GAgS</title>
+                        <imprint>
+                           <publisher/>
+                           <pubPlace/>
+                           <date/>
+                        </imprint>
+                        <biblScope>1779 (119. Stück 30. September)</biblScope>
+                     </monogr>
+                     <citedRange>S. 961-965; &#x84;Göttingen&#x93;</citedRange>
+                     <ref>
+                        <note>Angezeigt von Blumenbach in</note>
+                     </ref>
+                     <ref>213</ref>
+                  </biblStruct>
+               </relatedItem>
+               <relatedItem xml:id="relatedItem_d1e2364">
+                  <biblStruct>
+                     <monogr>
+                        <title level="j" type="main">Neues Magazin für Ärzte 1</title>
+                        <imprint>
+                           <publisher/>
+                           <pubPlace/>
+                           <date/>
+                        </imprint>
+                        <biblScope>(1779), 6. Stück</biblScope>
+                     </monogr>
+                     <citedRange>S. 544-545</citedRange>
+                     <ref>
+                        <note>Angezeigt in</note>
+                     </ref>
+                     <ref/>
+                  </biblStruct>
+               </relatedItem>
+               <relatedItem xml:id="relatedItem_d1e2383">
+                  <biblStruct>
+                     <monogr>
+                        <title level="m" type="main">Naturgeschichte des Eichhörnchen : Dem besten aller Eichhörnchen der schönen Babiole gewidmet</title>
                         <imprint>
                            <publisher>
-                              <name>Longman, Green, Longman, Roberts, and Green</name>
+                              <name/>
                            </publisher>
-                           <pubPlace>London</pubPlace>
-                           <date type="publication">1865</date>
+                           <pubPlace/>
+                           <date type="publication"/>
                         </imprint>
                      </monogr>
                      <ref>
-                        <note> Nachdruck der Ausgabe</note>
+                        <note>Der Abschnitt zur Naturgeschichte des Eichhörnchens (S. 77-78) ist 1777 separat mit Widmung gedruckt als</note>
                      </ref>
-                     <ref>10</ref>
+                     <ref>117</ref>
                   </biblStruct>
                </relatedItem>
             </biblStruct>
             <msDesc>
                <msIdentifier>
-                  <repository>London, British Library</repository>
-                  <idno>74/2296 DSC</idno>
+                  <repository>SUB Göttingen</repository>
+                  <idno>8 H NAT I, 7251:1</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>XIV, 406 S., Ill.<dimensions>
-                              <dim>22 cm (8°)</dim>
+                        <extent>[7] Bl., 448 S., II gef. Bl., 2 Ill. (Kupferst.)<dimensions>
+                              <dim>19 cm (8°)</dim>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -113,12 +149,12 @@
                      <recordHist>
                         <source>
                            <certainty locus="location">
-                              <desc>no autopsy</desc>
+                              <desc/>
                            </certainty>
                         </source>
                      </recordHist>
                      <note>
-                        <p/>
+                        <p>Teil 1 und 2 zusammengebunden</p>
                      </note>
                   </adminInfo>
                </additional>
@@ -127,12 +163,12 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="en-EN"/>
+            <language ident="de-DE"/>
          </langUsage>
          <textDesc>
             <channel mode="w"/>
             <constitution type="single"/>
-            <derivation type="translation"/>
+            <derivation/>
             <domain type="academic"/>
             <factuality/>
             <interaction/>
@@ -140,12 +176,10 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00012</classCode>
+            <classCode scheme="BiblNr">00021</classCode>
             <classCode scheme="cat">Selbständig erschienene Werke</classCode>
-            <classCode scheme="cat">De Generis Humani Varietate</classCode>
+            <classCode scheme="cat">Handbuch der Naturgeschichte</classCode>
             <classCode scheme="cat">Originalausgaben</classCode>
-            <classCode scheme="cat">Übersetzungen</classCode>
-            <classCode scheme="cat">Englisch</classCode>
          </textClass>
       </profileDesc>
    </teiHeader>

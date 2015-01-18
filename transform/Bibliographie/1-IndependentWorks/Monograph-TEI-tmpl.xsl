@@ -26,18 +26,13 @@
                                     </persName>
                                 </editor>
                                 <respStmt>
-                                    <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-                                    <resp>
-                                        <note type="remarkResponsibility">Projektträger</note>
-                                        <ref target="http://adw-goe.de/"/>
-                                    </resp>
+                                   <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
+                                   <resp key="proj">Projektträger<ref target="http://adw-goe.de/"/></resp>
                                 </respStmt>
                                 <respStmt>
-                                    <orgName>Bearbeiter des Projekts Johann Friedrich Blumenbach Online</orgName>
-                                    <resp>
-                                        <note type="remarkResponsibility">Bearbeitung</note>
-                                        <ref target="http://www.blumenbach-online.de/"/>
-                                    </resp>
+                                   <orgName>Bearbeiter des Projekts Johann Friedrich Blumenbach Online</orgName>
+                                   <resp key="arb">Bearbeitung<ref target="http://www.blumenbach-online.de/"/></resp>
+                                   <resp key="enc">XML Encoding<persName>Christopher Hanna Johnson</persName></resp>
                                 </respStmt>
                             </titleStmt>
                             <publicationStmt>
@@ -246,6 +241,11 @@
                                     </physDesc>
                                 <additional>
                                     <adminInfo>
+                                        <recordHist>
+                                            <source>
+                                                <certainty locus="location"><desc><xsl:value-of select="source/certainty"/></desc></certainty>
+                                            </source>
+                                        </recordHist>                                        
                                         <note>
                                             <p><xsl:for-each select="msDesc"> <xsl:value-of select="./note"/> </xsl:for-each></p>
                                         </note>
