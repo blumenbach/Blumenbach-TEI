@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Handbuch der Naturgeschichte : mit Kupfern</title>
+            <title type="main">Über den Bildungstrieb und das Zeugungsgeschäfte</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -44,7 +44,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML">bibliographie/25.xml</idno>
+               <idno type="URLXML">bibliographie/57.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -52,76 +52,52 @@
          <sourceDesc>
             <biblStruct>
                <monogr>
-                  <title level="m" type="main">Handbuch der Naturgeschichte : mit Kupfern</title>
-                  <title level="m" type="aut">D. Joh. Friedr. Blumenbach&#x92;s</title>
+                  <title level="m" type="main">Über den Bildungstrieb und das Zeugungsgeschäfte</title>
+                  <title level="m" type="aut">Johann Friedrich Blumenbach</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
-                  <edition>Vierte sehr verbesserte Auflage</edition>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Bey Johann Christian Dieterich</name>
+                        <name>Gustav Fischer</name>
                      </publisher>
-                     <pubPlace>Göttingen</pubPlace>
-                     <date type="publication">1791.</date>
+                     <pubPlace>Stuttgart</pubPlace>
+                     <date type="publication">1971 = 1781</date>
                   </imprint>
                </monogr>
-               <note>
-                  <ref>http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000025/00025.pdf</ref>
-               </note>
-               <note>
-                  <ref>http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000025/000025.html</ref>
-               </note>
-               <relatedItem xml:id="relatedItem_d1e2668">
+               <relatedItem xml:id="relatedItem_d1e5372">
                   <biblStruct>
                      <monogr>
-                        <title level="j" type="main">Göttingische Anzeigen von gelehrten Sachen</title>
+                        <title level="m" type="main">über den Bildungstrieb und das Zeugungsgeschäfte</title>
+                        <title level="m" type="aut">D. Johann Friederich Blumenbach</title>
                         <imprint>
-                           <publisher/>
-                           <pubPlace/>
-                           <date/>
+                           <publisher>
+                              <name>Bey Johann Christian Dieterich</name>
+                           </publisher>
+                           <pubPlace>Göttingen</pubPlace>
+                           <date type="publication">1781</date>
                         </imprint>
-                        <biblScope>1791 (69. Stück 30. April)</biblScope>
                      </monogr>
-                     <citedRange>S. 689-690; &#x84;Göttingen&#x93;</citedRange>
                      <ref>
-                        <note>Angezeigt von Blumenbach in</note>
+                        <note>Enthält Faksimile von</note>
                      </ref>
-                     <ref>345</ref>
-                  </biblStruct>
-               </relatedItem>
-               <relatedItem xml:id="relatedItem_d1e2688">
-                  <biblStruct>
-                     <monogr>
-                        <title level="j" type="main">Bergmännisches Journal</title>
-                        <imprint>
-                           <publisher/>
-                           <pubPlace/>
-                           <date/>
-                        </imprint>
-                        <biblScope>1791, 12. Stück (Dez. 1791)</biblScope>
-                     </monogr>
-                     <citedRange>S. 483-500.</citedRange>
-                     <ref>
-                        <note>Angezeigt in</note>
-                     </ref>
-                     <ref/>
+                     <ref>53</ref>
                   </biblStruct>
                </relatedItem>
             </biblStruct>
             <msDesc>
                <msIdentifier>
-                  <repository>SUB Göttingen</repository>
-                  <idno>8 H NAT I, 7251 (4)</idno>
+                  <repository/>
+                  <idno/>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>XII, 704 S., [17] Bl., III gef. Bl.: 3 Ill. (Kupferst.)<dimensions>
-                              <dim>19 cm (8°)</dim>
+                        <extent>XX S., [1] Bl., 94 S.: 1 Ill. (Kupferst.)<dimensions>
+                              <dim>20 cm (8°).</dim>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -137,7 +113,7 @@
                         </source>
                      </recordHist>
                      <note>
-                        <p/>
+                        <p>Frontispiz auf Schmutztitel-Verso Vignette auf Titelblatt. Mit einem Vorwort und Anmerkungen von Dr. L. von Károlyi.</p>
                      </note>
                   </adminInfo>
                </additional>
@@ -159,10 +135,11 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00025</classCode>
+            <classCode scheme="BiblNr">00057</classCode>
             <classCode scheme="cat">Selbständig erschienene Werke</classCode>
-            <classCode scheme="cat">Handbuch der Naturgeschichte</classCode>
+            <classCode scheme="cat">De Nisu Formativo – Über den Bildungstrieb</classCode>
             <classCode scheme="cat">Originalausgaben</classCode>
+            <classCode scheme="cat">Moderne Nachdrucke</classCode>
          </textClass>
       </profileDesc>
    </teiHeader>

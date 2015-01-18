@@ -73,9 +73,19 @@
                                        <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                                    </author>
                                    <xsl:if test="./edition"><edition><xsl:value-of select="./edition"/></edition></xsl:if>
-                                   <editor>
-                                       <persName ref="http://viaf.org/viaf"><xsl:value-of select="editor"/></persName>
+                                   <xsl:choose>
+                                   <xsl:when test="./editor[@role='translator']">
+                                   <editor role="translator">
+                                        <persName ref="http://viaf.org/viaf"><xsl:value-of select="editor"/></persName>
                                    </editor>
+                                   </xsl:when>
+                                   <xsl:otherwise>
+                                   <editor>
+                                        <persName ref="http://viaf.org/viaf"><xsl:value-of select="editor"/></persName>
+                                   </editor>   
+                                   </xsl:otherwise>    
+                                   </xsl:choose>   
+
                                 <imprint>
                                     <publisher><name><xsl:value-of select="publisher"/></name></publisher>
                                     <pubPlace><xsl:value-of select="pubPlace"/></pubPlace>
@@ -182,7 +192,6 @@
                                                                 </xsl:if>                                                               
                                                                 <xsl:if test="./monogr/title[@type='aut']"><title level="m" type="aut"><xsl:value-of select="./monogr/title[@type='aut']"/></title></xsl:if>                        
                                                                 <xsl:if test="./monogr/title[@type='ed']"><title level="m" type="ed"><xsl:value-of select="./monogr/title[@type='ed']"/></title></xsl:if>
-                                                                <xsl:if test="./monogr/title[@type='profile']"><title level="m" type="pro"><xsl:value-of select="./monogr/title[@type='profile']"/></title></xsl:if>
                                                              <imprint>
                                                                 <publisher><name><xsl:value-of select="./monogr/publisher"/></name></publisher>
                                                                 <pubPlace><xsl:value-of select="./monogr/pubPlace"/></pubPlace>

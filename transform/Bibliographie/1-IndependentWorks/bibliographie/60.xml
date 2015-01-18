@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Handbuch der Naturgeschichte : mit Kupfern</title>
+            <title type="main">*Impulso formativo e generazione</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -44,7 +44,7 @@
             </availability>
             <idno>
                <idno type="URLWeb"/>
-               <idno type="URLXML">bibliographie/25.xml</idno>
+               <idno type="URLXML">bibliographie/60.xml</idno>
                <idno type="URLHTML"/>
                <idno type="URLText"/>
             </idno>
@@ -52,76 +52,37 @@
          <sourceDesc>
             <biblStruct>
                <monogr>
-                  <title level="m" type="main">Handbuch der Naturgeschichte : mit Kupfern</title>
-                  <title level="m" type="aut">D. Joh. Friedr. Blumenbach&#x92;s</title>
+                  <title level="m" type="main">*Impulso formativo e generazione</title>
+                  <title level="m" type="aut">Johann Friedrich Blumenbach</title>
+                  <title level="m" type="ed">a cura di Antonella De Cieri</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
-                  <edition>Vierte sehr verbesserte Auflage</edition>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Bey Johann Christian Dieterich</name>
+                        <name/>
                      </publisher>
-                     <pubPlace>Göttingen</pubPlace>
-                     <date type="publication">1791.</date>
+                     <pubPlace>Salerno</pubPlace>
+                     <date type="publication">10/17 [1992]</date>
                   </imprint>
                </monogr>
                <note>
-                  <ref>http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000025/00025.pdf</ref>
+                  <ref>http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000053/00053.pdf</ref>
                </note>
-               <note>
-                  <ref>http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000025/000025.html</ref>
-               </note>
-               <relatedItem xml:id="relatedItem_d1e2668">
-                  <biblStruct>
-                     <monogr>
-                        <title level="j" type="main">Göttingische Anzeigen von gelehrten Sachen</title>
-                        <imprint>
-                           <publisher/>
-                           <pubPlace/>
-                           <date/>
-                        </imprint>
-                        <biblScope>1791 (69. Stück 30. April)</biblScope>
-                     </monogr>
-                     <citedRange>S. 689-690; &#x84;Göttingen&#x93;</citedRange>
-                     <ref>
-                        <note>Angezeigt von Blumenbach in</note>
-                     </ref>
-                     <ref>345</ref>
-                  </biblStruct>
-               </relatedItem>
-               <relatedItem xml:id="relatedItem_d1e2688">
-                  <biblStruct>
-                     <monogr>
-                        <title level="j" type="main">Bergmännisches Journal</title>
-                        <imprint>
-                           <publisher/>
-                           <pubPlace/>
-                           <date/>
-                        </imprint>
-                        <biblScope>1791, 12. Stück (Dez. 1791)</biblScope>
-                     </monogr>
-                     <citedRange>S. 483-500.</citedRange>
-                     <ref>
-                        <note>Angezeigt in</note>
-                     </ref>
-                     <ref/>
-                  </biblStruct>
-               </relatedItem>
             </biblStruct>
             <msDesc>
                <msIdentifier>
-                  <repository>SUB Göttingen</repository>
-                  <idno>8 H NAT I, 7251 (4)</idno>
+                  <repository>Biblioteca Nazionale Centrale di Firenze</repository>
+                  <idno>GEN A06 07285</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>XII, 704 S., [17] Bl., III gef. Bl.: 3 Ill. (Kupferst.)<dimensions>
-                              <dim>19 cm (8°)</dim>
+                        <extent>158 S.:  Ill. <dimensions>
+                              <dim>17 cm (8°)</dim>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -132,7 +93,7 @@
                      <recordHist>
                         <source>
                            <certainty locus="location">
-                              <desc/>
+                              <desc>no autopsy</desc>
                            </certainty>
                         </source>
                      </recordHist>
@@ -146,12 +107,12 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="de-DE"/>
+            <language ident="it-IT"/>
          </langUsage>
          <textDesc>
             <channel mode="w"/>
             <constitution type="single"/>
-            <derivation/>
+            <derivation type="translation"/>
             <domain type="academic"/>
             <factuality/>
             <interaction/>
@@ -159,10 +120,11 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00025</classCode>
+            <classCode scheme="BiblNr">00060</classCode>
             <classCode scheme="cat">Selbständig erschienene Werke</classCode>
-            <classCode scheme="cat">Handbuch der Naturgeschichte</classCode>
-            <classCode scheme="cat">Originalausgaben</classCode>
+            <classCode scheme="cat">De Nisu Formativo – Über den Bildungstrieb</classCode>
+            <classCode scheme="cat">Übersetzungen</classCode>
+            <classCode scheme="cat">Italienisch</classCode>
          </textClass>
       </profileDesc>
    </teiHeader>
