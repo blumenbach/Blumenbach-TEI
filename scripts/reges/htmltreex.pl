@@ -4,7 +4,7 @@ use v5.10;
 use HTML::TreeBuilder::XPath;
 
 my $tree= HTML::TreeBuilder::XPath->new;
-$tree->parse_file("../transform/BR3.html");
+$tree->parse_file("../../transform/BR3.html");
 
 foreach my $div ($tree->findnodes('/html/body/div') ) {
      if ( $div->exists('./@id') ) {

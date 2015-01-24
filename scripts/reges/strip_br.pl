@@ -3,7 +3,7 @@
 my $empty_tags = qr{<(tr|br|td)>\s*</\1>};
 
 
-open(FILE, "../transform/Briefregesten_2.html");
+open(FILE, "BRItalics.html");
 @lines = <FILE>;
 close(FILE);
 

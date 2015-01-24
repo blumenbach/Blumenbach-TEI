@@ -44,12 +44,8 @@
                 <language ident="DE-de"></language>
             </langUsage>
             <calendarDesc>
-                <calendar xml:id="julian">
-                    <p>Julian calendar (including proleptic)</p>
-                </calendar>
-                <calendar xml:id="ISO">
-                    <p>ISO 8601 calendar</p>
-                </calendar>
+                <calendar xml:id="julian"><p>Julian calendar (including proleptic)</p></calendar>
+                <calendar xml:id="ISO"><p>ISO 8601 calendar</p></calendar>
             </calendarDesc>
         </profileDesc>
         <revisionDesc>
@@ -67,7 +63,16 @@
                   <item xml:id="JFB_BRIEFREGEST_{$count}" n="{RegNr}" sortKey="einfügen"><bibl>
                     <xsl:for-each select="title">
                         <title type="kurzdesc"><xsl:value-of select="substring(., 0, 80)"/>...</title>
-                        <note type="langdesc"><xsl:value-of select="."/></note>
+                        <note type="langdesc">  
+                        <xsl:choose>                             
+                                <xsl:when test="./emph"><title level="m" type="sub"><xsl:value-of select="./emph"/></title>
+                                    <xsl:value-of select="."/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="."/>  
+                                </xsl:otherwise>                    
+                         </xsl:choose>
+                        </note>    
                     </xsl:for-each>   
                         <respStmt>
                             <resp key="abs">Absender</resp>
@@ -142,39 +147,108 @@
                         <placeName xml:id="orgplc-{$count}" type="Abfassungsort"><xsl:value-of select="place"/></placeName>
                         <note type="Überlieferung"><xsl:value-of select="biblScope"/></note>
                         <xsl:if test="bibl">
-                            <note type="Drucke"><xsl:value-of select="bibl"/></note>
-                        </xsl:if>    
-                        <note type="Edition"><xsl:value-of select="Zusatzdaten"/><xsl:value-of select="edition"/>
-                            <xsl:for-each select="ref">
-                                <xsl:if test="@type">
-                                    <ref target="{@target}"></ref>
-                                </xsl:if>
-                        </xsl:for-each>
+                            <note type="Drucke">
+                                <xsl:choose>
+                                     <xsl:when test="bibl/emph"> 
+                                      <title level="m" type="main"><xsl:value-of select="bibl/emph"/></title>   
+                                        <xsl:value-of select="bibl"/>
+                                     </xsl:when>
+                                    <xsl:otherwise>
+                                      <xsl:value-of select="bibl"/>
+                                    </xsl:otherwise>   
+                                </xsl:choose>
+                            </note>    
+                         </xsl:if>    
+                        <note type="Edition">
+                            <xsl:choose>
+                                 <xsl:when test="edition/emph"> 
+                                  <title level="m" type="main"><xsl:value-of select="edition/emph"/></title>   
+                                    <xsl:value-of select="edition"/>
+                                 </xsl:when>
+                                <xsl:otherwise>
+                                  <xsl:value-of select="edition"/>
+                                </xsl:otherwise>   
+                            </xsl:choose>
                         </note>
                         <xsl:if test="Lit_in_Zusatzdaten">
-                            <note type="Werke"><xsl:value-of select="Lit_in_Zusatzdaten"/></note> 
+                            <note type="Werke">
+                                <xsl:choose>
+                                    <xsl:when test="Lit_in_Zusatzdaten/emph">
+                                        <title level="m" type="main"><xsl:value-of select="Lit_in_Zusatzdaten/emph"/></title>
+                                        <xsl:value-of select="Lit_in_Zusatzdaten"/>
+                                    </xsl:when> 
+                                    <xsl:otherwise>
+                                        <xsl:value-of select="Lit_in_Zusatzdaten"/>    
+                                    </xsl:otherwise>
+                                </xsl:choose>    
+                            </note>    
+                        </xsl:if>
+                        <xsl:if test="ref">
+                        <note type="ref">
+                               <xsl:attribute name="xml:id">
+                                    <xsl:value-of select="concat(name(),'_',generate-id())"/>
+                               </xsl:attribute>
+                                        <xsl:for-each select="ref">
+                                            <xsl:if test="not(@type)">   
+                                            <ref type="html" target="{@target}"></ref>
+                                            </xsl:if>                                
+                                            <xsl:if test="@type">
+                                                <ref type="pdf" target="{@target}"></ref>    
+                                            </xsl:if>  
+                                        </xsl:for-each>
+                                        <xsl:for-each select="link">
+                                            <xsl:if test="not(./emph)">                                        
+                                                <rs type="html"><xsl:value-of select="."/></rs>                                                                       
+                                            </xsl:if>
+                                            <xsl:if test="./emph">                                        
+                                                <rs type="pdf"><xsl:value-of select="."/></rs>                                                                       
+                                            </xsl:if>
+                                        </xsl:for-each>   
+                        </note>
                         </xsl:if>    
-                        <xsl:for-each select="ref">
-                            <xsl:if test="not(@type)">
-                                <note type="ref"><ref target="{@target}"></ref></note>
-                            </xsl:if>
-                        </xsl:for-each>
-                        
                         <xsl:if test="object">
-                            <note type="Objekte"><xsl:value-of select="object"/></note>
+                            <note type="Objekte">
+                               <xsl:choose>
+                                    <xsl:when test="object/emph">
+                                        <xsl:for-each select="object/emph">
+                                            <title level="m" type="main"><xsl:value-of select="."/></title>
+                                         </xsl:for-each>   
+                                        <xsl:value-of select="object"/>
+                                    </xsl:when> 
+                                    <xsl:otherwise>
+                                        <xsl:value-of select="object"/>    
+                                    </xsl:otherwise>
+                               </xsl:choose>
+                            </note>
                         </xsl:if>    
                         <xsl:if test="note">
-                            <note type="Anmerkung"><xsl:value-of select="note"/></note>
+                            <note type="Anmerkung">
+                               <xsl:choose>
+                                    <xsl:when test="note/emph">
+                                        <xsl:for-each select="note/emph">
+                                            <title level="m" type="main"><xsl:value-of select="."/></title>
+                                         </xsl:for-each>   
+                                        <xsl:value-of select="note"/>
+                                    </xsl:when> 
+                                    <xsl:otherwise>
+                                        <xsl:value-of select="note"/>    
+                                    </xsl:otherwise>
+                               </xsl:choose>                                
+                                <xsl:value-of select="note"/></note>
                         </xsl:if>    
                         <xsl:if test="relatedItem">
-                            <note type="item"><xsl:value-of select="relatedItem"/></note>
-                        </xsl:if>
-                        <xsl:if test="span">
-                            <note type="span"><xsl:value-of select="span"/></note>
-                        </xsl:if>
-                        <xsl:if test="link">
-                           <note><ref type="link"><xsl:value-of select="link"/></ref></note>
-                        </xsl:if>   
+                            <note type="item">
+                                <xsl:choose>
+                                    <xsl:when test="relatedItem/emph">
+                                        <title level="m" type="main"><xsl:value-of select="relatedItem/emph"/></title>
+                                    <xsl:value-of select="relatedItem"/>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:value-of select="Lit_in_Zusatzdaten"/>    
+                                    </xsl:otherwise>
+                                </xsl:choose>    
+                            </note>
+                        </xsl:if> 
                     </bibl>
                 </item>
                   
