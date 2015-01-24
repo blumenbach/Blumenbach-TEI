@@ -67,11 +67,11 @@
                   <item xml:id="JFB_BRIEFREGEST_{$count}" n="{RegNr}" sortKey="einfügen"><bibl>
                     <xsl:for-each select="title">
                         <title type="kurzdesc"><xsl:value-of select="substring(., 0, 80)"/>...</title>
-                        <note type="langdesc"><p><xsl:value-of select="."/></p></note>
+                        <note type="langdesc"><xsl:value-of select="."/></note>
                     </xsl:for-each>   
                         <respStmt>
                             <resp key="abs">Absender</resp>
-                            <persName>
+                            <persName resp="abs">
                                 <xsl:choose>
                                 <xsl:when test="author/forename or author/surname" >
                                     <forename><xsl:value-of select="author/forename"/></forename>
@@ -85,7 +85,7 @@
                         </respStmt>
                         <respStmt>
                             <resp key="emp">Empfänger</resp>
-                            <persName>
+                            <persName resp="emp">
                                 <xsl:choose>
                                 <xsl:when test="receiver/forename or receiver/surname" >
                                     <forename><xsl:value-of select="receiver/forename"/></forename>
@@ -140,9 +140,9 @@
                 </xsl:if>
                 </note>     
                         <placeName xml:id="orgplc-{$count}" type="Abfassungsort"><xsl:value-of select="place"/></placeName>
-                        <note type="Überlieferung"><p><xsl:value-of select="biblScope"/></p></note>
+                        <note type="Überlieferung"><xsl:value-of select="biblScope"/></note>
                         <xsl:if test="bibl">
-                            <note type="Drucke"><p><xsl:value-of select="bibl"/></p></note>
+                            <note type="Drucke"><xsl:value-of select="bibl"/></note>
                         </xsl:if>    
                         <note type="Edition"><xsl:value-of select="Zusatzdaten"/><xsl:value-of select="edition"/>
                             <xsl:for-each select="ref">
@@ -161,10 +161,10 @@
                         </xsl:for-each>
                         
                         <xsl:if test="object">
-                            <note type="Objekte"><p><xsl:value-of select="object"/></p></note>
+                            <note type="Objekte"><xsl:value-of select="object"/></note>
                         </xsl:if>    
                         <xsl:if test="note">
-                            <note type="Anmerkung"><p><xsl:value-of select="note"/></p></note>
+                            <note type="Anmerkung"><xsl:value-of select="note"/></note>
                         </xsl:if>    
                         <xsl:if test="relatedItem">
                             <note type="item"><xsl:value-of select="relatedItem"/></note>
