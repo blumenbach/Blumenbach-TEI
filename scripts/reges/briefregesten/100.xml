@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Blumenbach berichtet Jean André Deluc über seine Arbeit an einer Rezension von dessen Lettres physiques et morales sur l&#x92;histoire de la terre et de l&#x92;homme, verspricht, Delucs Bruder in Genf Objekte für dessen Museum zu senden und bittet Deluc seinerseits um eine Gesteinsprobe vom Genfer See. </title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/">BlumenbachJohann Friedrich </persName>
+            </author>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Projektträger</note>
+                  <ref target="http://adw-goe.de/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Bearbeiter des Projekts Johann Friedrich Blumenbach Online</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bearbeitung</note>
+                  <ref target="http://www.blumenbach-online.de/"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <email/>
+               <orgName/>
+               <address>
+                  <addrLine/>
+                  <country/>
+               </address>
+            </publisher>
+            <pubPlace/>
+            <date/>
+            <availability>
+               <licence>
+                  <p/>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">briefregesten/100.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">New Haven, Yale University Library, Manuscripts and Archives, Jean André DeLuc Papers, Box 2, folder 43. </note>
+            <note type="item">
+               <title level="m" type="main">Lettres physiques et morales sur l&#x92;histoire de la terre et de l&#x92;homme GAgS</title>Rez. von J. A. Deluc, Lettres physiques et morales sur l&#x92;histoire de la terre et de l&#x92;homme, in GAgS 1780 (Zugabe, 49. Stück, 2. Dezember), S. 769&#x96;776 (1. Teil), ibid., 1781 (Zugabe, 3. Stück, 20. Januar), S. 40&#x96;47 (2. teil) und ibid. 1781 (Zugabe, 18. Stück, 5. Mai), S. 273-277 (3. Teil) (= Bibliographie Nr. 00218, 00236, 00237).
+</note>
+            <note type="Edition">
+               <title level="m" type="main">Corresp.</title>Dougherty, Corresp. I, S. 213 Nr. 0136.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="kurzdesc">Blumenbach berichtet Jean André Deluc über seine Arbeit an einer Rezension von ...</title>
+                  <title type="langdesc">
+                     <title level="m" type="sub">Lettres physiques et morales sur l&#x92;histoire de la terre et de l&#x92;homme</title>Blumenbach berichtet Jean André Deluc über seine Arbeit an einer Rezension von dessen Lettres physiques et morales sur l&#x92;histoire de la terre et de l&#x92;homme, verspricht, Delucs Bruder in Genf Objekte für dessen Museum zu senden und bittet Deluc seinerseits um eine Gesteinsprobe vom Genfer See. </title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/">
+                        <forename>Johann Friedrich </forename>
+                        <surname>Blumenbach</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-100">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-100">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Jean André </forename>
+               <surname>Deluc</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1780-11-27"
+                            when="1780-11-27"
+                            where="#orgplc-100">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1780-11-27">1780, Nov. 27</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName xml:id="orgplc-100" type="Abfassungsort">Göttingen</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">0099</classCode>
+            <classCode scheme="anchor">Dez1780</classCode>
+            <classCode scheme=""/>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

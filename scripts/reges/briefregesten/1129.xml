@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Benjamin Smith Barton verfasst für seine Publikation A memoir concerning the disease of goitre(1800) ein Widmungsschreiben an Blumenbach. </title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/">BartonBenjamin Smith </persName>
+            </author>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Projektträger</note>
+                  <ref target="http://adw-goe.de/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Bearbeiter des Projekts Johann Friedrich Blumenbach Online</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bearbeitung</note>
+                  <ref target="http://www.blumenbach-online.de/"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <email/>
+               <orgName/>
+               <address>
+                  <addrLine/>
+                  <country/>
+               </address>
+            </publisher>
+            <pubPlace/>
+            <date/>
+            <availability>
+               <licence>
+                  <p/>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">briefregesten/1129.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung"/>
+            <note type="Drucke">
+               <title level="m" type="main">A memoir concerning the disease of goitre</title>Barton, Benjamin Smith: A memoir concerning the disease of goitre [...]. Philadelphia 1800, S.III&#x96;IV; dt. übers. in der dt. übers. von Bartons Publikation, Abhandlung über den Kropf [...]. Göttingen 1802, unpaginierte Seiten 3, 5&#x96;8. </note>
+            <note type="ref" xml:id="record_d1e55650">
+               <ref type="pdf"
+                    target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=438"/>
+               <rs type="pdf">Corresp. V, S. 422&#x96;423 Nr. 1264 </rs>
+            </note>
+            <note type="Edition">
+               <title level="m" type="main">Corresp.</title>Dougherty, Corresp. V, S. 422&#x96;423 Nr. 1264.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="kurzdesc">Benjamin Smith Barton verfasst für seine Publikation A memoir concerning the di...</title>
+                  <title type="langdesc">
+                     <title level="m" type="sub">A memoir concerning the disease of goitre</title>Benjamin Smith Barton verfasst für seine Publikation A memoir concerning the disease of goitre(1800) ein Widmungsschreiben an Blumenbach. </title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/">
+                        <forename>Benjamin Smith </forename>
+                        <surname>Barton</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1129">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1129">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich</forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1799-12-08"
+                            when="1799-12-08"
+                            where="#orgplc-1129">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1799-12-08">1799,Dez. 8</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName xml:id="orgplc-1129" type="Abfassungsort">Philadelphia</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">1113</classCode>
+            <classCode scheme="anchor"/>
+            <classCode scheme=""/>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

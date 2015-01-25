@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Johann Heinrich Ferdinand Autenriethberichtet Blumenbach, dass er die in Bad Cannstatt gefundenen fossilen Zähne für Nashornzähne halte, sendet die erbetene Druckplatte [des Kiefers einer ägyptischen Mumie] und die Silhouette eines Mumienkopfes, und macht Identifikationsvorschläge für die Walart, zu der ein Wirbel gehört, von dem Blumenbach ihm die Zeichnung gesandt hatte. </title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/">AutenriethJohann Heinrich Ferdinand</persName>
+            </author>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Projektträger</note>
+                  <ref target="http://adw-goe.de/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Bearbeiter des Projekts Johann Friedrich Blumenbach Online</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bearbeitung</note>
+                  <ref target="http://www.blumenbach-online.de/"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <email/>
+               <orgName/>
+               <address>
+                  <addrLine/>
+                  <country/>
+               </address>
+            </publisher>
+            <pubPlace/>
+            <date/>
+            <availability>
+               <licence>
+                  <p/>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">briefregesten/881.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Leipzig, Universitätsbibliothek, Sammlung Kestner II A IV, 57, fol. 14&#x96;15. </note>
+            <note type="Anmerkung">Dem Ms. liegen zwei Zeichnungen Autenrieths (Mumienkopf-Silhouette undZeichnungeines angeblichen Gemsenfußes) bei. Dem Ms. liegen zwei Zeichnungen Autenrieths (Mumienkopf-Silhouette undZeichnungeines angeblichen Gemsenfußes) bei. </note>
+            <note type="ref" xml:id="record_d1e42705">
+               <ref type="pdf"
+                    target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=77"/>
+               <rs type="pdf">Corresp. V, S. 61&#x96;63 Nr. 1011 </rs>
+            </note>
+            <note type="Edition">
+               <title level="m" type="main">Corresp.</title>Dougherty, Corresp. V, S. 61&#x96;63 Nr. 1011.  </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="kurzdesc">Johann Heinrich Ferdinand Autenriethberichtet Blumenbach, dass er die in Bad Ca...</title>
+                  <title type="langdesc">Johann Heinrich Ferdinand Autenriethberichtet Blumenbach, dass er die in Bad Cannstatt gefundenen fossilen Zähne für Nashornzähne halte, sendet die erbetene Druckplatte [des Kiefers einer ägyptischen Mumie] und die Silhouette eines Mumienkopfes, und macht Identifikationsvorschläge für die Walart, zu der ein Wirbel gehört, von dem Blumenbach ihm die Zeichnung gesandt hatte. </title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/">
+                        <forename>Johann Heinrich Ferdinand</forename>
+                        <surname>Autenrieth</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-881">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-881">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich</forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1796-10-13"
+                            when="1796-10-13"
+                            where="#orgplc-881">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1796-10-13">1796, Okt. 13  Stuttgart</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName xml:id="orgplc-881" type="Abfassungsort"/>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">0874</classCode>
+            <classCode scheme="anchor"/>
+            <classCode scheme=""/>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

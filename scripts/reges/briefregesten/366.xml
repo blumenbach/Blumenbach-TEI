@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Blumenbach rechtfertigt gegenüber Leopoldo Marc&#x92;Antonio Caldani seine epigenetische überzeugung mit seinen Beobachtungsdaten und bittet um Zusendung einer Publikation Caldanis und die Beschaffung einer schwer erhältlichen Publikation von Giovanni Battista Canano. </title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/">BlumenbachJohann Friedrich</persName>
+            </author>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Projektträger</note>
+                  <ref target="http://adw-goe.de/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Bearbeiter des Projekts Johann Friedrich Blumenbach Online</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bearbeitung</note>
+                  <ref target="http://www.blumenbach-online.de/"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <email/>
+               <orgName/>
+               <address>
+                  <addrLine/>
+                  <country/>
+               </address>
+            </publisher>
+            <pubPlace/>
+            <date/>
+            <availability>
+               <licence>
+                  <p/>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">briefregesten/366.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Bologna, Biblioteca dell&#x92;Archiginnasio, Collezione autografi, VIII, 2574. </note>
+            <note type="item">
+               <title level="m" type="main">Institutiones physiologicae Introductio in historiam medicinae litterariam</title>Institutiones physiologicae (1787; Bibliographie Nr.00065), speziell erwähnt wird der Abschnitt über den &#x84;nisus formativus&#x93;, S. 460&#x96;470;Introductio in historiam medicinae litterariam(1786;Bibliographie Nr. 00142); De nisu formativo et generationis negotio nuperae observationes (1787; Bibliographie Nr. 00054).</note>
+            <note type="ref" xml:id="record_d1e16656">
+               <ref type="pdf"
+                    target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=109"/>
+               <rs type="pdf">Corresp. III, S. 91 Nr. 0457 </rs>
+            </note>
+            <note type="Edition">
+               <title level="m" type="main">Corresp.</title>Dougherty, Corresp. III, S. 91 Nr. 0457.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="kurzdesc">Blumenbach rechtfertigt gegenüber Leopoldo Marc&#x92;Antonio Caldani seine epigeneti...</title>
+                  <title type="langdesc">Blumenbach rechtfertigt gegenüber Leopoldo Marc&#x92;Antonio Caldani seine epigenetische überzeugung mit seinen Beobachtungsdaten und bittet um Zusendung einer Publikation Caldanis und die Beschaffung einer schwer erhältlichen Publikation von Giovanni Battista Canano. </title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/">
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-366">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-366">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Leopoldo Marc&#x92;Antonio</forename>
+               <surname>Caldani</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1787-05-26"
+                            when="1787-05-26"
+                            where="#orgplc-366">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1787-05-26">1787, Mai 26</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName xml:id="orgplc-366" type="Abfassungsort">Göttingen</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">0362</classCode>
+            <classCode scheme="anchor"/>
+            <classCode scheme=""/>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

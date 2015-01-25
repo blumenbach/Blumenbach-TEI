@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Wilhelm von Humboldt bittet Blumenbach um die Weiterleitung eines eiligen Briefes an Johann Gotthelf Fischer von Waldheim und berichtet über seine Beschäftigung mit der vergleichenden Anthropologie. </title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/">HumboldtWilhelm von</persName>
+            </author>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Projektträger</note>
+                  <ref target="http://adw-goe.de/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Bearbeiter des Projekts Johann Friedrich Blumenbach Online</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bearbeitung</note>
+                  <ref target="http://www.blumenbach-online.de/"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <email/>
+               <orgName/>
+               <address>
+                  <addrLine/>
+                  <country/>
+               </address>
+            </publisher>
+            <pubPlace/>
+            <date/>
+            <availability>
+               <licence>
+                  <p/>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">briefregesten/935.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 3 (Wilhelm von Humboldt Nr. 1).</note>
+            <note type="Drucke">  </note>
+            <note type="Werke">
+               <title level="m" type="main">Abbildungen naturhistorischer Gegenstände Decas craniorum</title>Abbildungen naturhistorischer Gegenstände, Heft 1 und 2 (1796, 1797; Bibliographie Nr. 00147);De generis humani varietate (3. Aufl., 1795; Bibliographie Nr. 00004); Decas craniorum 1, 2 und 3 (1790, 1793, 1795; Bibliographie Nr.00092, 00093, 00094)</note>
+            <note type="ref" xml:id="record_d1e45518">
+               <ref type="html"
+                    target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00147"/>
+               <ref type="pdf"
+                    target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=152"/>
+               <rs type="html">00147 </rs>
+               <rs type="pdf">Corresp. V, S. 136&#x96;138 Nr. 1069 </rs>
+            </note>
+            <note type="Edition">
+               <title level="m" type="main">Corresp.</title>Dougherty,Corresp. V, S. 136&#x96;138 Nr. 1069.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="kurzdesc">Wilhelm von Humboldt bittet Blumenbach um die Weiterleitung eines eiligen Brief...</title>
+                  <title type="langdesc">Wilhelm von Humboldt bittet Blumenbach um die Weiterleitung eines eiligen Briefes an Johann Gotthelf Fischer von Waldheim und berichtet über seine Beschäftigung mit der vergleichenden Anthropologie. </title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/">
+                        <forename>Wilhelm von</forename>
+                        <surname>Humboldt</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-935">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-935">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich</forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1797-06-21"
+                            when="1797-06-21"
+                            where="#orgplc-935">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1797-06-21">1797, Juni 21</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName xml:id="orgplc-935" type="Abfassungsort">Dresden</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">0917</classCode>
+            <classCode scheme="anchor"/>
+            <classCode scheme=""/>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

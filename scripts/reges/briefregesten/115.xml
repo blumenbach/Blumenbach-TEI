@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Blumenbach sendet Pieter Camper die neue, zweite Auflage seiner Dissertation De generis humani varietate nativa (1781), berichtet über den Fortgang seiner Forschungen zu Missbildungen und bittet Camper um weitere Informationen zu dessen Beobachtungen zu diesem Thema. </title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/">BlumenbachJohann Friedrich </persName>
+            </author>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Projektträger</note>
+                  <ref target="http://adw-goe.de/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Bearbeiter des Projekts Johann Friedrich Blumenbach Online</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bearbeitung</note>
+                  <ref target="http://www.blumenbach-online.de/"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <email/>
+               <orgName/>
+               <address>
+                  <addrLine/>
+                  <country/>
+               </address>
+            </publisher>
+            <pubPlace/>
+            <date/>
+            <availability>
+               <licence>
+                  <p/>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">briefregesten/115.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Amsterdam, Universiteitsbibliotheek (Camper Papers), Hs. X 11c. </note>
+            <note type="Drucke">
+               <title level="m" type="main">Histoire des sciences médicales</title>Gysel,Carlos: &#x84;Les relations du jeune Blumenbach avec Camper vieillissant&#x93;, in Histoire des sciences médicales, XVII (1983), S. 137&#x96;138.</note>
+            <note type="item">
+               <title level="m" type="main">De humani generis varietate nativa</title>De humani generis varietate nativa (1781) (= Bibliographie Nr. 00003).</note>
+            <note type="ref" xml:id="record_d1e5183">
+               <ref type="html"
+                    target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00003"/>
+               <rs type="html">00003 </rs>
+            </note>
+            <note type="Edition">
+               <title level="m" type="main">Corresp.</title>Dougherty, Corresp. I, S. 244 Nr. 0153.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="kurzdesc">Blumenbach sendet Pieter Camper die neue, zweite Auflage seiner Dissertation De...</title>
+                  <title type="langdesc">Blumenbach sendet Pieter Camper die neue, zweite Auflage seiner Dissertation De generis humani varietate nativa (1781), berichtet über den Fortgang seiner Forschungen zu Missbildungen und bittet Camper um weitere Informationen zu dessen Beobachtungen zu diesem Thema. </title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/">
+                        <forename>Johann Friedrich </forename>
+                        <surname>Blumenbach</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-115">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-115">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Pieter </forename>
+               <surname>Camper</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1781-05-22"
+                            when="1781-05-22"
+                            where="#orgplc-115">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1781-05-22">1781, Mai 22</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName xml:id="orgplc-115" type="Abfassungsort">Göttingen</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">0114</classCode>
+            <classCode scheme="anchor">Juni1781</classCode>
+            <classCode scheme=""/>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

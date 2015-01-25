@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Carl August Böttiger sendetBlumenbach ein Empfehlungsschreiben für Friedrich Wilhelm Schwabe und bittet Blumenbach, die von diesem geliehenen Bücher länger als vereinbart behalten zu dürfen. </title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/">BöttigerCarl August</persName>
+            </author>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Projektträger</note>
+                  <ref target="http://adw-goe.de/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Bearbeiter des Projekts Johann Friedrich Blumenbach Online</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bearbeitung</note>
+                  <ref target="http://www.blumenbach-online.de/"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <email/>
+               <orgName/>
+               <address>
+                  <addrLine/>
+                  <country/>
+               </address>
+            </publisher>
+            <pubPlace/>
+            <date/>
+            <availability>
+               <licence>
+                  <p/>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">briefregesten/1204.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Leipzig, Universitätsbibliothek, Sammlung Kestner II A IV, 203, fol. 15&#x96;16.</note>
+            <note type="ref" xml:id="record_d1e59601">
+               <ref type="pdf"
+                    target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=530"/>
+               <rs type="pdf">Corresp. V, S. 514&#x96;515 Nr. 1343 </rs>
+            </note>
+            <note type="Edition">
+               <title level="m" type="main">Corresp.</title>Dougherty, Corresp. V, S. 514&#x96;515 Nr. 1343.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="kurzdesc">Carl August Böttiger sendetBlumenbach ein Empfehlungsschreiben für Friedrich Wi...</title>
+                  <title type="langdesc">Carl August Böttiger sendetBlumenbach ein Empfehlungsschreiben für Friedrich Wilhelm Schwabe und bittet Blumenbach, die von diesem geliehenen Bücher länger als vereinbart behalten zu dürfen. </title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/">
+                        <forename>Carl August</forename>
+                        <surname>Böttiger</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1204">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1204">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich</forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1800-10-03"
+                            when="1800-10-03"
+                            where="#orgplc-1204">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1800-10-03">1800, Okt. 3</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName xml:id="orgplc-1204" type="Abfassungsort">Weimar</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">1187</classCode>
+            <classCode scheme="anchor"/>
+            <classCode scheme=""/>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

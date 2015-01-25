@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Nathan Lister schicktBlumenbach [einen Schädel aus Edinburgh]. </title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/">ListerNathan</persName>
+            </author>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Projektträger</note>
+                  <ref target="http://adw-goe.de/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Bearbeiter des Projekts Johann Friedrich Blumenbach Online</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bearbeitung</note>
+                  <ref target="http://www.blumenbach-online.de/"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <email/>
+               <orgName/>
+               <address>
+                  <addrLine/>
+                  <country/>
+               </address>
+            </publisher>
+            <pubPlace/>
+            <date/>
+            <availability>
+               <licence>
+                  <p/>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">briefregesten/1579.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Vgl. Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, fol. ?, vgl. Meyer, Handschriften in Göttingen 3 (1894), S. 79 mit dem Angebot eines Schädels aus Edinburgh und Spengel, Anthropologische Sammlung, S. 14 ad 280 und 281 (siehe &#x84;Obj.&#x93;).</note>
+            <note type="Objekte">Schädel aus Edinburgh; zur Identifikation des Schädels vgl. Spengel, Anthropologische Sammlung, S. 14ad 280: &#x84;1826, von Dr. Nathan Lister.»Von dem alten Kirchhof zu Edinburg [&#x85;]«&#x93;und 281: &#x84;1826. Aus derselben Quelle wie Nr. 280&#x93;.</note>
+            <note type="ref" xml:id="record_d1e77608">
+               <ref type="html"
+                    target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553"/>
+               <rs type="html">Spengel, Anthropologische Sammlung </rs>
+            </note>
+            <note type="Edition">
+               <title level="m" type="main">Corresp.</title>Dougherty, Corresp. (noch nicht ediert)</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="kurzdesc">Nathan Lister schicktBlumenbach [einen Schädel aus Edinburgh]. ...</title>
+                  <title type="langdesc">Nathan Lister schicktBlumenbach [einen Schädel aus Edinburgh]. </title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/">
+                        <forename>Nathan</forename>
+                        <surname>Lister</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1579">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1579">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich</forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1826"
+                            when="1826"
+                            where="#orgplc-1579">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1826">1826  London</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName xml:id="orgplc-1579" type="Abfassungsort"/>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">00</classCode>
+            <classCode scheme="anchor">1827</classCode>
+            <classCode scheme=""/>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

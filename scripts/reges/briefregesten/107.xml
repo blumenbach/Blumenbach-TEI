@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Georg Christoph Lichtenberg kommentiert Forschungen Blumenbachs [zur Fortpflanzung von Moosen] und eine eigene Veröffentlichung. </title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/">LichtenbergGeorg Christoph </persName>
+            </author>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Projektträger</note>
+                  <ref target="http://adw-goe.de/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Bearbeiter des Projekts Johann Friedrich Blumenbach Online</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bearbeitung</note>
+                  <ref target="http://www.blumenbach-online.de/"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <email/>
+               <orgName/>
+               <address>
+                  <addrLine/>
+                  <country/>
+               </address>
+            </publisher>
+            <pubPlace/>
+            <date/>
+            <availability>
+               <licence>
+                  <p/>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">briefregesten/107.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826. </note>
+            <note type="Drucke">
+               <title level="m" type="main">Lichtenbergs Briefe an Blumenbach Briefwechsel</title>Leitzmann, Lichtenbergs Briefe an Blumenbach (1921), Nr. 15; Lichtenberg, Briefwechsel, Bd. 2 (1985), Nr. 764, S. 144&#x96;145.</note>
+            <note type="Edition">
+               <title level="m" type="main">Corresp.</title>Dougherty, Corresp. I, S. 224 Nr. 0143.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="kurzdesc">Georg Christoph Lichtenberg kommentiert Forschungen Blumenbachs [zur Fortpflanz...</title>
+                  <title type="langdesc">Georg Christoph Lichtenberg kommentiert Forschungen Blumenbachs [zur Fortpflanzung von Moosen] und eine eigene Veröffentlichung. </title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/">
+                        <forename>Georg Christoph </forename>
+                        <surname>Lichtenberg</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-107">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-107">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich </forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1781-02-01"
+                            notBefore="1781-02-01"
+                            where="#orgplc-107">
+                        <label>Abfassungsdatum (not before):</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1781-02-01">1781, Febr.</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName xml:id="orgplc-107" type="Abfassungsort">Göttingen</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">0106</classCode>
+            <classCode scheme="anchor">Maerz1781</classCode>
+            <classCode scheme=""/>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

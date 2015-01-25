@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Christoph Meiners teilt Blumenbach mit, dass er die von diesem vorgeschlagenen änderungen an einer Rezension in denGöttingischen Anzeigen von gelehrten Sachen für sachlich nicht erforderlich hält. </title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/">MeinersChristoph </persName>
+            </author>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Projektträger</note>
+                  <ref target="http://adw-goe.de/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Bearbeiter des Projekts Johann Friedrich Blumenbach Online</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bearbeitung</note>
+                  <ref target="http://www.blumenbach-online.de/"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <email/>
+               <orgName/>
+               <address>
+                  <addrLine/>
+                  <country/>
+               </address>
+            </publisher>
+            <pubPlace/>
+            <date/>
+            <availability>
+               <licence>
+                  <p/>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">briefregesten/241.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Göttingen, Akademie der Wissenschaften, Archiv, Scient. 47,3 Nr. 972-1 </note>
+            <note type="Anmerkung">
+               <title level="m" type="main">GAgS</title>Vgl. Chr. Meiners&#x92; Rezension von Johann Gottfried Herders Ideen zur Geschichte der Menschheit, Teil 1 (1784) in GAgS 1785, S. 65&#x96;68.Vgl. Chr. Meiners&#x92; Rezension von Johann Gottfried Herders Ideen zur Geschichte der Menschheit, Teil 1 (1784) in GAgS 1785, S. 65&#x96;68.</note>
+            <note type="Edition">
+               <title level="m" type="main">Corresp.</title>Dougherty, Corresp. II, S. 233 Nr. 0328.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="kurzdesc">Christoph Meiners teilt Blumenbach mit, dass er die von diesem vorgeschlagenen ...</title>
+                  <title type="langdesc">
+                     <title level="m" type="sub">Göttingischen Anzeigen von gelehrten Sachen</title>Christoph Meiners teilt Blumenbach mit, dass er die von diesem vorgeschlagenen änderungen an einer Rezension in denGöttingischen Anzeigen von gelehrten Sachen für sachlich nicht erforderlich hält. </title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/">
+                        <forename>Christoph </forename>
+                        <surname>Meiners</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-241">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-241">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich</forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1785-01-15"
+                            notAfter="1785-01-15"
+                            where="#orgplc-241">
+                        <label>Abfassungsdatum (not after):</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1785-01-15">1785, vor Jan. 15</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName xml:id="orgplc-241" type="Abfassungsort">Göttingen</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">0237</classCode>
+            <classCode scheme="anchor"/>
+            <classCode scheme=""/>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

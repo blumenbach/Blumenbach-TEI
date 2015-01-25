@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Blumenbach dankt August [und Johann Wolfgang?] von Goethe für die Zusendung eines antiken Schädels aus einem Grabhügel bei Romstedt in Thüringen, gibt eine wissenschaftliche Einschätzung zu Alter und Geschlecht des Toten und schlägtzur Bestimmung von dessen ethnischer Zugehörigkeit eine Publikation von Zeichnungen der Grabbeigaben an. </title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/">BlumenbachJohann Friedrich</persName>
+            </author>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Projektträger</note>
+                  <ref target="http://adw-goe.de/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Bearbeiter des Projekts Johann Friedrich Blumenbach Online</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bearbeitung</note>
+                  <ref target="http://www.blumenbach-online.de/"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <email/>
+               <orgName/>
+               <address>
+                  <addrLine/>
+                  <country/>
+               </address>
+            </publisher>
+            <pubPlace/>
+            <date/>
+            <availability>
+               <licence>
+                  <p/>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">briefregesten/1434.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Konzept beiliegend zu Brief August von Goethes an Blumenbach vom 20. Febr. 1815, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 19, fol. 2&#x96;3. </note>
+            <note type="Objekte">
+               <title level="m" type="main">Nova pentas craniorum</title>Schädel eines &#x84;alten Germanen&#x93; (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 5; Abb. in Nova pentas craniorum (1828), Tafel 61, Bibliographie Nr. 00098), Fotos inKárolyi, Zeitschrift für Morphologie und Anthropologie 1966, Tafel 16, unten; zur Identifikation des Schädels vgl.Spengel, Anthropologische Sammlung, S. 12 ad 240.</note>
+            <note type="Drucke">Paraphrase in: Voit, Max: Ein Brief von Goethes Sohn August an J. F. Blumenbach. Göttingen 1928 [Gedr. in 100 Ex. zur 6jähr. Jahresfeier d. Vereinigung Göttinger Bücherfreunde am 23. Juni 1928].</note>
+            <note type="Edition">
+               <title level="m" type="main">Corresp.</title>Dougherty, Corresp. (noch nicht ediert)</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="kurzdesc">Blumenbach dankt August [und Johann Wolfgang?] von Goethe für die Zusendung ein...</title>
+                  <title type="langdesc">Blumenbach dankt August [und Johann Wolfgang?] von Goethe für die Zusendung eines antiken Schädels aus einem Grabhügel bei Romstedt in Thüringen, gibt eine wissenschaftliche Einschätzung zu Alter und Geschlecht des Toten und schlägtzur Bestimmung von dessen ethnischer Zugehörigkeit eine Publikation von Zeichnungen der Grabbeigaben an. </title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/">
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1434">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1434">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>August von / Johann Wolfgang von</forename>
+               <surname>Goethe</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1815-02-20"
+                            notBefore="1815-02-20"
+                            where="#orgplc-1434">
+                        <label>Abfassungsdatum (not before):</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1815-02-20">1815, nach Febr. 20</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName xml:id="orgplc-1434" type="Abfassungsort">Göttingen</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">00</classCode>
+            <classCode scheme="anchor"/>
+            <classCode scheme=""/>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

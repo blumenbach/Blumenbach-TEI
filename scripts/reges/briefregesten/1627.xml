@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Blumenbach fragt Wilhelm Weber, ob er im laufenden Jahr einen Vortrag vor der Königlichen Societät der Wissenschaften zu Göttingen halten könne. </title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/">BlumenbachJohann Friedrich</persName>
+            </author>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Projektträger</note>
+                  <ref target="http://adw-goe.de/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Bearbeiter des Projekts Johann Friedrich Blumenbach Online</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bearbeitung</note>
+                  <ref target="http://www.blumenbach-online.de/"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <email/>
+               <orgName/>
+               <address>
+                  <addrLine/>
+                  <country/>
+               </address>
+            </publisher>
+            <pubPlace/>
+            <date/>
+            <availability>
+               <licence>
+                  <p/>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">briefregesten/1627.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Freiburg,Universitätsbibliothek, Autograph 287 (nur Tagesdatum. keine Jahresangabe). </note>
+            <note type="Anmerkung">W. Weber war ab 1831 Professor in Göttingen und Mitglied der Societät der Wissenschaften. W. Weber war ab 1831 Professor in Göttingen und Mitglied der Societät der Wissenschaften. </note>
+            <note type="Drucke">Digitalisat der UB Freiburg: http://dl.ub.uni-freiburg.de/ diglit/autogr0287</note>
+            <note type="ref" xml:id="record_d1e79899">
+               <ref type="html" target="http://dl.ub.uni-freiburg.de/diglit/autogr0287"/>
+               <rs type="html">http://dl.ub.uni-freiburg.de/ diglit/autogr0287 </rs>
+            </note>
+            <note type="Edition">
+               <title level="m" type="main">Corresp.</title>Dougherty, Corresp. (noch nicht ediert)</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="kurzdesc">Blumenbach fragt Wilhelm Weber, ob er im laufenden Jahr einen Vortrag vor der K...</title>
+                  <title type="langdesc">Blumenbach fragt Wilhelm Weber, ob er im laufenden Jahr einen Vortrag vor der Königlichen Societät der Wissenschaften zu Göttingen halten könne. </title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/">
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1627">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1627">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Wilhelm </forename>
+               <surname>Weber</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1831-01-01"
+                            when="1831-01-01"
+                            where="#orgplc-1627">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1831-01-01">[nach 1831/ vor 1836], Okt. 30</date>
+                        </note>
+                     </event>
+                  </listEvent>
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1831-01-01"
+                            notBefore="1831-01-01"
+                            where="#orgplc-1627">
+                        <label>Abfassungsdatum (not before):</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1831-01-01">[nach 1831/ vor 1836], Okt. 30</date>
+                        </note>
+                     </event>
+                  </listEvent>
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1836-10-30"
+                            notAfter="1836-10-30"
+                            where="#orgplc-1627">
+                        <label>Abfassungsdatum (not after):</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1836-10-30">[nach 1831/ vor 1836], Okt. 30</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName xml:id="orgplc-1627" type="Abfassungsort">Göttingen</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">00</classCode>
+            <classCode scheme="anchor"/>
+            <classCode scheme=""/>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

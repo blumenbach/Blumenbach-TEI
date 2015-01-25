@@ -63,39 +63,140 @@
                     <idno type="URLText"></idno>
                 </idno>
             </publicationStmt>
-            <seriesStmt>
-                <title></title>
-                <respStmt>
-                    <resp>ed. by</resp>
-                    <name></name>
-                </respStmt>
-                <biblScope unit="volume"><xsl:value-of select="Zusatzdaten"/><xsl:value-of select="edition"/></biblScope>
-                <idno type="ISSN"></idno>
-            </seriesStmt>
             <notesStmt>
-                <note><xsl:value-of select="note"/></note>
-                <note><rs type="object"><xsl:value-of select="object"/></rs></note>
-                <note><rs type="span"><xsl:value-of select="span"/></rs></note>
-                <note> <rs type="bibl"><xsl:value-of select="bibl"/></rs></note>
-                <note> <rs type="lz"><xsl:value-of select="Lit_in_Zusatzdaten"/></rs></note>
-                <note> <rs type="item"><xsl:value-of select="relatedItem"/></rs></note>
-                <note>
-                        <xsl:for-each select="ref">
-                            <xsl:if test="@target">
-                        <ref target="{@target}"></ref>
-                            </xsl:if>
-                        </xsl:for-each>                     
-                </note>
-                <note><rs type="edition"><xsl:value-of select="link"/></rs></note>
+                        <note type="Überlieferung"><xsl:value-of select="biblScope"/></note>                
+                        <xsl:if test="note">
+                            <note type="Anmerkung">
+                               <xsl:choose>
+                                    <xsl:when test="note/emph">
+                                        <xsl:for-each select="note/emph">
+                                            <title level="m" type="main"><xsl:value-of select="."/></title>
+                                         </xsl:for-each>   
+                                        <xsl:value-of select="note"/>
+                                    </xsl:when> 
+                                    <xsl:otherwise>
+                                        <xsl:value-of select="note"/>    
+                                    </xsl:otherwise>
+                               </xsl:choose>                                
+                                <xsl:value-of select="note"/></note>
+                        </xsl:if>
+                        <xsl:if test="object">
+                            <note type="Objekte">
+                               <xsl:choose>
+                                    <xsl:when test="object/emph">
+                                        <xsl:for-each select="object/emph">
+                                            <title level="m" type="main"><xsl:value-of select="."/></title>
+                                         </xsl:for-each>   
+                                        <xsl:value-of select="object"/>
+                                    </xsl:when> 
+                                    <xsl:otherwise>
+                                        <xsl:value-of select="object"/>    
+                                    </xsl:otherwise>
+                               </xsl:choose>
+                            </note>
+                        </xsl:if> 
+                        <xsl:if test="bibl">
+                            <note type="Drucke">
+                                <xsl:choose>
+                                     <xsl:when test="bibl/emph"> 
+                                      <title level="m" type="main"><xsl:value-of select="bibl/emph"/></title>   
+                                        <xsl:value-of select="bibl"/>
+                                     </xsl:when>
+                                    <xsl:otherwise>
+                                      <xsl:value-of select="bibl"/>
+                                    </xsl:otherwise>   
+                                </xsl:choose>
+                            </note>    
+                         </xsl:if>  
+                        <xsl:if test="Lit_in_Zusatzdaten">
+                            <note type="Werke">
+                                <xsl:choose>
+                                    <xsl:when test="Lit_in_Zusatzdaten/emph">
+                                        <title level="m" type="main"><xsl:value-of select="Lit_in_Zusatzdaten/emph"/></title>
+                                        <xsl:value-of select="Lit_in_Zusatzdaten"/>
+                                    </xsl:when> 
+                                    <xsl:otherwise>
+                                        <xsl:value-of select="Lit_in_Zusatzdaten"/>    
+                                    </xsl:otherwise>
+                                </xsl:choose>    
+                            </note>    
+                        </xsl:if>
+                        <xsl:if test="relatedItem">
+                            <note type="item">
+                                <xsl:choose>
+                                    <xsl:when test="relatedItem/emph">
+                                        <title level="m" type="main"><xsl:value-of select="relatedItem/emph"/></title>
+                                    <xsl:value-of select="relatedItem"/>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:value-of select="Lit_in_Zusatzdaten"/>    
+                                    </xsl:otherwise>
+                                </xsl:choose>    
+                            </note>
+                        </xsl:if> 
+                        <xsl:if test="ref">
+                        <note type="ref">
+                               <xsl:attribute name="xml:id">
+                                    <xsl:value-of select="concat(name(),'_',generate-id())"/>
+                               </xsl:attribute>
+                                        <xsl:for-each select="ref">
+                                            <xsl:if test="not(@type)">   
+                                            <ref type="html" target="{@target}"></ref>
+                                            </xsl:if>                                
+                                            <xsl:if test="@type">
+                                                <ref type="pdf" target="{@target}"></ref>    
+                                            </xsl:if>  
+                                        </xsl:for-each>
+                                        <xsl:for-each select="link">
+                                            <xsl:if test="not(./emph)">                                        
+                                                <rs type="html"><xsl:value-of select="."/></rs>                                                                       
+                                            </xsl:if>
+                                            <xsl:if test="./emph">                                        
+                                                <rs type="pdf"><xsl:value-of select="."/></rs>                                                                       
+                                            </xsl:if>
+                                        </xsl:for-each>   
+                        </note>
+                        </xsl:if>
+                        <note type="Edition">
+                            <xsl:choose>
+                                 <xsl:when test="edition/emph"> 
+                                  <title level="m" type="main"><xsl:value-of select="edition/emph"/></title>   
+                                    <xsl:value-of select="edition"/>
+                                 </xsl:when>
+                                <xsl:otherwise>
+                                  <xsl:value-of select="edition"/>
+                                </xsl:otherwise>   
+                            </xsl:choose>
+                        </note>                
             </notesStmt>
             <sourceDesc>
                 <bibl type="brief"></bibl>
                 <biblFull>
                     <titleStmt>
-                        <title level="m" type="main"><xsl:value-of select="biblScope"/></title>
+                        <xsl:for-each select="title">
+                        <title type="kurzdesc"><xsl:value-of select="substring(., 0, 80)"/>...</title>
+                        <title type="langdesc">  
+                        <xsl:choose>                             
+                                <xsl:when test="./emph"><title level="m" type="sub"><xsl:value-of select="./emph"/></title>
+                                    <xsl:value-of select="."/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="."/>  
+                                </xsl:otherwise>                    
+                         </xsl:choose>
+                        </title>
+                   </xsl:for-each>                             
                         <author>
                             <persName ref="http://d-nb.info/gnd/">
-                                <xsl:value-of select="author"/>
+                                <xsl:choose>
+                                <xsl:when test="author/forename or author/surname" >
+                                    <forename><xsl:value-of select="author/forename"/></forename>
+                                    <surname><xsl:value-of select="author/surname"/></surname>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="author"/>  
+                                </xsl:otherwise>    
+                                </xsl:choose>  
                             </persName>
                         </author>
                     </titleStmt>
@@ -104,44 +205,7 @@
                         <pubPlace></pubPlace>
                         <date type="publication"></date>
                     </publicationStmt>
-                </biblFull> 
-                <listPlace type="origin">
-                    <place>
-                        <placeName xml:id="orgplc-{$count}">
-                            <xsl:value-of select="place"/>
-                        </placeName>
-                    </place>
-                </listPlace>
-                <xsl:if test="altdate">
-                <listEvent>
-                    <event type="iso-origin" datingMethod="#ISO-{$count}" sortKey="{altdate}" when="{altdate}" where="#orgplc-{$count}">
-                        <label><xsl:value-of select="date"/></label>
-                    </event>                                  
-                </listEvent>  
-                </xsl:if>
-                <xsl:if test="notbefore">
-                <listEvent>
-                    <event type="iso-origin" datingMethod="#ISO-{$count}" sortKey="{notbefore}" notBefore="{notbefore}" where="#orgplc-{$count}">
-                         <label><xsl:value-of select="date"/></label>
-                    </event>
-                 </listEvent>    
-                 </xsl:if>
-                
-                 <xsl:if test="notafter">
-                 <listEvent>
-                     <event type="iso-origin" datingMethod="#ISO-{$count}" sortKey="{notafter}" notAfter="{notafter}" where="#orgplc-{$count}">
-                          <label><xsl:value-of select="date"/></label>
-                     </event>
-                 </listEvent>
-                 </xsl:if>  
-                <xsl:if test="julian">
-                    <listEvent>
-                        <event type="julian-origin" datingMethod="#julian-{$count}" when="{julian}" where="#orgplc">
-                            <label><xsl:value-of select="date"/></label>
-                        </event>
-                    </listEvent>
-                </xsl:if>    
-                
+                </biblFull>                
                 <msDesc>
                     <msIdentifier>
                     </msIdentifier>
@@ -166,9 +230,62 @@
                 </calendar>
             </calendarDesc>
             <creation>
-                <persName type="addressee">
-                    <xsl:value-of select="receiver"/>
-                </persName>
+                <persName resp="emp">                
+                   <xsl:choose>
+                       <xsl:when test="receiver/forename or receiver/surname" >
+                           <forename><xsl:value-of select="receiver/forename"/></forename>
+                           <surname><xsl:value-of select="receiver/surname"/></surname>
+                       </xsl:when>
+                       <xsl:otherwise>
+                           <xsl:value-of select="receiver"/>  
+                       </xsl:otherwise>    
+                   </xsl:choose> 
+                </persName>                
+                <origDate>
+                <note type="Abfassungsevent"> 
+              <xsl:if test="altdate">
+                <listEvent>
+                    <event type="iso-origin" datingMethod="#ISO" sortKey="{altdate}" when="{altdate}" where="#orgplc-{$count}">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum"><date when="{altdate}"><xsl:value-of select="date"/>
+                        <xsl:if test="precision"><precision precision="unknown"/></xsl:if>
+                        </date></note> 
+                    </event>                                  
+                </listEvent>
+                </xsl:if>
+                <xsl:if test="notbefore">
+                <listEvent>
+                    <event type="iso-origin" datingMethod="#ISO" sortKey="{notbefore}" notBefore="{notbefore}" where="#orgplc-{$count}">
+                        <label>Abfassungsdatum (not before):</label>
+                        <note type="Abfassungsdatum"><date when="{notbefore}"><xsl:value-of select="date"/>
+                        <xsl:if test="precision"><precision precision="unknown"/></xsl:if>
+                        </date></note>                         
+                    </event>
+                 </listEvent>                    
+                 </xsl:if>                
+                 <xsl:if test="notafter">
+                 <listEvent>
+                     <event type="iso-origin" datingMethod="#ISO" sortKey="{notafter}" notAfter="{notafter}" where="#orgplc-{$count}">
+                         <label>Abfassungsdatum (not after):</label>
+                        <note type="Abfassungsdatum"><date when="{notafter}"><xsl:value-of select="date"/>
+                        <xsl:if test="precision"><precision precision="unknown"/></xsl:if>
+                        </date></note>                          
+                     </event>                     
+                 </listEvent>                  
+                 </xsl:if>  
+                <xsl:if test="julian">
+                    <listEvent>
+                        <event type="julian-origin" datingMethod="#julian" when="{julian}" where="#orgplc">
+                            <label>Abfassungsdatum (julian):</label>
+                        <note type="Abfassungsdatum"><date when="{julian}"><xsl:value-of select="date"/>
+                        <xsl:if test="precision"><precision precision="unknown"/></xsl:if>
+                        </date></note>                            
+                        </event>
+                    </listEvent>                   
+                </xsl:if>
+                </note>
+                </origDate>
+                <placeName xml:id="orgplc-{$count}" type="Abfassungsort"><xsl:value-of select="place"/></placeName>
             </creation>
             <textClass>
                 <classCode scheme="RegNr"><xsl:value-of select="RegNr"/></classCode>

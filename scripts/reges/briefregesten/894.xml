@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Blumenbachsendet Ernst II. von Sachsen-Gotha und Altenburgsechs Zeichnungen und Beschreibungen von Gebrauchsgegenständen der Ureinwohner Ostsibiriens und Alaskas, die von der russischen Expedition unterJoseph Billings [, Gawriil Andrejewitsch Sarytschew] und Christian Beringmitgebracht worden waren, und von fossilen Tierknochen aus Paraguay. </title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/">BlumenbachJohann Friedrich</persName>
+            </author>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Projektträger</note>
+                  <ref target="http://adw-goe.de/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Bearbeiter des Projekts Johann Friedrich Blumenbach Online</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bearbeitung</note>
+                  <ref target="http://www.blumenbach-online.de/"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <email/>
+               <orgName/>
+               <address>
+                  <addrLine/>
+                  <country/>
+               </address>
+            </publisher>
+            <pubPlace/>
+            <date/>
+            <availability>
+               <licence>
+                  <p/>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">briefregesten/894.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Gotha. Forschungsbibliothek, Memb. I 131, Bl. IIr-v (Exzerpt aus verlorenem Brief). </note>
+            <note type="Anmerkung">Kopien der Zeichnungen sind in Gotha erhalten (Gotha, FB Gotha Memb. I 131). Kopien der Zeichnungen sind in Gotha erhalten (Gotha, FB Gotha Memb. I 131). </note>
+            <note type="Objekte">Zeichnung eines Tschukschen-Köchers aus Rentierfell; zweier Hüte aus Alaska (einer in Gestalt eines Seehundkopfes); zwei Musikinstrumente (Rassel und Handpauke) von der Insel Kodiak; Kajak aus Seehundsfell; Hutdekoration aus Alaska. Es ist unklar, welchen dergezeichneten Objekte im Göttinger Academ. Museum vorhanden waren. </note>
+            <note type="ref" xml:id="record_d1e43378">
+               <ref type="pdf"
+                    target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=97"/>
+               <rs type="pdf">Corresp. V, S.81&#x96;82 Nr. 1026 </rs>
+            </note>
+            <note type="Edition">
+               <title level="m" type="main">Corresp.</title>Dougherty, Corresp. V, S.81&#x96;82 Nr. 1026. </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="kurzdesc">Blumenbachsendet Ernst II. von Sachsen-Gotha und Altenburgsechs Zeichnungen und...</title>
+                  <title type="langdesc">Blumenbachsendet Ernst II. von Sachsen-Gotha und Altenburgsechs Zeichnungen und Beschreibungen von Gebrauchsgegenständen der Ureinwohner Ostsibiriens und Alaskas, die von der russischen Expedition unterJoseph Billings [, Gawriil Andrejewitsch Sarytschew] und Christian Beringmitgebracht worden waren, und von fossilen Tierknochen aus Paraguay. </title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/">
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-894">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-894">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Ernst II. von </forename>
+               <surname>Sachsen-Gotha und Altenburg</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1797-01-01"
+                            notAfter="1797-01-01"
+                            where="#orgplc-894">
+                        <label>Abfassungsdatum (not after):</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1797-01-01">vor 1797, Jan. 1</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName xml:id="orgplc-894" type="Abfassungsort">Göttingen</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">00886</classCode>
+            <classCode scheme="anchor">1797 Jan1797</classCode>
+            <classCode scheme=""/>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

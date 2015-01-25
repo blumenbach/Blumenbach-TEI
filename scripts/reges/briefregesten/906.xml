@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Friedrich Philipp Rosenstiel sendet Blumenbach die ersten 10 Druckbögen von Alexander von HumboldtsStudie Versuche Über die gereizte Muskel- und Nervenfaser als Grundlage für die von Blumenbach zugesagteVorrede zu diesem Werk. </title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/">RosenstielFriedrich Philipp</persName>
+            </author>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Projektträger</note>
+                  <ref target="http://adw-goe.de/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Bearbeiter des Projekts Johann Friedrich Blumenbach Online</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bearbeitung</note>
+                  <ref target="http://www.blumenbach-online.de/"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <email/>
+               <orgName/>
+               <address>
+                  <addrLine/>
+                  <country/>
+               </address>
+            </publisher>
+            <pubPlace/>
+            <date/>
+            <availability>
+               <licence>
+                  <p/>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">briefregesten/906.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 3 (Ad Alexander von HumboldtNr. 10).</note>
+            <note type="ref" xml:id="record_d1e43961">
+               <ref type="pdf"
+                    target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=110"/>
+               <rs type="pdf">Corresp. V, S. 94&#x96;95 Nr. 1039 </rs>
+            </note>
+            <note type="Edition">
+               <title level="m" type="main">Corresp.</title>Dougherty, Corresp. V, S. 94&#x96;95 Nr. 1039. </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="kurzdesc">Friedrich Philipp Rosenstiel sendet Blumenbach die ersten 10 Druckbögen von Ale...</title>
+                  <title type="langdesc">
+                     <title level="m" type="sub">Versuche Über die gereizte Muskel- und Nervenfaser</title>Friedrich Philipp Rosenstiel sendet Blumenbach die ersten 10 Druckbögen von Alexander von HumboldtsStudie Versuche Über die gereizte Muskel- und Nervenfaser als Grundlage für die von Blumenbach zugesagteVorrede zu diesem Werk. </title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/">
+                        <forename>Friedrich Philipp</forename>
+                        <surname>Rosenstiel</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-906">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-906">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich</forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1797-01-31"
+                            when="1797-01-31"
+                            where="#orgplc-906">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1797-01-31">1797, Jan. 31  Berlin</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName xml:id="orgplc-906" type="Abfassungsort"/>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">0898</classCode>
+            <classCode scheme="anchor">Febr1797</classCode>
+            <classCode scheme=""/>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

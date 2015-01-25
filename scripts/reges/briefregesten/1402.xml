@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Justus Christoph von Leist teilt Blumenbachu. a. mit,dass das Direktorium des öffentlichen Unterrichts im Königreich Westfalenhinsichtlich Friedrich Karl Lappes erneutem Antrag aufErteilung der Venia legendi in der Medizinischen Fakultät der Universität Göttingen mit einemzustimmendenVotum der Fakuttät rechne. </title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/">von LeistJustus Christoph</persName>
+            </author>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Projektträger</note>
+                  <ref target="http://adw-goe.de/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Bearbeiter des Projekts Johann Friedrich Blumenbach Online</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bearbeitung</note>
+                  <ref target="http://www.blumenbach-online.de/"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <email/>
+               <orgName/>
+               <address>
+                  <addrLine/>
+                  <country/>
+               </address>
+            </publisher>
+            <pubPlace/>
+            <date/>
+            <availability>
+               <licence>
+                  <p/>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">briefregesten/1402.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung"/>
+            <note type="Drucke">Erwähnung in Tütken, Johannes: Privatdozenten im Schatten der Georgia Augusta. Göttingen 2005, Bd. 2, S. 785. </note>
+            <note type="Edition">
+               <title level="m" type="main">Corresp.</title>Dougherty, Corresp. (noch nicht ediert)</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="kurzdesc">Justus Christoph von Leist teilt Blumenbachu. a. mit,dass das Direktorium des ö...</title>
+                  <title type="langdesc">Justus Christoph von Leist teilt Blumenbachu. a. mit,dass das Direktorium des öffentlichen Unterrichts im Königreich Westfalenhinsichtlich Friedrich Karl Lappes erneutem Antrag aufErteilung der Venia legendi in der Medizinischen Fakultät der Universität Göttingen mit einemzustimmendenVotum der Fakuttät rechne. </title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/">
+                        <forename>Justus Christoph</forename>
+                        <surname>von Leist</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1402">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1402">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich</forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1812-01-13"
+                            notBefore="1812-01-13"
+                            where="#orgplc-1402">
+                        <label>Abfassungsdatum (not before):</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1812-01-13">1812, nach Jan. 13/ vor Febr. 4</date>
+                        </note>
+                     </event>
+                  </listEvent>
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1812-02-04"
+                            notAfter="1812-02-04"
+                            where="#orgplc-1402">
+                        <label>Abfassungsdatum (not after):</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1812-02-04">1812, nach Jan. 13/ vor Febr. 4</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName xml:id="orgplc-1402" type="Abfassungsort">Kassel</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">00</classCode>
+            <classCode scheme="anchor"/>
+            <classCode scheme=""/>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

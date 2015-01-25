@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[August Ferdinand Graf?] Breuner[-Enckevoirth ?] sendet BlumenbachdenAbgusseines Avarenschädels aus seinem Besitz]. </title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/">Breuner[-EnckevoirthAugust Ferdinand ?] </persName>
+            </author>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Projektträger</note>
+                  <ref target="http://adw-goe.de/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName>Bearbeiter des Projekts Johann Friedrich Blumenbach Online</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bearbeitung</note>
+                  <ref target="http://www.blumenbach-online.de/"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <email/>
+               <orgName/>
+               <address>
+                  <addrLine/>
+                  <country/>
+               </address>
+            </publisher>
+            <pubPlace/>
+            <date/>
+            <availability>
+               <licence>
+                  <p/>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">briefregesten/1527.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Göttingen, Universitätsbibliothek, Cod. Ms.Blumenbach VI,fol. ?, vgl. Meyer, Handschriften in Göttingen 3 (1894), S. 80. </note>
+            <note type="Anmerkung">
+               <title level="m" type="main">Handschriften in Göttingen</title>Meyer, Handschriften in Göttingen 3 (1894), S. 80, nennt als Gegenstand des Briefes den Schädel &#x84;eines alten Eingeborenen&#x93;; vgl. zu dem Schädel in Breuners Besitz, von dem er Abgüsse versandte, Tschudi, J.J. von: &#x84;Ein Awarenschädel&#x93;, in Archiv für Anatomie, Physiologie und wissenschaftliche Medicin, Band 1845, S. 277&#x96;280. Meyer, Handschriften in Göttingen 3 (1894), S. 80, nennt als Gegenstand des Briefes den Schädel &#x84;eines alten Eingeborenen&#x93;; vgl. zu dem Schädel in Breuners Besitz, von dem er Abgüsse versandte, Tschudi, J.J. von: &#x84;Ein Awarenschädel&#x93;, in Archiv für Anatomie, Physiologie und wissenschaftliche Medicin, Band 1845, S. 277&#x96;280. </note>
+            <note type="Objekte">Zur Identifikation des Schädels vgl. Spengel, Anthropologische Sammlung, S. 29 Anm. ad 261&#x84;(Abguss des Avarenschädels von Grafenegg [&#x85;].)&#x93; und S. 90 Nr. 261.</note>
+            <note type="ref" xml:id="record_d1e75199">
+               <ref type="html"
+                    target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553"/>
+               <rs type="html">Spengel, Anthropologische Sammlung </rs>
+            </note>
+            <note type="Edition">
+               <title level="m" type="main">Corresp.</title>Dougherty, Corresp. (noch nicht ediert)</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="kurzdesc">[August Ferdinand Graf?] Breuner[-Enckevoirth ?] sendet BlumenbachdenAbgusseine...</title>
+                  <title type="langdesc">[August Ferdinand Graf?] Breuner[-Enckevoirth ?] sendet BlumenbachdenAbgusseines Avarenschädels aus seinem Besitz]. </title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/">
+                        <forename>August Ferdinand ?] </forename>
+                        <surname>Breuner[-Enckevoirth</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1527">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1527">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich</forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1823-05-24"
+                            when="1823-05-24"
+                            where="#orgplc-1527">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1823-05-24">1823, Mai24</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName xml:id="orgplc-1527" type="Abfassungsort">Wien</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">00</classCode>
+            <classCode scheme="anchor"/>
+            <classCode scheme=""/>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
