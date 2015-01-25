@@ -19,8 +19,7 @@
                 </respStmt>
                 <respStmt>
                     <resp>Kodiert durch:</resp>
-                    <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach -
-                        online</orgName>
+                    <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -28,18 +27,14 @@
                     Regesten zum Briefwechsel Johann Friedrich Blumenbachs, online verfügbar über
                     die Homepage des Projekts:
                     http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/
-                    Briefregesten/Blumenbach_Briefregesten.html
-                </p>
+                    Briefregesten/Blumenbach_Briefregesten.html</p>
             </publicationStmt>
             <sourceDesc>
                 <p>Erstellt auf Basis der im Projekt „Johann Friedrich Blumenbach - online“
-                    erstellten Regesten zum Briefwechsel Johann Friedrich Blumenbachs. Online
-                    verfügbar über die Homepage des Projekts.</p>  
+                   erstellten Regesten zum Briefwechsel Johann Friedrich Blumenbachs. Online
+                   verfügbar über die Homepage des Projekts.</p>  
             </sourceDesc>
         </fileDesc>
-        <encodingDesc>
-            <p/>
-        </encodingDesc>
         <profileDesc>
             <langUsage>
                 <language ident="DE-de"></language>
@@ -49,6 +44,13 @@
                 <calendar xml:id="ISO"><p>ISO 8601 calendar</p></calendar>
             </calendarDesc>
         </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+            </projectDesc>  
+        </encodingDesc>        
         <revisionDesc>
             <change who="#BjfbO">Erstellungsdatum: <xsl:value-of select="current-dateTime()"/></change>
         </revisionDesc>
@@ -58,14 +60,11 @@
             <list>                
               <xsl:for-each select="BR/record">
                   <saxon:assign name="count" select="$count+1"/>
-                  <xsl:variable name="xmlrecordid" select="concat('briefregesten/',$count,'')" />
-                  
-                
+                  <xsl:variable name="xmlrecordid" select="concat('briefregesten/',$count,'')" />                
                   <item xml:id="JFB_BRIEFREGEST_{$count}" n="{RegNr}">
                       <bibl>
                     <xsl:for-each select="title">
-                        <title type="kurzdesc"><xsl:value-of select="substring(., 0, 80)"/>...</title>
-                          
+                        <title type="kurzdesc"><xsl:value-of select="substring(., 0, 80)"/>...</title>                          
                         <xsl:choose>                             
                                 <xsl:when test="./emph">
                                     <note type="title">
@@ -79,8 +78,7 @@
                                 <xsl:otherwise>
                                     <note type="title"><xsl:value-of select="."/></note>  
                                 </xsl:otherwise>                    
-                         </xsl:choose>
-                            
+                         </xsl:choose>                            
                     </xsl:for-each>   
                         <respStmt>
                             <resp key="abs">Absender</resp>
@@ -165,7 +163,7 @@
                                         </xsl:for-each>    
                                      </xsl:when>
                                     <xsl:otherwise>
-                                      <xsl:value-of select="bibl"/>
+                                      <xsl:copy-of copy-namespaces="no" select="bibl"/>
                                     </xsl:otherwise>   
                                 </xsl:choose>
                             </note>    
@@ -182,7 +180,7 @@
                                    </xsl:for-each>   
                                  </xsl:when>
                                 <xsl:otherwise>
-                                  <xsl:value-of select="edition"/>
+                                  <xsl:copy-of copy-namespaces="no" select="edition"/>
                                 </xsl:otherwise>   
                             </xsl:choose>
                         </note>
@@ -200,7 +198,7 @@
                                         </xsl:for-each>    
                                     </xsl:when>
                                     <xsl:otherwise>
-                                        <xsl:value-of select="./bibl"/>    
+                                        <xsl:copy-of copy-namespaces="no" select="./bibl"/>    
                                     </xsl:otherwise>
                                 </xsl:choose>
                                 </xsl:for-each>    
@@ -229,18 +227,18 @@
                                         </xsl:for-each>   
                         </note>
                         </xsl:if>    
-                        <xsl:if test="object">
+                        <xsl:if test="rs">
                             <note type="Objekte">
                                <xsl:choose>
-                                    <xsl:when test="object/emph">
-                                        <xsl:copy-of copy-namespaces="no" select="object"/>
+                                    <xsl:when test="rs/emph">
+                                        <xsl:copy-of copy-namespaces="no" select="rs"/>
                                         <xsl:text>&#xa;</xsl:text> 
-                                        <xsl:for-each select="object/emph">                                            
+                                        <xsl:for-each select="rs/emph">                                            
                                             <title level="m" type="bibl"><xsl:value-of select="."/></title>
                                          </xsl:for-each>   
                                     </xsl:when> 
                                     <xsl:otherwise>
-                                        <xsl:value-of select="object"/>    
+                                        <xsl:copy-of copy-namespaces="no" select="rs"/>   
                                     </xsl:otherwise>
                                </xsl:choose>
                             </note>
@@ -256,7 +254,7 @@
                                          </xsl:for-each>                                        
                                     </xsl:when> 
                                     <xsl:otherwise>
-                                        <xsl:value-of select="note"/>    
+                                        <xsl:copy-of copy-namespaces="no" select="note"/>    
                                     </xsl:otherwise>
                                </xsl:choose>                                
                             </note>

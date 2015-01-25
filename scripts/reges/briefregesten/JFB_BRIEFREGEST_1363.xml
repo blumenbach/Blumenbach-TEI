@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Achim von Arnim fragt Blumenbach nach &#x84;Curiositäten&#x93; zur Veröffentlichung in seiner Zeitschrift fÜr Einsiedler. </title>
+            <author>
+               <persName>
+                  <forename>Achim von</forename>
+                  <surname>Arnim</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName>
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Projektträger</note>
+                  <ref target="http://adw-goe.de/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <resp>Kodiert durch:</resp>
+               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <email/>
+               <orgName/>
+               <address>
+                  <addrLine/>
+                  <country/>
+               </address>
+            </publisher>
+            <pubPlace/>
+            <date/>
+            <availability>
+               <licence>
+                  <p/>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">briefregesten/JFB_BRIEFREGEST_1363.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Leipzig, Universitätsbibliothek, Knaack Nr. 233. </note>
+            <note type="Drucke">
+               <bibl>Faksimile (ohne Transkription) in Morris, Max: Achim von Arnim. Ausgewählte Werke. Band 1. Leipzig 1906 (Falttafel am Ende des Bandes); Druck in Weiss, Hermann F., &#x84;Unveröffentlichte Briefe Achim von Arnims&#x93;, in Literaturwissenschaftliches Jahrbuch, NF 21 (1980), S. 89&#x96;169, hier S. 134&#x96;135.</bibl>
+            </note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+            <note type="ref" xml:id="record_d1e67986">
+               <ref type="html"
+                    target="http://digi.ub.uni-heidelberg.de/diglit/einsiedler/0170http://digi.ub.uni-heidelberg.de/diglit/einsiedler/0170"/>
+               <rs type="pdf">Zeitschrift fÜr Einsiedler, Heft 36 (27. Aug. 1808),S. 1 </rs>
+            </note>
+            <note type="Anmerkung">
+               <note>Vgl. &#x84;Alte Aufschrift in Basel. Mitgetheilt vom Hrn. Hofr. Blumenbach&#x93; in <emph>Zeitschrift fÜr Einsiedler</emph>, Heft 36 (27. Aug. 1808), S. 1.</note>
+               <title level="m" type="bibl">Zeitschrift fÜr Einsiedler</title>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="kurzdesc">Achim von Arnim fragt Blumenbach nach &#x84;Curiositäten&#x93; zur Veröffentlichung in se...</title>
+                  <title type="main">Achim von Arnim fragt Blumenbach nach &#x84;Curiositäten&#x93; zur Veröffentlichung in seiner <emph>Zeitschrift fÜr Einsiedler</emph>. </title>
+                  <title level="m" type="bibl">Zeitschrift fÜr Einsiedler</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/">
+                        <forename>Achim von</forename>
+                        <surname>Arnim</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-1363">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-1363">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich</forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1808-04-20"
+                            when="1808-04-20"
+                            where="#orgplc-1363">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1808-04-20">1808, Apr. 20</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName xml:id="orgplc-1363" type="Abfassungsort">Heidelberg</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">00</classCode>
+            <classCode scheme="anchor"/>
+            <classCode scheme=""/>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-01-25T13:33:57.315+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

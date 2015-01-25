@@ -1,13 +1,14 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:saxon="http://saxon.sf.net/"
     extension-element-prefixes="saxon"
-    version="2.0">
+    version="2.0"
+    xpath-default-namespace="http://www.tei-c.org/ns/1.0">    
 <xsl:output method="xml" indent="yes"/>
 <xsl:variable name="count" select="0" saxon:assignable="yes"/>    
 <xsl:template match="/">
 <xsl:for-each select="BR/record">
 <saxon:assign name="count" select="$count+1"/>
-<xsl:variable name="filename" select="concat('briefregesten/',$count,'.xml')" />
+<xsl:variable name="filename" select="concat('briefregesten/JFB_BRIEFREGEST_',$count,'.xml')" />
 <xsl:value-of select="$filename" />  
 <xsl:result-document href="{$filename}">    
       <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
@@ -15,12 +16,13 @@
             <fileDesc>
             <titleStmt><title type="main"><xsl:value-of select="title"/></title>
                 <author>
-                    <persName ref="http://d-nb.info/gnd/">
-                        <xsl:value-of select="author"/>
+                    <persName>
+                           <forename><xsl:value-of select="author/forename"/></forename>
+                           <surname><xsl:value-of select="author/surname"/></surname>
                     </persName>
                 </author>
                 <editor>
-                    <persName ref="http://d-nb.info/gnd/">
+                    <persName>
                         <surname></surname>
                         <forename></forename>
                     </persName>
@@ -33,11 +35,8 @@
                     </resp>
                 </respStmt>
                 <respStmt>
-                    <orgName>Bearbeiter des Projekts Johann Friedrich Blumenbach Online</orgName>
-                    <resp>
-                        <note type="remarkResponsibility">Bearbeitung</note>
-                        <ref target="http://www.blumenbach-online.de/"/>
-                    </resp>
+                    <resp>Kodiert durch:</resp>
+                    <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>                    
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -64,76 +63,59 @@
                 </idno>
             </publicationStmt>
             <notesStmt>
-                        <note type="Überlieferung"><xsl:value-of select="biblScope"/></note>                
-                        <xsl:if test="note">
-                            <note type="Anmerkung">
-                               <xsl:choose>
-                                    <xsl:when test="note/emph">
-                                        <xsl:for-each select="note/emph">
-                                            <title level="m" type="main"><xsl:value-of select="."/></title>
-                                         </xsl:for-each>   
-                                        <xsl:value-of select="note"/>
-                                    </xsl:when> 
-                                    <xsl:otherwise>
-                                        <xsl:value-of select="note"/>    
-                                    </xsl:otherwise>
-                               </xsl:choose>                                
-                                <xsl:value-of select="note"/></note>
-                        </xsl:if>
-                        <xsl:if test="object">
-                            <note type="Objekte">
-                               <xsl:choose>
-                                    <xsl:when test="object/emph">
-                                        <xsl:for-each select="object/emph">
-                                            <title level="m" type="main"><xsl:value-of select="."/></title>
-                                         </xsl:for-each>   
-                                        <xsl:value-of select="object"/>
-                                    </xsl:when> 
-                                    <xsl:otherwise>
-                                        <xsl:value-of select="object"/>    
-                                    </xsl:otherwise>
-                               </xsl:choose>
-                            </note>
-                        </xsl:if> 
+                        <note type="Überlieferung"><xsl:value-of select="biblScope"/></note>
                         <xsl:if test="bibl">
                             <note type="Drucke">
                                 <xsl:choose>
-                                     <xsl:when test="bibl/emph"> 
-                                      <title level="m" type="main"><xsl:value-of select="bibl/emph"/></title>   
-                                        <xsl:value-of select="bibl"/>
+                                     <xsl:when test="bibl/emph">
+                                         <xsl:copy-of copy-namespaces="no" select="bibl"/>
+                                         <xsl:text>&#xa;</xsl:text>
+                                        <xsl:for-each select="bibl/emph">  
+                                            <title level="m" type="bibl"><xsl:value-of select="."/></title>
+                                        </xsl:for-each>    
                                      </xsl:when>
                                     <xsl:otherwise>
-                                      <xsl:value-of select="bibl"/>
+                                      <xsl:copy-of copy-namespaces="no" select="bibl"/>
                                     </xsl:otherwise>   
                                 </xsl:choose>
                             </note>    
-                         </xsl:if>  
-                        <xsl:if test="Lit_in_Zusatzdaten">
-                            <note type="Werke">
-                                <xsl:choose>
-                                    <xsl:when test="Lit_in_Zusatzdaten/emph">
-                                        <title level="m" type="main"><xsl:value-of select="Lit_in_Zusatzdaten/emph"/></title>
-                                        <xsl:value-of select="Lit_in_Zusatzdaten"/>
-                                    </xsl:when> 
-                                    <xsl:otherwise>
-                                        <xsl:value-of select="Lit_in_Zusatzdaten"/>    
-                                    </xsl:otherwise>
-                                </xsl:choose>    
-                            </note>    
-                        </xsl:if>
+                         </xsl:if>                 
+                        <note type="Edition">
+                            <xsl:choose>
+                                 <xsl:when test="edition/emph">                                    
+                                  <bibl>
+                                    <xsl:copy-of copy-namespaces="no" select="edition"/> 
+                                  </bibl> 
+                                  <xsl:text>&#xa;</xsl:text>
+                                  <xsl:for-each select="edition/emph">   
+                                        <title level="m" type="bibl"><xsl:value-of select="."/></title>
+                                   </xsl:for-each>   
+                                 </xsl:when>
+                                <xsl:otherwise>
+                                  <xsl:copy-of copy-namespaces="no" select="edition"/>
+                                </xsl:otherwise>   
+                            </xsl:choose>
+                        </note>                
                         <xsl:if test="relatedItem">
-                            <note type="item">
+                            <note type="Werke">
+                                <xsl:for-each select="relatedItem">
                                 <xsl:choose>
-                                    <xsl:when test="relatedItem/emph">
-                                        <title level="m" type="main"><xsl:value-of select="relatedItem/emph"/></title>
-                                    <xsl:value-of select="relatedItem"/>
+                                    <xsl:when test="./bibl/emph">
+                                        <bibl>
+                                            <xsl:copy-of copy-namespaces="no" select="."/>
+                                        </bibl>    
+                                        <xsl:text>&#xa;</xsl:text> 
+                                        <xsl:for-each select="./bibl/emph">
+                                            <title level="m" type="bibl"><xsl:value-of select="."/></title> 
+                                        </xsl:for-each>    
                                     </xsl:when>
                                     <xsl:otherwise>
-                                        <xsl:value-of select="Lit_in_Zusatzdaten"/>    
+                                        <xsl:copy-of copy-namespaces="no" select="./bibl"/>    
                                     </xsl:otherwise>
-                                </xsl:choose>    
+                                </xsl:choose>
+                                </xsl:for-each>    
                             </note>
-                        </xsl:if> 
+                        </xsl:if>                 
                         <xsl:if test="ref">
                         <note type="ref">
                                <xsl:attribute name="xml:id">
@@ -156,36 +138,59 @@
                                             </xsl:if>
                                         </xsl:for-each>   
                         </note>
+                        </xsl:if> 
+                        <xsl:if test="rs">
+                            <note type="Objekte">
+                               <xsl:choose>
+                                    <xsl:when test="rs/emph">
+                                        <xsl:copy-of copy-namespaces="no" select="rs"/>
+                                        <xsl:text>&#xa;</xsl:text> 
+                                        <xsl:for-each select="rs/emph">                                            
+                                            <title level="m" type="bibl"><xsl:value-of select="."/></title>
+                                         </xsl:for-each>   
+                                    </xsl:when> 
+                                    <xsl:otherwise>
+                                        <xsl:copy-of copy-namespaces="no" select="rs"/>   
+                                    </xsl:otherwise>
+                               </xsl:choose>
+                            </note>
                         </xsl:if>
-                        <note type="Edition">
-                            <xsl:choose>
-                                 <xsl:when test="edition/emph"> 
-                                  <title level="m" type="main"><xsl:value-of select="edition/emph"/></title>   
-                                    <xsl:value-of select="edition"/>
-                                 </xsl:when>
-                                <xsl:otherwise>
-                                  <xsl:value-of select="edition"/>
-                                </xsl:otherwise>   
-                            </xsl:choose>
-                        </note>                
+                        <xsl:if test="note">
+                            <note type="Anmerkung">
+                               <xsl:choose>
+                                    <xsl:when test="note/emph">
+                                        <xsl:copy-of copy-namespaces="no" select="note"/>
+                                        <xsl:text>&#xa;</xsl:text> 
+                                        <xsl:for-each select="note/emph">
+                                            <title level="m" type="bibl"><xsl:value-of select="."/></title>
+                                         </xsl:for-each>                                        
+                                    </xsl:when> 
+                                    <xsl:otherwise>
+                                        <xsl:copy-of copy-namespaces="no" select="note"/>    
+                                    </xsl:otherwise>
+                               </xsl:choose>                                
+                            </note>
+                        </xsl:if>              
             </notesStmt>
             <sourceDesc>
                 <bibl type="brief"></bibl>
                 <biblFull>
                     <titleStmt>
-                        <xsl:for-each select="title">
-                        <title type="kurzdesc"><xsl:value-of select="substring(., 0, 80)"/>...</title>
-                        <title type="langdesc">  
+                    <xsl:for-each select="title">
+                        <title type="kurzdesc"><xsl:value-of select="substring(., 0, 80)"/>...</title>                          
                         <xsl:choose>                             
-                                <xsl:when test="./emph"><title level="m" type="sub"><xsl:value-of select="./emph"/></title>
-                                    <xsl:value-of select="."/>
+                                <xsl:when test="./emph">
+                                	<xsl:copy-of copy-namespaces="no" select="."/>                                       
+                                    <xsl:text>&#xa;</xsl:text>
+                                    <xsl:for-each select="./emph">
+                                        <title level="m" type="bibl"><xsl:value-of select="."/></title>
+                                    </xsl:for-each>    
                                 </xsl:when>
                                 <xsl:otherwise>
-                                    <xsl:value-of select="."/>  
+                                    <xsl:copy-of copy-namespaces="no" select="."/>  
                                 </xsl:otherwise>                    
                          </xsl:choose>
-                        </title>
-                   </xsl:for-each>                             
+                    </xsl:for-each>                         
                         <author>
                             <persName ref="http://d-nb.info/gnd/">
                                 <xsl:choose>
@@ -219,7 +224,7 @@
         </fileDesc>
         <profileDesc>
             <langUsage>
-                <language ident="deu"></language>
+                <language ident="de-DE"></language>
             </langUsage>
             <calendarDesc>
                 <calendar xml:id="julian-{$count}">
@@ -293,6 +298,16 @@
                 <classCode scheme=""></classCode>
             </textClass>
         </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+            </projectDesc>  
+        </encodingDesc>
+        <revisionDesc>
+            <change who="#BjfbO">Erstellungsdatum: <xsl:value-of select="current-dateTime()"/></change>
+        </revisionDesc>        
     </teiHeader>
         <text>
             <body>

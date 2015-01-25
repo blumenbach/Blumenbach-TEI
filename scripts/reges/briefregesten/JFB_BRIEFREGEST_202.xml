@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Blumenbach berichtet Charles Bonnet über Alexander Monros Buch Observations on the Structure and Functions of the Nervous System (1783), insbesondere zur Spiralstruktur der Nerven und der Geschichte ihrer Entdeckung, und über seine eigenen Beobachtungen hierzu und zur Struktur der Gefäße in den Nieren, und bittet um ihn um die Ausleihe einer osteologischen Studie von Louis-Antoine-Prosper Herissant und um nähere Angabe zu einer von Leopoldo Marc&#x92;Antonio Caldani beschriebenen Augenerkrankung. </title>
+            <author>
+               <persName>
+                  <forename>Johann Friedrich </forename>
+                  <surname>Blumenbach</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName>
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Projektträger</note>
+                  <ref target="http://adw-goe.de/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <resp>Kodiert durch:</resp>
+               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <email/>
+               <orgName/>
+               <address>
+                  <addrLine/>
+                  <country/>
+               </address>
+            </publisher>
+            <pubPlace/>
+            <date/>
+            <availability>
+               <licence>
+                  <p/>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">briefregesten/JFB_BRIEFREGEST_202.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Genf, Bibliothèque de Genève, Ms. Bonnet 37 fol. 276-279. </note>
+            <note type="Drucke">
+               <bibl>Teildruck in Dougherty, Frank W. P., &#x84;Nervenmorphologie und -physiologie in den 80er Jahren des 18. Jahrhunderts [&#x85;]&#x93;, in Mann, Gunter, und Dumont, Franz (Hg.), Gehirn&#x96; Nerven&#x96; Seele. Anatomie und Physiologie im Umfeld Th. Soemmerrings. Stuttgart und New York 1988, S. 55&#x96;91, hier S. 71&#x96;74(Nachdruck: Dougherty, <emph>Gesammelte Aufsätze</emph> (1996),S. 111&#x96;114 mitAbb. einer mitgesandten Zeichnung Blumenbachs).</bibl>
+               <title level="m" type="bibl">Gesammelte Aufsätze</title>
+            </note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty, <emph>Corresp.</emph> II, S. 278 Nr. 0278.</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="kurzdesc">Blumenbach berichtet Charles Bonnet über Alexander Monros Buch Observations on ...</title>
+                  <title type="main">Blumenbach berichtet Charles Bonnet über Alexander Monros Buch <emph>Observations on the Structure and Functions of the Nervous System</emph> (1783), insbesondere zur Spiralstruktur der Nerven und der Geschichte ihrer Entdeckung, und über seine eigenen Beobachtungen hierzu und zur Struktur der Gefäße in den Nieren, und bittet um ihn um die Ausleihe einer osteologischen Studie von Louis-Antoine-Prosper Herissant und um nähere Angabe zu einer von Leopoldo Marc&#x92;Antonio Caldani beschriebenen Augenerkrankung. </title>
+                  <title level="m" type="bibl">Observations on the Structure and Functions of the Nervous System</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/">
+                        <forename>Johann Friedrich </forename>
+                        <surname>Blumenbach</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-202">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-202">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Charles </forename>
+               <surname>Bonnet</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1784-04-29"
+                            when="1784-04-29"
+                            where="#orgplc-202">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1784-04-29">1784, April 29</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName xml:id="orgplc-202" type="Abfassungsort">Göttingen</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">0200</classCode>
+            <classCode scheme="anchor"/>
+            <classCode scheme=""/>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-01-25T13:33:57.315+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
