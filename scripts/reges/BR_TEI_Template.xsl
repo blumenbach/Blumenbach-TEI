@@ -8,13 +8,14 @@
 <xsl:template match="/">
 <xsl:for-each select="BR/record">
 <saxon:assign name="count" select="$count+1"/>
-<xsl:variable name="filename" select="concat('briefregesten/JFB_BRIEFREGEST_',$count,'.xml')" />
+<xsl:variable name="filename" select="concat('jfb_briefregesten_',$count,'.xml')" />
 <xsl:value-of select="$filename" />  
 <xsl:result-document href="{$filename}">    
       <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
     <teiHeader>
             <fileDesc>
-            <titleStmt><title type="main"><xsl:value-of select="title"/></title>
+            <titleStmt>
+                <title type="main"><xsl:value-of select="title"/></title>
                 <author>
                     <persName>
                            <forename><xsl:value-of select="author/forename"/></forename>
@@ -56,7 +57,7 @@
                     </licence>
                 </availability>
                 <idno>
-                    <idno type="URLWeb"></idno>
+                    <idno type="RegNr"><xsl:value-of select="$count"/></idno>
                     <idno type="URLXML"><xsl:value-of select="$filename"/></idno>
                     <idno type="URLHTML"></idno>
                     <idno type="URLText"></idno>
@@ -176,8 +177,7 @@
                 <bibl type="brief"></bibl>
                 <biblFull>
                     <titleStmt>
-                    <xsl:for-each select="title">
-                        <title type="kurzdesc"><xsl:value-of select="substring(., 0, 80)"/>...</title>                          
+                    <xsl:for-each select="title">                     
                         <xsl:choose>                             
                                 <xsl:when test="./emph">
                                 	<xsl:copy-of copy-namespaces="no" select="."/>                                       
@@ -227,9 +227,11 @@
                 <language ident="de-DE"></language>
             </langUsage>
             <calendarDesc>
+               <xsl:if test="julian">                
                 <calendar xml:id="julian-{$count}">
                     <p>Julian calendar (including proleptic)</p>
                 </calendar>
+               </xsl:if>   
                 <calendar xml:id="ISO-{$count}">
                     <p>ISO 8601 calendar</p>
                 </calendar>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Antonio Scarpa bittet Blumenbach für den Aufbau seiner eigenen Sammlung menschlicher Schädel um die überlassung von Dubletten aus Blumenbachs Sammlung und bietet die Beschaffung benötigter italienischer Literatur an. </title>
+            <author>
+               <persName>
+                  <forename>Antonio</forename>
+                  <surname>Scarpa</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName>
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Projektträger</note>
+                  <ref target="http://adw-goe.de/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <resp>Kodiert durch:</resp>
+               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <email/>
+               <orgName/>
+               <address>
+                  <addrLine/>
+                  <country/>
+               </address>
+            </publisher>
+            <pubPlace/>
+            <date/>
+            <availability>
+               <licence>
+                  <p/>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="RegNr">760</idno>
+               <idno type="URLXML">jfb_briefregesten_760.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach III, fol. 62. </note>
+            <note type="Drucke">
+               <bibl>Scarpa, Antonio:<emph>Epistolario</emph> (1772&#x96;1832), a cura di Guido Sala. Pavia 1938,S. 161&#x96;162.</bibl>
+               <title level="m" type="bibl">Epistolario</title>
+            </note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty, <emph>Corresp.</emph> IV, S. 365 Nr. 0885.</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+            <note type="ref" xml:id="record_d1e37004">
+               <ref type="pdf"
+                    target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=377"/>
+               <rs type="pdf">Corresp. IV, S. 365 Nr. 0885 </rs>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title>Antonio Scarpa bittet Blumenbach für den Aufbau seiner eigenen Sammlung menschlicher Schädel um die überlassung von Dubletten aus Blumenbachs Sammlung und bietet die Beschaffung benötigter italienischer Literatur an. </title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/">
+                        <forename>Antonio</forename>
+                        <surname>Scarpa</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="ISO-760">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich</forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1795-01-18"
+                            when="1795-01-18"
+                            where="#orgplc-760">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1795-01-18">1795, Jan. 18</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName xml:id="orgplc-760" type="Abfassungsort">Pavia</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">0753</classCode>
+            <classCode scheme="anchor"/>
+            <classCode scheme=""/>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

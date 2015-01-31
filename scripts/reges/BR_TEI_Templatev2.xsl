@@ -61,7 +61,7 @@
               <xsl:for-each select="BR/record">
                   <saxon:assign name="count" select="$count+1"/>
                   <xsl:variable name="xmlrecordid" select="concat('briefregesten/',$count,'')" />                
-                  <item xml:id="JFB_BRIEFREGEST_{$count}" n="{RegNr}">
+                  <item xml:id="JFB_briefregesten_{$count}" n="{RegNr}">
                       <bibl>
                     <xsl:for-each select="title">
                         <title type="kurzdesc"><xsl:value-of select="substring(., 0, 80)"/>...</title>                          

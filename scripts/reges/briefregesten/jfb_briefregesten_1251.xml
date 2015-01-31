@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Blumenbach teilt Johann Wolfgang von Goethe Anmerkungen zu einem ihm von diesem ausgeliehenen Manuskripts Johann Caspar Lavaters mit, kommentiert Funde tierischer und menschlicher Fossilien in Thüringen und im Harz und berichtet über die Mumie eines Guanchen, die er von Joseph Banks erhalten hatte. </title>
+            <author>
+               <persName>
+                  <forename>Johann Friedrich</forename>
+                  <surname>Blumenbach</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName>
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Projektträger</note>
+                  <ref target="http://adw-goe.de/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <resp>Kodiert durch:</resp>
+               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <email/>
+               <orgName/>
+               <address>
+                  <addrLine/>
+                  <country/>
+               </address>
+            </publisher>
+            <pubPlace/>
+            <date/>
+            <availability>
+               <licence>
+                  <p/>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="RegNr">1251</idno>
+               <idno type="URLXML">jfb_briefregesten_1251.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Weimar, Goethe- und Schiller-Archiv: GSA 28/201, St. 1.</note>
+            <note type="Drucke">
+               <bibl>Teildruck: Goethe. Begegnungen und Gespräche. Hrsg. von Ernst Grumach und Renate Grumach, Bd. 5. Berlin, New York 1985, S. 158; Regest: Briefe an Goethe. Gesamtausgabe in Regestform 1764&#x96;1817. Herausgegeben von der Klassik Stiftung Weimar Goethe- und Schiller-Archiv (online-Version), Regest Nr. 4/164.</bibl>
+            </note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+            <note type="Objekte">
+               <rs type="obj">Guanchen-Mumie (Göttingen, Inst. für Anthropologie; Abb. des Schädels in<emph>Decas craniorum</emph> 5 (1808), Tafel 42; Bibliographie Nr. 00096); S/W-Foto von Mumie und Schädel in250 Jahre Georg-August-Universität. Ausstellungskatalog. Göttingen 1987, S. 109&#x96;110.</rs>
+               <title level="m" type="bibl">Decas craniorum</title>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title>Blumenbach teilt Johann Wolfgang von Goethe Anmerkungen zu einem ihm von diesem ausgeliehenen Manuskripts Johann Caspar Lavaters mit, kommentiert Funde tierischer und menschlicher Fossilien in Thüringen und im Harz und berichtet über die Mumie eines Guanchen, die er von Joseph Banks erhalten hatte. </title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/">
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="ISO-1251">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Wolfgang von</forename>
+               <surname>Goethe</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1802-04-04"
+                            when="1802-04-04"
+                            where="#orgplc-1251">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1802-04-04">1802, April 4</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName xml:id="orgplc-1251" type="Abfassungsort">Göttingen</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">00</classCode>
+            <classCode scheme="anchor"/>
+            <classCode scheme=""/>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

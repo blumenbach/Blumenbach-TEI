@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Franz Xaver von Zach informiert Blumenbach über das Ende seinerMitarbeit an den im Verlag vonFriedrich Justin Bertuch erscheinenden Allgemeinen Geographischen Ephemeriden und lädt Blumenbach zur Mitarbeit anvon Zachs neuer Zeitschrift Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde ein. </title>
+            <author>
+               <persName>
+                  <forename>Franz Xaver von</forename>
+                  <surname>Zach</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName>
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Projektträger</note>
+                  <ref target="http://adw-goe.de/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <resp>Kodiert durch:</resp>
+               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <email/>
+               <orgName/>
+               <address>
+                  <addrLine/>
+                  <country/>
+               </address>
+            </publisher>
+            <pubPlace/>
+            <date/>
+            <availability>
+               <licence>
+                  <p/>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="RegNr">1122</idno>
+               <idno type="URLXML">jfb_briefregesten_1122.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 2 (ZachNr. 16).</note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty,<emph>Corresp.</emph> V, S. 410&#x96;411 Nr. 1257.</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+            <note type="ref" xml:id="record_d1e55701">
+               <ref type="pdf"
+                    target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=426"/>
+               <rs type="pdf">Corresp. V, S. 410&#x96;411 Nr. 1257 </rs>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title>Franz Xaver von Zach informiert Blumenbach über das Ende seinerMitarbeit an den im Verlag vonFriedrich Justin Bertuch erscheinenden <emph>Allgemeinen Geographischen Ephemeriden</emph> und lädt Blumenbach zur Mitarbeit anvon Zachs neuer Zeitschrift <emph>Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde</emph> ein. </title>
+                  <title level="m" type="bibl">Allgemeinen Geographischen Ephemeriden</title>
+                  <title level="m" type="bibl">Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/">
+                        <forename>Franz Xaver von</forename>
+                        <surname>Zach</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="ISO-1122">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich</forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1799-10-15"
+                            when="1799-10-15"
+                            where="#orgplc-1122">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1799-10-15">1799, Okt. 15 Gotha (Seeberg)</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName xml:id="orgplc-1122" type="Abfassungsort"/>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">1106</classCode>
+            <classCode scheme="anchor"/>
+            <classCode scheme=""/>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

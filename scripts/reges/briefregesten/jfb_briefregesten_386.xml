@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Georg Christoph Lichtenberg kommentiert gegenüber Blumenbach ein autobiographisches Manuskript des verstorbenen Samuel Christian Hollmann und eine Arbeit des [Kieler Anatomen] Johann Nicolas Pechlin. </title>
+            <author>
+               <persName>
+                  <forename>Georg Christoph</forename>
+                  <surname>Lichtenberg</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName>
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Projektträger</note>
+                  <ref target="http://adw-goe.de/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <resp>Kodiert durch:</resp>
+               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <email/>
+               <orgName/>
+               <address>
+                  <addrLine/>
+                  <country/>
+               </address>
+            </publisher>
+            <pubPlace/>
+            <date/>
+            <availability>
+               <licence>
+                  <p/>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="RegNr">386</idno>
+               <idno type="URLXML">jfb_briefregesten_386.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Or. verloren, überliefert durch Druck inLeitzmann/Schüddekopf, Lichtenberg. Briefe, Band 3 (1904), Nr. 791. </note>
+            <note type="Drucke">
+               <bibl>Leitzmann, Albert, und Schüddekopf, Carl (Hg.): Georg Christoph Lichtenberg.Briefe. Band 3. Leipzig 1904, Nr. 791, S. 252&#x96;253; Lichtenberg, <emph>Briefwechsel</emph>, Bd. 3 (1990), Nr. 1557, S. 455&#x96;459 mit Ab. der Hollmann-Karikaturen; Joost, <emph>Ihre Hand, Ihren Mund</emph> (1998), Nr. 79, S. 218&#x96;220; Joost, Ulrich, &#x84;Dieser unermüdete Geist&#x85;&#x93; in Elsner, Norbert, undRupke Nicolaas (Hg.): Albrecht von Haller,. Göttingen 2009, S. 107&#x96;109 (Auszug mit Ab. der Hollmann-Karikaturen).</bibl>
+               <title level="m" type="bibl">Briefwechsel</title>
+               <title level="m" type="bibl">Ihre Hand, Ihren Mund</title>
+            </note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty, <emph>Corresp.</emph> III, S. 127 Nr. 0477.</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+            <note type="ref" xml:id="record_d1e17969">
+               <ref type="pdf"
+                    target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=145"/>
+               <rs type="pdf">Corresp. III, S. 127 Nr. 0477 </rs>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title>Georg Christoph Lichtenberg kommentiert gegenüber Blumenbach ein autobiographisches Manuskript des verstorbenen Samuel Christian Hollmann und eine Arbeit des [Kieler Anatomen] Johann Nicolas Pechlin. </title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/">
+                        <forename>Georg Christoph</forename>
+                        <surname>Lichtenberg</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="ISO-386">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich</forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1787-10-17"
+                            when="1787-10-17"
+                            where="#orgplc-386">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1787-10-17">1787, Okt. 17</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName xml:id="orgplc-386" type="Abfassungsort">Göttingen</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">0382</classCode>
+            <classCode scheme="anchor"/>
+            <classCode scheme=""/>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

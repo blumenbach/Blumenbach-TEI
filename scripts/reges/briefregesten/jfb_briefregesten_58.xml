@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Georg Christoph Lichtenberg fragt Blumenbach für einen wohlhabenden englischen Studenten [Jonathan Blackwell] nach Zimmern in dem Haus, in demBlumenbachwohnt, und nach Privatvorlesungen bei Blumenbach. </title>
+            <author>
+               <persName>
+                  <forename>Georg Christoph</forename>
+                  <surname>Lichtenberg</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName>
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Projektträger</note>
+                  <ref target="http://adw-goe.de/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <resp>Kodiert durch:</resp>
+               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <email/>
+               <orgName/>
+               <address>
+                  <addrLine/>
+                  <country/>
+               </address>
+            </publisher>
+            <pubPlace/>
+            <date/>
+            <availability>
+               <licence>
+                  <p/>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="RegNr">58</idno>
+               <idno type="URLXML">jfb_briefregesten_58.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826 </note>
+            <note type="Drucke">
+               <bibl>Leitzmann, <emph>Lichtenbergs Briefe an Blumenbach</emph> (1921), Nr. 5; Lichtenberg, <emph>Briefwechsel</emph>, Bd. 1 (1983), Nr. 502 S. 859.</bibl>
+               <title level="m" type="bibl">Lichtenbergs Briefe an Blumenbach</title>
+               <title level="m" type="bibl">Briefwechsel</title>
+            </note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty, <emph>Corresp.</emph> I, S. 148 Nr. 0082.</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title>Georg Christoph Lichtenberg fragt Blumenbach für einen wohlhabenden englischen Studenten [Jonathan Blackwell] nach Zimmern in dem Haus, in demBlumenbachwohnt, und nach Privatvorlesungen bei Blumenbach. </title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/">
+                        <forename>Georg Christoph</forename>
+                        <surname>Lichtenberg</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="ISO-58">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich </forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1778-08-01"
+                            notBefore="1778-08-01"
+                            where="#orgplc-58">
+                        <label>Abfassungsdatum (not before):</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1778-08-01">1778, August</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName xml:id="orgplc-58" type="Abfassungsort">Göttingen</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">0057</classCode>
+            <classCode scheme="anchor"/>
+            <classCode scheme=""/>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

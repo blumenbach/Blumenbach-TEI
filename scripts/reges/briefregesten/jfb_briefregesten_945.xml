@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Theodor Christian Eulner sendet Blumenbach einenmenschlichen Schädel aus Grönland und führt dessen schlechten Erhaltungszustand auf eine Hungersnotin Grönland zurück. </title>
+            <author>
+               <persName>
+                  <forename>Theodor Christian</forename>
+                  <surname>Eulner</surname>
+               </persName>
+            </author>
+            <editor>
+               <persName>
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Projektträger</note>
+                  <ref target="http://adw-goe.de/"/>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <resp>Kodiert durch:</resp>
+               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <email/>
+               <orgName/>
+               <address>
+                  <addrLine/>
+                  <country/>
+               </address>
+            </publisher>
+            <pubPlace/>
+            <date/>
+            <availability>
+               <licence>
+                  <p/>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="RegNr">945</idno>
+               <idno type="URLXML">jfb_briefregesten_945.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 25, fol. 4&#x96;5. </note>
+            <note type="Drucke">
+               <bibl>Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 146&#x96;147 KatNr. 175.</bibl>
+               <title level="m" type="bibl">Commercium epistolicum</title>
+            </note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty,<emph>Corresp.</emph> V, S. 154&#x96;155 Nr. 1082.</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+            <note type="ref" xml:id="record_d1e46458">
+               <ref type="html"
+                    target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00095"/>
+               <ref type="pdf"
+                    target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=170"/>
+               <rs type="html">00095 </rs>
+               <rs type="pdf">Corresp. V, S. 154&#x96;155 Nr. 1082 </rs>
+            </note>
+            <note type="Objekte">
+               <rs type="obj">Schädel eines Grönländers (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 699; Abb. in <emph>Decas craniorum</emph> 4 (1800), Tafel 36; Bibliographie Nr. 00095).</rs>
+               <title level="m" type="bibl">Decas craniorum</title>
+            </note>
+            <note type="Anmerkung">
+               <note>Der in Meyer, <emph>Handschriften in Göttingen</emph> 3 (1894), S. 78 verzeichneteBrief Eulners (an Sören Lemming) vom 29. Aug. 1797 in Dougherty, <emph>Corresp.</emph> V, S. 153&#x96;154 Nr. 1081.</note>
+               <title level="m" type="bibl">Handschriften in Göttingen</title>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title>Theodor Christian Eulner sendet Blumenbach einenmenschlichen Schädel aus Grönland und führt dessen schlechten Erhaltungszustand auf eine Hungersnotin Grönland zurück. </title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/">
+                        <forename>Theodor Christian</forename>
+                        <surname>Eulner</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="ISO-945">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich</forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1797-09-04"
+                            when="1797-09-04"
+                            where="#orgplc-945">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1797-09-04">1797, Sept. 4 (Grönland)</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName xml:id="orgplc-945" type="Abfassungsort">Godhavn</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">0928</classCode>
+            <classCode scheme="anchor"/>
+            <classCode scheme=""/>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
