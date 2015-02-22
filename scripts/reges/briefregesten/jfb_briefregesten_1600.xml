@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Blumenbach sendetJohann Wolfgang von Goethe zwei Exemplare seiner Nova pentas craniorum (1828) und weist auf die darin enthaltenen Abbildungen von zwei Schädeln hin, die erdurch Goethes Vermittlung erhalten hatte. </title>
+            <title type="main">Blumenbach sendet Johann Wolfgang von Goethe zwei Exemplare seiner Nova pentas craniorum (1828) und weist auf die darin enthaltenen Abbildungen von zwei Schädeln hin, die erdurch Goethes Vermittlung erhalten hatte. </title>
             <author>
                <persName>
                   <forename>Johann Friedrich</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -78,7 +76,7 @@
                <rs type="html">S. 56&#x96;57 Nr. 36 </rs>
             </note>
             <note type="Objekte">
-               <rs type="obj">Schädel eines &#x84;alten Germanen&#x93; (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 5; Abb. in <emph>Nova pentas craniorum</emph> (1828), Tafel 61, Bibliographie Nr. 00098), Fotos inKárolyi, Zeitschrift für Morphologie und Anthropologie 1966, Tafel 16, unten; zur Identifikation des Schädels vgl.Spengel, Anthropologische Sammlung, S. 12 ad 240.; Schädel eines Kamtschadalen (Abb. in <emph>Nova pentas craniorum</emph> (1828), Tafel 62, Bibliographie Nr. 00098).</rs>
+               <rs type="obj">Schädel eines &#x84;alten Germanen&#x93; (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 5; Abb. in <emph>Nova pentas craniorum</emph> (1828), Tafel 61, Bibliographie Nr. 00098), Fotos in Károlyi, Zeitschrift für Morphologie und Anthropologie 1966, Tafel 16, unten; zur Identifikation des Schädels vgl.Spengel, Anthropologische Sammlung, S. 12 ad 240.; Schädel eines Kamtschadalen (Abb. in <emph>Nova pentas craniorum</emph> (1828), Tafel 62, Bibliographie Nr. 00098).</rs>
                <title level="m" type="bibl">Nova pentas craniorum</title>
                <title level="m" type="bibl">Nova pentas craniorum</title>
             </note>
@@ -87,7 +85,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Blumenbach sendetJohann Wolfgang von Goethe zwei Exemplare seiner <emph>Nova pentas craniorum</emph> (1828) und weist auf die darin enthaltenen Abbildungen von zwei Schädeln hin, die erdurch Goethes Vermittlung erhalten hatte. </title>
+                  <title>Blumenbach sendet Johann Wolfgang von Goethe zwei Exemplare seiner <emph>Nova pentas craniorum</emph> (1828) und weist auf die darin enthaltenen Abbildungen von zwei Schädeln hin, die erdurch Goethes Vermittlung erhalten hatte. </title>
                   <title level="m" type="bibl">Nova pentas craniorum</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
@@ -160,7 +158,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

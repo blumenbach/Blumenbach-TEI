@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -72,7 +70,7 @@
                <rs type="html">00899 </rs>
             </note>
             <note type="Anmerkung">
-               <note>Datierung: In <emph>Magazin für den neuesten Zustand der Naturkunde</emph>, Bd. 4, 5. Stück (1802), S. 675 wird erwähnt, Hesse habe Gesteinproben von einer Expedition am 2. Nov. 1801 gesandt; Heft 5 vonBand 4 des <emph>Magazin für den neuesten Zustand der Naturkunde</emph> enthält einen auf den 30. Sept. 1802 datierten Brief an den Herausgeber (S. 692) und dürfte demnach im letzten Quartal des Jahres 1802 erschienen sein. </note>
+               <note>Datierung: In <emph>Magazin für den neuesten Zustand der Naturkunde</emph>, Bd. 4, 5. Stück (1802), S. 675 wird erwähnt, Hesse habe Gesteinproben von einer Expedition am 2. Nov. 1801 gesandt; Heft 5 von Band 4 des <emph>Magazin für den neuesten Zustand der Naturkunde</emph> enthält einen auf den 30. Sept. 1802 datierten Brief an den Herausgeber (S. 692) und dürfte demnach im letzten Quartal des Jahres 1802 erschienen sein. </note>
                <title level="m" type="bibl">Magazin für den neuesten Zustand der Naturkunde</title>
                <title level="m" type="bibl">Magazin für den neuesten Zustand der Naturkunde</title>
             </note>
@@ -127,6 +125,17 @@
                      <event type="iso-origin"
                             datingMethod="#ISO"
                             sortKey="1801-11-02"
+                            when="1801-11-02"
+                            where="#orgplc-1269">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1801-11-02">1801-11-02 vor Ende 1802</date>
+                        </note>
+                     </event>
+                  </listEvent>
+                  <listEvent>
+                     <event type="iso-origin-nb"
+                            datingMethod="#ISO"
                             notBefore="1801-11-02"
                             where="#orgplc-1269">
                         <label>Abfassungsdatum (not before):</label>
@@ -136,9 +145,8 @@
                      </event>
                   </listEvent>
                   <listEvent>
-                     <event type="iso-origin"
+                     <event type="iso-origin-na"
                             datingMethod="#ISO"
-                            sortKey="1802-12-31"
                             notAfter="1802-12-31"
                             where="#orgplc-1269">
                         <label>Abfassungsdatum (not after):</label>
@@ -165,7 +173,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

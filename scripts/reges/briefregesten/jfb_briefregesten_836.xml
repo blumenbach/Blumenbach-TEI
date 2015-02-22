@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Blumenbach bestätigt Jean André Deluc den Erhalt des Manuskripts von dessen siebtemLettre à Blumenbach sur l&#x92;histoire physique de la terre und kommentiert die wissenschaftliche Bedeutung derLettres,teilt ihm seine negative Einschätzung aktueller Theorien zur Ursache der schwarzen Pigmentierung der Haut von Afrikanern mit und bittet um die Beschaffung eines Känguruschädels. </title>
+            <title type="main">Blumenbach bestätigt Jean André Deluc den Erhalt des Manuskripts von dessen siebtemLettre à Blumenbach sur l&#x92;histoire physique de la terre und kommentiert die wissenschaftliche Bedeutung der Lettres,teilt ihm seine negative Einschätzung aktueller Theorien zur Ursache der schwarzen Pigmentierung der Haut von Afrikanern mit und bittet um die Beschaffung eines Känguruschädels. </title>
             <author>
                <persName>
                   <forename>Johann Friedrich</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -52,9 +50,9 @@
             </idno>
          </publicationStmt>
          <notesStmt>
-            <note type="Überlieferung">New Haven, Yale University Library, Manuscripts and Archives, Jean André DeLuc Papers (Ms 179).</note>
+            <note type="Überlieferung">New Haven, Yale University Library, Manuscripts and Archives, Jean André De Luc Papers (Ms 179).</note>
             <note type="Drucke">
-               <bibl>Auszug inDougherty, Frank William Peter, &#x84;Der Begriff der Naturgeschichte nach J. F. Blumenbach anhand seiner Korrespondenz mit Jean-André DeLuc&#x93;, in <emph>Berichte zur Wissenschaftsgeschichte</emph> 9 (1986), S. 95&#x96;107, hier 98&#x96;99 (Nachdruck: Dougherty, <emph>Gesammelte Aufsätze</emph> (1996), S. 151&#x96;152). </bibl>
+               <bibl>Auszug in Dougherty, Frank William Peter, &#x84;Der Begriff der Naturgeschichte nach J. F. Blumenbach anhand seiner Korrespondenz mit Jean-André De Luc&#x93;, in <emph>Berichte zur Wissenschaftsgeschichte</emph> 9 (1986), S. 95&#x96;107, hier 98&#x96;99 (Nachdruck: Dougherty, <emph>Gesammelte Aufsätze</emph> (1996), S. 151&#x96;152). </bibl>
                <title level="m" type="bibl">Berichte zur Wissenschaftsgeschichte</title>
                <title level="m" type="bibl">Gesammelte Aufsätze</title>
             </note>
@@ -89,8 +87,8 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Blumenbach bestätigt Jean André Deluc den Erhalt des Manuskripts von dessen siebtem<emph>Lettre à Blumenbach sur l&#x92;histoire physique de la terre und kommentiert die wissenschaftliche Bedeutung derLettres,teilt ihm seine negative Einschätzung aktueller Theorien zur Ursache der schwarzen Pigmentierung der Haut von Afrikanern mit und bittet um die Beschaffung eines Känguruschädels</emph>. </title>
-                  <title level="m" type="bibl">Lettre à Blumenbach sur l&#x92;histoire physique de la terre und kommentiert die wissenschaftliche Bedeutung derLettres,teilt ihm seine negative Einschätzung aktueller Theorien zur Ursache der schwarzen Pigmentierung der Haut von Afrikanern mit und bittet um die Beschaffung eines Känguruschädels</title>
+                  <title>Blumenbach bestätigt Jean André Deluc den Erhalt des Manuskripts von dessen siebtem<emph>Lettre à Blumenbach sur l&#x92;histoire physique de la terre und kommentiert die wissenschaftliche Bedeutung der Lettres,teilt ihm seine negative Einschätzung aktueller Theorien zur Ursache der schwarzen Pigmentierung der Haut von Afrikanern mit und bittet um die Beschaffung eines Känguruschädels</emph>. </title>
+                  <title level="m" type="bibl">Lettre à Blumenbach sur l&#x92;histoire physique de la terre und kommentiert die wissenschaftliche Bedeutung der Lettres,teilt ihm seine negative Einschätzung aktueller Theorien zur Ursache der schwarzen Pigmentierung der Haut von Afrikanern mit und bittet um die Beschaffung eines Känguruschädels</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Johann Friedrich</forename>
@@ -162,7 +160,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

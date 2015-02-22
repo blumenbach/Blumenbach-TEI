@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Georg Heinrich von Langsdorff antwortet Blumenbach auf einige an ihn gerichteteFragen zur Tierwelt Sibiriens, berichtet über die Tätowierungen der Bewohner der zu den Marquesasinseln gehörende Insel Nuku Hiva (&#x84;Nukahiwah&#x93;) und über einen Orkan während der Reisenach Japan und sendet eine Liste mit Fischarten aus den Gewässern vor Japan. </title>
+            <title type="main">Georg Heinrich von Langsdorff antwortet Blumenbach auf einige an ihn gerichtete Fragen zur Tierwelt Sibiriens, berichtet über die Tätowierungen der Bewohner der zu den Marquesasinseln gehörende Insel Nuku Hiva (&#x84;Nukahiwah&#x93;) und über einen Orkan während der Reisenach Japan und sendet eine Liste mit Fischarten aus den Gewässern vor Japan. </title>
             <author>
                <persName>
                   <forename>Georg Heinrich von</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -82,7 +80,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Georg Heinrich von Langsdorff antwortet Blumenbach auf einige an ihn gerichteteFragen zur Tierwelt Sibiriens, berichtet über die Tätowierungen der Bewohner der zu den Marquesasinseln gehörende Insel Nuku Hiva (&#x84;Nukahiwah&#x93;) und über einen Orkan während der Reisenach Japan und sendet eine Liste mit Fischarten aus den Gewässern vor Japan. </title>
+                  <title>Georg Heinrich von Langsdorff antwortet Blumenbach auf einige an ihn gerichtete Fragen zur Tierwelt Sibiriens, berichtet über die Tätowierungen der Bewohner der zu den Marquesasinseln gehörende Insel Nuku Hiva (&#x84;Nukahiwah&#x93;) und über einen Orkan während der Reisenach Japan und sendet eine Liste mit Fischarten aus den Gewässern vor Japan. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Georg Heinrich von</forename>
@@ -154,7 +152,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Blumenbach sendetJoseph Banks Publikationen und zwei Exemplare des viertenHeftes seinerDecades craniorum (1800), fragt nach dem in Australienentdeckten [Schnabel]tier, von dem er ein Exemplar für das Academische Museum der Universität Göttingen erbittet, und berichtet, dass erwissenschaftliche Informationen aus dem Briefwechsel mit Banksin den Allgemeinen Geographischen Ephemeriden veröffentlichthabe. </title>
+            <title type="main">Blumenbach sendet Joseph Banks Publikationen und zwei Exemplare des vierten Heftes seinerDecades craniorum (1800), fragt nach dem in Australienentdeckten [Schnabel]tier, von dem er ein Exemplar für das Academische Museum der Universität Göttingen erbittet, und berichtet, dass erwissenschaftliche Informationen aus dem Briefwechsel mit Banksin den Allgemeinen Geographischen Ephemeriden veröffentlichthabe. </title>
             <author>
                <persName>
                   <forename>Johann Friedrich</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -67,12 +65,12 @@
                <bibl>
                   <relatedItem>
                      <bibl>
-                        <emph>Decas craniorum</emph> 4 (1800; Bibliographie Nr. 00095); Blumenbachs Berichte in den <emph>Allgemeinen Geographischen Ephemeriden</emph> in den Jahren 1798 und 1799 über Banks Briefe mit Angaben zur Entdeckung eines Uranus-Mondes durch William Herschel (Bibliographie Nr. 00759) und zu den Afrika-Expeditionen von Mungo Park und William George Brown(Bibliographie Nr. 00761, 00763, 00764, 00765, 00766); Rezension von Jona Dryanders Katalog von Joseph BanksBibliothek in <emph>GAgS</emph> 1800 (1. Stück, 2. Jan.), S. 1&#x96;3 (Bibliographie Nr. 00416). </bibl>
+                        <emph>Decas craniorum</emph> 4 (1800; Bibliographie Nr. 00095); Blumenbachs Berichte in den <emph>Allgemeinen Geographischen Ephemeriden</emph> in den Jahren 1798 und 1799 über Banks Briefe mit Angaben zur Entdeckung eines Uranus-Mondes durch William Herschel (Bibliographie Nr. 00759) und zu den Afrika-Expeditionen von Mungo Park und William George Brown(Bibliographie Nr. 00761, 00763, 00764, 00765, 00766); Rezension von Jona Dryanders Katalog von Joseph Banks Bibliothek in <emph>GAg S</emph> 1800 (1. Stück, 2. Jan.), S. 1&#x96;3 (Bibliographie Nr. 00416). </bibl>
                   </relatedItem>
                </bibl>
                <title level="m" type="bibl">Decas craniorum</title>
                <title level="m" type="bibl">Allgemeinen Geographischen Ephemeriden</title>
-               <title level="m" type="bibl">GAgS</title>
+               <title level="m" type="bibl">GAg S</title>
             </note>
             <note type="ref" xml:id="record_d1e56369">
                <ref type="html"
@@ -94,7 +92,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Blumenbach sendetJoseph Banks Publikationen und zwei Exemplare des viertenHeftes seiner<emph>Decades craniorum</emph> (1800), fragt nach dem in Australienentdeckten [Schnabel]tier, von dem er ein Exemplar für das Academische Museum der Universität Göttingen erbittet, und berichtet, dass erwissenschaftliche Informationen aus dem Briefwechsel mit Banksin den <emph>Allgemeinen Geographischen Ephemeriden</emph> veröffentlichthabe. </title>
+                  <title>Blumenbach sendet Joseph Banks Publikationen und zwei Exemplare des vierten Heftes seiner<emph>Decades craniorum</emph> (1800), fragt nach dem in Australienentdeckten [Schnabel]tier, von dem er ein Exemplar für das Academische Museum der Universität Göttingen erbittet, und berichtet, dass erwissenschaftliche Informationen aus dem Briefwechsel mit Banksin den <emph>Allgemeinen Geographischen Ephemeriden</emph> veröffentlichthabe. </title>
                   <title level="m" type="bibl">Decades craniorum</title>
                   <title level="m" type="bibl">Allgemeinen Geographischen Ephemeriden</title>
                   <author>
@@ -168,7 +166,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

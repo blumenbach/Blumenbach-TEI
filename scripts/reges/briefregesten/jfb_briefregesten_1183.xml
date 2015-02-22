@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -52,7 +50,7 @@
             </idno>
          </publicationStmt>
          <notesStmt>
-            <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 3 (BanksNr. 12).</note>
+            <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 3 (Banks Nr. 12).</note>
             <note type="Drucke">
                <bibl>Auszügein <emph>Magazin für den neuesten Zustand der Naturkunde</emph>, Bd. 2, 2. Stück (1800), S. 292&#x96;293 (&#x84;2) Ueber ebendieselbe [i. e. die Volta&#x92;sche Säule]&#x93;, Bibliographie Nr. 00868), S. 295 (&#x84;4) Hrn. D. Herschel&#x92;s Versuche über den Unterschied zwischen Licht- und Wärme-Stralen&#x93;, Bibliographie Nr. 00870) und S. 297&#x96;298 (&#x84;7) Nachricht von einem Steinregen in Hindustan&#x93;, Bibliographie Nr. 00873)</bibl>
                <title level="m" type="bibl">Magazin für den neuesten Zustand der Naturkunde</title>
@@ -156,7 +154,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

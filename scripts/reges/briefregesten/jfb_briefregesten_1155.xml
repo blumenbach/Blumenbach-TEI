@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Blumenbach danktJoseph Banks für ein ausgestopftes Schnabeltier, das dieser gesandt hatte,schlägt die wissenschaftliche Bezeichnung &#x84;Ornithorhynchus paradoxus&#x93; für das Schnabeltier vor undbegründet diesen Vorschlag, teilt Banks seine Ansicht zu einem Fossil aus Newcastle mit und kommentiert eine neue Beobachtungen zur Einbalsamierungstechnik der ägypter. </title>
+            <title type="main">Blumenbach dankt Joseph Banks für ein ausgestopftes Schnabeltier, das dieser gesandt hatte,schlägt die wissenschaftliche Bezeichnung &#x84;Ornithorhynchus paradoxus&#x93; für das Schnabeltier vor undbegründet diesen Vorschlag, teilt Banks seine Ansicht zu einem Fossil aus Newcastle mit und kommentiert eine neue Beobachtungen zur Einbalsamierungstechnik der ägypter. </title>
             <author>
                <persName>
                   <forename>Johann Friedrich</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -54,7 +52,7 @@
          <notesStmt>
             <note type="Überlieferung">London, British Library, Add MS 8099, fol. 16&#x96;18. </note>
             <note type="Drucke">
-               <bibl>Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 125&#x96;126 KatNr. 149;Chambers, <emph>Scientific correspondence of Sir Joseph Banks</emph>, Bd. 5 (2007), S. 35&#x96;37Nr. 1550 (mit Abb. des Schnabeltier-Kupferstiches in der unkorrigierten Version); vgl. ausführl. Regest in Dawson, <emph>The Banks Letters</emph> (1958), S. 116 Nr. 55.</bibl>
+               <bibl>Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 125&#x96;126 Kat Nr. 149;Chambers, <emph>Scientific correspondence of Sir Joseph Banks</emph>, Bd. 5 (2007), S. 35&#x96;37Nr. 1550 (mit Abb. des Schnabeltier-Kupferstiches in der unkorrigierten Version); vgl. ausführl. Regest in Dawson, <emph>The Banks Letters</emph> (1958), S. 116 Nr. 55.</bibl>
                <title level="m" type="bibl">Commercium epistolicum</title>
                <title level="m" type="bibl">Scientific correspondence of Sir Joseph Banks</title>
                <title level="m" type="bibl">The Banks Letters</title>
@@ -92,7 +90,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Blumenbach danktJoseph Banks für ein ausgestopftes Schnabeltier, das dieser gesandt hatte,schlägt die wissenschaftliche Bezeichnung &#x84;Ornithorhynchus paradoxus&#x93; für das Schnabeltier vor undbegründet diesen Vorschlag, teilt Banks seine Ansicht zu einem Fossil aus Newcastle mit und kommentiert eine neue Beobachtungen zur Einbalsamierungstechnik der ägypter. </title>
+                  <title>Blumenbach dankt Joseph Banks für ein ausgestopftes Schnabeltier, das dieser gesandt hatte,schlägt die wissenschaftliche Bezeichnung &#x84;Ornithorhynchus paradoxus&#x93; für das Schnabeltier vor undbegründet diesen Vorschlag, teilt Banks seine Ansicht zu einem Fossil aus Newcastle mit und kommentiert eine neue Beobachtungen zur Einbalsamierungstechnik der ägypter. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Johann Friedrich</forename>
@@ -164,7 +162,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

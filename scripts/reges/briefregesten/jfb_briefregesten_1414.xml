@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Blumenbach dankt Heinrich Christian Gottfried von Struve [u. a. für dreiSibirite, Schmetterlingsabdrucke und eine &#x84;ausnehmend elegante Flußwespe&#x93;]. </title>
+            <title type="main">Blumenbach dankt Heinrich Christian Gottfried von Struve [u. a. für drei Sibirite, Schmetterlingsabdrucke und eine &#x84;ausnehmend elegante Flußwespe&#x93;]. </title>
             <author>
                <persName>
                   <forename>Johann Friedrich</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -64,14 +62,14 @@
                <rs type="html">http://hans.sub.uni-goettingen.de/ </rs>
             </note>
             <note type="Anmerkung">
-               <note>Nur mit Tages, ohne Jahresdatum überliefert; Vorschlag zur Datierungseingrenzung aufgr. des Erscheinungsjahr vonStruve, H. Chr. G., &#x84;Ueber die Kunst Schmetterlinge nach dem Leben abzudrücken&#x93;, in: Annalen der Wetterauischen Gesellschaft für die gesammte Naturkunde 3 (1812), S. 188&#x96;192; Struve korrespondierte 1811 auch mit den Göttinger Professoren Chr. G. Heyne und C. F. Gauß. - Erwähnung des Briefes und über den Eintrag im Göttinger Hs.-Katalog Angaben hinausgehende Information in Weidner, H. und Kraus, O,&#x84;Aus der Geschichte des Naturwissenschaftlichen Vereins Hamburg&#x93;, in: Verhandlungen des Naturwissenschaftlichen Vereins in Hamburg (N.F.) 30 (1988), S. 5&#x96;150, S. 14. </note>
+               <note>Nur mit Tages, ohne Jahresdatum überliefert; Vorschlag zur Datierungseingrenzung aufgr. des Erscheinungsjahr von Struve, H. Chr. G., &#x84;Ueber die Kunst Schmetterlinge nach dem Leben abzudrücken&#x93;, in: Annalen der Wetterauischen Gesellschaft für die gesammte Naturkunde 3 (1812), S. 188&#x96;192; Struve korrespondierte 1811 auch mit den Göttinger Professoren Chr. G. Heyne und C. F. Gauß. - Erwähnung des Briefes und über den Eintrag im Göttinger Hs.-Katalog Angaben hinausgehende Information in Weidner, H. und Kraus, O,&#x84;Aus der Geschichte des Naturwissenschaftlichen Vereins Hamburg&#x93;, in: Verhandlungen des Naturwissenschaftlichen Vereins in Hamburg (N.F.) 30 (1988), S. 5&#x96;150, S. 14. </note>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Blumenbach dankt Heinrich Christian Gottfried von Struve [u. a. für dreiSibirite, Schmetterlingsabdrucke und eine &#x84;ausnehmend elegante Flußwespe&#x93;]. </title>
+                  <title>Blumenbach dankt Heinrich Christian Gottfried von Struve [u. a. für drei Sibirite, Schmetterlingsabdrucke und eine &#x84;ausnehmend elegante Flußwespe&#x93;]. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Johann Friedrich</forename>
@@ -144,7 +142,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

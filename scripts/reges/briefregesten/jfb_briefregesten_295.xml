@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -63,7 +61,7 @@
                <bibl>
                   <relatedItem>
                      <bibl>
-                        <emph>Medicinische Bibliothek</emph> Bd. 1, 4. Stück (1784), S. 725&#x96;742 (= Bibliographie Nr. 00944) undBd. 2, 1. Stück (1785), S. 163&#x96;178 (= Bibliographie Nr. 00946); biograph. Skizze &#x84;Haller&#x93;in <emph>Medicinische Bibliothek</emph> Bd. 2, 1. Stück (1785), S. 179&#x96;186 (= Bibliographie Nr. 00947).</bibl>
+                        <emph>Medicinische Bibliothek</emph> Bd. 1, 4. Stück (1784), S. 725&#x96;742 (= Bibliographie Nr. 00944) und Bd. 2, 1. Stück (1785), S. 163&#x96;178 (= Bibliographie Nr. 00946); biograph. Skizze &#x84;Haller&#x93;in <emph>Medicinische Bibliothek</emph> Bd. 2, 1. Stück (1785), S. 179&#x96;186 (= Bibliographie Nr. 00947).</bibl>
                   </relatedItem>
                </bibl>
                <title level="m" type="bibl">Medicinische Bibliothek</title>
@@ -146,7 +144,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -56,7 +54,7 @@
             <note type="Drucke">
                <bibl>Teildruck (nach der Genfer Abschrift und ohne Bonnets Abb.-Beschreibung) in: Dougherty, <emph>
                      <emph>Commercium epistolicum</emph>
-                  </emph> (1984), S. 37&#x96;39 KatNr. 27; Auszug über Nerven-Beobachtung in: Dougherty, Frank W. P., &#x84;Nervenmorphologie und -physiologie in den 80er Jahren des 18. Jahrhunderts [&#x85;]&#x93;, in Mann, Gunter, und Dumont, Franz (Hg.), Gehirn&#x96; Nerven&#x96; Seele. Anatomie und Physiologie im Umfeld Th. Soemmerrings. Stuttgart und New York 1988, S. 55&#x96;91, hier S.59&#x96;61(Nachdruck: Dougherty, <emph>Gesammelte Aufsätze</emph> (1996),S. 103).</bibl>
+                  </emph> (1984), S. 37&#x96;39 Kat Nr. 27; Auszug über Nerven-Beobachtung in: Dougherty, Frank W. P., &#x84;Nervenmorphologie und -physiologie in den 80er Jahren des 18. Jahrhunderts [&#x85;]&#x93;, in Mann, Gunter, und Dumont, Franz (Hg.), Gehirn&#x96; Nerven&#x96; Seele. Anatomie und Physiologie im Umfeld Th. Soemmerrings. Stuttgart und New York 1988, S. 55&#x96;91, hier S.59&#x96;61(Nachdruck: Dougherty, <emph>Gesammelte Aufsätze</emph> (1996),S. 103).</bibl>
                <title level="m" type="bibl">Commercium epistolicum</title>
                <title level="m" type="bibl">Gesammelte Aufsätze</title>
             </note>
@@ -67,7 +65,7 @@
                <title level="m" type="bibl">Corresp.</title>
             </note>
             <note type="Anmerkung">
-               <note>Blumenbach übersetzung von Bonnets Erläuterungen zur AbbildungBienenstocks und eine Reproduktion der Abb. in<emph>Magazin fÜr das Neueste aus der Physik und Naturgeschichte</emph> 3,1 (1785), S. 114-118 (= Bibliographie Nr. 00815).</note>
+               <note>Blumenbach übersetzung von Bonnets Erläuterungen zur Abbildung Bienenstocks und eine Reproduktion der Abb. in<emph>Magazin fÜr das Neueste aus der Physik und Naturgeschichte</emph> 3,1 (1785), S. 114-118 (= Bibliographie Nr. 00815).</note>
                <title level="m" type="bibl">Magazin fÜr das Neueste aus der Physik und Naturgeschichte</title>
             </note>
          </notesStmt>
@@ -147,7 +145,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

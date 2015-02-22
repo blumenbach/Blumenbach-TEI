@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Arthur Schopenhauer berichtetBlumenbach über seine Entscheidung für eineHochschullaufbahn und fragt nach denformalen Voraussetzungen hierfür in Göttingen und nach den Aussichten, als Privatdozent in Göttingen ausreichend Hörer zu finden. </title>
+            <title type="main">Arthur Schopenhauer berichtet Blumenbach über seine Entscheidung für eine Hochschullaufbahn und fragt nach denformalen Voraussetzungen hierfür in Göttingen und nach den Aussichten, als Privatdozent in Göttingen ausreichend Hörer zu finden. </title>
             <author>
                <persName>
                   <forename>Arthur</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -74,7 +72,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Arthur Schopenhauer berichtetBlumenbach über seine Entscheidung für eineHochschullaufbahn und fragt nach denformalen Voraussetzungen hierfür in Göttingen und nach den Aussichten, als Privatdozent in Göttingen ausreichend Hörer zu finden. </title>
+                  <title>Arthur Schopenhauer berichtet Blumenbach über seine Entscheidung für eine Hochschullaufbahn und fragt nach denformalen Voraussetzungen hierfür in Göttingen und nach den Aussichten, als Privatdozent in Göttingen ausreichend Hörer zu finden. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Arthur</forename>
@@ -120,6 +118,17 @@
                      <event type="iso-origin"
                             datingMethod="#ISO"
                             sortKey="1819-12-15"
+                            when="1819-12-15"
+                            where="#orgplc-1486">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1819-12-15">1819, vor Dez. 15</date>
+                        </note>
+                     </event>
+                  </listEvent>
+                  <listEvent>
+                     <event type="iso-origin-na"
+                            datingMethod="#ISO"
                             notAfter="1819-12-15"
                             where="#orgplc-1486">
                         <label>Abfassungsdatum (not after):</label>
@@ -146,7 +155,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

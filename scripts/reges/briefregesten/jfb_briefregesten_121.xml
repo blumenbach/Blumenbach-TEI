@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -54,7 +52,7 @@
          <notesStmt>
             <note type="Überlieferung">Göttingen, Inst. für Ethnologie und Ethnologische Sammlung, Archiv, Erwerbungen. </note>
             <note type="Drucke">
-               <bibl>Plischke, Die Ethnographische Sammlung der Universität Göttingen (1931), S. 19&#x96;20; Urban, Manfred, 200 Jahre Göttinger Cook-Sammlung. Göttingen 1982, S. 22&#x96;23; Auszug und Abb. in Urban, Manfred, &#x84;The Acquisition History of the Göttingen Collection&#x93;, inHauser-Schäublin und Krüger, <emph>James Cook</emph> (1998), S. 57&#x96;58; Hinüber, Hartmut von, &#x84;Ein Hauch von Südsee weht durch die Familiengeschichte&#x93;, in: von Hinüber&#x92;sche Familienzeitung 97 (2005), S. 10.</bibl>
+               <bibl>Plischke, Die Ethnographische Sammlung der Universität Göttingen (1931), S. 19&#x96;20; Urban, Manfred, 200 Jahre Göttinger Cook-Sammlung. Göttingen 1982, S. 22&#x96;23; Auszug und Abb. in Urban, Manfred, &#x84;The Acquisition History of the Göttingen Collection&#x93;, in Hauser-Schäublin und Krüger, <emph>James Cook</emph> (1998), S. 57&#x96;58; Hinüber, Hartmut von, &#x84;Ein Hauch von Südsee weht durch die Familiengeschichte&#x93;, in: von Hinüber&#x92;sche Familienzeitung 97 (2005), S. 10.</bibl>
                <title level="m" type="bibl">James Cook</title>
             </note>
             <note type="Edition">
@@ -137,7 +135,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

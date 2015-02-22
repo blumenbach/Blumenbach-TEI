@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Blumenbach bittetJoseph Banks um den 4. Teil der Proceedings der [African] Association und um Exemplaredes zweiten Bandes (1796) des Catalogus bibliothecae historico-naturalis Josephi Banks, sendet seine Rezension des Catalogus und die in Banks Exemplar eines anatomischen Abbildungswerks fehlenden Tafeln, äußert eine Vermutung zum Zeichner des ihm von Banks geschickten Porträts eines Palau-Indianers und weist auf eine möglicheErwähnung der indischen Stahlart&#x84;Wootz&#x93; bei einemantiken Autor hin. </title>
+            <title type="main">Blumenbach bittet Joseph Banks um den 4. Teil der Proceedings der [African] Association und um Exemplaredes zweiten Bandes (1796) des Catalogus bibliothecae historico-naturalis Josephi Banks, sendet seine Rezension des Catalogus und die in Banks Exemplar eines anatomischen Abbildungswerks fehlenden Tafeln, äußert eine Vermutung zum Zeichner des ihm von Banks geschickten Porträts eines Palau-Indianers und weist auf eine mögliche Erwähnung der indischen Stahlart&#x84;Wootz&#x93; bei einemantiken Autor hin. </title>
             <author>
                <persName>
                   <forename>Johann Friedrich</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -66,11 +64,11 @@
             <note type="Werke">
                <bibl>
                   <relatedItem>
-                     <bibl>Rezension von Band 2 von<emph>Catalogus bibliothecae historico-naturalis Josephi Banks</emph> in <emph>GAgS</emph> 1797 (90. Stück, 8. Juni), S. 892&#x96;895 (Bibliographie Nr. 00383); <emph>Handbuch der Naturgeschichte</emph> (5. Aufl. 1797; Bibliographie Nr. 00026); Abbildungen naturhistorischerGegenstände, Heft 2 (1797; Bibliographie Nr. 00147).</bibl>
+                     <bibl>Rezension von Band 2 von<emph>Catalogus bibliothecae historico-naturalis Josephi Banks</emph> in <emph>GAg S</emph> 1797 (90. Stück, 8. Juni), S. 892&#x96;895 (Bibliographie Nr. 00383); <emph>Handbuch der Naturgeschichte</emph> (5. Aufl. 1797; Bibliographie Nr. 00026); Abbildungen naturhistorischer Gegenstände, Heft 2 (1797; Bibliographie Nr. 00147).</bibl>
                   </relatedItem>
                </bibl>
                <title level="m" type="bibl">Catalogus bibliothecae historico-naturalis Josephi Banks</title>
-               <title level="m" type="bibl">GAgS</title>
+               <title level="m" type="bibl">GAg S</title>
                <title level="m" type="bibl">Handbuch der Naturgeschichte</title>
             </note>
             <note type="ref" xml:id="record_d1e45741">
@@ -86,7 +84,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Blumenbach bittetJoseph Banks um den 4. Teil der <emph>Proceedings</emph> der [African] Association und um Exemplaredes zweiten Bandes (1796) des <emph>Catalogus bibliothecae historico-naturalis Josephi Banks</emph>, sendet seine Rezension des <emph>Catalogus</emph> und die in Banks Exemplar eines anatomischen Abbildungswerks fehlenden Tafeln, äußert eine Vermutung zum Zeichner des ihm von Banks geschickten Porträts eines Palau-Indianers und weist auf eine möglicheErwähnung der indischen Stahlart&#x84;Wootz&#x93; bei einemantiken Autor hin. </title>
+                  <title>Blumenbach bittet Joseph Banks um den 4. Teil der <emph>Proceedings</emph> der [African] Association und um Exemplaredes zweiten Bandes (1796) des <emph>Catalogus bibliothecae historico-naturalis Josephi Banks</emph>, sendet seine Rezension des <emph>Catalogus</emph> und die in Banks Exemplar eines anatomischen Abbildungswerks fehlenden Tafeln, äußert eine Vermutung zum Zeichner des ihm von Banks geschickten Porträts eines Palau-Indianers und weist auf eine mögliche Erwähnung der indischen Stahlart&#x84;Wootz&#x93; bei einemantiken Autor hin. </title>
                   <title level="m" type="bibl">Proceedings</title>
                   <title level="m" type="bibl">Catalogus bibliothecae historico-naturalis Josephi Banks</title>
                   <title level="m" type="bibl">Catalogus</title>
@@ -161,7 +159,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

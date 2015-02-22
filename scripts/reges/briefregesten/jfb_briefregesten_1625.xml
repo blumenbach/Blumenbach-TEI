@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Blumenbach teiltJoseph Frank seine Aufnahme in die Königliche Societät der Wissenschaften mit, sendet ihm das entsprechende Diplom und sichert die Erfüllung die Verpflichtungen zu, die die Societät mit der Annahme eines finanziellen Legats von Frank eingegangen ist. </title>
+            <title type="main">Blumenbach teilt Joseph Frank seine Aufnahme in die Königliche Societät der Wissenschaften mit, sendet ihm das entsprechende Diplom und sichert die Erfüllung die Verpflichtungen zu, die die Societät mit der Annahme eines finanziellen Legats von Frank eingegangen ist. </title>
             <author>
                <persName>
                   <forename>Johann Friedrich</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -67,7 +65,7 @@
                <rs type="html">http://data.onb.ac.at/ rec/AL00228442 </rs>
             </note>
             <note type="Anmerkung">
-               <note>Zu Joseph Frank (1771&#x96;1842) als Adressat des Briefes vgl. entspr. Notiz J. de Carros auf dem Brief; Frank war1785 Student beiBlumenbach (was der Angabe Blumenbach in dem Brief entspricht) und wurde 1831 Mitglied der Societät der Wissenschaften, vgl. Pütter, <emph>Versuch </emph> (1838), S. 94 (Nr. 89 in den Fußnoten). </note>
+               <note>Zu Joseph Frank (1771&#x96;1842) als Adressat des Briefes vgl. entspr. Notiz J. de Carros auf dem Brief; Frank war1785 Student bei Blumenbach (was der Angabe Blumenbach in dem Brief entspricht) und wurde 1831 Mitglied der Societät der Wissenschaften, vgl. Pütter, <emph>Versuch </emph> (1838), S. 94 (Nr. 89 in den Fußnoten). </note>
                <title level="m" type="bibl">Versuch </title>
             </note>
          </notesStmt>
@@ -75,7 +73,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Blumenbach teiltJoseph Frank seine Aufnahme in die Königliche Societät der Wissenschaften mit, sendet ihm das entsprechende Diplom und sichert die Erfüllung die Verpflichtungen zu, die die Societät mit der Annahme eines finanziellen Legats von Frank eingegangen ist. </title>
+                  <title>Blumenbach teilt Joseph Frank seine Aufnahme in die Königliche Societät der Wissenschaften mit, sendet ihm das entsprechende Diplom und sichert die Erfüllung die Verpflichtungen zu, die die Societät mit der Annahme eines finanziellen Legats von Frank eingegangen ist. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Johann Friedrich</forename>
@@ -147,7 +145,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

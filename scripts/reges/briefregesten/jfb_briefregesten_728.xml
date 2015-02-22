@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -54,7 +52,7 @@
          <notesStmt>
             <note type="Überlieferung">Göttingen, Universitätsbibliothek, Cod. Ms. Lichtenberg II, J. F. Blumenbach. </note>
             <note type="Drucke">
-               <bibl>Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 93&#x96;94 KatNr. 113; Lichtenberg, <emph>Briefwechsel</emph>, Bd. 4 (1992), Nr. 2382, S. 266&#x96;268.</bibl>
+               <bibl>Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 93&#x96;94 Kat Nr. 113; Lichtenberg, <emph>Briefwechsel</emph>, Bd. 4 (1992), Nr. 2382, S. 266&#x96;268.</bibl>
                <title level="m" type="bibl">Commercium epistolicum</title>
                <title level="m" type="bibl">Briefwechsel</title>
             </note>
@@ -146,7 +144,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

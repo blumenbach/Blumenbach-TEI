@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -54,7 +52,7 @@
          <notesStmt>
             <note type="Überlieferung">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 45, fol. 5. </note>
             <note type="Drucke">
-               <bibl>Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 145 KatNr. 173.</bibl>
+               <bibl>Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 145 Kat Nr. 173.</bibl>
                <title level="m" type="bibl">Commercium epistolicum</title>
             </note>
             <note type="Edition">
@@ -64,7 +62,7 @@
                <title level="m" type="bibl">Corresp.</title>
             </note>
             <note type="Objekte">
-               <rs type="obj">Menschlichen Schädel aus Peru (Göttingen, Inst. f. Anatomie, Schädelsammlung Nrr. 848); Abb. in <emph>Nova pentas craniorum</emph> (1828), Tafel 65, Bibliographie Nr. 00098); Fotos inKárolyi, Zeitschrift für Morphologie und Anthropologie 1966, Tafel 18 (mit der Identifikation &#x84;Schädel Nr. 848&#x93;); zur Identifikation des Schädels vgl.Spengel, Anthropologische Sammlung, S. 68 ad 58.</rs>
+               <rs type="obj">Menschlichen Schädel aus Peru (Göttingen, Inst. f. Anatomie, Schädelsammlung Nrr. 848); Abb. in <emph>Nova pentas craniorum</emph> (1828), Tafel 65, Bibliographie Nr. 00098); Fotos in Károlyi, Zeitschrift für Morphologie und Anthropologie 1966, Tafel 18 (mit der Identifikation &#x84;Schädel Nr. 848&#x93;); zur Identifikation des Schädels vgl.Spengel, Anthropologische Sammlung, S. 68 ad 58.</rs>
                <title level="m" type="bibl">Nova pentas craniorum</title>
             </note>
          </notesStmt>
@@ -144,7 +142,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

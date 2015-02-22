@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -65,8 +63,8 @@
                <rs type="pdf">Corresp. V, S. 408&#x96;409 Nr. 1255 </rs>
             </note>
             <note type="Anmerkung">
-               <note>Datierung anhand des Eingangsdatums der beurteilten Abhandlung (30. Sept. 1799). Brieftext mit leichten stilistischen Eingriffen von Chr. G. Heyne verwendet in dessen Bericht zur Tätigkeit der Akademie in den <emph>GAgS</emph> 1799, 196. Stück, S. 1953&#x96;1960, hier S. 1955&#x96;1956.</note>
-               <title level="m" type="bibl">GAgS</title>
+               <note>Datierung anhand des Eingangsdatums der beurteilten Abhandlung (30. Sept. 1799). Brieftext mit leichten stilistischen Eingriffen von Chr. G. Heyne verwendet in dessen Bericht zur Tätigkeit der Akademie in den <emph>GAg S</emph> 1799, 196. Stück, S. 1953&#x96;1960, hier S. 1955&#x96;1956.</note>
+               <title level="m" type="bibl">GAg S</title>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -116,6 +114,17 @@
                      <event type="iso-origin"
                             datingMethod="#ISO"
                             sortKey="1799-09-30"
+                            when="1799-09-30"
+                            where="#orgplc-1120">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1799-09-30">1799, nach Sept. 30</date>
+                        </note>
+                     </event>
+                  </listEvent>
+                  <listEvent>
+                     <event type="iso-origin-nb"
+                            datingMethod="#ISO"
                             notBefore="1799-09-30"
                             where="#orgplc-1120">
                         <label>Abfassungsdatum (not before):</label>
@@ -142,7 +151,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Stefano Borgia benachrichtigt Blumenbach vomVersandeiner Gesteinsprobe von ägyptischem Basalt und eines antiken menschlichen Schädels aus Rom. </title>
+            <title type="main">Stefano Borgia benachrichtigt Blumenbach vom Versandeiner Gesteinsprobe von ägyptischem Basalt und eines antiken menschlichen Schädels aus Rom. </title>
             <author>
                <persName>
                   <forename>Stefano</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -54,7 +52,7 @@
          <notesStmt>
             <note type="Überlieferung">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 32, fol. 8&#x96;9. </note>
             <note type="Drucke">
-               <bibl>Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 167&#x96;168 KatNr. 201.</bibl>
+               <bibl>Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 167&#x96;168 Kat Nr. 201.</bibl>
                <title level="m" type="bibl">Commercium epistolicum</title>
             </note>
             <note type="Edition">
@@ -64,7 +62,7 @@
                <title level="m" type="bibl">Corresp.</title>
             </note>
             <note type="Werke">
-               <bibl>Rezension vonFossilia aegyptiaca musei Borgiani(1794; BibliographieNr. 00359). </bibl>
+               <bibl>Rezension von Fossilia aegyptiaca musei Borgiani(1794; Bibliographie Nr. 00359). </bibl>
             </note>
             <note type="ref" xml:id="record_d1e37718">
                <ref type="pdf"
@@ -84,7 +82,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Stefano Borgia benachrichtigt Blumenbach vomVersandeiner Gesteinsprobe von ägyptischem Basalt und eines antiken menschlichen Schädels aus Rom. </title>
+                  <title>Stefano Borgia benachrichtigt Blumenbach vom Versandeiner Gesteinsprobe von ägyptischem Basalt und eines antiken menschlichen Schädels aus Rom. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Stefano</forename>
@@ -156,7 +154,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">August von Sachsen-Gotha und Altenburg sendet Blumenbach einen ihm leihweise zugesandten Band einePrachtausgabe der Werke William Shakespeares zurück. </title>
+            <title type="main">August von Sachsen-Gotha und Altenburg sendet Blumenbach einen ihm leihweise zugesandten Band eine Prachtausgabe der Werke William Shakespeares zurück. </title>
             <author>
                <persName>
                   <forename>August von</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -52,7 +50,7 @@
             </idno>
          </publicationStmt>
          <notesStmt>
-            <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 1 (AugustNr. 20).</note>
+            <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 1 (August Nr. 20).</note>
             <note type="Edition">
                <bibl>
                   <edition>Dougherty, <emph>Corresp.</emph> V, S. 37&#x96;38 Nr. 0994.</edition>
@@ -69,7 +67,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>August von Sachsen-Gotha und Altenburg sendet Blumenbach einen ihm leihweise zugesandten Band einePrachtausgabe der Werke William Shakespeares zurück. </title>
+                  <title>August von Sachsen-Gotha und Altenburg sendet Blumenbach einen ihm leihweise zugesandten Band eine Prachtausgabe der Werke William Shakespeares zurück. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>August von</forename>
@@ -115,6 +113,17 @@
                      <event type="iso-origin"
                             datingMethod="#ISO"
                             sortKey="1796-06-08"
+                            when="1796-06-08"
+                            where="#orgplc-864">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1796-06-08">1796, nach Juni 8</date>
+                        </note>
+                     </event>
+                  </listEvent>
+                  <listEvent>
+                     <event type="iso-origin-nb"
+                            datingMethod="#ISO"
                             notBefore="1796-06-08"
                             where="#orgplc-864">
                         <label>Abfassungsdatum (not before):</label>
@@ -141,7 +150,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

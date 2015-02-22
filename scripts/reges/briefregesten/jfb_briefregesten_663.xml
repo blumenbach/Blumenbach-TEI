@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">[Eine nicht identifizierte Person] lädt Blumenbach und dessenFrau zu einem Treffen mit dem russischen Grafen Vassili de Moussin Pouschkin und dem Schweizer David-François der Gaudot ein. </title>
+            <title type="main">[Eine nicht identifizierte Person] lädt Blumenbach und dessen Frau zu einem Treffen mit dem russischen Grafen Vassili de Moussin Pouschkin und dem Schweizer David-François der Gaudot ein. </title>
             <author>
                <persName>
                   <forename/>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -69,7 +67,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>[Eine nicht identifizierte Person] lädt Blumenbach und dessenFrau zu einem Treffen mit dem russischen Grafen Vassili de Moussin Pouschkin und dem Schweizer David-François der Gaudot ein. </title>
+                  <title>[Eine nicht identifizierte Person] lädt Blumenbach und dessen Frau zu einem Treffen mit dem russischen Grafen Vassili de Moussin Pouschkin und dem Schweizer David-François der Gaudot ein. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">[Unbekannt]</persName>
                   </author>
@@ -112,6 +110,17 @@
                      <event type="iso-origin"
                             datingMethod="#ISO"
                             sortKey="1792-10-17"
+                            when="1792-10-17"
+                            where="#orgplc-663">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1792-10-17">1792, vor Okt. 17</date>
+                        </note>
+                     </event>
+                  </listEvent>
+                  <listEvent>
+                     <event type="iso-origin-na"
+                            datingMethod="#ISO"
                             notAfter="1792-10-17"
                             where="#orgplc-663">
                         <label>Abfassungsdatum (not after):</label>
@@ -138,7 +147,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

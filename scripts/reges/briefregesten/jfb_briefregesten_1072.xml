@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Martinus van Marum bittet Blumenbach, ihm die angeboteneProbe Diamantspath aus Südindien zu senden und für ihn das in einer Publikation abgedruckte Verzeichnis einer vor längerer Zeit von Nathaniel Gottfried Leske kommerziell vertriebenen Mustersammlung von Mineralien aus der Oberlausitz abschreiben zu lassen. </title>
+            <title type="main">Martinus van Marum bittet Blumenbach, ihm die angebotene Probe Diamantspath aus Südindien zu senden und für ihn das in einer Publikation abgedruckte Verzeichnis einer vor längerer Zeit von Nathaniel Gottfried Leske kommerziell vertriebenen Mustersammlung von Mineralien aus der Oberlausitz abschreiben zu lassen. </title>
             <author>
                <persName>
                   <forename>Martinus van</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -52,7 +50,7 @@
             </idno>
          </publicationStmt>
          <notesStmt>
-            <note type="Überlieferung">Leipzig, Universitätsbibliothek, Sammlung Kestner II C V, 118 (mit irrtümlicher Datumsangabe &#x84;1798&#x93;);Entwurf (ohne den letzten Absatz) inHaarlem, Noord-Hollands Archief, Haarlem (NL), Archiv von Martinus van Marum (1750&#x96;1837), Korrespondenz (mitDatumsangabe &#x84;1799&#x93;).</note>
+            <note type="Überlieferung">Leipzig, Universitätsbibliothek, Sammlung Kestner II C V, 118 (mit irrtümlicher Datumsangabe &#x84;1798&#x93;);Entwurf (ohne den letzten Absatz) in Haarlem, Noord-Hollands Archief, Haarlem (NL), Archiv von Martinus van Marum (1750&#x96;1837), Korrespondenz (mit Datumsangabe &#x84;1799&#x93;).</note>
             <note type="Edition">
                <bibl>
                   <edition>Dougherty, <emph>Corresp.</emph> V, S. 347&#x96;349 Nr. 1208.</edition>
@@ -69,7 +67,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Martinus van Marum bittet Blumenbach, ihm die angeboteneProbe Diamantspath aus Südindien zu senden und für ihn das in einer Publikation abgedruckte Verzeichnis einer vor längerer Zeit von Nathaniel Gottfried Leske kommerziell vertriebenen Mustersammlung von Mineralien aus der Oberlausitz abschreiben zu lassen. </title>
+                  <title>Martinus van Marum bittet Blumenbach, ihm die angebotene Probe Diamantspath aus Südindien zu senden und für ihn das in einer Publikation abgedruckte Verzeichnis einer vor längerer Zeit von Nathaniel Gottfried Leske kommerziell vertriebenen Mustersammlung von Mineralien aus der Oberlausitz abschreiben zu lassen. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Martinus van</forename>
@@ -141,7 +139,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

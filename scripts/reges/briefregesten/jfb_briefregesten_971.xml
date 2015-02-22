@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Blumenbach dankt Joseph Banks fürdie angekündigte Zusendung eines Frauengewandes aus China und einesAbguss des Fußes einer Chinesin und für weitere wissenschaftliche Neuigkeiten aus England, informiert ihnüber Friedrich Hornemanns Ankunft in ägypten, kündigt die Zusendung vonPublikationen,der Abbildung eines Fisches aus dem Zürich-See und eines Exemplars der zweiten Auflage (1798) seiner Institutiones physiologicae an und fragt nach Neuigkeitenüber Mungo Parks Afrika-Expedition. </title>
+            <title type="main">Blumenbach dankt Joseph Banks fürdie angekündigte Zusendung eines Frauengewandes aus China und eines Abguss des Fußes einer Chinesin und für weitere wissenschaftliche Neuigkeiten aus England, informiert ihnüber Friedrich Hornemanns Ankunft in ägypten, kündigt die Zusendung von Publikationen,der Abbildung eines Fisches aus dem Zürich-See und eines Exemplars der zweiten Auflage (1798) seiner Institutiones physiologicae an und fragt nach Neuigkeitenüber Mungo Parks Afrika-Expedition. </title>
             <author>
                <persName>
                   <forename>Johann Friedrich</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -85,7 +83,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Blumenbach dankt Joseph Banks fürdie angekündigte Zusendung eines Frauengewandes aus China und einesAbguss des Fußes einer Chinesin und für weitere wissenschaftliche Neuigkeiten aus England, informiert ihnüber Friedrich Hornemanns Ankunft in ägypten, kündigt die Zusendung vonPublikationen,der Abbildung eines Fisches aus dem Zürich-See und eines Exemplars der zweiten Auflage (1798) seiner <emph>Institutiones physiologicae</emph> an und fragt nach Neuigkeitenüber Mungo Parks Afrika-Expedition. </title>
+                  <title>Blumenbach dankt Joseph Banks fürdie angekündigte Zusendung eines Frauengewandes aus China und eines Abguss des Fußes einer Chinesin und für weitere wissenschaftliche Neuigkeiten aus England, informiert ihnüber Friedrich Hornemanns Ankunft in ägypten, kündigt die Zusendung von Publikationen,der Abbildung eines Fisches aus dem Zürich-See und eines Exemplars der zweiten Auflage (1798) seiner <emph>Institutiones physiologicae</emph> an und fragt nach Neuigkeitenüber Mungo Parks Afrika-Expedition. </title>
                   <title level="m" type="bibl">Institutiones physiologicae</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
@@ -158,7 +156,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

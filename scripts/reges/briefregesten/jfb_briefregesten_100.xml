@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -52,7 +50,7 @@
             </idno>
          </publicationStmt>
          <notesStmt>
-            <note type="Überlieferung">New Haven, Yale University Library, Manuscripts and Archives, Jean André DeLuc Papers, Box 2, folder 43. </note>
+            <note type="Überlieferung">New Haven, Yale University Library, Manuscripts and Archives, Jean André De Luc Papers, Box 2, folder 43. </note>
             <note type="Edition">
                <bibl>
                   <edition>Dougherty, <emph>Corresp.</emph> I, S. 213 Nr. 0136.</edition>
@@ -63,11 +61,11 @@
                <bibl>
                   <relatedItem>
                      <bibl>Rez. von J. A. Deluc, <emph>
-                           <emph>Lettres physiques et morales</emph> sur l&#x92;histoire de la terre et de l&#x92;homme</emph>, in <emph>GAgS</emph> 1780 (Zugabe, 49. Stück, 2. Dezember), S. 769&#x96;776 (1. Teil), ibid., 1781 (Zugabe, 3. Stück, 20. Januar), S. 40&#x96;47 (2. teil) und ibid. 1781 (Zugabe, 18. Stück, 5. Mai), S. 273-277 (3. Teil) (= Bibliographie Nr. 00218, 00236, 00237).</bibl>
+                           <emph>Lettres physiques et morales</emph> sur l&#x92;histoire de la terre et de l&#x92;homme</emph>, in <emph>GAg S</emph> 1780 (Zugabe, 49. Stück, 2. Dezember), S. 769&#x96;776 (1. Teil), ibid., 1781 (Zugabe, 3. Stück, 20. Januar), S. 40&#x96;47 (2. teil) und ibid. 1781 (Zugabe, 18. Stück, 5. Mai), S. 273-277 (3. Teil) (= Bibliographie Nr. 00218, 00236, 00237).</bibl>
                   </relatedItem>
                </bibl>
                <title level="m" type="bibl">Lettres physiques et morales sur l&#x92;histoire de la terre et de l&#x92;homme</title>
-               <title level="m" type="bibl">GAgS</title>
+               <title level="m" type="bibl">GAg S</title>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -148,7 +146,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

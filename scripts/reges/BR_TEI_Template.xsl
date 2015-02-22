@@ -29,15 +29,13 @@
                     </persName>
                 </editor>
                 <respStmt>
-                    <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-                    <resp>
-                        <note type="remarkResponsibility">Projektträger</note>
-                        <ref target="http://adw-goe.de/"/>
-                    </resp>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+                    <ref target="http://adw-goe.de/"/>                    
                 </respStmt>
                 <respStmt>
-                    <resp>Kodiert durch:</resp>
-                    <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>                    
+                    <resp key="enc">Kodiert durch:</resp>
+                    <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>                    
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -250,19 +248,51 @@
                 </persName>                
                 <origDate>
                 <note type="Abfassungsevent"> 
-              <xsl:if test="altdate">
-                <listEvent>
-                    <event type="iso-origin" datingMethod="#ISO" sortKey="{altdate}" when="{altdate}" where="#orgplc-{$count}">
-                        <label>Abfassungsdatum</label>
-                        <note type="Abfassungsdatum"><date when="{altdate}"><xsl:value-of select="date"/>
-                        <xsl:if test="precision"><precision precision="unknown"/></xsl:if>
-                        </date></note> 
-                    </event>                                  
-                </listEvent>
-                </xsl:if>
+                  <xsl:choose>
+                  <xsl:when test="altdate">
+                    <listEvent>
+                        <event type="iso-origin" datingMethod="#ISO" sortKey="{altdate}" when="{altdate}" where="#orgplc-{$count}">
+                            <label>Abfassungsdatum</label>
+                            <note type="Abfassungsdatum"><date when="{altdate}"><xsl:value-of select="date"/>
+                            <xsl:if test="precision"><precision precision="unknown"/></xsl:if>
+                            </date></note> 
+                        </event>                                  
+                    </listEvent>
+                  </xsl:when>                       
+                  <xsl:when test="not(altdate) and not(notafter)">
+                    <listEvent>
+                        <event type="iso-origin" datingMethod="#ISO" sortKey="{notbefore}" when="{notbefore}" where="#orgplc-{$count}">
+                            <label>Abfassungsdatum</label>
+                            <note type="Abfassungsdatum"><date when="{notbefore}"><xsl:value-of select="date"/>
+                            <xsl:if test="precision"><precision precision="unknown"/></xsl:if>
+                            </date></note> 
+                        </event>                                  
+                    </listEvent>
+                  </xsl:when>
+                  <xsl:when test="not(altdate) and not(notbefore)">
+                    <listEvent>
+                        <event type="iso-origin" datingMethod="#ISO" sortKey="{notafter}" when="{notafter}" where="#orgplc-{$count}">
+                            <label>Abfassungsdatum</label>
+                            <note type="Abfassungsdatum"><date when="{notafter}"><xsl:value-of select="date"/>
+                            <xsl:if test="precision"><precision precision="unknown"/></xsl:if>
+                            </date></note> 
+                        </event>                                  
+                    </listEvent>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <listEvent>
+                        <event type="iso-origin" datingMethod="#ISO" sortKey="{notbefore}" when="{notbefore}" where="#orgplc-{$count}">
+                            <label>Abfassungsdatum</label>
+                            <note type="Abfassungsdatum"><date when="{notbefore}"><xsl:value-of select="date"/>
+                            <xsl:if test="precision"><precision precision="unknown"/></xsl:if>
+                            </date></note> 
+                        </event>                                  
+                    </listEvent>
+                  </xsl:otherwise>                        
+                  </xsl:choose>                
                 <xsl:if test="notbefore">
                 <listEvent>
-                    <event type="iso-origin" datingMethod="#ISO" sortKey="{notbefore}" notBefore="{notbefore}" where="#orgplc-{$count}">
+                    <event type="iso-origin-nb" datingMethod="#ISO" notBefore="{notbefore}" where="#orgplc-{$count}">
                         <label>Abfassungsdatum (not before):</label>
                         <note type="Abfassungsdatum"><date when="{notbefore}"><xsl:value-of select="date"/>
                         <xsl:if test="precision"><precision precision="unknown"/></xsl:if>
@@ -272,7 +302,7 @@
                  </xsl:if>                
                  <xsl:if test="notafter">
                  <listEvent>
-                     <event type="iso-origin" datingMethod="#ISO" sortKey="{notafter}" notAfter="{notafter}" where="#orgplc-{$count}">
+                     <event type="iso-origin-na" datingMethod="#ISO" notAfter="{notafter}" where="#orgplc-{$count}">
                          <label>Abfassungsdatum (not after):</label>
                         <note type="Abfassungsdatum"><date when="{notafter}"><xsl:value-of select="date"/>
                         <xsl:if test="precision"><precision precision="unknown"/></xsl:if>

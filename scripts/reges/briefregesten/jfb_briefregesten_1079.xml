@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Georg Christoph Lichtenberg sendetBlumenbach zwei ausgeliehene Publikationen zurück und äußert sich distanziert zu den atheistischen VorstellungenJohann Gottlob Fichtes. </title>
+            <title type="main">Georg Christoph Lichtenberg sendet Blumenbach zwei ausgeliehene Publikationen zurück und äußert sich distanziert zu den atheistischen Vorstellungen Johann Gottlob Fichtes. </title>
             <author>
                <persName>
                   <forename>Georg Christoph</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -74,7 +72,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Georg Christoph Lichtenberg sendetBlumenbach zwei ausgeliehene Publikationen zurück und äußert sich distanziert zu den atheistischen VorstellungenJohann Gottlob Fichtes. </title>
+                  <title>Georg Christoph Lichtenberg sendet Blumenbach zwei ausgeliehene Publikationen zurück und äußert sich distanziert zu den atheistischen Vorstellungen Johann Gottlob Fichtes. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Georg Christoph</forename>
@@ -146,7 +144,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

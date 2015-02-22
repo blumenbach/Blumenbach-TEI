@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Franz Xaver von Zach informiert Blumenbach über die Begleitumstände des Endes seiner geschäftlichen Beziehungen zuFriedrich Justin Bertuch, dessen Zugehörigkeit zum Judentum er mehrfach in herabsetzender Weise hervorhebt,bittet Blumenbach um einen Beitrag für das Anfang 1800 erscheinende erste Heft seiner neuen Zeitschrift Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde. </title>
+            <title type="main">Franz Xaver von Zach informiert Blumenbach über die Begleitumstände des Endes seiner geschäftlichen Beziehungen zu Friedrich Justin Bertuch, dessen Zugehörigkeit zum Judentum er mehrfach in herabsetzender Weise hervorhebt,bittet Blumenbach um einen Beitrag für das Anfang 1800 erscheinende erste Heft seiner neuen Zeitschrift Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde. </title>
             <author>
                <persName>
                   <forename>Franz Xaver von</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -52,7 +50,7 @@
             </idno>
          </publicationStmt>
          <notesStmt>
-            <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 2 (ZachNr. 17).</note>
+            <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 2 (Zach Nr. 17).</note>
             <note type="Edition">
                <bibl>
                   <edition>Dougherty,<emph>Corresp.</emph> V, S. 423&#x96;425 Nr. 1265.</edition>
@@ -69,7 +67,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Franz Xaver von Zach informiert Blumenbach über die Begleitumstände des Endes seiner geschäftlichen Beziehungen zuFriedrich Justin Bertuch, dessen Zugehörigkeit zum Judentum er mehrfach in herabsetzender Weise hervorhebt,bittet Blumenbach um einen Beitrag für das Anfang 1800 erscheinende erste Heft seiner neuen Zeitschrift <emph>Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde</emph>. </title>
+                  <title>Franz Xaver von Zach informiert Blumenbach über die Begleitumstände des Endes seiner geschäftlichen Beziehungen zu Friedrich Justin Bertuch, dessen Zugehörigkeit zum Judentum er mehrfach in herabsetzender Weise hervorhebt,bittet Blumenbach um einen Beitrag für das Anfang 1800 erscheinende erste Heft seiner neuen Zeitschrift <emph>Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde</emph>. </title>
                   <title level="m" type="bibl">Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
@@ -142,7 +140,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Jan Ingen-Housz berichtetBlumenbach über seine älteren und aktuellen Publikationen zur Ernährung der Pflanzen, sendet ihmMaterialproben vonPlatin und von einem astronomischen Parabolspiegel von William Herschel und beschreibt ein Verfahren zur Bleichung von Platinobjekten mithilfe einer Säure. </title>
+            <title type="main">Jan Ingen-Housz berichtet Blumenbach über seine älteren und aktuellen Publikationen zur Ernährung der Pflanzen, sendet ihm Materialproben von Platin und von einem astronomischen Parabolspiegel von William Herschel und beschreibt ein Verfahren zur Bleichung von Platinobjekten mithilfe einer Säure. </title>
             <author>
                <persName>
                   <forename>Jan</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -84,7 +82,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Jan Ingen-Housz berichtetBlumenbach über seine älteren und aktuellen Publikationen zur Ernährung der Pflanzen, sendet ihmMaterialproben vonPlatin und von einem astronomischen Parabolspiegel von William Herschel und beschreibt ein Verfahren zur Bleichung von Platinobjekten mithilfe einer Säure. </title>
+                  <title>Jan Ingen-Housz berichtet Blumenbach über seine älteren und aktuellen Publikationen zur Ernährung der Pflanzen, sendet ihm Materialproben von Platin und von einem astronomischen Parabolspiegel von William Herschel und beschreibt ein Verfahren zur Bleichung von Platinobjekten mithilfe einer Säure. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Jan</forename>
@@ -156,7 +154,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

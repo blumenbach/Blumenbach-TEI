@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Georg Christoph Lichtenberg teilt Blumenbach mit, dass er für die Publikation einer deutschen übersetzung von Jean André Delucs Lettres sur l&#x92;histoire physique de la terre sein eingestelltes Göttingisches Magazin der Wissenschaften und der Litteratur nicht wieder erscheinen lassen wolle, und bekundet seine Unterstützung fürDelucs Einwänden gegen die chemischen Theorien Antoine Laurent de Lavoisiers. </title>
+            <title type="main">Georg Christoph Lichtenberg teilt Blumenbach mit, dass er für die Publikation einer deutschen übersetzung von Jean André Delucs Lettres sur l&#x92;histoire physique de la terre sein eingestelltes Göttingisches Magazin der Wissenschaften und der Litteratur nicht wieder erscheinen lassen wolle, und bekundet seine Unterstützung für Delucs Einwänden gegen die chemischen Theorien Antoine Laurent de Lavoisiers. </title>
             <author>
                <persName>
                   <forename>Georg Christoph</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -74,7 +72,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Georg Christoph Lichtenberg teilt Blumenbach mit, dass er für die Publikation einer deutschen übersetzung von Jean André Delucs <emph>Lettres sur l&#x92;histoire physique de la terre</emph> sein eingestelltes Göttingisches Magazin der Wissenschaften und der Litteratur nicht wieder erscheinen lassen wolle, und bekundet seine Unterstützung fürDelucs Einwänden gegen die chemischen Theorien Antoine Laurent de Lavoisiers. </title>
+                  <title>Georg Christoph Lichtenberg teilt Blumenbach mit, dass er für die Publikation einer deutschen übersetzung von Jean André Delucs <emph>Lettres sur l&#x92;histoire physique de la terre</emph> sein eingestelltes Göttingisches Magazin der Wissenschaften und der Litteratur nicht wieder erscheinen lassen wolle, und bekundet seine Unterstützung für Delucs Einwänden gegen die chemischen Theorien Antoine Laurent de Lavoisiers. </title>
                   <title level="m" type="bibl">Lettres sur l&#x92;histoire physique de la terre</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
@@ -147,7 +145,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

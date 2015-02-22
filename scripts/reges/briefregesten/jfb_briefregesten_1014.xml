@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Blumenbach danktJohann Reinhold Forster für die Zusendung von dessen Beobachtungen und Wahrheiten (1798), sendet ihm Heft 3 seiner Abbildungen naturhistorischer Gegenstände (1798), kündigt die Zusendung erbetener Publikationen an und bittet um Proben von &#x84;Demant-Spath&#x93; vom Kap Komorin in Indien und Melanit aus Fuscati. </title>
+            <title type="main">Blumenbach dankt Johann Reinhold Forster für die Zusendung von dessen Beobachtungen und Wahrheiten (1798), sendet ihm Heft 3 seiner Abbildungen naturhistorischer Gegenstände (1798), kündigt die Zusendung erbetener Publikationen an und bittet um Proben von &#x84;Demant-Spath&#x93; vom Kap Komorin in Indien und Melanit aus Fuscati. </title>
             <author>
                <persName>
                   <forename>Johann Friedrich</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -84,7 +82,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Blumenbach danktJohann Reinhold Forster für die Zusendung von dessen <emph>Beobachtungen und Wahrheiten</emph> (1798), sendet ihm Heft 3 seiner <emph>Abbildungen naturhistorischer Gegenstände</emph> (1798), kündigt die Zusendung erbetener Publikationen an und bittet um Proben von &#x84;Demant-Spath&#x93; vom Kap Komorin in Indien und Melanit aus Fuscati. </title>
+                  <title>Blumenbach dankt Johann Reinhold Forster für die Zusendung von dessen <emph>Beobachtungen und Wahrheiten</emph> (1798), sendet ihm Heft 3 seiner <emph>Abbildungen naturhistorischer Gegenstände</emph> (1798), kündigt die Zusendung erbetener Publikationen an und bittet um Proben von &#x84;Demant-Spath&#x93; vom Kap Komorin in Indien und Melanit aus Fuscati. </title>
                   <title level="m" type="bibl">Beobachtungen und Wahrheiten</title>
                   <title level="m" type="bibl">Abbildungen naturhistorischer Gegenstände</title>
                   <author>
@@ -158,7 +156,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

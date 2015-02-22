@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -54,7 +52,7 @@
          <notesStmt>
             <note type="Überlieferung">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, fol. 43, vgl. Meyer, Handschriften in Göttingen 3 (1894), S. 79. </note>
             <note type="Drucke">
-               <bibl>ErwähnungmitAngabe zur Sendung eines Schädels in Gascoigne, John, &#x84;The German Enlightenment and the Pacific&#x93;, in Wolff, Larry und Cipolloni, Marco (Hgg.): The Anthropology of the Enlightenment. Stanford 2007, S. 141&#x96;170, hier S. 167 mit Anm. 118.</bibl>
+               <bibl>Erwähnungmit Angabe zur Sendung eines Schädels in Gascoigne, John, &#x84;The German Enlightenment and the Pacific&#x93;, in Wolff, Larry und Cipolloni, Marco (Hgg.): The Anthropology of the Enlightenment. Stanford 2007, S. 141&#x96;170, hier S. 167 mit Anm. 118.</bibl>
             </note>
             <note type="Edition">
                <bibl>
@@ -143,7 +141,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

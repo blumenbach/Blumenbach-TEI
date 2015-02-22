@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -67,11 +65,11 @@
             <note type="Werke">
                <bibl>
                   <relatedItem>
-                     <bibl>Rezension von Hencke, Johann Christoph: <emph>Völlig entdektes Geheimniß der Natur</emph>, sowol in der Erzeugung des Menschen als auch in der willkührlichen Wahl des Geschlechts der Kinder (1786) in <emph>GAgS</emph> 1786 (98. Stück, 21. Juni), S. 978&#x96;982 (= Bibliographie Nr. 00289). </bibl>
+                     <bibl>Rezension von Hencke, Johann Christoph: <emph>Völlig entdektes Geheimniß der Natur</emph>, sowol in der Erzeugung des Menschen als auch in der willkührlichen Wahl des Geschlechts der Kinder (1786) in <emph>GAg S</emph> 1786 (98. Stück, 21. Juni), S. 978&#x96;982 (= Bibliographie Nr. 00289). </bibl>
                   </relatedItem>
                </bibl>
                <title level="m" type="bibl">Völlig entdektes Geheimniß der Natur</title>
-               <title level="m" type="bibl">GAgS</title>
+               <title level="m" type="bibl">GAg S</title>
             </note>
             <note type="ref" xml:id="record_d1e14864">
                <ref type="pdf"
@@ -129,6 +127,17 @@
                      <event type="iso-origin"
                             datingMethod="#ISO"
                             sortKey="1786-06-21"
+                            when="1786-06-21"
+                            where="#orgplc-328">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1786-06-21">1786, nach Juni 21</date>
+                        </note>
+                     </event>
+                  </listEvent>
+                  <listEvent>
+                     <event type="iso-origin-nb"
+                            datingMethod="#ISO"
                             notBefore="1786-06-21"
                             where="#orgplc-328">
                         <label>Abfassungsdatum (not before):</label>
@@ -155,7 +164,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

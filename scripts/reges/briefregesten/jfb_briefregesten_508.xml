@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -52,7 +50,7 @@
             </idno>
          </publicationStmt>
          <notesStmt>
-            <note type="Überlieferung">Or. verloren; überlieferung durch Druck inLöwenberg, Julius: Memoiren Alexander von Humboldt&#x92;s. Leipzig1861, Bd. 1, S. 11&#x96;14. </note>
+            <note type="Überlieferung">Or. verloren; überlieferung durch Druck in Löwenberg, Julius: Memoiren Alexander von Humboldt&#x92;s. Leipzig1861, Bd. 1, S. 11&#x96;14. </note>
             <note type="Edition">
                <bibl>
                   <edition>Dougherty, <emph>Corresp.</emph> III, S. 299 Nr. 0609.</edition>
@@ -119,6 +117,17 @@
                      <event type="iso-origin"
                             datingMethod="#ISO"
                             sortKey="1780-03-27"
+                            when="1780-03-27"
+                            where="#orgplc-508">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1780-03-27">1790, nach März 27</date>
+                        </note>
+                     </event>
+                  </listEvent>
+                  <listEvent>
+                     <event type="iso-origin-nb"
+                            datingMethod="#ISO"
                             notBefore="1780-03-27"
                             where="#orgplc-508">
                         <label>Abfassungsdatum (not before):</label>
@@ -145,7 +154,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -54,7 +52,7 @@
          <notesStmt>
             <note type="Überlieferung">Leipzig, Universitätsbibliothek, II C III, 858. </note>
             <note type="Drucke">
-               <bibl>Erwähnt in Dougherty, Frank William Peter, &#x84;Der Begriff der Naturgeschichte nach J. F. Blumenbach anhand seiner Korrespondenz mit Jean-André DeLuc&#x93;, in Dougherty, <emph>Gesammelte Aufsätze</emph> (1996), Anm. zu S. 148&#x96;158, S. 400f. Anm. 10 (Nachdruck aus <emph>Berichte zur Wissenschaftsgeschichte</emph> 9 (1986), S. 95&#x96;107).</bibl>
+               <bibl>Erwähnt in Dougherty, Frank William Peter, &#x84;Der Begriff der Naturgeschichte nach J. F. Blumenbach anhand seiner Korrespondenz mit Jean-André De Luc&#x93;, in Dougherty, <emph>Gesammelte Aufsätze</emph> (1996), Anm. zu S. 148&#x96;158, S. 400f. Anm. 10 (Nachdruck aus <emph>Berichte zur Wissenschaftsgeschichte</emph> 9 (1986), S. 95&#x96;107).</bibl>
                <title level="m" type="bibl">Gesammelte Aufsätze</title>
                <title level="m" type="bibl">Berichte zur Wissenschaftsgeschichte</title>
             </note>
@@ -115,6 +113,17 @@
                      <event type="iso-origin"
                             datingMethod="#ISO"
                             sortKey="1816-01-01"
+                            when="1816-01-01"
+                            where="#orgplc-1453">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1816-01-01">1816, Januar Windsor</date>
+                        </note>
+                     </event>
+                  </listEvent>
+                  <listEvent>
+                     <event type="iso-origin-nb"
+                            datingMethod="#ISO"
                             notBefore="1816-01-01"
                             where="#orgplc-1453">
                         <label>Abfassungsdatum (not before):</label>
@@ -141,7 +150,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

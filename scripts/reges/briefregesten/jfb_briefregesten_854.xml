@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -54,7 +52,7 @@
          <notesStmt>
             <note type="Überlieferung">Washington, D. C.,Smithsonian Institution Libraries. Special Collections Branch. Dibner Library of the History of Science and Technology, MSS 124 A, fol. 1v.</note>
             <note type="Drucke">
-               <bibl>Auszug (über das Känguru) in Dougherty, Frank William Peter, &#x84;Der Begriff der Naturgeschichte nach J. F. Blumenbach anhand seiner Korrespondenz mit Jean-André DeLuc&#x93;, in <emph>Berichte zur Wissenschaftsgeschichte</emph> 9 (1986), S. 95&#x96;107, hier S. 102 (Nachdruck in Dougherty, <emph>Gesammelte Aufsätze</emph> (1996), S. 148&#x96;158,S. 156,mit S. 401 Anm. 10 und 25; Auszug (über Lichtenberg) in Lichtenberg, <emph>Briefwechsel</emph>, Bd. 4 (1992), Nr. 2636, S. 591.</bibl>
+               <bibl>Auszug (über das Känguru) in Dougherty, Frank William Peter, &#x84;Der Begriff der Naturgeschichte nach J. F. Blumenbach anhand seiner Korrespondenz mit Jean-André De Luc&#x93;, in <emph>Berichte zur Wissenschaftsgeschichte</emph> 9 (1986), S. 95&#x96;107, hier S. 102 (Nachdruck in Dougherty, <emph>Gesammelte Aufsätze</emph> (1996), S. 148&#x96;158,S. 156,mit S. 401 Anm. 10 und 25; Auszug (über Lichtenberg) in Lichtenberg, <emph>Briefwechsel</emph>, Bd. 4 (1992), Nr. 2636, S. 591.</bibl>
                <title level="m" type="bibl">Berichte zur Wissenschaftsgeschichte</title>
                <title level="m" type="bibl">Gesammelte Aufsätze</title>
                <title level="m" type="bibl">Briefwechsel</title>
@@ -147,7 +145,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

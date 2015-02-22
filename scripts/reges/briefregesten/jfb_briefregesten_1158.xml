@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Johann Heinrich Ferdinand Autenrieth bekundetBlumenbach sein Interessen an Nachrichten über das neu entdeckte Schnabeltier, sendet Publikationen über seine Untersuchungen zur Funktion der Placenta, zur Verdauung und zur Anatomie des Auges, bittet erneut, ihm leihweise seine früheren Briefe zu überlassen, damit er sich Abschriften davon anfertigen könne, und berichtet, dass er seine mineralogischen und zoologischen Sammlungen zur Auswertung an andere Forscher verschenkt habe. </title>
+            <title type="main">Johann Heinrich Ferdinand Autenrieth bekundet Blumenbach sein Interessen an Nachrichten über das neu entdeckte Schnabeltier, sendet Publikationen über seine Untersuchungen zur Funktion der Placenta, zur Verdauung und zur Anatomie des Auges, bittet erneut, ihm leihweise seine früheren Briefe zu überlassen, damit er sich Abschriften davon anfertigen könne, und berichtet, dass er seine mineralogischen und zoologischen Sammlungen zur Auswertung an andere Forscher verschenkt habe. </title>
             <author>
                <persName>
                   <forename>Johann Heinrich Ferdinand</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -65,14 +63,14 @@
                <rs type="pdf">Corresp. V, S.455&#x96;457 Nr. 1293 </rs>
             </note>
             <note type="Anmerkung">
-               <note>Die Transkription von Dougherty scheint Fehler zu enthalten (&#x84;unendlich richtig&#x93; lies: unendlich wichtig?; &#x84;Austheilung der infra orbital Nerven&#x93; lies:Auftheilung der infra orbital Nerven?). InAnm. 23 wird &#x84;choroidea&#x93; als &#x84;Adergeflecht des Gehirns&#x93; erläutert; gemeint ist aber eher die Aderhaut des Auges, vgl. die in Anm. 24 genannte diesbezügliche Dissertation.</note>
+               <note>Die Transkription von Dougherty scheint Fehler zu enthalten (&#x84;unendlich richtig&#x93; lies: unendlich wichtig?; &#x84;Austheilung der infra orbital Nerven&#x93; lies:Auftheilung der infra orbital Nerven?). In Anm. 23 wird &#x84;choroidea&#x93; als &#x84;Adergeflecht des Gehirns&#x93; erläutert; gemeint ist aber eher die Aderhaut des Auges, vgl. die in Anm. 24 genannte diesbezügliche Dissertation.</note>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Johann Heinrich Ferdinand Autenrieth bekundetBlumenbach sein Interessen an Nachrichten über das neu entdeckte Schnabeltier, sendet Publikationen über seine Untersuchungen zur Funktion der Placenta, zur Verdauung und zur Anatomie des Auges, bittet erneut, ihm leihweise seine früheren Briefe zu überlassen, damit er sich Abschriften davon anfertigen könne, und berichtet, dass er seine mineralogischen und zoologischen Sammlungen zur Auswertung an andere Forscher verschenkt habe. </title>
+                  <title>Johann Heinrich Ferdinand Autenrieth bekundet Blumenbach sein Interessen an Nachrichten über das neu entdeckte Schnabeltier, sendet Publikationen über seine Untersuchungen zur Funktion der Placenta, zur Verdauung und zur Anatomie des Auges, bittet erneut, ihm leihweise seine früheren Briefe zu überlassen, damit er sich Abschriften davon anfertigen könne, und berichtet, dass er seine mineralogischen und zoologischen Sammlungen zur Auswertung an andere Forscher verschenkt habe. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Johann Heinrich Ferdinand</forename>
@@ -144,7 +142,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

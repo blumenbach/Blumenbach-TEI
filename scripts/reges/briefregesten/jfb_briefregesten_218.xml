@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -52,7 +50,7 @@
             </idno>
          </publicationStmt>
          <notesStmt>
-            <note type="Überlieferung">Or. verloren, überl. als Druck inCommentationes soc. reg. scient. Gottingensis Bd. IX (1789). </note>
+            <note type="Überlieferung">Or. verloren, überl. als Druck in Commentationes soc. reg. scient. Gottingensis Bd. IX (1789). </note>
             <note type="Edition">
                <bibl>
                   <edition>Dougherty, <emph>Corresp.</emph> II, S. 182 Nr. 0304.</edition>
@@ -71,8 +69,8 @@
                <rs type="obj">Feuchtpräparate der &#x84;rana pipa&#x93;,vgl. Blumenbachs hs. Sammlungsverzeichnis Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, II, fol. 89r.</rs>
             </note>
             <note type="Anmerkung">
-               <note>Vgl. Blumenbachs Bericht über den von ihm vorgetragenen Bericht Campers in den <emph>GAgS</emph> 1784 (156. Stück, 27. Sept.), S. 1553&#x96;1555 (Bibliographie Nr. 00256). </note>
-               <title level="m" type="bibl">GAgS</title>
+               <note>Vgl. Blumenbachs Bericht über den von ihm vorgetragenen Bericht Campers in den <emph>GAg S</emph> 1784 (156. Stück, 27. Sept.), S. 1553&#x96;1555 (Bibliographie Nr. 00256). </note>
+               <title level="m" type="bibl">GAg S</title>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -151,7 +149,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

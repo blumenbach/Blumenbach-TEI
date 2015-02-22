@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">[Carl?, Alexander?]KönigberichtetBlumenbach [über Birmanen]. </title>
+            <title type="main">[Carl?, Alexander?]Königberichtet Blumenbach [über Birmanen]. </title>
             <author>
                <persName>
                   <forename>[Carl?, Alexander?] </forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -65,7 +63,7 @@
                <rs type="html">Spengel, Anthropologische Sammlung </rs>
             </note>
             <note type="Objekte">
-               <rs type="obj">Vgl. die Nennung von zweiSchädeln aus Birma inBlumenbachs Sammlung inSpengel, Anthropologische Sammlung, S. 48 Anm. ad 120: &#x84;1832, von Crawford [sic] durch Alex. [sic] König. »Schädel eines birmanischen Soldaten, von den Engländern vom Bord aus geschossen bei Rangoon.«&#x93; und S. 49 Anm. ad. 121:&#x84;1832, von Demselben [d. h. Crawford]. »Bei Nobhar nächtlings erschossen.«&#x93;</rs>
+               <rs type="obj">Vgl. die Nennung von zwei Schädeln aus Birma in Blumenbachs Sammlung in Spengel, Anthropologische Sammlung, S. 48 Anm. ad 120: &#x84;1832, von Crawford [sic] durch Alex. [sic] König. »Schädel eines birmanischen Soldaten, von den Engländern vom Bord aus geschossen bei Rangoon.«&#x93; und S. 49 Anm. ad. 121:&#x84;1832, von Demselben [d. h. Crawford]. »Bei Nobhar nächtlings erschossen.«&#x93;</rs>
             </note>
             <note type="Anmerkung">
                <note>Meyer, a. a. O., S. 78 nennt als Vornamen des Absenders &#x84;Carl&#x93;, während Spengel, a. a. O., S. 48 ihn (Blumenbach zitierend?) mit &#x84;Alex.&#x93; angibt.</note>
@@ -75,7 +73,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>[Carl?, Alexander?]KönigberichtetBlumenbach [über Birmanen]. </title>
+                  <title>[Carl?, Alexander?]Königberichtet Blumenbach [über Birmanen]. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>[Carl?, Alexander?] </forename>
@@ -147,7 +145,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

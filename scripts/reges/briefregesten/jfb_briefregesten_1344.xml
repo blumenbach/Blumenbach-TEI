@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Benjamin Smith Barton sendetBlumenbachAngaben zu Tieren &#x96; u. a. den Armmolch (&#x84;Siren lacertina&#x93;),den Wolf und die Taschenratte &#x84;Mus Tuza&#x93; &#x96;, Fossilien und Mineralienvorkommen in Nordamerika,Fossilienfunden und Mineralienvorkommen in Nordamerika und über die Lewis-und-Clark-Expedition und die Freeman-Custis-Expedition in den Westen Nordamerikas. </title>
+            <title type="main">Benjamin Smith Barton sendet Blumenbach Angaben zu Tieren &#x96; u. a. den Armmolch (&#x84;Siren lacertina&#x93;),den Wolf und die Taschenratte &#x84;Mus Tuza&#x93; &#x96;, Fossilien und Mineralienvorkommen in Nordamerika,Fossilienfunden und Mineralienvorkommen in Nordamerika und über die Lewis-und-Clark-Expedition und die Freeman-Custis-Expedition in den Westen Nordamerikas. </title>
             <author>
                <persName>
                   <forename>Benjamin Smith</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -64,7 +62,7 @@
                <title level="m" type="bibl">Corresp.</title>
             </note>
             <note type="Werke">
-               <bibl>Brieftext verwendet in BibliographieNrr. 00919, 00920, 00921, 00922, 00923, 00924, 00925 (siehe &#x84;Dr.&#x93;). </bibl>
+               <bibl>Brieftext verwendet in Bibliographie Nrr. 00919, 00920, 00921, 00922, 00923, 00924, 00925 (siehe &#x84;Dr.&#x93;). </bibl>
             </note>
             <note type="ref" xml:id="record_d1e66880">
                <ref type="html"
@@ -92,7 +90,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Benjamin Smith Barton sendetBlumenbachAngaben zu Tieren &#x96; u. a. den Armmolch (&#x84;Siren lacertina&#x93;),den Wolf und die Taschenratte &#x84;Mus Tuza&#x93; &#x96;, Fossilien und Mineralienvorkommen in Nordamerika,Fossilienfunden und Mineralienvorkommen in Nordamerika und über die Lewis-und-Clark-Expedition und die Freeman-Custis-Expedition in den Westen Nordamerikas. </title>
+                  <title>Benjamin Smith Barton sendet Blumenbach Angaben zu Tieren &#x96; u. a. den Armmolch (&#x84;Siren lacertina&#x93;),den Wolf und die Taschenratte &#x84;Mus Tuza&#x93; &#x96;, Fossilien und Mineralienvorkommen in Nordamerika,Fossilienfunden und Mineralienvorkommen in Nordamerika und über die Lewis-und-Clark-Expedition und die Freeman-Custis-Expedition in den Westen Nordamerikas. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Benjamin Smith</forename>
@@ -138,6 +136,17 @@
                      <event type="iso-origin"
                             datingMethod="#ISO"
                             sortKey="1806-12-01"
+                            when="1806-12-01"
+                            where="#orgplc-1344">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1806-12-01">vor 1806, Dez</date>
+                        </note>
+                     </event>
+                  </listEvent>
+                  <listEvent>
+                     <event type="iso-origin-na"
+                            datingMethod="#ISO"
                             notAfter="1806-12-01"
                             where="#orgplc-1344">
                         <label>Abfassungsdatum (not after):</label>
@@ -164,7 +173,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

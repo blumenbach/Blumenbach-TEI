@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -62,10 +60,10 @@
             <note type="ref" xml:id="record_d1e81416">
                <ref type="html"
                     target="http://waller.ub.uu.se/18090.htmlhttp://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/Transkriptionen/Blumenbach_Unbekannt_vor1838_Transkription.html"/>
-               <rs type="html">Digitalisat online verfügbarTranskription </rs>
+               <rs type="html">Digitalisat online verfügbar Transkription </rs>
             </note>
             <note type="Anmerkung">
-               <note>Datum ohneJahresangabe; derin dem Brief als lebend erwähnte Jeremias David Reuss starb am 15. Dez. 1837. </note>
+               <note>Datum ohne Jahresangabe; derin dem Brief als lebend erwähnte Jeremias David Reuss starb am 15. Dez. 1837. </note>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -124,9 +122,8 @@
                      </event>
                   </listEvent>
                   <listEvent>
-                     <event type="iso-origin"
+                     <event type="iso-origin-na"
                             datingMethod="#ISO"
-                            sortKey="1838-05-19"
                             notAfter="1838-05-19"
                             where="#orgplc-1651">
                         <label>Abfassungsdatum (not after):</label>
@@ -153,7 +150,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

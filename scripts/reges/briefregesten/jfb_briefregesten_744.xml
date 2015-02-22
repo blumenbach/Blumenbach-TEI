@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -54,7 +52,7 @@
          <notesStmt>
             <note type="Überlieferung">London, British Library, Add MS 8098, fol. 219&#x96;220. </note>
             <note type="Drucke">
-               <bibl>Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 118&#x96;120 KatNr. 138; Chambers, <emph>Scientific correspondence of Sir Joseph Banks</emph>, Bd. 4 (2007), S. 320&#x96;322 Nr. 1281; vgl. ausführl. Regest in Dawson, <emph>The Banks Letters</emph> (1958), S. 113 Nr. 30.</bibl>
+               <bibl>Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 118&#x96;120 Kat Nr. 138; Chambers, <emph>Scientific correspondence of Sir Joseph Banks</emph>, Bd. 4 (2007), S. 320&#x96;322 Nr. 1281; vgl. ausführl. Regest in Dawson, <emph>The Banks Letters</emph> (1958), S. 113 Nr. 30.</bibl>
                <title level="m" type="bibl">Commercium epistolicum</title>
                <title level="m" type="bibl">Scientific correspondence of Sir Joseph Banks</title>
                <title level="m" type="bibl">The Banks Letters</title>
@@ -86,7 +84,7 @@
                <rs type="obj">Probe eines südamerikanischen Eisenmeteoriten; Zeichnungen nach verschiedenen Eskimo-Porträts und einem Porträt des Tahitianers O-mai im Besitz von Joseph Banks (Göttingen, Inst. für Ethnologie, Inv.-Nr. Bi. Kat. 26, 27,28).</rs>
             </note>
             <note type="Anmerkung">
-               <note>Die russische Nordpazifik-Expedition von 1785&#x96;1793/1784 wird meist als Billings-Sarytschew [Sarycev]-Expedition bezeichnet. Christian Bering (nicht, wieDougherty, <emph>Corresp.</emph> IV, Nr. 00869 Anm. 19 schreibt, dessen Großvater Vitus Bering [&#x86; 1741]) warTeilnehmer ohne leitende Funktion.</note>
+               <note>Die russische Nordpazifik-Expedition von 1785&#x96;1793/1784 wird meist als Billings-Sarytschew [Sarycev]-Expedition bezeichnet. Christian Bering (nicht, wie Dougherty, <emph>Corresp.</emph> IV, Nr. 00869 Anm. 19 schreibt, dessen Großvater Vitus Bering [&#x86; 1741]) war Teilnehmer ohne leitende Funktion.</note>
                <title level="m" type="bibl">Corresp.</title>
             </note>
          </notesStmt>
@@ -167,7 +165,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

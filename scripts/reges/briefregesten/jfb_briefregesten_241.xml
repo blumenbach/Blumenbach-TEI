@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -60,8 +58,8 @@
                <title level="m" type="bibl">Corresp.</title>
             </note>
             <note type="Anmerkung">
-               <note>Vgl. Chr. Meiners&#x92; Rezension von Johann Gottfried Herders Ideen zur Geschichte der Menschheit, Teil 1 (1784) in <emph>GAgS</emph> 1785, S. 65&#x96;68.</note>
-               <title level="m" type="bibl">GAgS</title>
+               <note>Vgl. Chr. Meiners&#x92; Rezension von Johann Gottfried Herders Ideen zur Geschichte der Menschheit, Teil 1 (1784) in <emph>GAg S</emph> 1785, S. 65&#x96;68.</note>
+               <title level="m" type="bibl">GAg S</title>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -115,6 +113,17 @@
                      <event type="iso-origin"
                             datingMethod="#ISO"
                             sortKey="1785-01-15"
+                            when="1785-01-15"
+                            where="#orgplc-241">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1785-01-15">1785, vor Jan. 15</date>
+                        </note>
+                     </event>
+                  </listEvent>
+                  <listEvent>
+                     <event type="iso-origin-na"
+                            datingMethod="#ISO"
                             notAfter="1785-01-15"
                             where="#orgplc-241">
                         <label>Abfassungsdatum (not after):</label>
@@ -141,7 +150,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

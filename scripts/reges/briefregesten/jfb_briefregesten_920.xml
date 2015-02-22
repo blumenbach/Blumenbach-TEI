@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -54,7 +52,7 @@
          <notesStmt>
             <note type="Überlieferung">London, British Library, Add MS 8098, fol. 318&#x96;319. </note>
             <note type="Drucke">
-               <bibl>Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 123&#x96;124 KatNr. 146; Chambers, <emph>Scientific correspondence of Sir Joseph Banks</emph>, Bd. 4 (2007), S. 468&#x96;469 Nr. 1402; vgl. ausführl. Regest in Dawson, <emph>The Banks Letters</emph> (1958), S. 114 Nr. 40.</bibl>
+               <bibl>Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 123&#x96;124 Kat Nr. 146; Chambers, <emph>Scientific correspondence of Sir Joseph Banks</emph>, Bd. 4 (2007), S. 468&#x96;469 Nr. 1402; vgl. ausführl. Regest in Dawson, <emph>The Banks Letters</emph> (1958), S. 114 Nr. 40.</bibl>
                <title level="m" type="bibl">Commercium epistolicum</title>
                <title level="m" type="bibl">Scientific correspondence of Sir Joseph Banks</title>
                <title level="m" type="bibl">The Banks Letters</title>
@@ -69,7 +67,7 @@
                <bibl>
                   <relatedItem>
                      <bibl>
-                        <emph>Handbuch der Naturgeschichte</emph> (5. Aufl. 1797; Bibliographie Nr. 00026); Abbildungen naturhistorischerGegenstände, Heft 6 (1802; Bibliographie Nr. 00147). </bibl>
+                        <emph>Handbuch der Naturgeschichte</emph> (5. Aufl. 1797; Bibliographie Nr. 00026); Abbildungen naturhistorischer Gegenstände, Heft 6 (1802; Bibliographie Nr. 00147). </bibl>
                   </relatedItem>
                </bibl>
                <title level="m" type="bibl">Handbuch der Naturgeschichte</title>
@@ -83,7 +81,7 @@
                <rs type="pdf">Corresp. V, S. 117&#x96;118 Nr. 1054 </rs>
             </note>
             <note type="Objekte">
-               <rs type="obj">Porträteines Palau (&#x84;Peloo&#x93;; &#x84;Pelew&#x93;)-Indianersmit seinen zwei Ehefrauen (Geschenk von Joseph Banks; Göttingen, Inst. für Ethnologie, Inv.-Nr. Bi. Kat. 47); Porträt der Eskimo-Frau Mycock mit ihrem Kind (Geschenk von Joseph Banks; Göttingen, Inst. für Ethnologie, Inv.-Nr. Bi. Kat. 26); einer von zwei &#x84;Esquimaux&#x93;-Schädel aus Nain, Labrador (Göttingen, Inst. f. Anatomie, Schädelsammlung Nrr. 703 und 704;Abb. in <emph>Decas craniorum</emph> 3 (1795), Tafel 25 (= Nr. 703) undTafel 24 (= Nr. 704), Bibliographie Nr.00094); von Alexander von Humboldt entdecktes magnetisches Gestein vom Fichtelberg (im Erzgebirge?). </rs>
+               <rs type="obj">Porträteines Palau (&#x84;Peloo&#x93;; &#x84;Pelew&#x93;)-Indianersmit seinen zwei Ehefrauen (Geschenk von Joseph Banks; Göttingen, Inst. für Ethnologie, Inv.-Nr. Bi. Kat. 47); Porträt der Eskimo-Frau Mycock mit ihrem Kind (Geschenk von Joseph Banks; Göttingen, Inst. für Ethnologie, Inv.-Nr. Bi. Kat. 26); einer von zwei &#x84;Esquimaux&#x93;-Schädel aus Nain, Labrador (Göttingen, Inst. f. Anatomie, Schädelsammlung Nrr. 703 und 704;Abb. in <emph>Decas craniorum</emph> 3 (1795), Tafel 25 (= Nr. 703) und Tafel 24 (= Nr. 704), Bibliographie Nr.00094); von Alexander von Humboldt entdecktes magnetisches Gestein vom Fichtelberg (im Erzgebirge?). </rs>
                <title level="m" type="bibl">Decas craniorum</title>
             </note>
          </notesStmt>
@@ -163,7 +161,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

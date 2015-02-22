@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Blumenbach berichtetFranz Xaver von Zach über die von G. Heinrich Röntgen in Göttingen zur Vorbereitungeiner Afrika-Expedition durchlaufene Ausbildung und über dessen Bemühungen, in England Unterstützung für die Durchführung einer derartigen Forschungsreise zu finden. </title>
+            <title type="main">Blumenbach berichtet Franz Xaver von Zach über die von G. Heinrich Röntgen in Göttingen zur Vorbereitungeiner Afrika-Expedition durchlaufene Ausbildung und über dessen Bemühungen, in England Unterstützung für die Durchführung einer derartigen Forschungsreise zu finden. </title>
             <author>
                <persName>
                   <forename>Johann Friedrich</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -72,7 +70,7 @@
                <rs type="html">00975 </rs>
             </note>
             <note type="Objekte">
-               <rs type="obj">LebendesMurmeltier aus der Schweiz.</rs>
+               <rs type="obj">Lebendes Murmeltier aus der Schweiz.</rs>
             </note>
             <note type="Anmerkung">
                <note>In der Druckversion in der Monatlichen Correspondenz zur Beförderung der Erd- und Himmelskunde nicht ausdrücklich als Brief bezeichnet, aber wie ein solcher mit Orts- und Datumsangabe beginnend. </note>
@@ -82,7 +80,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Blumenbach berichtetFranz Xaver von Zach über die von G. Heinrich Röntgen in Göttingen zur Vorbereitungeiner Afrika-Expedition durchlaufene Ausbildung und über dessen Bemühungen, in England Unterstützung für die Durchführung einer derartigen Forschungsreise zu finden. </title>
+                  <title>Blumenbach berichtet Franz Xaver von Zach über die von G. Heinrich Röntgen in Göttingen zur Vorbereitungeiner Afrika-Expedition durchlaufene Ausbildung und über dessen Bemühungen, in England Unterstützung für die Durchführung einer derartigen Forschungsreise zu finden. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Johann Friedrich</forename>
@@ -154,7 +152,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

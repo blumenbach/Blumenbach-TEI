@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Blumenbach danktJoseph Banks für diezugesandte Korrekturfahne eines Aufsatzes von Everard Home über das Schnabeltier, fragt, welche der von ihm und von Christian Hendrik Persoon an Banks geschickten Publikationen dieser nicht erhalten habe, damit er Ersatzexemplare senden könne, und bittet um Meteoriten aus Indien, um ein Exemplar von Friedrich Hornemanns gedrucktem Bericht aus Tripolis und um Informationen über die Pflanze, aus dem ein angeblich tahitianischer Stoffhergestellt werde, von dem er eine Probe mitsendet. </title>
+            <title type="main">Blumenbach dankt Joseph Banks für diezugesandte Korrekturfahne eines Aufsatzes von Everard Home über das Schnabeltier, fragt, welche der von ihm und von Christian Hendrik Persoon an Banks geschickten Publikationen dieser nicht erhalten habe, damit er Ersatzexemplare senden könne, und bittet um Meteoriten aus Indien, um ein Exemplar von Friedrich Hornemanns gedrucktem Bericht aus Tripolis und um Informationen über die Pflanze, aus dem ein angeblich tahitianischer Stoffhergestellt werde, von dem er eine Probe mitsendet. </title>
             <author>
                <persName>
                   <forename>Johann Friedrich</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -76,7 +74,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Blumenbach danktJoseph Banks für diezugesandte Korrekturfahne eines Aufsatzes von Everard Home über das Schnabeltier, fragt, welche der von ihm und von Christian Hendrik Persoon an Banks geschickten Publikationen dieser nicht erhalten habe, damit er Ersatzexemplare senden könne, und bittet um Meteoriten aus Indien, um ein Exemplar von Friedrich Hornemanns gedrucktem Bericht aus Tripolis und um Informationen über die Pflanze, aus dem ein angeblich tahitianischer Stoffhergestellt werde, von dem er eine Probe mitsendet. </title>
+                  <title>Blumenbach dankt Joseph Banks für diezugesandte Korrekturfahne eines Aufsatzes von Everard Home über das Schnabeltier, fragt, welche der von ihm und von Christian Hendrik Persoon an Banks geschickten Publikationen dieser nicht erhalten habe, damit er Ersatzexemplare senden könne, und bittet um Meteoriten aus Indien, um ein Exemplar von Friedrich Hornemanns gedrucktem Bericht aus Tripolis und um Informationen über die Pflanze, aus dem ein angeblich tahitianischer Stoffhergestellt werde, von dem er eine Probe mitsendet. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Johann Friedrich</forename>
@@ -148,7 +146,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

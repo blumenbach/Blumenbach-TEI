@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Blumenbach berichtetFranz Xaver von Zach u. a. von dem Göttingen-Aufenthalt J. E. Jacobsens, des zeitweiligen Reisebegleiters von Jasper Ulrich Seetzen auf dessen Orient-Expedition, und über Stationen dieser Expedition. </title>
+            <title type="main">Blumenbach berichtet Franz Xaver von Zach u. a. von dem Göttingen-Aufenthalt J. E. Jacobsens, des zeitweiligen Reisebegleiters von Jasper Ulrich Seetzen auf dessen Orient-Expedition, und über Stationen dieser Expedition. </title>
             <author>
                <persName>
                   <forename>Johann Friedrich</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -79,7 +77,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Blumenbach berichtetFranz Xaver von Zach u. a. von dem Göttingen-Aufenthalt J. E. Jacobsens, des zeitweiligen Reisebegleiters von Jasper Ulrich Seetzen auf dessen Orient-Expedition, und über Stationen dieser Expedition. </title>
+                  <title>Blumenbach berichtet Franz Xaver von Zach u. a. von dem Göttingen-Aufenthalt J. E. Jacobsens, des zeitweiligen Reisebegleiters von Jasper Ulrich Seetzen auf dessen Orient-Expedition, und über Stationen dieser Expedition. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Johann Friedrich</forename>
@@ -125,6 +123,17 @@
                      <event type="iso-origin"
                             datingMethod="#ISO"
                             sortKey="1803-12-23"
+                            when="1803-12-23"
+                            where="#orgplc-1294">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1803-12-23">nach 1803, Dez. 23/ vor 1804, März</date>
+                        </note>
+                     </event>
+                  </listEvent>
+                  <listEvent>
+                     <event type="iso-origin-nb"
+                            datingMethod="#ISO"
                             notBefore="1803-12-23"
                             where="#orgplc-1294">
                         <label>Abfassungsdatum (not before):</label>
@@ -134,9 +143,8 @@
                      </event>
                   </listEvent>
                   <listEvent>
-                     <event type="iso-origin"
+                     <event type="iso-origin-na"
                             datingMethod="#ISO"
-                            sortKey="1804-03-01"
                             notAfter="1804-03-01"
                             where="#orgplc-1294">
                         <label>Abfassungsdatum (not after):</label>
@@ -163,7 +171,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

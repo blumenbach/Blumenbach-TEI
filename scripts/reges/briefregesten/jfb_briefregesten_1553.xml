@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Johann Gottfried Eichhorn teiltBlumenbach [u. a. mit, dass Christian Liebau Analphabet sei und sich deshalb nur eingeschränkt als Vertreter für Christian David Hennicke, den Pedell derSocietät der Wissenschaften zu Göttingen,eigne]. </title>
+            <title type="main">Johann Gottfried Eichhorn teilt Blumenbach [u. a. mit, dass Christian Liebau Analphabet sei und sich deshalb nur eingeschränkt als Vertreter für Christian David Hennicke, den Pedell der Societät der Wissenschaften zu Göttingen,eigne]. </title>
             <author>
                <persName>
                   <forename>Johann Gottfried</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -54,7 +52,7 @@
          <notesStmt>
             <note type="Überlieferung">Göttingen, Archiv der Akademie der Wissenschaften, Pers. 70,2 Nr. 28 (20.1.1825). </note>
             <note type="Drucke">
-               <bibl>AuszuginWagener,Pedelle, Mägde und Lakaien, S. 352 mit Anm. 463ff.</bibl>
+               <bibl>Auszugin Wagener,Pedelle, Mägde und Lakaien, S. 352 mit Anm. 463ff.</bibl>
             </note>
             <note type="Edition">
                <bibl>
@@ -67,7 +65,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Johann Gottfried Eichhorn teiltBlumenbach [u. a. mit, dass Christian Liebau Analphabet sei und sich deshalb nur eingeschränkt als Vertreter für Christian David Hennicke, den Pedell derSocietät der Wissenschaften zu Göttingen,eigne]. </title>
+                  <title>Johann Gottfried Eichhorn teilt Blumenbach [u. a. mit, dass Christian Liebau Analphabet sei und sich deshalb nur eingeschränkt als Vertreter für Christian David Hennicke, den Pedell der Societät der Wissenschaften zu Göttingen,eigne]. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Johann Gottfried</forename>
@@ -139,7 +137,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

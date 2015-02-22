@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Blumenbach dankt Joseph Banks für den Verzicht auf Rückzahlung der Schulden des verstorbenenJohann Reinhold Forster durch dessen Witwe, für den erbetenenzweiten menschlichen Schädel aus Australien, für Mungo Parks Travels in the interior districts of Africa (1799) und wissenschaftliche Auskünfte, kündigt die Zusendung zahlreicher deutscher Publikationen für Banks und dessen wissenschaftliche Korrespondenten an, spricht eine Empfehlung für Georg Heinrich Noehden aus undberichtet über weitere deutscheWissenschaftler, die an der Durchführung von Forschungsreisen interessiert sind. </title>
+            <title type="main">Blumenbach dankt Joseph Banks für den Verzicht auf Rückzahlung der Schulden des verstorbenen Johann Reinhold Forster durch dessen Witwe, für den erbetenenzweiten menschlichen Schädel aus Australien, für Mungo Parks Travels in the interior districts of Africa (1799) und wissenschaftliche Auskünfte, kündigt die Zusendung zahlreicher deutscher Publikationen für Banks und dessen wissenschaftliche Korrespondenten an, spricht eine Empfehlung für Georg Heinrich Noehden aus undberichtet über weitere deutsche Wissenschaftler, die an der Durchführung von Forschungsreisen interessiert sind. </title>
             <author>
                <persName>
                   <forename>Johann Friedrich</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -67,12 +65,12 @@
             <note type="Werke">
                <bibl>
                   <relatedItem>
-                     <bibl>Rezension vonProposals for forming [&#x85;] a public institution for diffusing the knowledge 1799 in <emph>GAgS</emph> 1799 (95. Stück, 15. Juni), S. 945&#x96;949 (Bibliographie Nr. 00410); Rezension von Band 1 (1798) von <emph>Catalogus bibliothecae historico-naturalis Josephi Banks</emph> in <emph>GAgS</emph> 1799 (93. Stück, 13. Juni), S. 927&#x96;928 (Bibliographie Nr. 00408); dänische übersetzung des<emph>Handbuchs der Naturgeschichte</emph> (1793; Bibliographie Nr. 00043); <emph>Handbuch der Naturgeschichte</emph> (5. Aufl. (1797); Bibliographie Nr. 00026);<emph>Handbuch der Naturgeschichte</emph> (6. Aufl. (1799); Bibliographie Nr. 00027).</bibl>
+                     <bibl>Rezension von Proposals for forming [&#x85;] a public institution for diffusing the knowledge 1799 in <emph>GAg S</emph> 1799 (95. Stück, 15. Juni), S. 945&#x96;949 (Bibliographie Nr. 00410); Rezension von Band 1 (1798) von <emph>Catalogus bibliothecae historico-naturalis Josephi Banks</emph> in <emph>GAg S</emph> 1799 (93. Stück, 13. Juni), S. 927&#x96;928 (Bibliographie Nr. 00408); dänische übersetzung des<emph>Handbuchs der Naturgeschichte</emph> (1793; Bibliographie Nr. 00043); <emph>Handbuch der Naturgeschichte</emph> (5. Aufl. (1797); Bibliographie Nr. 00026);<emph>Handbuch der Naturgeschichte</emph> (6. Aufl. (1799); Bibliographie Nr. 00027).</bibl>
                   </relatedItem>
                </bibl>
-               <title level="m" type="bibl">GAgS</title>
+               <title level="m" type="bibl">GAg S</title>
                <title level="m" type="bibl">Catalogus bibliothecae historico-naturalis Josephi Banks</title>
-               <title level="m" type="bibl">GAgS</title>
+               <title level="m" type="bibl">GAg S</title>
                <title level="m" type="bibl">Handbuchs der Naturgeschichte</title>
                <title level="m" type="bibl">Handbuch der Naturgeschichte</title>
                <title level="m" type="bibl">Handbuch der Naturgeschichte</title>
@@ -91,7 +89,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Blumenbach dankt Joseph Banks für den Verzicht auf Rückzahlung der Schulden des verstorbenenJohann Reinhold Forster durch dessen Witwe, für den erbetenenzweiten menschlichen Schädel aus Australien, für Mungo Parks <emph>Travels in the interior districts of Africa</emph> (1799) und wissenschaftliche Auskünfte, kündigt die Zusendung zahlreicher deutscher Publikationen für Banks und dessen wissenschaftliche Korrespondenten an, spricht eine Empfehlung für Georg Heinrich Noehden aus undberichtet über weitere deutscheWissenschaftler, die an der Durchführung von Forschungsreisen interessiert sind. </title>
+                  <title>Blumenbach dankt Joseph Banks für den Verzicht auf Rückzahlung der Schulden des verstorbenen Johann Reinhold Forster durch dessen Witwe, für den erbetenenzweiten menschlichen Schädel aus Australien, für Mungo Parks <emph>Travels in the interior districts of Africa</emph> (1799) und wissenschaftliche Auskünfte, kündigt die Zusendung zahlreicher deutscher Publikationen für Banks und dessen wissenschaftliche Korrespondenten an, spricht eine Empfehlung für Georg Heinrich Noehden aus undberichtet über weitere deutsche Wissenschaftler, die an der Durchführung von Forschungsreisen interessiert sind. </title>
                   <title level="m" type="bibl">Travels in the interior districts of Africa</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
@@ -164,7 +162,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Franz Xaver von Zach berichtet Blumenbach, dass er aufeiner Reise durchNorddeutschland mit dem englischen Prinzen Adolphus Frederick und der Regierung in Hannover über die geringe Qualifikation des Göttinger Astronomieprofessors Carl Felix von Seyffer, über weitere Göttinger Professoren und den Neubau einer Sternwarte in Göttingen diskutiert habe, erklärt, dassdie Qualität der Allgemeinen Geographischen Ephemeriden nach seinem Ausscheiden aus deren Redaktion stark gesunken sei, fragt, ob er einen Brief Blumenbachs an Georg I. von Sachsen-Meiningen über Höhlenbären in seiner Zeitschrift Monatliche Correspondenz zur Beförderung der Erd- und Himmels-Kunde abdrucken oder an Blumenbach zurücksenden solle, und beschreibt vier vomSachsen-Gothaischen ErbprinzenAugust Leopold Emil neu erworbene Chinesen-Puppen. </title>
+            <title type="main">Franz Xaver von Zach berichtet Blumenbach, dass er aufeiner Reise durch Norddeutschland mit dem englischen Prinzen Adolphus Frederick und der Regierung in Hannover über die geringe Qualifikation des Göttinger Astronomieprofessors Carl Felix von Seyffer, über weitere Göttinger Professoren und den Neubau einer Sternwarte in Göttingen diskutiert habe, erklärt, dassdie Qualität der Allgemeinen Geographischen Ephemeriden nach seinem Ausscheiden aus deren Redaktion stark gesunken sei, fragt, ob er einen Brief Blumenbachs an Georg I. von Sachsen-Meiningen über Höhlenbären in seiner Zeitschrift Monatliche Correspondenz zur Beförderung der Erd- und Himmels-Kunde abdrucken oder an Blumenbach zurücksenden solle, und beschreibt vier vom Sachsen-Gothaischen Erbprinzen August Leopold Emil neu erworbene Chinesen-Puppen. </title>
             <author>
                <persName>
                   <forename>Franz Xaver von</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -52,7 +50,7 @@
             </idno>
          </publicationStmt>
          <notesStmt>
-            <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 2 (ZachNr. 20).</note>
+            <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 2 (Zach Nr. 20).</note>
             <note type="Edition">
                <bibl>
                   <edition>Dougherty,<emph>Corresp.</emph> V, S. 515&#x96;519 Nr. 1344.</edition>
@@ -69,7 +67,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Franz Xaver von Zach berichtet Blumenbach, dass er aufeiner Reise durchNorddeutschland mit dem englischen Prinzen Adolphus Frederick und der Regierung in Hannover über die geringe Qualifikation des Göttinger Astronomieprofessors Carl Felix von Seyffer, über weitere Göttinger Professoren und den Neubau einer Sternwarte in Göttingen diskutiert habe, erklärt, dassdie Qualität der <emph>Allgemeinen Geographischen Ephemeriden</emph> nach seinem Ausscheiden aus deren Redaktion stark gesunken sei, fragt, ob er einen Brief Blumenbachs an Georg I. von Sachsen-Meiningen über Höhlenbären in seiner Zeitschrift <emph>Monatliche Correspondenz zur Beförderung der Erd- und Himmels-Kunde</emph> abdrucken oder an Blumenbach zurücksenden solle, und beschreibt vier vomSachsen-Gothaischen ErbprinzenAugust Leopold Emil neu erworbene Chinesen-Puppen. </title>
+                  <title>Franz Xaver von Zach berichtet Blumenbach, dass er aufeiner Reise durch Norddeutschland mit dem englischen Prinzen Adolphus Frederick und der Regierung in Hannover über die geringe Qualifikation des Göttinger Astronomieprofessors Carl Felix von Seyffer, über weitere Göttinger Professoren und den Neubau einer Sternwarte in Göttingen diskutiert habe, erklärt, dassdie Qualität der <emph>Allgemeinen Geographischen Ephemeriden</emph> nach seinem Ausscheiden aus deren Redaktion stark gesunken sei, fragt, ob er einen Brief Blumenbachs an Georg I. von Sachsen-Meiningen über Höhlenbären in seiner Zeitschrift <emph>Monatliche Correspondenz zur Beförderung der Erd- und Himmels-Kunde</emph> abdrucken oder an Blumenbach zurücksenden solle, und beschreibt vier vom Sachsen-Gothaischen Erbprinzen August Leopold Emil neu erworbene Chinesen-Puppen. </title>
                   <title level="m" type="bibl">Allgemeinen Geographischen Ephemeriden</title>
                   <title level="m" type="bibl">Monatliche Correspondenz zur Beförderung der Erd- und Himmels-Kunde</title>
                   <author>
@@ -143,7 +141,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

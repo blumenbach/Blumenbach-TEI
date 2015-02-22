@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Kaspar Georg KarlReinwardt sendet Blumenbach den Schädel eines Chinesen, eines Malaien und der Tochter einessino-malayischen Elternpaares aus Java. </title>
+            <title type="main">Kaspar Georg Karl Reinwardt sendet Blumenbach den Schädel eines Chinesen, eines Malaien und der Tochter einessino-malayischen Elternpaares aus Java. </title>
             <author>
                <persName>
                   <forename>Kaspar Georg Karl </forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -68,7 +66,7 @@
                <rs type="html">Heiningen, Teunis Willem van: The correspondence of Caspar Georg Carl Reinwardt (1773-1854) </rs>
             </note>
             <note type="Objekte">
-               <rs type="obj">Schädel einerJavanerin, deren Mutter Malayin und deren Vater Chinese war, Abb. in <emph>Nova pentas craniorum</emph>(1828; Bibliographie Nr. 00098), Tafel 64;zur Identifikation des Schädels vgl. Spengel, Anthropologische Sammlung, S. 45 Anm. ad 124: &#x84;1826, von Prof. Reinwardt.&#x93;</rs>
+               <rs type="obj">Schädel einer Javanerin, deren Mutter Malayin und deren Vater Chinese war, Abb. in <emph>Nova pentas craniorum</emph>(1828; Bibliographie Nr. 00098), Tafel 64;zur Identifikation des Schädels vgl. Spengel, Anthropologische Sammlung, S. 45 Anm. ad 124: &#x84;1826, von Prof. Reinwardt.&#x93;</rs>
                <title level="m" type="bibl">Nova pentas craniorum</title>
             </note>
          </notesStmt>
@@ -76,7 +74,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Kaspar Georg KarlReinwardt sendet Blumenbach den Schädel eines Chinesen, eines Malaien und der Tochter einessino-malayischen Elternpaares aus Java. </title>
+                  <title>Kaspar Georg Karl Reinwardt sendet Blumenbach den Schädel eines Chinesen, eines Malaien und der Tochter einessino-malayischen Elternpaares aus Java. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Kaspar Georg Karl </forename>
@@ -148,7 +146,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Blumenbach teilt Joseph Banks mit, dass er ein Paket mit neuen wissenschaftlichen Publikationen aus Deutschland an ihn abgesendet habe, und gibt eine Zusammenfassung der ebenfalls mitgesandtenAbhandlung Wie der Geschlechtstrieb des Menschen in Ordnung zu bringen (1791) von Bernhard Christoph Faust. </title>
+            <title type="main">Blumenbach teilt Joseph Banks mit, dass er ein Paket mit neuen wissenschaftlichen Publikationen aus Deutschland an ihn abgesendet habe, und gibt eine Zusammenfassung der ebenfalls mitgesandten Abhandlung Wie der Geschlechtstrieb des Menschen in Ordnung zu bringen (1791) von Bernhard Christoph Faust. </title>
             <author>
                <persName>
                   <forename>Johann Friedrich</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -73,7 +71,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Blumenbach teilt Joseph Banks mit, dass er ein Paket mit neuen wissenschaftlichen Publikationen aus Deutschland an ihn abgesendet habe, und gibt eine Zusammenfassung der ebenfalls mitgesandtenAbhandlung <emph>Wie der Geschlechtstrieb des Menschen in Ordnung zu bringen</emph> (1791) von Bernhard Christoph Faust. </title>
+                  <title>Blumenbach teilt Joseph Banks mit, dass er ein Paket mit neuen wissenschaftlichen Publikationen aus Deutschland an ihn abgesendet habe, und gibt eine Zusammenfassung der ebenfalls mitgesandten Abhandlung <emph>Wie der Geschlechtstrieb des Menschen in Ordnung zu bringen</emph> (1791) von Bernhard Christoph Faust. </title>
                   <title level="m" type="bibl">Wie der Geschlechtstrieb des Menschen in Ordnung zu bringen</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
@@ -146,7 +144,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

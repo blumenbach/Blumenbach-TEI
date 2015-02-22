@@ -6,7 +6,7 @@
             <title type="main">Georg Heinrich Röntgen berichtet Blumenbach, dass erzur Vorbereitung seiner Afrika-Expedition eine Beschneidung an sich habe durchführen lassen. </title>
             <author>
                <persName>
-                  <forename>GeorgHeinrich</forename>
+                  <forename>Georg Heinrich</forename>
                   <surname>Röntgen</surname>
                </persName>
             </author>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -70,7 +68,7 @@
                   <title>Georg Heinrich Röntgen berichtet Blumenbach, dass erzur Vorbereitung seiner Afrika-Expedition eine Beschneidung an sich habe durchführen lassen. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
-                        <forename>GeorgHeinrich</forename>
+                        <forename>Georg Heinrich</forename>
                         <surname>Röntgen</surname>
                      </persName>
                   </author>
@@ -113,6 +111,17 @@
                      <event type="iso-origin"
                             datingMethod="#ISO"
                             sortKey="1808-07-08"
+                            when="1808-07-08"
+                            where="#orgplc-1368">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1808-07-08">1808, Juli 8</date>
+                        </note>
+                     </event>
+                  </listEvent>
+                  <listEvent>
+                     <event type="iso-origin-na"
+                            datingMethod="#ISO"
                             notAfter="1808-07-08"
                             where="#orgplc-1368">
                         <label>Abfassungsdatum (not after):</label>
@@ -139,7 +148,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

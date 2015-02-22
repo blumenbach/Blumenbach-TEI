@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Blumenbach berichtet Wilhelm GottliebBecker, er habe soeben erfahren, dass er vor einem halben Jahraufgrund einer Verwechselung statt zweier von Becker gesandter Abbildungen von ägyptischen Mumien in Dresden eine für einen anderen Adressaten gedachte Büchersendung erhalten habe, mit dem er sich nun wegen des Austausches der Sendungen in Verbindung setzen werde. </title>
+            <title type="main">Blumenbach berichtet Wilhelm Gottlieb Becker, er habe soeben erfahren, dass er vor einem halben Jahraufgrund einer Verwechselung statt zweier von Becker gesandter Abbildungen von ägyptischen Mumien in Dresden eine für einen anderen Adressaten gedachte Büchersendung erhalten habe, mit dem er sich nun wegen des Austausches der Sendungen in Verbindung setzen werde. </title>
             <author>
                <persName>
                   <forename>Johann Friedrich</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -62,14 +60,14 @@
             <note type="ref" xml:id="record_d1e68590">
                <ref type="html"
                     target="http://waller.ub.uu.se/18100.htmlhttp://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/Transkriptionen/Blumenbach_Becker_1809Nov27_Transkription.html"/>
-               <rs type="html">Digitalisat online verfügbarTranskription </rs>
+               <rs type="html">Digitalisat online verfügbar Transkription </rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Blumenbach berichtet Wilhelm GottliebBecker, er habe soeben erfahren, dass er vor einem halben Jahraufgrund einer Verwechselung statt zweier von Becker gesandter Abbildungen von ägyptischen Mumien in Dresden eine für einen anderen Adressaten gedachte Büchersendung erhalten habe, mit dem er sich nun wegen des Austausches der Sendungen in Verbindung setzen werde. </title>
+                  <title>Blumenbach berichtet Wilhelm Gottlieb Becker, er habe soeben erfahren, dass er vor einem halben Jahraufgrund einer Verwechselung statt zweier von Becker gesandter Abbildungen von ägyptischen Mumien in Dresden eine für einen anderen Adressaten gedachte Büchersendung erhalten habe, mit dem er sich nun wegen des Austausches der Sendungen in Verbindung setzen werde. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Johann Friedrich</forename>
@@ -142,7 +140,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

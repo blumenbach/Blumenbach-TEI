@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -56,7 +54,7 @@
             <note type="Drucke">
                <bibl>Dougherty, <emph>
                      <emph>Commercium epistolicum</emph>
-                  </emph> (1984), S. 171&#x96;172 KatNr. 206.</bibl>
+                  </emph> (1984), S. 171&#x96;172 Kat Nr. 206.</bibl>
                <title level="m" type="bibl">Commercium epistolicum</title>
             </note>
             <note type="Edition">
@@ -67,10 +65,10 @@
             </note>
             <note type="ref" xml:id="record_d1e19544">
                <ref type="html"
-                    target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/CommerciumHTMLs/CommerciumNr206.html"/>
+                    target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/Commercium HTMLs/Commercium Nr206.html"/>
                <ref type="pdf"
                     target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=186"/>
-               <rs type="html">S. 171&#x96;172 KatNr. 206 </rs>
+               <rs type="html">S. 171&#x96;172 Kat Nr. 206 </rs>
                <rs type="pdf">Corresp. III, S. 168 Nr. 0513 </rs>
             </note>
             <note type="Objekte">
@@ -170,7 +168,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

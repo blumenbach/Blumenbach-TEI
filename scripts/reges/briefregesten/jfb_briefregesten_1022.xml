@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Georg Heinrich von Langsdorff sendet Blumenbach Materialproben von drei Mineralien, derenHerkunft undäußeren Eigenschaften er beschreibt, und einen Aufsatz von João de Loureiro [über Kannibalismus], kündigt die Zusendung der Kiefer einer Brachse an und bietet an, Studiensammlungen portugiesischer und brasilianischer Mineralien für Interessenten aus Blumenbachs Bekanntenkreis zusammen zu stellen. </title>
+            <title type="main">Georg Heinrich von Langsdorff sendet Blumenbach Materialproben von drei Mineralien, deren Herkunft undäußeren Eigenschaften er beschreibt, und einen Aufsatz von João de Loureiro [über Kannibalismus], kündigt die Zusendung der Kiefer einer Brachse an und bietet an, Studiensammlungen portugiesischer und brasilianischer Mineralien für Interessenten aus Blumenbachs Bekanntenkreis zusammen zu stellen. </title>
             <author>
                <persName>
                   <forename>Georg Heinrich von</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -82,7 +80,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Georg Heinrich von Langsdorff sendet Blumenbach Materialproben von drei Mineralien, derenHerkunft undäußeren Eigenschaften er beschreibt, und einen Aufsatz von João de Loureiro [über Kannibalismus], kündigt die Zusendung der Kiefer einer Brachse an und bietet an, Studiensammlungen portugiesischer und brasilianischer Mineralien für Interessenten aus Blumenbachs Bekanntenkreis zusammen zu stellen. </title>
+                  <title>Georg Heinrich von Langsdorff sendet Blumenbach Materialproben von drei Mineralien, deren Herkunft undäußeren Eigenschaften er beschreibt, und einen Aufsatz von João de Loureiro [über Kannibalismus], kündigt die Zusendung der Kiefer einer Brachse an und bietet an, Studiensammlungen portugiesischer und brasilianischer Mineralien für Interessenten aus Blumenbachs Bekanntenkreis zusammen zu stellen. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Georg Heinrich von</forename>
@@ -154,7 +152,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

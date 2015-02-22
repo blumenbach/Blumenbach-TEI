@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Blumenbach sendetFriedrich Justin Bertucheine Zusatzinformation zu seinem Beitragüber die englische Missionsstation auf Tahiti in denAllgemeinen Geographischen Ephemeriden. </title>
+            <title type="main">Blumenbach sendet Friedrich Justin Bertucheine Zusatzinformation zu seinem Beitragüber die englische Missionsstation auf Tahiti in denAllgemeinen Geographischen Ephemeriden. </title>
             <author>
                <persName>
                   <forename>Johann Friedrich</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -74,11 +72,11 @@
             </note>
             <note type="ref" xml:id="record_d1e59736">
                <ref type="html"
-                    target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#AllgemGeogrEphem1800_6"/>
+                    target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#Allgem Geogr Ephem1800_6"/>
                <ref type="pdf"
                     target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=526"/>
                <ref type="html"
-                    target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#AllgemGeogrEphem1800_6"/>
+                    target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#Allgem Geogr Ephem1800_6"/>
                <rs type="html">[ohne Nr.] </rs>
                <rs type="pdf">Corresp. V, S. 510&#x96;511 Nr. 1338 </rs>
                <rs type="html">[ohne Nr.] </rs>
@@ -91,7 +89,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Blumenbach sendetFriedrich Justin Bertucheine Zusatzinformation zu seinem Beitragüber die englische Missionsstation auf Tahiti in den<emph>Allgemeinen Geographischen Ephemeriden</emph>. </title>
+                  <title>Blumenbach sendet Friedrich Justin Bertucheine Zusatzinformation zu seinem Beitragüber die englische Missionsstation auf Tahiti in den<emph>Allgemeinen Geographischen Ephemeriden</emph>. </title>
                   <title level="m" type="bibl">Allgemeinen Geographischen Ephemeriden</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
@@ -164,7 +162,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

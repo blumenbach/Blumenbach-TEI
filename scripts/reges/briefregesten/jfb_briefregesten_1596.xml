@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">James Yates sendet Blumenbach die Porträtzeichnung des tätowierten neuseeländischen Häuptlings Tippahee und eineAbbildung von [zwei] Ureinwohnern Australiens und bietet Blumenbach an, bei einem eventuellen Englandbesuch bei ihm zu wohnen. </title>
+            <title type="main">James Yates sendet Blumenbach die Porträtzeichnung des tätowierten neuseeländischen Häuptlings Tippahee und eine Abbildung von [zwei] Ureinwohnern Australiens und bietet Blumenbach an, bei einem eventuellen Englandbesuch bei ihm zu wohnen. </title>
             <author>
                <persName>
                   <forename>James</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -54,7 +52,7 @@
          <notesStmt>
             <note type="Überlieferung">Göttingen, Universitätsbibliothek, Cod. Ms.Blumenbach V, 43, fol. 16 und 18. </note>
             <note type="Drucke">
-               <bibl>Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 186&#x96;187 KatNr. 227 (mit Abbildung des Porträts von Tippahee).</bibl>
+               <bibl>Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 186&#x96;187 Kat Nr. 227 (mit Abbildung des Porträts von Tippahee).</bibl>
                <title level="m" type="bibl">Commercium epistolicum</title>
             </note>
             <note type="Edition">
@@ -71,7 +69,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>James Yates sendet Blumenbach die Porträtzeichnung des tätowierten neuseeländischen Häuptlings Tippahee und eineAbbildung von [zwei] Ureinwohnern Australiens und bietet Blumenbach an, bei einem eventuellen Englandbesuch bei ihm zu wohnen. </title>
+                  <title>James Yates sendet Blumenbach die Porträtzeichnung des tätowierten neuseeländischen Häuptlings Tippahee und eine Abbildung von [zwei] Ureinwohnern Australiens und bietet Blumenbach an, bei einem eventuellen Englandbesuch bei ihm zu wohnen. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>James</forename>
@@ -143,7 +141,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

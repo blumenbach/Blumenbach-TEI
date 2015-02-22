@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Blumenbach teiltFriedrich Justin Bertuch [u. a. mit, dass sein Student G. Heinrich Röntgen für Bertuchs Zeitschrift Allgemeines Archiv fur Ethnographie und Linguistik Exzerpte aus Reiseberichten in der Göttinger Universitätsbibliothek anfertigen werde]. </title>
+            <title type="main">Blumenbach teilt Friedrich Justin Bertuch [u. a. mit, dass sein Student G. Heinrich Röntgen für Bertuchs Zeitschrift Allgemeines Archiv fur Ethnographie und Linguistik Exzerpte aus Reiseberichten in der Göttinger Universitätsbibliothek anfertigen werde]. </title>
             <author>
                <persName>
                   <forename>Johann Friedrich</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -63,14 +61,14 @@
                <title level="m" type="bibl">Corresp.</title>
             </note>
             <note type="Anmerkung">
-               <note>Middell zitiertBlumenbachs auf seine Dissertation De humani generis varietate bezogene Bem. &#x84;so hab ich auch beständig eine Leidenschaft für diesen Erstling behalten&#x93; und die Ankündigung, &#x84;dass [G. Heinrich Röntgen] Ihnen intereßante Excerpte fürs Archiv bereitet&#x93;. </note>
+               <note>Middell zitiert Blumenbachs auf seine Dissertation De humani generis varietate bezogene Bem. &#x84;so hab ich auch beständig eine Leidenschaft für diesen Erstling behalten&#x93; und die Ankündigung, &#x84;dass [G. Heinrich Röntgen] Ihnen intereßante Excerpte fürs Archiv bereitet&#x93;. </note>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Blumenbach teiltFriedrich Justin Bertuch [u. a. mit, dass sein Student G. Heinrich Röntgen für Bertuchs Zeitschrift <emph>Allgemeines Archiv fur Ethnographie und Linguistik</emph> Exzerpte aus Reiseberichten in der Göttinger Universitätsbibliothek anfertigen werde]. </title>
+                  <title>Blumenbach teilt Friedrich Justin Bertuch [u. a. mit, dass sein Student G. Heinrich Röntgen für Bertuchs Zeitschrift <emph>Allgemeines Archiv fur Ethnographie und Linguistik</emph> Exzerpte aus Reiseberichten in der Göttinger Universitätsbibliothek anfertigen werde]. </title>
                   <title level="m" type="bibl">Allgemeines Archiv fur Ethnographie und Linguistik</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
@@ -143,7 +141,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

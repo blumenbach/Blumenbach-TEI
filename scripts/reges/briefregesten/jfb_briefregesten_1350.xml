@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -52,7 +50,7 @@
             </idno>
          </publicationStmt>
          <notesStmt>
-            <note type="Überlieferung">Hannover, Blumenbach Familienarchiv; Abschrift (nach dem Or. im Familienarchiv Blumenbach in Hannover) inWeimar, Goethe- und Schiller-Archiv: GSA 29/102, IV, S. 13&#x96;15.</note>
+            <note type="Überlieferung">Hannover, Blumenbach Familienarchiv; Abschrift (nach dem Or. im Familienarchiv Blumenbach in Hannover) in Weimar, Goethe- und Schiller-Archiv: GSA 29/102, IV, S. 13&#x96;15.</note>
             <note type="Edition">
                <bibl>
                   <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
@@ -62,13 +60,13 @@
             <note type="Werke">
                <bibl>
                   <relatedItem>
-                     <bibl>Goethes Werke. Weimarer Ausgabe Abt. IV, Bd. 19, S. 326&#x96;329 (Brief WA-Nr. 05366); Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 96&#x96;97 KatNr. 116.</bibl>
+                     <bibl>Goethes Werke. Weimarer Ausgabe Abt. IV, Bd. 19, S. 326&#x96;329 (Brief WA-Nr. 05366); Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 96&#x96;97 Kat Nr. 116.</bibl>
                   </relatedItem>
                </bibl>
                <title level="m" type="bibl">Commercium epistolicum</title>
             </note>
             <note type="Objekte">
-               <rs type="obj">Antiker Schädel eines Aturers (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 794; Abb. in<emph>Decas craniorum</emph> 5 (1808), Tafel 46; Bibliographie Nr. 00096). Gesteinsproben&#x84;von der merkwürdigen Uebergangsgebirgsart welche [in einer beiliegendenListe] mit C bezeichnet ist&#x93;.</rs>
+               <rs type="obj">Antiker Schädel eines Aturers (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 794; Abb. in<emph>Decas craniorum</emph> 5 (1808), Tafel 46; Bibliographie Nr. 00096). Gesteinsproben&#x84;von der merkwürdigen Uebergangsgebirgsart welche [in einer beiliegenden Liste] mit C bezeichnet ist&#x93;.</rs>
                <title level="m" type="bibl">Decas craniorum</title>
             </note>
             <note type="Anmerkung">
@@ -151,7 +149,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

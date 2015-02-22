@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Alexander von Humboldt sendetBlumenbach ein Empfehlungsschreiben für den Schweizer Studenten Johannes Fischer. </title>
+            <title type="main">Alexander von Humboldt sendet Blumenbach ein Empfehlungsschreiben für den Schweizer Studenten Johannes Fischer. </title>
             <author>
                <persName>
                   <forename>Alexander von</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -52,7 +50,7 @@
             </idno>
          </publicationStmt>
          <notesStmt>
-            <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 3 (Alexander von HumboldtNr. 10).</note>
+            <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 3 (Alexander von Humboldt Nr. 10).</note>
             <note type="Edition">
                <bibl>
                   <edition>Dougherty, <emph>Corresp.</emph> V, S. 121 Nr. 1057.</edition>
@@ -69,7 +67,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Alexander von Humboldt sendetBlumenbach ein Empfehlungsschreiben für den Schweizer Studenten Johannes Fischer. </title>
+                  <title>Alexander von Humboldt sendet Blumenbach ein Empfehlungsschreiben für den Schweizer Studenten Johannes Fischer. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Alexander von</forename>
@@ -141,7 +139,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

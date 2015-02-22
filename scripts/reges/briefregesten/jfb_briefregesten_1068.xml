@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Blumenbach danktJoseph Banks für die Originalminiatur eines Porträts des Polynesiers O-mai aus Banks Besitz und für zugesandte Bücherund bittet für Vergleichszwecke um die von Banks angebotene Beschaffungeines zweiten menschlichen Schädels aus Australien undsendet seinerseits Bücher undZeichnungen von Pflanzenfossilien in Schiefer und Sandstein und wissenschaftliche Neuigkeiten. </title>
+            <title type="main">Blumenbach dankt Joseph Banks für die Originalminiatur eines Porträts des Polynesiers O-mai aus Banks Besitz und für zugesandte Bücherund bittet für Vergleichszwecke um die von Banks angebotene Beschaffungeines zweiten menschlichen Schädels aus Australien undsendet seinerseits Bücher und Zeichnungen von Pflanzenfossilien in Schiefer und Sandstein und wissenschaftliche Neuigkeiten. </title>
             <author>
                <persName>
                   <forename>Johann Friedrich</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -54,7 +52,7 @@
          <notesStmt>
             <note type="Überlieferung">London, British Library, Add MS 8098, fol. 434&#x96;435.</note>
             <note type="Drucke">
-               <bibl>Chambers, <emph>Scientific correspondence of Sir Joseph Banks</emph>, Bd. 4 (2007),S.566&#x96;568 Nr. 1494 (mit Transkriptionsfehlern); vgl. ausführl. Regest in Dawson, <emph>The Banks Letters</emph> (1958), S. 115 Nr. 50; Auszug inDougherty, <emph>Corresp.</emph> IV,S. 350 Nr. 0869 Anm. 36.</bibl>
+               <bibl>Chambers, <emph>Scientific correspondence of Sir Joseph Banks</emph>, Bd. 4 (2007),S.566&#x96;568 Nr. 1494 (mit Transkriptionsfehlern); vgl. ausführl. Regest in Dawson, <emph>The Banks Letters</emph> (1958), S. 115 Nr. 50; Auszug in Dougherty, <emph>Corresp.</emph> IV,S. 350 Nr. 0869 Anm. 36.</bibl>
                <title level="m" type="bibl">Scientific correspondence of Sir Joseph Banks</title>
                <title level="m" type="bibl">The Banks Letters</title>
                <title level="m" type="bibl">Corresp.</title>
@@ -95,7 +93,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Blumenbach danktJoseph Banks für die Originalminiatur eines Porträts des Polynesiers O-mai aus Banks Besitz und für zugesandte Bücherund bittet für Vergleichszwecke um die von Banks angebotene Beschaffungeines zweiten menschlichen Schädels aus Australien undsendet seinerseits Bücher undZeichnungen von Pflanzenfossilien in Schiefer und Sandstein und wissenschaftliche Neuigkeiten. </title>
+                  <title>Blumenbach dankt Joseph Banks für die Originalminiatur eines Porträts des Polynesiers O-mai aus Banks Besitz und für zugesandte Bücherund bittet für Vergleichszwecke um die von Banks angebotene Beschaffungeines zweiten menschlichen Schädels aus Australien undsendet seinerseits Bücher und Zeichnungen von Pflanzenfossilien in Schiefer und Sandstein und wissenschaftliche Neuigkeiten. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Johann Friedrich</forename>
@@ -167,7 +165,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

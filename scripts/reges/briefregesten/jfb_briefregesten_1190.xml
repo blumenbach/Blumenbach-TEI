@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Friederika Amalia Katharina (gen. Emilie) von Haller sendetBlumenbach den Schädel einer Gemse, kündigt die Zusendung eines Murmeltier- und eines Adlerschädels an, schlägt vor, zwei an Jodmangelsyndrom leidende Schweizer nach Göttingen einzuladen und sie nach ihrem Todwissenschaftlich zu untersuchen, und weist auf die Möglichkeit zum Ankauf des Modells eines Schweizerischen Bauernhauses für das Academische Museum der Universität hin. </title>
+            <title type="main">Friederika Amalia Katharina (gen. Emilie) von Haller sendet Blumenbach den Schädel einer Gemse, kündigt die Zusendung eines Murmeltier- und eines Adlerschädels an, schlägt vor, zwei an Jodmangelsyndrom leidende Schweizer nach Göttingen einzuladen und sie nach ihrem Todwissenschaftlich zu untersuchen, und weist auf die Möglichkeit zum Ankauf des Modells eines Schweizerischen Bauernhauses für das Academische Museum der Universität hin. </title>
             <author>
                <persName>
                   <forename>Friederika Amalia Katharina (gen. Emilie) von</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -91,7 +89,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Friederika Amalia Katharina (gen. Emilie) von Haller sendetBlumenbach den Schädel einer Gemse, kündigt die Zusendung eines Murmeltier- und eines Adlerschädels an, schlägt vor, zwei an Jodmangelsyndrom leidende Schweizer nach Göttingen einzuladen und sie nach ihrem Todwissenschaftlich zu untersuchen, und weist auf die Möglichkeit zum Ankauf des Modells eines Schweizerischen Bauernhauses für das Academische Museum der Universität hin. </title>
+                  <title>Friederika Amalia Katharina (gen. Emilie) von Haller sendet Blumenbach den Schädel einer Gemse, kündigt die Zusendung eines Murmeltier- und eines Adlerschädels an, schlägt vor, zwei an Jodmangelsyndrom leidende Schweizer nach Göttingen einzuladen und sie nach ihrem Todwissenschaftlich zu untersuchen, und weist auf die Möglichkeit zum Ankauf des Modells eines Schweizerischen Bauernhauses für das Academische Museum der Universität hin. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Friederika Amalia Katharina (gen. Emilie) von</forename>
@@ -163,7 +161,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

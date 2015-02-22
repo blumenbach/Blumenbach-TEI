@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -62,10 +60,10 @@
             <note type="Werke">
                <bibl>
                   <relatedItem>
-                     <bibl>Vgl. endgültige Formulierung der ausgewähltenPreisfrage in den <emph>GAgS</emph> (1796, Bibliographie Nr. 00378).</bibl>
+                     <bibl>Vgl. endgültige Formulierung der ausgewählten Preisfrage in den <emph>GAg S</emph> (1796, Bibliographie Nr. 00378).</bibl>
                   </relatedItem>
                </bibl>
-               <title level="m" type="bibl">GAgS</title>
+               <title level="m" type="bibl">GAg S</title>
             </note>
             <note type="ref" xml:id="record_d1e43498">
                <ref type="pdf"
@@ -120,6 +118,17 @@
                      <event type="iso-origin"
                             datingMethod="#ISO"
                             sortKey="1796-11-21"
+                            when="1796-11-21"
+                            where="#orgplc-888">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1796-11-21">1796, vor Nov. 21</date>
+                        </note>
+                     </event>
+                  </listEvent>
+                  <listEvent>
+                     <event type="iso-origin-na"
+                            datingMethod="#ISO"
                             notAfter="1796-11-21"
                             where="#orgplc-888">
                         <label>Abfassungsdatum (not after):</label>
@@ -146,7 +155,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

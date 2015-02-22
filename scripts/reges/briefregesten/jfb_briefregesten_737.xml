@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -54,7 +52,7 @@
          <notesStmt>
             <note type="Überlieferung">London, British Library, Add MS 8098, fol. 218. </note>
             <note type="Drucke">
-               <bibl>Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 117 KatNr. 136; Chambers,Indian and Pacific Correspondence of Sir Joseph Banks, Bd. 4 (2011), S. 214 Nr. 130; vgl. ausführl. Regest in Dawson, <emph>The Banks Letters</emph> (1958), S. 113 Nr. 29.</bibl>
+               <bibl>Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 117 Kat Nr. 136; Chambers,Indian and Pacific Correspondence of Sir Joseph Banks, Bd. 4 (2011), S. 214 Nr. 130; vgl. ausführl. Regest in Dawson, <emph>The Banks Letters</emph> (1958), S. 113 Nr. 29.</bibl>
                <title level="m" type="bibl">Commercium epistolicum</title>
                <title level="m" type="bibl">The Banks Letters</title>
             </note>
@@ -152,7 +150,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

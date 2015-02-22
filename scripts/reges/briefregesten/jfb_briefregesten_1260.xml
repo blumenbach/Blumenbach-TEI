@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Johann Samuel Lieberkühn sendetBlumenbach das Modell eines Kajaks, ein Hemd aus Seehundsdarm und ein Regenhemd aus Vogelbälgen (&#x84;Vogelpelz&#x93;) aus Grönland und fremdsprachige Bücher aus der Herrnhuter Druckerei und erbittet im Tausch Mineralien für die Herrnhuter Sammlungen. </title>
+            <title type="main">Johann Samuel Lieberkühn sendet Blumenbach das Modell eines Kajaks, ein Hemd aus Seehundsdarm und ein Regenhemd aus Vogelbälgen (&#x84;Vogelpelz&#x93;) aus Grönland und fremdsprachige Bücher aus der Herrnhuter Druckerei und erbittet im Tausch Mineralien für die Herrnhuter Sammlungen. </title>
             <author>
                <persName>
                   <forename>Johann Samuel</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -70,7 +68,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Johann Samuel Lieberkühn sendetBlumenbach das Modell eines Kajaks, ein Hemd aus Seehundsdarm und ein Regenhemd aus Vogelbälgen (&#x84;Vogelpelz&#x93;) aus Grönland und fremdsprachige Bücher aus der Herrnhuter Druckerei und erbittet im Tausch Mineralien für die Herrnhuter Sammlungen. </title>
+                  <title>Johann Samuel Lieberkühn sendet Blumenbach das Modell eines Kajaks, ein Hemd aus Seehundsdarm und ein Regenhemd aus Vogelbälgen (&#x84;Vogelpelz&#x93;) aus Grönland und fremdsprachige Bücher aus der Herrnhuter Druckerei und erbittet im Tausch Mineralien für die Herrnhuter Sammlungen. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Johann Samuel</forename>
@@ -142,7 +140,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

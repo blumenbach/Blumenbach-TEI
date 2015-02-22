@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Legationsrat [Ferdinand Friedrich (von) ?] Reuss [sendetBlumenbach u. a. einen Bericht des württembergischen Konsuls in Rom, Carlvon Kolb, über einen bei Vulci gefundenen Etruskerschädel?]. </title>
+            <title type="main">Legationsrat [Ferdinand Friedrich (von) ?] Reuss [sendet Blumenbach u. a. einen Bericht des württembergischen Konsuls in Rom, Carlvon Kolb, über einen bei Vulci gefundenen Etruskerschädel?]. </title>
             <author>
                <persName>
                   <forename>[Ferdinand Friedrich (von) ?]</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -68,14 +66,14 @@
                <rs type="obj">Bei dem beschriebenen Schädel handelt es sichevt. um den1830 (?) an Blumenbach gesandten ital. Schädel vgl. Spengel, Anthropologische Sammlung, S. 20 Anm. ad. 317: &#x84;1830. Von Consul Kolb in Rom durch Leg.-Rath. Reuss. Ausgegraben bei Vulci.&#x93;</rs>
             </note>
             <note type="Anmerkung">
-               <note>Identifizierungs- und Datierungsunsicherheit: Laut ADB übersiedelteReuss erst 1839 aus Moskau nach Stuttgart. </note>
+               <note>Identifizierungs- und Datierungsunsicherheit: Laut ADB übersiedelte Reuss erst 1839 aus Moskau nach Stuttgart. </note>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Legationsrat [Ferdinand Friedrich (von) ?] Reuss [sendetBlumenbach u. a. einen Bericht des württembergischen Konsuls in Rom, Carlvon Kolb, über einen bei Vulci gefundenen Etruskerschädel?]. </title>
+                  <title>Legationsrat [Ferdinand Friedrich (von) ?] Reuss [sendet Blumenbach u. a. einen Bericht des württembergischen Konsuls in Rom, Carlvon Kolb, über einen bei Vulci gefundenen Etruskerschädel?]. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>[Ferdinand Friedrich (von) ?]</forename>
@@ -147,7 +145,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

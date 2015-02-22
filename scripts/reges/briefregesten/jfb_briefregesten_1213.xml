@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">August Conrad Havemann sendetBlumenbachu. a. einen Haarballen aus dem Pansen einer Kuh und berichtetüber die Wirkung von subkutan verabreichtem Nieswurz als Brechmittel bei Kühen und Pferden. </title>
+            <title type="main">August Conrad Havemann sendet Blumenbachu. a. einen Haarballen aus dem Pansen einer Kuh und berichtetüber die Wirkung von subkutan verabreichtem Nieswurz als Brechmittel bei Kühen und Pferden. </title>
             <author>
                <persName>
                   <forename>August Conrad</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -82,7 +80,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>August Conrad Havemann sendetBlumenbachu. a. einen Haarballen aus dem Pansen einer Kuh und berichtetüber die Wirkung von subkutan verabreichtem Nieswurz als Brechmittel bei Kühen und Pferden. </title>
+                  <title>August Conrad Havemann sendet Blumenbachu. a. einen Haarballen aus dem Pansen einer Kuh und berichtetüber die Wirkung von subkutan verabreichtem Nieswurz als Brechmittel bei Kühen und Pferden. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>August Conrad</forename>
@@ -128,6 +126,17 @@
                      <event type="iso-origin"
                             datingMethod="#ISO"
                             sortKey="1800-12-21"
+                            when="1800-12-21"
+                            where="#orgplc-1213">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1800-12-21">1800, vor Dez. 21</date>
+                        </note>
+                     </event>
+                  </listEvent>
+                  <listEvent>
+                     <event type="iso-origin-na"
+                            datingMethod="#ISO"
                             notAfter="1800-12-21"
                             where="#orgplc-1213">
                         <label>Abfassungsdatum (not after):</label>
@@ -154,7 +163,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

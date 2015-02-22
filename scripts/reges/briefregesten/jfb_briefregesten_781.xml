@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -52,9 +50,9 @@
             </idno>
          </publicationStmt>
          <notesStmt>
-            <note type="Überlieferung">New Haven, Yale University Library, Manuscripts and Archives, Jean André DeLuc Papers (MS 179).</note>
+            <note type="Überlieferung">New Haven, Yale University Library, Manuscripts and Archives, Jean André De Luc Papers (MS 179).</note>
             <note type="Drucke">
-               <bibl>Auszug in Dougherty, Frank William Peter, &#x84;Der Begriff der Naturgeschichte nach J. F. Blumenbach anhand seiner Korrespondenz mit Jean-André DeLuc&#x93;, in <emph>Berichte zur Wissenschaftsgeschichte</emph> 9 (1986), S. 95&#x96;107, hier S. 100 (Nachdruck:Dougherty, <emph>Gesammelte Aufsätze</emph> (1996), S. 148&#x96;158, hier S. 153).</bibl>
+               <bibl>Auszug in Dougherty, Frank William Peter, &#x84;Der Begriff der Naturgeschichte nach J. F. Blumenbach anhand seiner Korrespondenz mit Jean-André De Luc&#x93;, in <emph>Berichte zur Wissenschaftsgeschichte</emph> 9 (1986), S. 95&#x96;107, hier S. 100 (Nachdruck:Dougherty, <emph>Gesammelte Aufsätze</emph> (1996), S. 148&#x96;158, hier S. 153).</bibl>
                <title level="m" type="bibl">Berichte zur Wissenschaftsgeschichte</title>
                <title level="m" type="bibl">Gesammelte Aufsätze</title>
             </note>
@@ -159,7 +157,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

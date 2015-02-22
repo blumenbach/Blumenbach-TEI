@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -54,7 +52,7 @@
          <notesStmt>
             <note type="Überlieferung">Göttingen, Universitätsbibliothek, Archiv, B 8 (Personalakte Stiepel, ca. Jan. 1828).</note>
             <note type="Drucke">
-               <bibl>Auszug inWagener,Pedelle, Mägde und Lakaien, S. 450 mit Anm. 36.</bibl>
+               <bibl>Auszug in Wagener,Pedelle, Mägde und Lakaien, S. 450 mit Anm. 36.</bibl>
             </note>
             <note type="Edition">
                <bibl>
@@ -113,6 +111,17 @@
                      <event type="iso-origin"
                             datingMethod="#ISO"
                             sortKey="1828-01-01"
+                            when="1828-01-01"
+                            where="#orgplc-1587">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1828-01-01">1828, ca. Jan.</date>
+                        </note>
+                     </event>
+                  </listEvent>
+                  <listEvent>
+                     <event type="iso-origin-nb"
+                            datingMethod="#ISO"
                             notBefore="1828-01-01"
                             where="#orgplc-1587">
                         <label>Abfassungsdatum (not before):</label>
@@ -139,7 +148,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

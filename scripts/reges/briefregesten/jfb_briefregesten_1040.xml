@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -86,7 +84,7 @@
                <title level="m" type="bibl">Corresp.</title>
             </note>
             <note type="Anmerkung">
-               <note>Brief von Friedrich Wilhelm Schenck anGeorg Thomas von Asch vom 5. Dez. 1797 mit Bericht zur Herkunft und Fundsituation der Tschudenschädel in Dougherty, <emph>Corresp.</emph> V, S. 179&#x96;180 Nr. 1099; weiterer Bericht in Göttingen, Universitätsbibliothek, Cod. Ms.Blumenbach V, 55, fol. 7&#x96;8, Transkription in Dougherty, <emph>Corresp.</emph> V, S. 298&#x96;299 Nr. 1177 Anm. 15.</note>
+               <note>Brief von Friedrich Wilhelm Schenck an Georg Thomas von Asch vom 5. Dez. 1797 mit Bericht zur Herkunft und Fundsituation der Tschudenschädel in Dougherty, <emph>Corresp.</emph> V, S. 179&#x96;180 Nr. 1099; weiterer Bericht in Göttingen, Universitätsbibliothek, Cod. Ms.Blumenbach V, 55, fol. 7&#x96;8, Transkription in Dougherty, <emph>Corresp.</emph> V, S. 298&#x96;299 Nr. 1177 Anm. 15.</note>
                <title level="m" type="bibl">Corresp.</title>
                <title level="m" type="bibl">Corresp.</title>
             </note>
@@ -181,7 +179,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

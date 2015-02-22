@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Andreas Ludwig Jassoy verfasst fürBlumenbach einen Bericht über sechs, für Blumenbachs Sammlung bestimmte menschliche Schädel aus Südostasien mit detaillierten Angaben zuIdentität undTodesumständen der Verstorbenen. </title>
+            <title type="main">Andreas Ludwig Jassoy verfasst für Blumenbach einen Bericht über sechs, für Blumenbachs Sammlung bestimmte menschliche Schädel aus Südostasien mit detaillierten Angaben zu Identität und Todesumständen der Verstorbenen. </title>
             <author>
                <persName>
                   <forename>Andreas Ludwig</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -54,7 +52,7 @@
          <notesStmt>
             <note type="Überlieferung">Göttingen, Universitätsbibliothek, Cod. Ms.Blumenbach III; datierter Bericht, beiliegend dem Brief Jassoys an Blumenbach vom 18. Dez. 1804. </note>
             <note type="Drucke">
-               <bibl>Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 144 KatNr. 171 (Auszug aus dem Bericht, über den Schädel eines Jugendlichen aus Neuguinea) mit der unzutreffenden überlieferungsangabe Cod. Ms. Blumenbach V, 44 fol. 2.</bibl>
+               <bibl>Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 144 Kat Nr. 171 (Auszug aus dem Bericht, über den Schädel eines Jugendlichen aus Neuguinea) mit der unzutreffenden überlieferungsangabe Cod. Ms. Blumenbach V, 44 fol. 2.</bibl>
                <title level="m" type="bibl">Commercium epistolicum</title>
             </note>
             <note type="Edition">
@@ -72,7 +70,7 @@
                <title level="m" type="bibl">Göttingische gelehrte Anzeigen</title>
             </note>
             <note type="Objekte">
-               <rs type="obj">Schädel des Chinesen Tan sayko (Göttingen, Inst. f. Anatomie [AIG], Schädelsammlung Nr. 601; Abb.in<emph>Decas craniorum</emph> 5 (1808; Bibliographie Nr. 00096), Tafel 44);Schädel des &#x84;Bugessi sive Bugginesi&#x93; La Tua (AIG, Schädelsammlung Nr. 627; Abb.in<emph>Decas craniorum</emph> 5 (1808; Bibliographie Nr. 00096), Tafel 49); weiblicherSchädel aus Makassar (AIG, Schädelsammlung Nr. 626; Abb.in<emph>Decas craniorum</emph> 6 (1820; Bibliographie Nr. 00097), Tafel 59);weiblicherSchädel von der Insel Bali (AIG, Schädelsammlung Nr. 625; Abb.in<emph>Decas craniorum</emph> 6 (1820; Bibliographie Nr. 00097), Tafel 60); Schädel eines JugendlichenausNeuguinea (AIG, Schädelsammlung Nr. 728;zur Identifikation dieser Schädels vgl.Spengel, Anthropologische Sammlung, S. 78 ad 34); Schädel eines Javaners (AIG, Schädelsammlung Nr. 617). </rs>
+               <rs type="obj">Schädel des Chinesen Tan sayko (Göttingen, Inst. f. Anatomie [AIG], Schädelsammlung Nr. 601; Abb.in<emph>Decas craniorum</emph> 5 (1808; Bibliographie Nr. 00096), Tafel 44);Schädel des &#x84;Bugessi sive Bugginesi&#x93; La Tua (AIG, Schädelsammlung Nr. 627; Abb.in<emph>Decas craniorum</emph> 5 (1808; Bibliographie Nr. 00096), Tafel 49); weiblicher Schädel aus Makassar (AIG, Schädelsammlung Nr. 626; Abb.in<emph>Decas craniorum</emph> 6 (1820; Bibliographie Nr. 00097), Tafel 59);weiblicher Schädel von der Insel Bali (AIG, Schädelsammlung Nr. 625; Abb.in<emph>Decas craniorum</emph> 6 (1820; Bibliographie Nr. 00097), Tafel 60); Schädel eines Jugendlichenaus Neuguinea (AIG, Schädelsammlung Nr. 728;zur Identifikation dieser Schädels vgl.Spengel, Anthropologische Sammlung, S. 78 ad 34); Schädel eines Javaners (AIG, Schädelsammlung Nr. 617). </rs>
                <title level="m" type="bibl">Decas craniorum</title>
                <title level="m" type="bibl">Decas craniorum</title>
                <title level="m" type="bibl">Decas craniorum</title>
@@ -86,7 +84,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Andreas Ludwig Jassoy verfasst fürBlumenbach einen Bericht über sechs, für Blumenbachs Sammlung bestimmte menschliche Schädel aus Südostasien mit detaillierten Angaben zuIdentität undTodesumständen der Verstorbenen. </title>
+                  <title>Andreas Ludwig Jassoy verfasst für Blumenbach einen Bericht über sechs, für Blumenbachs Sammlung bestimmte menschliche Schädel aus Südostasien mit detaillierten Angaben zu Identität und Todesumständen der Verstorbenen. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Andreas Ludwig</forename>
@@ -158,7 +156,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

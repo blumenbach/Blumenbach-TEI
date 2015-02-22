@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Blumenbach sendetCarl August Böttiger [u. a. ein Exemplar der 8. Auflageseines Handbuchs der Naturgeschichte (1807) und bittet um die Beschaffung einer Abbildung der ägyptischen Mumien im Dresdener Augusteum und einen fossilen sog. &#x84;Madenstein&#x93;]. </title>
+            <title type="main">Blumenbach sendet Carl August Böttiger [u. a. ein Exemplar der 8. Auflageseines Handbuchs der Naturgeschichte (1807) und bittet um die Beschaffung einer Abbildung der ägyptischen Mumien im Dresdener Augusteum und einen fossilen sog. &#x84;Madenstein&#x93;]. </title>
             <author>
                <persName>
                   <forename>Johann Friedrich</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -54,7 +52,7 @@
          <notesStmt>
             <note type="Überlieferung">Dresden, Sächsische Landesbibliothek &#x96; Staats- und Universitätsbibliothek (SLUB), Mscr. Dresd. h. 37, 4°, Bd. 14, Nr. 2; vgl. online-Handschriftenkatalog der SLUB, hansopac.slub-dresden.de.</note>
             <note type="Drucke">
-               <bibl>Auszug inSternke, René, &#x84;Juno die Schwanzsaugerin&#x93;, in: ders. (Hg.): Böttiger-Lektüren: Die Antike als Schlüssel zur Moderne. Berlin 2012, S. 209&#x96;338, hier S. 286. </bibl>
+               <bibl>Auszug in Sternke, René, &#x84;Juno die Schwanzsaugerin&#x93;, in: ders. (Hg.): Böttiger-Lektüren: Die Antike als Schlüssel zur Moderne. Berlin 2012, S. 209&#x96;338, hier S. 286. </bibl>
             </note>
             <note type="Edition">
                <bibl>
@@ -83,7 +81,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Blumenbach sendetCarl August Böttiger [u. a. ein Exemplar der 8. Auflageseines <emph>Handbuchs der Naturgeschichte</emph> (1807) und bittet um die Beschaffung einer Abbildung der ägyptischen Mumien im Dresdener Augusteum und einen fossilen sog. &#x84;Madenstein&#x93;]. </title>
+                  <title>Blumenbach sendet Carl August Böttiger [u. a. ein Exemplar der 8. Auflageseines <emph>Handbuchs der Naturgeschichte</emph> (1807) und bittet um die Beschaffung einer Abbildung der ägyptischen Mumien im Dresdener Augusteum und einen fossilen sog. &#x84;Madenstein&#x93;]. </title>
                   <title level="m" type="bibl">Handbuchs der Naturgeschichte</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
@@ -156,7 +154,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Blumenbach dankt Joseph Banks für ein Exemplar der Proceedings [der African Association] und fürKarten der Route von Mungo Parks Afrika-Expedition und zum Magnetismus, sendet Bücher, Aufsätze und 17 orientalische Münzen für Banks Tochter und bittet um die Weiterleitung von Briefen Thomas Christian Tychsens an zwei englische Orientalisten. </title>
+            <title type="main">Blumenbach dankt Joseph Banks für ein Exemplar der Proceedings [der African Association] und für Karten der Route von Mungo Parks Afrika-Expedition und zum Magnetismus, sendet Bücher, Aufsätze und 17 orientalische Münzen für Banks Tochter und bittet um die Weiterleitung von Briefen Thomas Christian Tychsens an zwei englische Orientalisten. </title>
             <author>
                <persName>
                   <forename>Johann Friedrich</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -73,7 +71,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Blumenbach dankt Joseph Banks für ein Exemplar der <emph>Proceedings</emph> [der African Association] und fürKarten der Route von Mungo Parks Afrika-Expedition und zum Magnetismus, sendet Bücher, Aufsätze und 17 orientalische Münzen für Banks Tochter und bittet um die Weiterleitung von Briefen Thomas Christian Tychsens an zwei englische Orientalisten. </title>
+                  <title>Blumenbach dankt Joseph Banks für ein Exemplar der <emph>Proceedings</emph> [der African Association] und für Karten der Route von Mungo Parks Afrika-Expedition und zum Magnetismus, sendet Bücher, Aufsätze und 17 orientalische Münzen für Banks Tochter und bittet um die Weiterleitung von Briefen Thomas Christian Tychsens an zwei englische Orientalisten. </title>
                   <title level="m" type="bibl">Proceedings</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
@@ -146,7 +144,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

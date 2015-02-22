@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Der Grand Maître des Céremonies des französischen Kaiserhofes teilt denDeputierten von Stadt und Universität Göttingen [, [Blumenbach und Carl Friedrich von Martens,]Termin und Ort ihres Empfangs bei Kaiser Napoleon I. mit. </title>
+            <title type="main">Der Grand Maître des Céremonies des französischen Kaiserhofes teilt den Deputierten von Stadt und Universität Göttingen [, [Blumenbach und Carl Friedrich von Martens,]Termin und Ort ihres Empfangs bei Kaiser Napoleon I. mit. </title>
             <author>
                <persName>
                   <forename/>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -54,7 +52,7 @@
          <notesStmt>
             <note type="Überlieferung">Göttingen, Universitätsarchiv, I B 1/27. </note>
             <note type="Drucke">
-               <bibl>Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 48&#x96;49 KatNr. 51.</bibl>
+               <bibl>Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 48&#x96;49 Kat Nr. 51.</bibl>
                <title level="m" type="bibl">Commercium epistolicum</title>
             </note>
             <note type="Edition">
@@ -68,7 +66,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Der Grand Maître des Céremonies des französischen Kaiserhofes teilt denDeputierten von Stadt und Universität Göttingen [, [Blumenbach und Carl Friedrich von Martens,]Termin und Ort ihres Empfangs bei Kaiser Napoleon I. mit. </title>
+                  <title>Der Grand Maître des Céremonies des französischen Kaiserhofes teilt den Deputierten von Stadt und Universität Göttingen [, [Blumenbach und Carl Friedrich von Martens,]Termin und Ort ihres Empfangs bei Kaiser Napoleon I. mit. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">Grand Maître des Céremonies</persName>
                   </author>
@@ -137,7 +135,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

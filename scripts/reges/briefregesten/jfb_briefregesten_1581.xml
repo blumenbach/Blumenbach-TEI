@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Blumenbach dankt Kaspar Georg KarlReinwardt für dessen Geschenkeund erwähnt, dass er von Godert Alexander Gerard Philip van der Capellen die Abbildung eines Papuaners erhalten habe. </title>
+            <title type="main">Blumenbach dankt Kaspar Georg Karl Reinwardt für dessen Geschenkeund erwähnt, dass er von Godert Alexander Gerard Philip van der Capellen die Abbildung eines Papuaners erhalten habe. </title>
             <author>
                <persName>
                   <forename>Johann Friedrich</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -63,7 +61,7 @@
                <title level="m" type="bibl">Corresp.</title>
             </note>
             <note type="Objekte">
-               <rs type="obj">Schädel einerJavanerin, deren Mutter Malaiin und deren Vater Chinese war, Abb. in <emph>Nova pentas craniorum</emph>(1828; Bibliographie Nr. 00098), Tafel 64.</rs>
+               <rs type="obj">Schädel einer Javanerin, deren Mutter Malaiin und deren Vater Chinese war, Abb. in <emph>Nova pentas craniorum</emph>(1828; Bibliographie Nr. 00098), Tafel 64.</rs>
                <title level="m" type="bibl">Nova pentas craniorum</title>
             </note>
          </notesStmt>
@@ -71,7 +69,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Blumenbach dankt Kaspar Georg KarlReinwardt für dessen Geschenkeund erwähnt, dass er von Godert Alexander Gerard Philip van der Capellen die Abbildung eines Papuaners erhalten habe. </title>
+                  <title>Blumenbach dankt Kaspar Georg Karl Reinwardt für dessen Geschenkeund erwähnt, dass er von Godert Alexander Gerard Philip van der Capellen die Abbildung eines Papuaners erhalten habe. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Johann Friedrich</forename>
@@ -143,7 +141,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

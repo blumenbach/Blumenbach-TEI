@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Blumenbach fragtJeremias David Reuss, wanndieser die Rechnung über die von der Societät der Wissenschaften verauslagten Portokosten für Bücher, die an die Universitätsbibliothek weitergeleitet wurden, benötigt. </title>
+            <title type="main">Blumenbach fragt Jeremias David Reuss, wanndieser die Rechnung über die von der Societät der Wissenschaften verauslagten Portokosten für Bücher, die an die Universitätsbibliothek weitergeleitet wurden, benötigt. </title>
             <author>
                <persName>
                   <forename>Johann Friedrich</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -68,14 +66,14 @@
                <rs type="html">http://hans.sub.uni-goettingen.de/ nachlaesse/Blumenbach.pdf </rs>
             </note>
             <note type="Anmerkung">
-               <note>Zur Datierung: Der Druck bei Schemann gibt das Datum (wohl nach dem Vorbild des Briefes) als Chronogramm wieder: &#x84;3 2/1 5&#x93;. Der BriefenthältNeujahrsglückwünsche, und die im Brief gemachte Angabe Blumenbachs,er sei seit genau 52 Jahren mit Reuss befreundet, spricht für das Jahr 1835. Die erste und die letzte Zahl des Chronogramms würden dann die Jahreszahl &#x84;1835&#x93; wiedergeben, der Bruch in der Mitte Tages- und Monatsdatum.</note>
+               <note>Zur Datierung: Der Druck bei Schemann gibt das Datum (wohl nach dem Vorbild des Briefes) als Chronogramm wieder: &#x84;3 2/1 5&#x93;. Der Briefenthält Neujahrsglückwünsche, und die im Brief gemachte Angabe Blumenbachs,er sei seit genau 52 Jahren mit Reuss befreundet, spricht für das Jahr 1835. Die erste und die letzte Zahl des Chronogramms würden dann die Jahreszahl &#x84;1835&#x93; wiedergeben, der Bruch in der Mitte Tages- und Monatsdatum.</note>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Blumenbach fragtJeremias David Reuss, wanndieser die Rechnung über die von der Societät der Wissenschaften verauslagten Portokosten für Bücher, die an die Universitätsbibliothek weitergeleitet wurden, benötigt. </title>
+                  <title>Blumenbach fragt Jeremias David Reuss, wanndieser die Rechnung über die von der Societät der Wissenschaften verauslagten Portokosten für Bücher, die an die Universitätsbibliothek weitergeleitet wurden, benötigt. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Johann Friedrich</forename>
@@ -147,7 +145,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

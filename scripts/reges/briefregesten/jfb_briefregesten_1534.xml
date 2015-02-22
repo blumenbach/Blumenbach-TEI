@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Blumenbach sendetJohann Wolfgang von Goethe im Auftrag der Königlichen Societätder Wissenschaften zu Göttingendas Diplom über dessen Ernennung zum auswärtigen Mitgliedund kündigt an, dass erHerzog Karl August von Sachsen-Weimar-Eisenach leihweise ein in England in besonderer Weise gebundenes Buch und als Geschenk ein Stück Wurzelholz von der Norfolk-Tanne (&#x84;Columnia pinifolia&#x93;) senden werde. </title>
+            <title type="main">Blumenbach sendet Johann Wolfgang von Goethe im Auftrag der Königlichen Societätder Wissenschaften zu Göttingendas Diplom über dessen Ernennung zum auswärtigen Mitgliedund kündigt an, dass er Herzog Karl August von Sachsen-Weimar-Eisenach leihweise ein in England in besonderer Weise gebundenes Buch und als Geschenk ein Stück Wurzelholz von der Norfolk-Tanne (&#x84;Columnia pinifolia&#x93;) senden werde. </title>
             <author>
                <persName>
                   <forename>Johann Friedrich</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -71,14 +69,14 @@
                <rs type="obj">Verschenkt: Holzstück von der&#x84;Columnia pinifolia&#x93; (erhalten als Geschenk von Joseph Banks).</rs>
             </note>
             <note type="Anmerkung">
-               <note>Druck inGoethe&#x92;s Naturwissenschaftliche Correspondenz (1812&#x96;1832)wohl mit Fehllesung &#x84;Wipfel&#x93; statt&#x84;Wurzel&#x93;.</note>
+               <note>Druck in Goethe&#x92;s Naturwissenschaftliche Correspondenz (1812&#x96;1832)wohl mit Fehllesung &#x84;Wipfel&#x93; statt&#x84;Wurzel&#x93;.</note>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Blumenbach sendetJohann Wolfgang von Goethe im Auftrag der Königlichen Societätder Wissenschaften zu Göttingendas Diplom über dessen Ernennung zum auswärtigen Mitgliedund kündigt an, dass erHerzog Karl August von Sachsen-Weimar-Eisenach leihweise ein in England in besonderer Weise gebundenes Buch und als Geschenk ein Stück Wurzelholz von der Norfolk-Tanne (&#x84;Columnia pinifolia&#x93;) senden werde. </title>
+                  <title>Blumenbach sendet Johann Wolfgang von Goethe im Auftrag der Königlichen Societätder Wissenschaften zu Göttingendas Diplom über dessen Ernennung zum auswärtigen Mitgliedund kündigt an, dass er Herzog Karl August von Sachsen-Weimar-Eisenach leihweise ein in England in besonderer Weise gebundenes Buch und als Geschenk ein Stück Wurzelholz von der Norfolk-Tanne (&#x84;Columnia pinifolia&#x93;) senden werde. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Johann Friedrich</forename>
@@ -150,7 +148,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

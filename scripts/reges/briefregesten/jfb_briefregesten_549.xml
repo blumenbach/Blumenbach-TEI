@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Blumenbach sendet Christian Gottlob Heyne eine Reisebeschreibung über Australien als Unterhaltungslektüre und bespricht das Vorgehen bezüglich einer Bitte Johann Reinhold Forsters, eines von dessen Werken in den GöttingischenAnzeigen von gelehrten Sachen zu rezensieren. </title>
+            <title type="main">Blumenbach sendet Christian Gottlob Heyne eine Reisebeschreibung über Australien als Unterhaltungslektüre und bespricht das Vorgehen bezüglich einer Bitte Johann Reinhold Forsters, eines von dessen Werken in den Göttingischen Anzeigen von gelehrten Sachen zu rezensieren. </title>
             <author>
                <persName>
                   <forename>Johann Friedrich</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -69,7 +67,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Blumenbach sendet Christian Gottlob Heyne eine Reisebeschreibung über Australien als Unterhaltungslektüre und bespricht das Vorgehen bezüglich einer Bitte Johann Reinhold Forsters, eines von dessen Werken in den GöttingischenAnzeigen von gelehrten Sachen zu rezensieren. </title>
+                  <title>Blumenbach sendet Christian Gottlob Heyne eine Reisebeschreibung über Australien als Unterhaltungslektüre und bespricht das Vorgehen bezüglich einer Bitte Johann Reinhold Forsters, eines von dessen Werken in den Göttingischen Anzeigen von gelehrten Sachen zu rezensieren. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Johann Friedrich</forename>
@@ -115,6 +113,17 @@
                      <event type="iso-origin"
                             datingMethod="#ISO"
                             sortKey="1791-02-07"
+                            when="1791-02-07"
+                            where="#orgplc-549">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1791-02-07">1791, vor Febr. 7</date>
+                        </note>
+                     </event>
+                  </listEvent>
+                  <listEvent>
+                     <event type="iso-origin-na"
+                            datingMethod="#ISO"
                             notAfter="1791-02-07"
                             where="#orgplc-549">
                         <label>Abfassungsdatum (not after):</label>
@@ -141,7 +150,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

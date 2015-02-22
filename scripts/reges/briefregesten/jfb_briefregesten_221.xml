@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -54,7 +52,7 @@
          <notesStmt>
             <note type="Überlieferung">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach XI, nach S. 458. </note>
             <note type="Drucke">
-               <bibl>Auszug in Bräuning-Oktavio, Hermann,&#x84;Johann Heinrich Merck und Petrus Camper&#x93; inArchiv für die Geschichte der Naturwissenschaften und Technik 4 (1913), S. 270&#x96;306 und 360&#x96;388, hier S. 278&#x96;279.</bibl>
+               <bibl>Auszug in Bräuning-Oktavio, Hermann,&#x84;Johann Heinrich Merck und Petrus Camper&#x93; in Archiv für die Geschichte der Naturwissenschaften und Technik 4 (1913), S. 270&#x96;306 und 360&#x96;388, hier S. 278&#x96;279.</bibl>
             </note>
             <note type="Edition">
                <bibl>
@@ -139,7 +137,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

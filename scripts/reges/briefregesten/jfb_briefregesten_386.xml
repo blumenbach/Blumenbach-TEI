@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -52,9 +50,9 @@
             </idno>
          </publicationStmt>
          <notesStmt>
-            <note type="Überlieferung">Or. verloren, überliefert durch Druck inLeitzmann/Schüddekopf, Lichtenberg. Briefe, Band 3 (1904), Nr. 791. </note>
+            <note type="Überlieferung">Or. verloren, überliefert durch Druck in Leitzmann/Schüddekopf, Lichtenberg. Briefe, Band 3 (1904), Nr. 791. </note>
             <note type="Drucke">
-               <bibl>Leitzmann, Albert, und Schüddekopf, Carl (Hg.): Georg Christoph Lichtenberg.Briefe. Band 3. Leipzig 1904, Nr. 791, S. 252&#x96;253; Lichtenberg, <emph>Briefwechsel</emph>, Bd. 3 (1990), Nr. 1557, S. 455&#x96;459 mit Ab. der Hollmann-Karikaturen; Joost, <emph>Ihre Hand, Ihren Mund</emph> (1998), Nr. 79, S. 218&#x96;220; Joost, Ulrich, &#x84;Dieser unermüdete Geist&#x85;&#x93; in Elsner, Norbert, undRupke Nicolaas (Hg.): Albrecht von Haller,. Göttingen 2009, S. 107&#x96;109 (Auszug mit Ab. der Hollmann-Karikaturen).</bibl>
+               <bibl>Leitzmann, Albert, und Schüddekopf, Carl (Hg.): Georg Christoph Lichtenberg.Briefe. Band 3. Leipzig 1904, Nr. 791, S. 252&#x96;253; Lichtenberg, <emph>Briefwechsel</emph>, Bd. 3 (1990), Nr. 1557, S. 455&#x96;459 mit Ab. der Hollmann-Karikaturen; Joost, <emph>Ihre Hand, Ihren Mund</emph> (1998), Nr. 79, S. 218&#x96;220; Joost, Ulrich, &#x84;Dieser unermüdete Geist&#x85;&#x93; in Elsner, Norbert, und Rupke Nicolaas (Hg.): Albrecht von Haller,. Göttingen 2009, S. 107&#x96;109 (Auszug mit Ab. der Hollmann-Karikaturen).</bibl>
                <title level="m" type="bibl">Briefwechsel</title>
                <title level="m" type="bibl">Ihre Hand, Ihren Mund</title>
             </note>
@@ -146,7 +144,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

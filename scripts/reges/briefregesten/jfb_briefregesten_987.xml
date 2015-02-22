@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">[Satire in Form eines fingierten Briefes von] Liborius Meyer, derim Namen der Universität von Paderborn Blumenbach bittet, sich beimLandgrafen von Hessen-Kassel dafür einzusetzen, für das Kasseler Museum Fridericianum einen Paderborner Domherrn in Spiritus zu konservieren. </title>
+            <title type="main">[Satire in Form eines fingierten Briefes von] Liborius Meyer, derim Namen der Universität von Paderborn Blumenbach bittet, sich beim Landgrafen von Hessen-Kassel dafür einzusetzen, für das Kasseler Museum Fridericianum einen Paderborner Domherrn in Spiritus zu konservieren. </title>
             <author>
                <persName>
                   <forename>Liborius</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -72,7 +70,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>[Satire in Form eines fingierten Briefes von] Liborius Meyer, derim Namen der Universität von Paderborn Blumenbach bittet, sich beimLandgrafen von Hessen-Kassel dafür einzusetzen, für das Kasseler Museum Fridericianum einen Paderborner Domherrn in Spiritus zu konservieren. </title>
+                  <title>[Satire in Form eines fingierten Briefes von] Liborius Meyer, derim Namen der Universität von Paderborn Blumenbach bittet, sich beim Landgrafen von Hessen-Kassel dafür einzusetzen, für das Kasseler Museum Fridericianum einen Paderborner Domherrn in Spiritus zu konservieren. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Liborius</forename>
@@ -144,7 +142,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

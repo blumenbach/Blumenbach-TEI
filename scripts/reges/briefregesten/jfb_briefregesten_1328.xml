@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -54,7 +52,7 @@
          <notesStmt>
             <note type="Überlieferung">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 4, fol. 5&#x96;6. </note>
             <note type="Drucke">
-               <bibl>Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 76&#x96;79 KatNr. 87 (mit Abbildung der letzten Seite); Auszüge in <emph>Magazin für den neuesten Zustand der Naturkunde</emph>, Bd. 12, 6. Stück (1806), S. 481&#x96;484 (&#x84;1) Ueber die alten Aturer am Orinoco&#x93;, Bibliographie Nr. 00917) und S. 484&#x96;486 (&#x84;2) Ein Mexikanischer Riese&#x93;, Bibliographie Nr. 00918).</bibl>
+               <bibl>Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 76&#x96;79 Kat Nr. 87 (mit Abbildung der letzten Seite); Auszüge in <emph>Magazin für den neuesten Zustand der Naturkunde</emph>, Bd. 12, 6. Stück (1806), S. 481&#x96;484 (&#x84;1) Ueber die alten Aturer am Orinoco&#x93;, Bibliographie Nr. 00917) und S. 484&#x96;486 (&#x84;2) Ein Mexikanischer Riese&#x93;, Bibliographie Nr. 00918).</bibl>
                <title level="m" type="bibl">Commercium epistolicum</title>
                <title level="m" type="bibl">Magazin für den neuesten Zustand der Naturkunde</title>
             </note>
@@ -161,7 +159,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

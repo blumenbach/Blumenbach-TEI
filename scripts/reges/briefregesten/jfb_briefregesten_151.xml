@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Blumenbach teilt Johann Andreas Murray mit, dass er die in London für das Academische Museum der UniversitätGöttingen zusammengestellte Sammlung mit Südsee-Objekten in den nächsten Tage erwarte, und verspricht, ihn bei deren Eintreffen zu benachrichtigen. </title>
+            <title type="main">Blumenbach teilt Johann Andreas Murray mit, dass er die in London für das Academische Museum der Universität Göttingen zusammengestellte Sammlung mit Südsee-Objekten in den nächsten Tage erwarte, und verspricht, ihn bei deren Eintreffen zu benachrichtigen. </title>
             <author>
                <persName>
                   <forename>Johann Friedrich </forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -60,7 +58,7 @@
                <title level="m" type="bibl">Corresp.</title>
             </note>
             <note type="Objekte">
-               <rs type="obj">1781/1782 erworbeneObjekte der &#x84;Cook/Forster&#x93;-Sammlung des Academischen Museums.</rs>
+               <rs type="obj">1781/1782 erworbene Objekte der &#x84;Cook/Forster&#x93;-Sammlung des Academischen Museums.</rs>
             </note>
             <note type="Anmerkung">
                <note>Tatsächliches Eintreffen der Gegenstände: 11. Juli 1782. </note>
@@ -70,7 +68,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Blumenbach teilt Johann Andreas Murray mit, dass er die in London für das Academische Museum der UniversitätGöttingen zusammengestellte Sammlung mit Südsee-Objekten in den nächsten Tage erwarte, und verspricht, ihn bei deren Eintreffen zu benachrichtigen. </title>
+                  <title>Blumenbach teilt Johann Andreas Murray mit, dass er die in London für das Academische Museum der Universität Göttingen zusammengestellte Sammlung mit Südsee-Objekten in den nächsten Tage erwarte, und verspricht, ihn bei deren Eintreffen zu benachrichtigen. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Johann Friedrich </forename>
@@ -142,7 +140,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

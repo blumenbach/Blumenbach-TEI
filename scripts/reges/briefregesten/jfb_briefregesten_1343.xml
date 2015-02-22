@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -53,7 +51,7 @@
          </publicationStmt>
          <notesStmt>
             <note type="Überlieferung">
- [WolfRudolf], &#x84;Notizen zur schweiz. Kulturgeschichte&#x93;, inVierteljahrsschrift der Naturforschenden Gesellschaft in Zürich 21 (1876), S. 388&#x96;410, S. 398 (ohne Angabe des Herkunft). </note>
+ [WolfRudolf], &#x84;Notizen zur schweiz. Kulturgeschichte&#x93;, in Vierteljahrsschrift der Naturforschenden Gesellschaft in Zürich 21 (1876), S. 388&#x96;410, S. 398 (ohne Angabe des Herkunft). </note>
             <note type="Edition">
                <bibl>
                   <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
@@ -63,7 +61,7 @@
             <note type="ref" xml:id="record_d1e66827">
                <ref type="html"
                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553http://resolver.sub.uni-goettingen.de/purl?PPN334452112"/>
-               <rs type="html">Spengel, Anthropologische SammlungAtlas zur Reise um die Welt: unternommen [&#x85;] unter dem Commando des Capitains von Krusenstern </rs>
+               <rs type="html">Spengel, Anthropologische Sammlung Atlas zur Reise um die Welt: unternommen [&#x85;] unter dem Commando des Capitains von Krusenstern </rs>
             </note>
             <note type="Objekte">
                <rs type="obj">Schädel eines indischen Piraten; zur Identifikation des Schädels vgl.Spengel, Anthropologische Sammlung, S. 44 Nr. 123: &#x84;[&#x85;] von Dr. Horner. »Cochinchinesischer (?) Seeräuber, in Makao hingerichtet.«&#x93;; Abb. in Atlas zur Reise um die Welt: unternommen [&#x85;] unter dem Commando des Capitains von Krusenstern. St. Petersburg 1814, Heft VIII Tafel 96. </rs>
@@ -145,7 +143,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

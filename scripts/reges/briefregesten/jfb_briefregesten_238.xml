@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -52,7 +50,7 @@
             </idno>
          </publicationStmt>
          <notesStmt>
-            <note type="Überlieferung">Or. verloren; Text nach Zusammenfassung inGAgS 1785.</note>
+            <note type="Überlieferung">Or. verloren; Text nach Zusammenfassung inGAg S 1785.</note>
             <note type="Edition">
                <bibl>
                   <edition>Dougherty, <emph>Corresp.</emph> II, S. 230 Nr. 0325.</edition>
@@ -62,17 +60,17 @@
             <note type="Werke">
                <bibl>
                   <relatedItem>
-                     <bibl>Identisch mit Bericht über Blumenbachs Vortrag des Schreibens von Christian Friedrich Michaelis in der Akademie der Wissenschaften vom 15. Jan. 1784, &#x84;über einige, die natürliche Geschichte der Mohren und Amerikaner betreffende Irrtümer&#x93;, <emph>GAgS</emph> 1785 (26. Stück,17. Februar), S. 249&#x96;251 (Bibliographie Nr. 00268).</bibl>
+                     <bibl>Identisch mit Bericht über Blumenbachs Vortrag des Schreibens von Christian Friedrich Michaelis in der Akademie der Wissenschaften vom 15. Jan. 1784, &#x84;über einige, die natürliche Geschichte der Mohren und Amerikaner betreffende Irrtümer&#x93;, <emph>GAg S</emph> 1785 (26. Stück,17. Februar), S. 249&#x96;251 (Bibliographie Nr. 00268).</bibl>
                   </relatedItem>
                </bibl>
-               <title level="m" type="bibl">GAgS</title>
+               <title level="m" type="bibl">GAg S</title>
                <bibl>
                   <relatedItem>
                      <bibl>
-                        <emph>GAgS</emph> 1785 (26. Stück,17. Februar), S. 249&#x96;251 (Bibliographie Nr. 00268).</bibl>
+                        <emph>GAg S</emph> 1785 (26. Stück,17. Februar), S. 249&#x96;251 (Bibliographie Nr. 00268).</bibl>
                   </relatedItem>
                </bibl>
-               <title level="m" type="bibl">GAgS</title>
+               <title level="m" type="bibl">GAg S</title>
             </note>
             <note type="ref" xml:id="record_d1e10810">
                <ref type="html"
@@ -133,6 +131,17 @@
                      <event type="iso-origin"
                             datingMethod="#ISO"
                             sortKey="1785-01-15"
+                            when="1785-01-15"
+                            where="#orgplc-238">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1785-01-15">1785, vor Jan. 15</date>
+                        </note>
+                     </event>
+                  </listEvent>
+                  <listEvent>
+                     <event type="iso-origin-na"
+                            datingMethod="#ISO"
                             notAfter="1785-01-15"
                             where="#orgplc-238">
                         <label>Abfassungsdatum (not after):</label>
@@ -159,7 +168,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

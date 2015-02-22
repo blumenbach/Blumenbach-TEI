@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -54,7 +52,7 @@
          <notesStmt>
             <note type="Überlieferung">Genf, Bibliothèque de Genève, Ms. Bonnet 37 fol. 276-279. </note>
             <note type="Drucke">
-               <bibl>Teildruck in Dougherty, Frank W. P., &#x84;Nervenmorphologie und -physiologie in den 80er Jahren des 18. Jahrhunderts [&#x85;]&#x93;, in Mann, Gunter, und Dumont, Franz (Hg.), Gehirn&#x96; Nerven&#x96; Seele. Anatomie und Physiologie im Umfeld Th. Soemmerrings. Stuttgart und New York 1988, S. 55&#x96;91, hier S. 71&#x96;74(Nachdruck: Dougherty, <emph>Gesammelte Aufsätze</emph> (1996),S. 111&#x96;114 mitAbb. einer mitgesandten Zeichnung Blumenbachs).</bibl>
+               <bibl>Teildruck in Dougherty, Frank W. P., &#x84;Nervenmorphologie und -physiologie in den 80er Jahren des 18. Jahrhunderts [&#x85;]&#x93;, in Mann, Gunter, und Dumont, Franz (Hg.), Gehirn&#x96; Nerven&#x96; Seele. Anatomie und Physiologie im Umfeld Th. Soemmerrings. Stuttgart und New York 1988, S. 55&#x96;91, hier S. 71&#x96;74(Nachdruck: Dougherty, <emph>Gesammelte Aufsätze</emph> (1996),S. 111&#x96;114 mit Abb. einer mitgesandten Zeichnung Blumenbachs).</bibl>
                <title level="m" type="bibl">Gesammelte Aufsätze</title>
             </note>
             <note type="Edition">
@@ -141,7 +139,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Justus Christoph von Leist teilt Blumenbachu. a. mit,dass das Direktorium des öffentlichen Unterrichts im Königreich Westfalenhinsichtlich Friedrich Karl Lappes erneutem Antrag aufErteilung der Venia legendi in der Medizinischen Fakultät der Universität Göttingen mit einemzustimmendenVotum der Fakuttät rechne. </title>
+            <title type="main">Justus Christoph von Leist teilt Blumenbachu. a. mit,dass das Direktorium des öffentlichen Unterrichts im Königreich Westfalenhinsichtlich Friedrich Karl Lappes erneutem Antrag auf Erteilung der Venia legendi in der Medizinischen Fakultät der Universität Göttingen mit einemzustimmenden Votum der Fakuttät rechne. </title>
             <author>
                <persName>
                   <forename>Justus Christoph</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -67,7 +65,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Justus Christoph von Leist teilt Blumenbachu. a. mit,dass das Direktorium des öffentlichen Unterrichts im Königreich Westfalenhinsichtlich Friedrich Karl Lappes erneutem Antrag aufErteilung der Venia legendi in der Medizinischen Fakultät der Universität Göttingen mit einemzustimmendenVotum der Fakuttät rechne. </title>
+                  <title>Justus Christoph von Leist teilt Blumenbachu. a. mit,dass das Direktorium des öffentlichen Unterrichts im Königreich Westfalenhinsichtlich Friedrich Karl Lappes erneutem Antrag auf Erteilung der Venia legendi in der Medizinischen Fakultät der Universität Göttingen mit einemzustimmenden Votum der Fakuttät rechne. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Justus Christoph</forename>
@@ -113,6 +111,17 @@
                      <event type="iso-origin"
                             datingMethod="#ISO"
                             sortKey="1812-01-13"
+                            when="1812-01-13"
+                            where="#orgplc-1402">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1812-01-13">1812, nach Jan. 13/ vor Febr. 4</date>
+                        </note>
+                     </event>
+                  </listEvent>
+                  <listEvent>
+                     <event type="iso-origin-nb"
+                            datingMethod="#ISO"
                             notBefore="1812-01-13"
                             where="#orgplc-1402">
                         <label>Abfassungsdatum (not before):</label>
@@ -122,9 +131,8 @@
                      </event>
                   </listEvent>
                   <listEvent>
-                     <event type="iso-origin"
+                     <event type="iso-origin-na"
                             datingMethod="#ISO"
-                            sortKey="1812-02-04"
                             notAfter="1812-02-04"
                             where="#orgplc-1402">
                         <label>Abfassungsdatum (not after):</label>
@@ -151,7 +159,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

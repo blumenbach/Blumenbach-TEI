@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -64,7 +62,7 @@
                <title level="m" type="bibl">Decas craniorum</title>
             </note>
             <note type="Anmerkung">
-               <note>Meyer, <emph>Handschriften in Göttingen</emph> 3 (1894), S. 78 verzeichnet einen Brief von Chr. F. Michaelis über einen Choktah-Schädel und datiert ihn vermutungsweise auf &#x84;19 Juni 1785&#x93; mitAbsendeort Kassel; in einem hs. Katalog zu seiner Schädelsammlung (Göttingen, Universitätsbibliothek , Cod. Ms. Blumenbach 1, I, fol. 8) gibt Blumenbach zu diesem Schädel an, er habe den in<emph>Decas craniorum</emph> 1 (1790), Tafel 9 beschriebenen Schädel 1784 von Michaelis in Marburg erhalten, vgl. Dougherty, <emph>Corresp.</emph> II, S. 216, Anm. 13.</note>
+               <note>Meyer, <emph>Handschriften in Göttingen</emph> 3 (1894), S. 78 verzeichnet einen Brief von Chr. F. Michaelis über einen Choktah-Schädel und datiert ihn vermutungsweise auf &#x84;19 Juni 1785&#x93; mit Absendeort Kassel; in einem hs. Katalog zu seiner Schädelsammlung (Göttingen, Universitätsbibliothek , Cod. Ms. Blumenbach 1, I, fol. 8) gibt Blumenbach zu diesem Schädel an, er habe den in<emph>Decas craniorum</emph> 1 (1790), Tafel 9 beschriebenen Schädel 1784 von Michaelis in Marburg erhalten, vgl. Dougherty, <emph>Corresp.</emph> II, S. 216, Anm. 13.</note>
                <title level="m" type="bibl">Handschriften in Göttingen</title>
                <title level="m" type="bibl">Decas craniorum</title>
                <title level="m" type="bibl">Corresp.</title>
@@ -147,7 +145,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

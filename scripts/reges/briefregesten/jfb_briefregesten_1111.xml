@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Blumenbach teiltAdriaan Gilles Camper mit, welche der von diesem erbetenen Mineralienproben er ihm senden könne und bei welchen dies nur mit hohen Kosten möglich wäre, bittet um die Beschaffung des Schädels einesMulatten und berichtet über den Mineralien- und Fossilienbestand seiner Sammlung. </title>
+            <title type="main">Blumenbach teilt Adriaan Gilles Camper mit, welche der von diesem erbetenen Mineralienproben er ihm senden könne und bei welchen dies nur mit hohen Kosten möglich wäre, bittet um die Beschaffung des Schädels eines Mulatten und berichtet über den Mineralien- und Fossilienbestand seiner Sammlung. </title>
             <author>
                <persName>
                   <forename>Johann Friedrich</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -65,14 +63,14 @@
                <rs type="pdf">Corresp. V, S.397&#x96;400 Nr. 1246 </rs>
             </note>
             <note type="Objekte">
-               <rs type="obj">Mineralien in Blumenbachs (privater?) Sammlung (&#x84;weisse[r] nadelförmige[r] sogenannte[r] Schörl&#x93;, fünfflächiger Schwefelkies (Pyrit) von Elba in großen Kristallen; dreiflächiger Schwefelkies (Pyrit) in erbsengroßen Kristallen; Fossilien des&#x84;Mammutohioticum&#x93;; &#x84;DiamantSpath&#x93;&#x84;Arendaliteu. Piniteaus Norwegen&#x93;, &#x84;TitanSpathe [aus Norwegen]&#x93;. Erwartet: Zeichnungen eines neuen amerikanischen Fundes eines &#x84;Mammutohioticum&#x93;;</rs>
+               <rs type="obj">Mineralien in Blumenbachs (privater?) Sammlung (&#x84;weisse[r] nadelförmige[r] sogenannte[r] Schörl&#x93;, fünfflächiger Schwefelkies (Pyrit) von Elba in großen Kristallen; dreiflächiger Schwefelkies (Pyrit) in erbsengroßen Kristallen; Fossilien des&#x84;Mammutohioticum&#x93;; &#x84;Diamant Spath&#x93;&#x84;Arendaliteu. Piniteaus Norwegen&#x93;, &#x84;Titan Spathe [aus Norwegen]&#x93;. Erwartet: Zeichnungen eines neuen amerikanischen Fundes eines &#x84;Mammutohioticum&#x93;;</rs>
             </note>
          </notesStmt>
          <sourceDesc>
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Blumenbach teiltAdriaan Gilles Camper mit, welche der von diesem erbetenen Mineralienproben er ihm senden könne und bei welchen dies nur mit hohen Kosten möglich wäre, bittet um die Beschaffung des Schädels einesMulatten und berichtet über den Mineralien- und Fossilienbestand seiner Sammlung. </title>
+                  <title>Blumenbach teilt Adriaan Gilles Camper mit, welche der von diesem erbetenen Mineralienproben er ihm senden könne und bei welchen dies nur mit hohen Kosten möglich wäre, bittet um die Beschaffung des Schädels eines Mulatten und berichtet über den Mineralien- und Fossilienbestand seiner Sammlung. </title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
                         <forename>Johann Friedrich</forename>
@@ -144,7 +142,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -72,7 +70,7 @@
                <rs type="pdf">Corresp. III, S. 151 Nr. 0497 </rs>
             </note>
             <note type="Anmerkung">
-               <note>Die Rez. von John Hunters Observations on certain parts of the animal oeconomy (1786) ist anonym, sodass der zitierte Studer-Brief auch an einen anderen Empfänger gerichtet sein könnte. Für die (plausible) Annahme, dassBlumenbach der Verf. der Rez. und somit auch derEmpfänger des Briefes ist, gibt es allerdings im Text der Rez. keine direkten Beweise. </note>
+               <note>Die Rez. von John Hunters Observations on certain parts of the animal oeconomy (1786) ist anonym, sodass der zitierte Studer-Brief auch an einen anderen Empfänger gerichtet sein könnte. Für die (plausible) Annahme, dass Blumenbach der Verf. der Rez. und somit auch der Empfänger des Briefes ist, gibt es allerdings im Text der Rez. keine direkten Beweise. </note>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -151,7 +149,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>

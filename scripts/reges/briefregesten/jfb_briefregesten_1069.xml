@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Franz Xaver von Zach teiltBlumenbach mit, dass seine Bemühungen, Blumenbachs Schwager Johann Heinrich Voigt den Titel einesWeimarischen Hofrats zu verschaffen, erfolgreich waren, kündigt an, dass er sich in seinem Vorwort zum nächsten Heft der Allgemeinen Geographischen Ephemeriden für die neuen französischen Maßsysteme und Koordinatenangaben einsetzen werde, und sendet Landkarten. </title>
+            <title type="main">Franz Xaver von Zach teilt Blumenbach mit, dass seine Bemühungen, Blumenbachs Schwager Johann Heinrich Voigt den Titel eines Weimarischen Hofrats zu verschaffen, erfolgreich waren, kündigt an, dass er sich in seinem Vorwort zum nächsten Heft der Allgemeinen Geographischen Ephemeriden für die neuen französischen Maßsysteme und Koordinatenangaben einsetzen werde, und sendet Landkarten. </title>
             <author>
                <persName>
                   <forename>Franz Xaver von</forename>
@@ -17,15 +17,13 @@
                </persName>
             </editor>
             <respStmt>
-               <orgName>Akademie der Wissenschaften zu Göttingen</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Projektträger</note>
-                  <ref target="http://adw-goe.de/"/>
-               </resp>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen</orgName>
+               <ref target="http://adw-goe.de/"/>
             </respStmt>
             <respStmt>
-               <resp>Kodiert durch:</resp>
-               <orgName xml:id="BjfbO">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -52,7 +50,7 @@
             </idno>
          </publicationStmt>
          <notesStmt>
-            <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 2 (ZachNr. 11).</note>
+            <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 2 (Zach Nr. 11).</note>
             <note type="Edition">
                <bibl>
                   <edition>Dougherty,<emph>Corresp.</emph> V, S. 341&#x96;346 Nr. 1205.</edition>
@@ -69,7 +67,7 @@
             <bibl type="brief"/>
             <biblFull>
                <titleStmt>
-                  <title>Franz Xaver von Zach teiltBlumenbach mit, dass seine Bemühungen, Blumenbachs Schwager Johann Heinrich Voigt den Titel einesWeimarischen Hofrats zu verschaffen, erfolgreich waren, kündigt an, dass er sich in seinem Vorwort zum nächsten Heft der <emph>Allgemeinen Geographischen Ephemeriden</emph> für die neuen französischen Maßsysteme und Koordinatenangaben einsetzen werde, und sendet Landkarten. </title>
+                  <title>Franz Xaver von Zach teilt Blumenbach mit, dass seine Bemühungen, Blumenbachs Schwager Johann Heinrich Voigt den Titel eines Weimarischen Hofrats zu verschaffen, erfolgreich waren, kündigt an, dass er sich in seinem Vorwort zum nächsten Heft der <emph>Allgemeinen Geographischen Ephemeriden</emph> für die neuen französischen Maßsysteme und Koordinatenangaben einsetzen werde, und sendet Landkarten. </title>
                   <title level="m" type="bibl">Allgemeinen Geographischen Ephemeriden</title>
                   <author>
                      <persName ref="http://d-nb.info/gnd/">
@@ -142,7 +140,7 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-01-31T12:39:20.089+01:00</change>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-21T11:42:21.691+01:00</change>
       </revisionDesc>
    </teiHeader>
    <text>
