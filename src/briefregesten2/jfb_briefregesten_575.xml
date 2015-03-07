@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Blumenbach meldet dem Geheimen Ratskollegium die Durchführung des Ankaufs der Naturaliensammlung des Hildesheimer Medizinalrats Joachim Dietrich Brandis und bittet um Bezahlung der von Brandis verauslagten Kosten für den Transport und für einen Aufbewahrungsschrank. </title>
+            <author>
+               <persName>
+                  <forename>Johann Friedrich</forename>
+                  <surname>Blumenbach</surname>
+               </persName>
+            </author>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                    <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="RegNr">575</idno>
+               <idno type="URLXML">jfb_briefregesten_575.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Göttingen: Universitätsarchiv, Kur. 7347, S. 5-6. </note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty, <emph>Corresp.</emph> IV, S. 55 Nr. 0675.</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+            <note type="ref" xml:id="item_d1e56896">
+               <ref type="pdf"
+                    target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=67"/>
+               <rs type="pdf">Corresp. IV, S. 55 Nr. 0675 </rs>
+            </note>
+            <note type="Objekte">
+               <rs type="obj">Schrank zur Aufbewahrung von präparierten Insekten.</rs>
+            </note>
+            <note type="Anmerkung">
+               <note>Detaillierte Zahlenangaben zur Anzahl der Objekte in der zoologisch ausgerichteten Sammlung Brandis in Brief v. 14. März 1791.</note>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="source">Blumenbach meldet dem Geheimen Ratskollegium die Durchführung des Ankaufs der Naturaliensammlung des Hildesheimer Medizinalrats Joachim Dietrich Brandis und bittet um Bezahlung der von Brandis verauslagten Kosten für den Transport und für einen Aufbewahrungsschrank. </title>
+                  <author>
+                     <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="ISO-575">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">Geheimes Ratskollegium</persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1791-05-19"
+                            when="1791-05-19"
+                            where="#orgplc-575">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1791-05-19">1791, Mai 19</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName type="Abfassungsort" xml:id="orgplc-575">Göttingen</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">575</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-24T18:01:19.114+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

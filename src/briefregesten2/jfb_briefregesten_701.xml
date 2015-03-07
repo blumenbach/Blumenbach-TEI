@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Johann Wolfgang von Goethe teilt Blumenbach mit, dass der von diesem nach Weimar gesandte Gipsabguss einer antiken Statue [der „Clytia auf der Sonnenblume“] noch nicht eingetroffen ist, und sendet ihm seinerseits den Gipsabguss des [vermeintlichen] Schädels Raphaels. </title>
+            <author>
+               <persName>
+                  <forename>Johann Wolfgang von</forename>
+                  <surname>Goethe</surname>
+               </persName>
+            </author>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                    <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="RegNr">701</idno>
+               <idno type="URLXML">jfb_briefregesten_701.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 2 (Goethe Nr. 1). </note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty, <emph>Corresp.</emph> IV, S. 292 Nr. 0823.</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+            <note type="Werke">
+               <bibl>
+                  <relatedItem>
+                                    <bibl>Goethes Werke. Weimarer Ausgabe IV. Abt., Bd. 18 (1895), S. 54, WA-Nr. 03026a (nach einer Abschrift im Goethe- und Schiller-Archiv Weimar; Erstdruck); Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 94-95 Kat Nr. 114 (nach dem Or., mit Abb.).</bibl>
+                                </relatedItem>
+               </bibl>
+               <title level="m" type="bibl">Commercium epistolicum</title>
+            </note>
+            <note type="ref" xml:id="item_d1e69540">
+               <ref type="pdf"
+                    target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=304"/>
+               <rs type="pdf">Corresp. IV, S. 292 Nr. 0823 </rs>
+            </note>
+            <note type="Objekte">
+               <rs type="obj">Gipsabguss des [vermeintlichen] Schädels Raphaels (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 388); Abguss der Statue „Clytia auf der Sonnenblume“, von der auch Blumenbach möglicherweise eine Privatkopie besaß, vgl. Erwähnung in <emph>Decas craniorum</emph> 3 (1795), S. 5 (Bibliographie Nr. 00094).</rs>
+               <title level="m" type="bibl">Decas craniorum</title>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="source">Johann Wolfgang von Goethe teilt Blumenbach mit, dass der von diesem nach Weimar gesandte Gipsabguss einer antiken Statue [der „Clytia auf der Sonnenblume“] noch nicht eingetroffen ist, und sendet ihm seinerseits den Gipsabguss des [vermeintlichen] Schädels Raphaels. </title>
+                  <author>
+                     <persName>
+                        <forename>Johann Wolfgang von</forename>
+                        <surname>Goethe</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="ISO-701">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich</forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1793-11-19"
+                            when="1793-11-19"
+                            where="#orgplc-701">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1793-11-19">1793, Nov. 19</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName type="Abfassungsort" xml:id="orgplc-701">Weimar</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">701</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-24T18:01:19.114+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

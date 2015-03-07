@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Blumenbach teilt [Georg Heinrich Pertz ?] mit, dass er 1837 zum Mitglied in der historisch-philologischen Klasse der Königlichen Societät der Wissenschaften gewählt wurde, undsendet ihm das Diplom darüber. </title>
+            <author>
+               <persName>
+                  <forename>Johann Friedrich</forename>
+                  <surname>Blumenbach</surname>
+               </persName>
+            </author>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                    <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="RegNr">1657</idno>
+               <idno type="URLXML">jfb_briefregesten_1657.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Wien, österreichische Nationalbibliothek (öNB), Handschriftensammlung, Autogr. 21/57-4. </note>
+            <note type="Drucke">
+               <bibl>Digitalisat der öNB erreichbar über: http://data.onb.ac.at/ rec/AL00228442 (Tabellenzeile „Digitales Objekt“).</bibl>
+            </note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty, <emph>Corresp.</emph> III, Nr. 0575.</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+            <note type="ref" xml:id="item_d1e165962">
+               <ref type="html" target="http://data.onb.ac.at/rec/AL00228442"/>
+               <rs type="html">http://data.onb.ac.at/ rec/AL00228442 </rs>
+            </note>
+            <note type="Anmerkung">
+               <note>Adressaten-Vermutung: 1837 wurden drei neue Mitglieder in die hist.-phil. Klasse der Societät aufgenommen: B. Kopitar (Wien); G. H. Pertz (Hannover) und K.-B. Hase (Paris), vgl. Pütter, <emph>Versuch </emph> (1838), S. 94 (Nr. 65 in den Fußnoten). Nur Pertz käme als Mitglied (nicht „auswärtiges Mitglied“) in Frage. </note>
+               <title level="m" type="bibl">Versuch </title>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="source">Blumenbach teilt [Georg Heinrich Pertz ?] mit, dass er 1837 zum Mitglied in der historisch-philologischen Klasse der Königlichen Societät der Wissenschaften gewählt wurde, undsendet ihm das Diplom darüber. </title>
+                  <author>
+                     <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="ISO-1657">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Georg Heinrich ?] </forename>
+               <surname>[Pertz</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1838-08-20"
+                            when="1838-08-20"
+                            where="#orgplc-1657">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1838-08-20">1838, Aug. 20</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName type="Abfassungsort" xml:id="orgplc-1657">Göttingen</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">1657</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-24T18:01:19.114+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

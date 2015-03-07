@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Blumenbach dankt August [und Johann Wolfgang?] von Goethe für die Zusendung eines antiken Schädels aus einem Grabhügel bei Romstedt in Thüringen, gibt eine wissenschaftliche Einschätzung zu Alter und Geschlecht des Toten und schlägtzur Bestimmung von dessen ethnischer Zugehörigkeit eine Publikation von Zeichnungen der Grabbeigaben an. </title>
+            <author>
+               <persName>
+                  <forename>Johann Friedrich</forename>
+                  <surname>Blumenbach</surname>
+               </persName>
+            </author>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                    <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="RegNr">1434</idno>
+               <idno type="URLXML">jfb_briefregesten_1434.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Konzept beiliegend zu Brief August von Goethes an Blumenbach vom 20. Febr. 1815, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 19, fol. 2-3. </note>
+            <note type="Drucke">
+               <bibl>Paraphrase in: Voit, Max: Ein Brief von Goethes Sohn August an J. F. Blumenbach. Göttingen 1928 [Gedr. in 100 Ex. zur 6jähr. Jahresfeier d. Vereinigung Göttinger Bücherfreunde am 23. Juni 1928].</bibl>
+            </note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+            <note type="Objekte">
+               <rs type="obj">Schädel eines „alten Germanen“ (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 5; Abb. in <emph>Nova pentas craniorum</emph> (1828), Tafel 61, Bibliographie Nr. 00098), Fotos in Károlyi, Zeitschrift für Morphologie und Anthropologie 1966, Tafel 16, unten; zur Identifikation des Schädels vgl.Spengel, Anthropologische Sammlung, S. 12 ad 240.</rs>
+               <title level="m" type="bibl">Nova pentas craniorum</title>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="source">Blumenbach dankt August [und Johann Wolfgang?] von Goethe für die Zusendung eines antiken Schädels aus einem Grabhügel bei Romstedt in Thüringen, gibt eine wissenschaftliche Einschätzung zu Alter und Geschlecht des Toten und schlägtzur Bestimmung von dessen ethnischer Zugehörigkeit eine Publikation von Zeichnungen der Grabbeigaben an. </title>
+                  <author>
+                     <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="ISO-1434">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>August von / Johann Wolfgang von</forename>
+               <surname>Goethe</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1815-02-20"
+                            when="1815-02-20"
+                            where="#orgplc-1434">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1815-02-20">1815, nach Febr. 20</date>
+                        </note>
+                     </event>
+                  </listEvent>
+                  <listEvent>
+                     <event type="iso-origin-nb"
+                            datingMethod="#ISO"
+                            notBefore="1815-02-20"
+                            where="#orgplc-1434">
+                        <label>Abfassungsdatum (not before):</label>
+                        <note type="Abfassungsdatum">
+                           <date when="">1815, nach Febr. 20</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName type="Abfassungsort" xml:id="orgplc-1434">Göttingen</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">1434</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-24T18:01:19.114+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

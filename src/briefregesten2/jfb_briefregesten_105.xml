@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Blumenbach sendet Samuel Thomas Soemmerring den Kopf einer Mumie, bittet um Reparatur einer ebenfalls mitgeschickten Injektionsspritze und um weitere Instrumente aus Kassel und bestätigt das unbeschädigte Eintreffen eines von Soemmerring geschenkten anatomischen Präparats in Göttingen. </title>
+            <author>
+               <persName>
+                  <forename>Johann Friedrich </forename>
+                  <surname>Blumenbach</surname>
+               </persName>
+            </author>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                    <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="RegNr">105</idno>
+               <idno type="URLXML">jfb_briefregesten_105.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Frankfurt am Main, Senckenbergische Bibliothek, 4 Cod. Ms. Hs. 81. </note>
+            <note type="Drucke">
+               <bibl>Dumont,<emph>Soemmerring-Briefwechsel</emph>. 1761/65-Oktober 1784 (1996), Nr. 132 S. 317-319.</bibl>
+               <title level="m" type="bibl">Soemmerring-Briefwechsel</title>
+            </note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty, <emph>Corresp.</emph> I, S. 222 Nr. 0141.</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+            <note type="Objekte">
+               <rs type="obj">Schädel einer ägyptischen Mumie (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 640; Abb. in <emph>Decas craniorum</emph> 1 (1790), Tafel 1; Bibliographie Nr. 00092), vgl. die Angaben dazu in Dougherty, <emph>Corresp.</emph> II, Nr. 0315 Anm. 17.</rs>
+               <title level="m" type="bibl">Decas craniorum</title>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="source">Blumenbach sendet Samuel Thomas Soemmerring den Kopf einer Mumie, bittet um Reparatur einer ebenfalls mitgeschickten Injektionsspritze und um weitere Instrumente aus Kassel und bestätigt das unbeschädigte Eintreffen eines von Soemmerring geschenkten anatomischen Präparats in Göttingen. </title>
+                  <author>
+                     <persName>
+                        <forename>Johann Friedrich </forename>
+                        <surname>Blumenbach</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="ISO-105">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Samuel Thomas </forename>
+               <surname>Soemmerring</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1781-01-26"
+                            when="1781-01-26"
+                            where="#orgplc-105">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1781-01-26">1781, Jan. 26</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName type="Abfassungsort" xml:id="orgplc-105">Göttingen</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">105</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-24T18:01:19.114+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

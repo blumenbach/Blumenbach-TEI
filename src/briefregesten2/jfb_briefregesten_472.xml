@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Georg Thomas von Asch sendet Blumenbach neun menschliche Schädel aus dem Wolga-Gebiet und der Ukraine. </title>
+            <author>
+               <persName>
+                  <forename>Georg Thomas von</forename>
+                  <surname>Asch</surname>
+               </persName>
+            </author>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                    <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="RegNr">472</idno>
+               <idno type="URLXML">jfb_briefregesten_472.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach III, fol. 16-17. </note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty, <emph>Corresp.</emph> III, S. 255 Nr. 0573.</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+            <note type="ref" xml:id="item_d1e46038">
+               <ref type="pdf"
+                    target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=273"/>
+               <rs type="pdf">Corresp. III, S. 255 Nr. 0573. </rs>
+            </note>
+            <note type="Objekte">
+               <rs type="obj">Neun menschliche Schädel aus dem Wolga-Gebiet und der Ukraine (Göttingen, Inst. f. Anatomie, Schädelsammlung Nrr. 476 („von Nyschenovogorodschen Gouvernement“, 485 („vom Kostromschen Gouvernement“), 577 („eines Tataren, [...] vom Kasanschen Gouvernement“; Abb. in Hauser-Schäublin und Krüger, Siberia and Russian America (2007), S. 30), 513 („von Oczakow [...] gebliebener Türke“ = <emph>Decas craniorum</emph> 1 (1790), Tafel 2; Bibliographie Nr. 00092), 514 („von Oczakow[...] gebliebener Türke [...] besonders schief und verschoben“), 465 („vom Romanowschen Kreise“), 470 („vom Swenigorodschen Kreise“), 466 („aus der Stadt Rybnoi“), 475 („vom Krasnoicholmskischen Kreise“)).</rs>
+               <title level="m" type="bibl">Decas craniorum</title>
+            </note>
+            <note type="Anmerkung">
+               <note>Vgl. auch Blumenbachs hs. Verzeichnis seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, I, fol. 3 (Nrr. 465, 466, 470, 475, 476, 485), fol. 4 (Nr. 577), fol. 5 (Nrr. 513, 514).</note>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="source">Georg Thomas von Asch sendet Blumenbach neun menschliche Schädel aus dem Wolga-Gebiet und der Ukraine. </title>
+                  <author>
+                     <persName>
+                        <forename>Georg Thomas von</forename>
+                        <surname>Asch</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="julian-472">
+               <p>Julian calendar (including proleptic)</p>
+            </calendar>
+            <calendar xml:id="ISO-472">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich</forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1789-09-12"
+                            when="1789-09-12"
+                            where="#orgplc-472">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1789-09-12">1789, Sept.12</date>
+                        </note>
+                     </event>
+                  </listEvent>
+                  <listEvent>
+                     <event type="julian-origin"
+                            datingMethod="#julian"
+                            when="1789-09-01"
+                            where="#orgplc">
+                        <label>Abfassungsdatum (julian):</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1789-09-01">1789, Sept.12</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName type="Abfassungsort" xml:id="orgplc-472">St. Petersburg</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">472</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-24T18:01:19.114+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Blumenbach sendet Johann Wolfgang von Goethe zwei Exemplare seiner Nova pentas craniorum (1828) und weist auf die darin enthaltenen Abbildungen von zwei Schädeln hin, die erdurch Goethes Vermittlung erhalten hatte. </title>
+            <author>
+               <persName>
+                  <forename>Johann Friedrich</forename>
+                  <surname>Blumenbach</surname>
+               </persName>
+            </author>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                    <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="RegNr">1600</idno>
+               <idno type="URLXML">jfb_briefregesten_1600.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung"/>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+            <note type="Werke">
+               <bibl>
+                  <relatedItem>
+                                    <bibl>
+                                        <emph>Nova pentas craniorum</emph> (1828; Bibliographie Nr. 00098).</bibl>
+                                </relatedItem>
+               </bibl>
+               <title level="m" type="bibl">Nova pentas craniorum</title>
+            </note>
+            <note type="ref" xml:id="item_d1e160318">
+               <ref type="html"
+                    target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00098"/>
+               <ref type="html"
+                    target="http://archive.org/stream/naturwissenschaf01goet#page/56/mode/2up"/>
+               <rs type="html">00098 </rs>
+               <rs type="html">S. 56-57 Nr. 36 </rs>
+            </note>
+            <note type="Objekte">
+               <rs type="obj">Schädel eines „alten Germanen“ (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 5; Abb. in <emph>Nova pentas craniorum</emph> (1828), Tafel 61, Bibliographie Nr. 00098), Fotos in Károlyi, Zeitschrift für Morphologie und Anthropologie 1966, Tafel 16, unten; zur Identifikation des Schädels vgl.Spengel, Anthropologische Sammlung, S. 12 ad 240.; Schädel eines Kamtschadalen (Abb. in <emph>Nova pentas craniorum</emph> (1828), Tafel 62, Bibliographie Nr. 00098).</rs>
+               <title level="m" type="bibl">Nova pentas craniorum</title>
+               <title level="m" type="bibl">Nova pentas craniorum</title>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="source">Blumenbach sendet Johann Wolfgang von Goethe zwei Exemplare seiner <emph>Nova pentas craniorum</emph> (1828) und weist auf die darin enthaltenen Abbildungen von zwei Schädeln hin, die erdurch Goethes Vermittlung erhalten hatte. </title>
+                  <title level="m" type="bibl">Nova pentas craniorum</title>
+                  <author>
+                     <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="ISO-1600">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Wolfgang von</forename>
+               <surname>Goethe</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1828-12-27"
+                            when="1828-12-27"
+                            where="#orgplc-1600">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1828-12-27">1828, Dez. 27</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName type="Abfassungsort" xml:id="orgplc-1600">Göttingen</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">1600</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-24T18:01:19.114+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

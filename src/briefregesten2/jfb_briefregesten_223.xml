@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Blumenbach berichtet Gottlieb Emanuel von Haller über private Vorkommnisse, formuliert eine ärztliche Einschätzung zu Hallers Gesundheitszustand, teilt bibliographische Angaben zu neueren Publikationen mit und bittet um die Zusendung naturkundlicher Sammlungsobjekte. </title>
+            <author>
+               <persName>
+                  <forename>Johann Friedrich </forename>
+                  <surname>Blumenbach</surname>
+               </persName>
+            </author>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                    <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="RegNr">223</idno>
+               <idno type="URLXML">jfb_briefregesten_223.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Dietikon, Karl Viktor von Bonstetten-Archiv, 84.10.10. </note>
+            <note type="Drucke">
+               <bibl>Ebstein, Erich, „Aus Blumenbachs Studierstube“ in Archiv für die Geschichte der Naturwissenschaften und Technik 4 (1913),S. 234-238, hier S. 236-238 (ungenaue Transkription); Graber, Heinz (Hg.): Bonstettiana. Briefkorrespondenz Karl Viktor von Bonstettens [...]. Band 5/1 (1784-1786). Göttingen 2005, S. 15-18.</bibl>
+            </note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty, <emph>Corresp.</emph> II, S. 210 Nr. 0310 aus Ebstein; verbesserte Version nachdem Or. in Dietikon: Dougherty, <emph>Corresp.</emph> III, S. 372 Appendix Nr. 08.</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="source">Blumenbach berichtet Gottlieb Emanuel von Haller über private Vorkommnisse, formuliert eine ärztliche Einschätzung zu Hallers Gesundheitszustand, teilt bibliographische Angaben zu neueren Publikationen mit und bittet um die Zusendung naturkundlicher Sammlungsobjekte. </title>
+                  <author>
+                     <persName>
+                        <forename>Johann Friedrich </forename>
+                        <surname>Blumenbach</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="ISO-223">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Gottlieb Emanuel von </forename>
+               <surname>Haller</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1784-10-10"
+                            when="1784-10-10"
+                            where="#orgplc-223">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1784-10-10">1784, Okt. 10</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName type="Abfassungsort" xml:id="orgplc-223">Göttingen</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">223</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-24T18:01:19.114+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

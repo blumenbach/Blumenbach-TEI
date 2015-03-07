@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Pieter Camper berichtet Blumenbach über von ihm in verschiedenen naturkundlichen Sammlungen gefundene Exemplare geschwänzter Kaulquappen der Kröte „rana pipa“, wodurch entsprechende Beobachtungen Blumenbachs bestätigt werden. </title>
+            <author>
+               <persName>
+                  <forename>Pieter </forename>
+                  <surname>Camper</surname>
+               </persName>
+            </author>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                    <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="RegNr">218</idno>
+               <idno type="URLXML">jfb_briefregesten_218.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Or. verloren, überl. als Druck in Commentationes soc. reg. scient. Gottingensis Bd. IX (1789). </note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty, <emph>Corresp.</emph> II, S. 182 Nr. 0304.</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+            <note type="Werke"/>
+            <note type="ref" xml:id="item_d1e20590">
+               <ref type="html"
+                    target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/Sammlungskataloge/cod_ms-Blumenbach_1_II_Blumenbach_Handschriften_1794_1800_Katalog%20zur%20Naturgeschichte%20des%20Menschengeschlechts.pdf#page=183"/>
+               <rs type="html">Cod. Ms. Blumenbach 1, II, fol. 89r. </rs>
+            </note>
+            <note type="Objekte">
+               <rs type="obj">Feuchtpräparate der „rana pipa“,vgl. Blumenbachs hs. Sammlungsverzeichnis Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, II, fol. 89r.</rs>
+            </note>
+            <note type="Anmerkung">
+               <note>Vgl. Blumenbachs Bericht über den von ihm vorgetragenen Bericht Campers in den <emph>GAg S</emph> 1784 (156. Stück, 27. Sept.), S. 1553-1555 (Bibliographie Nr. 00256). </note>
+               <title level="m" type="bibl">GAg S</title>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="source">Pieter Camper berichtet Blumenbach über von ihm in verschiedenen naturkundlichen Sammlungen gefundene Exemplare geschwänzter Kaulquappen der Kröte „rana pipa“, wodurch entsprechende Beobachtungen Blumenbachs bestätigt werden. </title>
+                  <author>
+                     <persName>
+                        <forename>Pieter </forename>
+                        <surname>Camper</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="ISO-218">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich </forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1784-08-08"
+                            when="1784-08-08"
+                            where="#orgplc-218">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1784-08-08">1784, Aug. 8</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName type="Abfassungsort" xml:id="orgplc-218">Klein Lankum</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">218</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-24T18:01:19.114+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

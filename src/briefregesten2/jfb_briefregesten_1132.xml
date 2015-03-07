@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Franz Xaver von Zach berichtet Blumenbach über seine zumeist erfolgreichen Bemühungen, die bisherigen Beiträger und Rezensenten der Allgemeinen Geographischen Ephemeriden für seine neue Zeitschrift Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde abzuwerben, und bittet Blumenbach um die Beschaffung von Portraitvorlagen für die Illustration der neuen Zeitschrift. </title>
+            <author>
+               <persName>
+                  <forename>Franz Xaver von</forename>
+                  <surname>Zach</surname>
+               </persName>
+            </author>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                    <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="RegNr">1132</idno>
+               <idno type="URLXML">jfb_briefregesten_1132.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 2 (Zach Nr. 18).</note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty,<emph>Corresp.</emph> V, S. 428-429 Nr. 1267.</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+            <note type="ref" xml:id="item_d1e114022">
+               <ref type="pdf"
+                    target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=444"/>
+               <rs type="pdf">Corresp. V, S. 428-429 Nr. 1267 </rs>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="source">Franz Xaver von Zach berichtet Blumenbach über seine zumeist erfolgreichen Bemühungen, die bisherigen Beiträger und Rezensenten der <emph>Allgemeinen Geographischen Ephemeriden</emph> für seine neue Zeitschrift <emph>Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde</emph> abzuwerben, und bittet Blumenbach um die Beschaffung von Portraitvorlagen für die Illustration der neuen Zeitschrift. </title>
+                  <title level="m" type="bibl">Allgemeinen Geographischen Ephemeriden</title>
+                  <title level="m" type="bibl">Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde</title>
+                  <author>
+                     <persName>
+                        <forename>Franz Xaver von</forename>
+                        <surname>Zach</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="ISO-1132">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich</forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1799-12-21"
+                            when="1799-12-21"
+                            where="#orgplc-1132">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1799-12-21">1799, Dez. 21 Seeberg</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName type="Abfassungsort" xml:id="orgplc-1132"/>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">1132</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-24T18:01:19.114+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

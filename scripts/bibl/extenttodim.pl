@@ -3,7 +3,7 @@
 my $empty_tags = qr{<(tr|br|td)>\s*</\1>};
 
 
-open(FILE, "52-61.xml");
+open(FILE, "new.xml");
 @lines = <FILE>;
 close(FILE);
 

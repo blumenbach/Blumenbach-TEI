@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Joseph Banks teilt Blumenbach Einzelheiten zur Entstehung von Porträts von Tahitianern und Neuseeländern in seinem Besitz mit und erklärt sich einverstanden mit der Anfertigung von Kopien von ihnen und berichtet über die erfolgreiche Anpflanzung der Brotfrucht und anderer importierter Pflanzen in der Karibik. </title>
+            <author>
+               <persName>
+                  <forename>Joseph</forename>
+                  <surname>Banks</surname>
+               </persName>
+            </author>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                    <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="RegNr">753</idno>
+               <idno type="URLXML">jfb_briefregesten_753.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 3 (Banks Nr. 7). </note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty, <emph>Corresp.</emph> IV, S. 358 Nr. 0878.</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+            <note type="ref" xml:id="item_d1e74749">
+               <ref type="pdf"
+                    target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=370"/>
+               <rs type="pdf">Corresp. IV, S. 358 Nr. 0878 </rs>
+            </note>
+            <note type="Objekte">
+               <rs type="obj">Zeichnungen nach Porträts von Tahitianern und Neuseeländern im Besitz von Joseph Banks. (Die von Blumenbach in seinem Brief vom 24. Sept. 1794 ebenfalls erbetene Kopie des Porträts eines Eskimos wird nicht erwähnt.)</rs>
+            </note>
+            <note type="Anmerkung">
+               <note>Dt. übersetzung der Angaben zur Brotfrucht-Anpflanzung in Jamaika in <emph>Medicinische Bibliothek</emph> Bd. 3, 4. Stück (1795), S. 723 (Bibliographie Nr. 00962).</note>
+               <title level="m" type="bibl">Medicinische Bibliothek</title>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="source">Joseph Banks teilt Blumenbach Einzelheiten zur Entstehung von Porträts von Tahitianern und Neuseeländern in seinem Besitz mit und erklärt sich einverstanden mit der Anfertigung von Kopien von ihnen und berichtet über die erfolgreiche Anpflanzung der Brotfrucht und anderer importierter Pflanzen in der Karibik. </title>
+                  <author>
+                     <persName>
+                        <forename>Joseph</forename>
+                        <surname>Banks</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="ISO-753">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich</forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1794-11-14"
+                            when="1794-11-14"
+                            where="#orgplc-753">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1794-11-14">1794, Nov. 14</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName type="Abfassungsort" xml:id="orgplc-753">London</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">753</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-24T18:01:19.114+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

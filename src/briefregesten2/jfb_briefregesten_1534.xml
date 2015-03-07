@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Blumenbach sendet Johann Wolfgang von Goethe im Auftrag der Königlichen Societätder Wissenschaften zu Göttingendas Diplom über dessen Ernennung zum auswärtigen Mitgliedund kündigt an, dass er Herzog Karl August von Sachsen-Weimar-Eisenach leihweise ein in England in besonderer Weise gebundenes Buch und als Geschenk ein Stück Wurzelholz von der Norfolk-Tanne („Columnia pinifolia“) senden werde. </title>
+            <author>
+               <persName>
+                  <forename>Johann Friedrich</forename>
+                  <surname>Blumenbach</surname>
+               </persName>
+            </author>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                    <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="RegNr">1534</idno>
+               <idno type="URLXML">jfb_briefregesten_1534.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung"/>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+            <note type="Werke"/>
+            <note type="ref" xml:id="item_d1e154149">
+               <ref type="html"
+                    target="http://archive.org/stream/naturwissenschaf01goet#page/46/mode/2up"/>
+               <rs type="html">S. 46-47 Nr. 27 </rs>
+            </note>
+            <note type="Objekte">
+               <rs type="obj">Verschenkt: Holzstück von der„Columnia pinifolia“ (erhalten als Geschenk von Joseph Banks).</rs>
+            </note>
+            <note type="Anmerkung">
+               <note>Druck in Goethe's Naturwissenschaftliche Correspondenz (1812-1832)wohl mit Fehllesung „Wipfel“ statt„Wurzel“.</note>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="source">Blumenbach sendet Johann Wolfgang von Goethe im Auftrag der Königlichen Societätder Wissenschaften zu Göttingendas Diplom über dessen Ernennung zum auswärtigen Mitgliedund kündigt an, dass er Herzog Karl August von Sachsen-Weimar-Eisenach leihweise ein in England in besonderer Weise gebundenes Buch und als Geschenk ein Stück Wurzelholz von der Norfolk-Tanne („Columnia pinifolia“) senden werde. </title>
+                  <author>
+                     <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="ISO-1534">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Wolfgang von</forename>
+               <surname>Goethe</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1823-11-23"
+                            when="1823-11-23"
+                            where="#orgplc-1534">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1823-11-23">1823, Nov. 23</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName type="Abfassungsort" xml:id="orgplc-1534">Göttingen</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">1534</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-24T18:01:19.114+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

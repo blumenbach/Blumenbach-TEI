@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Blumenbach dankt Joseph Banks für das von diesem angekündigte Geschenk einer Guanchen-Mumie von den Kanarischen Inseln und für Informationen über das Schnabeltier und das neu entdeckte Metall Niob („Columbium“), über die er weitere Auskünfte erbittet. </title>
+            <author>
+               <persName>
+                  <forename>Johann Friedrich</forename>
+                  <surname>Blumenbach</surname>
+               </persName>
+            </author>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                    <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="RegNr">1243</idno>
+               <idno type="URLXML">jfb_briefregesten_1243.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">London, British Library, Add MS 8099, fol.141.</note>
+            <note type="Drucke">
+               <bibl>Chambers, <emph>Scientific correspondence of Sir Joseph Banks</emph>, Bd. 5 (2007),S. 120-121 Nr. 1615; vgl. ausführl. Regest in Dawson, <emph>The Banks Letters</emph> (1958), S.117 Nr. 63.</bibl>
+               <title level="m" type="bibl">Scientific correspondence of Sir Joseph Banks</title>
+               <title level="m" type="bibl">The Banks Letters</title>
+            </note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+            <note type="Werke"/>
+            <note type="ref" xml:id="item_d1e125466">
+               <ref type="html"
+                    target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00101"/>
+               <rs type="html">00101 </rs>
+            </note>
+            <note type="Objekte">
+               <rs type="obj">Guanchen-Mumie (Göttingen, Inst. für Anthropologie; Abb. des Schädels in<emph>Decas craniorum</emph> 5 (1808), Tafel 42; Bibliographie Nr. 00096); S/W-Foto von Mumie und Schädel in250 Jahre Georg-August-Universität. Ausstellungskatalog. Göttingen 1987, S. 109-110.</rs>
+               <title level="m" type="bibl">Decas craniorum</title>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="source">Blumenbach dankt Joseph Banks für das von diesem angekündigte Geschenk einer Guanchen-Mumie von den Kanarischen Inseln und für Informationen über das Schnabeltier und das neu entdeckte Metall Niob („Columbium“), über die er weitere Auskünfte erbittet. </title>
+                  <author>
+                     <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="ISO-1243">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Joseph</forename>
+               <surname>Banks</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1801-12-20"
+                            when="1801-12-20"
+                            where="#orgplc-1243">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1801-12-20">1801, Dez.20</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName type="Abfassungsort" xml:id="orgplc-1243">Göttingen</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">1243</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-24T18:01:19.114+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

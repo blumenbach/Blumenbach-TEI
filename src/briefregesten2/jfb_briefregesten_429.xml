@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Blumenbach dankt Joseph Banks für einen von diesem gesandten Kupferstich eines menschlichen Schädels und schickt ihm die von ihm selbst aus Anlass des Universitätsjubiläums 1787 herausgegebene übersicht aller Publikationen Göttinger Medizinprofessoren seit Gründung der Universität. </title>
+            <author>
+               <persName>
+                  <forename>Johann Friedrich</forename>
+                  <surname>Blumenbach</surname>
+               </persName>
+            </author>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                    <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="RegNr">429</idno>
+               <idno type="URLXML">jfb_briefregesten_429.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">London, British Library, Ad MS 8097 fol. 132. </note>
+            <note type="Drucke">
+               <bibl>Chambers, <emph>Scientific correspondence of Sir Joseph Banks</emph>, Bd. 3 (2007), S. 458 Nr. 894; vgl. ausführl. Regest in Dawson, <emph>The Banks Letters</emph> (1958), S. 110 Nr. 5 (mit irrtümlicher Angabe „Berlin“ als Absendeort).</bibl>
+               <title level="m" type="bibl">Scientific correspondence of Sir Joseph Banks</title>
+               <title level="m" type="bibl">The Banks Letters</title>
+            </note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty, <emph>Corresp.</emph> III, S. 193 Nr. 0528.</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+            <note type="Werke"/>
+            <note type="ref" xml:id="item_d1e41497">
+               <ref type="html"
+                    target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00116"/>
+               <ref type="pdf"
+                    target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=211"/>
+               <rs type="html">00144 </rs>
+               <rs type="pdf">Corresp. III, S. 193 Nr. 0528 </rs>
+            </note>
+            <note type="Objekte">
+               <rs type="obj">Kupferstich mit Abb. zweier menschlicher Schädel, von Pieter Camper.</rs>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="source">Blumenbach dankt Joseph Banks für einen von diesem gesandten Kupferstich eines menschlichen Schädels und schickt ihm die von ihm selbst aus Anlass des Universitätsjubiläums 1787 herausgegebene übersicht aller Publikationen Göttinger Medizinprofessoren seit Gründung der Universität. </title>
+                  <author>
+                     <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="ISO-429">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Joseph</forename>
+               <surname>Banks</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1789-01-17"
+                            when="1789-01-17"
+                            where="#orgplc-429">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1789-01-17">1789, Jan. 17</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName type="Abfassungsort" xml:id="orgplc-429">Göttingen</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">429</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-24T18:01:19.114+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Albrecht von Haller äußert sich anerkennend über Blumenbachs Dissertation De humani generis varietate nativa, gibt Ratschläge für die von Blumenbach angekündigten anatomischen Forschungen zu den Nerven des Bauches und sendet Informationen zu Süßwasserpolypen, Steinbock und Lämmergeier. </title>
+            <author>
+               <persName>
+                  <forename>Albrecht von</forename>
+                  <surname>Haller</surname>
+               </persName>
+            </author>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                    <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="RegNr">27</idno>
+               <idno type="URLXML">jfb_briefregesten_27.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 3 (Albrecht von Haller Nr. 4).</note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty, <emph>Corresp.</emph> I, S. 81 Nr. 0043.</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+            <note type="Werke">
+               <bibl>
+                  <relatedItem>
+                                    <bibl>
+                                        <emph>De humani generis varietate nativa</emph> (1776) (= Bibliographie Nr. 00002).</bibl>
+                                </relatedItem>
+               </bibl>
+               <title level="m" type="bibl">De humani generis varietate nativa</title>
+            </note>
+            <note type="ref" xml:id="item_d1e2418">
+               <ref type="html"
+                    target="http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Bibliographie/Bibliographie.html#00002"/>
+               <rs type="html">00002 </rs>
+            </note>
+            <note type="Anmerkung">
+               <note>Blumenbach hatte die naturhistorischen Angaben wohl für sein <emph>Handbuch der Naturgeschichte</emph> erbeten.</note>
+               <title level="m" type="bibl">Handbuch der Naturgeschichte</title>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="source">Albrecht von Haller äußert sich anerkennend über Blumenbachs Dissertation <emph>De humani generis varietate nativa</emph>, gibt Ratschläge für die von Blumenbach angekündigten anatomischen Forschungen zu den Nerven des Bauches und sendet Informationen zu Süßwasserpolypen, Steinbock und Lämmergeier. </title>
+                  <title level="m" type="bibl">De humani generis varietate nativa</title>
+                  <author>
+                     <persName>
+                        <forename>Albrecht von</forename>
+                        <surname>Haller</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="ISO-27">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich</forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1776-08-28"
+                            when="1776-08-28"
+                            where="#orgplc-27">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1776-08-28">1776, Aug. 28</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName type="Abfassungsort" xml:id="orgplc-27">Bern</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">27</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-24T18:01:19.114+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

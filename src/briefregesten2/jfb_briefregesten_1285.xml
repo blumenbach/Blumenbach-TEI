@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Paul Scheel sendet Blumenbach [den Schädels eines Javaners?] </title>
+            <author>
+               <persName>
+                  <forename>Paul</forename>
+                  <surname>Scheel</surname>
+               </persName>
+            </author>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                    <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="RegNr">1285</idno>
+               <idno type="URLXML">jfb_briefregesten_1285.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Göttingen, Universitätsbibliothek, Cod. Ms.Blumenbach III,fol. ?, vgl. Meyer, Handschriften in Göttingen 3 (1894), S. 77. </note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+            <note type="ref" xml:id="item_d1e129642">
+               <ref type="html"
+                    target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553"/>
+               <rs type="html">Spengel, Anthropologische Sammlung </rs>
+            </note>
+            <note type="Objekte">
+               <rs type="obj">Zur Identifikation des Schädels vgl. Spengel, Anthropologische Sammlung, S. 49 Anm. ad 45: „1803. Von Hofrath Scheel in Kopenhagen. Ein »javanischer Mohr« Namens Nassir, 1802 in Kopenhagen 26 Jahre alt, gestorben; war in Java geboren und erzogen.“ Das Gemälde von J. J. Juel befindet sich heute in der Kunstsammlung der Georg-August Universität Göttingen.</rs>
+            </note>
+            <note type="Anmerkung">
+               <note>Inhaltsangabe zu drei in Göttingen überlieferten Briefen P. Scheels an Blumenbach:„besonders über einen Javaner-Schädel [= Schädel des „Mohren“ Nassir aus Java ?, vgl. Brief von J. Chr. W. Wendt an Blumenbach vom 19. Dez. 1803], über Schumacher's Sammlung, Juul's [= Jens Jørgensen Juels] Gemälde eines Chinesen und den Abguss von Raphael's Schädel“ (Meyer, <emph>Handschriften in Göttingen</emph> 3 (1894), S. 77). Identische Beschreibungen des Gemäldes von J. J. Juel („erhalten von Hofmed. Scheel“)in Blumenbachs hs. Sammlungsverzeichnissen, SUB Göttingen, Cod. Ms. Blumenbach I Nr. 3 (fol. 11r) und Cod. Ms. Blumenbach I Nr. 4 (pag. 21). </note>
+               <title level="m" type="bibl">Handschriften in Göttingen</title>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="source">Paul Scheel sendet Blumenbach [den Schädels eines Javaners?] </title>
+                  <author>
+                     <persName>
+                        <forename>Paul</forename>
+                        <surname>Scheel</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="ISO-1285">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich</forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1803-12-20"
+                            when="1803-12-20"
+                            where="#orgplc-1285">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1803-12-20">1803, Dez.20</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName type="Abfassungsort" xml:id="orgplc-1285">Kopenhagen</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">1285</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-24T18:01:19.114+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

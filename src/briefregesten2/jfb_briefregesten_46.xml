@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Blumenbach berichtet seinem Vater Johann Heinrich Blumenbach über eine vierzehntägige Reise in das Fürstentum Waldeck. </title>
+            <author>
+               <persName>
+                  <forename>Johann Friedrich </forename>
+                  <surname>Blumenbach</surname>
+               </persName>
+            </author>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                    <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="RegNr">46</idno>
+               <idno type="URLXML">jfb_briefregesten_46.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Arolsen, Fürstlich Waldeckische Hofbibliothek, V Waldec. 661 (Abschrift von 1903 durch Walther Herwig, Vorlage verloren). </note>
+            <note type="Drucke">
+               <bibl>Kümmel, Birgit: „Johann Friedrich Blumenbach - Reise ins Waldeckische vom 1. bis 14. Oktober 1777. Ein unveröffentlichter Reisebericht“ in: <emph>Geschichtsblätter fÜr Waldeck</emph> 84 (1996), S. 169-186; Teildruck in „Bemerkungen auf einigen Reisen ins Waldeckische [...]“ in August Ludwig Schlözer's Briefwechsel meist histor. u. polit. Inhalts. Dritter Theil. Göttingen 1778, Heft XVI, S. 229-237; Beschreibung des Arolsener Hofkonzerts gedruckt in Rouvel, Diether: Zur Geschichte der Musik am Fürstlich Waldeckischen Hofe zu Arolsen. Regensburg 1962, S. 160-161.</bibl>
+               <title level="m" type="bibl">Geschichtsblätter fÜr Waldeck</title>
+            </note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty, <emph>Corresp.</emph> I, S. 116 Nr. 0070.</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+            <note type="Objekte">
+               <rs type="obj">Von der Fürstin geschenkte Bücher (mit Titel) für die Bibliothek und (nur summarisch) naturkundliche Objekte für das Museum;dem Museum 1776 von der Fürstin geschenkte Versteinerungen; von Blumenbach selbst gesammelte Versteinerungen aus dem Schieferbruch in Adorf/ Wirminghausen.</rs>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="source">Blumenbach berichtet seinem Vater Johann Heinrich Blumenbach über eine vierzehntägige Reise in das Fürstentum Waldeck. </title>
+                  <author>
+                     <persName>
+                        <forename>Johann Friedrich </forename>
+                        <surname>Blumenbach</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="ISO-46">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Heinrich </forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1777-10-30"
+                            when="1777-10-30"
+                            where="#orgplc-46">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1777-10-30">1777, ca. Okt. 30</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName type="Abfassungsort" xml:id="orgplc-46">Göttingen</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">46</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-24T18:01:19.114+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

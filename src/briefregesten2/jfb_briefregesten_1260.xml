@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Johann Samuel Lieberkühn sendet Blumenbach das Modell eines Kajaks, ein Hemd aus Seehundsdarm und ein Regenhemd aus Vogelbälgen („Vogelpelz“) aus Grönland und fremdsprachige Bücher aus der Herrnhuter Druckerei und erbittet im Tausch Mineralien für die Herrnhuter Sammlungen. </title>
+            <author>
+               <persName>
+                  <forename>Johann Samuel</forename>
+                  <surname>Lieberkühn</surname>
+               </persName>
+            </author>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                    <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="RegNr">1260</idno>
+               <idno type="URLXML">jfb_briefregesten_1260.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Göttingen, Staats- und Universitätsbibliothek. </note>
+            <note type="Drucke">
+               <bibl>Augustin, Stephan: Die Blumenbach-Briefe in Herrnhut - Belege für Beziehungen zwischen der Universität Göttingen und der Evangelischen Brüder-Unität im 18. Jahrhundert. Beitrag zur Tagung der deutschsprachigen Ethnologinnen und Ethnologen, Wien. Maschinenschr. Ms. 1995, Anhang; benutzt als Digitalisat von R. Brisson (http://www.blumenbach.info/ _/Herrnhut_Briefe.html; Zugriff 26.10.2012).</bibl>
+            </note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+            <note type="Objekte">
+               <rs type="obj">Objekte aus Grönland: Modell eines Kajaks mit Ruder; ein Hemd aus Seehundsdarm; ein Regenhemd aus Vogelbälgen („Vogelpelz)“.</rs>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="source">Johann Samuel Lieberkühn sendet Blumenbach das Modell eines Kajaks, ein Hemd aus Seehundsdarm und ein Regenhemd aus Vogelbälgen („Vogelpelz“) aus Grönland und fremdsprachige Bücher aus der Herrnhuter Druckerei und erbittet im Tausch Mineralien für die Herrnhuter Sammlungen. </title>
+                  <author>
+                     <persName>
+                        <forename>Johann Samuel</forename>
+                        <surname>Lieberkühn</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="ISO-1260">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich</forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1802-08-01"
+                            when="1802-08-01"
+                            where="#orgplc-1260">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1802-08-01">1802, Aug. 1</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName type="Abfassungsort" xml:id="orgplc-1260">Barby</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">1260</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-24T18:01:19.114+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

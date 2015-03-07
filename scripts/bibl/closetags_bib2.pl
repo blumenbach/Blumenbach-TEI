@@ -3,7 +3,7 @@
 my $empty_tags = qr{<(tr|br|td)>\s*</\1>};
 
 
-open(FILE, "../../transform/Bibliographie/1-IndependentWorks/3-De Nisu Formativo – Über den Bildungstrieb 52-61.xml");
+open(FILE, "../../transform/Bibliographie/1-IndependentWorks/7-Handbuch der vergleichenden Anatomie 101-110.xml");
 @lines = <FILE>;
 close(FILE);
 

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Johann Heinrich Ferdinand Autenrieth bekundet Blumenbach sein Interessen an Nachrichten über das neu entdeckte Schnabeltier, sendet Publikationen über seine Untersuchungen zur Funktion der Placenta, zur Verdauung und zur Anatomie des Auges, bittet erneut, ihm leihweise seine früheren Briefe zu überlassen, damit er sich Abschriften davon anfertigen könne, und berichtet, dass er seine mineralogischen und zoologischen Sammlungen zur Auswertung an andere Forscher verschenkt habe. </title>
+            <author>
+               <persName>
+                  <forename>Johann Heinrich Ferdinand</forename>
+                  <surname>Autenrieth</surname>
+               </persName>
+            </author>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                    <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="RegNr">1158</idno>
+               <idno type="URLXML">jfb_briefregesten_1158.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Leipzig, Universitätsbibliothek, Sammlung Kestner, II A IV, 57.</note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty,<emph>Corresp.</emph> V, S. 455-457 Nr. 1293.</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+            <note type="ref" xml:id="item_d1e116780">
+               <ref type="pdf"
+                    target="http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=471"/>
+               <rs type="pdf">Corresp. V, S.455-457 Nr. 1293 </rs>
+            </note>
+            <note type="Anmerkung">
+               <note>Die Transkription von Dougherty scheint Fehler zu enthalten („unendlich richtig“ lies: unendlich wichtig?; „Austheilung der infra orbital Nerven“ lies:Auftheilung der infra orbital Nerven?). In Anm. 23 wird „choroidea“ als „Adergeflecht des Gehirns“ erläutert; gemeint ist aber eher die Aderhaut des Auges, vgl. die in Anm. 24 genannte diesbezügliche Dissertation.</note>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="source">Johann Heinrich Ferdinand Autenrieth bekundet Blumenbach sein Interessen an Nachrichten über das neu entdeckte Schnabeltier, sendet Publikationen über seine Untersuchungen zur Funktion der Placenta, zur Verdauung und zur Anatomie des Auges, bittet erneut, ihm leihweise seine früheren Briefe zu überlassen, damit er sich Abschriften davon anfertigen könne, und berichtet, dass er seine mineralogischen und zoologischen Sammlungen zur Auswertung an andere Forscher verschenkt habe. </title>
+                  <author>
+                     <persName>
+                        <forename>Johann Heinrich Ferdinand</forename>
+                        <surname>Autenrieth</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="ISO-1158">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich</forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1800-04-08"
+                            when="1800-04-08"
+                            where="#orgplc-1158">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1800-04-08">1800, Apr. 8</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName type="Abfassungsort" xml:id="orgplc-1158">Stuttgart</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">1158</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-24T18:01:19.114+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

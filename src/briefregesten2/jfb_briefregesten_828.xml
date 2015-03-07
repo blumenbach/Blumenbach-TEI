@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Samuel Thomas Soemmerring fragt Blumenbach, wie er den ihm leihweise überlassenen Schädel einer Georgierin für Blumenbach zeichnen lassen soll, und berichtet über seine gegenwärtig geplanten Publikationen, bei denen er zum Teil Blumenbachs Unterstützung erbittet und ihn dafür an den Honoraren beteiligen will. </title>
+            <author>
+               <persName>
+                  <forename>Samuel Thomas</forename>
+                  <surname>Soemmerring</surname>
+               </persName>
+            </author>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                    <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="RegNr">828</idno>
+               <idno type="URLXML">jfb_briefregesten_828.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 23, fol. 11. </note>
+            <note type="Drucke">
+               <bibl>Dumont, <emph>Soemmerring-Briefwechsel</emph>. 1792-1805 (2001), Nr. 740, S. 251-253.</bibl>
+               <title level="m" type="bibl">Soemmerring-Briefwechsel</title>
+            </note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty, <emph>Corresp.</emph> IV, S. 482 Nr. 0957.</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+            <note type="ref" xml:id="item_d1e82166">
+               <ref type="pdf"
+                    target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=494"/>
+               <rs type="pdf">Corresp. IV, S. 482 Nr. 0957 </rs>
+            </note>
+            <note type="Objekte">
+               <rs type="obj">Schädel einer Georgierin (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 546 [Modellschädel für Blumenbachs kaukasische Varietät der Spezies Mensch]; Abb. in <emph>Decas craniorum</emph> 3 (1795; Bibliographie Nr.00094), Tafel Nr. 21 und in Abbildungen naturhistorischer Gegenstände 6 (1802; Bibliographie Nr.00707), Tafel Nr.51.</rs>
+               <title level="m" type="bibl">Decas craniorum</title>
+            </note>
+            <note type="Anmerkung">
+               <note>Der Kupferstich des Frankfurter Zeichners Christian Koeck wurde in den<emph>Abbildungen naturhistorischer Gegenstände</emph> 6 (1802) verwendet.</note>
+               <title level="m" type="bibl">Abbildungen naturhistorischer Gegenstände</title>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="source">Samuel Thomas Soemmerring fragt Blumenbach, wie er den ihm leihweise überlassenen Schädel einer Georgierin für Blumenbach zeichnen lassen soll, und berichtet über seine gegenwärtig geplanten Publikationen, bei denen er zum Teil Blumenbachs Unterstützung erbittet und ihn dafür an den Honoraren beteiligen will. </title>
+                  <author>
+                     <persName>
+                        <forename>Samuel Thomas</forename>
+                        <surname>Soemmerring</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="ISO-828">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich</forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1795-11-28"
+                            when="1795-11-28"
+                            where="#orgplc-828">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1795-11-28">1795, Nov. 28</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName type="Abfassungsort" xml:id="orgplc-828">Frankfurt am Main</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">828</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-24T18:01:19.114+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

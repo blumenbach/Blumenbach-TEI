@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Ernst II. von Sachsen-Gotha und Altenburg begründet Blumenbach seine Zweifel an der Existenz vorsätzlicher Schädeldeformation bei Kleinkindern unter anderem bei den Türken und berichtet von einer in Gotha eingetroffenen ägyptischen Mumie. </title>
+            <author>
+               <persName>
+                  <forename>Ernst II. von</forename>
+                  <surname>Sachsen-Gotha und Altenburg</surname>
+               </persName>
+            </author>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                    <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="RegNr">489</idno>
+               <idno type="URLXML">jfb_briefregesten_489.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 1 (Ernst II. Nr. 3). </note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty, <emph>Corresp.</emph> III, S. 277 Nr. 0590.</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+            <note type="Werke">
+               <bibl>
+                  <relatedItem>
+                                    <bibl>
+                                        <emph>Beyträge zur Naturgeschichte</emph>. Zweyter Theil (1811), S. 51. Zur Identifikation vgl.Spengel, Anthropologische Sammlung, S. 55 ad 426: „ägyptische Mumie. [...] Geschenk des Herzogs zu Coburg-Gotha und seines Bruders des Prinzen Friedrich.“</bibl>
+                                </relatedItem>
+               </bibl>
+               <title level="m" type="bibl">Beyträge zur Naturgeschichte</title>
+            </note>
+            <note type="ref" xml:id="item_d1e47745">
+               <ref type="html"
+                    target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553"/>
+               <ref type="pdf"
+                    target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=295"/>
+               <rs type="html">Spengel, Anthropologische Sammlung </rs>
+               <rs type="pdf">Corresp. III, S. 277 Nr. 0590 </rs>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="source">Ernst II. von Sachsen-Gotha und Altenburg begründet Blumenbach seine Zweifel an der Existenz vorsätzlicher Schädeldeformation bei Kleinkindern unter anderem bei den Türken und berichtet von einer in Gotha eingetroffenen ägyptischen Mumie. </title>
+                  <author>
+                     <persName>
+                        <forename>Ernst II. von</forename>
+                        <surname>Sachsen-Gotha und Altenburg</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="ISO-489">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich</forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1789-12-24"
+                            when="1789-12-24"
+                            where="#orgplc-489">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1789-12-24">1789, Dez. 24</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName type="Abfassungsort" xml:id="orgplc-489">Gotha</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">489</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-24T18:01:19.114+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

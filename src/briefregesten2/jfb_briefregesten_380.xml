@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Joseph Banks teilt Blumenbach mit, er könne ihm zu einem späteren Zeitpunkt vermutlich Originale menschlicher Schädel aus dem Pazifikraum beschaffen, und fragt nach, ob Blumenbach dennoch die Anfertigung von Gipsabgüssen oder Zeichnungen von in England bereits vorhandenen Schädeln wünsche. </title>
+            <author>
+               <persName>
+                  <forename>Joseph</forename>
+                  <surname>Banks</surname>
+               </persName>
+            </author>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                    <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="RegNr">380</idno>
+               <idno type="URLXML">jfb_briefregesten_380.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="Überlieferung">Or. verloren; überliefert als unvollst. Entwurf in London, British Library, Add MS 8096, fol. 384r-v. </note>
+            <note type="Drucke">
+               <bibl>Dougherty, <emph>
+                                    <emph>Commercium epistolicum</emph>
+                                </emph> (1984), S. 116 [als Teil von Kat Nr. 134] (mit Abb. auf S. 115); vgl. ausführl. Regest in Dawson, <emph>The Banks Letters</emph> (1958), S 110 Nr. 3 (Klammerzusatz).</bibl>
+               <title level="m" type="bibl">
+                                    Commercium epistolicum
+                                </title>
+               <title level="m" type="bibl">The Banks Letters</title>
+            </note>
+            <note type="Edition">
+               <bibl>
+                  <edition>Dougherty, <emph>Corresp.</emph> III, S. 119 Nr. 0471.</edition>
+               </bibl>
+               <title level="m" type="bibl">Corresp.</title>
+            </note>
+            <note type="ref" xml:id="item_d1e36690">
+               <ref type="pdf"
+                    target="http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=137"/>
+               <rs type="pdf">Corresp. III, S. 119 Nr. 0471 </rs>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="brief"/>
+            <biblFull>
+               <titleStmt>
+                  <title type="source">Joseph Banks teilt Blumenbach mit, er könne ihm zu einem späteren Zeitpunkt vermutlich Originale menschlicher Schädel aus dem Pazifikraum beschaffen, und fragt nach, ob Blumenbach dennoch die Anfertigung von Gipsabgüssen oder Zeichnungen von in England bereits vorhandenen Schädeln wünsche. </title>
+                  <author>
+                     <persName>
+                        <forename>Joseph</forename>
+                        <surname>Banks</surname>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <name/>
+                  </publisher>
+                  <pubPlace/>
+                  <date type="publication"/>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <typeDesc>
+                     <p/>
+                  </typeDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <calendarDesc>
+            <calendar xml:id="ISO-380">
+               <p>ISO 8601 calendar</p>
+            </calendar>
+         </calendarDesc>
+         <creation>
+            <persName resp="emp">
+               <forename>Johann Friedrich</forename>
+               <surname>Blumenbach</surname>
+            </persName>
+            <origDate>
+               <note type="Abfassungsevent">
+                  <listEvent>
+                     <event type="iso-origin"
+                            datingMethod="#ISO"
+                            sortKey="1787-08-24"
+                            when="1787-08-24"
+                            where="#orgplc-380">
+                        <label>Abfassungsdatum</label>
+                        <note type="Abfassungsdatum">
+                           <date when="1787-08-24">1787, Aug. 24</date>
+                        </note>
+                     </event>
+                  </listEvent>
+               </note>
+            </origDate>
+            <placeName type="Abfassungsort" xml:id="orgplc-380">London</placeName>
+         </creation>
+         <textClass>
+            <classCode scheme="RegNr">380</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                   Wissenschaften zu Göttingen
+                   CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-02-24T18:01:19.114+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
