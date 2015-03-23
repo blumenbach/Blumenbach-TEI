@@ -18,8 +18,15 @@
                        <title type="main"><xsl:value-of select="bibl/note[@type='title']/title"/></title>  
                 <author>
                     <persName>
-                           <forename><xsl:value-of select="bibl/respStmt/persName[@resp='abs']/forename"/></forename>
-                           <surname><xsl:value-of select="bibl/respStmt/persName[@resp='abs']/surname"/></surname>
+                            <xsl:choose>
+                            <xsl:when test="bibl/respStmt/persName[@resp='abs']/forename or bibl/respStmt/persName[@resp='abs']/surname" >
+                                <forename><xsl:value-of select="bibl/respStmt/persName[@resp='abs']/forename"/></forename>
+                                <surname><xsl:value-of select="bibl/respStmt/persName[@resp='abs']/surname"/></surname>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="bibl/respStmt/persName[@resp='abs']"/>  
+                            </xsl:otherwise>    
+                            </xsl:choose>                          
                     </persName>
                 </author>
                 <respStmt>

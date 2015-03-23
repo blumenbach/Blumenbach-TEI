@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:so="http://standoff.proposal"
+     xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Elements of physiology</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                                        <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">00075.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="anm">1828 in London erschienen, trägt den Titel</note>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000073_001/00073_001.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000073_002/00073_002.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000073/000073_001.html</ref>
+            </note>
+            <note type="ref">
+               <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000073/000073_002.html</ref>
+            </note>
+            <relatedItem xml:id="relatedItem_d1e6861">
+               <biblStruct>
+                  <monogr>
+                     <title level="j" type="main">GAgS</title>
+                     <imprint>
+                        <publisher/>
+                        <pubPlace/>
+                        <date/>
+                     </imprint>
+                     <biblScope>1798 (122. Stück, 2. August)</biblScope>
+                  </monogr>
+                  <citedRange>S. 1214-1215; „Philadelphia“</citedRange>
+                  <ref type="bibl">396</ref>
+                  <note>Angezeigt von Blumenbach in</note>
+               </biblStruct>
+            </relatedItem>
+            <relatedItem xml:id="relatedItem_d1e6880">
+               <biblStruct>
+                  <monogr>
+                     <title level="j" type="main">GgA</title>
+                     <imprint>
+                        <publisher/>
+                        <pubPlace/>
+                        <date/>
+                     </imprint>
+                     <biblScope>1818 (172. Stück, 26. Oktober)</biblScope>
+                  </monogr>
+                  <citedRange>S. 1713-1715; „London“</citedRange>
+                  <ref type="bibl">584</ref>
+                  <note>Erwähnt von Blumenbach in</note>
+               </biblStruct>
+            </relatedItem>
+            <relatedItem xml:id="relatedItem_d1e6899">
+               <biblStruct/>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m" type="main">Elements of physiology</title>
+                  <title level="m" type="aut">Jo. Fred. Blumenbach.</title>
+                  <title level="m" type="ed">translated from the original Latin, and interspersed with occasional notes by Charles Caldwell: to which is subjoined, by the translator, an appendix, exhibiting a brief and compendious view of the existing discoveries relative to the subject of animal electricity.</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+                  </author>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf"/>
+                  </editor>
+                  <imprint>
+                     <publisher>
+                        <name>Printed by Thomas Dobson</name>
+                     </publisher>
+                     <pubPlace>Philadelphia, [Pa.]</pubPlace>
+                     <date type="publication">M.DCC.XCV</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <msDesc>
+               <msIdentifier>
+                  <repository>SUB Göttingen</repository>
+                  <idno>8 ZOOL XIII, 4183:1. Titelblatt von Bd. 2 fehlt.</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>2 Bde. in 1 Bd. (XVI, 229 S.<dimensions>
+                              <dim>[1] Bl., 247 S.); 21 cm (8°).</dim>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <certainty locus="location">
+                              <desc/>
+                           </certainty>
+                        </source>
+                     </recordHist>
+                     <note>
+                        <p/>
+                     </note>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <textDesc>
+            <channel mode="w"/>
+            <constitution type="single"/>
+            <derivation/>
+            <domain type="academic"/>
+            <factuality/>
+            <interaction/>
+            <preparedness/>
+            <purpose/>
+         </textDesc>
+         <textClass>
+            <classCode scheme="BiblNr">00073</classCode>
+            <classCode scheme="cat">
+               <idno>I</idno>Selbständig erschienene Werke</classCode>
+            <classCode scheme="cat">
+               <idno>I.5</idno>Institutiones Physiologicae</classCode>
+            <classCode scheme="cat">
+               <idno>I.5.2</idno>Übersetzungen</classCode>
+            <classCode scheme="cat">
+               <idno>I.5.2.2</idno>English</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                                    Wissenschaften zu Göttingen
+                                    CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-03-15T19:19:30.691+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <so:stdf>
+      <so:annotations>
+         <spanGrp/>
+      </so:annotations>
+   </so:stdf>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

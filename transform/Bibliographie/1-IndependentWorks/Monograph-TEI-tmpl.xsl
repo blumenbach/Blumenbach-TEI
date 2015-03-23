@@ -7,10 +7,11 @@
     <xsl:template match="/">
         <xsl:for-each select="Bibliographie-1/biblStruct">
             <saxon:assign name="count" select="$count+1"/>
-            <xsl:variable name="filename" select="concat($count,'.xml')" />
+            <xsl:variable name="filename" select="concat(format-number($count, '00000'),'.xml')" />
             <xsl:value-of select="$filename" />  
-            <xsl:result-document href="{$filename}">    
-                <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+            <xsl:result-document href="{$filename}">
+                <xsl:processing-instruction name='xml-model'>href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"</xsl:processing-instruction>                
+                <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE" xmlns:so="http://standoff.proposal">
                     <teiHeader>
                         <fileDesc>
                             <titleStmt><title type="main">
@@ -140,7 +141,7 @@
                                                     <ref><note><xsl:value-of select="./ref/note"/></note> </ref>
                                                 </xsl:if>
                                                 <xsl:if test="./reference">
-                                                <rs type="bibl"><xsl:value-of select="./reference"/></rs> 
+                                                <ref type="bibl"><xsl:value-of select="./reference"/></ref> 
                                                 </xsl:if>    
                                                 <xsl:if test="note">
                                                     <xsl:for-each select="note">
@@ -188,7 +189,7 @@
                                                                 <xsl:if test="./ref/note">
                                                                     <ref><note><xsl:value-of select="./ref/note"/></note></ref> 
                                                                 </xsl:if> 
-                                                                <rs type="bibl"><xsl:value-of select="./reference"/></rs>                      
+                                                                <ref type="bibl"><xsl:value-of select="./reference"/></ref>                      
                                                                 <xsl:if test="note">
                                                                     <xsl:for-each select="note">
                                                                         <note><xsl:value-of select="."/></note>  
@@ -205,15 +206,17 @@
                             </notesStmt>
                         <sourceDesc>
                            <biblStruct>
+                               <xsl:choose>
+                               <xsl:when test="./title[@level='m']">   
                                <monogr>                                   
-                                   <xsl:if test="./title[@type='main'] and ./title[@level='m']"><title level="m" type="main"><xsl:value-of select="./title[@type='main']"/></title></xsl:if>                                  
-                                   <xsl:if test="./title[@type='sub'] and ./title[@level='m']">
+                                   <title level="m" type="main"><xsl:value-of select="./title[@level='m']"/></title>                                  
+                                   <xsl:if test="./title[@type='sub']">
                                        <xsl:for-each select="title[@type='sub']">
                                             <title level="m" type="sub"><xsl:value-of select=".[@type='sub']"/></title>
                                        </xsl:for-each>
                                    </xsl:if>                                                              
-                                   <xsl:if test="./title[@type='aut'] and ./title[@level='m']"><title level="m" type="aut"><xsl:value-of select="./title[@type='aut']"/></title></xsl:if>                        
-                                   <xsl:if test="./title[@type='ed'] and ./title[@level='m']"><title level="m" type="ed"><xsl:value-of select="./title[@type='ed']"/></title></xsl:if>                                    
+                                   <xsl:if test="./title[@type='aut']"><title level="m" type="aut"><xsl:value-of select="./title[@type='aut']"/></title></xsl:if>                        
+                                   <xsl:if test="./title[@type='ed']"><title level="m" type="ed"><xsl:value-of select="./title[@type='ed']"/></title></xsl:if>                                    
                                    <author>
                                        <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                                    </author>
@@ -229,14 +232,73 @@
                                         <persName ref="http://viaf.org/viaf"><xsl:value-of select="editor"/></persName>
                                    </editor>   
                                    </xsl:otherwise>    
-                                   </xsl:choose>   
-
+                                   </xsl:choose>
                                 <imprint>
                                     <publisher><name><xsl:value-of select="publisher"/></name></publisher>
                                     <pubPlace><xsl:value-of select="pubPlace"/></pubPlace>
-                                    <date type="publication"><xsl:value-of select="date"/></date>
+                                    <date type="publication" when="{date/@when}"><xsl:value-of select="date"/></date>
                                 </imprint>
+                               <xsl:if test="./biblScope">
+                               <biblScope>
+                                <xsl:value-of select="biblScope"/>   
+                               </biblScope>
+                               </xsl:if>                                   
                                </monogr>
+                               </xsl:when>
+                               <xsl:otherwise>
+                                <analytic>
+                                  <title level="a" type="main"><xsl:value-of select="./title[@level='a']"/></title>
+                                   <author>
+                                       <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+                                   </author>  
+                                </analytic>
+                                <monogr>                                   
+                                   <xsl:if test="./title[@level='j']"><title level="j"><xsl:value-of select="./title[@level='j']"/></title></xsl:if>
+                                    <xsl:if test="./title[@level='ma']"><title level="ma"><xsl:value-of select="./title[@level='ma']"/></title></xsl:if>
+                                   <xsl:if test="./title[@type='sub']">
+                                       <xsl:for-each select="title[@type='sub']">
+                                            <title level="m" type="sub"><xsl:value-of select=".[@type='sub']"/></title>
+                                       </xsl:for-each>
+                                   </xsl:if>                                                              
+                                   <xsl:if test="./title[@type='aut']"><title level="m" type="aut"><xsl:value-of select="./title[@type='aut']"/></title></xsl:if>                        
+                                   <xsl:if test="./title[@type='ed']"><title level="m" type="ed"><xsl:value-of select="./title[@type='ed']"/></title></xsl:if>                                    
+
+                                   <xsl:if test="./edition"><edition><xsl:value-of select="./edition"/></edition></xsl:if>
+                                   <xsl:choose>
+                                   <xsl:when test="./editor[@role='translator']">
+                                   <editor role="translator">
+                                        <persName ref="http://viaf.org/viaf"><xsl:value-of select="editor"/></persName>
+                                   </editor>
+                                   </xsl:when>
+                                   <xsl:otherwise>
+                                   <editor>
+                                        <persName ref="http://viaf.org/viaf"><xsl:value-of select="editor"/></persName>
+                                   </editor>   
+                                   </xsl:otherwise>    
+                                   </xsl:choose>
+                                <imprint>
+                                    <publisher><name><xsl:value-of select="publisher"/></name></publisher>
+                                    <pubPlace><xsl:value-of select="pubPlace"/></pubPlace>
+                                    <date type="publication" when="{date/@when}"><xsl:value-of select="date"/></date>
+                                </imprint>
+                               <xsl:if test="./biblScope">
+                               <biblScope>
+                                <xsl:value-of select="biblScope"/>   
+                               </biblScope>
+                               </xsl:if>    
+                               </monogr>   
+                               </xsl:otherwise>    
+                               </xsl:choose>
+                               <xsl:if test="./title[@level='s']"> 
+                               <series>
+                                <xsl:value-of select="title[@level='s']"/>                                   
+                               </series>
+                               </xsl:if>
+                               <xsl:if test="./citedRange">
+                               <citedRange>
+                                <xsl:value-of select="citedRange"/>   
+                               </citedRange>
+                               </xsl:if>    
                             </biblStruct>    
                             <msDesc>
                                 <msIdentifier>
@@ -319,6 +381,32 @@
                             <change who="#BjfbO">Erstellungsdatum: <xsl:value-of select="current-dateTime()"/></change>
                         </revisionDesc>                        
                     </teiHeader>
+                    <so:stdf>
+		              <so:annotations>
+		                  <spanGrp>
+		                  <xsl:for-each select="annotations/node()/text()">
+		                      <span>
+		                          <xsl:attribute name="type">
+		                              <xsl:value-of select ="../name()"/>
+		                          </xsl:attribute>
+		                          <xsl:choose>
+    		                          <xsl:when test="../name() = 'title'">
+        		                          <xsl:attribute name="style">
+        		                              <xsl:value-of select ="../@level"/>
+        		                          </xsl:attribute>
+    		                           <xsl:value-of select="."/>
+    		                          </xsl:when>
+    		                          <xsl:when test="../name() = 'reference'">
+    		                           <xsl:value-of select="format-number(number(.), '00000')"/>
+    		                          </xsl:when>		                              
+		                              <xsl:otherwise>
+		                               <xsl:value-of select="."/>  
+		                              </xsl:otherwise>		                              
+		                          </xsl:choose>&#160;</span>
+		                  </xsl:for-each>
+		                   </spanGrp>   
+		              </so:annotations>
+                    </so:stdf>    
                     <text>
                         <body>
                             <p></p>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:so="http://standoff.proposal"
+     xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">*Ueber die Zauberkraft der Klapperschlange; besonders in Rücksicht einer Schrift des Hrn. Dr. Barton</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                                        <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">00131.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="anm">:Hauptbd. London, British Library: B.641.(9.)</note>
+            <relatedItem xml:id="relatedItem_d1e12013">
+               <biblStruct>
+                  <monogr>
+                     <title level="j" type="main">Magazin für den neuesten Zustand der Naturkunde, mit Rücksicht auf die dazu gehörigen Hülfswissenschaften</title>
+                     <imprint>
+                        <publisher/>
+                        <pubPlace/>
+                        <date/>
+                     </imprint>
+                     <biblScope>Bd. 1, 2. Stück (1798)</biblScope>
+                  </monogr>
+                  <citedRange>S. 37-47</citedRange>
+                  <ref type="bibl">837</ref>
+                  <note>Ausschnitt oder Sonderdruck des Beitrags „III. Ueber die Zauberkraft der Klapperschlange</note>
+                  <note>besonders in Rücksicht einer Schrift des Hrn. Dr. Barton *)“ aus</note>
+               </biblStruct>
+            </relatedItem>
+            <relatedItem xml:id="relatedItem_d1e12035">
+               <biblStruct>
+                  <monogr>
+                     <title level="j" type="main">A memoir concerning the fascinating faculty which has been ascribed to the rattle-snake, and other American serpents/ by Benjamin Smith Barton</title>
+                     <imprint>
+                        <publisher/>
+                        <pubPlace/>
+                        <date/>
+                     </imprint>
+                     <biblScope/>
+                  </monogr>
+                  <note>Entgegnung Blumenbachs auf die Schrift</note>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m" type="main">*Ueber die Zauberkraft der Klapperschlange; besonders in Rücksicht einer Schrift des Hrn. Dr. Barton</title>
+                  <title level="m" type="aut">[J. F. Blumenbach].</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+                  </author>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf"/>
+                  </editor>
+                  <imprint>
+                     <publisher>
+                        <name/>
+                     </publisher>
+                     <pubPlace>Gottingen</pubPlace>
+                     <date type="publication">1797?</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <msDesc>
+               <msIdentifier>
+                  <repository>SUB Göttingen</repository>
+                  <idno>8 ZOOL IX, 920</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>11 S.<dimensions>
+                              <dim/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <certainty locus="location">
+                              <desc/>
+                           </certainty>
+                        </source>
+                     </recordHist>
+                     <note>
+                        <p/>
+                     </note>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <textDesc>
+            <channel mode="w"/>
+            <constitution type="single"/>
+            <derivation/>
+            <domain type="academic"/>
+            <factuality/>
+            <interaction/>
+            <preparedness/>
+            <purpose/>
+         </textDesc>
+         <textClass>
+            <classCode scheme="BiblNr">00128</classCode>
+            <classCode scheme="cat">
+               <idno>I</idno>Selbständig erschienene Werke</classCode>
+            <classCode scheme="cat">
+               <idno>I.9</idno>Kleinere Schriften</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                                    Wissenschaften zu Göttingen
+                                    CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-03-15T19:19:30.691+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <so:stdf>
+      <so:annotations>
+         <spanGrp/>
+      </so:annotations>
+   </so:stdf>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

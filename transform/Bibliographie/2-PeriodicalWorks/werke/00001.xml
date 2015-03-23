@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:so="http://standoff.proposal"
+     xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">*De generis humani varietate nativa</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                                        <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">00001.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="ref">
+               <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000001/000001.html</ref>
+            </note>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000001/00001.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="html">http://diglib.hab.de/drucke/mc-15/start.htm</ref>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m" type="main">*De generis humani varietate nativa</title>
+                  <title level="m" type="sub">illustris facultatis medicae consensu pro gradu doctoris medicinae disputavit d. XVI. Sept. MDCCLXXV</title>
+                  <title level="m" type="aut">Ioann. Frider. Blumenbach Gothanus</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+                  </author>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf"/>
+                  </editor>
+                  <imprint>
+                     <publisher>
+                        <name>Typis Frid. Andr. Rosenbuschii</name>
+                     </publisher>
+                     <pubPlace>Goettingae</pubPlace>
+                     <date type="publication" when="1775-01-01">[1775]</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Herzog August Bibliothek Wolfenbüttel</repository>
+                  <idno>M: Mc 15</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>[1] Bl., 100 S., [1], [2] Bl.: 2 Ill. (Kupferst.)<dimensions>
+                              <dim>22 cm (8°)</dim>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <certainty locus="location">
+                              <desc>no autopsy</desc>
+                           </certainty>
+                        </source>
+                     </recordHist>
+                     <note>
+                        <p/>
+                     </note>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <textDesc>
+            <channel mode="w"/>
+            <constitution type="single"/>
+            <derivation/>
+            <domain type="academic"/>
+            <factuality/>
+            <interaction/>
+            <preparedness/>
+            <purpose/>
+         </textDesc>
+         <textClass>
+            <classCode scheme="BiblNr">00001</classCode>
+            <classCode scheme="cat">
+               <idno>I</idno>Selbständig erschienene Werke</classCode>
+            <classCode scheme="cat">
+               <idno>I.1</idno>De Generis Humani Varietate</classCode>
+            <classCode scheme="cat">
+               <idno>I.1.1</idno>Originalausgaben</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                                    Wissenschaften zu Göttingen
+                                    CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-03-22T17:39:44.388+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <so:stdf>
+      <so:annotations>
+         <spanGrp>
+            <span type="note">Tafeln gestochen von J. P. Kaltenhofer </span>
+            <span type="note">Hier handelt es sich vermutlich um ein Exemplar der Version, die Blumenbach für sein Prüfungsverfahren eingereicht hat und die nicht für die öffentliche Zirkulation gedacht war </span>
+            <span type="note">Blumenbach selbst hat sie nicht in seine Ausgaben zählung einbezogen </span>
+            <span type="note">Als erste Ausgabe gilt diejenige, die 1776 in Göttingen bei Vandenhoeck erschien </span>
+            <span type="reference">00002 </span>
+         </spanGrp>
+      </so:annotations>
+   </so:stdf>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

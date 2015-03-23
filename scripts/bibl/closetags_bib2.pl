@@ -3,7 +3,7 @@
 my $empty_tags = qr{<(tr|br|td)>\s*</\1>};
 
 
-open(FILE, "../../transform/Bibliographie/1-IndependentWorks/7-Handbuch der vergleichenden Anatomie 101-110.xml");
+open(FILE, "../../transform/Bibliographie/2-PeriodicalWorks/4-Veröffentlichungen in weiteren gelehrten Zeitschriften 655-999.xml");
 @lines = <FILE>;
 close(FILE);
 
@@ -48,7 +48,7 @@ $bi = "</biblScope>\n";
 $content =~ s/(<biblScope>)[\s]*(.+?)[\r\n\s\t]*(<)/$1$2$bi$3/sg;
 $ci = "</citedRange>\n";
 $content =~ s/(<citedRange>)[\s]*(.+?)[\r\n\s\t]*(<)/$1$2$ci$3/sg;
-$sro = "<monogr><title type=\"main\" level=\"j\">";
+$sro = "<title type=\"main\" level=\"j\">";
 $src = "</title>\n";
 $content =~ s/(<seriesStmt>)[\s]*(.+?)[\r\n\s\t]*(<)/$sro$2$src$3/sg;
 $ed = "</edition>\n";

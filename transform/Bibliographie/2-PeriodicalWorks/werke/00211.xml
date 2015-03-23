@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:so="http://standoff.proposal"
+     xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Überschrift: Praefatio.</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                                        <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">00211.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000201/00201.pdf</ref>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title level="a" type="main">Überschrift: Praefatio.</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title level="j">Commentationes Societatis Regiae Scientiarum Gottingensis recentiores</title>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf"/>
+                  </editor>
+                  <imprint>
+                     <publisher>
+                        <name>Dieterich</name>
+                     </publisher>
+                     <pubPlace>Gottingae</pubPlace>
+                     <date type="publication" when="1823-01-01">1823</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <msDesc>
+               <msIdentifier>
+                  <repository>SUB Göttingen</repository>
+                  <idno>4 PHYS MATH IV, 357</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>Bd. V (1823), S. III-XX.<dimensions>
+                              <dim/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <certainty locus="location">
+                              <desc/>
+                           </certainty>
+                        </source>
+                     </recordHist>
+                     <note>
+                        <p/>
+                     </note>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <textDesc>
+            <channel mode="w"/>
+            <constitution type="single"/>
+            <derivation/>
+            <domain type="academic"/>
+            <factuality/>
+            <interaction/>
+            <preparedness/>
+            <purpose/>
+         </textDesc>
+         <textClass>
+            <classCode scheme="BiblNr">00201</classCode>
+            <classCode scheme="cat">
+               <idno>II</idno>Unselbständig erschienene Werke</classCode>
+            <classCode scheme="cat">
+               <idno>II.3</idno>Publikationsorgane der Königlichen Gesellschaft der Wissenschaften zu Göttingen</classCode>
+            <classCode scheme="cat">
+               <idno>II.3.1.2</idno>Commentationes Societatis Regiae Scientiarum Gottingensis recentiores</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                                    Wissenschaften zu Göttingen
+                                    CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-03-22T17:39:44.388+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <so:stdf>
+      <so:annotations>
+         <spanGrp>
+            <span type="note">Blumenbachs Anzeige des Bandes in </span>
+            <span type="title" style="j">GgA </span>
+            <span type="biblScope">1823 (132. Stück, 18. August) </span>
+            <span type="citedRange">S. 1313-1315 „Göttingen“ </span>
+            <span type="reference">00611 </span>
+         </spanGrp>
+      </so:annotations>
+   </so:stdf>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

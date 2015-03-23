@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:so="http://standoff.proposal"
+     xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Überschrift: Göttingen.</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                                        <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">00325.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000315/00315.pdf</ref>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title level="a" type="main">Überschrift: Göttingen.</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title level="j">Göttingische Anzeigen von gelehrten Sachen [GAgS]</title>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf"/>
+                  </editor>
+                  <imprint>
+                     <publisher>
+                        <name>Dieterich</name>
+                     </publisher>
+                     <pubPlace>Göttingen</pubPlace>
+                     <date type="publication" when="1789-01-01">1789, 1. Januar</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <msDesc>
+               <msIdentifier>
+                  <repository>SUB Göttingen</repository>
+                  <idno>8 EPH LIT 1607</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>1789 (1. Stück, 1. Januar), S. 1-2.<dimensions>
+                              <dim/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <certainty locus="location">
+                              <desc/>
+                           </certainty>
+                        </source>
+                     </recordHist>
+                     <note>
+                        <p/>
+                     </note>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <textDesc>
+            <channel mode="w"/>
+            <constitution type="single"/>
+            <derivation/>
+            <domain type="academic"/>
+            <factuality/>
+            <interaction/>
+            <preparedness/>
+            <purpose/>
+         </textDesc>
+         <textClass>
+            <classCode scheme="BiblNr">00315</classCode>
+            <classCode scheme="cat">
+               <idno>II.3</idno>Publikationsorgane der Königlichen Gesellschaft der Wissenschaften zu Göttingen</classCode>
+            <classCode scheme="cat">
+               <idno>II.3.2.1</idno>Göttingische Anzeigen von gelehrten Sachen</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                                    Wissenschaften zu Göttingen
+                                    CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-03-22T17:39:44.388+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <so:stdf>
+      <so:annotations>
+         <spanGrp>
+            <span type="note">Blumenbachs Bericht zu einem ihm von Peter Camper übersandten Nachtrag zu seiner Abhandlung über „die Verwandlung der jungen surinamischen Kröten, die auf dem Rücken ihrer Mutter ausgeheckt werden (Rana pipa)“, den er der Societät vorlegt: „Supplementum“, in </span>
+            <span type="title" style="j">Commentationes Societatis Regiae Scientiarum Gottingensis </span>
+            <span type="biblScope">Bd. IX (1789), Phys., S. 134-135. </span>
+            <span type="note">Bericht von der Vorlage von Campers Abhandlung durch Blumenbach vor der Societät siehe </span>
+            <span type="title" style="j">GAgS </span>
+            <span type="extent"> 1784 (156. Stück, 27. September), S. 1553-1555; „Göttingen“ </span>
+            <span type="date">1784, 27. September </span>
+            <span type="reference">00256 </span>
+         </spanGrp>
+      </so:annotations>
+   </so:stdf>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

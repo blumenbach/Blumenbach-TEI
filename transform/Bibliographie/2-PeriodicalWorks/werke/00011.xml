@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:so="http://standoff.proposal"
+     xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">On the natural varieties of mankind. De generis humani varietate nativa</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                                        <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">00011.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000011/00011.pdf</ref>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m" type="main">On the natural varieties of mankind. De generis humani varietate nativa Translated and edited from the Latin, German, and French originals, by Thomas Bendyshe.</title>
+                  <title level="m" type="ed">Translated and edited from the Latin, German, and French originals, by Thomas Bendyshe.</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+                  </author>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf"/>
+                  </editor>
+                  <imprint>
+                     <publisher>
+                        <name>Bergman Publishers</name>
+                     </publisher>
+                     <pubPlace>New York</pubPlace>
+                     <date type="publication" when="1969-01-01">[1969]</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Washington (DC), Library of Congress</repository>
+                  <idno>GN34 .B58 1969</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>XIV, 406 S. : Ill.<dimensions>
+                              <dim>24 cm (8°)</dim>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <certainty locus="location">
+                              <desc/>
+                           </certainty>
+                        </source>
+                     </recordHist>
+                     <note>
+                        <p/>
+                     </note>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <textDesc>
+            <channel mode="w"/>
+            <constitution type="single"/>
+            <derivation/>
+            <domain type="academic"/>
+            <factuality/>
+            <interaction/>
+            <preparedness/>
+            <purpose/>
+         </textDesc>
+         <textClass>
+            <classCode scheme="BiblNr">00011</classCode>
+            <classCode scheme="cat">
+               <idno>I</idno>Selbständig erschienene Werke</classCode>
+            <classCode scheme="cat">
+               <idno>I.1</idno>De Generis Humani Varietate</classCode>
+            <classCode scheme="cat">
+               <idno>I.1.2</idno>Übersetzungen</classCode>
+            <classCode scheme="cat">
+               <idno>I.1.2.2</idno>Englisch</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                                    Wissenschaften zu Göttingen
+                                    CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-03-22T17:39:44.388+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <so:stdf>
+      <so:annotations>
+         <spanGrp>
+            <span type="note">Nachdruck der Ausgabe </span>
+            <span type="title" style="m">The anthropological treatises of Johann Friedrich Blumenbach </span>
+            <span type="title" style="">with memoirs of him by Marx and Flourens, and an account of his anthropological museum by </span>
+            <span type="title" style="">R. Wagner, and the inaugural dissertation of John Hunter... on the varieties of man </span>
+            <span type="title" style="">Translated and edited from the Latin, German, and French originals, by Thomas Bendyshe </span>
+            <span type="editor">Thomas Bendyshe </span>
+            <span type="pubPlace">London </span>
+            <span type="publisher">Longman, Green, Longman, Roberts, and Green </span>
+            <span type="date">1865 </span>
+            <span type="reference">00010 </span>
+            <span type="note">Auszug aus Abschnitt 3 </span>
+            <span type="title" style="m">„On the natural variety of mankind“ </span>
+            <span type="title" style="m">ed. 1775 </span>
+            <span type="biblScope">S. 98-113 </span>
+            <span type="note">abgedruckt als in </span>
+            <span type="title" style="a">„On the Natural Varieties of Mankind“ </span>
+            <span type="title" style="m">[Lit.] Race, racism, and science: social impact and interaction </span>
+            <span type="title" style="m">John P. Jackson and Nadine M. Weidman </span>
+            <span type="pubPlace">New Brunswick, NJ </span>
+            <span type="publisher">Rutgers Univ. Press </span>
+            <span type="date">2006 </span>
+            <span type="biblScope">S. 256-268 </span>
+         </spanGrp>
+      </so:annotations>
+   </so:stdf>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
