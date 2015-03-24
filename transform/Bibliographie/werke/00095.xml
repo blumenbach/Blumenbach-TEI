@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:so="http://standoff.proposal"
+     xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">decas altera collectionis suae craniorum diversarum gentium illustrata.</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                                        <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">00095.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000093/00093.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000093/000093.html</ref>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m" type="main">decas altera collectionis suae craniorum diversarum gentium illustrata.</title>
+                  <title level="m" type="aut">Jo. Frid. Blumenbachii</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+                  </author>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf"/>
+                  </editor>
+                  <imprint>
+                     <publisher>
+                        <name>Apud Joann. Christ. Dieterich</name>
+                     </publisher>
+                     <pubPlace>Gottingae</pubPlace>
+                     <date type="publication" when="1793-01-01">MDCCXCIII</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <msDesc>
+               <msIdentifier>
+                  <repository>SUB Göttingen</repository>
+                  <idno>4 ZOOL XII, 1590 2</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>15 S., X gef. Bl.: 10 Ill. (Kupferst.) <dimensions>
+                              <dim>26 cm (4°).</dim>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <certainty locus="location">
+                              <desc/>
+                           </certainty>
+                        </source>
+                     </recordHist>
+                     <note>
+                        <p/>
+                     </note>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <textDesc>
+            <channel mode="w"/>
+            <constitution type="single"/>
+            <derivation/>
+            <domain type="academic"/>
+            <factuality/>
+            <interaction/>
+            <preparedness/>
+            <purpose/>
+         </textDesc>
+         <textClass>
+            <classCode scheme="BiblNr">00093</classCode>
+            <classCode scheme="cat">
+               <idno>I</idno>Selbständig erschienene Werke</classCode>
+            <classCode scheme="cat">
+               <idno>I.6</idno>Decades Collectionis Suae Craniorum</classCode>
+            <classCode scheme="cat">
+               <idno>I.6.1</idno>Originalausgaben</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                                    Wissenschaften zu Göttingen
+                                    CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-03-24T17:28:22.382+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <so:stdf>
+      <so:annotations>
+         <spanGrp>
+            <span type="note">Sonderdruck des Beitrags „Jo. Frid. Blumenbachii decas altera collectionis suae craniorum diversarum gentium illustrata. d. II. Febr. MDCCXCIII“ in </span>
+            <span type="title" style="j">Commentationes Societatis Regiae Scientiarum Gottingensis </span>
+            <span type="biblScope">Bd. XI (1793), Phys., S. 59-71 </span>
+            <span type="reference">00186 </span>
+            <span type="note">Angezeigt von Blumenbach in </span>
+            <span type="title" style="j">GAgS </span>
+            <span type="biblScope">1793 (126. Stück, 10. August), S. 1257-1258; „Göttingen“ </span>
+            <span type="reference">00353 </span>
+            <span type="note">Mögl. zweite Auflage Göttingen : Dieterich, 1820 (Universitäts- und Forschungsbibliothek Erfurt/ Gotha: N 4º 00282 (02)). </span>
+            <span type="note">Enthält Erläuterungen und Abbildungen zu folgenden Schädeln </span>
+            <span type="citedRange">S. 3 </span>
+            <span type="note">[Vorbemerkung] </span>
+            <span type="citedRange">S. 3-5 </span>
+            <span type="note">XI. Cingari genuini. (Tab. XI.) </span>
+            <span type="citedRange">S. 5-8 </span>
+            <span type="note">XII. Tatari casanensis. (Tab. XII.) </span>
+            <span type="citedRange">S. 8 </span>
+            <span type="note">XIII. Kirgisae - Caisacci. (Tab. XIII.) </span>
+            <span type="citedRange">S. 9-10 </span>
+            <span type="note">XIV. Calmucci secundi.(Tab. XIV.) </span>
+            <span type="citedRange">S. 10-11 </span>
+            <span type="note">XV. Iacutae. (Tab. XV.) </span>
+            <span type="citedRange">S. 11-12 </span>
+            <span type="note">XVI. Tungusae. (Tab. XVI.) </span>
+            <span type="citedRange">S. 13-14 </span>
+            <span type="note">XVII. Aethiopis quarti. (Tab. XVII.) </span>
+            <span type="note">XVIII. Aethiopis quinti Congenis. (Tab. XVIII.) </span>
+            <span type="note">XIX. Aethiopissae Guineesis. (Tab. XIX.) </span>
+            <span type="citedRange">S. 15 </span>
+            <span type="note">XX. Feminae Caribeae ex insula Sti Vincentii. (Tab. XX.) </span>
+         </spanGrp>
+      </so:annotations>
+   </so:stdf>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

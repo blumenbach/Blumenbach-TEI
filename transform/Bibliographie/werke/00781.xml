@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:so="http://standoff.proposal"
+     xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Überschrift:2. Neueste Nachrichten vom Zustand der Englischen Mission auf Otaheite.</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                                        <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">00781.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2003008/03008.pdf</ref>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title level="a" type="main">Überschrift:2. Neueste Nachrichten vom Zustand der Englischen Mission auf Otaheite.</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title level="j">Allgemeine geographische Ephemeriden / verf. von einer Gesellschaft von Gelehrten</title>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf"/>
+                  </editor>
+                  <imprint>
+                     <publisher>
+                        <name>Verl. d. Industrie-Comptoirs</name>
+                     </publisher>
+                     <pubPlace>Weimar</pubPlace>
+                     <date type="publication" when="1800-10-01">Oktober 1800</date>
+                  </imprint>
+                  <biblScope>Bd. 6, 4. Stück (Oktober 1800), S. 365-368.</biblScope>
+               </monogr>
+            </biblStruct>
+            <msDesc>
+               <msIdentifier>
+                  <repository>SUB Göttingen</repository>
+                  <idno>8 GEOGR 64</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <dimensions>
+                              <dim/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <certainty locus="location">
+                              <desc/>
+                           </certainty>
+                        </source>
+                     </recordHist>
+                     <note>
+                        <p/>
+                     </note>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <textDesc>
+            <channel mode="w"/>
+            <constitution type="single"/>
+            <derivation/>
+            <domain type="academic"/>
+            <factuality/>
+            <interaction/>
+            <preparedness/>
+            <purpose/>
+         </textDesc>
+         <textClass>
+            <classCode scheme="BiblNr">03008</classCode>
+            <classCode scheme="cat">
+               <idno>II</idno>Unselbständig erschienene Werke</classCode>
+            <classCode scheme="cat">
+               <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+            <classCode scheme="cat">
+               <idno>II.4.3</idno>Allgemeine geographische Ephemeriden</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                                    Wissenschaften zu Göttingen
+                                    CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-03-24T17:28:22.382+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <so:stdf>
+      <so:annotations>
+         <spanGrp>
+            <span type="note">Blumenbachs Einleitung und auszugsweise Übersetzung eines Berichts über die Flucht des größten Teils der englischen Missionare auf Tahiti nach Botany Bay (Sidney, Australien) im Jahr 1798 </span>
+            <span type="note">(„Sydney (New South Wales), 1st of September, 1798“ in </span>
+            <span type="title" style="j">The Evangelical Magazine </span>
+            <span type="biblScope">Bd. 7 (1799), S. 421-425 </span>
+            <span type="note"> und Blumenbachs Zusatz mitNachrichten aus dem Jahr 1800 zum möglichen Verbleib einiger Missionare auf Tahiti.Zu Blumenbachs Autorschaft an dem nicht namentlich gekennzeichneten Beitrag vgl. Blumenbachs Brief an Friedrich Justin Bertuch vom </span>
+            <span type="note">12. Sept. 1800 (Dougherty, </span>
+            <span type="title" style="j">Correspondence </span>
+            <span type="biblScope">Bd. 5, S. 510-511 Brief Nr. 1338 </span>
+            <span type="note">mit inkorrekter Identifikation der englischen Vorlage). </span>
+         </spanGrp>
+      </so:annotations>
+   </so:stdf>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

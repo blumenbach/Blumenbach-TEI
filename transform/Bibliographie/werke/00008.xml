@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:so="http://standoff.proposal"
+     xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">über die natürlichen Verschiedenheiten im Menschengeschlechte: mit Kupfern</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                                        <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">00008.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000008/00008.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000008/000008.html</ref>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m" type="main">über die natürlichen Verschiedenheiten im Menschengeschlechte: mit Kupfern Nach der dritten Ausgabe und den Erinnerungen des Verfassers übersetzt und mit einigen Zusätzen und erläuternden Anmerkungen herausgegeben von Johann Gottfried Gruber</title>
+                  <title level="m" type="aut">D. Joh. Friedr. Blumenbach</title>
+                  <title level="m" type="ed">Nach der dritten Ausgabe und den Erinnerungen des Verfassers übersetzt und mit einigen Zusätzen und erläuternden Anmerkungen herausgegeben von Johann Gottfried Gruber</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+                  </author>
+                  <editor role="translator">
+                     <persName ref="http://viaf.org/viaf">Johann Gottfried Gruber</persName>
+                  </editor>
+                  <imprint>
+                     <publisher>
+                        <name>Bey Breitkopf und Härtel</name>
+                     </publisher>
+                     <pubPlace>Leipzig</pubPlace>
+                     <date type="publication" when="1798-01-01">1798</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <msDesc>
+               <msIdentifier>
+                  <repository>SUB Göttingen</repository>
+                  <idno>DD93 A 33965</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>XXXII, 291 S., [3] gef. Bl., 3 Ill. (Kupferst.)<dimensions>
+                              <dim>19 cm (8°)</dim>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <certainty locus="location">
+                              <desc/>
+                           </certainty>
+                        </source>
+                     </recordHist>
+                     <note>
+                        <p/>
+                     </note>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <textDesc>
+            <channel mode="w"/>
+            <constitution type="single"/>
+            <derivation type="translation"/>
+            <domain type="academic"/>
+            <factuality/>
+            <interaction/>
+            <preparedness/>
+            <purpose/>
+         </textDesc>
+         <textClass>
+            <classCode scheme="BiblNr">00008</classCode>
+            <classCode scheme="cat">
+               <idno>I</idno>Selbständig erschienene Werke</classCode>
+            <classCode scheme="cat">
+               <idno>I.1</idno>De Generis Humani Varietate</classCode>
+            <classCode scheme="cat">
+               <idno>I.1.2</idno>Übersetzungen</classCode>
+            <classCode scheme="cat">
+               <idno>I.1.2.1</idno>Deutsch</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                                    Wissenschaften zu Göttingen
+                                    CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-03-24T17:28:22.382+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <so:stdf>
+      <so:annotations>
+         <spanGrp>
+            <span type="note">Widmungsempfänger: Johann Gottfried von Herder </span>
+            <span type="note">Rezensiert von Blumenbach in </span>
+            <span type="title" style="j">Göttingische Anzeigen von gelehrten Sachen </span>
+            <span type="biblScope">1798 (190. Stück 29. November) </span>
+            <span type="citedRange"> S. 1889-1890; „Leipzig“ </span>
+            <span type="reference">00404 </span>
+            <span type="note">Bearbeitete Auszüge in „III. Auszüge aus der Sammlung von Hirnschädeln verschiedener Nationen. </span>
+            <span type="note"> Als Beitrag zur Naturgeschichte der Menschenspecies“, in </span>
+            <span type="title" style="m">[Lit.] Kleine Schriften zur vergleichenden Physiologie und Anatomie und Naturgeschichte gehörig </span>
+            <span type="title" style="m">mit einer Kupfertafel von Joh. Friedr. Blumenbach; </span>
+            <span type="title" style="m">uibersetzt [sic] und herausgegeben von D. Joh. Gottfr. Gruber </span>
+            <span type="pubPlace">Leipzig </span>
+            <span type="publisher">Bei G. Benj. Meissner </span>
+            <span type="date">1800 </span>
+            <span type="reference">00148 </span>
+            <span type="citedRange">S. 143-165 </span>
+            <span type="note">Die geringe Qualität von Grubers Übersetzung wurde schon von Zeitgenossen bemängelt, z. B. in </span>
+            <span type="title" style="j">Neue allgemeine deutsche Bibliothek </span>
+            <span type="biblScope">Bd. 47, 1. St. (1799) </span>
+            <span type="citedRange">S. 314: „Aber vor allen Dingen hätte nur Hr. Gr. richtig übersetzen sollen, [...].“ </span>
+            <span type="note">Siehe auch Kommentar zur 2. Auflage von </span>
+            <span type="title" style="">[Lit.] Johann Friedrich Blumenbachs </span>
+            <span type="title" style="m">kleine Schriften zur vergleichenden Physiologie und Anatomie und zur Naturgeschichte gehörig </span>
+            <span type="title" style="m">mit einem Kupfer aus dem Lateinischen übersezt [sic] von D. J. G. Gruber </span>
+            <span type="edition">Zweite Ausgabe </span>
+            <span type="pubPlace">Leipzig </span>
+            <span type="publisher">In der Sommerschen Buchhandlung </span>
+            <span type="date">1804 </span>
+            <span type="reference">00149 </span>
+         </spanGrp>
+      </so:annotations>
+   </so:stdf>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:so="http://standoff.proposal"
+     xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">*The institutions of physiology</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                                        <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">00080.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000078/00078.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000078/000078.html</ref>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m" type="main">*The institutions of physiology</title>
+                  <title level="m" type="aut">by J. Fred. Blumenbach</title>
+                  <title level="m" type="ed">translated from the Latin of the third and last edition and supplied with copious notes, by John Elliotson,</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+                  </author>
+                  <edition>Third ed., considerably improved</edition>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf"/>
+                  </editor>
+                  <imprint>
+                     <publisher>
+                        <name>Printed for Burgess and Hill</name>
+                     </publisher>
+                     <pubPlace>London [etc.]</pubPlace>
+                     <date type="publication" when="1820-01-01">1820</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Oxford Radcliffe Science Library</repository>
+                  <idno>1662 e.29/1 (Box B000000205630)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>XVI, 465S.<dimensions>
+                              <dim>21 cm (8°).</dim>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <certainty locus="location">
+                              <desc/>
+                           </certainty>
+                        </source>
+                     </recordHist>
+                     <note>
+                        <p/>
+                     </note>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <textDesc>
+            <channel mode="w"/>
+            <constitution type="single"/>
+            <derivation/>
+            <domain type="academic"/>
+            <factuality/>
+            <interaction/>
+            <preparedness/>
+            <purpose/>
+         </textDesc>
+         <textClass>
+            <classCode scheme="BiblNr">00078</classCode>
+            <classCode scheme="cat">
+               <idno>I</idno>Selbständig erschienene Werke</classCode>
+            <classCode scheme="cat">
+               <idno>I.5</idno>Institutiones Physiologicae</classCode>
+            <classCode scheme="cat">
+               <idno>I.5.2</idno>Übersetzungen</classCode>
+            <classCode scheme="cat">
+               <idno>I.5.2.2</idno>English</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                                    Wissenschaften zu Göttingen
+                                    CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-03-24T17:28:22.382+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <so:stdf>
+      <so:annotations>
+         <spanGrp>
+            <span type="note"> Rezensiert von Blumenbach in </span>
+            <span type="title" style="j">GgA </span>
+            <span type="biblScope">1820 (205. Stück 23. Dezember) </span>
+            <span type="citedRange">S. 2043-2044; „London“ </span>
+            <span type="reference">00599 </span>
+            <span type="note">John Elliotsons Übersetzung der 4. Ausgabe ( </span>
+            <span type="title" style="">[Lit.] D. Jo. Frid. Blumenbachii </span>
+            <span type="title" style="m">institutiones physiologicae </span>
+            <span type="title" style="">Editio quarta auctior et emendatior </span>
+            <span type="pubPlace">Gottingae </span>
+            <span type="publisher">Apud Henr. Dieterich </span>
+            <span type="date">MDCCCXXI </span>
+            <span type="reference">00068 </span>
+            <span type="note">erschien 1828 unter dem Titel </span>
+            <span type="title" style="j">The elements of physiology </span>
+            <span type="reference">00079 </span>
+         </spanGrp>
+      </so:annotations>
+   </so:stdf>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

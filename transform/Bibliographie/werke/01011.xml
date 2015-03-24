@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:so="http://standoff.proposal"
+     xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Überschrift:I. Herr Professor Blumenbach an den Herausgeber des Journals.</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                                        <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">01011.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000964/00964.pdf</ref>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title level="a" type="main">Überschrift:I. Herr Professor Blumenbach an den Herausgeber des Journals.</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title level="j">Medicinisches Journal / von E. G. Baldinger</title>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf"/>
+                  </editor>
+                  <imprint>
+                     <publisher>
+                        <name>Dieterich</name>
+                     </publisher>
+                     <pubPlace>Göttingen</pubPlace>
+                     <date type="publication" when="1786-01-01">1786</date>
+                  </imprint>
+                  <biblScope>Bd. 2, 7. Stück (1786), S. 77-78.</biblScope>
+               </monogr>
+            </biblStruct>
+            <msDesc>
+               <msIdentifier>
+                  <repository>SUB Göttingen</repository>
+                  <idno>8 MED EPH 147</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <dimensions>
+                              <dim/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <certainty locus="location">
+                              <desc/>
+                           </certainty>
+                        </source>
+                     </recordHist>
+                     <note>
+                        <p/>
+                     </note>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <textDesc>
+            <channel mode="w"/>
+            <constitution type="single"/>
+            <derivation/>
+            <domain type="academic"/>
+            <factuality/>
+            <interaction/>
+            <preparedness/>
+            <purpose/>
+         </textDesc>
+         <textClass>
+            <classCode scheme="BiblNr">00964</classCode>
+            <classCode scheme="cat">
+               <idno>II</idno>Unselbständig erschienene Werke</classCode>
+            <classCode scheme="cat">
+               <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+            <classCode scheme="cat">
+               <idno>II.4.30</idno>Medicinisches Journal</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                                    Wissenschaften zu Göttingen
+                                    CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-03-24T17:28:22.382+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <so:stdf>
+      <so:annotations>
+         <spanGrp>
+            <span type="note"> Leserbrief zur im 4. Stück des </span>
+            <span type="title" style="j">Medicinischen Journals </span>
+            <span type="note">auf S. 25 erwähnten Frage, „warum Harveys editio princeps in Frankfurt gedruckt worden [ist].“ Auch nachgedruckt als „Johann Friedrich Blumenbach to Ernst Gottfried Baldinger in Marburg“, in </span>
+            <span type="title" style="m">[Lit.] The correspondence of Johann Friedrich Blumenbach/ Frank William Peter Dougherty. </span>
+            <span type="edition">Vol. 2: 1783 - 1785: letters 231 - 391/ rev., augm. and ed. by Norbert Klatt </span>
+            <span type="pubPlace">Göttingen </span>
+            <span type="publisher">Klatt </span>
+            <span type="date">2007 </span>
+            <span type="reference">00157 </span>
+            <span type="citedRange">Nr. 355, S. 278-280. </span>
+         </spanGrp>
+      </so:annotations>
+   </so:stdf>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

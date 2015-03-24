@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 
 
-open(FILE, "../../transform/Bibliographie/2-PeriodicalWorks/4-Veröffentlichungen in weiteren gelehrten Zeitschriften 757-999.xml");
+open(FILE, "../../transform/Bibliographie/3-BlumenbachAtt/Zeitschriftenbeiträge 1001-1025.xml");
 @lines = <FILE>;
 close(FILE);
 

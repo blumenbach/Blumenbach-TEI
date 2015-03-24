@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:so="http://standoff.proposal"
+     xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Überschrift:XIV. Observations on some Egyptian Mummies opened in London. By John Frederick Blumenbach, M. D. F. R. S. Addressed to Sir Joseph Banks, Bart. P. R. S. Read April 10, 1794.</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                                        <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">01041.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000992/00992.pdf</ref>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title level="a" type="main">Überschrift:XIV. Observations on some Egyptian Mummies opened in London. By John Frederick Blumenbach, M. D. F. R. S. Addressed to Sir Joseph Banks, Bart. P. R. S. Read April 10, 1794.</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title level="j">Philosophical Transactions of the Royal Society of London : giving some accounts of the present undertakings, studies, and labours, of the ingenious, in many considerable parts of the world</title>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf"/>
+                  </editor>
+                  <imprint>
+                     <publisher>
+                        <name>Richardson,</name>
+                     </publisher>
+                     <pubPlace>London</pubPlace>
+                     <date type="publication" when="1794-01-01">1794</date>
+                  </imprint>
+                  <biblScope>Bd. 84 (1794), S. 177-195, 1 Ill. (Kupferst.).</biblScope>
+               </monogr>
+            </biblStruct>
+            <msDesc>
+               <msIdentifier>
+                  <repository>SUB Göttingen</repository>
+                  <idno>4 PHYS MATH V, 150</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <dimensions>
+                              <dim/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <certainty locus="location">
+                              <desc/>
+                           </certainty>
+                        </source>
+                     </recordHist>
+                     <note>
+                        <p/>
+                     </note>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <textDesc>
+            <channel mode="w"/>
+            <constitution type="single"/>
+            <derivation/>
+            <domain type="academic"/>
+            <factuality/>
+            <interaction/>
+            <preparedness/>
+            <purpose/>
+         </textDesc>
+         <textClass>
+            <classCode scheme="BiblNr">00992</classCode>
+            <classCode scheme="cat">
+               <idno>II</idno>Unselbständig erschienene Werke</classCode>
+            <classCode scheme="cat">
+               <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+            <classCode scheme="cat">
+               <idno>II.4.38</idno>Philosophical Transactions of the Royal Society of London</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                                    Wissenschaften zu Göttingen
+                                    CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-03-24T17:28:22.382+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <so:stdf>
+      <so:annotations>
+         <spanGrp>
+            <span type="note">Anm. 17 </span>
+            <span type="note">Forschungsnotiz zu ägyptischen Mumien. Tafel gestochen von James Basire, Zählung: XVI. Auch als Sonderdruck erschienen: [London]: [s.n.], [1794] </span>
+            <span type="reference">00126 </span>
+            <span type="note">Bearbeitete Version in </span>
+            <span type="title" style="j">The New Annual Register: or general repository of history, politics, and literature, for the year 1794 [i. e. 1795] </span>
+            <span type="citedRange">S. 126-135 </span>
+            <span type="reference">00981 </span>
+            <span type="note">Bearbeitete Version in französischer Übersetzung in </span>
+            <span type="title" style="j">Magazin encyclopédique: ou journal des sciences, des lettres et des art </span>
+            <span type="biblScope">Bd. 1, Nr. 4 (1795), S. 503-525 </span>
+            <span type="reference">00811 </span>
+            <span type="note">Italienische, auf der französischen Version beruhendeÜbersetzung in </span>
+            <span type="title" style="j">Opuscoli celti sulle scienze e sulle arti, tom. XVIII (1795) </span>
+            <span type="reference">03026 </span>
+            <span type="note">Weitere,auf dem Originaltext beruhende italienische Übersetzung in </span>
+            <span type="title" style="j">Annali di chimica e storia naturale, tom. XI (1796) </span>
+            <span type="reference">NaN </span>
+            <span type="note">Der Text dieses englischsprachigen Artikels zeigt große Ähnlichkeit mit dem Abschnitt von S. 101-144 in </span>
+            <span type="title" style="m">[Lit.] Beyträge zur Naturgeschichte/ von Joh. Fr. Blumenbach </span>
+            <span type="edition">Zweyter Theil </span>
+            <span type="pubPlace"> Göttingen </span>
+            <span type="publisher">Bey Heinrich Dieterich </span>
+            <span type="date">1811 </span>
+            <span type="reference">00113 </span>
+            <span type="note">Es darf vermutet werden, dass beiden Texten das gleiche Manuskript zugrunde liegt. Auch die Abbildungen zu diesem Werk wurden für die </span>
+            <span type="title" style="m">[Lit.] Beyträge zur Naturgeschichte </span>
+            <span type="note">neu gestochen. </span>
+            <span type="note">Anm. 17: Laut Dougherty </span>
+            <span type="title" style="j">Bibliographie </span>
+            <span type="citedRange">S. 92, Fn. 97 </span>
+            <span type="note">übersetzt von Joseph Planta. Deutschsprachiges Manuskript im Archiv der Royal Society: „Dr Jnº Fried. Blumenbach's FRS Bemerkung über einige von ihm in London untersuchte Aegyptische Mumien. - an Sir Joseph Banks Bart PRS - Goettingen d. 15. Dec. 1793.“ (Archive of the Royal Society of London L&amp;P/10/81). </span>
+            <span type="note">In Blumenbachs Korrespondenz mit Joseph Banks wird Joseph Plantaals Übersetzer dieses Textes genannt, vgl. </span>
+            <span type="title" style="m">Dougherty, Correspondence </span>
+            <span type="biblScope">Bd. 4, S. 290, (Brief Nr. 822) und S.301 (Nr. 830). </span>
+         </spanGrp>
+      </so:annotations>
+   </so:stdf>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

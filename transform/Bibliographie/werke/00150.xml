@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:so="http://standoff.proposal"
+     xml:lang="de-DE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Abbildungen naturhistorischer Gegenstände</title>
+            <author>
+               <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+            </author>
+            <editor>
+               <persName ref="http://viaf.org/viaf/">
+                  <surname/>
+                  <forename/>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp key="proj">Projektträger</resp>
+               <orgName resp="proj">Akademie der Wissenschaften zu Göttingen
+                                        <ref target="http://adw-goe.de/"/>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp key="enc">Kodiert durch:</resp>
+               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <idno>
+               <idno type="URLWeb"/>
+               <idno type="URLXML">00150.xml</idno>
+               <idno type="URLHTML"/>
+               <idno type="URLText"/>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_010/00147_001.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_010/00147_002.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_010/00147_003.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_010/00147_004.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_010/00147_005.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="pdf">ttp://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_010/00147_006.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_010/00147_007.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_010/00147_008.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_010/00147_009.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_010/00147_010.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000655/000655.html</ref>
+            </note>
+            <note type="ref">
+               <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/001026/001026.html</ref>
+            </note>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_Z_003/00147_Z_001.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_Z_003/00147_Z_003.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_Z_003/00147_Z_004.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_Z_003/00147_Z_005.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_Z_003/00147_Z_006.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="pdf">Heft 10 http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_Z_010/00147_Z_010.pdf</ref>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title level="m" type="main">Abbildungen naturhistorischer Gegenstände</title>
+                  <title level="m" type="aut">herausgegeben von Joh. Fried. Blumenbach.</title>
+                  <author>
+                     <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
+                  </author>
+                  <editor>
+                     <persName ref="http://viaf.org/viaf"/>
+                  </editor>
+                  <imprint>
+                     <publisher>
+                        <name>Bey Heinrich Dieterich</name>
+                     </publisher>
+                     <pubPlace>Göttingen</pubPlace>
+                     <date type="publication" when="1796-01-01">1796-1810. 1.1796-10.1810.</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <msDesc>
+               <msIdentifier>
+                  <repository>SUB Göttingen</repository>
+                  <idno>8 H NAT I, 855 RARA.</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>22 cm (8°).<dimensions>
+                              <dim/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <certainty locus="location">
+                              <desc/>
+                           </certainty>
+                        </source>
+                     </recordHist>
+                     <note>
+                        <p/>
+                     </note>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+         <textDesc>
+            <channel mode="w"/>
+            <constitution type="single"/>
+            <derivation/>
+            <domain type="academic"/>
+            <factuality/>
+            <interaction/>
+            <preparedness/>
+            <purpose/>
+         </textDesc>
+         <textClass>
+            <classCode scheme="BiblNr">00147</classCode>
+            <classCode scheme="cat">
+               <idno>I</idno>Selbständig erschienene Werke</classCode>
+            <classCode scheme="cat">
+               <idno>I.11</idno>Von Blumenbach herausgegebene Werke</classCode>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der
+                                    Wissenschaften zu Göttingen
+                                    CH Johnson Werkvertrag 2014-11-01 to 2015-06-01</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#BjfbO">Erstellungsdatum: 2015-03-24T17:28:22.382+01:00</change>
+      </revisionDesc>
+   </teiHeader>
+   <so:stdf>
+      <so:annotations>
+         <spanGrp>
+            <span type="note">Anm. 6 </span>
+            <span type="note">Hefte 1.1796-5.1800 erschienen in Göttingen: Bey Johann Christian Dieterich. </span>
+            <span type="note">Alle Hefte sind unpaginiert, enthalten 10 Tafeln mit Abbildungen und die dazugehörigen Beschreibungen. </span>
+            <span type="note">Heft 5 enthält 2 kolorierte Tafeln, alle anderen Hefte jeweils eine kolorierte Tafel. Anzeige Blumenbachs von Heft 1 in </span>
+            <span type="title" style="j">GAgS </span>
+            <span type="biblScope">1796 (204. Stück, 22. Dezember), S. 2033-2034; „Göttingen“ </span>
+            <span type="reference">00379 </span>
+            <span type="note">Von Heft 2 in </span>
+            <span type="title" style="j">GAgS </span>
+            <span type="biblScope">1797 (182. Stück, 16. November) </span>
+            <span type="citedRange">S. 1809-1810; „Göttingen“ </span>
+            <span type="reference">00386 </span>
+            <span type="note">Von Heft 3 in </span>
+            <span type="title" style="j">GAgS </span>
+            <span type="biblScope">1798 (185. Stück, 19. November) </span>
+            <span type="citedRange">S. 1841-1842; „Göttingen“ </span>
+            <span type="reference">00403 </span>
+            <span type="note">Von Heft 4 in </span>
+            <span type="title" style="j">GAgS </span>
+            <span type="biblScope">1800 (10. Stück, 18. Januar) </span>
+            <span type="citedRange">S. 89-90; „Göttingen“ </span>
+            <span type="reference">00417 </span>
+            <span type="note">Von Heft 5 in </span>
+            <span type="title" style="j">GAgS </span>
+            <span type="biblScope">1800 (81. Stück, 22. Mai) </span>
+            <span type="citedRange">S. 801-802; „Göttingen“ </span>
+            <span type="reference">00421 </span>
+            <span type="note">Von Heft 6 in </span>
+            <span type="title" style="j">GgA </span>
+            <span type="biblScope">1802 (95. Stück, 14. Juni) </span>
+            <span type="citedRange">S. 945-946; „Göttingen“ </span>
+            <span type="reference">00440 </span>
+            <span type="note">Von Heft 7 in </span>
+            <span type="title" style="j">GgA </span>
+            <span type="biblScope">1804 (130. Stück, 16. August) </span>
+            <span type="citedRange">S. 1289-1290; „Göttingen“ </span>
+            <span type="reference">00454 </span>
+            <span type="note">Von Heft 8 in </span>
+            <span type="title" style="j">GgA </span>
+            <span type="biblScope">1805 (113. Stück, 18. Juli) </span>
+            <span type="citedRange">S. 1121-1122; „Göttingen“ </span>
+            <span type="reference">00462 </span>
+            <span type="note">Von Heft 9 in </span>
+            <span type="title" style="j">GgA </span>
+            <span type="biblScope">1809 (97. Stück, 19. Juni) </span>
+            <span type="citedRange">S. 961; „Göttingen“ </span>
+            <span type="reference">00495 </span>
+            <span type="note">Von Heft 10 in </span>
+            <span type="title" style="j">GgA </span>
+            <span type="biblScope">1810 (194. Stück, 6. Dezember) </span>
+            <span type="citedRange">S. 1935-1936; „Göttingen“ </span>
+            <span type="reference">00511 </span>
+            <span type="note">Blumenbach ist der Verfasser aller Artikel. Diese werden einzeln in Abschnitt II.4.1 dieser Bibliographie aufgeführt. </span>
+            <span type="note">10 Hefte in 2 Bdn. mit zusätzlichem Titelblatt in Bd. 1: Abbildungen naturhistorischer Gegenstände/ herausgegeben von Joh. Fried. Blumenbach </span>
+            <span type="note">Nro 1-100 </span>
+            <span type="pubPlace">Göttingen </span>
+            <span type="publisher">Bey Heinrich Dieterich </span>
+            <span type="date">[s.a.]. </span>
+            <span type="note">Neuauflagen </span>
+            <span type="note">ebenfalls bei Dieterich gedruckt, erfolgten von Heft 1 (1810, 1830), Heft 3 (1827), Heft 4 (1827), Heft 5 (1830), Heft 6 (1830). </span>
+            <span type="note">Bei der 1810 gedruckten Neuauflage von Heft 1 wurde das Kapitel 3 über „Jusuf Aguiah Efendi“ samt Tafel ersetzt durch Tafel und Kapitel über „Mahomed Jumla“. Ansonsten sind die Kupferplatten der 1. Ausgabe wiederverwendet worden. </span>
+            <span type="note">Anzeige dieses Heftes von Blumenbach in </span>
+            <span type="title" style="j">GgA </span>
+            <span type="biblScope">1810 (194. Stück, 6. Dezember) </span>
+            <span type="citedRange">S. 1935-1936; „Göttingen“ </span>
+            <span type="reference">00511 </span>
+            <span type="repository">SUB Göttingen </span>
+            <span type="idno">8 H NAT I,  855:1 (2). </span>
+            <span type="note">Das in den GgA von 1810 angekündigte </span>
+            <span type="note">„systematische Verzeichnis“ </span>
+            <span type="note">sämtlicher Abbildungen nicht in diesem Exemplar. </span>
+            <span type="note">Exemplare der 1827-1830 entstandenen Neuauflagen befinden sich in Hamburg, Bibliothek des Ärztlichen Vereins: C 8/1098; enthält das </span>
+            <span type="note">„systematische Verzeichnis“ </span>
+            <span type="note">am Anfang von Heft 10. </span>
+            <span type="note">Anm. 6: Erste Vorarbeiten zu diesem Abbildungswerk hat es möglicherweise bereits um 1776 gegeben, vgl. </span>
+            <span type="title" style="j">Frankfurter gelehrte Anzeigen </span>
+            <span type="biblScope">1776 (Nr. 15, 20. Februar), S. 119, und </span>
+            <span type="title" style="j">Berlinische Sammlungen zur Beförderung der Arzneywissenschaft, der Naturgeschichte, der Haushaltungskunst, Cameralwissenschaft und der dahin einschlagenden Litteratur </span>
+            <span type="biblScope">Bd. 9 (1. Stück), 1777 </span>
+            <span type="citedRange">S. 89 </span>
+            <span type="note">Vgl. auch Blumenbachs Ankündigung der Publikation von Abbildungen von Sammlungsobjekten aus dem Göttinger Academischen Museum bereits in den </span>
+            <span type="title" style="j">GAgS </span>
+            <span type="note">von 1774, S. 1011 </span>
+            <span type="reference">00210 </span>
+         </spanGrp>
+      </so:annotations>
+   </so:stdf>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
