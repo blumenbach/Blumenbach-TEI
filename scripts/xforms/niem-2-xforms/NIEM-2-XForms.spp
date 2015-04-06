@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+	<Folder FolderName="Input Constraint XML Schemas" ExtStr="xsd" XSL_XMLUseSet="Yes" XSL_XMLUseFile="xslt\schema2xforms.xsl" XSL_DestFolderSet="Yes" XSL_DestFolder="XForms" XSL_DestFileExtSet="Yes" XSL_DestFileExt=".xhtml">
+		<File FilePath="schemas\ContactsDocument.xsd" HomeFolder="Yes"/>
+		<File FilePath="schemas\DataTypeMappingsTest.xsd" HomeFolder="Yes"/>
+		<File FilePath="schemas\ImportedTestDataTypes.xsd" HomeFolder="Yes"/>
+	</Folder>
+	<Folder FolderName="XSL Files" ExtStr="xsl;xslt">
+		<File FilePath="xslt\niem-2-xforms.xsl" HomeFolder="Yes"/>
+	</Folder>
+	<Folder FolderName="CSS Files" ExtStr=".css">
+		<File FilePath="XForms\css\xforms-global.css" HomeFolder="Yes"/>
+		<File FilePath="XForms\css\field-widths.css" HomeFolder="Yes"/>
+	</Folder>
+	<Folder FolderName="XForms Output" ExtStr="xhtml">
+		<File FilePath="XForms\ContactsDocument.xhtml" HomeFolder="Yes"/>
+		<File FilePath="XForms\ContactForm2.xhtml" HomeFolder="Yes"/>
+		<File FilePath="XForms\DataTypeMappingsTest.xhtml" HomeFolder="Yes"/>
+	</Folder>
+	<Folder FolderName="Look-up-Tables" ExtStr=".xml">
+		<File FilePath="xslt\code-tables\screen-labels.xml" HomeFolder="Yes"/>
+	</Folder>
+	<Folder FolderName="Instance Documents" ExtStr="xml">
+		<File FilePath="XForms\instance.xml" HomeFolder="Yes"/>
+	</Folder>
+</Project>

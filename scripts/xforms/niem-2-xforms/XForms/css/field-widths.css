@@ -1,0 +1,15 @@
+@namespace xf url("http://www.w3.org/2002/xforms");
+
+/* set input field widths based on form standards */
+/* Dan McCreary */
+/* June 2007 */
+/* Tested with FireFox 2.0.0.4 */
+
+.ContactEmailID .xf-value {width: 26ex}
+.PersonGivenName .xf-value {width: 18ex}
+.PersonSurName .xf-value {width: 22ex}
+.LocationCityName .xf-value {width: 20ex}
+.LocationStateName .xf-value {width: 2em}
+.LocationStateCode .xf-value {width: 2em}
+.LocationPostalCodeID .xf-value {width: 10ex}
+.StreetFullText .xf-value {width: 40em}

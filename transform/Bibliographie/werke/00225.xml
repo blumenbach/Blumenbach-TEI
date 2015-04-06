@@ -24,7 +24,7 @@
             </respStmt>
             <respStmt>
                <resp key="enc">Kodiert durch:</resp>
-               <orgName xml:id="BjfbO" resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
+               <orgName resp="enc">Bearbeiter des Projekts Johann Friedrich Blumenbach - online</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -59,7 +59,7 @@
                         <name>Dieterich</name>
                      </publisher>
                      <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1780-09-39">1780, 30. September</date>
+                     <date type="publication" when="1780-09-30">1780, 30. September</date>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -127,12 +127,12 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change who="#BjfbO">Erstellungsdatum: 2015-03-24T17:28:22.382+01:00</change>
+         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
-      <so:annotations>
-         <spanGrp>
+      <so:annotations n="00225">
+         <spanGrp xml:id="biblStruct_d1e20243_00225">
             <span type="note">Rezension von </span>
             <span type="title" style="m">[Lit.] Breviarium zoologiae/ Christophorus Wilhelmus Jacobus Gatterer. </span>
             <span type="pubPlace">Gottingae </span>

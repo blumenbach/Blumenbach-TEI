@@ -8,7 +8,7 @@
 <xsl:template match="/">
 <xsl:for-each select="TEI/text/body/list/item">
 <saxon:assign name="count" select="$count+1"/>
-<xsl:variable name="filename" select="concat('jfb_briefregesten_',$count,'.xml')" />
+<xsl:variable name="filename" select="concat('jfb_br_',concat(format-number($count, '00000'),'.xml'))"/>
 <xsl:value-of select="$filename" />  
 <xsl:result-document href="{$filename}">    
       <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
@@ -44,7 +44,7 @@
                 <publisher>
                  </publisher>                
                 <idno>
-                    <idno type="RegNr"><xsl:value-of select="$count"/></idno>
+                    <idno type="RegNr"><xsl:value-of select="format-number($count, '00000')"/></idno>
                     <idno type="URLXML"><xsl:value-of select="$filename"/></idno>
                     <idno type="URLHTML"></idno>
                     <idno type="URLText"></idno>

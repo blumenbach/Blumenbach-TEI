@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://standoff.proposal" xmlns:so="http://standoff.proposal" xmlns:ns1="http://www.tei-c.org/ns/1.0">
+  <xs:import namespace="http://www.tei-c.org/ns/1.0" schemaLocation="00028.xsd"/>
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+  <xs:element name="stdf">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="so:annotations"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="annotations">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:spanGrp"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

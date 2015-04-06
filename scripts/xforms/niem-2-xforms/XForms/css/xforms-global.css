@@ -1,0 +1,62 @@
+@namespace xf url("http://www.w3.org/2002/xforms");
+/* this is a general-purpose CSS file for all XForms files */
+/* do not put form-specific formatting or table-specific formatting in this file */
+/* Note #4D9471 is the green used on the Department of Revenue web site */
+
+/* generic base global css for all xforms */
+body {font-family:Arial, Helvetica, sans-serif; font-size:75%; margin:0; padding:0; width:500px;}
+h1 {color:#601; padding:0 15px;}
+img {border:0;}
+
+/* ***************alert - this is in to get rid of ALL the image blocks ************* */
+xf|group img {display:none;}
+/* classes */
+.display-group {border:1px dotted black;}
+.personal-property-worksheet-group {margin:0; border:0; width:100%; clear:both; padding:0;}
+.banner-image {padding:15px;}
+.error-message {font-size:1.5em; background:pink; border:1px dashed red; padding:5px;}
+.result-text {color:blue; font-size: 3.0em;}
+.amount .xf-value, .count .xf-value {text-align:right;}
+
+/* set the width of all the labels */
+xf|input > xf|label, xf|select > xf|label, xf|select1 > xf|label, xf|textarea > xf|label {width:100px; float:left;}
+
+/* xforms specific styling */
+xf|* {margin:0; padding:0;}
+
+/* This line puts a black border around all specified xforms groups and gives them both margin and padding */
+xf|group {border:1px solid #000; margin:15px 5px; padding:5px;}
+/* use a group label for fieldset ledgends */
+.group-label {position: relative; top:-14px;}
+
+/* This line ensures all the separate form elements appear on their own lines */
+xf|input, xf|select, xf|select1, xf|textarea {display:block; width:100%; margin:5px 0;}
+
+xf|input > xf|label, xf|select > xf|label, xf|select1 > xf|label, xf|textarea > xf|label {text-align:right; padding-right:10px;}
+
+/* Adding black borders to most form elements */
+/* the ">" will not run on non-css-3 browsers, but this prevents black borders on the date select inputs */
+xf|input > .xf-value, xf|textarea > .xf-value {border:1px solid black; padding:3px;}
+
+/* Differentiate between required fields and non-required fields */
+xf|input:required {font-weight: bold;}
+xf|input:required .xf-value {background-color:#fff6af;}
+*:required::after {font-weight:bold; font-size:1.5em; content: "*"; color: red; }
+
+/* read-only input boxes */
+:-moz-read-only::after {font-weight:bold; font-size:1em; content: "(read-only)"; color:green;}
+
+xf|group > xf|label {background:#fff; font-weight:bold; padding:5px;}
+
+/* This marks any read-only fields a different shade to the others */
+:-moz-read-only .xf-value {background:LightBlue;}
+
+/* This marks the "selected" point within a set of repeated elements */
+xf|repeat .xf-repeat-item {background:#ddd; border:1px solid #ddd;}
+xf|repeat .xf-repeat-index  {background:#999; border:1px dotted black;}
+
+xf|trigger {margin-right:20px;} 
+
+/* make the full select1 values align their items */
+xf|select1  > xf|item {margin: 0 0 0 110px}
+

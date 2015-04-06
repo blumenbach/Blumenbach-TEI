@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2007 sp2 (http://www.altova.com) by Dan McCreary (MINNESOTA DEPT. OF REVENUE) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:u="http://niem.gov/niem/universal/1.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
+   <xs:import namespace="http://niem.gov/niem/universal/1.0" schemaLocation="niem/universal/1.0/universal.xsd"/>
+   <xs:include schemaLocation="ImportedTestDataTypes.xsd"/>
+   <xs:element name="DataTypeMappingsDocument">
+      <xs:annotation>
+         <xs:documentation>A list of data types.</xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="SampleTypes" maxOccurs="unbounded">
+               <xs:annotation>
+                  <xs:documentation>Sample type mappings.</xs:documentation>
+               </xs:annotation>
+               <xs:complexType>
+                  <xs:sequence>
+                     <xs:element ref="RequiredName"/>
+                     <xs:element ref="OptionalName" minOccurs="0"/>
+                     <xs:element ref="ReadOnlyName" minOccurs="0"/>
+                     <xs:element ref="MyDate" minOccurs="0"/>
+                     <xs:element ref="PersonSexCode" minOccurs="0"/>
+                     <xs:element ref="MyIndicator" minOccurs="0"/>
+                  </xs:sequence>
+               </xs:complexType>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>

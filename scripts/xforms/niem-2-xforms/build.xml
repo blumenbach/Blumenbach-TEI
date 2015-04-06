@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="NIEM-2-XForms">
+<property name="saxon8jar" value="C:\Apps\saxon\sason8.jar"/>
+<property name="install.dir" value="C:\tmp\niem-2-xforms"/>
+
+    <!-- Transform a NIEM XML Constraint Schema into XForms -->
+	<!-- Make sure your have the correct instance.xml file in place. -->
+    <target name="NIEM-2-XForms"
+        description="Transform an NIEM XML Constraint Schema to XForms">
+        <xslt
+            in="${install.dir}/schemas/ContactsDocument.xsd"
+            out="${install.dir}/xforms/ContactsDocument2.xhtml"
+            style="${install.dir}/xslt/niem-2-xforms.xsl"
+            classpath="${saxon8jar}">
+        	   <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        </xslt>
+    </target>
+</project>

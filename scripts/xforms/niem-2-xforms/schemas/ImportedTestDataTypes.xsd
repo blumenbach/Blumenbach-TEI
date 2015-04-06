@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+   <xs:element name="RequiredName">
+      <xs:annotation>
+         <xs:documentation>Test of required name datatype</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:element name="OptionalName">
+      <xs:annotation>
+         <xs:documentation>Test of optional name datatype</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+    <xs:element name="ReadOnlyName">
+      <xs:annotation>
+         <xs:documentation>Test of read-only name datatype</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:element name="MyDate">
+      <xs:annotation>
+         <xs:documentation>Test of Date datatype</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:element name="PersonSexCode">
+      <xs:annotation>
+         <xs:documentation>Test of Code datatype</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:element name="MyIndicator">
+      <xs:annotation>
+         <xs:documentation>Test of Boolean datatype</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:element name="MyYear">
+      <xs:annotation>
+         <xs:documentation>Test of Year datatype</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+</xs:schema>

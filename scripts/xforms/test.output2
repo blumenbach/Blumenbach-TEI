@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:u="http://niem.gov/niem/universal/1.0" xmlns:c="http://niem.gov/niem/common/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>XForms application generated from constraint schema.</title>
+      <link rel="stylesheet" type="text/css" href="css/xforms-global.css" />
+      <link rel="stylesheet" type="text/css" href="css/field-widths.css" />
+      <xf:model>
+         <xf:instance id="default-instance" src="instance.xml"></xf:instance>
+         <xf:bind nodeset="//ns1:teiHeader" required="true()"></xf:bind>
+         <xf:bind nodeset="//so:stdf" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:text" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:fileDesc" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:profileDesc" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:encodingDesc" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:revisionDesc" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:titleStmt" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:publicationStmt" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:notesStmt" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:sourceDesc" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:title" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:author" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:editor" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:respStmt" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:resp" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:orgName" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:publisher" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:idno" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:note" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:biblStruct" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:msDesc" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:monogr" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:title" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:author" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:edition" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:editor" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:imprint" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:publisher" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:pubPlace" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:date" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:msIdentifier" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:physDesc" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:additional" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:repository" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:idno" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:objectDesc" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:supportDesc" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:extent" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:dim" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:adminInfo" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:recordHist" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:note" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:source" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:certainty" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:desc" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:langUsage" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:textDesc" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:textClass" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:language" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:channel" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:constitution" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:derivation" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:domain" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:factuality" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:interaction" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:preparedness" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:purpose" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:classCode" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:projectDesc" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:p" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:change" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:span" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:body" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:p" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:p" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:ref" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:persName" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:forename" required="true()"></xf:bind>
+         <xf:bind nodeset="//ns1:surname" required="true()"></xf:bind>
+         <xf:instance id="classCode" src="../resources/code-tables/classCode.xml"></xf:instance>
+         <xf:submission id="save" method="post" action="http://localhost:8080/save-form-data.xq" instance="default-instance"></xf:submission>
+      </xf:model>
+   </head>
+   <body>
+      <p>Generated by schema2xforms version 0.4. License: Creative Commons  2.5 Sharealike
+         with Attribution. 
+      </p>
+      
+      
+      
+      <xf:group ref="TEI">
+         <xf:label class="group-label">TEI</xf:label>
+         
+         
+         
+         <b><font color="red">Error - type for so:stdf not found.</font></b>
+         
+         <b><font color="red">Error - type for ns1:text not found.</font></b>
+         
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="teiHeader">
+         <xf:label class="group-label">teiHeader</xf:label>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="fileDesc">
+         <xf:label class="group-label">fileDesc</xf:label>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="titleStmt">
+         <xf:label class="group-label">titleStmt</xf:label>
+         
+         
+         <xf:input ref="ns1:title" class="title">
+            <xf:label>Title: </xf:label>
+         </xf:input>
+         
+         
+         <xf:select1 ref="author">
+            <xf:label>: </xf:label>
+            <xf:itemset nodeset="instance('ns1:author')/EnumeratedValues/Item">
+               <xf:label ref="Label"></xf:label>
+               <xf:value ref="Value"></xf:value>
+            </xf:itemset>
+         </xf:select1>
+         
+         
+         <xf:input ref="ns1:editor">
+            <xf:label>: </xf:label>
+         </xf:input>
+         
+         
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="respStmt">
+         <xf:label class="group-label">respStmt</xf:label>
+         
+         <b><font color="red">Error - type for ns1:resp not found.</font></b>
+         
+         <b><font color="red">Error - type for ns1:orgName not found.</font></b>
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="resp">
+         <xf:label class="group-label">resp</xf:label>
+         
+         
+      </xf:group>
+      
+      <xf:group ref="orgName">
+         <xf:label class="group-label">orgName</xf:label>
+         
+         <b><font color="red">Error - type for ns1:ref not found.</font></b>
+         
+         
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="publicationStmt">
+         <xf:label class="group-label">publicationStmt</xf:label>
+         
+         
+         <xf:input ref="ns1:publisher">
+            <xf:label>: </xf:label>
+         </xf:input>
+         
+         <b><font color="red">Error - type for ns1:idno not found.</font></b>
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="notesStmt">
+         <xf:label class="group-label">notesStmt</xf:label>
+         
+         <b><font color="red">Error - type for ns1:note not found.</font></b>
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="sourceDesc">
+         <xf:label class="group-label">sourceDesc</xf:label>
+         
+         <b><font color="red">Error - type for ns1:biblStruct not found.</font></b>
+         
+         
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="biblStruct">
+         <xf:label class="group-label">biblStruct</xf:label>
+         
+         <b><font color="red">Error - type for ns1:monogr not found.</font></b>
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="monogr">
+         <xf:label class="group-label">monogr</xf:label>
+         
+         
+         <xf:input ref="ns1:title" class="title">
+            <xf:label>Title: </xf:label>
+         </xf:input>
+         
+         
+         <xf:select1 ref="author">
+            <xf:label>: </xf:label>
+            <xf:itemset nodeset="instance('ns1:author')/EnumeratedValues/Item">
+               <xf:label ref="Label"></xf:label>
+               <xf:value ref="Value"></xf:value>
+            </xf:itemset>
+         </xf:select1>
+         
+         <b><font color="red">Error - type for ns1:edition not found.</font></b>
+         
+         
+         <xf:input ref="ns1:editor">
+            <xf:label>: </xf:label>
+         </xf:input>
+         
+         <b><font color="red">Error - type for ns1:imprint not found.</font></b>
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="edition">
+         <xf:label class="group-label">edition</xf:label>
+      </xf:group>
+      
+      <xf:group ref="imprint">
+         <xf:label class="group-label">imprint</xf:label>
+         
+         
+         <xf:input ref="ns1:publisher">
+            <xf:label>: </xf:label>
+         </xf:input>
+         
+         <b><font color="red">Error - type for ns1:pubPlace not found.</font></b>
+         
+         <b><font color="red">Error - type for ns1:date not found.</font></b>
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="pubPlace">
+         <xf:label class="group-label">pubPlace</xf:label>
+      </xf:group>
+      
+      <xf:group ref="date">
+         <xf:label class="group-label">date</xf:label>
+         
+         
+         
+         
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="msDesc">
+         <xf:label class="group-label">msDesc</xf:label>
+         
+         <b><font color="red">Error - type for ns1:msIdentifier not found.</font></b>
+         
+         
+         
+         <b><font color="red">Error - type for ns1:additional not found.</font></b>
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="msIdentifier">
+         <xf:label class="group-label">msIdentifier</xf:label>
+         
+         <b><font color="red">Error - type for ns1:repository not found.</font></b>
+         
+         <b><font color="red">Error - type for ns1:idno not found.</font></b>
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="repository">
+         <xf:label class="group-label">repository</xf:label>
+      </xf:group>
+      
+      <xf:group ref="physDesc">
+         <xf:label class="group-label">physDesc</xf:label>
+         
+         
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="objectDesc">
+         <xf:label class="group-label">objectDesc</xf:label>
+         
+         
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="supportDesc">
+         <xf:label class="group-label">supportDesc</xf:label>
+         
+         <b><font color="red">Error - type for ns1:extent not found.</font></b>
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="extent">
+         <xf:label class="group-label">extent</xf:label>
+         
+         <b><font color="red">Error - type for ns1:dimensions not found.</font></b>
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="dimensions">
+         <xf:label class="group-label">dimensions</xf:label>
+         
+         <b><font color="red">Error - type for ns1:dim not found.</font></b>
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="dim">
+         <xf:label class="group-label">dim</xf:label>
+      </xf:group>
+      
+      <xf:group ref="additional">
+         <xf:label class="group-label">additional</xf:label>
+         
+         <b><font color="red">Error - type for ns1:adminInfo not found.</font></b>
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="adminInfo">
+         <xf:label class="group-label">adminInfo</xf:label>
+         
+         <b><font color="red">Error - type for ns1:recordHist not found.</font></b>
+         
+         <b><font color="red">Error - type for ns1:note not found.</font></b>
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="recordHist">
+         <xf:label class="group-label">recordHist</xf:label>
+         
+         <b><font color="red">Error - type for ns1:source not found.</font></b>
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="source">
+         <xf:label class="group-label">source</xf:label>
+         
+         <b><font color="red">Error - type for ns1:certainty not found.</font></b>
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="certainty">
+         <xf:label class="group-label">certainty</xf:label>
+         
+         <b><font color="red">Error - type for ns1:desc not found.</font></b>
+         
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="desc">
+         <xf:label class="group-label">desc</xf:label>
+      </xf:group>
+      
+      <xf:group ref="profileDesc">
+         <xf:label class="group-label">profileDesc</xf:label>
+         
+         <b><font color="red">Error - type for ns1:langUsage not found.</font></b>
+         
+         
+         
+         <b><font color="red">Error - type for ns1:textClass not found.</font></b>
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="langUsage">
+         <xf:label class="group-label">langUsage</xf:label>
+         
+         <b><font color="red">Error - type for ns1:language not found.</font></b>
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="language">
+         <xf:label class="group-label">language</xf:label>
+         
+         
+      </xf:group>
+      
+      <xf:group ref="textDesc">
+         <xf:label class="group-label">textDesc</xf:label>
+         
+         <b><font color="red">Error - type for ns1:channel not found.</font></b>
+         
+         <b><font color="red">Error - type for ns1:constitution not found.</font></b>
+         
+         <b><font color="red">Error - type for ns1:derivation not found.</font></b>
+         
+         <b><font color="red">Error - type for ns1:domain not found.</font></b>
+         
+         <b><font color="red">Error - type for ns1:factuality not found.</font></b>
+         
+         <b><font color="red">Error - type for ns1:interaction not found.</font></b>
+         
+         <b><font color="red">Error - type for ns1:preparedness not found.</font></b>
+         
+         <b><font color="red">Error - type for ns1:purpose not found.</font></b>
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="channel">
+         <xf:label class="group-label">channel</xf:label>
+         
+         
+      </xf:group>
+      
+      <xf:group ref="constitution">
+         <xf:label class="group-label">constitution</xf:label>
+         
+         
+      </xf:group>
+      
+      <xf:group ref="derivation">
+         <xf:label class="group-label">derivation</xf:label>
+      </xf:group>
+      
+      <xf:group ref="domain">
+         <xf:label class="group-label">domain</xf:label>
+         
+         
+      </xf:group>
+      
+      <xf:group ref="factuality">
+         <xf:label class="group-label">factuality</xf:label>
+      </xf:group>
+      
+      <xf:group ref="interaction">
+         <xf:label class="group-label">interaction</xf:label>
+      </xf:group>
+      
+      <xf:group ref="preparedness">
+         <xf:label class="group-label">preparedness</xf:label>
+      </xf:group>
+      
+      <xf:group ref="purpose">
+         <xf:label class="group-label">purpose</xf:label>
+      </xf:group>
+      
+      <xf:group ref="textClass">
+         <xf:label class="group-label">textClass</xf:label>
+         
+         <b><font color="red">Error - type for ns1:classCode not found.</font></b>
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="classCode">
+         <xf:label class="group-label">classCode</xf:label>
+         
+         <b><font color="red">Error - type for ns1:idno not found.</font></b>
+         
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="encodingDesc">
+         <xf:label class="group-label">encodingDesc</xf:label>
+         
+         
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="projectDesc">
+         <xf:label class="group-label">projectDesc</xf:label>
+         
+         <b><font color="red">Error - type for ns1:p not found.</font></b>
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="revisionDesc">
+         <xf:label class="group-label">revisionDesc</xf:label>
+         
+         <b><font color="red">Error - type for ns1:change not found.</font></b>
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="change">
+         <xf:label class="group-label">change</xf:label>
+         
+         
+      </xf:group>
+      
+      <xf:group ref="spanGrp">
+         <xf:label class="group-label">spanGrp</xf:label>
+         
+         <b><font color="red">Error - type for ns1:span not found.</font></b>
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="span">
+         <xf:label class="group-label">span</xf:label>
+         
+         
+      </xf:group>
+      
+      <xf:group ref="text">
+         <xf:label class="group-label">text</xf:label>
+         
+         <b><font color="red">Error - type for ns1:body not found.</font></b>
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="body">
+         <xf:label class="group-label">body</xf:label>
+         
+         <b><font color="red">Error - type for ns1:p not found.</font></b>
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="title">
+         <xf:label class="group-label">title</xf:label>
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="author">
+         <xf:label class="group-label">author</xf:label>
+      </xf:group>
+      
+      <xf:group ref="editor">
+         <xf:label class="group-label">editor</xf:label>
+      </xf:group>
+      
+      <xf:group ref="ref">
+         <xf:label class="group-label">ref</xf:label>
+         
+         
+         
+         
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="publisher">
+         <xf:label class="group-label">publisher</xf:label>
+         
+         <b><font color="red">Error - type for ns1:name not found.</font></b>
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="name">
+         <xf:label class="group-label">name</xf:label>
+      </xf:group>
+      
+      <xf:group ref="idno">
+         <xf:label class="group-label">idno</xf:label>
+         
+         <b><font color="red">Error - type for ns1:idno not found.</font></b>
+         
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="note">
+         <xf:label class="group-label">note</xf:label>
+         
+         <b><font color="red">Error - type for ns1:p not found.</font></b>
+         
+         <b><font color="red">Error - type for ns1:ref not found.</font></b>
+         
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="p">
+         <xf:label class="group-label">p</xf:label>
+      </xf:group>
+      <b><font color="red">Error - type for ns1:persName not found.</font></b>
+      
+      
+      <xf:group ref="persName">
+         <xf:label class="group-label">persName</xf:label>
+         
+         <b><font color="red">Error - type for ns1:forename not found.</font></b>
+         
+         <b><font color="red">Error - type for ns1:surname not found.</font></b>
+         
+         
+         
+         
+      </xf:group>
+      
+      <xf:group ref="forename">
+         <xf:label class="group-label">forename</xf:label>
+      </xf:group>
+      
+      <xf:group ref="surname">
+         <xf:label class="group-label">surname</xf:label>
+      </xf:group>
+      
+   </body>
+</html>

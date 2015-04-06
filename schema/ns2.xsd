@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://standoff.proposal" xmlns:ns1="http://www.isocat.org/ns/dcr" xmlns:ns2="http://standoff.proposal" xmlns:ns3="http://www.tei-c.org/ns/1.0">
+  <xs:import namespace="http://www.isocat.org/ns/dcr" schemaLocation="ns1.xsd"/>
+  <xs:import namespace="http://www.tei-c.org/ns/1.0" schemaLocation="bb-schema.xsd"/>
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+  <xs:element name="stdf" substitutionGroup="ns3:model.resourceLike">
+    <xs:annotation>
+      <xs:documentation>Container element for standoff annotations</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="soHeader">
+    <xs:annotation>
+      <xs:documentation>Metadata for the stdf element(s)</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="ns3:titleStmt"/>
+        <xs:element ref="ns3:publicationStmt"/>
+        <xs:element ref="ns3:notesStmt"/>
+        <xs:element ref="ns3:encodingDesc"/>
+        <xs:element ref="ns3:profileDesc"/>
+        <xs:element ref="ns3:revisionDesc"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="annotations">
+    <xs:annotation>
+      <xs:documentation>Content of the stdf element</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:group ref="ns3:model.global.meta"/>
+        <xs:group ref="ns3:model.listLike"/>
+        <xs:element ref="ns3:listBibl"/>
+        <xs:element ref="ns2:mapStruct"/>
+      </xs:choice>
+      <xs:attributeGroup ref="ns3:att.global.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mapStruct">
+    <xs:annotation>
+      <xs:documentation>Any element is to be interpreted as mapping its structure onto a text to be annotated</xs:documentation>
+    </xs:annotation>
+    <xs:complexType/>
+  </xs:element>
+</xs:schema>

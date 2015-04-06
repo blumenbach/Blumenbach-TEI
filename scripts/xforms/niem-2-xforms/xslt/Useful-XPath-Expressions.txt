@@ -1,0 +1,14 @@
+All Element in an XML Schema file:
+//xs:element
+
+All Elements that have a ref attribute:
+//xs:element[@ref]
+
+All Elements that have a ref attribute but do not have a minOccurs attribute (required fields):
+//xs:element[@ref and not( @minOccurs)]
+
+A first-level element (a direct child of xs:schema) that has the attribute "name" that ends with the string "Document"
+/xs:schema/xs:element[ends-with(@name, 'Document')]
+
+Any data element that ends with "Code" or "code"
+//xs:element/@ref[matches(.,'Code$') or matches(.,'code$')]
