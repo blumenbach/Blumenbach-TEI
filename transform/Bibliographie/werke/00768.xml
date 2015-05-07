@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift:Uitreksel enes Briefs von den Hofraad en Hoogl. Blumenbach, te Göttingen, aan den Hoogleeraar Chr. P. Schacht, te Harderwyk: betreffende de Dierlyke Elektriciteit.</title>
+            <title type="main">Überschrift:1. Auszug eines Briefs des Hrn. Dr. Langsdorffs, an Hrn. Hofrath Blumenbach zu Göttingen.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,36 +38,36 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2003005/03005.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000768/00768.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift:Uitreksel enes Briefs von den Hofraad en Hoogl. Blumenbach, te Göttingen, aan den Hoogleeraar Chr. P. Schacht, te Harderwyk: betreffende de Dierlyke Elektriciteit.</title>
+                  <title level="a" type="main">Überschrift:1. Auszug eines Briefs des Hrn. Dr. Langsdorffs, an Hrn. Hofrath Blumenbach zu Göttingen.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">Algemene konst- en letter-bode, voor meer- en min-geoeffenden</title>
+                  <title level="j">Allgemeine geographische Ephemeriden / verf. von einer Gesellschaft von Gelehrten</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>C. Plaat en A. Loosjes</name>
+                        <name>Verl. d. Industrie-Comptoirs</name>
                      </publisher>
-                     <pubPlace>Haarlem</pubPlace>
-                     <date type="publication" when="1793-01-25">1793, 25 January</date>
+                     <pubPlace>Weimar</pubPlace>
+                     <date type="publication" when="1808-04-01">April 1808</date>
                   </imprint>
-                  <biblScope>Deel 10 (1793), No. 239 (Vrydag, den 25 January), S. 26.</biblScope>
+                  <biblScope>Bd. 25, 4. Stück (April 1808), S. 477-482.</biblScope>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>4 EPH LIT 274/9</idno>
+                  <idno>8 GEOGR 64</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
@@ -112,13 +112,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">03005</classCode>
+            <classCode scheme="BiblNr">00768</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
                <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
             <classCode scheme="cat">
-               <idno>II.4.X.1</idno>Algemene konst- en letter-bode, voor meer- en min-geoeffenden</classCode>
+               <idno>II.4.3</idno>Allgemeine geographische Ephemeriden</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -129,13 +129,24 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00768">
-         <spanGrp xml:id="biblStruct_d1e59287_00768">
-            <span type="note"> Auszug aus einem undatierten Brief Blumenbachs an Christiaan Paulus Schacht über seine Experimente zur tierischen Elektrizität. </span>
+         <spanGrp xml:id="biblStruct_d1e59321_00768">
+            <span type="note"> Auszug aus einem Brief Georg Heinrich von Langsdorffs an Blumenbach vom 6. Mai 1806 aus St. Francisco. Enthält die Beschreibung seiner Reise von Kamtschatka nach St. Francisco. Vorausgehender Reiseverlauf geschildert in </span>
+            <span type="title" style="j">Magazin für den neuesten Zustand der Naturkunde, mit Rücksicht auf die dazu gehörigen Hülfswissenschaften </span>
+            <span type="biblScope">Bd. 9, 3. Stück (1805), S. 203-206 </span>
+            <span type="title" style="">ibid. </span>
+            <span type="biblScope">S. 220-223, Bd. 10, 3. Stück (1805), S. 193-206, Bd. 11, 4. Stück (1806), S. 289-296 </span>
+            <span type="title" style="">ibid. </span>
+            <span type="biblScope">S. 297-309 </span>
+            <span type="reference">00908 </span>
+            <span type="reference">00912 </span>
+            <span type="reference">00913 </span>
+            <span type="reference">00914 </span>
+            <span type="reference">00915 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

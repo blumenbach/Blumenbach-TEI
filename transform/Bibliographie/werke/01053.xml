@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main"/>
+            <title type="main">Johann Friedrich Blumenebach. Beyträge zur Naturgeschichte. Mit einer Einleitung herausgegeben von Mario Marino.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -36,30 +36,22 @@
                <idno type="URLText"/>
             </idno>
          </publicationStmt>
-         <notesStmt>
-            <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000999/00999.pdf</ref>
-            </note>
-         </notesStmt>
          <sourceDesc>
             <biblStruct>
-               <analytic>
-                  <title level="a" type="main"/>
+               <monogr>
+                  <title level="m" type="main">Johann Friedrich Blumenebach. Beyträge zur Naturgeschichte. Mit einer Einleitung herausgegeben von Mario Marino.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
-               </analytic>
-               <monogr>
-                  <edition>[s.l.] : [s.n.]</edition>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name/>
+                        <name>Olms-Weidmann</name>
                      </publisher>
-                     <pubPlace/>
-                     <date type="publication" when="1795-01-01">1795</date>
+                     <pubPlace>Hildesheim, Zürich, New York</pubPlace>
+                     <date type="publication" when="2014-01-01">2014 = 1790 ; 1811.</date>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -71,8 +63,8 @@
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>s. sh.<dimensions>
-                              <dim>8°.</dim>
+                        <extent>CXX, VIII, 126, 144 S.<dimensions>
+                              <dim/>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -110,11 +102,15 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">01000</classCode>
+            <classCode scheme="BiblNr">04000</classCode>
             <classCode scheme="cat">
-               <idno>III</idno>Für Blumenbach vermutete Werke</classCode>
+               <idno>I</idno>Selbständig erschienene Werke</classCode>
             <classCode scheme="cat">
-               <idno>III.1</idno>Einzelwerk</classCode>
+               <idno>I.8</idno>Beiträge zur Naturgeschichte</classCode>
+            <classCode scheme="cat">
+               <idno>I.8.1</idno>Originalausgaben</classCode>
+            <classCode scheme="cat">
+               <idno>I.8.1.1</idno>Modernere Nachdruck</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -125,22 +121,25 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="01053">
-         <spanGrp xml:id="biblStruct_d1e78650_01053">
-            <span type="note">Zuschreibung durch British Library. Kein weiteres Exemplar bekannt. Mögl. Zusammenhang mit dem Bericht zu Blumenbachs (?) der Societät vorgelegtem „Versuch natürlicher Ordnungen der Säugthiere“ in </span>
-            <span type="title" style="j">GAgS </span>
-            <span type="biblScope">1775 (147. Stück, 9. Dezember), S. 1257-1259; „Göttingen“ </span>
-            <span type="reference">01001 </span>
-            <span type="note">sowie Blumenbachs von der Entdeckung des Schnabeltiers angeregte Überarbeitung des im Handbuch der Naturgeschichte enthaltenen Systems der Säugetiere in </span>
-            <span type="title" style="j">Magazin für den neuesten Zustand der Naturkunde, mit Rücksicht auf die dazu gehörigen Hülfswissenschaften </span>
-            <span type="biblScope">Bd. 3, 4. Stück (1802), S. 678-682 </span>
-            <span type="reference">00889 </span>
-            <span type="repository">London, British Library </span>
-            <span type="idno">B.453.(2.) </span>
+         <spanGrp xml:id="biblStruct_d1e79060_01053">
+            <span type="note">Enthält Nachdruck von[Lit.] Beyträge zur Naturgeschichte/ von Joh. Fr. Blumenbach </span>
+            <span type="edition">Erster Theil </span>
+            <span type="pubPlace">Göttingen </span>
+            <span type="publisher">Bey Johann Christian Dieterich </span>
+            <span type="date">1790 </span>
+            <span type="reference">00111 </span>
+            <span type="note">und </span>
+            <span type="title" style="m">[Lit.] Beyträge zur Naturgeschichte/ von Joh. Fr. Blumenbach </span>
+            <span type="edition">Zweyter Theil </span>
+            <span type="pubPlace">Göttingen </span>
+            <span type="publisher">Bey Heinrich Dieterich </span>
+            <span type="date">1811 </span>
+            <span type="reference">00113 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

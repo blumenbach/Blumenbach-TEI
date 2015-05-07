@@ -38,7 +38,7 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000424/00424.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000434/00434.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -50,16 +50,16 @@
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">Göttingische Anzeigen von gelehrten Sachen [GAgS]</title>
+                  <title level="j">Göttingische gelehrte Anzeigen [GgA]</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Dieterich</name>
+                        <name>Vandenhoeck &amp; Ruprecht</name>
                      </publisher>
                      <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1800-12-13">1800, 13. Dezember</date>
+                     <date type="publication" when="1802-03-13">1802, 13. März</date>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -71,7 +71,7 @@
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>1800 (199. Stück, 13. Dezember), S. 1977-1985.<dimensions>
+                        <extent>1802 (41. Stück, 13. März), S. 401-405.<dimensions>
                               <dim/>
                            </dimensions>
                         </extent>
@@ -110,13 +110,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00424</classCode>
+            <classCode scheme="BiblNr">00434</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
                <idno>II.3</idno>Publikationsorgane der Königlichen Gesellschaft der Wissenschaften zu Göttingen</classCode>
             <classCode scheme="cat">
-               <idno>II.3.2.1</idno>Göttingische Anzeigen von gelehrten Sachen</classCode>
+               <idno>II.3.2.2</idno>Göttingische gelehrte Anzeigen</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -127,20 +127,23 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00434">
-         <spanGrp xml:id="biblStruct_d1e36002_00434">
+         <spanGrp xml:id="biblStruct_d1e36119_00434">
             <span type="note">Rezension von </span>
-            <span type="title" style="m">[Lit.] Relation du voyage a la recherche de la Pérouse, fait par ordre de L'Assamblée Constituante, pendant les années 1791, 1792, et pendant la 1ere. et la 2e. année de la République Françoise/ par Le Cen. Labillardière, correspondant de la ci-devant Académie des Sciences de Paris, membre de la Société d'Histoire Naturelle et l'un des naturalistes de l'expédition. </span>
+            <span type="title" style="m">[Lit.] Oiseaux dorés ou a reflets métalliques </span>
+            <span type="author">par J. B. Audebert et L. P. Vieillot. </span>
             <span type="pubPlace">Paris </span>
-            <span type="publisher">Chez H. J. Jansen </span>
-            <span type="note">Imprimeur-Libraire Rue Des Maçons, N°. 406, Place Sorbonne, An VIII [1799/1800]. </span>
-            <span type="extent">3 Bde. </span>
+            <span type="publisher">Desray </span>
+            <span type="date">An XI = 1802 </span>
+            <span type="extent">2 Bde. </span>
+            <span type="note"> T. 1.: Histoire naturelle et générale des Colibris, Oiseaux-mouches, Jacamars et Promerops; </span>
+            <span type="note"> T. 2.: Histoire naturelle et générale des Grimpereaux et des Oiseaux de Paradis. </span>
             <span type="repository">SUB Göttingen </span>
-            <span type="idno"> 4 H NAT II, 1085:1-2; gr 2 H NAT II, 1085:Atlas </span>
+            <span type="idno"> GR 2 ZOOL IX, 9212:1-2 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

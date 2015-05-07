@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift: Histoire physique de la vie de l’homme.</title>
+            <title type="main">Überschrift:I. Anmerkungen über des H. Troja Experimenta de novorum ossium regeneratione, von dem Herrn Professor Blumenbach.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,36 +38,36 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Almanach_de_Gotha_1791/Almanach_de_Gotha_1791.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000789/00789.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift: Histoire physique de la vie de l’homme.</title>
+                  <title level="a" type="main">Überschrift:I. Anmerkungen über des H. Troja Experimenta de novorum ossium regeneratione, von dem Herrn Professor Blumenbach.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">Almanach de Gotha pour l’année ...</title>
+                  <title level="j">Chirurgische Bibliothek  / [Urh.] August Gottlieb Richter</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>C. H. Ettinger</name>
+                        <name/>
                      </publisher>
-                     <pubPlace>Gotha</pubPlace>
-                     <date type="publication" when="1790-01-01">1790</date>
+                     <pubPlace>Göttingen ; Gotha </pubPlace>
+                     <date type="publication" when="1782-01-01">1782</date>
                   </imprint>
-                  <biblScope>1791 [i. e. 1790], S. 33-36.</biblScope>
+                  <biblScope>Bd. 6, 1. Stück (1782), S. 107-112.</biblScope>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno/>
+                  <idno>8 EPH LIT 444/5</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
@@ -112,13 +112,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">04008</classCode>
+            <classCode scheme="BiblNr">00789</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
                <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
             <classCode scheme="cat">
-               <idno>II.4.X.4</idno>Almanach de Gotha pour l’année</classCode>
+               <idno>II.4.13</idno>Chirurgische Bibliothek</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -129,20 +129,19 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00789">
-         <spanGrp xml:id="biblStruct_d1e60786_00789">
-            <span type="note">Beschreibung der körperlichen Entwicklung des Menschen von der Empfängnis bis zum Tod. Französische Version des Aufsatzes „Physische Lebensgeschichte des Menschen“ im </span>
-            <span type="title" style="j">Gothaischen Hofkalender ... auf das Jahr 1791 </span>
-            <span type="citedRange">S. 31-34 </span>
-            <span type="reference">00793 </span>
-            <span type="note">In Text und Satz identische Wiederholung (lediglich mit geänderten Abständen zwischen den Absätzen und Seitenumbrüchen) des gleichlautenden Beitragsaus dem </span>
-            <span type="title" style="j">Almanach de Gotha für das Jahr 1790 </span>
-            <span type="citedRange">S.33-36 </span>
-            <span type="reference">NaN </span>
+         <spanGrp xml:id="biblStruct_d1e60914_00789">
+            <span type="note"> Bericht zur Wiederholung von Tierversuchen, die geschildert werden in </span>
+            <span type="title" style="m">[Lit.] De novorum ossium in integris aut maximis, ob morbos, deperditionibus, regeneratione experimenta: Ubi, maximâ materiae affinitate, breviter de fracturis, &amp; de vi quam natura impendit in ossibus elongandis dum crescunt/ auctore Michaele Troja </span>
+            <span type="pubPlace">Lutetiae Parisiorum </span>
+            <span type="publisher">Typis Franc. Ambr. Didot ... </span>
+            <span type="date">1775 </span>
+            <span type="repository">SUB Göttingen </span>
+            <span type="idno">8 ZOOL XIII 7225 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

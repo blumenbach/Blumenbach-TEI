@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">*W. Cheselden's Anatomie des menschlichen Körpers.</title>
+            <title type="main">Allgemeine Geschichte der thierischen und mineralischen Gifte</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -36,10 +36,17 @@
                <idno type="URLText"/>
             </idno>
          </publicationStmt>
+         <notesStmt>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000169/00169.pdf</ref>
+            </note>
+         </notesStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
-                  <title level="m" type="main">*W. Cheselden's Anatomie des menschlichen Körpers.</title>
+                  <title level="m" type="main">Allgemeine Geschichte der thierischen und mineralischen Gifte</title>
+                  <title level="m" type="sub">Mit einer Vorrede von Johann Friedrich Blumenbach... .</title>
+                  <title level="m" type="aut">von Johann Friedrich Gmelin</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
@@ -48,23 +55,23 @@
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Karger</name>
+                        <name>Bei Friedrich August Knick</name>
                      </publisher>
-                     <pubPlace>Germering</pubPlace>
-                     <date type="publication" when="1984-01-01">1984</date>
+                     <pubPlace>Erfurt</pubPlace>
+                     <date type="publication" when="1806-01-01">1806</date>
                   </imprint>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
-                  <repository>Universität Hamburg, Ärztliche Zentralbibliothek</repository>
-                  <idno>Med 11: Td Che/1790</idno>
+                  <repository>SUB Göttingen</repository>
+                  <idno>8 MAT MED 738/33</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>XIX, 324 S.: Ill.<dimensions>
-                              <dim/>
+                        <extent>VIII, 391 S.<dimensions>
+                              <dim>21 cm (8°).</dim>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -102,7 +109,7 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00163</classCode>
+            <classCode scheme="BiblNr">00169</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
@@ -117,19 +124,22 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00169">
-         <spanGrp xml:id="biblStruct_d1e15258_00169">
-            <span type="note">Enthält Blumenbachs Vorrede auf S. V-IX. Nachdruck der Originalausgabe </span>
-            <span type="title" style="m">[Lit.] W. Cheselden's Anatomie des menschlichen Körpers: mit vierzig Kupfertafeln nach Vandergucht von Riepenhausen/ aus dem Englischen übersetzt von August Ferdinand Wolff </span>
-            <span type="title" style="">nebst einer Vorrede von J. Fr. Blumenbach </span>
-            <span type="pubPlace">Göttingen </span>
-            <span type="publisher">Bey Johann Christian Dieterich </span>
-            <span type="date">1790 </span>
-            <span type="reference">00160 </span>
+         <spanGrp xml:id="biblStruct_d1e15426_00169">
+            <span type="note">Anm. 8 </span>
+            <span type="note">Enthält Blumenbachs „Vorrede“ auf S. III-VIII. </span>
+            <span type="note">Anm. 8: Moderner Nachdruck: </span>
+            <span type="title" style="m">[Lit.] Allgemeine Geschichte der thierischen und mineralischen Gifte </span>
+            <span type="author">Johann Friedrich Gmelin. </span>
+            <span type="pubPlace">Saarbrücken </span>
+            <span type="publisher">VDM, Müller </span>
+            <span type="date">2006 = 1806. </span>
+            <span type="extent">VIII, 391 S. </span>
+            <span type="dimensions">21 cm (8°) </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

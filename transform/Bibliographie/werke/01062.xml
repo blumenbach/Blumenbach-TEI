@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift:Entwurf einer Anthropologie.</title>
+            <title type="main">Überschrift:Ce que l'on fait [sic] de plus nouveau de l'intérieur de l'Afrique.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,36 +38,36 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2001007/01007.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Almanach_de_Gotha_1799/Almanach_de_Gotha_1799.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift:Entwurf einer Anthropologie.</title>
+                  <title level="a" type="main">Überschrift:Ce que l'on fait [sic] de plus nouveau de l'intérieur de l'Afrique.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">Göttinger Taschen-Calender : für das Jahr … </title>
+                  <title level="j">Almanach de Gotha pour l’année ...</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Dieterich</name>
+                        <name>C. H. Ettinger</name>
                      </publisher>
-                     <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1776-01-01">1776</date>
+                     <pubPlace>Gotha</pubPlace>
+                     <date type="publication" when="1798-01-01">1798</date>
                   </imprint>
-                  <biblScope>1777 [i. e. 1776], S. 61-70.</biblScope>
+                  <biblScope>1799 [i. e. 1798], S. 29-36.</biblScope>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>8 SVA II, 3470 RARA</idno>
+                  <idno/>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
@@ -112,13 +112,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">01007</classCode>
+            <classCode scheme="BiblNr">04009</classCode>
             <classCode scheme="cat">
-               <idno>III</idno>Für Blumenbach vermutete Werke</classCode>
+               <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
-               <idno>III.2</idno>Zeitschriftenbeiträge</classCode>
+               <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
             <classCode scheme="cat">
-               <idno>III.2.4</idno>Göttinger Taschen-Calender : für das Jahr</classCode>
+               <idno>II.4.X.4</idno>Almanach de Gotha pour l’année</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -129,30 +129,21 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="01062">
-         <spanGrp xml:id="biblStruct_d1e79456_01062">
-            <span type="note"> Laut Dougherty </span>
-            <span type="title" style="m">Bibliographie </span>
-            <span type="citedRange">S. 26 </span>
-            <span type="note">von Blumenbach; textidentisch mit „Skize von Anthropologie“ (1776) </span>
-            <span type="reference">01005 </span>
-            <span type="note">Wie die im </span>
-            <span type="title" style="j">Taschen-Calender für 1776 </span>
-            <span type="note">enthaltenen und für Blumenbach vermuteten Texte </span>
-            <span type="reference">01005 </span>
-            <span type="reference">01006 </span>
-            <span type="note">und </span>
-            <span type="reference">NaN </span>
-            <span type="note">mit dem Autorenkürzel (?) „U.“ unterschrieben </span>
-            <span type="note">Vgl. den entsprechenden Beitrag im </span>
-            <span type="title" style="j">Almanach de Goettingue </span>
-            <span type="note">der französischen Version des </span>
-            <span type="title" style="j">Taschen-Calenders, für 1777 </span>
-            <span type="citedRange">S. 61-70, „Essai d'Anthropologie “ </span>
+         <spanGrp xml:id="biblStruct_d1e79750_01062">
+            <span type="note"> Titelangabe im Inhaltsverzeichnis „Ce que l'on sait ...“ </span>
+            <span type="note">Bericht über die von der African Association in London finanzierten Afrikaexpeditionen von John Ledyard, Simon Lucas, Daniel Houghton, Mungo Parks und Friedrich Hornemann </span>
+            <span type="note">Französische Version von  „Das Neuste aus dem Innern von Africa in </span>
+            <span type="title" style="j">Gothaischen Hofkalender ... aufdas Jahr 1799, </span>
+            <span type="citedRange">S. 10-17 </span>
+            <span type="reference">03013 </span>
+            <span type="edition">Hrsg.: A.L. Jacobi, A.J. Kraut, J.K. Beneke. Hannover:Pockwitz, 1787-1795 </span>
+            <span type="repository">SUB Göttingen </span>
+            <span type="idno">8 H HANN I,1430 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

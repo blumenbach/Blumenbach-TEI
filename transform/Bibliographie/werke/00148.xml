@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Medicinische Bibliothek</title>
+            <title type="main">*Kleine Schriften zur vergleichenden Physiologie und Anatomie und Naturgeschichte gehörig : mit einer Kupfertafel</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,20 +38,18 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000145_001/00145_001.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000148/00148.pdf</ref>
             </note>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000145_002/00145_002.pdf</ref>
-            </note>
-            <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000145_003/00145_003.pdf</ref>
+               <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000148/000148.html</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
-                  <title level="m" type="main">Medicinische Bibliothek</title>
-                  <title level="m" type="aut">hrsg. von Joh. Friedr. Blumenbach.</title>
+                  <title level="m" type="main">*Kleine Schriften zur vergleichenden Physiologie und Anatomie und Naturgeschichte gehörig : mit einer Kupfertafel</title>
+                  <title level="m" type="aut">von Joh. Friedr. Blumenbach</title>
+                  <title level="m" type="ed">uibersetzt [sic] und herausgegeben von D. Joh. Gottfr. Gruber.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
@@ -60,23 +58,23 @@
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Bey Johann Christian Dieterich</name>
+                        <name>Bei G. Benj. Meissner</name>
                      </publisher>
-                     <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1783-01-01">1783-1795. 1.1783/84 - 3.1788/95.</date>
+                     <pubPlace>Leipzig</pubPlace>
+                     <date type="publication" when="1800-01-01">1800</date>
                   </imprint>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
-                  <repository>SUB Göttingen</repository>
-                  <idno>8 MED EPH 142</idno>
+                  <repository>Universitätsbibliothek Kiel</repository>
+                  <idno>Ke 833/19</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>18 cm (8°).<dimensions>
-                              <dim/>
+                        <extent>[4] Bl., 165 S., [1] gef. Bl.: 1 Ill. (Kupferst.)<dimensions>
+                              <dim>17 cm (8°).</dim>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -87,7 +85,7 @@
                      <recordHist>
                         <source>
                            <certainty locus="location">
-                              <desc/>
+                              <desc>no autopsy</desc>
                            </certainty>
                         </source>
                      </recordHist>
@@ -114,11 +112,11 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00145</classCode>
+            <classCode scheme="BiblNr">00148</classCode>
             <classCode scheme="cat">
                <idno>I</idno>Selbständig erschienene Werke</classCode>
             <classCode scheme="cat">
-               <idno>I.11</idno>Von Blumenbach herausgegebene Werke</classCode>
+               <idno>I.12</idno>Sammelwerk</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -129,77 +127,46 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00148">
-         <spanGrp xml:id="biblStruct_d1e13216_00148">
-            <span type="extent">Bd. 1 (1783/84) enthält 4 Stücke ([4] Bl., 742 S., [7] Bl., I gef. Bl.: 1 Ill. (Kupferst.)). </span>
-            <span type="note">Jedes Stück hat eine Titelvignette, die Tafel ist gestochen von J. G. Sturm. </span>
-            <span type="extent">Bd. 2 (1785/87) enthält 4 Stücke ([3] Bl., 772 S., [1] Bl., III Bl.: 3 Ill. (Kupferst.)). </span>
-            <span type="note">Jedes Stück zeigt als Titelvignette das Portrait eines berühmten Arztes. 1. St.: „A. v. Haller“, 2. St.: „G. E. Stahl“, 3. St.: „W. Hunter“, 4. St.: „I. Senac“. </span>
-            <span type="extent">Bd. 3 (1788/95) enthält 4 Stücke (735 S., [4] Bl., II gef. Bl.: 2 Ill. (Kupferst.)). </span>
-            <span type="note">Jedes Stück zeigt als Titelvignette das Portrait eines berühmten Arztes. 1. St.: „Fr. Hoffmann“, 2. St.: „W. Harvey“, 3. St.: „H. Boerhaave“, 4. St: „P. Camper“. </span>
-            <span type="note">Die eindeutig von Blumenbach verfassten Artikel für die </span>
-            <span type="title" style="j">Medicinische Bibliothek </span>
-            <span type="note">werden einzeln in Abschnitt II.4.29 aufgeführt. </span>
-            <span type="reference">00940 </span>
-            <span type="reference">00963 </span>
-            <span type="note">Anzeige Blumenbachs von Bd. 1, St. 1 in </span>
-            <span type="title" style="j">GAgS </span>
-            <span type="extent">1783 (52. Stück, 31. März), S. 513-515 „Göttingen“ </span>
-            <span type="reference">00251 </span>
-            <span type="note">Von Bd. 1, St. 2 in </span>
-            <span type="title" style="j">GAgS </span>
-            <span type="biblScope">1784 (9. Stück, 15. Januar) </span>
-            <span type="citedRange">S. 81-83; „Göttingen“ </span>
-            <span type="reference">00252 </span>
-            <span type="note">Von Bd. 1, St. 3 in </span>
-            <span type="title" style="j">GAgS </span>
-            <span type="biblScope">1784 (82. Stück, 22. Mai) </span>
-            <span type="citedRange">S. 817-819; „Göttingen“ </span>
-            <span type="reference">00254 </span>
-            <span type="note">Von Bd. 1, St. 4 in </span>
-            <span type="title" style="j">GAgS </span>
-            <span type="biblScope">1785 (10. Stück, 20. Januar) </span>
-            <span type="citedRange">S. 89-90; „Göttingen“ </span>
-            <span type="reference">00265 </span>
-            <span type="note">Von Bd. 2, St. 1 in </span>
-            <span type="title" style="j">GAgS </span>
-            <span type="biblScope">1785 (169. Stück, 24. Oktober) </span>
-            <span type="citedRange">S. 1707-1708; „Göttingen“ </span>
-            <span type="reference">00276 </span>
-            <span type="note">Von Bd. 2, St. 2 in </span>
-            <span type="title" style="j">GAgS </span>
-            <span type="biblScope">1786 (15. Stück, 28. Januar) </span>
-            <span type="citedRange">S. 137-138; „Göttingen“ </span>
-            <span type="reference">00278 </span>
-            <span type="note">Von Bd. 2, St. 3 in </span>
-            <span type="title" style="j">GAgS </span>
-            <span type="biblScope">1786 (98. Stück, 21. Juni) </span>
-            <span type="citedRange">S. 977-978; „Göttingen“ </span>
-            <span type="reference">00288 </span>
-            <span type="note">Von Bd. 2., St. 4 in </span>
-            <span type="title" style="j">GAgS </span>
-            <span type="biblScope">1787 (64. Stück, 21. April) </span>
-            <span type="citedRange">S. 633-634; „Göttingen“ </span>
-            <span type="reference">00303 </span>
-            <span type="note">Von Bd. 3, St. 1 in </span>
-            <span type="title" style="j">GAgS </span>
-            <span type="biblScope">1788 (75. Stück, 10. Mai) </span>
-            <span type="citedRange">S. 745-746; „Göttingen“ </span>
-            <span type="reference">00311 </span>
-            <span type="note">Von Bd. 3, St. 2 in </span>
-            <span type="title" style="j">GAgS </span>
-            <span type="biblScope">1789 (180. Stück, 9. November) </span>
-            <span type="citedRange">S. 1801-1802; „Göttingen“ </span>
-            <span type="reference">00324 </span>
-            <span type="note"> Von Bd. 3, St. 3 in </span>
-            <span type="title" style="j">GAgS </span>
-            <span type="biblScope">1792 (102. Stück, 28. Juni) </span>
-            <span type="citedRange">S. 1017-1018; „Göttingen“ </span>
-            <span type="reference">00349 </span>
+         <spanGrp xml:id="biblStruct_d1e13813_00148">
+            <span type="note">Enthält: „I. Versuch einer vergleichenden Physiologie der warmblütigen lebendig gebährenden und Eierlegenden Thiere“, S. 1-60, mit Tafel (i. e. deutsche Übersetzung von „Io. Frid. Blumenbachii specimen physiologiae comparatae inter animantia calidi sanguinis vivipara et ovipara: recitatum d. XXVII. Decembr. MDCCLXXXVIII“, in </span>
+            <span type="title" style="j">Commentationes Societatis Regiae Scientiarum Gottingensis </span>
+            <span type="biblScope">Bd. IX (1789), Phys. </span>
+            <span type="citedRange">S. 108-128, mit Tafel </span>
+            <span type="reference">00184 </span>
+            <span type="note">„II. Versuch einer vergleichenden Physiologie zwischen den kalt- und warmblütigen Thieren“, S. 62-142 (i. e. deutsche Übersetzung von „Jo. Frid. Blumenbachii specimen physiologiae comparatae inter animantia calidi et frigidi sanguinis recitatum d. XXIII. Decembr. MDCCLXXXVI“, in </span>
+            <span type="title" style="j">Commentationes Societatis Regiae Scientiarum Gottingensis </span>
+            <span type="biblScope">Bd. VIII (1787), Phys. </span>
+            <span type="citedRange">S. 69-100 </span>
+            <span type="reference">00182 </span>
+            <span type="note">„III. Auszüge aus der Sammlung von Hirnschädeln verschiedener Nationen. Als Beitrag zur Naturgeschichte der Menschenspecies“, S. 143-165 (i. e. bearbeitete Auszüge aus Grubers Übersetzung der 3. Ausgabe von Blumenbachs Dissertation De generis humani varietate nativa (1795): [Lit.] D. Joh. Friedr. Blumenbach </span>
+            <span type="title" style="">über die natürlichen Verschiedenheiten im Menschengeschlechte: mit Kupfern/ Nach der dritten Ausgabe und den Erinnerungen des Verfassers übersetzt, und mit einigen Zusätzen und erläuternden Anmerkungen herausgegeben von Johann Gottfried Gruber </span>
+            <span type="pubPlace">Leipzig </span>
+            <span type="publisher">Bey Breitkopf und Härtel </span>
+            <span type="date">1798 </span>
+            <span type="reference">00008 </span>
+            <span type="note"> sowie bearbeitete Auszüge aus </span>
+            <span type="title" style="m">[Lit.] Beyträge zur Naturgeschichte/ von Joh. Fr. Blumenbach </span>
+            <span type="edition">Erster Theil </span>
+            <span type="pubPlace">Göttingen </span>
+            <span type="publisher">Bey Johann Christian Dieterich </span>
+            <span type="date">1790 </span>
+            <span type="reference">00111 </span>
+            <span type="note">sowie übersetzte Auszüge aus „Io. Frid. Blumenbachii decas collectionis suae craniorum diversarum gentium illustrata. D. XII. Dec. MDCCLXXXIX“, in </span>
+            <span type="title" style="j">Commentationes Societatis Regiae Scientiarum Gottingensis </span>
+            <span type="biblScope">Bd. X (1791), Phys., S. 3-27 </span>
+            <span type="reference">00185 </span>
+            <span type="note">Zur Qualität von Grubers Übersetzung siehe den Kommentar zur angeblichen 2. Auflage [Lit.] Johann Friedrich Blumenbachs, </span>
+            <span type="title" style="">kleine Schriften zur vergleichenden Physiologie und Anatomie und zur Naturgeschichte gehörig: mit einem Kupfer/ aus dem Lateinischen übersezt [sic] von D. J. G. Gruber </span>
+            <span type="edition">Zweite Ausgabe. </span>
+            <span type="pubPlace">Leipzig </span>
+            <span type="publisher">In der Sommerschen Buchhandlung </span>
+            <span type="date">1804 </span>
+            <span type="reference">00149 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

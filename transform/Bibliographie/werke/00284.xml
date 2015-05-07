@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift: Ebendaselbst. [Dessau und Leipzig. S. 1425]</title>
+            <title type="main">Überschrift: Leipzig.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,13 +38,13 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000274/00274.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000284/00284.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift: Ebendaselbst. [Dessau und Leipzig. S. 1425]</title>
+                  <title level="a" type="main">Überschrift: Leipzig.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
@@ -59,7 +59,7 @@
                         <name>Dieterich</name>
                      </publisher>
                      <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1785-09-10">1785, 10. September</date>
+                     <date type="publication" when="1786-04-15">1786, 15. April</date>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -71,7 +71,7 @@
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>1785 (143. Stück, 10. September), S. 1430.<dimensions>
+                        <extent>1786 (60. Stück 15. April), S. 600-602.<dimensions>
                               <dim/>
                            </dimensions>
                         </extent>
@@ -110,7 +110,7 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00274</classCode>
+            <classCode scheme="BiblNr">00284</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
@@ -127,21 +127,26 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00284">
-         <spanGrp xml:id="biblStruct_d1e24567_00284">
-            <span type="note">Rezension von Bd. 2 von [Lit.] Heinrich Sanders Kleine Schriften nach dessen Tode hrsg. von Georg Friedrich Götz. </span>
-            <span type="pubPlace">Dessau </span>
-            <span type="publisher">Verlagskasse; Leipzig: Buchhandl. d. Gelehrten </span>
-            <span type="date">1784-1785 </span>
-            <span type="extent">2 Bde </span>
+         <spanGrp xml:id="biblStruct_d1e24647_00284">
+            <span type="note">Rezension von Bd. 1 (1785) von </span>
+            <span type="title" style="m">[Lit.] Nützliches Allerley aus der Natur und dem gemeinen Leben für allerley Leser/ Johann August Ephraim Goeze. </span>
+            <span type="pubPlace">Leipzig </span>
+            <span type="publisher">Weidmann &amp; Reich </span>
+            <span type="date">1785-1788 </span>
+            <span type="extent">6 Bde. </span>
             <span type="repository"> SUB Göttingen </span>
-            <span type="idno">8 PHYS MATH I 2695:1-2. </span>
-            <span type="note">Rezension von Bd. 1 ibid., 1785 (57. Stück, 11. April), S. 571 </span>
-            <span type="reference">00270 </span>
+            <span type="idno">8 SVA VIII 1765. </span>
+            <span type="note">Rezension von Bd. 2. ibid., 1786 (143. Stück, 9. Sept), S. 1431 </span>
+            <span type="reference">00292 </span>
+            <span type="note">von Bd. 3 ibid., 1787 (14. Stück, 25. Januar), S. 135-136 </span>
+            <span type="reference">00298 </span>
+            <span type="note">von Bd. 4 ibid., 1787 (154. Stück, 27. September), S. 1543 </span>
+            <span type="reference">00306 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

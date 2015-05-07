@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">The anthropological treatises of Johann Friedrich Blumenbach</title>
+            <title type="main">Naturgeschichte des Eichhörnchen : Dem besten aller Eichhörnchen der schönen Babiole gewidmet</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -36,39 +36,42 @@
                <idno type="URLText"/>
             </idno>
          </publicationStmt>
+         <notesStmt>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000117/00117.pdf</ref>
+            </note>
+         </notesStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
-                  <title level="m" type="main">The anthropological treatises of Johann Friedrich Blumenbach</title>
-                  <title level="m" type="sub">with memoirs of him by Marx and Flourens, and an account of his anthropological museum by</title>
-                  <title level="m" type="sub">R. Wagner, and the inaugural dissertation of John Hunter... on the varieties of man/</title>
-                  <title level="m" type="ed">translated and edited from the Latin, German, and French originals, by Thomas Bendyshe... .</title>
+                  <title level="m" type="main">Naturgeschichte des Eichhörnchen : Dem besten aller Eichhörnchen der schönen Babiole gewidmet</title>
+                  <title level="m" type="aut">Johann Friedrich Blumenbach</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
+                  <edition>[S.l.] : [s.n.],</edition>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Longman, Green, Longman, Roberts, &amp; Green</name>
+                        <name/>
                      </publisher>
-                     <pubPlace>London</pubPlace>
-                     <date type="publication" when="1865-01-01">1865.</date>
+                     <pubPlace/>
+                     <date type="publication" when="1777-01-01">1777</date>
                   </imprint>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
-                  <repository>SUB Göttingen</repository>
-                  <idno>8 ZOOL XI, 716</idno>
+                  <repository>Universitätsbibliothek Tübingen</repository>
+                  <idno>Bh 110</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>
-                           <dimensions>
-                              <dim/>
+                        <extent>[4] Bl.<dimensions>
+                              <dim>18 cm (8°).</dim>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -106,15 +109,11 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00114</classCode>
+            <classCode scheme="BiblNr">00117</classCode>
             <classCode scheme="cat">
                <idno>I</idno>Selbständig erschienene Werke</classCode>
             <classCode scheme="cat">
-               <idno>I.8</idno>Beiträge zur Naturgeschichte</classCode>
-            <classCode scheme="cat">
-               <idno>I.8.2</idno>Übersetzungen</classCode>
-            <classCode scheme="cat">
-               <idno>I.8.2.1</idno>Englisch</classCode>
+               <idno>I.9</idno>Kleinere Schriften</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -125,29 +124,21 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00117">
-         <spanGrp xml:id="biblStruct_d1e10705_00117">
-            <span type="note">Enthält „Contributions to natural history, pts. 1-2 (1806-1811)“, Thomas Bendyshes englische Übersetzung von </span>
-            <span type="title" style="m">[Lit.] Beyträge zur Naturgeschichte/ von Joh. Fr. Blumenbach </span>
-            <span type="edition">Erster Theil, zweyte Ausgabe </span>
+         <spanGrp xml:id="biblStruct_d1e10865_00117">
+            <span type="note">Titelvignette. </span>
+            <span type="note"> Widmung an „Meine gute schöne Babiole!“, S. [3]-[6]. </span>
+            <span type="note">„Naturgeschichte des Eichhörnchen“ auf S. [7]-[8]. </span>
+            <span type="note">Letzteres nahezu wortgleich auf S. 77-78 in </span>
+            <span type="title" style="m">[Lit.] D. Joh. Friedr. Blumenbachs ... Handbuch der Naturgeschichte mit Kupfern; [Teil 1] </span>
             <span type="pubPlace">Göttingen </span>
-            <span type="publisher">Bey Heinrich Dieterich </span>
-            <span type="date">1806 </span>
-            <span type="extent">112 S. 277-324. </span>
-            <span type="note">Und </span>
-            <span type="title" style="m">[Lit.] Beyträge zur Naturgeschichte/ von Joh. Fr. Blumenbach </span>
-            <span type="edition">Zweyter Theil. </span>
-            <span type="pubPlace">Göttingen </span>
-            <span type="publisher">Bey Heinrich Dieterich </span>
-            <span type="date">1811 </span>
-            <span type="reference">00113 </span>
-            <span type="note">S. 325-340. </span>
-            <span type="note">Weitere enthaltene Werke aufgeführt in Kommentar zu </span>
-            <span type="reference">00010 </span>
+            <span type="publisher">Bey Johann Christian Dieterich </span>
+            <span type="date">1779 </span>
+            <span type="reference">00021 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift:keine. „Die vom Hn. Obermedicinalrath Blumenbach [...].“</title>
+            <title type="main">Überschrift:Aus einem Schreiben Blumenbach's aus Göttingen vom 5.April 1810.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,36 +38,36 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000939/00939.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000977/00977.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift:keine. „Die vom Hn. Obermedicinalrath Blumenbach [...].“</title>
+                  <title level="a" type="main">Überschrift:Aus einem Schreiben Blumenbach's aus Göttingen vom 5.April 1810.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">Medicinisch-chirurgische Zeitung</title>
+                  <title level="j">Neue Jarbücher der Berg- und Hüttenkunde  / hrsg. von Carl Erenbert Freiherrn von Moll</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Rauch</name>
+                        <name>Stein</name>
                      </publisher>
-                     <pubPlace>Innsbruck</pubPlace>
-                     <date type="publication" when="1834-03-31">1834, 31. März.</date>
+                     <pubPlace>Nürnberg</pubPlace>
+                     <date type="publication" when="1811-01-01">1811</date>
                   </imprint>
-                  <biblScope>Bd. 1, Nr. 26 (31. März), 1834, S. 444-446.</biblScope>
+                  <biblScope>Bd. 2 (1. u. 2. Lieferung, 1811), S. 276-277.</biblScope>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>8 MED EPH 2151</idno>
+                  <idno>8 MET 245</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
@@ -112,13 +112,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00939</classCode>
+            <classCode scheme="BiblNr">00977</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
                <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
             <classCode scheme="cat">
-               <idno>II.4.28</idno>Medicinisch-chirurgische Zeitung</classCode>
+               <idno>II.4.34</idno>Neue Jarbücher der Berg- und Hüttenkunde</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -129,16 +129,28 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00977">
-         <spanGrp xml:id="biblStruct_d1e73245_00977">
-            <span type="note"> Bericht zum Vortrag Blumenbachs „Spicilegium observationum de generis humani varietate nativa“ vor der Societät der Wissenschaften zu Göttingen. Überwiegend wortgleiche Version von Blumenbachs Artikel aus </span>
+         <spanGrp xml:id="biblStruct_d1e73080_00977">
+            <span type="note"> Forschungsnotiz zu „Dendrachate“, „Mocchasteine“, „Achat“, „Türkise aus Nischabur in Ostpersien“. Die ersten beiden Absätze finden sich überwiegend wortgleich in Blumenbachs Artikel in </span>
             <span type="title" style="j">GgA </span>
-            <span type="biblScope">1833 (177. Stück, 4. November), S. 1761-1763; „Göttingen“ </span>
-            <span type="reference">00648 </span>
+            <span type="biblScope">1813 (207. Stück, 27. Dezember), S. 2065-2068; „Göttingen“ </span>
+            <span type="reference">00551 </span>
+            <span type="citedRange">S. 2068 </span>
+            <span type="note">Übersetzte, bearbeitete Version in </span>
+            <span type="title" style="j">Annals of philosophy </span>
+            <span type="biblScope">1813, Bd. 1 (Nr. 3., March), S. 217 </span>
+            <span type="note">als „I. Vegetables found in some species of minerals“ </span>
+            <span type="reference">00778 </span>
+            <span type="note">und „II. Turquois“ </span>
+            <span type="reference">00779 </span>
+            <span type="note">Bearbeitete Version des letzen Absatzes über „Türkise aus Nischabur“ in </span>
+            <span type="title" style="j">Taschenbuch für die gesammte Mineralogie mit Hinsicht auf die neuesten Entdeckungen </span>
+            <span type="biblScope">6. Jg. (1812), S. 266 </span>
+            <span type="reference">00995 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

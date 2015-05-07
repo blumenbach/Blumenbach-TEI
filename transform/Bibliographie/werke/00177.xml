@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Elemente Medicinischer Logik, erläutert durch practische Beweise und Beyspiele</title>
+            <title type="main">Überschrift: Beantwortung des vorstehenden Schreibens, vom Herrn Hofrath Blumenbuch [sic]. (Göttingen den 3. Sept. 1801.)</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,40 +38,43 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000171/00171.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000177/00177.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
-               <monogr>
-                  <title level="m" type="main">Elemente Medicinischer Logik, erläutert durch practische Beweise und Beyspiele</title>
-                  <title level="m" type="sub">nebst einer Darstellung des Erweises der ansteckenden Natur des gelben Fiebers/ von Sir Gilbert Blane</title>
-                  <title level="m" type="ed">Uebersetzt von V. A. Huber; Mit einer Vorrede von J. F. Blumenbach.</title>
+               <analytic>
+                  <title level="a" type="main">Überschrift: Beantwortung des vorstehenden Schreibens, vom Herrn Hofrath Blumenbuch [sic]. (Göttingen den 3. Sept. 1801.)</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
+               </analytic>
+               <monogr>
+                  <title level="m">In: Versuch einer Geschichte der Steinkohlen, der Braunkohlen und des Torfes, nebst Anleitung, diese Fossilien kennen und unterscheiden zu lernen, sie aufzusuchen und nützlich anzuwenden : mit zwey Kupfertafeln</title>
+                  <title level="m" type="aut">von Joh. Carl Wilhelm Voigt</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>In der Dieterichschen Buchhandlung</name>
+                        <name>In der Hoffmannischen Buchhandlung</name>
                      </publisher>
-                     <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1819-01-01">1819</date>
+                     <pubPlace>Weimar</pubPlace>
+                     <date type="publication" when="1802-01-01">1802-1805</date>
                   </imprint>
                </monogr>
+               <citedRange>Bd. 2: S. 168-171.</citedRange>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>8 MED PRAEC 180/45</idno>
+                  <idno>8 MIN III, 2738:2</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>VIII, 140 S.;<dimensions>
-                              <dim> 21 cm (8°).</dim>
+                        <extent>2 Bde. (1: XXIII, 307 S., [2] Bl.; 2: [3] Bl. 197 S., [2 Bl.], II gef. Bl.: 2 Ill. (Kupferst.)); <dimensions>
+                              <dim>21 cm (8°).</dim>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -109,11 +112,11 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00171</classCode>
+            <classCode scheme="BiblNr">00177</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
-               <idno>II.1</idno>Vorreden in Werken anderer Autoren</classCode>
+               <idno>II.2</idno>Abschnitte in Werken anderer Autoren</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -124,25 +127,18 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00177">
-         <spanGrp xml:id="biblStruct_d1e15843_00177">
-            <span type="note">Enthält Blumenbachs „Vorwort zu dieser Übersetzung“ auf S. III-VI. </span>
-            <span type="note">Vorlage für die Übersetzung ist </span>
-            <span type="title" style="m">[Lit.] Elements of medical logick illustrated by practical proofs and examples; inculding a statement of the evidence respecting the contagious nature of the yellow-fever/ Gilbert Blane </span>
-            <span type="pubPlace">London </span>
-            <span type="publisher">T. and G. Underwood </span>
-            <span type="date">1819. </span>
-            <span type="repository">SUB Göttingen </span>
-            <span type="idno"> 8 MED PRAEC 180/42. </span>
-            <span type="note">Blumenbachs Rezension des englischen Originaltexts und der deutschen Übersetzung in </span>
-            <span type="title" style="j">GgA </span>
-            <span type="biblScope">1820 (210. Stück, 30. Dezember) </span>
-            <span type="citedRange">S. 2104-2106; „London“ </span>
-            <span type="reference">00600 </span>
+         <spanGrp xml:id="biblStruct_d1e16076_00177">
+            <span type="note">Forschungsnotiz zu „Körperchen zwischen der Braunkohle“, die im „Fossilen-Holzlager von Kaltennordheim“ gefunden wurden, die Blumenbach für „keine bloße Saamen, aber wohl capsulae bivalves uniloculares“ hält, die „keiner jetzt mehr existirenden Holzart zugehören“. </span>
+            <span type="note">Auszug aus einem Brief Blumenbachs an Johann Ludwig Heim vom 3. September 1801 als Antwort auf dessen Ersuchen um eine Bestimmung. Der entsprechende Auszug aus Heims Brief an Blumenbach befindet sich ibid., S. 162-171. </span>
+            <span type="note">Bearbeitete, gekürzte Version von Blumenbachs Brief in französischer Übersetzung in </span>
+            <span type="title" style="j"> Journal des mines </span>
+            <span type="biblScope">Bd. 18, Nr. 105 (Prairial, An XIII [1805]), S. 235-238m </span>
+            <span type="reference">00808 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

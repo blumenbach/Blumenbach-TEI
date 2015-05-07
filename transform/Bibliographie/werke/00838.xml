@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift: Découvertes en Afrique.</title>
+            <title type="main">Überschrift:IV. Geognostische Merkwürdigkeiten der Grafschaft Glatz, besonders der Gegend von Landeck. Aus einer, unten im III. Abschnitt, angezeigten Schrift des Hrn. Leop. von Buch.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,36 +38,36 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Magazin_encyclopedique1799_Hornemann/Magazin_encyclopedique1799_Hornemann.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000838/00838.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift: Découvertes en Afrique.</title>
+                  <title level="a" type="main">Überschrift:IV. Geognostische Merkwürdigkeiten der Grafschaft Glatz, besonders der Gegend von Landeck. Aus einer, unten im III. Abschnitt, angezeigten Schrift des Hrn. Leop. von Buch.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">Magazin Encyclopédique : ou journal des sciences, des lettres et des arts; rédigé par A.  L. Millin</title>
+                  <title level="j">Magazin für den neuesten Zustand der Naturkunde, mit Rücksicht auf die dazu gehörigen Hülfswissenschaften  / hrsg. von Johann Heinrich Voigt</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name/>
+                        <name>Verl. des Landes-Industrie-Comptoirs</name>
                      </publisher>
-                     <pubPlace>Paris</pubPlace>
-                     <date type="publication" when="1799-01-01">1799</date>
+                     <pubPlace>Weimar</pubPlace>
+                     <date type="publication" when="1798-01-01">1798</date>
                   </imprint>
-                  <biblScope>4. Jg. (an VII.–1799), Bd. 6, S. 241-242.</biblScope>
+                  <biblScope>Bd. 1, 2. Stück (1798), S. 48-52.</biblScope>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>8 EPH LIT 100/5</idno>
+                  <idno>8 PHYS MATH II, 2355</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
@@ -112,13 +112,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">04016</classCode>
+            <classCode scheme="BiblNr">00838</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
                <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
             <classCode scheme="cat">
-               <idno>II.4.23</idno>Magazin Encyclopédique</classCode>
+               <idno>II.4.26</idno>Magazin für den neuesten Zustand der Naturkunde</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -129,16 +129,19 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00838">
-         <spanGrp xml:id="biblStruct_d1e64377_00838">
-            <span type="note"> Auszug aus einem Brief Blumenbachs an Franz Xaver von Zach vom 18. Januar 1799. Enthält neue Informationen über Friedrich Hornemanns Afrikareise sowie ein Zitat aus einem Brief von Joseph Banks an Blumenbach vom 11. Dezember 1798. </span>
-            <span type="note">Joseph-Jérôme de Lalandes leicht gekürzte französische Übersetzung von „3. Aus einem Schreiben des Hofraths Blumenbach.“ </span>
-            <span type="reference">00767 </span>
-            <span type="note">ohne Erwähnung Blumenbachs. </span>
+         <spanGrp xml:id="biblStruct_d1e64458_00838">
+            <span type="note"> Auszugsweise Inhaltswiedergabe von </span>
+            <span type="title" style="m">[Lit.] Versuch einer mineralogischen Beschreibung von Landeck/ Von Leopold von Buch. </span>
+            <span type="pubPlace">Breslau; Hirschberg; Lissa </span>
+            <span type="publisher">Korn </span>
+            <span type="date">1797 </span>
+            <span type="repository">SUB Göttingen </span>
+            <span type="idno">8 MIN II 4108 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

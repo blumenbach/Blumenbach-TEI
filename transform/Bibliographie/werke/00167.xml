@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">*W. Cheselden's Anatomie des menschlichen Körpers : mit vierzig Kupfertafeln nach Vandergucht von Riepenhausen/ aus dem Englischen übersetzt von August Ferdinand Wolff</title>
+            <title type="main">Des Herrn von Hallers Tagebuch der medicinischen Litteratur der Jahre 1745 bis 1774</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -36,11 +36,16 @@
                <idno type="URLText"/>
             </idno>
          </publicationStmt>
+         <notesStmt>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000167/00167.pdf</ref>
+            </note>
+         </notesStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
-                  <title level="m" type="main">*W. Cheselden's Anatomie des menschlichen Körpers : mit vierzig Kupfertafeln nach Vandergucht von Riepenhausen/ aus dem Englischen übersetzt von August Ferdinand Wolff</title>
-                  <title level="m" type="aut">nebst einer Vorrede von J. Fr. Blumenbach.</title>
+                  <title level="m" type="main">Des Herrn von Hallers Tagebuch der medicinischen Litteratur der Jahre 1745 bis 1774</title>
+                  <title level="m" type="ed">gesammelt, herausgegeben und mit verschiedenen Abhandlungen aus der Geschichte und Litteratur der Medicin begleitet von Dr. J. J. Römer und Dr. P. Usteri.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
@@ -49,23 +54,23 @@
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Zentralantiquariat d. DDR</name>
+                        <name>Bey Emanuel Haller</name>
                      </publisher>
-                     <pubPlace>Leipzig</pubPlace>
-                     <date type="publication" when="1984-01-01">1984</date>
+                     <pubPlace>Bern</pubPlace>
+                     <date type="publication" when="1790-01-01">1790</date>
                   </imprint>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
-                  <repository>Universitätsbibliothek Greifswald</repository>
-                  <idno>903/I 220</idno>
+                  <repository>SUB Göttingen</repository>
+                  <idno>8 EPH LIT 426/5.</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>XIX, 324 S.: Ill.<dimensions>
-                              <dim>8°.</dim>
+                        <extent>3 Bde. (1: XVI, 320 S.; [1] Bl., XC S., [1] Bl., S. [321]-798; 2: [1] Bl. 436 S.; 3: [1] Bl., 612 S.); <dimensions>
+                              <dim>19 cm (8°).</dim>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -103,7 +108,7 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00161</classCode>
+            <classCode scheme="BiblNr">00167</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
@@ -118,20 +123,18 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00167">
-         <spanGrp xml:id="biblStruct_d1e15111_00167">
-            <span type="note">Enthält Blumenbachs Vorrede auf S. V-IX. Nachdruck der Originalausgabe </span>
-            <span type="title" style="m">[Lit.] W. Cheselden's Anatomie des menschlichen Körpers: mit vierzig Kupfertafeln nach Vandergucht von Riepenhausen/ aus dem Englischen übersetzt von August Ferdinand Wolff </span>
-            <span type="title" style="">nebst einer Vorrede von J. Fr. Blumenbach </span>
-            <span type="pubPlace">Göttingen </span>
-            <span type="publisher">Bey Johann Christian Dieterich </span>
-            <span type="date">1790 </span>
-            <span type="reference">00160 </span>
-            <span type="note">nach dem Exemplar des Karl-Sudhoff-Instituts der Karl-Marx-Universität Leipzig. </span>
+         <spanGrp xml:id="biblStruct_d1e15279_00167">
+            <span type="note">Enthält Blumenbachs Vorrede in Bd. 1, Teil 2, S. [III]-X. Titelvignetten, in Bd. 1 gestochen von Junker. </span>
+            <span type="note">Angezeigt in Blumenbachs </span>
+            <span type="title" style="j">Medicinischer Bibliothek </span>
+            <span type="biblScope">Bd. 3, 2. Stück (1789) </span>
+            <span type="citedRange">S. 266-267. </span>
+            <span type="note"> Bd. 1 enth. 2 separat gebundene Teile. </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

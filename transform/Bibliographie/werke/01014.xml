@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift:XXXII. Nachrichten von Hornemann's Afrikanischer Reise. Aus einem Schreiben des Hofraths Blumenbach.</title>
+            <title type="main">Überschrift:Gelehrigkeit der Thiere.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,36 +38,36 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000967/00967.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2001014/01014.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift:XXXII. Nachrichten von Hornemann's Afrikanischer Reise. Aus einem Schreiben des Hofraths Blumenbach.</title>
+                  <title level="a" type="main">Überschrift:Gelehrigkeit der Thiere.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde / hrsg. vom Freyherrn von Zach</title>
+                  <title level="j">Göttinger Taschen-Calender : für das Jahr … </title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Becker</name>
+                        <name>Dieterich</name>
                      </publisher>
-                     <pubPlace>Gotha</pubPlace>
-                     <date type="publication" when="1800-03-01">1800, März</date>
+                     <pubPlace>Göttingen</pubPlace>
+                     <date type="publication" when="1781-01-01">1781</date>
                   </imprint>
-                  <biblScope>Bd. 1 (März 1800), S. 297-299.</biblScope>
+                  <biblScope>1782 [i. e. 1781], S. 97-103.</biblScope>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>8 GEOGR 67</idno>
+                  <idno>8 SVA II, 3470 RARA</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
@@ -112,13 +112,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00967</classCode>
+            <classCode scheme="BiblNr">01014</classCode>
             <classCode scheme="cat">
-               <idno>II</idno>Unselbständig erschienene Werke</classCode>
+               <idno>III</idno>Für Blumenbach vermutete Werke</classCode>
             <classCode scheme="cat">
-               <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+               <idno>III.2</idno>Zeitschriftenbeiträge</classCode>
             <classCode scheme="cat">
-               <idno>II.4.32</idno>Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde</classCode>
+               <idno>III.2.4</idno>Göttinger Taschen-Calender : für das Jahr</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -129,13 +129,18 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="01014">
-         <spanGrp xml:id="biblStruct_d1e75886_01014">
-            <span type="note"> Auszüge aus einem Brief Blumenbachs an Franz Xaver von Zach vom 4. Februar 1800. Enthält neue Informationen aus fünf Briefen (von Joseph Banks, Georg August Freiherr von Best, Georg Heinrich Noehden) an Blumenbach über Friedrich Hornemanns Afrikareise, sowie aus einem Brief Hornemanns an seine Mutter. </span>
+         <spanGrp xml:id="biblStruct_d1e76136_01014">
+            <span type="note"> Laut Krumme,„Nachwort“, S. [9], evtl. von Blumenbach; ebenso Stern, Lichtenberg, S. 346, Fn. 30. </span>
+            <span type="note">Vgl. den entsprechenden Beitrag im </span>
+            <span type="title" style="j">Almanach de Goettingue </span>
+            <span type="note">der französischen Version des </span>
+            <span type="title" style="j">Taschen-Calenders, für 1782 </span>
+            <span type="citedRange">S. 97-104,  „Docilité des Animaux“ </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

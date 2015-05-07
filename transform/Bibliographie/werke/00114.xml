@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Beyträge zur Naturgeschichte</title>
+            <title type="main">The anthropological treatises of Johann Friedrich Blumenbach</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -36,45 +36,39 @@
                <idno type="URLText"/>
             </idno>
          </publicationStmt>
-         <notesStmt>
-            <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000112/00112.pdf</ref>
-            </note>
-            <note type="ref">
-               <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000112/000112.html</ref>
-            </note>
-         </notesStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
-                  <title level="m" type="main">Beyträge zur Naturgeschichte</title>
-                  <title level="m" type="aut">Joh. Fr. Blumenbach</title>
+                  <title level="m" type="main">The anthropological treatises of Johann Friedrich Blumenbach</title>
+                  <title level="m" type="sub">with memoirs of him by Marx and Flourens, and an account of his anthropological museum by</title>
+                  <title level="m" type="sub">R. Wagner, and the inaugural dissertation of John Hunter... on the varieties of man/</title>
+                  <title level="m" type="ed">translated and edited from the Latin, German, and French originals, by Thomas Bendyshe... .</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
-                  <edition>Erster Theil, zweyte Ausgabe</edition>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Bey Heinrich Dieterich</name>
+                        <name>Longman, Green, Longman, Roberts, &amp; Green</name>
                      </publisher>
-                     <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1806-01-01">1806</date>
+                     <pubPlace>London</pubPlace>
+                     <date type="publication" when="1865-01-01">1865.</date>
                   </imprint>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>8 H NAT I, 748:1</idno>
+                  <idno>8 ZOOL XI, 716</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>XII, 131 S.: Ill. (Kupferst.)<dimensions>
-                              <dim>17 cm (8°).</dim>
+                        <extent>
+                           <dimensions>
+                              <dim/>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -112,13 +106,15 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00112</classCode>
+            <classCode scheme="BiblNr">00114</classCode>
             <classCode scheme="cat">
                <idno>I</idno>Selbständig erschienene Werke</classCode>
             <classCode scheme="cat">
                <idno>I.8</idno>Beiträge zur Naturgeschichte</classCode>
             <classCode scheme="cat">
-               <idno>I.8.1</idno>Originalausgaben</classCode>
+               <idno>I.8.2</idno>Übersetzungen</classCode>
+            <classCode scheme="cat">
+               <idno>I.8.2.1</idno>Englisch</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -129,35 +125,29 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00114">
-         <spanGrp xml:id="biblStruct_d1e10280_00114">
-            <span type="note">Titelvignette und 4 weitere Vignetten, Zählung: 1-5. </span>
-            <span type="note">Vignetten zeigen die fünf Menschenvarietäten. </span>
-            <span type="note">Angezeigt von Blumenbach in </span>
-            <span type="title" style="j">GgA </span>
-            <span type="biblScope">1806 (156. Stück, 29. September) </span>
-            <span type="citedRange">S. 1553-1555; „Göttingen“ </span>
-            <span type="reference">00467 </span>
-            <span type="note">Abweichungen zur 1. Ausgabe 1790: </span>
-            <span type="note">„Inhalt“ (S. IX-XII); </span>
-            <span type="note">„III. Eine präadamitische Vorwelt hat einst schon ihren jüngsten Tag erlebt“ (S. 13-18); </span>
-            <span type="note">„IV. Umschaffung der Vorwelt“ (S. 19-23); </span>
-            <span type="note">„V. Veränderlichkeit in der jetzigen Schöpfung“ (S. 24-28); </span>
-            <span type="note">„VI. Die Ausartung der organisirten Körper“ (S. 29-31); </span>
-            <span type="note">„VII. Besonders unter den Hausthieren“ (S. 32-37); </span>
-            <span type="note">„VIII. Ausartung des vollkommensten aller Hausthiere des Menschen“ (S. 38-41); </span>
-            <span type="note">„IX. Eine hieher gehörige physiologische Eigenheit des menschlichen Körpers“ (S. 42-47); </span>
-            <span type="note">„X. Ein Wort zur Beruhigung in einer allgemeinen Familien-Angelegenheit“ (S. 48-54); </span>
-            <span type="note">„XI. Ueber anthropologische Sammlungen“ (S. 55-66); </span>
-            <span type="note">„XII. Eintheilung des Menschengeschlechts in fünf Hauptrassen“ (S. 67-72); </span>
-            <span type="note">„XIII. Ueber die Negern insbesondre“ (S. 73-97); „XIV. Von den Kakerlacken“ (S. 98-105); </span>
-            <span type="note">„Zusätze“ (S. 106-131), i. e. „1) Zu S. 9. Ueber die Stufenfolge in der Natur“ (S. 106-112); </span>
-            <span type="note">„2) Zu S. 15. Ueber die Zeitfolge der verschiedenen Erdcatastrophen“ (S. 113-122); </span>
-            <span type="note">„3) Zu S. 35. Ueber die sogenannten Endabsichten“ (S. 123-131). </span>
+         <spanGrp xml:id="biblStruct_d1e10563_00114">
+            <span type="note">Enthält „Contributions to natural history, pts. 1-2 (1806-1811)“, Thomas Bendyshes englische Übersetzung von </span>
+            <span type="title" style="m">[Lit.] Beyträge zur Naturgeschichte/ von Joh. Fr. Blumenbach </span>
+            <span type="edition">Erster Theil, zweyte Ausgabe </span>
+            <span type="pubPlace">Göttingen </span>
+            <span type="publisher">Bey Heinrich Dieterich </span>
+            <span type="date">1806 </span>
+            <span type="extent">112 S. 277-324. </span>
+            <span type="note">Und </span>
+            <span type="title" style="m">[Lit.] Beyträge zur Naturgeschichte/ von Joh. Fr. Blumenbach </span>
+            <span type="edition">Zweyter Theil. </span>
+            <span type="pubPlace">Göttingen </span>
+            <span type="publisher">Bey Heinrich Dieterich </span>
+            <span type="date">1811 </span>
+            <span type="reference">00113 </span>
+            <span type="note">S. 325-340. </span>
+            <span type="note">Weitere enthaltene Werke aufgeführt in Kommentar zu </span>
+            <span type="reference">00010 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

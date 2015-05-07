@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift:Observations on the Conformation and Capacity of Negroes. By Professor Blumenbach. [From „Magazin für das neueste aus der Physik, vol. iv.]</title>
+            <title type="main">Überschrift:keine [S. 133: Neue Entdeckungen, physikalische und andere Merkwürdigkeiten].</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,36 +38,36 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000976/00976.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2001023/01023.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift:Observations on the Conformation and Capacity of Negroes. By Professor Blumenbach. [From „Magazin für das neueste aus der Physik, vol. iv.]</title>
+                  <title level="a" type="main">Überschrift:keine [S. 133: Neue Entdeckungen, physikalische und andere Merkwürdigkeiten].</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">The Monthly Magazine, and American Review</title>
+                  <title level="j">Göttinger Taschen-Calender : für das Jahr … </title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Swords</name>
+                        <name>Dieterich</name>
                      </publisher>
-                     <pubPlace>New York</pubPlace>
-                     <date type="publication" when="1799-01-01">1799</date>
+                     <pubPlace>Göttingen</pubPlace>
+                     <date type="publication" when="1789-01-01">1789</date>
                   </imprint>
-                  <biblScope>Bd. 1, Nr. 6 (1799), S. 453-456.</biblScope>
+                  <biblScope>1790 [i. e. 1789], S. 139-141.</biblScope>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>MIKRO A 596/17</idno>
+                  <idno>8 SVA II, 3470 RARA</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
@@ -112,13 +112,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00976</classCode>
+            <classCode scheme="BiblNr">01023</classCode>
             <classCode scheme="cat">
-               <idno>II</idno>Unselbständig erschienene Werke</classCode>
+               <idno>III</idno>Für Blumenbach vermutete Werke</classCode>
             <classCode scheme="cat">
-               <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+               <idno>III.2</idno>Zeitschriftenbeiträge</classCode>
             <classCode scheme="cat">
-               <idno>II.4.33</idno>The Monthly Magazine, and American Review</classCode>
+               <idno>III.2.4</idno>Göttinger Taschen-Calender : für das Jahr</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -129,21 +129,19 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="01023">
-         <spanGrp xml:id="biblStruct_d1e76382_01023">
-            <span type="note"> Forschungsnotiz über Schwarzafrikaner. Leicht gekürzte Version der englischen Übersetzung aus </span>
-            <span type="title" style="j">The Philosophical magazine: comprehending the various branches of science, the liberal and fine arts, agriculture, manufactures, and commerce </span>
-            <span type="biblScope">Bd. 3 (1799, March), S. 141-147 </span>
-            <span type="reference">00984 </span>
-            <span type="note">Es handelt sich ausdrücklich nicht um eine zweite englische Übersetzung von Blumenbachs Artikel „von den Negern“ aus </span>
-            <span type="title" style="j">Magazin für das Neueste aus der Physik und Naturgeschichte </span>
-            <span type="citedRange">Bd. 4, 3. Stück (1787), S. 1-12 </span>
-            <span type="reference">00817 </span>
-            <span type="note">Eckige Klammern der Überschrift so in der Vorlage. </span>
+         <spanGrp xml:id="biblStruct_d1e76782_01023">
+            <span type="note"> „Hr. Ingenhouß hat nunmehr seine schönen Versuche über die Wärme-leitende Kraft der ganzen Metalle wiederholt, [...].“ </span>
+            <span type="note">Beitrag endet mit „[...] nach bekannten Proportionen sein.“ Laut Joost/Schöne (Hrsg.) in: Lichtenberg, Briefwechsel, Bd. 3, S. 729, Anm. 6, evtl. von Blumenbach. </span>
+            <span type="note">Vgl. den entsprechenden Beitrag im </span>
+            <span type="title" style="j">Almanach de Goettingue </span>
+            <span type="note">der französischen Version des </span>
+            <span type="title" style="j">Taschen-Calenders, für 1790 </span>
+            <span type="citedRange">S. 141-143. </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

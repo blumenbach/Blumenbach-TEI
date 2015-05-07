@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Někotoryja razsuÂ&#x9e;denīja, počerpnutya iz naturalÂ'noj istorīi : Perevod s Německago</title>
+            <title type="main">*Von den Federbusch-Polypen in den Göttingischen Gewässern.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -36,19 +36,11 @@
                <idno type="URLText"/>
             </idno>
          </publicationStmt>
-         <notesStmt>
-            <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000116/00116.pdf</ref>
-            </note>
-            <note type="ref">
-               <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000116/000116.html</ref>
-            </note>
-         </notesStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
-                  <title level="m" type="main">Někotoryja razsuÂ&#x9e;denīja, počerpnutya iz naturalÂ'noj istorīi : Perevod s Německago</title>
-                  <title level="m" type="aut">[Johann Friedrich Blumenbach]. Aleksandr Turgenev [Ã&#x9c;bers.]. Â</title>
+                  <title level="m" type="main">*Von den Federbusch-Polypen in den Göttingischen Gewässern.</title>
+                  <title level="m" type="aut">Johann Friedrich Blumenbach</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
@@ -57,23 +49,24 @@
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Â... V Universitetskoj Tipografīi Â...</name>
+                        <name>[s.n.]</name>
                      </publisher>
-                     <pubPlace>Moskva</pubPlace>
-                     <date type="publication" when="1801-01-01">1801.</date>
+                     <pubPlace>[Hannover]</pubPlace>
+                     <date type="publication" when="1780-01-01">[1780?]</date>
                   </imprint>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
-                  <repository>SUB Göttingen</repository>
-                  <idno> 8 H NAT I, 755</idno>
+                  <repository>London, British Library</repository>
+                  <idno>B.640.(6.)</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>[4] Bl., 97 S.: Ill. (Kupferst.) <dimensions>
-                              <dim>19 cm (8°).</dim>
+                        <extent>
+                           <dimensions>
+                              <dim>8°</dim>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -84,7 +77,7 @@
                      <recordHist>
                         <source>
                            <certainty locus="location">
-                              <desc/>
+                              <desc>no autopsy</desc>
                            </certainty>
                         </source>
                      </recordHist>
@@ -111,15 +104,11 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00116</classCode>
+            <classCode scheme="BiblNr">00119</classCode>
             <classCode scheme="cat">
                <idno>I</idno>Selbständig erschienene Werke</classCode>
             <classCode scheme="cat">
-               <idno>I.8</idno>Beiträge zur Naturgeschichte</classCode>
-            <classCode scheme="cat">
-               <idno>I.8.2</idno>Übersetzungen</classCode>
-            <classCode scheme="cat">
-               <idno>I.8.2.3</idno>Russisch</classCode>
+               <idno>I.9</idno>Kleinere Schriften</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -130,14 +119,22 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00119">
-         <spanGrp xml:id="biblStruct_d1e10938_00119">
-            <span type="note">In kyrillischer Schrift. </span>
-            <span type="note">Titelvignette entspricht keiner der Illustrationen der Originalausgabe. </span>
+         <spanGrp xml:id="biblStruct_d1e11020_00119">
+            <span type="note">Separat gebundener Auszug oder Sonderdruck des Beitrags „VI. Prof. Blumenbach von den Federbusch-Polypen in den Göttingischen Gewässern“, in </span>
+            <span type="title" style="j">Göttingisches Magazin der Wissenschaften und Litteratur </span>
+            <span type="biblScope">1. Jg., 4. Stück (1780) </span>
+            <span type="citedRange">S. 117-127 </span>
+            <span type="reference">00796 </span>
+            <span type="note">Siehe auch Bericht zum Vortrag über Federbusch-Polypen vor der Societät in </span>
+            <span type="title" style="j">GAgS </span>
+            <span type="biblScope">1774 (118. Stück, 1. Oktober), </span>
+            <span type="citedRange">S. 1009-1011; „Göttingen“ </span>
+            <span type="reference">00210 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

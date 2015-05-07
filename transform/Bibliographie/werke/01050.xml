@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift:Über die fossilen Gebeine von Elephanten und Mammutsthieren, und über andere präadamitische Thier- und Pflanzen-Reste, besonders aus den Hannöver'schen Landen.</title>
+            <title type="main">Überschrift: Leipzig.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,36 +38,36 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000997/00997.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2003031/03031.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift:Über die fossilen Gebeine von Elephanten und Mammutsthieren, und über andere präadamitische Thier- und Pflanzen-Reste, besonders aus den Hannöver'schen Landen.</title>
+                  <title level="a" type="main">Überschrift: Leipzig.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">Taschenbuch für die gesammte Mineralogie mit Hinsicht auf die neuesten Entdeckungen  / hrsg. von Karl Caesar Ritter von Leonhard</title>
+                  <title level="j">Göttingische Anzeigen von gelehrten Sachen [GAgS]</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name/>
+                        <name>Dieterich</name>
                      </publisher>
-                     <pubPlace>	Frankfurt, M.,</pubPlace>
-                     <date type="publication" when="1814-01-01">1814</date>
+                     <pubPlace>Göttingen</pubPlace>
+                     <date type="publication" when="1801-07-25">1801, 25. Juli</date>
                   </imprint>
-                  <biblScope>8. Jg. (1814), S. 539-543.</biblScope>
+                  <biblScope>1801 (119. Stück, 25. Juli), S. 1191-1192.</biblScope>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>8 MIN I, 1218</idno>
+                  <idno>8 EPH LIT 1607</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
@@ -112,13 +112,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00997</classCode>
+            <classCode scheme="BiblNr">03031</classCode>
             <classCode scheme="cat">
-               <idno>II</idno>Unselbständig erschienene Werke</classCode>
+               <idno>III</idno>Für Blumenbach vermutete Werke</classCode>
             <classCode scheme="cat">
-               <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+               <idno>III.2</idno>Zeitschriftenbeiträge</classCode>
             <classCode scheme="cat">
-               <idno>II.4.41</idno>Taschenbuch für die gesammte Mineralogie mit Hinsicht auf die neuesten Entdeckungen</classCode>
+               <idno>III.2.2</idno>Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -129,16 +129,24 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="01050">
-         <spanGrp xml:id="biblStruct_d1e78464_01050">
-            <span type="note"> Forschungsnotiz zu Fossilien. Leicht gekürzte, überwiegend wortgleiche Version von Blumenbachs Artikel aus </span>
-            <span type="title" style="j">GgA </span>
-            <span type="biblScope">1813 (207. Stück, 27. Dezember), S. 2065-2068; „Göttingen“ </span>
-            <span type="reference">00551 </span>
+         <spanGrp xml:id="biblStruct_d1e78747_01050">
+            <span type="note">Rezension von </span>
+            <span type="title" style="m">[Lit.] Betrachtung eines merkwürdigen Gesetzes der Farbenänderung organischer Körper durch den Einfluss des Lichtes. </span>
+            <span type="edition">Im Namen der Linneischen Gesellschaft zu Leipzig herausgegeben von Christian Samuel Weiss </span>
+            <span type="pubPlace">Leipzig </span>
+            <span type="publisher">bei Karl Tauchnitz </span>
+            <span type="date">1801. </span>
+            <span type="repository">Herzog August Bibliothek Wolfenbüttel: </span>
+            <span type="idno">M: Mc 334 </span>
+            <span type="note">Laut Beischrift im Göttinger Exemplar des Bandes von „Dr. Reuss“, d.h.Jeremias David Reuß. </span>
+            <span type="note">Anders der Verfasser des rezensierten Werks in einem Brief an Achim von Arnim vom 10. Aug. 1801: „Mit Blumenbachs Recension meiner Schrift über d. Farbveränd.: org. K. d. d. Einfl. d. Lichtes in den Göttinger Anzeigen bin ich zufrieden“, vgl. </span>
+            <span type="title" style="j">Ludwig Achim von Arnim. Briefwechsel 1788 - 1801. </span>
+            <span type="biblScope">Hg. von Heinz Härtl. Tübingen 2000 (= Weimarer Arnim-Ausgabe Bd. 30), S. 177 und Kommentar S. 559. </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

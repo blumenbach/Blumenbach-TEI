@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift: London.</title>
+            <title type="main">Überschrift: Göttingen.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,13 +38,13 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000407/00407.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000417/00417.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift: London.</title>
+                  <title level="a" type="main">Überschrift: Göttingen.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
@@ -59,7 +59,7 @@
                         <name>Dieterich</name>
                      </publisher>
                      <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1799-02-18">1799, 18. Februar</date>
+                     <date type="publication" when="1800-01-18">1800, 18. Januar</date>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -71,7 +71,7 @@
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>1799 (28. Stück, 18. Februar) S. 277-280.<dimensions>
+                        <extent>1800 (10. Stück, 18. Januar), S. 89-90.<dimensions>
                               <dim/>
                            </dimensions>
                         </extent>
@@ -110,7 +110,7 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00407</classCode>
+            <classCode scheme="BiblNr">00417</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
@@ -127,23 +127,21 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00417">
-         <spanGrp xml:id="biblStruct_d1e34624_00417">
-            <span type="note">Rezension von </span>
-            <span type="title" style="m">[Lit.] The natural history of the rarer Lepidopterous insects of Georgia: including their systematic characters, the particulars of their several metamorphoses, and the plants on which they feed/ collected from the observations of Mr. John Abbot </span>
-            <span type="author">by James Edward Smith </span>
-            <span type="pubPlace">London </span>
-            <span type="publisher">Printed by T. Bensley for J. Edwards </span>
-            <span type="pubPlace">Pall Mall </span>
-            <span type="publisher"> Cadell and Davies, Strand; and J. White, Fleet Street </span>
-            <span type="date">1797 </span>
-            <span type="extent">2 Bde. </span>
+         <spanGrp xml:id="biblStruct_d1e34848_00417">
+            <span type="note">Anzeige von Heft 4 (1799) von </span>
+            <span type="title" style="j">Abbildungen naturhistorischer Gegenstände </span>
+            <span type="reference">00147 </span>
             <span type="repository"> SUB Göttingen </span>
-            <span type="idno">2 ZOOL VI 6342:1-2 </span>
+            <span type="idno"> 8 H NAT I, 855 RARA. </span>
+            <span type="note">Anzeige von </span>
+            <span type="title" style="m">[Lit.] Jo. Frid. Blumenbachii ... decas quarta collectionis suae craniorum diversarum gentium illustrata. </span>
+            <span type="edition">Gottingae : Apud Joann. Christian. Dieterich, MDCCC </span>
+            <span type="reference">00095 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

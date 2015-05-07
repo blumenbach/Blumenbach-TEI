@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift: Göttingen.</title>
+            <title type="main">Überschrift: Straßburg.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,13 +38,13 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000463/00463.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000473/00473.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift: Göttingen.</title>
+                  <title level="a" type="main">Überschrift: Straßburg.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
@@ -59,7 +59,7 @@
                         <name>Vandenhoeck &amp; Ruprecht</name>
                      </publisher>
                      <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1806-04-19">1806, 19. April</date>
+                     <date type="publication" when="1807-01-17">1807, 17. Januar</date>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -71,7 +71,7 @@
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>1806 (62. Stück, 19. April), S. 609-612.<dimensions>
+                        <extent>1807 (11. Stück, 17. Januar), S. 109-111.<dimensions>
                               <dim/>
                            </dimensions>
                         </extent>
@@ -110,7 +110,7 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00463</classCode>
+            <classCode scheme="BiblNr">00473</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
@@ -127,13 +127,20 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00473">
-         <spanGrp xml:id="biblStruct_d1e38799_00473">
-            <span type="note">Bericht über den von Christian Friedrich Gotthard Westfeld der Societät zugeschickte Abhandlung „zur Geschichte der Blatternkrankheit der Schafe“. </span>
+         <spanGrp xml:id="biblStruct_d1e38826_00473">
+            <span type="note">Rezension von </span>
+            <span type="title" style="m">[Lit.] Propositions géologiques: pour servir d'introduction à un ouvrage sur les élémens de la chorographie avec l'exposé de leur plan, et leur application à la description géognostique, oeconomique et médicale du Ban de la Roche .../ présentées </span>
+            <span type="element">pour le grade de Docteur en médecine par Henri-Gottfried Oberlin. </span>
+            <span type="pubPlace">Strasbourg </span>
+            <span type="publisher">Levrault </span>
+            <span type="date">1806 </span>
+            <span type="repository">SUB Göttingen </span>
+            <span type="idno">4 MIN II 3392 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

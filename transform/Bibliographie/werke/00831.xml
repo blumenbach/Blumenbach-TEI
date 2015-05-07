@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift:I. Joh. Friedr. Blumenbach's nochmalige Untersuchungen über den Ungrund der Meinung, daß das Blut Lebenskraft besitze, und das Daseyn eines eigenthümlichen Lebens in gewissen festen Theilen des menschlichen Körpers.</title>
+            <title type="main">Überschrift:I. Herrn de Luc's geologische Briefe, an Herrn Professor Blumenbach. Aus der französischen Handschrift.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,36 +38,39 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000806/00806.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000831/00831.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000831/000831.html</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift:I. Joh. Friedr. Blumenbach's nochmalige Untersuchungen über den Ungrund der Meinung, daß das Blut Lebenskraft besitze, und das Daseyn eines eigenthümlichen Lebens in gewissen festen Theilen des menschlichen Körpers.</title>
+                  <title level="a" type="main">Überschrift:I. Herrn de Luc's geologische Briefe, an Herrn Professor Blumenbach. Aus der französischen Handschrift.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">Journal der Erfindungen, Theorien und Widersprueche in der Natur- und Arzneiwissenschaft</title>
+                  <title level="j">Magazin für das Neueste aus der Physik und Naturgeschichte  / zuerst hrsg. von Ludwig Christan Lichtenberg und fortgesetzt von Johann Heinrich Voigt</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Perthes</name>
+                        <name>Ettinger</name>
                      </publisher>
                      <pubPlace>Gotha</pubPlace>
-                     <date type="publication" when="1796-01-01">1796</date>
+                     <date type="publication" when="1794-01-01">1794</date>
                   </imprint>
-                  <biblScope>Bd. 4 (1796), 16. Stück, S. [5]-28.</biblScope>
+                  <biblScope>Bd. 9, 4. Stück (1794), S. 1-49.</biblScope>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
-                  <repository>SUB Göttingen:</repository>
-                  <idno>8 MED EPH 171</idno>
+                  <repository>SUB Göttingen</repository>
+                  <idno>8 PHYS MATH II, 2072</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
@@ -112,13 +115,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00806</classCode>
+            <classCode scheme="BiblNr">00831</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
                <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
             <classCode scheme="cat">
-               <idno>II.4.20</idno>Journal der Erfindungen, Theorien und Widersprueche in der Natur- und Arzneiwissenschaft</classCode>
+               <idno>II.4.25</idno>Magazin für das Neueste aus der Physik und Naturgeschichte</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -129,18 +132,15 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00831">
-         <spanGrp xml:id="biblStruct_d1e63853_00831">
-            <span type="note"> Deutsche Übersetzung von </span>
-            <span type="title" style="m">[Lit.] De vi vitali sanguini neganda vita autem propria solidis quibusdam corporis humani partibus adserenda curae iteratae: quibus septenis medicinae candidatis dignissimus post habita academicarum disputationum specimium autumno a. pr. summos honores rite collatos esse indicit Ordinis Medici tunc Temp. Decanus Jo. Frid. Blumenbach </span>
-            <span type="pubPlace">Gottingae </span>
-            <span type="publisher">Typis Jo. Christ. Dieterich </span>
-            <span type="date">1795 </span>
-            <span type="reference">00127 </span>
+         <spanGrp xml:id="biblStruct_d1e63985_00831">
+            <span type="note"> Enthält den 4. geologischen Brief von Jean André Deluc an Blumenbach: „Geschichte der Erde von der Bildung der Sandsteinschichten an, bis zum Ende des Aufenthalts des Meeres in seinem alten Bette: ein Zeitraum der die Entstehung der vulkanischen Ausbrüche, der Steinkohlen und des Steinsalzes umfaßt.“ Übersetzt von Blumenbach. </span>
+            <span type="note">Zu einer englischen Übersetzung vgl. Kommentar zu </span>
+            <span type="reference">00829 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

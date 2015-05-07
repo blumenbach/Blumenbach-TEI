@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift:IX. Comparison between the Human Race and that of Swine. By I. F. Blumenbach. From Magazin für das Neueste aus der Physik. Vol. VI.</title>
+            <title type="main">Überschrift:Das Neuste aus dem Innern von Africa.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,36 +38,36 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000986/00986.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2003013/03013.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift:IX. Comparison between the Human Race and that of Swine. By I. F. Blumenbach. From Magazin für das Neueste aus der Physik. Vol. VI.</title>
+                  <title level="a" type="main">Überschrift:Das Neuste aus dem Innern von Africa.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">The Philosophical Magazine : comprehending the various branches of science, the liberal and fine arts, agriculture, manufactures, and commerce  / by Alexander Tilloch</title>
+                  <title level="j">Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Richardson,</name>
+                        <name/>
                      </publisher>
-                     <pubPlace>London</pubPlace>
-                     <date type="publication" when="1799-04-01">1799, April</date>
+                     <pubPlace>Gotha</pubPlace>
+                     <date type="publication" when="1798-01-01">1798</date>
                   </imprint>
-                  <biblScope>Bd. 3 (1799, April), S. 284-290.</biblScope>
+                  <biblScope>1799 [i. e. 1798], S. 10-17.</biblScope>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>8 PHYS MATH II, 2810</idno>
+                  <idno>8 H SUBS 4446</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
@@ -112,13 +112,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00986</classCode>
+            <classCode scheme="BiblNr">03013</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
                <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
             <classCode scheme="cat">
-               <idno>II.4.37</idno>The Philosophical Magazine</classCode>
+               <idno>II.4.15</idno>Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -129,16 +129,19 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="01035">
-         <spanGrp xml:id="biblStruct_d1e77321_01035">
-            <span type="note"> Forschungsnotiz zur „Vergleichung [...] zwischen Menschenracen und Schweineracen“. Englische Übersetzung von Blumenbachs Artikel aus </span>
-            <span type="title" style="j">Magazin für das Neueste aus der Physik und Naturgeschichte </span>
-            <span type="biblScope">Bd. 6, 1. Stück (1789), S. 1-13 </span>
-            <span type="reference">00822 </span>
+         <spanGrp xml:id="biblStruct_d1e77648_01035">
+            <span type="note">Bericht über die von der African Association in London finanzierten Afrikaexpeditionen von John Ledyard, Simon Lucas, Daniel Houghton, Mungo Parks und Friedrich Hornemann. Übersetzung im </span>
+            <span type="title" style="j">Almanach de Gotha </span>
+            <span type="note">der französischen Version des </span>
+            <span type="title" style="j">Gothaischen Hofkalenders </span>
+            <span type="note">für das Jahr 1799 </span>
+            <span type="citedRange">S. 29-36 </span>
+            <span type="reference">NaN </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

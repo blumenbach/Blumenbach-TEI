@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift:10) Fernere Nachrichten von den neuen Marquesas-Inseln und deren Bewohnern. *)</title>
+            <title type="main">Überschrift:IV. Von den anatomischen Zeichnungen des Lion. Da Vinci in Sr. Maj. des Königs großen Sammlung von Handzeichnungen.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,36 +38,36 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000926/00926.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000957/00957.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift:10) Fernere Nachrichten von den neuen Marquesas-Inseln und deren Bewohnern. *)</title>
+                  <title level="a" type="main">Überschrift:IV. Von den anatomischen Zeichnungen des Lion. Da Vinci in Sr. Maj. des Königs großen Sammlung von Handzeichnungen.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">Magazin für den neuesten Zustand der Naturkunde, mit Rücksicht auf die dazu gehörigen Hülfswissenschaften  / hrsg. von Johann Heinrich Voigt</title>
+                  <title level="j">Medicinische Bibliothek  / hrsg. von Joh. Friedr. Blumenbach</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Verl. des Landes-Industrie-Comptoirs</name>
+                        <name>Dieterich</name>
                      </publisher>
-                     <pubPlace>Weimar</pubPlace>
-                     <date type="publication" when="1806-01-01">1806</date>
+                     <pubPlace>Göttingen</pubPlace>
+                     <date type="publication" when="1788-01-01">1788</date>
                   </imprint>
-                  <biblScope>Bd. 12, 6. Stück (1806), S. 492-498, 1 Ill. (Kupferst.).</biblScope>
+                  <biblScope>Bd. 3, 1. Stück (1788), S. 141-147.</biblScope>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>8 PHYS MATH II, 2355</idno>
+                  <idno>8 MED EPH 142</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
@@ -112,13 +112,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00926</classCode>
+            <classCode scheme="BiblNr">00957</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
                <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
             <classCode scheme="cat">
-               <idno>II.4.26</idno>Magazin für den neuesten Zustand der Naturkunde</classCode>
+               <idno>II.4.29</idno>Medicinische Bibliothek</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -129,13 +129,22 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00957">
-         <spanGrp xml:id="biblStruct_d1e71944_00957">
-            <span type="note"> Auszug aus einem Brief Wilhelm Gottlieb Tilesius von Tilenaus an Blumenbach vom 9. Juni 1805 aus Kamtschatka über Einwohner und Natur von Nukahiwa. Mit Anmerkungen von Blumenbach. Illustration, koloriert: „Taf VI. Fig. 3.“ [Darstellung: „metallisch glänzende Eidechse“.] </span>
+         <spanGrp xml:id="biblStruct_d1e71774_00957">
+            <span type="note"> Enthält einen Bericht über die von William Hunter in der königlichen Sammlung Georgs III. von Großbritannien entdeckten anatomischen Zeichnungen von Leonardo da Vinci. Enthält Auszug aus einem Brief George C. von Hinübers. Von Blumenbach stammt der erste Teil des Artikels, S. 141-144, endend mit „[...] hierauf von seiner Güte erhielt“. Bearbeitete Version des gesamten Artikels und der Ergänzung (Bd. 3, 4. Stück (1795), S.728-729 </span>
+            <span type="reference">00962 </span>
+            <span type="note">in </span>
+            <span type="title" style="m">[Lit.] Tabula anatomica Leonardi Da Vinci summi quondam pictoris e Bibliotheca Augustissimi Magnae Britanniae Hannoveraeque Regis depromta, venerem obversam e legibus naturae hominibus solam convenire, ostendens </span>
+            <span type="author">[Io. Fr. Blumenbachius]. </span>
+            <span type="pubPlace">Lunaeburgi </span>
+            <span type="publisher">Sumtibus Heroldi et Wahlstabii </span>
+            <span type="date">MDCCCXXX </span>
+            <span type="reference">00138 </span>
+            <span type="citedRange">S. [4-5]. </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

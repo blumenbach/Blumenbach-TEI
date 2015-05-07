@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift: Leipzig.</title>
+            <title type="main">Überschrift: Göttingen.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,13 +38,13 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000291/00291.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000301/00301.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift: Leipzig.</title>
+                  <title level="a" type="main">Überschrift: Göttingen.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
@@ -59,7 +59,7 @@
                         <name>Dieterich</name>
                      </publisher>
                      <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1786-09-09">1786, 9. September</date>
+                     <date type="publication" when="1787-02-15">1787, 15. Februar</date>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -71,7 +71,7 @@
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>1786 (143. Stück, 9. September), S. 1430-1431.<dimensions>
+                        <extent>1787 (26. Stück, 15. Februar), S. 249-253.<dimensions>
                               <dim/>
                            </dimensions>
                         </extent>
@@ -110,7 +110,7 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00291</classCode>
+            <classCode scheme="BiblNr">00301</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
@@ -127,22 +127,24 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00301">
-         <spanGrp xml:id="biblStruct_d1e25810_00301">
-            <span type="note">Rezension von Teil 4 (1785) von </span>
-            <span type="title" style="m">[Lit.] Herrn Karl Bonnets ... Werke der natürlichen Geschichte und Philosophie: aus dem Französischen der neuesten Ausgabe seiner Werke übers./ Charles Bonnet. [Übers.: Johann Hedwig]. </span>
-            <span type="pubPlace">Leipzig </span>
-            <span type="publisher">Bey Johann Friedrich Junius </span>
-            <span type="date">1783-1785 </span>
-            <span type="extent">4 Teile </span>
-            <span type="repository"> SUB Göttingen </span>
-            <span type="idno">8 PHYS MATH I 3430:1-4. </span>
-            <span type="note">Rezension von Teil 3 ibid., 1785 (143. Stück, 10. September), S. 1430-1431 </span>
-            <span type="reference">00275 </span>
+         <spanGrp xml:id="biblStruct_d1e25896_00301">
+            <span type="note">Anzeige von </span>
+            <span type="title" style="m">[Lit.] D. Jo. Frid. Blumenbachii ... institutiones physiologicae : accedunt tabulae aeneae. </span>
+            <span type="pubPlace">Gottingae </span>
+            <span type="publisher">Apud Jo. Christ. Dieterich </span>
+            <span type="date">MDCCLXXXVII </span>
+            <span type="reference">00065 </span>
+            <span type="note"> Anzeige von </span>
+            <span type="title" style="m">[Lit.] D. Jo. Frid. Blumenbachii ... de nisu formativo et generationis negotio nuperae observationes : accedunt tabulae aeneae </span>
+            <span type="pubPlace">Gottingae </span>
+            <span type="publisher">Apud Jo. Christ. Dieterich </span>
+            <span type="date">MDCCLXXXVII </span>
+            <span type="reference">00054 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

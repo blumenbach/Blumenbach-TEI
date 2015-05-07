@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift:V. Nachrichten von Hornemann's Afrikanischer Reise. Aus einem Schreiben des Hofraths Blumenbach. Göttingen, d. 24. May 1800.</title>
+            <title type="main">Überschrift:keine [S. 199: Physikalische und andere Merkwürdigkeiten.]</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,36 +38,36 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000968/00968.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2001015/01015.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift:V. Nachrichten von Hornemann's Afrikanischer Reise. Aus einem Schreiben des Hofraths Blumenbach. Göttingen, d. 24. May 1800.</title>
+                  <title level="a" type="main">Überschrift:keine [S. 199: Physikalische und andere Merkwürdigkeiten.]</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde / hrsg. vom Freyherrn von Zach</title>
+                  <title level="j">Göttinger Taschen-Calender : für das Jahr … </title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Becker</name>
+                        <name>Dieterich</name>
                      </publisher>
-                     <pubPlace>Gotha</pubPlace>
-                     <date type="publication" when="1800-07-01">1800, Juli</date>
+                     <pubPlace>Göttingen</pubPlace>
+                     <date type="publication" when="1786-01-01">1786</date>
                   </imprint>
-                  <biblScope>Bd. 2 (Juli 1800), S. 48-51.</biblScope>
+                  <biblScope>1787 [i. e. 1786], S. 201-203.</biblScope>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>8 GEOGR 67</idno>
+                  <idno>8 SVA II, 3470 RARA</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
@@ -112,13 +112,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00968</classCode>
+            <classCode scheme="BiblNr">01015</classCode>
             <classCode scheme="cat">
-               <idno>II</idno>Unselbständig erschienene Werke</classCode>
+               <idno>III</idno>Für Blumenbach vermutete Werke</classCode>
             <classCode scheme="cat">
-               <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+               <idno>III.2</idno>Zeitschriftenbeiträge</classCode>
             <classCode scheme="cat">
-               <idno>II.4.32</idno>Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde</classCode>
+               <idno>III.2.4</idno>Göttinger Taschen-Calender : für das Jahr</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -129,13 +129,19 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="01015">
-         <spanGrp xml:id="biblStruct_d1e75941_01015">
-            <span type="note">Auszüge aus einem Brief Blumenbachs an Franz Xaver von Zach vom 24. Mai 1800. Enthält neue Informationen aus einem Brief von Joseph Banks an Blumenbach über Friedrich Hornemanns Afrikareise. </span>
+         <spanGrp xml:id="biblStruct_d1e76207_01015">
+            <span type="note"> „Die Eigenschaften der beyden elektrischen Fische, des Zitter-Rochens (Raja Torpedo) und des fälschlich sogenannten Zitter-Aals (Gymnotus electricus) [...].“ </span>
+            <span type="note">Laut Joost/Schöne (Hrsg.) in: Lichtenberg, Briefwechsel, Bd. 3, S. 293, Anm. 3, evtl. von Blumenbach. Laut Dougherty, Bibliographie, S. 28, von Blumenbach. </span>
+            <span type="note">Vgl. den entsprechenden Beitrag im </span>
+            <span type="title" style="j">Almanach de Goettingue </span>
+            <span type="note">der französischen Version des </span>
+            <span type="title" style="j">Taschen-Calenders, für 1787 </span>
+            <span type="citedRange">S. 203-205 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift: Hanau.</title>
+            <title type="main">Überschrift: Leipzig.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,13 +38,13 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000531/00531.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000541/00541.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift: Hanau.</title>
+                  <title level="a" type="main">Überschrift: Leipzig.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
@@ -59,7 +59,7 @@
                         <name>Vandenhoeck &amp; Ruprecht</name>
                      </publisher>
                      <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1812-09-07">1812, 7. September</date>
+                     <date type="publication" when="1813-01-21">1813, 21. Januar</date>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -71,7 +71,7 @@
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>1812 (144. Stück, 7. September), S. 1433-1436.<dimensions>
+                        <extent>1813 (12. Stück, 21. Januar), S. 113-116.<dimensions>
                               <dim/>
                            </dimensions>
                         </extent>
@@ -110,7 +110,7 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00531</classCode>
+            <classCode scheme="BiblNr">00541</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
@@ -127,19 +127,24 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00541">
-         <spanGrp xml:id="biblStruct_d1e43718_00541">
-            <span type="note">Rezension von Heft 1 (1812) von </span>
-            <span type="title" style="m">[Lit.] Nachträge zu Bechsteins Naturgeschichte Deutschlands/ von J. P. A. Leisler. </span>
-            <span type="pubPlace">Hanau </span>
-            <span type="publisher">Scharneck </span>
-            <span type="date">1812-1813. </span>
+         <spanGrp xml:id="biblStruct_d1e43859_00541">
+            <span type="note">Rezension von Heft 1 (1811), Band 2 von </span>
+            <span type="title" style="j">Beyträge zur vergleichenden Anatomie. </span>
             <span type="repository">SUB Göttingen </span>
-            <span type="idno">8 H NAT II 6606:1 und 2 </span>
+            <span type="idno"> 8 ZOOL II, 1563:2,1 </span>
+            <span type="note">Rezension von Heft 1, Bd. 1 </span>
+            <span type="title" style="">ibid. </span>
+            <span type="biblScope">1808 (157. Stück, 1. Oktober), S. 1561-1565 </span>
+            <span type="reference">00492 </span>
+            <span type="note">von Heft 2, Bd. 1 </span>
+            <span type="title" style="">ibid. </span>
+            <span type="biblScope">1813 (7. Stück, 11. Januar), S. 65-68 </span>
+            <span type="reference">00540 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

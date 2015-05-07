@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift:XIII. Medicinische Bemerkungen auf einer Schweizerreise. Von dem Hrn. Prof. Blumenbach, aus dessen Bibliothek.</title>
+            <title type="main">Überschrift:V. Ueber die Bewegung der Iris. Von J. F. Blumenbach.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,36 +38,36 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000791/00791.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000813/00813.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift:XIII. Medicinische Bemerkungen auf einer Schweizerreise. Von dem Hrn. Prof. Blumenbach, aus dessen Bibliothek.</title>
+                  <title level="a" type="main">Überschrift:V. Ueber die Bewegung der Iris. Von J. F. Blumenbach.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">Chirurgische Bibliothek  / [Urh.] August Gottlieb Richter</title>
+                  <title level="j">*Magazin für die Naturgeschichte des Menschen  / hrsg. von C. Grosse</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name/>
+                        <name>Schöps</name>
                      </publisher>
-                     <pubPlace>Göttingen ; Gotha </pubPlace>
-                     <date type="publication" when="1782-01-01">1782</date>
+                     <pubPlace>Zittau ; Leipzig</pubPlace>
+                     <date type="publication" when="1788-01-01">1788</date>
                   </imprint>
-                  <biblScope>Bd. 8, 1. Stück (1785), S. 142-149.</biblScope>
+                  <biblScope>Bd. 1 (1. Stück, 1788), S. 89-116.</biblScope>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
-                  <repository>SUB Göttingen</repository>
-                  <idno>8 EPH LIT 444/5</idno>
+                  <repository>Halle, Universitäts- und Landesbibliothek Sachsen-Anhalt</repository>
+                  <idno>Sc 6721, 8°</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
@@ -85,7 +85,7 @@
                      <recordHist>
                         <source>
                            <certainty locus="location">
-                              <desc/>
+                              <desc>no autopsy</desc>
                            </certainty>
                         </source>
                      </recordHist>
@@ -112,13 +112,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00791</classCode>
+            <classCode scheme="BiblNr">00813</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
                <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
             <classCode scheme="cat">
-               <idno>II.4.13</idno>Chirurgische Bibliothek</classCode>
+               <idno>II.4.24</idno>Magazin für die Naturgeschichte des Menschen</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -129,18 +129,20 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00813">
-         <spanGrp xml:id="biblStruct_d1e62582_00813">
-            <span type="note"> Forschungsnotiz zu „einigen in der Schweiz einheimischen Krankheiten“ wie „Brüche“. Nahezu wortgleicher Auszug (S. 725-732) aus Blumenbachs Artikel in </span>
-            <span type="title" style="j">Medicinische Bibliothek, Bd. 1, 4. Stück (1784), S. 725-742 </span>
-            <span type="reference">00944 </span>
-            <span type="biblScope">Edinburgh, 1819-1826 </span>
-            <span type="repository">SUB Göttingen </span>
-            <span type="idno">8 PHYS MATH II, 2880 </span>
+         <spanGrp xml:id="biblStruct_d1e62640_00813">
+            <span type="note"> Deutsche Übersetzung des zweiten Teils (S. 43-62) von Blumenbachs Artikel „Jo. Frid. Blumenbachii de oculis leucaethiopum et iridis motu commentatio recitata d. IX. Octobr. MDCCLXXXIV“ aus </span>
+            <span type="title" style="j">Commentationes Societatis Regiae Scientiarum Gottingensis </span>
+            <span type="biblScope">Bd. VII (1786), Phys., S. 29-62 </span>
+            <span type="reference">00180 </span>
+            <span type="note">über die Bewegung der Iris bei Menschen und Tieren. Teil 1 </span>
+            <span type="title" style="">ibid. </span>
+            <span type="biblScope"> Bd. 1 (1. Stück, 1788), S. 71-88 </span>
+            <span type="reference">00812 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

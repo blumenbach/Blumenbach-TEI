@@ -107,26 +107,33 @@
                             </note>
                         </xsl:if>                 
                         <xsl:if test="bibl/note[@type='ref']">
-                        <note type="ref">
-                               <xsl:attribute name="xml:id">
-                                    <xsl:value-of select="concat(name(),'_',generate-id())"/>
-                               </xsl:attribute>
-                                        <xsl:for-each select="bibl/note[@type='ref']/ref">
-                                            <xsl:if test="./@type='html'">   
-                                            <ref type="html" target="{@target}"></ref>
-                                            </xsl:if>                                
-                                            <xsl:if test="./@type='pdf'">
-                                                <ref type="pdf" target="{@target}"></ref>    
-                                            </xsl:if>  
-                                        </xsl:for-each>
-                                        <xsl:for-each select="bibl/note[@type='ref']/rs">
-                                            <xsl:if test="./@type='html'">                                        
-                                                <rs type="html"><xsl:value-of select="."/></rs>                                                                       
-                                            </xsl:if>
-                                            <xsl:if test="./@type='pdf'">                                        
-                                                <rs type="pdf"><xsl:value-of select="."/></rs>                                                                       
-                                            </xsl:if>
-                                        </xsl:for-each>   
+                        <note type="ref">                             
+                                <xsl:for-each select="bibl/note[@type='ref']/ref">
+                                    <xsl:if test="./@type='html'">   
+                                    <ref type="html">
+                                       <xsl:attribute name="xml:id">
+                                            <xsl:value-of select="concat(concat(name(),'_',generate-id()),'_', format-number($count, '00000'))"/>
+                                       </xsl:attribute>
+                                        <xsl:value-of select="./@target"/>                                        
+                                    </ref>                                        
+                                    </xsl:if>                                
+                                    <xsl:if test="./@type='pdf'">
+                                        <ref type="pdf">
+                                       <xsl:attribute name="xml:id">
+                                            <xsl:value-of select="concat(concat(name(),'_',generate-id()),'_', format-number($count, '00000'))"/>
+                                       </xsl:attribute>
+                                        <xsl:value-of select="./@target"/>                                            
+                                        </ref>                                             
+                                    </xsl:if>                                            
+                                </xsl:for-each>
+                                <xsl:for-each select="bibl/note[@type='ref']/rs">
+                                    <xsl:if test="./@type='html'">                                        
+                                        <rs type="html"><xsl:value-of select="."/></rs>                                                                       
+                                    </xsl:if>
+                                    <xsl:if test="./@type='pdf'">                                        
+                                        <rs type="pdf"><xsl:value-of select="."/></rs>                                                                       
+                                    </xsl:if>
+                                </xsl:for-each>   
                         </note>
                         </xsl:if> 
                         <xsl:if test="bibl/note[@type='Objekte']">

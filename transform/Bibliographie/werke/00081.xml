@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">*The elements of physiology/ by J. Fred. Blumenbach; translated from the Latin of the 4. and last edition, and supplied with copius notes, by John Elliotson.</title>
+            <title type="main">Institutions physiologiques/ de J. Fr. Blumenbach.../ traduites du Latin et augmentées de notes, Par J. Fr. Pugnet</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,13 +38,16 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000079/00079.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000081/00081.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000081/000081.html</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
-                  <title level="m" type="main">*The elements of physiology/ by J. Fred. Blumenbach; translated from the Latin of the 4. and last edition, and supplied with copius notes, by John Elliotson.</title>
+                  <title level="m" type="main">Institutions physiologiques/ de J. Fr. Blumenbach.../ traduites du Latin et augmentées de notes, Par J. Fr. Pugnet</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
@@ -53,23 +56,23 @@
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Longman, Rees, Orme, Brown, and Green</name>
+                        <name>Chez J. T Reyman et C.e</name>
                      </publisher>
-                     <pubPlace>London</pubPlace>
-                     <date type="publication" when="1828-01-01">1828</date>
+                     <pubPlace>Lyon</pubPlace>
+                     <date type="publication" when="1797-01-01">1797</date>
                   </imprint>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
-                  <repository>Edinburgh University Library</repository>
-                  <idno>Yy.8.34</idno>
+                  <repository>SUB Göttingen</repository>
+                  <idno>8 ZOOL XIII, 4177</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>XVI, 582 S.<dimensions>
-                              <dim>22 cm (8°).</dim>
+                        <extent>[1] Bl., VIII, 328 S.<dimensions>
+                              <dim>17 cm (8°).</dim>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -107,7 +110,7 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00079</classCode>
+            <classCode scheme="BiblNr">00081</classCode>
             <classCode scheme="cat">
                <idno>I</idno>Selbständig erschienene Werke</classCode>
             <classCode scheme="cat">
@@ -115,7 +118,7 @@
             <classCode scheme="cat">
                <idno>I.5.2</idno>Übersetzungen</classCode>
             <classCode scheme="cat">
-               <idno>I.5.2.2</idno>English</classCode>
+               <idno>I.5.2.3</idno>Französich</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -126,27 +129,22 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00081">
-         <spanGrp xml:id="biblStruct_d1e7177_00081">
-            <span type="note">Rezensiert von Blumenbach in </span>
+         <spanGrp xml:id="biblStruct_d1e7241_00081">
+            <span type="note">Angezeigt von Blumenbach in </span>
+            <span type="title" style="j">GAgS </span>
+            <span type="biblScope">1797 (195. Stück, 9. Dezember) </span>
+            <span type="citedRange">S. 1943-1944; „Lyon“ </span>
+            <span type="reference">00389 </span>
+            <span type="note">Erwähnt von Blumenbach in </span>
             <span type="title" style="j">GgA </span>
-            <span type="biblScope">1831 (204. Stück, 24. Dezember) </span>
-            <span type="citedRange">S. 2025-2026; „London“ </span>
-            <span type="reference">00639 </span>
-            <span type="note">Charles Caldwells Übersetzung der 1. Ausgabe ( </span>
-            <span type="title" style="">[Lit.] D. Jo. Frid. Blumenbachii </span>
-            <span type="title" style="m">institutiones physiologicae: accedunt tabulae aeneae </span>
-            <span type="pubPlace">Gottingae </span>
-            <span type="publisher">Apud Jo. Christ. Dieterich </span>
-            <span type="date">MDCCLXXXVII </span>
-            <span type="reference">00065 </span>
-            <span type="note">1795 in Philadelphia erschienen trägt den Titel </span>
-            <span type="title" style="j">Elements of physiology </span>
-            <span type="reference">00073 </span>
+            <span type="biblScope">1818 (172. Stück, 26. Oktober) </span>
+            <span type="citedRange">S. 1713-1715; „London“ </span>
+            <span type="reference">00584 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

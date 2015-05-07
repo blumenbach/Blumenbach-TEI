@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift:2. Reisenachrichten vom Hrn. Dr. Langsdorff, von Santa Cruz auf Tenerife den 25. Oct. 1803.</title>
+            <title type="main">Überschrift:keine. „Die vom Hn. Obermedicinalrath Blumenbach [...].“</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,36 +38,36 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000908/00908.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000939/00939.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift:2. Reisenachrichten vom Hrn. Dr. Langsdorff, von Santa Cruz auf Tenerife den 25. Oct. 1803.</title>
+                  <title level="a" type="main">Überschrift:keine. „Die vom Hn. Obermedicinalrath Blumenbach [...].“</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">Magazin für den neuesten Zustand der Naturkunde, mit Rücksicht auf die dazu gehörigen Hülfswissenschaften  / hrsg. von Johann Heinrich Voigt</title>
+                  <title level="j">Medicinisch-chirurgische Zeitung</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Verl. des Landes-Industrie-Comptoirs</name>
+                        <name>Rauch</name>
                      </publisher>
-                     <pubPlace>Weimar</pubPlace>
-                     <date type="publication" when="1805-01-01">1805</date>
+                     <pubPlace>Innsbruck</pubPlace>
+                     <date type="publication" when="1834-03-31">1834, 31. März.</date>
                   </imprint>
-                  <biblScope>Bd. 9, 3. Stück (1805), S. 203-206.</biblScope>
+                  <biblScope>Bd. 1, Nr. 26 (31. März), 1834, S. 444-446.</biblScope>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>8 PHYS MATH II, 2355</idno>
+                  <idno>8 MED EPH 2151</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
@@ -112,13 +112,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00908</classCode>
+            <classCode scheme="BiblNr">00939</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
                <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
             <classCode scheme="cat">
-               <idno>II.4.26</idno>Magazin für den neuesten Zustand der Naturkunde</classCode>
+               <idno>II.4.28</idno>Medicinisch-chirurgische Zeitung</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -129,13 +129,16 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00939">
-         <spanGrp xml:id="biblStruct_d1e70873_00939">
-            <span type="note"> Auszug aus einem Brief Georg Heinrich von Langsdorffs an Blumenbach vom 25. Oktober 1803 aus Santa Cruz de Tenerife mit Reisenotizen über Teneriffa. Mit Anmerkung von Blumenbach. </span>
+         <spanGrp xml:id="biblStruct_d1e70609_00939">
+            <span type="note"> Bericht zum Vortrag Blumenbachs „Spicilegium observationum de generis humani varietate nativa“ vor der Societät der Wissenschaften zu Göttingen. Überwiegend wortgleiche Version von Blumenbachs Artikel aus </span>
+            <span type="title" style="j">GgA </span>
+            <span type="biblScope">1833 (177. Stück, 4. November), S. 1761-1763; „Göttingen“ </span>
+            <span type="reference">00648 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

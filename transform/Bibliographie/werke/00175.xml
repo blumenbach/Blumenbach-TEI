@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Allgemeine Geschichte der thierischen und mineralischen Gifte</title>
+            <title type="main">Überschrift: Keine [i. e. S. 472: „Verbesserungen und Zusätze zu dem 3. und 4. Band.“]</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,40 +38,44 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000169/00169.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000175/00175.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
-               <monogr>
-                  <title level="m" type="main">Allgemeine Geschichte der thierischen und mineralischen Gifte</title>
-                  <title level="m" type="sub">Mit einer Vorrede von Johann Friedrich Blumenbach... .</title>
-                  <title level="m" type="aut">von Johann Friedrich Gmelin</title>
+               <analytic>
+                  <title level="a" type="main">Überschrift: Keine [i. e. S. 472: „Verbesserungen und Zusätze zu dem 3. und 4. Band.“]</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
+               </analytic>
+               <monogr>
+                  <title level="m">In: Nachrichten von sehenswürdigen Gemälde- und Kupferstichsammlungen, Münz- Gemmen- Kunst- und Naturalienkabineten, Sammlungen von Modellen, Maschinen, physikalischen und mathematischen Instrumenten, anatomischen Präparaten und botanischen Gärten in Teutschland nach alphabetischer Ordnung der Städte</title>
+                  <title level="m" type="sub">„S. 182 ist noch folgendes zu den Nachrichten des Göttingischen Museums hinzu zu setzen: [...].“</title>
+                  <title level="m" type="aut">hrsg. von Friedrich Karl Gottlob Hirsching.</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Bei Friedrich August Knick</name>
+                        <name>Bey Johann Jakob Palm</name>
                      </publisher>
-                     <pubPlace>Erfurt</pubPlace>
-                     <date type="publication" when="1806-01-01">1806</date>
+                     <pubPlace>Erlangen</pubPlace>
+                     <date type="publication" when="1789-01-01">1789</date>
                   </imprint>
                </monogr>
+               <citedRange>Bd. 4: S. 478-488.</citedRange>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>8 MAT MED 738/33</idno>
+                  <idno>8 ART Plast VII, 4000:4</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>VIII, 391 S.<dimensions>
-                              <dim>21 cm (8°).</dim>
+                        <extent>Bd. 3 und 4 (zusammengebunden). (3: [15] Bl., 252 S. 4: S. 253-503);<dimensions>
+                              <dim>19 cm (8°).</dim>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -109,11 +113,11 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00169</classCode>
+            <classCode scheme="BiblNr">00175</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
-               <idno>II.1</idno>Vorreden in Werken anderer Autoren</classCode>
+               <idno>II.2</idno>Abschnitte in Werken anderer Autoren</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -124,22 +128,19 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00175">
-         <spanGrp xml:id="biblStruct_d1e15700_00175">
-            <span type="note">Anm. 8 </span>
-            <span type="note">Enthält Blumenbachs „Vorrede“ auf S. III-VIII. </span>
-            <span type="note">Anm. 8: Moderner Nachdruck: </span>
-            <span type="title" style="m">[Lit.] Allgemeine Geschichte der thierischen und mineralischen Gifte </span>
-            <span type="author">Johann Friedrich Gmelin. </span>
-            <span type="pubPlace">Saarbrücken </span>
-            <span type="publisher">VDM, Müller </span>
-            <span type="date">2006 = 1806. </span>
-            <span type="extent">VIII, 391 S. </span>
-            <span type="dimensions">21 cm (8°) </span>
+         <spanGrp xml:id="biblStruct_d1e15903_00175">
+            <span type="note">Enthält eine von Friedrich Karl Gottlob Hirsching gekürzte Version des Artikels aus </span>
+            <span type="title" style="j">Annalen der Braunschweig-Lüneburgischen Churlande </span>
+            <span type="biblScope">2. Jg., (2. Stück, 1787) </span>
+            <span type="citedRange">S. 25-35 </span>
+            <span type="reference">00773 </span>
+            <span type="note">Teil 1 siehe ibid., Bd. 3, S. 156-178 </span>
+            <span type="reference">00174 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>
