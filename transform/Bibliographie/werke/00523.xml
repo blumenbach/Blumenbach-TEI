@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift: Göttingen.</title>
+            <title type="main">Überschrift: Hildesheim.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,13 +38,13 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000513/00513.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000523/00523.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift: Göttingen.</title>
+                  <title level="a" type="main">Überschrift: Hildesheim.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
@@ -59,7 +59,7 @@
                         <name>Vandenhoeck &amp; Ruprecht</name>
                      </publisher>
                      <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1811-04-11">1811, 11. April</date>
+                     <date type="publication" when="1812-02-24">1812, 24. Februar</date>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -71,7 +71,7 @@
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>1811 (57. Stück 11. April), S. 561-567.<dimensions>
+                        <extent>1812 (32. Stück 24. Februar) S. 320.<dimensions>
                               <dim/>
                            </dimensions>
                         </extent>
@@ -110,7 +110,7 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00513</classCode>
+            <classCode scheme="BiblNr">00523</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
@@ -127,13 +127,20 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00523">
-         <spanGrp xml:id="biblStruct_d1e42269_00523">
-            <span type="note">Bericht zu der von Johann Friedrich Ludwig Hausmann der Societät vorgelegten Abhandlung über „den gelben Eisenocher in chemischer, mineralogischer und metallurgischer Hinsicht“. </span>
+         <spanGrp xml:id="biblStruct_d1e42392_00523">
+            <span type="note">Rezension von </span>
+            <span type="title" style="m">[Lit.] De psittaco picisque Aristotelis ceterorumque veterum scriptorum/ ... disseruit </span>
+            <span type="author">Henricus Ludovicus Julius Billerbeck </span>
+            <span type="pubPlace">Hildesiae </span>
+            <span type="publisher">ex officina Jo. Dan. Gerstenberg, bibliopolae </span>
+            <span type="date">1811 </span>
+            <span type="repository">SUB Göttingen </span>
+            <span type="idno">8 ZOOL I 320 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

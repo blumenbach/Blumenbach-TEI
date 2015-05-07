@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift:Vorrede.</title>
+            <title type="main">Überschrift:V. Observations on the bodily Conformation and mental Capacity of the Negroes. By Professor Blumenbach. From Magazin für das neueste [sic] aus der Physik, Vol. IV.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,36 +38,36 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000945/00945.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000984/00984.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift:Vorrede.</title>
+                  <title level="a" type="main">Überschrift:V. Observations on the bodily Conformation and mental Capacity of the Negroes. By Professor Blumenbach. From Magazin für das neueste [sic] aus der Physik, Vol. IV.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">Medicinische Bibliothek  / hrsg. von Joh. Friedr. Blumenbach</title>
+                  <title level="j">The Philosophical Magazine : comprehending the various branches of science, the liberal and fine arts, agriculture, manufactures, and commerce  / by Alexander Tilloch</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Dieterich</name>
+                        <name>Richardson,</name>
                      </publisher>
-                     <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1785-01-01">1785</date>
+                     <pubPlace>London</pubPlace>
+                     <date type="publication" when="1799-03-01">1799, March</date>
                   </imprint>
-                  <biblScope>Bd. 2, 1. Stück (1785), S. [V]-[VI].</biblScope>
+                  <biblScope>Bd. 3 (1799, March), S. 141-147.</biblScope>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>8 MED EPH 142</idno>
+                  <idno>8 PHYS MATH II, 2810</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
@@ -112,13 +112,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00945</classCode>
+            <classCode scheme="BiblNr">00984</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
                <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
             <classCode scheme="cat">
-               <idno>II.4.29</idno>Medicinische Bibliothek</classCode>
+               <idno>II.4.37</idno>The Philosophical Magazine</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -129,16 +129,27 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00984">
-         <spanGrp xml:id="biblStruct_d1e73721_00984">
-            <span type="note"> Anzeige dieses Stücks von Blumenbach in </span>
-            <span type="title" style="j">GAgS </span>
-            <span type="biblScope">1785 (169. Stück, 24. Oktober), S. 1707-1708; „Göttingen“ </span>
-            <span type="reference">00276 </span>
+         <spanGrp xml:id="biblStruct_d1e73640_00984">
+            <span type="note"> Forschungsnotiz über Schwarzafrikaner. Englische Übersetzung von Blumenbachs Artikel „von den Negern“ aus </span>
+            <span type="title" style="j">Magazin für das Neueste aus der Physik und Naturgeschichte </span>
+            <span type="biblScope">Bd. 4, 3. Stück (1787), S. 1-12 </span>
+            <span type="reference">00817 </span>
+            <span type="note">Nachdruck in </span>
+            <span type="title" style="m">[Lit.] Letters of the late Ignatius Sancho, an African : to which are prefixed memoirs of his life by Joseph Jekyll. 5th ed. </span>
+            <span type="pubPlace">London </span>
+            <span type="publisher">Printed for W. Sancho </span>
+            <span type="date">1803 </span>
+            <span type="citedRange">S. IX-XVI </span>
+            <span type="reference">NaN </span>
+            <span type="note">Eine gekürzte Version dieser Übersetzung befindet sich in </span>
+            <span type="title" style="j">The Monthly Magazine, and American Review </span>
+            <span type="biblScope">Bd. 1, Nr. 6 (1799), S. 453-456 </span>
+            <span type="reference">00976 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

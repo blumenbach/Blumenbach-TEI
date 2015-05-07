@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift: Göttingen.</title>
+            <title type="main">Überschrift: Stuttgart und Tübingen.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,13 +38,13 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000610/00610.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000620/00620.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift: Göttingen.</title>
+                  <title level="a" type="main">Überschrift: Stuttgart und Tübingen.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
@@ -59,7 +59,7 @@
                         <name>Vandenhoeck &amp; Ruprecht</name>
                      </publisher>
                      <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1823-08-16">1823, 16. August</date>
+                     <date type="publication" when="1825-06-27">1825, 27. Juni</date>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -71,7 +71,7 @@
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>1823 (130. Stück, 16. August), S. 1289-1292.<dimensions>
+                        <extent>1825 (103. Stück 27. Juni), S. 1031-1032.<dimensions>
                               <dim/>
                            </dimensions>
                         </extent>
@@ -110,7 +110,7 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00610</classCode>
+            <classCode scheme="BiblNr">00620</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
@@ -127,13 +127,18 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00620">
-         <spanGrp xml:id="biblStruct_d1e49423_00620">
-            <span type="note">Preisfragen der Societät für 1823, 1824, 1825. </span>
+         <spanGrp xml:id="biblStruct_d1e49452_00620">
+            <span type="note">Rezension von </span>
+            <span type="title" style="m">[Lit.] Bemerkungen über die Geschichte und Behandlung der venerischen Krankheiten </span>
+            <span type="author">Victor Aimé Huber. </span>
+            <span type="edition">Stuttgart ; Tübingen, 1825. </span>
+            <span type="repository">SUB Göttingen </span>
+            <span type="idno">8 MED PRACT 1676/59 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

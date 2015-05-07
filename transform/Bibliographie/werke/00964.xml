@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift:17) Wieder naturhistorische Seltenheiten und Bemerkungen vom Vorgebirge der guten Hoffnung.</title>
+            <title type="main">Überschrift:I. Herr Professor Blumenbach an den Herausgeber des Journals.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,36 +38,36 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000933/00933.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000964/00964.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift:17) Wieder naturhistorische Seltenheiten und Bemerkungen vom Vorgebirge der guten Hoffnung.</title>
+                  <title level="a" type="main">Überschrift:I. Herr Professor Blumenbach an den Herausgeber des Journals.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">Magazin für den neuesten Zustand der Naturkunde, mit Rücksicht auf die dazu gehörigen Hülfswissenschaften  / hrsg. von Johann Heinrich Voigt</title>
+                  <title level="j">Medicinisches Journal / von E. G. Baldinger</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Verl. des Landes-Industrie-Comptoirs</name>
+                        <name>Dieterich</name>
                      </publisher>
-                     <pubPlace>Weimar</pubPlace>
-                     <date type="publication" when="1806-01-01">1806</date>
+                     <pubPlace>Göttingen</pubPlace>
+                     <date type="publication" when="1786-01-01">1786</date>
                   </imprint>
-                  <biblScope>Bd. 12, 6. Stück (1806), S. 508-518.</biblScope>
+                  <biblScope>Bd. 2, 7. Stück (1786), S. 77-78.</biblScope>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>8 PHYS MATH II, 2355</idno>
+                  <idno>8 MED EPH 147</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
@@ -112,13 +112,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00933</classCode>
+            <classCode scheme="BiblNr">00964</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
                <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
             <classCode scheme="cat">
-               <idno>II.4.26</idno>Magazin für den neuesten Zustand der Naturkunde</classCode>
+               <idno>II.4.30</idno>Medicinisches Journal</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -129,13 +129,22 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00964">
-         <spanGrp xml:id="biblStruct_d1e72330_00964">
-            <span type="note"> Auszüge aus Briefen von Christian Heinrich Friedrich Hesse aus Kapstadt an Blumenbach und Beschreibungen der an Blumenbach geschickten Sammlungsobjekte. </span>
+         <spanGrp xml:id="biblStruct_d1e72275_00964">
+            <span type="note"> Leserbrief zur im 4. Stück des </span>
+            <span type="title" style="j">Medicinischen Journals </span>
+            <span type="note">auf S. 25 erwähnten Frage, „warum Harveys editio princeps in Frankfurt gedruckt worden [ist].“ Auch nachgedruckt als „Johann Friedrich Blumenbach to Ernst Gottfried Baldinger in Marburg“, in </span>
+            <span type="title" style="m">[Lit.] The correspondence of Johann Friedrich Blumenbach/ Frank William Peter Dougherty. </span>
+            <span type="edition">Vol. 2: 1783 - 1785: letters 231 - 391/ rev., augm. and ed. by Norbert Klatt </span>
+            <span type="pubPlace">Göttingen </span>
+            <span type="publisher">Klatt </span>
+            <span type="date">2007 </span>
+            <span type="reference">00157 </span>
+            <span type="citedRange">Nr. 355, S. 278-280. </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

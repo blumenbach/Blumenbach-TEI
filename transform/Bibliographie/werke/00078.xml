@@ -38,7 +38,10 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000076/00076.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000078/00078.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000078/000078.html</ref>
             </note>
          </notesStmt>
          <sourceDesc>
@@ -46,33 +49,33 @@
                <monogr>
                   <title level="m" type="main">*The institutions of physiology</title>
                   <title level="m" type="aut">by J. Fred. Blumenbach</title>
-                  <title level="m" type="ed">translated from the Latin of the third and last edition, and supplied with numerous and extensive notes, by John Elliotson</title>
+                  <title level="m" type="ed">translated from the Latin of the third and last edition and supplied with copious notes, by John Elliotson,</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
-                  <edition>Second edition</edition>
+                  <edition>Third ed., considerably improved</edition>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Bensley und Son for E. Cox und Son</name>
+                        <name>Printed for Burgess and Hill</name>
                      </publisher>
-                     <pubPlace>London</pubPlace>
-                     <date type="publication" when="1817-01-01">1817</date>
+                     <pubPlace>London [etc.]</pubPlace>
+                     <date type="publication" when="1820-01-01">1820</date>
                   </imprint>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
-                  <repository>London, British Library:</repository>
-                  <idno>7407.c.19</idno>
+                  <repository>Oxford Radcliffe Science Library</repository>
+                  <idno>1662 e.29/1 (Box B000000205630)</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>XVI, 426 S.<dimensions>
-                              <dim>8°.</dim>
+                        <extent>XVI, 465S.<dimensions>
+                              <dim>21 cm (8°).</dim>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -83,7 +86,7 @@
                      <recordHist>
                         <source>
                            <certainty locus="location">
-                              <desc/>
+                              <desc>no autopsy</desc>
                            </certainty>
                         </source>
                      </recordHist>
@@ -110,7 +113,7 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00076</classCode>
+            <classCode scheme="BiblNr">00078</classCode>
             <classCode scheme="cat">
                <idno>I</idno>Selbständig erschienene Werke</classCode>
             <classCode scheme="cat">
@@ -129,20 +132,28 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00078">
-         <spanGrp xml:id="biblStruct_d1e6891_00078">
-            <span type="note">Angezeigt von Blumenbach in </span>
+         <spanGrp xml:id="biblStruct_d1e6943_00078">
+            <span type="note"> Rezensiert von Blumenbach in </span>
             <span type="title" style="j">GgA </span>
-            <span type="biblScope">1818 (172. Stück, 26. Oktober) </span>
-            <span type="citedRange">S. 1713-1715; „London“ </span>
-            <span type="reference">00584 </span>
-            <span type="note">Laut Vorwort des Übersetzers handelt es sich um eine Kuriosität "the first book ever printed by machinery“. </span>
-            <span type="note">Siehe S. III. Erschien im gleichen Jahr auch in Philadelphia </span>
-            <span type="reference">00077 </span>
+            <span type="biblScope">1820 (205. Stück 23. Dezember) </span>
+            <span type="citedRange">S. 2043-2044; „London“ </span>
+            <span type="reference">00599 </span>
+            <span type="note">John Elliotsons Übersetzung der 4. Ausgabe ( </span>
+            <span type="title" style="">[Lit.] D. Jo. Frid. Blumenbachii </span>
+            <span type="title" style="m">institutiones physiologicae </span>
+            <span type="title" style="">Editio quarta auctior et emendatior </span>
+            <span type="pubPlace">Gottingae </span>
+            <span type="publisher">Apud Henr. Dieterich </span>
+            <span type="date">MDCCCXXI </span>
+            <span type="reference">00068 </span>
+            <span type="note">erschien 1828 unter dem Titel </span>
+            <span type="title" style="j">The elements of physiology </span>
+            <span type="reference">00079 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

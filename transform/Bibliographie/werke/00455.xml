@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift: Weimar.</title>
+            <title type="main">Überschrift: Straßburg und Paris.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,13 +38,13 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000445/00445.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000455/00455.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift: Weimar.</title>
+                  <title level="a" type="main">Überschrift: Straßburg und Paris.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
@@ -59,7 +59,7 @@
                         <name>Vandenhoeck &amp; Ruprecht</name>
                      </publisher>
                      <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1802-11-13">1802, 13. November</date>
+                     <date type="publication" when="1804-08-18">1804, 18. August</date>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -71,7 +71,7 @@
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>1802 (181. Stück, 13. November), S. 1804-1805.<dimensions>
+                        <extent>1804 (131. Stück, 18. August), S. 1298-1302.<dimensions>
                               <dim/>
                            </dimensions>
                         </extent>
@@ -110,9 +110,7 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00445</classCode>
-            <classCode scheme="cat">
-               <idno>II</idno>Unselbständig erschienene Werke</classCode>
+            <classCode scheme="BiblNr">00455</classCode>
             <classCode scheme="cat">
                <idno>II.3</idno>Publikationsorgane der Königlichen Gesellschaft der Wissenschaften zu Göttingen</classCode>
             <classCode scheme="cat">
@@ -127,20 +125,21 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00455">
-         <spanGrp xml:id="biblStruct_d1e37593_00455">
+         <spanGrp xml:id="biblStruct_d1e37617_00455">
             <span type="note">Rezension von </span>
-            <span type="title" style="m">[Lit.] Über Declamation, in medicinischer und diätetischer Hinsicht </span>
-            <span type="note">von Georg Friedrich Ballhorn, d. A. W. D. Königlich-Churfürstlichem Hofmedicus und Arzte des Georgianums in Hannover. </span>
-            <span type="pubPlace">Hannover </span>
-            <span type="publisher">im Verlage der Helwingschen Hofbuchhandlung </span>
-            <span type="date">1802 </span>
-            <span type="repository"> SUB Göttingen </span>
-            <span type="idno"> 8 MED DIAET 392/31 </span>
+            <span type="title" style="m">[Lit.] Johannis Hermann ... oberservationes zoologicae quibus novae complures, aliaeque animalium species describuntur et illustrantur </span>
+            <span type="author">opus posthumum ed. Fridericus Ludovicus Hammer. </span>
+            <span type="edition">Ps. 1: Observationum quatuor centurias continens </span>
+            <span type="pubPlace">Argentorati </span>
+            <span type="publisher">König XII </span>
+            <span type="date">[1804] </span>
+            <span type="repository">SUB Göttingen </span>
+            <span type="idno"> 4 ZOOL I 750:1 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

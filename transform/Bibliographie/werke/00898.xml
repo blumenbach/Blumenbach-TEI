@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift:Naturhistorische Miscellen. Aus Briefen an J. F. Blumenbach. 1) Ueber Hrn. Volta's elektrische Säulen-Maschine, oder Galvanische Batterie.*)</title>
+            <title type="main">Überschrift:2. Naturhistorische Bemerkungen aus Fr. Hornemann's Reise von Aegypten nach dem Königreich Feßan im Innern von Afrika. *) [mitgetheilt vom Hrn. Hofr. Blumenbach].</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,13 +38,13 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000867/00867.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000898/00898.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift:Naturhistorische Miscellen. Aus Briefen an J. F. Blumenbach. 1) Ueber Hrn. Volta's elektrische Säulen-Maschine, oder Galvanische Batterie.*)</title>
+                  <title level="a" type="main">Überschrift:2. Naturhistorische Bemerkungen aus Fr. Hornemann's Reise von Aegypten nach dem Königreich Feßan im Innern von Afrika. *) [mitgetheilt vom Hrn. Hofr. Blumenbach].</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
@@ -59,9 +59,9 @@
                         <name>Verl. des Landes-Industrie-Comptoirs</name>
                      </publisher>
                      <pubPlace>Weimar</pubPlace>
-                     <date type="publication" when="1800-01-01">1800</date>
+                     <date type="publication" when="1802-01-01">1802</date>
                   </imprint>
-                  <biblScope>Bd. 2, 2. Stück (1800), S. 292.</biblScope>
+                  <biblScope>Bd. 4, 5. Stück (1802), S. 662-670.</biblScope>
                </monogr>
             </biblStruct>
             <msDesc>
@@ -112,7 +112,7 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00867</classCode>
+            <classCode scheme="BiblNr">00898</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
@@ -129,13 +129,22 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00898">
-         <spanGrp xml:id="biblStruct_d1e68414_00898">
-            <span type="note"> Auszug aus einem Brief von Joseph Banks an Blumenbach vom 13. Mai 1800 über die Voltasche Batterie. </span>
+         <spanGrp xml:id="biblStruct_d1e68114_00898">
+            <span type="note"> Enthält Auszüge aus </span>
+            <span type="title" style="m">[Lit.] Friedrich Hornemanns Tagebuch seiner Reise von Cairo nach Murzuck, der Hauptstadt des Königreichs Fessan in Afrika in den Jahren 1797 und 1798/ aus d. Teutschen Hs. desselben hrsg. von Carl König. </span>
+            <span type="edition">Weimar : Verl. d. Landes-Industrie-Comptoirs, 1802. </span>
+            <span type="extent">XXX, 240 S.: Kt.; 8°. </span>
+            <span type="repository">SUB Göttingen </span>
+            <span type="idno">8 ITIN I, 5343:7; GR 2 ITIN I, 5343:7 </span>
+            <span type="note">Siehe auch Blumenbachs Rezension in </span>
+            <span type="title" style="j">GgA </span>
+            <span type="biblScope">1802 (169. Stück, 23. Oktober), S. 1687-1688; „Weimar“ </span>
+            <span type="reference">00444 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

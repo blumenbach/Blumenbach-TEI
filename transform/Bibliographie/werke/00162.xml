@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">The correspondence of Johann Friedrich Blumenbach Brosamen zur Blumenbach-Forschung; 5.</title>
+            <title type="main">*W. Cheselden's Anatomie des menschlichen Körpers</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -36,44 +36,37 @@
                <idno type="URLText"/>
             </idno>
          </publicationStmt>
-         <notesStmt>
-            <note type="ref">
-               <ref type="pdf">http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf</ref>
-            </note>
-         </notesStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
-                  <title level="m" type="main">The correspondence of Johann Friedrich Blumenbach</title>
-                  <title level="m" type="aut">Frank William Peter Dougherty.</title>
-                  <title level="m" type="ed">Vol. 4: 1791 - 1795 : letters 645 - 965</title>
+                  <title level="m" type="main">*W. Cheselden's Anatomie des menschlichen Körpers</title>
+                  <title level="m" type="aut">nebst einer Vorrede von J. Fr. Blumenbach.</title>
+                  <title level="m" type="ed">aus dem Englischen übersetzt von August Ferdinand Wolff</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
-                  <edition>rev. augm. and ed. by Norbert Klatt</edition>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Klatt</name>
+                        <name>Reprint-Verl. Leipzig</name>
                      </publisher>
-                     <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="2012-01-01">2012</date>
+                     <pubPlace>Holzminden</pubPlace>
+                     <date type="publication" when="1999-01-01">[1999?]</date>
                   </imprint>
                </monogr>
-               <series>Brosamen zur Blumenbach-Forschung; 5.</series>
             </biblStruct>
             <msDesc>
                <msIdentifier>
-                  <repository/>
-                  <idno/>
+                  <repository>Universitätsbibliothek Greifswald</repository>
+                  <idno>UB Freihand 660/XB 4700 C524</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>XII, 721 S.<dimensions>
-                              <dim>28 cm (4°)</dim>
+                        <extent>XIX, 324 S. Ill.; <dimensions>
+                              <dim>23 cm (8°).</dim>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -84,7 +77,7 @@
                      <recordHist>
                         <source>
                            <certainty locus="location">
-                              <desc/>
+                              <desc>no autopsy</desc>
                            </certainty>
                         </source>
                      </recordHist>
@@ -111,11 +104,11 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">04002</classCode>
+            <classCode scheme="BiblNr">00162</classCode>
             <classCode scheme="cat">
-               <idno>I</idno>Selbständig erschienene Werke</classCode>
+               <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
-               <idno>I.15</idno>Veröffentlichte Korrespondenz</classCode>
+               <idno>II.1</idno>Vorreden in Werken anderer Autoren</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -126,14 +119,19 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00162">
-         <spanGrp xml:id="biblStruct_d1e14709_00162">
-            <span type="note">Text deutsch., teilw. lateinisch., teilw. französisch, Anmerkungen englisch, Einleitung deutsch. </span>
-            <span type="komment">Als elektronische Ressource verfügbarunter http://www.klatt-verlag.de </span>
+         <spanGrp xml:id="biblStruct_d1e14894_00162">
+            <span type="note">Enthält Blumenbachs Vorrede auf S. V-IX. Nachdruck der Originalausgabe </span>
+            <span type="title" style="m">[Lit.] W. Cheselden's Anatomie des menschlichen Körpers: mit vierzig Kupfertafeln nach Vandergucht von Riepenhausen/ aus dem Englischen übersetzt von August Ferdinand Wolff </span>
+            <span type="title" style="">nebst einer Vorrede von J. Fr. Blumenbach </span>
+            <span type="pubPlace">Göttingen </span>
+            <span type="publisher">Bey Johann Christian Dieterich </span>
+            <span type="date">1790 </span>
+            <span type="reference">00160 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

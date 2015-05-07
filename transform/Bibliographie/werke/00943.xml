@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift:6. Fernere Reisenachrichten vom Hrn. D. Langsdorff von der Insel St. Catharina an der Küste von Brasilien den 15ten Januar 1804.</title>
+            <title type="main">Überschrift:Nachricht von der auf der Göttingischen Bibliothek befindlichen Meibomischen Sammlung medicinischer Handschriften.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,36 +38,36 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000912/00912.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000943/00943.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift:6. Fernere Reisenachrichten vom Hrn. D. Langsdorff von der Insel St. Catharina an der Küste von Brasilien den 15ten Januar 1804.</title>
+                  <title level="a" type="main">Überschrift:Nachricht von der auf der Göttingischen Bibliothek befindlichen Meibomischen Sammlung medicinischer Handschriften.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">Magazin für den neuesten Zustand der Naturkunde, mit Rücksicht auf die dazu gehörigen Hülfswissenschaften  / hrsg. von Johann Heinrich Voigt</title>
+                  <title level="j">Medicinische Bibliothek  / hrsg. von Joh. Friedr. Blumenbach</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Verl. des Landes-Industrie-Comptoirs</name>
+                        <name>Dieterich</name>
                      </publisher>
-                     <pubPlace>Weimar</pubPlace>
-                     <date type="publication" when="1805-01-01">1805</date>
+                     <pubPlace>Göttingen</pubPlace>
+                     <date type="publication" when="1783-01-01">1783</date>
                   </imprint>
-                  <biblScope>Bd. 9, 3. Stück (1805), S. 220-223.</biblScope>
+                  <biblScope>Bd. 1, 2. Stück (1783), S. 368-377.</biblScope>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>8 PHYS MATH II, 2355</idno>
+                  <idno>8 MED EPH 142</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
@@ -112,13 +112,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00912</classCode>
+            <classCode scheme="BiblNr">00943</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
                <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
             <classCode scheme="cat">
-               <idno>II.4.26</idno>Magazin für den neuesten Zustand der Naturkunde</classCode>
+               <idno>II.4.29</idno>Medicinische Bibliothek</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -129,13 +129,16 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00943">
-         <spanGrp xml:id="biblStruct_d1e71110_00943">
-            <span type="note"> Auszug aus einem Brief Georg Heinrich von Langsdorffs an Blumenbach vom 15. Januar 1804 von der Ilha de Santa Catarina mit Reisenotizen über Biolumineszenz von Meeresorganismen, sowie über die Natur der Ilha de Santa Catarina. </span>
+         <spanGrp xml:id="biblStruct_d1e70866_00943">
+            <span type="note"> Beschreibung der Manuskriptsammlung von Johann Heinrich und Heinrich Meibom. Anzeige dieses Stücks von Blumenbach in </span>
+            <span type="title" style="j">GAgS </span>
+            <span type="biblScope">1784 (9. Stück, 15. Januar), S. 81-83; „Göttingen“ </span>
+            <span type="reference">00252 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

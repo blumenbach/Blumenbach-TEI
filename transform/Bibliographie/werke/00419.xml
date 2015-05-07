@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift: London.</title>
+            <title type="main">Überschrift: Göttingen.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,13 +38,13 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000409/00409.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000419/00419.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift: London.</title>
+                  <title level="a" type="main">Überschrift: Göttingen.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
@@ -59,7 +59,7 @@
                         <name>Dieterich</name>
                      </publisher>
                      <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1799-06-15">1799, 15. Juni</date>
+                     <date type="publication" when="1800-04-19">1800, 19. April</date>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -71,7 +71,7 @@
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>1799 (95. Stück, 15. Juni), S. 937-940.<dimensions>
+                        <extent>1800 (62. Stück, 19. April), S. 609-612.<dimensions>
                               <dim/>
                            </dimensions>
                         </extent>
@@ -110,7 +110,7 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00409</classCode>
+            <classCode scheme="BiblNr">00419</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
@@ -127,17 +127,27 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00419">
-         <spanGrp xml:id="biblStruct_d1e34841_00419">
-            <span type="note">Rezension von </span>
-            <span type="title" style="m">[Lit.] A voyage to the South Atlantic and round Cape Horn into the Pacific Ocean: for the purpose of extending the Spermaceti whale fisheries, and other objects of commerce, by ascertaining the ports, bays, harbours, and anchoring births in certain islands and coasts in those seas at which the ships of the British merchants might be refitted/ undertaken and performed by James Colnett, of the Royal Navy, in the ship Rattler. </span>
-            <span type="edition">London: Printed for the author, by W. Bennett, Marsham Street, Westminster. Sold by A. Arrowsmith, Charlse Street, Soho; Stockdale, Picadilly; Edgerton, Charing Cross; Elmsly, Strand; and White, Fleet Street, 1798. </span>
-            <span type="repository">SUB Göttingen </span>
-            <span type="idno">4 ITIN I, 4929 </span>
+         <spanGrp xml:id="biblStruct_d1e35017_00419">
+            <span type="note">Blumenbachs Bericht zu seinem Vortrag über das Schnabeltier vor der Societät, sowie Ankündigung einer ausführlichen Beschreibung für Heft 5 (1800) der </span>
+            <span type="title" style="j">Abbildungen von naturhistorischen Gegenständen </span>
+            <span type="note">und für das  </span>
+            <span type="title" style="j">Magazin für den neuesten Zustand der Naturkunde, mit Rücksicht auf die dazu gehörigen Hülfswissenschaften </span>
+            <span type="note">siehe </span>
+            <span type="biblScope"> Bd. 2, 1. Stück (1800), S. 205-214 </span>
+            <span type="reference">00865 </span>
+            <span type="note">Bearbeitete Versionen des Artikels in französischer Sprache in </span>
+            <span type="title" style="j">Bulletin de la Société Philomathique de Paris </span>
+            <span type="biblScope"> Bd. 2, No. 39 (Prairial, An 8, [1800]), S. 113 </span>
+            <span type="reference">00788 </span>
+            <span type="note">und in </span>
+            <span type="title" style="j"> Magazin encyclopédique : ou journal des sciences, des lettres et des arts </span>
+            <span type="biblScope">6. Jg. Bd. 1, S. 541-542 </span>
+            <span type="reference">03015 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

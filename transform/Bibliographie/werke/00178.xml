@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift: IV. Ioannes Fridericus Blumenbach, Gothanus.</title>
+            <title type="main">Überschrift: Heidenröslein (v. Goethe). Hermeneusis. b) Bretannike</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,42 +38,44 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000172/00172.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000178/00178.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift: IV. Ioannes Fridericus Blumenbach, Gothanus.</title>
+                  <title level="a" type="main">Überschrift: Heidenröslein (v. Goethe). Hermeneusis. b) Bretannike</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="m">In: Ernestus Godofredus Baldinger ...tertio indicit octo candidatis doctissimis gradum doctoris medicinae contulisse ordinem medicorum; praefatio illustrat Malignitatem in morbis, ex mente Hippocratis, per recentiorum irritabilitatem et sensibilitatem.</title>
+                  <title level="m">In: Xenia Polyglōtta : peri ōn, epitrepusēs tēs hypatēs tōn philosophōn en Gottingai bulēs, pros to exeinai autōi dēmosiōs didaskein ; Hellēnisti ētoi Rōmaisti</title>
+                  <title level="m" type="aut">Dialexetai Bilielmos Mynnich.</title>
+                  <edition>En Gottingai tois Dietrichiou typois,</edition>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Ex officina Joann. Christiani Dieterich</name>
+                        <name/>
                      </publisher>
-                     <pubPlace>Goettingae</pubPlace>
-                     <date type="publication" when="1775-01-01">1775</date>
+                     <pubPlace/>
+                     <date type="publication" when="1815-01-01">1815.</date>
                   </imprint>
                </monogr>
-               <citedRange>S. 29-33.</citedRange>
+               <citedRange>S. 6, 8, 10.</citedRange>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>In Sammelband Academia Gottingensia, Ann. 1775. 4 HLP IV, 26/5:1775 (36).</idno>
+                  <idno>4 HLP IV 160/5 (6) RARA</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>43 S.<dimensions>
-                              <dim>22 cm (8°).</dim>
+                        <extent>12 S. <dimensions>
+                              <dim>23 cm (4°).</dim>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -111,7 +113,7 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00172</classCode>
+            <classCode scheme="BiblNr">00178</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
@@ -126,23 +128,13 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00178">
-         <spanGrp xml:id="biblStruct_d1e15935_00178">
-            <span type="note">Blumenbachs Lebenslauf in der Einladungsschrift zur Promotionsfeier. Blumenbachs Anteil endet auf S. 33 mit </span>
-            <span type="note">„Ill. Schlötzero denique Sueciae linguae elementa debeo.“ Der Schluss des Beitrags wurde von Ernst Gottfried Baldinger verfasst. </span>
-            <span type="note">Beruht auf Blumenbachs Lebenslauf in seiner Promotionsakte vgl.  </span>
-            <span type="title" style="m">[Lit.] The correspondence of Johann Friedrich Blumenbach/ Frank William Peter Dougherty </span>
-            <span type="biblScope">Vol. 1: 1773 - 1782: letters 1 - 230 </span>
-            <span type="edition">rev. augm. and ed. by Norbert Klatt </span>
-            <span type="pubPlace">Göttingen </span>
-            <span type="publisher">Klatt </span>
-            <span type="date">2006 </span>
-            <span type="reference">00156 </span>
-            <span type="citedRange">Nr. 16, S. 27-33. </span>
+         <spanGrp xml:id="biblStruct_d1e16152_00178">
+            <span type="note">Blumenbachs englische Übersetzung von Johann Wolfgang von Goethes Gedicht „Heidenröslein“. </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

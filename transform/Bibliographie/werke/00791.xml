@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift:IV. Einige Nachrichten vom academischen Museum zu Göttingen, von J. Fr. Blumenbach.</title>
+            <title type="main">Überschrift:XIII. Medicinische Bemerkungen auf einer Schweizerreise. Von dem Hrn. Prof. Blumenbach, aus dessen Bibliothek.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,36 +38,36 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000772/00772_vorlaeufigesDigitalisat.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000791/00791.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift:IV. Einige Nachrichten vom academischen Museum zu Göttingen, von J. Fr. Blumenbach.</title>
+                  <title level="a" type="main">Überschrift:XIII. Medicinische Bemerkungen auf einer Schweizerreise. Von dem Hrn. Prof. Blumenbach, aus dessen Bibliothek.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">Annalen der Braunschweig-Lüneburgischen Churlande</title>
+                  <title level="j">Chirurgische Bibliothek  / [Urh.] August Gottlieb Richter</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Pockwitz</name>
+                        <name/>
                      </publisher>
-                     <pubPlace>Hannover</pubPlace>
-                     <date type="publication" when="1787-01-01">1787</date>
+                     <pubPlace>Göttingen ; Gotha </pubPlace>
+                     <date type="publication" when="1782-01-01">1782</date>
                   </imprint>
-                  <biblScope>1. Jg. (3. Stück, 1787), S. 84-99.</biblScope>
+                  <biblScope>Bd. 8, 1. Stück (1785), S. 142-149.</biblScope>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>8 H HANN I,1430</idno>
+                  <idno>8 EPH LIT 444/5</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
@@ -112,13 +112,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00772</classCode>
+            <classCode scheme="BiblNr">00791</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
                <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
             <classCode scheme="cat">
-               <idno>II.4.5</idno>Annalen der Braunschweig-Lüneburgischen Churlande</classCode>
+               <idno>II.4.13</idno>Chirurgische Bibliothek</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -129,26 +129,18 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00791">
-         <spanGrp xml:id="biblStruct_d1e60940_00791">
-            <span type="note"> 1. Teil von 2 Teilen der Nachrichten vom Academischen Museum in Göttingen. Fortsetzung </span>
-            <span type="title" style="">ibid. </span>
-            <span type="biblScope">2. Jg. (1787, 2. Stück), S. 25-35 </span>
-            <span type="reference">00773 </span>
-            <span type="note">Stark bearbeitete Version von Blumenbachs zweiteiliger Beschreibung des Academischen Museums in </span>
-            <span type="title" style="j">Neues Magazin für Ärzte </span>
-            <span type="biblScope">Bd. 17 (1795, 2. Stück), S. 137-143 </span>
-            <span type="reference">00980 </span>
-            <span type="note">Eine weitere bearbeitete Version dieses Artikels in </span>
-            <span type="title" style="m">[Lit.] Nachrichten von sehenswürdigen Gemälde- und Kupferstichsammlungen, Münz- Gemmen- Kunst- und Naturalienkabineten, Sammlungen von Modellen, Maschinen, physikalischen und mathematischen Instrumenten, anatomischen Präparaten und botanischen Gärten in Teutschland nach alphabetischer Ordnung der Städte/ hrsg. von Friedrich Karl Gottlob Hirsching. </span>
-            <span type="edition">Erlangen: Bey Johann Jakob Palm, 1789. Bd. 3: S. 156-205 </span>
-            <span type="reference">00184 </span>
-            <span type="biblScope">Teil 2 dort, Bd. 4, S. 478-488 </span>
-            <span type="reference">00185 </span>
+         <spanGrp xml:id="biblStruct_d1e61045_00791">
+            <span type="note"> Forschungsnotiz zu „einigen in der Schweiz einheimischen Krankheiten“ wie „Brüche“. Nahezu wortgleicher Auszug (S. 725-732) aus Blumenbachs Artikel in </span>
+            <span type="title" style="j">Medicinische Bibliothek, Bd. 1, 4. Stück (1784), S. 725-742 </span>
+            <span type="reference">00944 </span>
+            <span type="biblScope">Edinburgh, 1819-1826 </span>
+            <span type="repository">SUB Göttingen </span>
+            <span type="idno">8 PHYS MATH II, 2880 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

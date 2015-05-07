@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Extrait de l’ouvrage intitulé: De l’Unité du Genre Humain &amp; de ses Variétés, par Fréd. Blumenbach;</title>
+            <title type="main">Überschrift: Jo. Frid. Blumenbachii decas altera collectionis suae craniorum diversarum gentium illustrata. D. II. Febr. MDCCXCIII.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,43 +38,43 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/03004/03004.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000186/00186.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000186/000186.html</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Extrait de l’ouvrage intitulé: De l’Unité du Genre Humain &amp; de ses Variétés, par Fréd. Blumenbach;</title>
+                  <title level="a" type="main">Überschrift: Jo. Frid. Blumenbachii decas altera collectionis suae craniorum diversarum gentium illustrata. D. II. Febr. MDCCXCIII.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="m">In: Mélanges d’histoire, de litterature, de géographie, de morale, et c. Par H. A. L. P.  –</title>
-                  <title level="m" type="sub"> Traduit du latin sur la 3e. édition par Fréd. Chardel, Médecin, Paris 1806.</title>
-                  <title level="m" type="aut">Á Leide, chez la veuve M. Cyfveer, J. Z.</title>
+                  <title level="j">Commentationes Societatis Regiae Scientiarum Gottingensis</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name/>
+                        <name>Dieterich</name>
                      </publisher>
-                     <pubPlace>Paris chez Th. Barrois et Tourneisen,</pubPlace>
-                     <date type="publication" when="1808-01-01">fils. MDCCCVIII - MDCCCIX.</date>
+                     <pubPlace>Gottingae</pubPlace>
+                     <date type="publication" when="1793-01-01">1793</date>
                   </imprint>
                </monogr>
-               <citedRange>Bd. 1: S. 225-269; Tabelle am Ende des Bandes.</citedRange>
             </biblStruct>
             <msDesc>
                <msIdentifier>
-                  <repository/>
-                  <idno/>
+                  <repository>SUB Göttingen</repository>
+                  <idno>4 PHYS MATH IV, 356</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>3 Bde. (1: X, [104] S., 272 S., 1 gef. Bl.  : 2 Ill. (Tabellen); 2: 414 S.; 3: 423 S.). <dimensions>
+                        <extent>Bd. XI (1793), Phys., S. 59-71, 10 Ill. (Kupferst.).<dimensions>
                               <dim/>
                            </dimensions>
                         </extent>
@@ -113,11 +113,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">03004</classCode>
+            <classCode scheme="BiblNr">00186</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
-               <idno>II.2</idno>Abschnitte in Werken anderer Autoren</classCode>
+               <idno>II.3</idno>Publikationsorgane der Königlichen Gesellschaft der Wissenschaften zu Göttingen</classCode>
+            <classCode scheme="cat">
+               <idno>II.3.1.1</idno>Commentationes Societatis Regiae Scientiarum Gottingensis</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -128,30 +130,24 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00186">
-         <spanGrp xml:id="biblStruct_d1e16599_00186">
-            <span type="note">Von Henri Augustin Le Pileur angefertigte, durch Paraphrasen des Originaltexts verbundene Auszüge aus der zweiten Auflage von Frédéric Charles Chardels französischer Übersetzung </span>
-            <span type="title" style="m">[Lit.] De l’unité du genre humain, et de ses variétés : ouvrage précédé d’une lettre à Joseph Banks, ... </span>
-            <span type="author">Par Fred. Blumenbach, </span>
-            <span type="note">Traduit du Latin sur la troisième édition, par Fréd. Chardel, </span>
-            <span type="pubPlace">Paris </span>
-            <span type="publisher">Chez Allut </span>
-            <span type="date">1806 </span>
-            <span type="reference">00017 </span>
-            <span type="note">on </span>
-            <span type="title" style="a">[Lit.] De generis humani varietate nativa </span>
-            <span type="author">auctore Io. Frid. Blumenbach </span>
-            <span type="edition">Editio tertia: praemissa est epistola ad </span>
-            <span type="element">Iosephum Banks </span>
+         <spanGrp xml:id="biblStruct_d1e17026_00186">
+            <span type="note">Auch als Sonderdruck: </span>
+            <span type="title" style="m"> [Lit.] Jo. Frid. Blumenbachii ... decas altera collectionis suae craniorum diversarum gentium illustrata. </span>
             <span type="pubPlace">Gottingae </span>
-            <span type="publisher">Apud Vandenhoek et Ruprecht </span>
-            <span type="date">1795 </span>
-            <span type="reference">00004 </span>
-            <span type="repository">Unveränderter Nachdruck 1813 </span>
+            <span type="publisher">Apud Joann. Christ. Dieterich </span>
+            <span type="date">MDCCXCIII </span>
+            <span type="reference">00093 </span>
+            <span type="note">Auflistung der enthaltenen Tafeln siehe dort </span>
+            <span type="note">Siehe auch Bericht zum Vortrag vor der Societät in </span>
+            <span type="title" style="j">GAgS </span>
+            <span type="biblScope">1793 (33. Stück, 28. Februar) </span>
+            <span type="citedRange">S. 321-324; „Göttingen“ </span>
+            <span type="reference">00351 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

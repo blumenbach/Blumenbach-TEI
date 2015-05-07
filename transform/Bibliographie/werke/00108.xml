@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Handbuch der vergleichenden Anatomie : mit 8 Kupfern</title>
+            <title type="main">*Handbuch der vergleichenden Anatomie  Edition classic.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -36,42 +36,37 @@
                <idno type="URLText"/>
             </idno>
          </publicationStmt>
-         <notesStmt>
-            <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000106/00106.pdf</ref>
-            </note>
-         </notesStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
-                  <title level="m" type="main">Handbuch der vergleichenden Anatomie : mit 8 Kupfern</title>
+                  <title level="m" type="main">*Handbuch der vergleichenden Anatomie</title>
                   <title level="m" type="aut">von J. F. Blumenbach.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
-                  <edition>Dritte verbesserte und vermehrte Auflage</edition>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>In der Dieterichschen Buchhandlung</name>
+                        <name>DM, Müller,</name>
                      </publisher>
-                     <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1824-01-01">1824</date>
+                     <pubPlace>Saarbrücken</pubPlace>
+                     <date type="publication" when="1815-01-01">2007 = 1815</date>
                   </imprint>
                </monogr>
+               <series> Edition classic.</series>
             </biblStruct>
             <msDesc>
                <msIdentifier>
-                  <repository>SUB Göttingen</repository>
-                  <idno>Cod. Ms. Blumenbach 26.</idno>
+                  <repository>Universitätsbibliothek Kiel</repository>
+                  <idno>Bg 4367</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>XVI, 559 S., VIII Bl.:8 Ill. (Kupferst.)<dimensions>
-                              <dim>22 cm (8°).</dim>
+                        <extent>XVI, 555 S., VIII Bl.: 8 Ill.<dimensions>
+                              <dim>21 cm (8°)</dim>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -82,7 +77,7 @@
                      <recordHist>
                         <source>
                            <certainty locus="location">
-                              <desc/>
+                              <desc>no autopsy</desc>
                            </certainty>
                         </source>
                      </recordHist>
@@ -109,7 +104,7 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00106</classCode>
+            <classCode scheme="BiblNr">00108</classCode>
             <classCode scheme="cat">
                <idno>I</idno>Selbständig erschienene Werke</classCode>
             <classCode scheme="cat">
@@ -117,7 +112,7 @@
             <classCode scheme="cat">
                <idno>I.7.1</idno>Originalausgaben</classCode>
             <classCode scheme="cat">
-               <idno>I.7.1.1</idno>Blumenbachs Handexemplar</classCode>
+               <idno>I.7.1.2</idno>Moderner Nachdruck</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -128,14 +123,14 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00108">
-         <spanGrp xml:id="biblStruct_d1e9745_00108">
-            <span type="note">Titelvignette. </span>
-            <span type="msDesc">Mit wenigen handschriftl. Nachträgen. </span>
+         <spanGrp xml:id="biblStruct_d1e9827_00108">
+            <span type="note">Enthält Nachdruck der Göttinger Ausgabe von 1815 </span>
+            <span type="reference">00102 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

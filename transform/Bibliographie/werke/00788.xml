@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift: Histoire physique de la vie de l’homme.</title>
+            <title type="main">Überschrift:Sur un noveau genre de quadrupède édenté, nommé Ornithorhynchus - paradoxus.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,36 +38,36 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Almanach_de_Gotha_1790/Almanach_de_Gotha_1790.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000788/00788.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift: Histoire physique de la vie de l’homme.</title>
+                  <title level="a" type="main">Überschrift:Sur un noveau genre de quadrupède édenté, nommé Ornithorhynchus - paradoxus.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">Almanach de Gotha pour l’année ...</title>
+                  <title level="j">Bulletin de la Société Philomathique de Paris</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>C. H. Ettinger</name>
+                        <name/>
                      </publisher>
-                     <pubPlace>Gotha</pubPlace>
-                     <date type="publication" when="1789-01-01">1789</date>
+                     <pubPlace>Paris</pubPlace>
+                     <date type="publication" when="1800-01-01">1800</date>
                   </imprint>
-                  <biblScope>1790 [i. e. 1789], S. 41-44.</biblScope>
+                  <biblScope>Bd. 2, No. 39 (Prairial, An 8 [1800]), S. 113, 1 Ill. (Kupferst.).</biblScope>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno/>
+                  <idno>4 PHYS MATH II, 430</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
@@ -112,13 +112,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">04007</classCode>
+            <classCode scheme="BiblNr">00788</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
                <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
             <classCode scheme="cat">
-               <idno>II.4.X.4</idno>Almanach de Gotha pour l’année</classCode>
+               <idno>II.4.12</idno>Bulletin de la Société Philomathique de Paris</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -129,19 +129,20 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00788">
-         <spanGrp xml:id="biblStruct_d1e60714_00788">
-            <span type="note">Beschreibung der körperlichen Entwicklung des Menschen von der Empfängnis bis zum Tod. Französische Version des Aufsatzes „Physische Lebensgeschichte des Menschen“ im </span>
-            <span type="title" style="j">Gothaischen Hofkalender ... auf das Jahr 1790 </span>
-            <span type="note">s. unter III. Für Blumenbach vermutete Werke </span>
-            <span type="note">Identisch wiederholt im </span>
-            <span type="title" style="j">Almanach de Gotha für das Jahr 1791 </span>
-            <span type="citedRange">S. 33-36 </span>
-            <span type="reference">NaN </span>
+         <spanGrp xml:id="biblStruct_d1e60841_00788">
+            <span type="note"> Beschreibung des Schnabeltiers. Kupfer separat gebunden. Zählung der Tafel: Pl. VII, Fig.1 („Maleuvre Sculp.“). Darstellung: Schnabeltier. Von „C. V.“ übersetzte, bearbeitete Version von Blumenbachs Artikel aus </span>
+            <span type="title" style="j">GAgS </span>
+            <span type="biblScope">1800 (62. Stück, 19. April), S. 609-612; „Göttingen“ </span>
+            <span type="reference">00419 </span>
+            <span type="note">Wörtliches Zitat des zweiten Absatzes in </span>
+            <span type="title" style="j">Magazin encyclopédique Année 1800, </span>
+            <span type="citedRange">S. 541-542 </span>
+            <span type="reference">03015 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

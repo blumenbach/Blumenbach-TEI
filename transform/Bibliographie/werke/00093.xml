@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">*Institutiones physiologicae</title>
+            <title type="main">decas altera collectionis suae craniorum diversarum gentium illustrata.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,40 +38,42 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000091/00091.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000093/00093.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000093/000093.html</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
-                  <title level="m" type="main">*Institutiones physiologicae</title>
-                  <title level="m" type="aut">[Johann Friedrich Blumenbach].</title>
+                  <title level="m" type="main">decas altera collectionis suae craniorum diversarum gentium illustrata.</title>
+                  <title level="m" type="aut">Jo. Frid. Blumenbachii</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
-                  <edition>Ed. Nova</edition>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Bounin</name>
+                        <name>Apud Joann. Christ. Dieterich</name>
                      </publisher>
-                     <pubPlace>Gandavi</pubPlace>
-                     <date type="publication" when="1821-01-01">1821</date>
+                     <pubPlace>Gottingae</pubPlace>
+                     <date type="publication" when="1793-01-01">MDCCXCIII</date>
                   </imprint>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
-                  <repository>London, Wellcome Library:</repository>
-                  <idno>REQUEST EPB/ B 14148/B</idno>
+                  <repository>SUB Göttingen</repository>
+                  <idno>4 ZOOL XII, 1590 2</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>XV, 508 S., [2] Bl.: Ill. (Kupferst.)<dimensions>
-                              <dim>8°.</dim>
+                        <extent>15 S., X gef. Bl.: 10 Ill. (Kupferst.) <dimensions>
+                              <dim>26 cm (4°).</dim>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -109,13 +111,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00091</classCode>
+            <classCode scheme="BiblNr">00093</classCode>
             <classCode scheme="cat">
                <idno>I</idno>Selbständig erschienene Werke</classCode>
             <classCode scheme="cat">
-               <idno>I.5</idno>Institutiones Physiologicae</classCode>
+               <idno>I.6</idno>Decades Collectionis Suae Craniorum</classCode>
             <classCode scheme="cat">
-               <idno>I.5.3</idno>Nicht authorisierter Nachdruck</classCode>
+               <idno>I.6.1</idno>Originalausgaben</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -126,13 +128,42 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00093">
-         <spanGrp xml:id="biblStruct_d1e8064_00093">
-            <span type="note">Vermutlich ein Raubdruck. </span>
+         <spanGrp xml:id="biblStruct_d1e8200_00093">
+            <span type="note">Sonderdruck des Beitrags „Jo. Frid. Blumenbachii decas altera collectionis suae craniorum diversarum gentium illustrata. d. II. Febr. MDCCXCIII“ in </span>
+            <span type="title" style="j">Commentationes Societatis Regiae Scientiarum Gottingensis </span>
+            <span type="biblScope">Bd. XI (1793), Phys., S. 59-71 </span>
+            <span type="reference">00186 </span>
+            <span type="note">Angezeigt von Blumenbach in </span>
+            <span type="title" style="j">GAgS </span>
+            <span type="biblScope">1793 (126. Stück, 10. August), S. 1257-1258; „Göttingen“ </span>
+            <span type="reference">00353 </span>
+            <span type="note">Mögl. zweite Auflage Göttingen : Dieterich, 1820 (Universitäts- und Forschungsbibliothek Erfurt/ Gotha: N 4º 00282 (02)). </span>
+            <span type="note">Enthält Erläuterungen und Abbildungen zu folgenden Schädeln </span>
+            <span type="citedRange">S. 3 </span>
+            <span type="note">[Vorbemerkung] </span>
+            <span type="citedRange">S. 3-5 </span>
+            <span type="note">XI. Cingari genuini. (Tab. XI.) </span>
+            <span type="citedRange">S. 5-8 </span>
+            <span type="note">XII. Tatari casanensis. (Tab. XII.) </span>
+            <span type="citedRange">S. 8 </span>
+            <span type="note">XIII. Kirgisae - Caisacci. (Tab. XIII.) </span>
+            <span type="citedRange">S. 9-10 </span>
+            <span type="note">XIV. Calmucci secundi.(Tab. XIV.) </span>
+            <span type="citedRange">S. 10-11 </span>
+            <span type="note">XV. Iacutae. (Tab. XV.) </span>
+            <span type="citedRange">S. 11-12 </span>
+            <span type="note">XVI. Tungusae. (Tab. XVI.) </span>
+            <span type="citedRange">S. 13-14 </span>
+            <span type="note">XVII. Aethiopis quarti. (Tab. XVII.) </span>
+            <span type="note">XVIII. Aethiopis quinti Congenis. (Tab. XVIII.) </span>
+            <span type="note">XIX. Aethiopissae Guineesis. (Tab. XIX.) </span>
+            <span type="citedRange">S. 15 </span>
+            <span type="note">XX. Feminae Caribeae ex insula Sti Vincentii. (Tab. XX.) </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

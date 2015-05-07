@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift: keine [i. e. S. 1977: „Göttingen.“]</title>
+            <title type="main">Überschrift: Bremen.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,28 +38,28 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000432/00432.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000442/00442.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift: keine [i. e. S. 1977: „Göttingen.“]</title>
+                  <title level="a" type="main">Überschrift: Bremen.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">Göttingische Anzeigen von gelehrten Sachen [GAgS]</title>
+                  <title level="j">Göttingische gelehrte Anzeigen [GgA]</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Dieterich</name>
+                        <name>Vandenhoeck &amp; Ruprecht</name>
                      </publisher>
                      <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1801-12-12">1801, 12. Dezember</date>
+                     <date type="publication" when="1802-06-26">1802, 26. Juni</date>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -71,7 +71,7 @@
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>1801 (199. Stück, 12. Dezember), S. 1984-1985 [gehört zum Artikel S. 1977-1985].<dimensions>
+                        <extent>1802 (101. Stück, 26. Juni), S. 1001-1002.<dimensions>
                               <dim/>
                            </dimensions>
                         </extent>
@@ -110,13 +110,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00432</classCode>
+            <classCode scheme="BiblNr">00442</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
                <idno>II.3</idno>Publikationsorgane der Königlichen Gesellschaft der Wissenschaften zu Göttingen</classCode>
             <classCode scheme="cat">
-               <idno>II.3.2.1</idno>Göttingische Anzeigen von gelehrten Sachen</classCode>
+               <idno>II.3.2.2</idno>Göttingische gelehrte Anzeigen</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -127,17 +127,16 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00442">
-         <spanGrp xml:id="biblStruct_d1e36631_00442">
-            <span type="note">Blumenbachs Bericht über seine Präsentation der „nähmlichen Theile vom Skelet des Strauß“ zum Vergleich mit dem Casuar-Skelett. Siehe dazu auch </span>
-            <span type="title" style="j">GAgS </span>
-            <span type="extent">1801 (199. Stück, 12. Dezember), S. 1984 </span>
-            <span type="date">1801, 12. Dezember </span>
-            <span type="reference">00431 </span>
+         <spanGrp xml:id="biblStruct_d1e36719_00442">
+            <span type="note">Rezension von Heft 1 (1802) von </span>
+            <span type="title" style="j">Americanische Annalen der Arzneykunde, Naturgeschichte, Chemie und Physik. </span>
+            <span type="repository"> SUB Göttingen </span>
+            <span type="idno">8 MED EPH 219 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift:Erfindung des Getraidebaues und des Brodbackens.</title>
+            <title type="main">Überschrift: Histoire physique de la vie de l’homme.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,36 +38,36 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/TaschenCalender1776/TaschenCalender1776.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Almanach_de_Gotha_1791/Almanach_de_Gotha_1791.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift:Erfindung des Getraidebaues und des Brodbackens.</title>
+                  <title level="a" type="main">Überschrift: Histoire physique de la vie de l’homme.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">Göttinger Taschen-Calender : für das Jahr … </title>
+                  <title level="j">Almanach de Gotha pour l’année ...</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Dieterich</name>
+                        <name>C. H. Ettinger</name>
                      </publisher>
-                     <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1775-01-01">1775</date>
+                     <pubPlace>Gotha</pubPlace>
+                     <date type="publication" when="1790-01-01">1790</date>
                   </imprint>
-                  <biblScope>1776 [i. e. 1775], S. 99-103.</biblScope>
+                  <biblScope>1791 [i. e. 1790], S. 33-36.</biblScope>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>8 SVA II, 3470 RARA</idno>
+                  <idno/>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
@@ -112,13 +112,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">04031</classCode>
+            <classCode scheme="BiblNr">04008</classCode>
             <classCode scheme="cat">
-               <idno>III</idno>Für Blumenbach vermutete Werke</classCode>
+               <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
-               <idno>III.2</idno>Zeitschriftenbeiträge</classCode>
+               <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
             <classCode scheme="cat">
-               <idno>III.2.4</idno>Göttinger Taschen-Calender : für das Jahr</classCode>
+               <idno>II.4.X.4</idno>Almanach de Gotha pour l’année</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -129,33 +129,20 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="01061">
-         <spanGrp xml:id="biblStruct_d1e79340_01061">
-            <span type="note"> Laut einer von Abraham Gotthelf Kästner verfassten Anzeige des Inhalts des </span>
-            <span type="title" style="j">Göttinger Taschen-Calenders für 1776 </span>
-            <span type="note">in </span>
-            <span type="title" style="j">GAgS </span>
-            <span type="biblScope">1775 (127. Stück, 24. Dez.), S. 1090 </span>
-            <span type="note">stammt „vieles“ in dem Band von Blumenbach. </span>
-            <span type="note">Wie die im selben Band des </span>
-            <span type="title" style="j">Taschen-Calenders </span>
-            <span type="note">enthaltenen und für Blumenbach vermuteten Texte </span>
-            <span type="reference">01005 </span>
-            <span type="note">und </span>
-            <span type="reference">01006 </span>
-            <span type="note">mit dem Autorenkürzel (?)„U.“ unterschrieben. </span>
-            <span type="note">Inhaltlich beruht der Beitrag auf einem deutschsprachigen Bericht über drei lateinische Vorträge Christian Gottlob Heyne „Origines panificii et nunc quidem frugum inventarum initia“ Teil I-III, 1768/1769) </span>
-            <span type="title" style="j">GAgS </span>
-            <span type="biblScope">1768 (85. Stück, 16. Juli), S.676-678, 1768 (134. Stück, 7. Nov.), S. 1113-1116 und 1789 (19. Stück, 13. Febr.), S. 185-188. </span>
-            <span type="note">Vgl. den entsprechenden Beitrag im </span>
-            <span type="title" style="j">Almanach de Goettingue </span>
-            <span type="note">der französischen Version des </span>
-            <span type="title" style="j">Taschen-Calenders, für 1776 </span>
-            <span type="citedRange">S. 99-103, „Invention de l'Agriculture et de l'Art de faire du Pain“ </span>
+         <spanGrp xml:id="biblStruct_d1e79673_01061">
+            <span type="note">Beschreibung der körperlichen Entwicklung des Menschen von der Empfängnis bis zum Tod. Französische Version des Aufsatzes „Physische Lebensgeschichte des Menschen“ im </span>
+            <span type="title" style="j">Gothaischen Hofkalender ... auf das Jahr 1791 </span>
+            <span type="citedRange">S. 31-34 </span>
+            <span type="reference">00793 </span>
+            <span type="note">In Text und Satz identische Wiederholung (lediglich mit geänderten Abständen zwischen den Absätzen und Seitenumbrüchen) des gleichlautenden Beitragsaus dem </span>
+            <span type="title" style="j">Almanach de Gotha für das Jahr 1790 </span>
+            <span type="citedRange">S.33-36 </span>
+            <span type="reference">NaN </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

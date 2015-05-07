@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift: Helmstädt.</title>
+            <title type="main">Überschrift: Leipzig.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,13 +38,13 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000281/00281.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000291/00291.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift: Helmstädt.</title>
+                  <title level="a" type="main">Überschrift: Leipzig.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
@@ -59,7 +59,7 @@
                         <name>Dieterich</name>
                      </publisher>
                      <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1786-02-11">1786, 11. Februar</date>
+                     <date type="publication" when="1786-09-09">1786, 9. September</date>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -71,7 +71,7 @@
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>1786 (23. Stück 11. Februar), S. 224.<dimensions>
+                        <extent>1786 (143. Stück, 9. September), S. 1430-1431.<dimensions>
                               <dim/>
                            </dimensions>
                         </extent>
@@ -110,7 +110,7 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00281</classCode>
+            <classCode scheme="BiblNr">00291</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
@@ -127,20 +127,22 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00291">
-         <spanGrp xml:id="biblStruct_d1e25070_00291">
-            <span type="note">Rezension von </span>
-            <span type="title" style="m">[Lit.] Observationum ad anatomiam et artem obstetriciam spectantium Satura </span>
-            <span type="author">Guilielmus Iosephi. </span>
-            <span type="pubPlace">Helmstadii </span>
-            <span type="publisher">Schnorr </span>
-            <span type="date"> 1785 </span>
-            <span type="repository"> Herzog August Bibliothek Wolfenbüttel </span>
-            <span type="idno">M: Mx 311 (11) </span>
+         <spanGrp xml:id="biblStruct_d1e25162_00291">
+            <span type="note">Rezension von Teil 4 (1785) von </span>
+            <span type="title" style="m">[Lit.] Herrn Karl Bonnets ... Werke der natürlichen Geschichte und Philosophie: aus dem Französischen der neuesten Ausgabe seiner Werke übers./ Charles Bonnet. [Übers.: Johann Hedwig]. </span>
+            <span type="pubPlace">Leipzig </span>
+            <span type="publisher">Bey Johann Friedrich Junius </span>
+            <span type="date">1783-1785 </span>
+            <span type="extent">4 Teile </span>
+            <span type="repository"> SUB Göttingen </span>
+            <span type="idno">8 PHYS MATH I 3430:1-4. </span>
+            <span type="note">Rezension von Teil 3 ibid., 1785 (143. Stück, 10. September), S. 1430-1431 </span>
+            <span type="reference">00275 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

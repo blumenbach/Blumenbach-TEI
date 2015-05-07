@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift: Frankfurt am Main.</title>
+            <title type="main">Überschrift: Göttingen.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,13 +38,13 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000343/00343.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000353/00353.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift: Frankfurt am Main.</title>
+                  <title level="a" type="main">Überschrift: Göttingen.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
@@ -59,7 +59,7 @@
                         <name>Dieterich</name>
                      </publisher>
                      <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1791-02-14">1791, 14. Februar</date>
+                     <date type="publication" when="1793-08-10">1793, 10. August</date>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -71,7 +71,7 @@
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>1791 (27. Stück, 14. Februar), S. 272.<dimensions>
+                        <extent>1793 (126. Stück, 10. August), S. 1257-1258.<dimensions>
                               <dim/>
                            </dimensions>
                         </extent>
@@ -110,7 +110,7 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00343</classCode>
+            <classCode scheme="BiblNr">00353</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
@@ -127,19 +127,32 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00353">
-         <spanGrp xml:id="biblStruct_d1e29729_00353">
-            <span type="note">Rezension von </span>
-            <span type="title" style="m">[Lit.] Versuch einer Erklärung der zoologischen Terminologie: ein Handbuch zum Gebrauche derer, die Zoologie studiren wollen/ Moritz Balthasar Borkhausen </span>
-            <span type="pubPlace">Frankfurt a. M. </span>
-            <span type="publisher">Varrentrapp und Wenner </span>
-            <span type="date">1790. </span>
-            <span type="repository"> Landesbibliothek Oldenburg </span>
-            <span type="idno"> NW II 7 A 24 </span>
+         <spanGrp xml:id="biblStruct_d1e29801_00353">
+            <span type="note">Blumenbachs Anzeige von drei Übersetzungen (englisch, niederländisch, deutsch) zweier seiner Schriften: </span>
+            <span type="title" style="m">[Lit.] An essay on generation/ by J. F. Blumenbach; translated from the German. </span>
+            <span type="edition">London: Printed for T. Cadell ...; Faulder ...; Murray ...; and Creech, at Edinburgh, [1792] </span>
+            <span type="reference">00059 </span>
+            <span type="title" style="m">[Lit.] Grondbeginselen der natuurkunde van den mensch: met plaaten/ door Jo. Frid. Blumenbach .../ uit het Latijn door G. J. Wolff; met eene voorreden van R. Forsten </span>
+            <span type="pubPlace">Harderwyck </span>
+            <span type="publisher">Bij J. van Kastel </span>
+            <span type="date">1791 </span>
+            <span type="reference">00082 </span>
+            <span type="title" style="m">[Lit.] D. Joh. Frid. Blumenbach's ... Anfangsgründe der Physiologie: mit Kupfern/ aus dem Lateinischen übersetzt, und mit Zusätzen vermehrt von Joseph Eyerel </span>
+            <span type="pubPlace">Wien </span>
+            <span type="publisher">Bey Christ. Frid. Wappler </span>
+            <span type="date">1789 </span>
+            <span type="reference">00071 </span>
+            <span type="note">Anzeige des Sonderdrucks </span>
+            <span type="title" style="m">[Lit.] Jo. Frid. Blumenbachii ... decas altera collectionis suae craniorum diversarum gentium illustrata </span>
+            <span type="pubPlace">Gottingae </span>
+            <span type="publisher"> Apud Joann. Christ. Dieterich </span>
+            <span type="date">MDCCXCIII </span>
+            <span type="reference">00093 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

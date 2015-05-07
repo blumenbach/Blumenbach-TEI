@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift: Praefatio.</title>
+            <title type="main">Überschrift: Memoria Friderici Bouterwek in concessu Societatis Regiae Scientiarum d. VI. Septembris MDCCCXXVIII. commendata a Jo. Frid. Blumenbach.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,13 +38,13 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000198/00198.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000208/00208.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift: Praefatio.</title>
+                  <title level="a" type="main">Überschrift: Memoria Friderici Bouterwek in concessu Societatis Regiae Scientiarum d. VI. Septembris MDCCCXXVIII. commendata a Jo. Frid. Blumenbach.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
@@ -59,7 +59,7 @@
                         <name>Dieterich</name>
                      </publisher>
                      <pubPlace>Gottingae</pubPlace>
-                     <date type="publication" when="1820-01-01">1820</date>
+                     <date type="publication" when="1832-01-01">1832</date>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -71,7 +71,7 @@
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>Bd. IV (1820), S. III-XXII.<dimensions>
+                        <extent>Bd. VII (1832), Hist. et Phil., nach S. 132, getr. Zählung: S. 1-10.<dimensions>
                               <dim/>
                            </dimensions>
                         </extent>
@@ -110,13 +110,14 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00198</classCode>
+            <classCode scheme="BiblNr">00208</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
                <idno>II.3</idno>Publikationsorgane der Königlichen Gesellschaft der Wissenschaften zu Göttingen</classCode>
             <classCode scheme="cat">
-               <idno>II.3.1.2</idno>Commentationes Societatis Regiae Scientiarum Gottingensis recentiores</classCode>
+               <idno>II.3.1.2</idno>Commentationes Societatis Regiae Scientiarum
+Gottingensis recentiores</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -127,17 +128,22 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00208">
-         <spanGrp xml:id="biblStruct_d1e18834_00208">
-            <span type="note">Blumenbachs Anzeige des Bandes in </span>
+         <spanGrp xml:id="biblStruct_d1e19018_00208">
+            <span type="note">Auch als Sonderdruck: </span>
+            <span type="title" style="m">[Lit.] Memoria Friderici Bouterwek in consessu Societatis Regiae Scientiarum d. VI. Septembris MDCCCXXVIII commendata/ a Jo. Fr. Blumenbach. </span>
+            <span type="pubPlace">Gottingae </span>
+            <span type="publisher">Typis Dieterichianis </span>
+            <span type="date">MDCCCXXVIII </span>
+            <span type="reference">00136 </span>
+            <span type="note">Siehe auch Arnold Hermann Ludwig Heerens Bericht über die Versammlung der Societät als Gedächtnisfeier für Bouterwek und Sartorius in </span>
             <span type="title" style="j">GgA </span>
-            <span type="biblScope">1819 (207. Stück, 27. Dezember) </span>
-            <span type="citedRange">S. 2065-2067; „Göttingen“ </span>
-            <span type="reference">00593 </span>
+            <span type="biblScope">1828 (151. Stück, 20. September) </span>
+            <span type="citedRange">S. 1497-1498 „Göttingen“. </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

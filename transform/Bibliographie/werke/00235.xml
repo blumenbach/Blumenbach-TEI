@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift: Göttingen.</title>
+            <title type="main">Überschrift: Leipzig.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,13 +38,13 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000225/00225.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000235/00235.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift: Göttingen.</title>
+                  <title level="a" type="main">Überschrift: Leipzig.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
@@ -59,7 +59,7 @@
                         <name>Dieterich</name>
                      </publisher>
                      <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1781-08-02">1781, 2. August</date>
+                     <date type="publication" when="1781-12-06">1781, 6. Dezember</date>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -71,7 +71,7 @@
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>1781 (93. Stück, 2. August), S. 737-739.<dimensions>
+                        <extent>1781 (148. Stück, 6. Dezember), S. 1190-1191.<dimensions>
                               <dim/>
                            </dimensions>
                         </extent>
@@ -110,7 +110,7 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00225</classCode>
+            <classCode scheme="BiblNr">00235</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
@@ -127,17 +127,23 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00235">
-         <spanGrp xml:id="biblStruct_d1e20958_00235">
-            <span type="note">Rezension von </span>
-            <span type="title" style="m">[Lit.] Vermischte Abhandlungen aus der Thiergeschichte: mit Kupfern/ von Blasius Merrem. </span>
-            <span type="edition">Göttingen: Boßiegel, 1781. </span>
-            <span type="repository"> SUB Göttingen </span>
-            <span type="idno"> 8 ZOOL I, 740 </span>
+         <spanGrp xml:id="biblStruct_d1e20987_00235">
+            <span type="note">Rezension von Bd. 1 (1781) der [Lit.] Abhandlung vom Nutzen und Schaden der Thiere: nebst den vornehmsten Arten, dieselben zu fangen und die schädlichen zu vermindern/ Christoph Wilhelm Jacob Gatterer. </span>
+            <span type="pubPlace">Leipzig </span>
+            <span type="publisher">Weygand </span>
+            <span type="date">1781-1782 </span>
+            <span type="extent">2 Bde. </span>
+            <span type="repository"> Staatsbibliothek zu Berlin - Preußischer Kulturbesitz </span>
+            <span type="idno">Lv 15424. </span>
+            <span type="note"> Rezension von Bd. 2 </span>
+            <span type="title" style="j">ibid. </span>
+            <span type="extent">1783 (43. Stück, 15. März), S. 432 </span>
+            <span type="reference">00247 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

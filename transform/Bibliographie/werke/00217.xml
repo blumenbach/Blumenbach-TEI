@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift: Memoria Ioannis Tobiae Mayer in concessu Societatis Regiae Scientiarum d. VII. Maii MDCCCXXXI commendata ab Io. Frid. Blumenbach.</title>
+            <title type="main">Überschrift: Kopenhagen.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,19 +38,19 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000207/00207.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000217/00217.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift: Memoria Ioannis Tobiae Mayer in concessu Societatis Regiae Scientiarum d. VII. Maii MDCCCXXXI commendata ab Io. Frid. Blumenbach.</title>
+                  <title level="a" type="main">Überschrift: Kopenhagen.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">Commentationes Societatis Regiae Scientiarum Gottingensis recentiores</title>
+                  <title level="j">Göttingische Anzeigen von gelehrten Sachen [GAgS]</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
@@ -58,20 +58,20 @@
                      <publisher>
                         <name>Dieterich</name>
                      </publisher>
-                     <pubPlace>Gottingae</pubPlace>
-                     <date type="publication" when="1832-01-01">1832</date>
+                     <pubPlace>Göttingen</pubPlace>
+                     <date type="publication" when="1780-11-25">1780, 25. November</date>
                   </imprint>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>4 PHYS MATH IV, 357</idno>
+                  <idno>8 EPH LIT 1607</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>Bd. VII (1832), Math., S. 149-156.<dimensions>
+                        <extent>1780 (144. Stück, 25. November), S. 1175-1178.<dimensions>
                               <dim/>
                            </dimensions>
                         </extent>
@@ -110,14 +110,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00207</classCode>
+            <classCode scheme="BiblNr">00217</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
                <idno>II.3</idno>Publikationsorgane der Königlichen Gesellschaft der Wissenschaften zu Göttingen</classCode>
             <classCode scheme="cat">
-               <idno>II.3.1.2</idno>Commentationes Societatis Regiae Scientiarum
-Gottingensis recentiores</classCode>
+               <idno>II.3.2.1</idno>Göttingische Anzeigen von gelehrten Sachen</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -128,23 +127,20 @@ Gottingensis recentiores</classCode>
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00217">
-         <spanGrp xml:id="biblStruct_d1e19579_00217">
-            <span type="note">Auch als Sonderdruck: </span>
-            <span type="title" style="m">[Lit.] Memoria Ioannis Tobiae Mayer in consessu Societatis Regiae Scientiarum d. VII. Maii MDCCCXXXI commendata/ ab Io. Frid. Blumenbach. </span>
-            <span type="pubPlace">Gottingae </span>
-            <span type="publisher">Typis Dieterichianis </span>
-            <span type="date">MDCCCXXXII </span>
-            <span type="reference">00137 </span>
-            <span type="note">Siehe auch Bericht über die Versammlung der Societät mit Erwähnung der Rede Blumenbachs in </span>
-            <span type="title" style="j">GgA </span>
-            <span type="biblScope">1831 (81. Stück, 23. Mai) </span>
-            <span type="citedRange">S. 801; „Göttingen“ </span>
-            <span type="reference">00637 </span>
+         <spanGrp xml:id="biblStruct_d1e19734_00217">
+            <span type="note">Rezension von </span>
+            <span type="title" style="m">[Lit.] Fauna Groenlandica: systematice sistens animalia Groenlandiae occidentalis hactenus indagata, quoad nomen specificum, triviale, vernaculumque, synonyma auctorum plurimum, descriptionem, locum, victum, generationem, mores, usum capturamque singuli, pro ut detegendi occasio fuit, maximaque parte secundum proprias observationes </span>
+            <span type="author">Otho Fabricius. </span>
+            <span type="pubPlace">Hafniae ; Lipsiae </span>
+            <span type="publisher">Rothe </span>
+            <span type="date">1780. </span>
+            <span type="repository">SUB Göttingen </span>
+            <span type="idno"> 8 ZOOL I 9616 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

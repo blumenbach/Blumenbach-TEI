@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift: Göttingen.</title>
+            <title type="main">Überschrift: Leipzig.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,13 +38,13 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000394/00394.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000404/00404.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift: Göttingen.</title>
+                  <title level="a" type="main">Überschrift: Leipzig.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
@@ -59,7 +59,7 @@
                         <name>Dieterich</name>
                      </publisher>
                      <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1798-05-28">1798, 28. Mai</date>
+                     <date type="publication" when="1798-11-29">1798, 29. November</date>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -71,7 +71,7 @@
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>1798 (85. Stück, 28. Mai), S. 847-848.<dimensions>
+                        <extent>1798 (190. Stück, 29. November), S. 1889-1890.<dimensions>
                               <dim/>
                            </dimensions>
                         </extent>
@@ -110,7 +110,7 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00394</classCode>
+            <classCode scheme="BiblNr">00404</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
@@ -127,20 +127,19 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00404">
-         <spanGrp xml:id="biblStruct_d1e33458_00404">
-            <span type="note">Rezension von </span>
-            <span type="title" style="m">[Lit.] Herrn Bengt And. Euphrasens Reise nach der schwedisch-westindischen Insel St. Barthelemi und den Inseln St. Eustache und St. Christoph : oder Beschreibung der Sitten, Lebensart der Einwohner, Lage, Beschaffenheit und natürlichen Produkte dieser Inseln </span>
-            <span type="author">aus dem Schwedischen von Joh. Georg Lud. Blumhof. </span>
-            <span type="pubPlace">Göttingen </span>
-            <span type="publisher">Dieterich </span>
+         <spanGrp xml:id="biblStruct_d1e33753_00404">
+            <span type="note">Rezension der deutschen Übersetzung </span>
+            <span type="title" style="m">[Lit.] D. Joh. Friedr. Blumenbach ... über die natürlichen Verschiedenheiten im Menschengeschlechte : mit Kupfern </span>
+            <span type="edition">Nach der dritten Ausgabe und den Erinnerungen des Verfassers übersetzt, und mit einigen Zusätzen und erläuternden Anmerkungen herausgegeben von Johann Gottfried Gruber </span>
+            <span type="pubPlace">Leipzig </span>
+            <span type="publisher">Bey Breitkopf und Härtel </span>
             <span type="date">1798 </span>
-            <span type="repository"> SUB Göttingen </span>
-            <span type="idno">8 H NAT III 4974 </span>
+            <span type="reference">00008 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

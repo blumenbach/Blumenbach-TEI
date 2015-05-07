@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift:Physische Lebensgeschichte des Menschen.</title>
+            <title type="main">Überschrift:V. Beschreibung eines Bienenstocks zu bequemer Beobachtung der Oekonomie dieser Insecten, vom Hrn. Bonnet. Aus einem Schreiben an Hrn Prof. Blumenbach in Göttingen. (S. Tab. IV. fig. 4).</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,36 +38,39 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000793/00793.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000815/00815.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000815/000815.html</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift:Physische Lebensgeschichte des Menschen.</title>
+                  <title level="a" type="main">Überschrift:V. Beschreibung eines Bienenstocks zu bequemer Beobachtung der Oekonomie dieser Insecten, vom Hrn. Bonnet. Aus einem Schreiben an Hrn Prof. Blumenbach in Göttingen. (S. Tab. IV. fig. 4).</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr</title>
+                  <title level="j">Magazin für das Neueste aus der Physik und Naturgeschichte  / zuerst hrsg. von Ludwig Christan Lichtenberg und fortgesetzt von Johann Heinrich Voigt</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name/>
+                        <name>Ettinger</name>
                      </publisher>
                      <pubPlace>Gotha</pubPlace>
-                     <date type="publication" when="1790-01-01">1790</date>
+                     <date type="publication" when="1785-01-01">1785</date>
                   </imprint>
-                  <biblScope>1791 [i. e. 1790], S. 31-34.</biblScope>
+                  <biblScope>Bd. 3, 1. Stück (1785), S. 114-118, 1 Ill. (Kupferst.).</biblScope>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>8 H SUBS 4446</idno>
+                  <idno>8 PHYS MATH II, 2072</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
@@ -112,13 +115,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00793</classCode>
+            <classCode scheme="BiblNr">00815</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
                <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
             <classCode scheme="cat">
-               <idno>II.4.15</idno>Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr</classCode>
+               <idno>II.4.25</idno>Magazin für das Neueste aus der Physik und Naturgeschichte</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -129,26 +132,15 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00815">
-         <spanGrp xml:id="biblStruct_d1e62731_00815">
-            <span type="note"> Beschreibung der körperlichen Entwicklung des Menschen von der Empfängnis bis zum Tod. Nahezu wortgleich in </span>
-            <span type="title" style="j">Potpourri des Dames: Auswahl vorzüglicher Aufsätze aus Taschenbüchern für 1800 </span>
-            <span type="citedRange">S. 104-110 </span>
-            <span type="reference">00993 </span>
-            <span type="note">Vermutlich damit identisch: Anon., „Physische Lebensgeschichte des Menschen“ in </span>
-            <span type="title" style="j">Aehrenlese vom Calenderfelde, für das Jahr 1794 </span>
-            <span type="note">Übersetzung im </span>
-            <span type="title" style="j">Almanach de Gotha, der französischen Version des Gothaischen Hofkalenders,für das Jahr 1790 </span>
-            <span type="citedRange">S. 41-44 </span>
-            <span type="reference">NaN </span>
-            <span type="note">und text- und nahezu satzidentisch damit im </span>
-            <span type="title" style="j">Almanach de Gotha für das Jahr 1791 </span>
-            <span type="citedRange">S. 33-36 </span>
-            <span type="reference">NaN </span>
+         <spanGrp xml:id="biblStruct_d1e62787_00815">
+            <span type="note"> Beschreibung eines gläsernen Bienenstocks von Charles Bonnet aus dessen Brief an Blumenbach vom 20. Dez. 1783 (Dougherty, </span>
+            <span type="title" style="j">Correspondence </span>
+            <span type="note">Bd. 2, S. 114-120 Brief Nr. 261). Zählung der Tafel: Tab. IV, Darstellung: Fig. 4. </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

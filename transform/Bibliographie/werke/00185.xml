@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift: Appendix No. IV</title>
+            <title type="main">Überschrift: Io. Frid. Blumenbachii decas collectionis suae craniorum diversarum gentium illustrata. D. XII. Dec. MDCCLXXXIX.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,43 +38,44 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2003003/03003.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000185/00185.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000185/000185.html</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift: Appendix No. IV</title>
+                  <title level="a" type="main">Überschrift: Io. Frid. Blumenbachii decas collectionis suae craniorum diversarum gentium illustrata. D. XII. Dec. MDCCLXXXIX.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="m">In: An account of the native Africans in the neighbourhood of Sierra Leone : to which is added an account of the present state of medicine among them</title>
-                  <title level="m" type="aut">by Thomas Winterbottom.</title>
+                  <title level="j">Commentationes Societatis Regiae Scientiarum Gottingensis</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Hatchard [u.a.]</name>
+                        <name>Dieterich</name>
                      </publisher>
-                     <pubPlace>London</pubPlace>
-                     <date type="publication" when="1803-01-01">1803.</date>
+                     <pubPlace>Gottingae</pubPlace>
+                     <date type="publication" when="1791-01-01">1791</date>
                   </imprint>
                </monogr>
-               <citedRange>Bd. 2: S.  275-283.</citedRange>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>8 H AFR 2335:2</idno>
+                  <idno>4 PHYS MATH IV, 356</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>2 Bde. (1:XI, [5], 362 S., [11] Bl.; 2: [2], 283, [12] S.); <dimensions>
-                              <dim>23 cm.</dim>
+                        <extent>Bd. X (1791), Phys., S. 3-27, 10 Ill. (Kupferst.).<dimensions>
+                              <dim/>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -112,11 +113,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">03003</classCode>
+            <classCode scheme="BiblNr">00185</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
-               <idno>II.2</idno>Abschnitte in Werken anderer Autoren</classCode>
+               <idno>II.3</idno>Publikationsorgane der Königlichen Gesellschaft der Wissenschaften zu Göttingen</classCode>
+            <classCode scheme="cat">
+               <idno>II.3.1.1</idno>Commentationes Societatis Regiae Scientiarum Gottingensis</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -127,23 +130,32 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00185">
-         <spanGrp xml:id="biblStruct_d1e16507_00185">
-            <span type="note">Forschungsnotiz über die Variationsbreite der Schädelformen bei Afrikanern und über die Gleichwertigkeit der intellektuelle Fähigkeiten von Afrikanern und Europäern. </span>
-            <span type="note">Englischen Übersetzung von Blumenbachs Artikel „von den Negern“ aus </span>
-            <span type="title" style="j">Magazin für das Neueste aus der Physik und Naturgeschichte </span>
-            <span type="biblScope">Bd. 4, 3. Stück (1787) </span>
-            <span type="citedRange">S. 1-12 </span>
-            <span type="reference">00817 </span>
-            <span type="note">nicht identisch mit der Übersetzung in </span>
-            <span type="title" style="j">The Philosophical magazine : comprehending the various branches of science, the liberal and fine arts, agriculture, manufactures, and commerce, </span>
-            <span type="biblScope">Bd. 3 (1799, March) </span>
-            <span type="citedRange">S. 141-147 </span>
-            <span type="reference">00984 </span>
+         <spanGrp xml:id="biblStruct_d1e16908_00185">
+            <span type="note">Tafeln gestochen von Ernst Ludwig (?) Riepenhausen nach Zeichnungen von Johann Samuel Zimmer (s. Tafel I). </span>
+            <span type="note">Auch als Sonderdruck: </span>
+            <span type="title" style="m">[Lit.] Jo. Frid. Blumenbachii ... decas collectionis suae craniorum diversarum gentium illustrata. </span>
+            <span type="pubPlace">Gottingae </span>
+            <span type="publisher">Apud Ioann. Christ. Dieterich </span>
+            <span type="date">MCCXC </span>
+            <span type="reference">00092 </span>
+            <span type="note">Auflistung der enthaltenen Tafeln siehe dort.Siehe auch Bericht zum Vortrag vor der Societät in </span>
+            <span type="title" style="j">GAgS </span>
+            <span type="biblScope">1790 (3. Stück, 4. Januar) </span>
+            <span type="citedRange">S. 25-29 „Göttingen“ </span>
+            <span type="reference">00325 </span>
+            <span type="note">Ins Deutsche übersetzte Auszüge in „III. Auszüge aus der Sammlung von Hirnschädeln verschiedener Nationen. </span>
+            <span type="note">Als Beitrag zur Naturgeschichte der Menschenspecies“, in </span>
+            <span type="title" style="m">[Lit.] Kleine Schriften zur vergleichenden Physiologie und Anatomie und Naturgeschichte gehörig: mit einer Kupfertafel/ von Joh. Friedr. Blumenbach; uibersetzt [sic] und herausgegeben von D. Joh. Gottfr. Gruber </span>
+            <span type="pubPlace">Leipzig </span>
+            <span type="publisher">Bei G. Benj. Meissner </span>
+            <span type="date">1800 </span>
+            <span type="reference">00148 </span>
+            <span type="citedRange">S. 143-165. </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

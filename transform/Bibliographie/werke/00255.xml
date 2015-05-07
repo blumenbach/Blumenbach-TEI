@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift: Neuchatel.</title>
+            <title type="main">Überschrift: Göttingen.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,13 +38,13 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000245/00245.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000255/00255.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift: Neuchatel.</title>
+                  <title level="a" type="main">Überschrift: Göttingen.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
@@ -59,7 +59,7 @@
                         <name>Dieterich</name>
                      </publisher>
                      <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1782-01-05">1782, 5. Januar</date>
+                     <date type="publication" when="1784-05-24">1784, 24. Mai</date>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -71,7 +71,7 @@
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>1782 (Zugabe, 1. Stück, 5. Januar), S. 1-5.<dimensions>
+                        <extent>1784 (84. Stück, 24. Mai), S. 841-843.<dimensions>
                               <dim/>
                            </dimensions>
                         </extent>
@@ -110,7 +110,7 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00245</classCode>
+            <classCode scheme="BiblNr">00255</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
@@ -127,24 +127,17 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00255">
-         <spanGrp xml:id="biblStruct_d1e22432_00255">
-            <span type="note">Rezension von Teil 1 von </span>
-            <span type="title" style="m">[Lit.] Voyage historique et littéraire dans la Suisse occidentale/ [Jean Rodolphe Sinner]. </span>
-            <span type="pubPlace">Neuchatel </span>
-            <span type="publisher">Impr. de la Soc. Typ. </span>
-            <span type="date">1781 </span>
-            <span type="extent">2 Teile. </span>
-            <span type="repository"> SUB Göttingen </span>
-            <span type="idno">8 ITIN I 778:1-2. </span>
-            <span type="note">Rezension von Teil 2 </span>
-            <span type="title" style="j">ibid. </span>
-            <span type="biblScope">1782 (Zugabe, 10. Stück, 9. März), S. 154-158 </span>
-            <span type="reference">00246 </span>
+         <spanGrp xml:id="biblStruct_d1e22526_00255">
+            <span type="note">Rezension von </span>
+            <span type="title" style="m">[Lit.] Beyträge zur besondern Geschichte der Vögel/ gesammelt von Blasius Merrem. </span>
+            <span type="edition">Goettingen: Auf Kosten des Verfassers und in Commission in der Vandenhoeckischen, in Leipzig in der J. F. Müllerschen Buchhandlung, 1784-1786. 2 Hefte. </span>
+            <span type="repository">SUB Göttingen </span>
+            <span type="idno">4 ZOOL IX, 2895:1-2 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

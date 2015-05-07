@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift: Göttingen.</title>
+            <title type="main">Überschrift: Frankfurt und Mainz.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,13 +38,13 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000272/00272.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000282/00282.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift: Göttingen.</title>
+                  <title level="a" type="main">Überschrift: Frankfurt und Mainz.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
@@ -59,7 +59,7 @@
                         <name>Dieterich</name>
                      </publisher>
                      <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1785-08-15">1785, 15. August</date>
+                     <date type="publication" when="1786-02-25">1786, 25. Februar</date>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -71,7 +71,7 @@
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>1785 (129. Stück, 15. August), S. 1289-1290.<dimensions>
+                        <extent>1786 (31. Stück, 25. Februar), S. 302-303.<dimensions>
                               <dim/>
                            </dimensions>
                         </extent>
@@ -110,7 +110,7 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00272</classCode>
+            <classCode scheme="BiblNr">00282</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
@@ -127,13 +127,21 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00282">
-         <spanGrp xml:id="biblStruct_d1e24446_00282">
-            <span type="note">Blumenbachs Bericht zu seinem Vortrag über Geierköpfe („vultur albicilla“, „vult. barbatus“) vor der Societät. </span>
+         <spanGrp xml:id="biblStruct_d1e24498_00282">
+            <span type="note">Rezension von </span>
+            <span type="title" style="m">[Lit.] S. Th. Sömmerring ... Ueber die körperliche Verschiedenheit des Negers vom Europäer. </span>
+            <span type="pubPlace">Frankfurt und Mainz </span>
+            <span type="publisher">Bey Varrentrapp Sohn und Wenner </span>
+            <span type="date">1785 </span>
+            <span type="repository"> SUB Göttingen </span>
+            <span type="idno"> 8 ZOOL XI 1422. </span>
+            <span type="note"> Es handelt sich offenbar um eine zweite, vermehrte Auflage der von Blumenbach rezensierten Schrift. Siehe ibid., 1785 (12. Stück, 22. Januar), S. 108-111; „Mainz“ </span>
+            <span type="reference">00266 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

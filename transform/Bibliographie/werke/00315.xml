@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift: Rotterdam.</title>
+            <title type="main">Überschrift: Göttingen.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,13 +38,13 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000305/00305.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000315/00315.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift: Rotterdam.</title>
+                  <title level="a" type="main">Überschrift: Göttingen.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
@@ -59,7 +59,7 @@
                         <name>Dieterich</name>
                      </publisher>
                      <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1787-09-22">1787, 22. September</date>
+                     <date type="publication" when="1789-01-01">1789, 1. Januar</date>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -71,7 +71,7 @@
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>1787 (152. Stück, 22. September), S. 1528.<dimensions>
+                        <extent>1789 (1. Stück, 1. Januar), S. 1-2.<dimensions>
                               <dim/>
                            </dimensions>
                         </extent>
@@ -110,7 +110,7 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00305</classCode>
+            <classCode scheme="BiblNr">00315</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
@@ -127,19 +127,20 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00315">
-         <spanGrp xml:id="biblStruct_d1e26833_00315">
-            <span type="note">Rezension von </span>
-            <span type="title" style="m">[Lit.] Museum Geversianum sive index rerum naturalium continens instructissimam copiam pretiosissimorum omnis generis ex tribus regnis naturae objectorum quam ... comparavit ... Abrahamus Gevers olim consiliarius primusque urbis Rotterodamensis consul praefectus sylvarum Hollandiae ...: Publice distrahendam ... in aedibus noblissimi defuncti diebus 12. Septembris et seqq. 1787 ... </span>
-            <span type="pubPlace">Rotterodami </span>
-            <span type="publisher">per P. et J. Holsteyn Bibliopolas </span>
-            <span type="date">[1787] </span>
-            <span type="repository"> SUB Göttingen </span>
-            <span type="idno"> 8 PHYS MATH I 985 </span>
+         <spanGrp xml:id="biblStruct_d1e26904_00315">
+            <span type="note">Blumenbachs Bericht zu einem ihm von Peter Camper übersandten Nachtrag zu seiner Abhandlung über „die Verwandlung der jungen surinamischen Kröten, die auf dem Rücken ihrer Mutter ausgeheckt werden (Rana pipa)“, den er der Societät vorlegt: „Supplementum“, in </span>
+            <span type="title" style="j">Commentationes Societatis Regiae Scientiarum Gottingensis </span>
+            <span type="biblScope">Bd. IX (1789), Phys., S. 134-135. </span>
+            <span type="note">Bericht von der Vorlage von Campers Abhandlung durch Blumenbach vor der Societät siehe </span>
+            <span type="title" style="j">GAgS </span>
+            <span type="extent"> 1784 (156. Stück, 27. September), S. 1553-1555; „Göttingen“ </span>
+            <span type="date">1784, 27. September </span>
+            <span type="reference">00256 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift:46. Gött[ingische] gel[ehrte] Anz[eigen] 1792, St. 206, S.2057.58.</title>
+            <title type="main">Überschrift:Göttingen. „In der Versammlung der königl. Societät der Wissenschaften am 5ten Octoberlegte Hr. Hofr. Blumenbach [...].“</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,36 +38,36 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2003028/03028.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2003024/03024.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift:46. Gött[ingische] gel[ehrte] Anz[eigen] 1792, St. 206, S.2057.58.</title>
+                  <title level="a" type="main">Überschrift:Göttingen. „In der Versammlung der königl. Societät der Wissenschaften am 5ten Octoberlegte Hr. Hofr. Blumenbach [...].“</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">Repertorium der medicinischen Literatur des Jahres ... . Herausgegeben von Dr. Paulus Usteri</title>
+                  <title level="j">Medicinisch-chirurgische Zeitung</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Ziegler</name>
+                        <name>Rauch</name>
                      </publisher>
-                     <pubPlace>Zürich</pubPlace>
-                     <date type="publication" when="1792-01-01">1792</date>
+                     <pubPlace>Innsbruck</pubPlace>
+                     <date type="publication" when="1799-12-09">1799, 9. Dez.</date>
                   </imprint>
-                  <biblScope>1794 [Berichtsjahr 1792], S. 212.</biblScope>
+                  <biblScope>Bd. 4, Nr. 97 (9. Dez.), 1799, S. 349-352.</biblScope>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>8 MED EPH 2740</idno>
+                  <idno>8 MED EPH 2151</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
@@ -112,13 +112,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">03028</classCode>
+            <classCode scheme="BiblNr">03024</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
                <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
             <classCode scheme="cat">
-               <idno>II.4.X.13</idno>Repertorium der medicinischen Literatur des Jahres</classCode>
+               <idno>II.4.28</idno>Medicinisch-chirurgische Zeitung</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -129,16 +129,21 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="01044">
-         <spanGrp xml:id="biblStruct_d1e78049_01044">
-            <span type="note"> Blumenbachs Bericht über seine Präsentation von Johann Reinhold Forsters „neue[m] Arzneymittel, nämlich die Rinde der Swietenia rubra oder febrifuga“ vor der Societät der Wissenschaften zu Göttingen. Nachdruck von Blumenbachs Beitrag in den  </span>
+         <spanGrp xml:id="biblStruct_d1e78288_01044">
+            <span type="note">Blumenbachs Bericht zu seinem Vortrag über die „vierte Decade aus seiner nun über hundert Numern enthaltenden Sammlung von Schedeln“ vor der Societät der Wissenschaften zu Göttingen. </span>
+            <span type="note">Gedruckt: „Jo. Frid. Blumenbachii decas quarta collectionis suae craniorum diversarum gentium illustrata. d. XXVIII. Septembr. MDCCXCIX“, in </span>
+            <span type="title" style="j">Commentationes Societatis Regiae Scientiarum Gottingensis </span>
+            <span type="biblScope">Bd. XIV (1800), Phys., S. 35-48 </span>
+            <span type="reference">00188 </span>
+            <span type="note">Bis auf einzelne orthographische Varianten wortgleiche Version von Blumenbachs Artikel aus </span>
             <span type="title" style="j">GAgS </span>
-            <span type="biblScope">1792 (206. Stück, 27. Dezember), S. 2057-2058;  „Göttingen“ </span>
-            <span type="reference">00350 </span>
+            <span type="biblScope">1799 (172.Stück, 28. Oktober), S. 1713-1716; „Göttingen“ </span>
+            <span type="reference">00413 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

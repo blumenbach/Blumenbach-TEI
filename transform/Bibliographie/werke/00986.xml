@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift:III. Medicinische Bemerkungen auf einer Schweizerreise.</title>
+            <title type="main">Überschrift:IX. Comparison between the Human Race and that of Swine. By I. F. Blumenbach. From Magazin für das Neueste aus der Physik. Vol. VI.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,36 +38,36 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000946/00946.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000986/00986.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift:III. Medicinische Bemerkungen auf einer Schweizerreise.</title>
+                  <title level="a" type="main">Überschrift:IX. Comparison between the Human Race and that of Swine. By I. F. Blumenbach. From Magazin für das Neueste aus der Physik. Vol. VI.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">Medicinische Bibliothek  / hrsg. von Joh. Friedr. Blumenbach</title>
+                  <title level="j">The Philosophical Magazine : comprehending the various branches of science, the liberal and fine arts, agriculture, manufactures, and commerce  / by Alexander Tilloch</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Dieterich</name>
+                        <name>Richardson,</name>
                      </publisher>
-                     <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1785-01-01">1785</date>
+                     <pubPlace>London</pubPlace>
+                     <date type="publication" when="1799-04-01">1799, April</date>
                   </imprint>
-                  <biblScope>Bd. 2, 1. Stück (1785), S. 163-178.</biblScope>
+                  <biblScope>Bd. 3 (1799, April), S. 284-290.</biblScope>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>8 MED EPH 142</idno>
+                  <idno>8 PHYS MATH II, 2810</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
@@ -112,13 +112,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00946</classCode>
+            <classCode scheme="BiblNr">00986</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
                <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
             <classCode scheme="cat">
-               <idno>II.4.29</idno>Medicinische Bibliothek</classCode>
+               <idno>II.4.37</idno>The Philosophical Magazine</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -129,13 +129,16 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00986">
-         <spanGrp xml:id="biblStruct_d1e73871_00986">
-            <span type="note"> 2. Teil von 4 Teilen. Forschungsnotiz zu „Melancholia phrontis“, „todten Geburten zeitiger Kinder“. </span>
+         <spanGrp xml:id="biblStruct_d1e73803_00986">
+            <span type="note"> Forschungsnotiz zur „Vergleichung [...] zwischen Menschenracen und Schweineracen“. Englische Übersetzung von Blumenbachs Artikel aus </span>
+            <span type="title" style="j">Magazin für das Neueste aus der Physik und Naturgeschichte </span>
+            <span type="biblScope">Bd. 6, 1. Stück (1789), S. 1-13 </span>
+            <span type="reference">00822 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

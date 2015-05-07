@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">institutiones physiologicae.</title>
+            <title type="main">Anfangsgründe der Physiologie : mit Kupfern</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,40 +38,44 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000070/00070.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000072/00072.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000072/000072.html</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
-                  <title level="m" type="main">institutiones physiologicae.</title>
-                  <title level="m" type="aut">D. Jo. Frid. Blumenbachii</title>
-                  <title level="m" type="ed">Editio quarta auctior et emendatior</title>
+                  <title level="m" type="main">Anfangsgründe der Physiologie : mit Kupfern</title>
+                  <title level="m" type="aut">D. Joh. Frid. Blumenbach's</title>
+                  <title level="m" type="ed">aus dem Lateinischen übersetzt, und mit Zusätzen vermehrt von Joseph Eyerel.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
+                  <edition>Zweyte Auflage</edition>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Apud Henr. Dieterich</name>
+                        <name>Bei Christ. Friedr. Wappler</name>
                      </publisher>
-                     <pubPlace>Gottingae</pubPlace>
-                     <date type="publication" when="1821-01-01">MDCCCXXI</date>
+                     <pubPlace>Wien</pubPlace>
+                     <date type="publication" when="1795-01-01">1795</date>
                   </imprint>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>Cod. Ms. Blumenbach 23a</idno>
+                  <idno>DD96 A 374</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>S. 1-562<dimensions>
-                              <dim>23 cm (8°).</dim>
+                        <extent>[8] Bl.,418 S., IV gef. Bl.: 4 Ill. (Kupferst.)<dimensions>
+                              <dim>20 cm (8°).</dim>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -109,15 +113,15 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00070</classCode>
+            <classCode scheme="BiblNr">00072</classCode>
             <classCode scheme="cat">
                <idno>I</idno>Selbständig erschienene Werke</classCode>
             <classCode scheme="cat">
                <idno>I.5</idno>Institutiones Physiologicae</classCode>
             <classCode scheme="cat">
-               <idno>I.5.1</idno>Originalausgaben</classCode>
+               <idno>I.5.2</idno>Übersetzungen</classCode>
             <classCode scheme="cat">
-               <idno>I.5.1.1</idno>Blumenbachs Handexemplare</classCode>
+               <idno>I.5.2.1</idno>Deutsch</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -128,13 +132,17 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00072">
-         <spanGrp xml:id="biblStruct_d1e6381_00072">
-            <span type="msDesc">Durchschossenes, unvollständiges Exemplar. Mit vielen handschriftl. Nachträgen. Ohne Tafeln, ohne Titelblatt. </span>
+         <spanGrp xml:id="biblStruct_d1e6417_00072">
+            <span type="note">Erwähnt von Blumenbach in </span>
+            <span type="title" style="j">GgA </span>
+            <span type="biblScope">1818 (172. Stück, 26. Oktober) </span>
+            <span type="citedRange">S. 1713-1715; „London“ </span>
+            <span type="reference">00584 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

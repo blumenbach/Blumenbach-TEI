@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift: On the bodily conformation and mental capacity of the negroes. By Professor Blumenbach.</title>
+            <title type="main">Überschrift:I. Siebenter und letzter geologischer Brief des Herrn de Luc an Herrn Professor Blumenbach. Aus der französischen Handschrift.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -36,33 +36,41 @@
                <idno type="URLText"/>
             </idno>
          </publicationStmt>
+         <notesStmt>
+            <note type="ref">
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000834/00834.pdf</ref>
+            </note>
+            <note type="ref">
+               <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000834/000834.html</ref>
+            </note>
+         </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift: On the bodily conformation and mental capacity of the negroes. By Professor Blumenbach.</title>
+                  <title level="a" type="main">Überschrift:I. Siebenter und letzter geologischer Brief des Herrn de Luc an Herrn Professor Blumenbach. Aus der französischen Handschrift.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">London Medical Review and Magazine</title>
+                  <title level="j">Magazin für das Neueste aus der Physik und Naturgeschichte  / zuerst hrsg. von Ludwig Christan Lichtenberg und fortgesetzt von Johann Heinrich Voigt</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
                   <imprint>
                      <publisher>
-                        <name>Longman and Rees, and H.D. Symonds</name>
+                        <name>Ettinger</name>
                      </publisher>
-                     <pubPlace>London</pubPlace>
-                     <date type="publication" when="1810-01-01">1810</date>
+                     <pubPlace>Gotha</pubPlace>
+                     <date type="publication" when="1796-01-01">1796</date>
                   </imprint>
-                  <biblScope>1810, Bd. 3, S. 199-203 (vgl. Archives des Science, Bd. 30 (1977), S. 360).</biblScope>
+                  <biblScope>Bd. 11, 1. Stück (1796), S. 1-71.</biblScope>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
-                  <repository>Bibliothèque de Genève</repository>
-                  <idno>BGE Na 926</idno>
+                  <repository>SUB Göttingen</repository>
+                  <idno>8 PHYS MATH II, 2072</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
@@ -107,13 +115,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">04015</classCode>
+            <classCode scheme="BiblNr">00834</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
                <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
             <classCode scheme="cat">
-               <idno>II.4.X.9</idno>London Medical Review and Magazine</classCode>
+               <idno>II.4.25</idno>Magazin für das Neueste aus der Physik und Naturgeschichte</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -124,25 +132,13 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00834">
-         <spanGrp xml:id="biblStruct_d1e64079_00834">
-            <span type="note">Forschungsnotiz über die Variationsbreite der Schädelformen bei Afrikanern und über die Gleichwertigkeit der intellektuelle Fähigkeiten von Afrikanern und Europäern. </span>
-            <span type="note">Nachdruck der englischen Übersetzung von Blumenbachs Forschungsnotiz „von den Negern“ aus </span>
-            <span type="title" style="j">Magazin für das Neueste aus der Physik und Naturgeschichte </span>
-            <span type="biblScope">Bd. 4, 3. Stück (1787), S. 1-12 </span>
-            <span type="reference">00817 </span>
-            <span type="note">in </span>
-            <span type="title" style="j">The Philosophical magazine : comprehending the various branches of science, the liberal and fine arts, agriculture, manufactures, and commerce </span>
-            <span type="biblScope">Bd. 3 (1799, March), S. 141-147 </span>
-            <span type="reference">00984 </span>
-            <span type="note">Vorlage für die französische Übersetzung desselben Textes in </span>
-            <span type="title" style="j">Bibliothèque Britannique </span>
-            <span type="biblScope">Bd. 51. Serie Sciences et Arts (1812), S. 71-80 </span>
-            <span type="reference">NaN </span>
+         <spanGrp xml:id="biblStruct_d1e64178_00834">
+            <span type="note"> Enthält den 7. geologischen Brief von Jean André Deluc an Blumenbach: „Bemerkungen über den Ursprung der organisirten Geschöpfe.“ Übersetzt von Blumenbach. </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

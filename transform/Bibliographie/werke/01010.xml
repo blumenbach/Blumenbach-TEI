@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift:Petrus Camper.</title>
+            <title type="main">Überschrift:Künsteleyen der Menschen an Bildung ihres Körpers.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,19 +38,19 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000963/00963.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2001010/01010.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift:Petrus Camper.</title>
+                  <title level="a" type="main">Überschrift:Künsteleyen der Menschen an Bildung ihres Körpers.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">Medicinische Bibliothek  / hrsg. von Joh. Friedr. Blumenbach</title>
+                  <title level="j">Göttinger Taschen-Calender : für das Jahr … </title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
@@ -59,15 +59,15 @@
                         <name>Dieterich</name>
                      </publisher>
                      <pubPlace>Göttingen</pubPlace>
-                     <date type="publication" when="1795-01-01">1795</date>
+                     <date type="publication" when="1777-01-01">1777</date>
                   </imprint>
-                  <biblScope>Bd. 3. 4. Stück (1795), S. 732-735.</biblScope>
+                  <biblScope>1778 [i. e. 1777], S. 59-66</biblScope>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>8 MED EPH 142</idno>
+                  <idno>8 SVA II, 3470 RARA</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
@@ -112,13 +112,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00963</classCode>
+            <classCode scheme="BiblNr">01010</classCode>
             <classCode scheme="cat">
-               <idno>II</idno>Unselbständig erschienene Werke</classCode>
+               <idno>III</idno>Für Blumenbach vermutete Werke</classCode>
             <classCode scheme="cat">
-               <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+               <idno>III.2</idno>Zeitschriftenbeiträge</classCode>
             <classCode scheme="cat">
-               <idno>II.4.29</idno>Medicinische Bibliothek</classCode>
+               <idno>III.2.4</idno>Göttinger Taschen-Calender : für das Jahr</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -129,13 +129,27 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="01010">
-         <spanGrp xml:id="biblStruct_d1e75602_01010">
-            <span type="note"> Biographische Notiz zu Peter Camper. </span>
+         <spanGrp xml:id="biblStruct_d1e75741_01010">
+            <span type="note"> Laut Achenbach/Joost </span>
+            <span type="title" style="j">Lichtenberg-Bibliographie </span>
+            <span type="note">evtl. von Blumenbach; </span>
+            <span type="note">ebenso Stern </span>
+            <span type="title" style="j">Lichtenberg </span>
+            <span type="biblScope">S. 346, Fn. 30. </span>
+            <span type="note">Dagegen laut Mautner </span>
+            <span type="title" style="j">Lichtenberg </span>
+            <span type="biblScope">S. 203, Fn. 151 </span>
+            <span type="note">von Lichtenberg. </span>
+            <span type="note">Vgl. den entsprechenden Beitrag im </span>
+            <span type="title" style="j">Almanach de Goettingue </span>
+            <span type="note">der französischen Version des </span>
+            <span type="title" style="j">Taschen-Calenders, für 1778 </span>
+            <span type="citedRange">S. 57-64, „Affectationes des hommes à perfectioner la conformation de leur corps“ </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>

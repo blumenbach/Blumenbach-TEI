@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Überschrift: Praefatio.</title>
+            <title type="main">Überschrift: Göttingen.</title>
             <author>
                <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
             </author>
@@ -38,19 +38,19 @@
          </publicationStmt>
          <notesStmt>
             <note type="ref">
-               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000204/00204.pdf</ref>
+               <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000214/00214.pdf</ref>
             </note>
          </notesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title level="a" type="main">Überschrift: Praefatio.</title>
+                  <title level="a" type="main">Überschrift: Göttingen.</title>
                   <author>
                      <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich‏</persName>
                   </author>
                </analytic>
                <monogr>
-                  <title level="j">Commentationes Societatis Regiae Scientiarum Gottingensis recentiores</title>
+                  <title level="j">Göttingische Anzeigen von gelehrten Sachen [GAgS]</title>
                   <editor>
                      <persName ref="http://viaf.org/viaf"/>
                   </editor>
@@ -58,20 +58,20 @@
                      <publisher>
                         <name>Dieterich</name>
                      </publisher>
-                     <pubPlace>Gottingae</pubPlace>
-                     <date type="publication" when="1828-01-01">1828</date>
+                     <pubPlace>Göttingen</pubPlace>
+                     <date type="publication" when="1780-07-02">1780, 2. Juli</date>
                   </imprint>
                </monogr>
             </biblStruct>
             <msDesc>
                <msIdentifier>
                   <repository>SUB Göttingen</repository>
-                  <idno>4 PHYS MATH IV, 357</idno>
+                  <idno>8 EPH LIT 1607</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>Bd. VI (1828), S. III-XX.<dimensions>
+                        <extent>1780 (81. Stück 2. Juli), S. 657-660.<dimensions>
                               <dim/>
                            </dimensions>
                         </extent>
@@ -110,13 +110,13 @@
             <purpose/>
          </textDesc>
          <textClass>
-            <classCode scheme="BiblNr">00204</classCode>
+            <classCode scheme="BiblNr">00214</classCode>
             <classCode scheme="cat">
                <idno>II</idno>Unselbständig erschienene Werke</classCode>
             <classCode scheme="cat">
                <idno>II.3</idno>Publikationsorgane der Königlichen Gesellschaft der Wissenschaften zu Göttingen</classCode>
             <classCode scheme="cat">
-               <idno>II.3.1.2</idno>Commentationes Societatis Regiae Scientiarum Gottingensis recentiores</classCode>
+               <idno>II.3.2.1</idno>Göttingische Anzeigen von gelehrten Sachen</classCode>
          </textClass>
       </profileDesc>
       <encodingDesc>
@@ -127,17 +127,18 @@
          </projectDesc>
       </encodingDesc>
       <revisionDesc>
-         <change>Erstellungsdatum: 2015-04-06T13:14:50.266+02:00</change>
+         <change>Erstellungsdatum: 2015-04-12T14:43:58.08+02:00</change>
       </revisionDesc>
    </teiHeader>
    <so:stdf>
       <so:annotations n="00214">
-         <spanGrp xml:id="biblStruct_d1e19345_00214">
-            <span type="note">Anzeige des Bandes von Blumenbach in </span>
-            <span type="title" style="j">GgA </span>
-            <span type="biblScope">1828 (90. u. 91. Stück, 5. Juni) </span>
-            <span type="citedRange">S. 889-891 „Göttingen“ </span>
-            <span type="reference">00631 </span>
+         <spanGrp xml:id="biblStruct_d1e19524_00214">
+            <span type="note">Anzeige von </span>
+            <span type="title" style="m">[Lit.] D. Joh. Friedr. Blumenbachs ... Handbuch der Naturgeschichte: zweyter Theil. </span>
+            <span type="pubPlace">Göttingen </span>
+            <span type="publisher">Bey Johann Christian Dieterich </span>
+            <span type="date">1780 </span>
+            <span type="reference">00022 </span>
          </spanGrp>
       </so:annotations>
    </so:stdf>
