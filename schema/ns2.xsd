@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://standoff.proposal" xmlns:ns1="http://www.isocat.org/ns/dcr" xmlns:ns2="http://standoff.proposal" xmlns:ns3="http://www.tei-c.org/ns/1.0">
   <xs:import namespace="http://www.isocat.org/ns/dcr" schemaLocation="ns1.xsd"/>
-  <xs:import namespace="http://www.tei-c.org/ns/1.0" schemaLocation="bb-schema.xsd"/>
+  <xs:import namespace="http://www.tei-c.org/ns/1.0" schemaLocation="standoff-proposal.xsd"/>
   <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
   <xs:element name="stdf" substitutionGroup="ns3:model.resourceLike">
     <xs:annotation>
       <xs:documentation>Container element for standoff annotations</xs:documentation>
     </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="ns2:soHeader"/>
+        <xs:element minOccurs="0" ref="ns2:annotations"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="ns2:stdf"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="ns3:att.global.attributes"/>
+      <xs:attributeGroup ref="ns3:att.datable.w3c.attributes"/>
+      <xs:attributeGroup ref="ns3:att.typed.attributes"/>
+      <xs:attributeGroup ref="ns3:att.pointing.attributes"/>
+    </xs:complexType>
   </xs:element>
   <xs:element name="soHeader">
     <xs:annotation>
