@@ -2,7 +2,7 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.w3.org/XML/1998/namespace" xmlns:ns1="http://www.isocat.org/ns/dcr" xmlns:ns2="http://standoff.proposal" xmlns:ns3="http://www.tei-c.org/ns/1.0">
   <xs:import namespace="http://standoff.proposal" schemaLocation="ns2.xsd"/>
   <xs:import namespace="http://www.isocat.org/ns/dcr" schemaLocation="ns1.xsd"/>
-  <xs:import namespace="http://www.tei-c.org/ns/1.0" schemaLocation="standoff-proposal.xsd"/>
+  <xs:import namespace="http://www.tei-c.org/ns/1.0" schemaLocation="bb-schema-corpus.xsd"/>
   <xs:attribute name="id" type="xs:ID">
     <xs:annotation>
       <xs:documentation>(identifier) provides a unique identifier for the element bearing the attribute.</xs:documentation>
