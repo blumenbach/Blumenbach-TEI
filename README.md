@@ -15,6 +15,6 @@ Researching and documenting the internal and external semantic relationships of 
 
 * To accomplish this objective, sophisticated tools, like the Blumenbach TEI Datenbank, are required.
 
-[Online Documentation](http://exist-bb.wmflabs.org/apps/blumenbach/docs/)
+[Online Documentation](http://exist.b-ol.de/apps/blumenbach/docs/)
 
-[View the Blumenbach TEI Datenbank](http://exist-bb.wmflabs.org/apps/blumenbach/index.html)
+[View the Blumenbach TEI Datenbank](http://exist.b-ol.de/apps/blumenbach/index.html)
