@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: London</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00527.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000527/00527.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: London</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Göttingische gelehrte Anzeigen [GgA]</title>
+                        <imprint>
+                            <publisher>
+                                <name>Vandenhoeck &amp; Ruprecht</name>
+                            </publisher>
+                            <pubPlace>Göttingen</pubPlace>
+                            <date type="publication" when="1812-05-16">1812, 16. Mai</date>
+                        </imprint>
+                        <biblScope>1812 (79. Stück, 16. Mai)</biblScope>
+                    </monogr>
+                    <citedRange>S. 780-787</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 EPH LIT 1607">8 EPH LIT 160/7</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00527.00">00527</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3</idno>Publikationsorgane der Königlichen Gesellschaft der Wissenschaften zu Göttingen</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3.2.2</idno>Göttingische gelehrte Anzeigen</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00527">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e42731_00527">
+                <span type="note">Rezension von Bd. 2 von</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Voyages and travels to India, Ceylon, the Red Sea, Abyssinia, and Egypt, in the years 1802, 1803, 1804, 1805, and 1806 : in three volumes <metamark>
+                        <pc unit="slash"/>
+                    </metamark> by George, Viscount Valentia</span>
+                <span type="pubPlace">London</span>
+                <span type="publisher">Miller</span>
+                <span type="date">1809</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="repository">SUB Göttingen</span>
+                <span type="idno" n="4 ITIN I 2602:1, Hauptbd">4 ITIN I, 2602:1,Hauptbd, Plates</span>
+                <span type="idno" n=" 4 ITIN I, 2602:2, Hauptbd">4 ITIN I, 2602:2,Hauptbd, Plates</span>
+                <span type="idno" n="GR 2 ITIN I, 2602:3, Taf">GR 2 ITIN I, 2602:2,Taf</span>
+                <span type="idno" n="4 ITIN I, 2602:3, Hauptbd">4 ITIN I, 2602:3,Hauptbd, Plates</span>
+                <span type="idno" n="GR 2 ITIN I, 2602:3, Taf">GR 2 ITIN I, 2602:3,Taf</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Rezension von Bd. 1</span>
+                <span type="title" style="j">ibid.</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1812 (71. Stück, 2. Mai)</span>
+                <span type="citedRange">S. 697-709</span>
+                <span type="reference">00525</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">von Bd. 3</span>
+                <span type="title" style="j">ibid.</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1812 (85. Stück, 28. Mai)</span>
+                <span type="citedRange">S. 841-845</span>
+                <span type="reference">00528</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

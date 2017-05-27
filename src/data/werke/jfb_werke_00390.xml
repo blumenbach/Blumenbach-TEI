@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: St. Petersburg</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00390.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000390/00390.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: St. Petersburg</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Göttingische Anzeigen von gelehrten Sachen [GAgS]</title>
+                        <imprint>
+                            <publisher>
+                                <name>Dieterich</name>
+                            </publisher>
+                            <pubPlace>Göttingen</pubPlace>
+                            <date type="publication" when="1797-12-14">1797, 14. Dezember</date>
+                        </imprint>
+                        <biblScope>1797 (198. Stück, 14. Dezember)</biblScope>
+                    </monogr>
+                    <citedRange>S. 1969</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 EPH LIT 1607">8 EPH LIT 160/7</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00390.00">00390</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3</idno>Publikationsorgane der Königlichen Gesellschaft der Wissenschaften zu Göttingen</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3.2.1</idno>Göttingische Anzeigen von gelehrten Sachen</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00390">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e32558_00390">
+                <span type="note">Anzeige der russischen Übersetzung</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Rukovodstvo k estestvennoj istorīi D. Īog. Fridr. Blumenbacha <gap reason="ellipsis"/>
+                    <metamark>
+                        <pc unit="slash"/>
+                    </metamark> s Německago na Rossïjskïj jazyk perevedennoe <gap reason="ellipsis"/> Petrom Naumovym i Andreem Terjaevym</span>
+                <span type="edition">Pečatano v Privillegirovannoj tipograpfïi u Vil´kovskogo. V Sanktpeterburgě <gap reason="ellipsis"/>, 1797</span>
+                <span type="reference">00051</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

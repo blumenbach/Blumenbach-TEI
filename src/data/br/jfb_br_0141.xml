@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach sendet Daniel Nicolaus Chodowiecki Änderungswünsche an den von diesem angefertigten Entwürfen für fünf Abbildungen zu den Beyträge zur Naturgeschichte, fordert, dass nur Chodowiecki selbst die Stichvorlagen anfertigen dürfe, dringt auf eine Fertigstellung der Druckplatten bis Ende Februar 1782 und bittet um spätere Überlassung der Originalentwürfe. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich </forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0141.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Leipzig. Universitätsbibliothek. Sammlung Liebeskind, Vol. XI. </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> I, S. 308 Nr. 0187.</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Werke">
+                    <bibl>
+                        <relatedItem>
+                            <bibl>
+                                <emph>Beyträge zur Naturgeschichte</emph>. Erster Theil (1790; Bibliographie Nr. 00111)<ptr target="ref_d1e13522_00142"/>.</bibl>
+                        </relatedItem>
+                    </bibl>
+                    <title level="m" type="bibl">Beyträge zur Naturgeschichte</title>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="56" xml:id="ref_d1e13522_00142">./view-work.html?id=00111</ref>
+                    <rs type="html">00111 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach sendet Daniel Nicolaus Chodowiecki Änderungswünsche an den von diesem angefertigten Entwürfen für fünf Abbildungen zu den <emph>Beyträge zur Naturgeschichte</emph>, fordert, dass nur Chodowiecki selbst die Stichvorlagen anfertigen dürfe, dringt auf eine Fertigstellung der Druckplatten bis Ende Februar 1782 und bittet um spätere Überlassung der Originalentwürfe. </title>
+                        <title level="m" type="bibl">Beyträge zur Naturgeschichte</title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich </forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Daniel Nicolaus </forename>
+                    <surname>Chodowiecki</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1782-01-12" when="1782-01-12" where="#orgplc_0141">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1782-01-12">1782, Jan. 12</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0141">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0141.00">0142<idno>0141</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

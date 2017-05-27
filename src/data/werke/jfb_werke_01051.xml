@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: White’s Beschreibung des Kangaroo von Neu-Südwallis (Aus seiner Reise nach Botany-Bay)</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_01051.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2003033/03033.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: White’s Beschreibung des Kangaroo von Neu-Südwallis (Aus seiner Reise nach Botany-Bay)</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Magazin für das Neueste aus der Physik und Naturgeschichte <metamark>
+                                <pc unit="slash"/>
+                            </metamark> zuerst hrsg. von Ludwig Christan Lichtenberg und fortgesetzt von Johann Heinrich Voigt</title>
+                        <imprint>
+                            <publisher>
+                                <name>Ettinger</name>
+                            </publisher>
+                            <pubPlace>Gotha</pubPlace>
+                            <date type="publication" when="1792-01-01">1792</date>
+                        </imprint>
+                        <biblScope>Bd. 7, 4. Stück (1792)</biblScope>
+                    </monogr>
+                    <citedRange>S. 19-24</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 PHYS MATH II, 2072">8 PHYS MATH II, 2072</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="01025.01">03033</classCode>
+                <classCode scheme="cat">
+                    <idno>III</idno>Für Blumenbach vermutete Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>III.2</idno>Zeitschriftenbeiträge</classCode>
+                <classCode scheme="cat">
+                    <idno>III.2.5</idno>Magazin für das Neueste aus der Physik und Naturgeschichte</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="01051">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e78837_01051">
+                <span type="note">Einleitung und Übersetzung der Beschreibung des Kängurus in einem Zusatz von John Hunter aus</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Journal of a Voyage to New South Wales, with sixtyfive plates … . By John White, …</span>
+                <span type="pubPlace">London</span>
+                <span type="publisher">Printed for J. Debrett Piccadilly</span>
+                <span type="date">1790</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="repository">SUB Göttingen</span>
+                <span type="idno" n="4 H Nat III 6110, RARA">4 H Nat III 6110, RARA</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Laut Marx,</span>
+                <span type="title" style="j">Zum Andenken an Johann Friederich Blumenbach: Eine Gedächtniss-Rede</span>
+                <span type="citedRange">(1840), S. 15 mit Anm. 32</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="note">von Blumenbach</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Zumindest der einleitenden Kommentar jedoch namentlich gezeichnet von „Meyer“, evt. Friedrich Albrecht Anton Meyer, der mit Blumenbach zusammengearbeitet hat</span>
+                <span type="reference">00937</span>
+                <span type="reference">00938</span>
+                <span type="note">und 1792 Unteraufseher des von Blumenbach geleiteten Academischen Museums in Göttingen war (Heerde, Hans-Joachim:Das Publikum der Physik. Lichtenbergs Hörer. Göttingen 2006, S. 427)</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">vgl. die Angabe in der Rezension des Magazin-Bandes in</span>
+                <span type="title" style="j">GAgS</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1792 (134. Stück, 23. August)</span>
+                <span type="citedRange">S. 1342: „Gotha</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="title" style="j">Magazin für das Neueste aus der Physik und Naturgesch. …</span>
+                <span type="biblScope">VII. Bnds. 4. St. 1792 … 2)</span>
+                <span type="note">Whites Beschreibung des Kangaroo von Neusüdwallis ; nach Hr. Dr. Meyer Vorerinnerung Blumenbach’s und Erxleben’s</span>
+                <span type="title" style="j">Jaculus Giganteus</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

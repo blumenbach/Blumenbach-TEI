@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xqdoc:xqdoc xmlns:xqdoc="http://www.xqdoc.org/1.0">
+    <xqdoc:control>
+        <xqdoc:date>2015-07-13T10:52:23.411Z</xqdoc:date>
+        <xqdoc:location>/db/apps/blumenbach/modules/extensions.xql</xqdoc:location>
+    </xqdoc:control>
+    <xqdoc:module type="library">
+        <xqdoc:uri>http://atomic.exist-db.org/xquery/extensions</xqdoc:uri>
+        <xqdoc:name>ext</xqdoc:name>
+        <xqdoc:comment>
+            <xqdoc:description/>
+        </xqdoc:comment>
+    </xqdoc:module>
+    <xqdoc:functions>
+        <xqdoc:function>
+            <xqdoc:name>ext:code</xqdoc:name>
+            <xqdoc:signature>ext:code($node as node(), $model as map, $lang as xs:string?, $edit as xs:string, $action as xs:string?) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:param>$lang? </xqdoc:param>
+                <xqdoc:param>$edit </xqdoc:param>
+                <xqdoc:param>$action? </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>ext:macro</xqdoc:name>
+            <xqdoc:signature>ext:macro($node as node(), $model as map) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>ext:script</xqdoc:name>
+            <xqdoc:signature>ext:script($node as node(), $model as map) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+    </xqdoc:functions>
+</xqdoc:xqdoc>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">[Satire in Form eines fingierten Briefes von] Liborius Meyer, der im Namen der Universität von Paderborn Blumenbach bittet, sich beim Landgrafen von Hessen-Kassel dafür einzusetzen, für das Kasseler Museum Fridericianum einen Paderborner Domherrn in Spiritus zu konservieren. </title>
+                <author>
+                    <persName>
+                        <forename>Liborius</forename>
+                        <surname>Domkapitel von Paderborn/ Meyer</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0970.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung"/>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> V, S. 216–219 Nr. 1123.<ptr target="ref_d1e99179_00987"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Drucke">
+                    <bibl>
+                        <emph>Schreiben von der Universität zu Paderborn an den Herrn Hofrath und Professor Blumenbach in Göttingen. Paderborn</emph> 1798; Auszug in Vorwahl, H.: „Ein Brief an Professor Blumenbach“, in <emph>Die Spinnstube. Heimatkundliche Nachrichten für das Niedersächsische Bergland</emph>, Nr. 5 (1925), Anhang, S. 37–38.</bibl>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="1109" xml:id="ref_d1e99179_00987">http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=232</ref>
+                    <rs type="pdf">Corresp. V, S. 216–219 Nr. 1123 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">[Satire in Form eines fingierten Briefes von] Liborius Meyer, der im Namen der Universität von Paderborn Blumenbach bittet, sich beim Landgrafen von Hessen-Kassel dafür einzusetzen, für das Kasseler Museum Fridericianum einen Paderborner Domherrn in Spiritus zu konservieren. </title>
+                        <author>
+                            <persName>
+                                <forename>Liborius</forename>
+                                <surname>Domkapitel von Paderborn/ Meyer</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1798-02-18" when="1798-02-18" where="#orgplc_0970">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1798-02-18">1798, Febr. 18</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0970">Paderborn</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0970.00">
+                    <idno>0970</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

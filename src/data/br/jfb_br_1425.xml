@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach übermittelt als Dekan der Medizinischen Fakultät der Universität Göttingen Christian Ludwig August von Arnswaldt, dem Kurator der Universität, Friedrich Karl Lappes Konzept einer Ausbildung von Tierärzten an der Universität Göttingen. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1425.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung"/>
+                <note type="Drucke">
+                    <bibl>Erwähnung in Tütken, Johannes: <emph>Privatdozenten im Schatten der Georgia Augusta</emph>. Göttingen 2005, Bd. 2, S. 788.<ptr target="ref_d1e145938_01442"/>
+                    </bibl>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="1723" xml:id="ref_d1e145938_01442">http://webdoc.sub.gwdg.de/ebook/univerlag/2006/tuetken_book2_online.pdf#page=344</ref>
+                    <rs type="pdf">S. 788</rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach übermittelt als Dekan der Medizinischen Fakultät der Universität Göttingen Christian Ludwig August von Arnswaldt, dem Kurator der Universität, Friedrich Karl Lappes Konzept einer Ausbildung von Tierärzten an der Universität Göttingen. </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich</forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Christian Ludwig August von</forename>
+                    <surname>Arnswaldt</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1815-08-15" when="1815-08-15" where="#orgplc_1425">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1815-08-15">1815, nach Aug. 15</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                        <listEvent>
+                            <event type="iso-origin-nb" notBefore="1815-08-15" where="#orgplc_1425">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum (not before):</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1815-08-15">1815, nach Aug. 15</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1425">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01425.00">
+                    <idno>1425</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

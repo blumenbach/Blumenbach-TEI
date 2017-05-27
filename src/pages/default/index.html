@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page.html" data-template-at="main">
+    <div data-template="templates:include" data-template-path="templates/search-form-collection.html"/>
+    <div class="col-md-12 col-xs-12">
+        <div id="content" class="row">
+            <h4>Query Lists</h4>
+            <table class="toc table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Subject</th>
+                    </tr>
+                </thead>
+                <tbody data-template="list:queries"/>
+            </table>
+        </div>
+    </div>
+</div>

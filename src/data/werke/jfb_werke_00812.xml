@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: IV. Von den Augen der Kakkerlaken. Von D. J. Fr. Blumenbach</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00812.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000812/00812.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: IV. Von den Augen der Kakkerlaken. Von D. J. Fr. Blumenbach</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">*Magazin für die Naturgeschichte des Menschen <metamark>
+                                <pc unit="slash"/>
+                            </metamark> hrsg. von C. Grosse</title>
+                        <imprint>
+                            <publisher>
+                                <name>Schöps</name>
+                            </publisher>
+                            <pubPlace>Zittau ; Leipzig</pubPlace>
+                            <date type="publication" when="1788-01-01">1788</date>
+                        </imprint>
+                        <biblScope>Bd. 1 (1. Stück, 1788)</biblScope>
+                    </monogr>
+                    <citedRange>S. 71-88</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Halle, Universitäts- und Landesbibliothek Sachsen-Anhalt</repository>
+                        <idno n="Sc 6721, 8°">Sc 6721, 8°</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc>no autopsy</desc>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00812.00">00812</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4.24</idno>Magazin für die Naturgeschichte des Menschen</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00812">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e62559_00812">
+                <span type="note">Deutsche Übersetzung des ersten Teils (S. 29-43) von Blumenbachs Artikel „Jo. Frid. Blumenbachii de oculis leucaethiopum et iridis motu commentatio recitata d. IX. Octobr. MDCCLXXXIV“ aus</span>
+                <span type="title" style="j">Commentationes Societatis Regiae Scientiarum Gottingensis</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. VII (1786), Phys.</span>
+                <span type="citedRange">S. 29-62</span>
+                <span type="reference">00180</span>
+                <span type="note">, über die Augen von Menschen mit Albinismus. Teil 2</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="title" style="j">ibid.</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 1 (1. Stück, 1788)</span>
+                <span type="citedRange">S. 89-116</span>
+                <span type="reference">00813</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

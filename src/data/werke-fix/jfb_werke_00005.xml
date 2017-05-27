@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">de generis humani varietate nativa liber : cum figuris aeri incisis</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00005.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000005/00005.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">de generis humani varietate nativa liber : cum figuris aeri incisis<metamark>
+                                <pc unit="point"/>
+                            </metamark>
+                        </title>
+                        <title level="m" type="aut">Io. Frid. Blumenbachii <gap reason="ellipsis"/>
+                        </title>
+                        <title level="m" type="ed">
+                            <metamark>
+                                <pc unit="bind"/>
+                            </metamark>Editio altera longe auctior et emendatior</title>
+                        <imprint>
+                            <publisher>
+                                <name>Apud Viduam Abr. Vandenhoek</name>
+                            </publisher>
+                            <pubPlace>Goettingae</pubPlace>
+                            <date type="publication" when="1781-01-01">1781</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="Cod. Ms. Blumenbach 20">Cod. Ms. Blumenbach 20</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>[3] Bl., 128 S., [1] Bl. :  1 Ill. (Kupferst.)<dimensions>
+                                        <dim>19 cm (8°)</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00005.00">00005</classCode>
+                <classCode scheme="cat">
+                    <idno>I</idno>Selbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>I.1</idno>De Generis Humani Varietate</classCode>
+                <classCode scheme="cat">
+                    <idno>I.1.1</idno>Originalausgaben</classCode>
+                <classCode scheme="cat">
+                    <idno>I.1.1.1</idno>Blumenbachs Handexemplare</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00005">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e370_00005">
+                <span type="note">Erscheinungsjahr in der Vorlage als Chronogramm</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Widmungsempfänger: Heinrich Blumenbach</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="msDesc">Durchschossenes Exemplar. Mit sehr vielen handschriftl. Nachträgen. Tafel I fehlt</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

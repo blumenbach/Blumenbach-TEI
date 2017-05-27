@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: Leipzig</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_01050.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2003031/03031.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: Leipzig</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Göttingische Anzeigen von gelehrten Sachen [GAgS]</title>
+                        <imprint>
+                            <publisher>
+                                <name>Dieterich</name>
+                            </publisher>
+                            <pubPlace>Göttingen</pubPlace>
+                            <date type="publication" when="1801-07-25">1801, 25. Juli</date>
+                        </imprint>
+                        <biblScope>1801 (119. Stück, 25. Juli)</biblScope>
+                    </monogr>
+                    <citedRange>S. 1191-1192</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 EPH LIT 1607">8 EPH LIT 160/7</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="01001.01">03031</classCode>
+                <classCode scheme="cat">
+                    <idno>III</idno>Für Blumenbach vermutete Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>III.2</idno>Zeitschriftenbeiträge</classCode>
+                <classCode scheme="cat">
+                    <idno>III.2.2</idno>Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="01050">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e78747_01050">
+                <span type="note">Rezension von</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Betrachtung eines merkwürdigen Gesetzes der Farbenänderung organischer Körper durch den Einfluss des Lichtes</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="title" style="m">Im Namen der Linneischen Gesellschaft zu Leipzig herausgegeben von Christian Samuel Weiss</span>
+                <span type="pubPlace">Leipzig</span>
+                <span type="publisher">bei Karl Tauchnitz</span>
+                <span type="date">1801</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="repository">Herzog August Bibliothek Wolfenbüttel</span>
+                <span type="idno" n="M: Mc 334">M: Mc 334</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Laut Beischrift in einem Göttinger Exemplar des Bandes von „Dr. Reuss“, d.h. Jeremias David Reuß</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Anders der Verfasser des rezensierten Werks in einem Brief an Achim von Arnim vom 10. Aug. 1801: „Mit Blumenbachs Recension meiner Schrift über d. Farbveränd. : org. K. d. d. Einfl. d. Lichtes in den Göttinger Anzeigen bin ich zufrieden“, vgl.</span>
+                <span type="title" style="j">Ludwig Achim von Arnim. Briefwechsel  1788–1801</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="biblScope">Hg. von Heinz Härtl. Tübingen 2000 (= Weimarer Arnim-Ausgabe Bd. 30), S. 177 und Kommentar S. 559</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

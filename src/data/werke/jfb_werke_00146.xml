@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Adrian van Berkel’s Beschreibung seiner Reisen nach Rio de Berbice und Surinam</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00146.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000146/00146.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">Adrian van Berkel’s Beschreibung seiner Reisen nach Rio de Berbice und Surinam <metamark>
+                                <pc unit="slash"/>
+                            </metamark>
+                        </title>
+                        <title level="m" type="ed">Aus dem Holländischen übersetzt</title>
+                        <imprint>
+                            <publisher>
+                                <name>Bey Andreas Seyler</name>
+                            </publisher>
+                            <pubPlace>Memmingen</pubPlace>
+                            <date type="publication" when="1789-01-01">1789</date>
+                        </imprint>
+                    </monogr>
+                    <series>Sammlung seltener und merkwürdiger Reisegeschichten ; 1</series>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 ITIN I, 5333:1">8 ITIN I, 5333:1</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>[7] Bl., 278 S.<dimensions>
+                                        <dim>19 cm (8°)</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00146.00">00146</classCode>
+                <classCode scheme="cat">
+                    <idno>I</idno>Selbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>I.11</idno>Von Blumenbach herausgegebene Werke</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00146">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e13346_00146">
+                <span type="note">4 Vignetten. Blumenbachs Vorrede auf S. [III-XIV]</span>
+                <span type="reference">00159</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Übersetzer: G. F. Benecke</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Rezensiert von Blumenbach in</span>
+                <span type="title" style="j">GAgS</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1789 (86. Stück, 30. Mai)</span>
+                <span type="citedRange">S. 858-859; „Memmingen“</span>
+                <span type="reference">00320</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Nachdruck der Vorrede in leicht gekürzter Version in</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Johann Friedrich Blumenbachs Einfluß auf die Entdeckungsreisenden seiner Zeit <metamark>
+                        <pc unit="slash"/>
+                    </metamark> Hans Plischke</span>
+                <span type="pubPlace">Göttingen</span>
+                <span type="publisher">Vandenhoeck &amp; Ruprecht</span>
+                <span type="date">1937</span>
+                <span type="citedRange">S. 75-78</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

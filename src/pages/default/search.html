@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page.html" data-template-at="main">
+    <script type="text/javascript" src="resources/scripts/search-results.js"/>
+    <div class="query:query col-md-12">
+        <div id="content">
+            <a href="." class="nav-link" data-template="query:copy-params">
+                <i class="glyphicon glyphicon-chevron-up"/> Back to Search and Work List
+            </a>
+            <p>Found: <span id="hit-count" data-template="query:hit-count"/> matches.</p>
+            <table id="search-results" class="display">
+                <thead>
+                    <tr>
+                        <th class="col-sm-1">Rank</th>
+                        <th class="col-sm-1">Date-Sort</th>
+                        <th class="col-sm-1">Date</th>
+                        <th class="col-sm-5">Title</th>
+                    </tr>
+                </thead>
+                <!-- query results -->
+                <tbody data-template="query:show-hits" id="results"/>
+            </table>
+        </div>
+    </div>
+</div>

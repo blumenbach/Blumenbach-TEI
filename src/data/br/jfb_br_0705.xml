@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Jan Gerard Le Dulx kündigt Blumenbach an, dass er als Hofmeister des niederländischen Studenten Johan Christiaan Gerard van de Graaff nach Göttingen kommen werde und dass dessen Großvater, der eine Betreuung seines Enkels durch Blumenbach wünsche, als Geschenk für Blumenbach drei menschliche Schädel aus Ceylon nach Amsterdam gesendet hat. </title>
+                <author>
+                    <persName>
+                        <forename>Jan Gerard</forename>
+                        <surname>Le Dulx</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0705.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach III, fol. 3–4. </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> IV, S. 309 Nr. 0836.<ptr target="ref_d1e71110_00712"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="691" xml:id="ref_d1e71110_00712">http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=321</ref>
+                    <rs type="pdf">Corresp. IV, S. 309 Nr. 0836 </rs>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Drei menschliche Schädel aus Südindien/Ceylon, gesendet von Jan Gerard von Angelbeek (auf dem Transportweg verloren gegangen, vgl. Brief von H.N. Bierbaum an Blumenbach v. 8. April 1794 Dougherty, <emph>Corresp.</emph> IV, Nr. 0841).</rs>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Jan Gerard Le Dulx kündigt Blumenbach an, dass er als Hofmeister des niederländischen Studenten Johan Christiaan Gerard van de Graaff nach Göttingen kommen werde und dass dessen Großvater, der eine Betreuung seines Enkels durch Blumenbach wünsche, als Geschenk für Blumenbach drei menschliche Schädel aus Ceylon nach Amsterdam gesendet hat. </title>
+                        <author>
+                            <persName>
+                                <forename>Jan Gerard</forename>
+                                <surname>Le Dulx</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1794-02-22" when="1794-02-22" where="#orgplc_0705">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1794-02-22">1794, Febr. 22</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0705">Stendal</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0705.00">0712<idno>0705</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

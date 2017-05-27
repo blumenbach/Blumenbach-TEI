@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page.html" data-template-at="main">
+    <script type="text/javascript" src="resources/scripts/work-list.js"/>
+    <form action="work-list.html" class="form form-horizontal">
+        <div data-template="templates:include" data-template-path="templates/search-form-werke.html"/>
+        <div class="col-md-12 col-xs-12">
+            <div data-template="taxon-detail:navigation" class="bk-nav top"/>
+            <div id="content" class="row">
+                <div data-template="list:works-cat-title"/>
+                <table id="works-grouped" class="display">
+                    <thead>
+                        <tr>
+                            <th class="col-sm-1">ID</th>
+                            <th class="col-sm-3">Titel</th>
+                            <th class="col-sm-1">Date Sort</th>
+                            <th class="col-sm-1">Publication Date</th>
+                        </tr>
+                    </thead>
+                    <tbody data-template="list:works-cat"/>
+                </table>
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach berichtet seinem Vater Johann Heinrich Blumenbach über eine vierzehntägige Reise in das Fürstentum Waldeck. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich </forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0045.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Arolsen, Fürstlich Waldeckische Hofbibliothek, V Waldec. 661 (Abschrift von 1903 durch Walther Herwig, Vorlage verloren). </note>
+                <note type="Drucke">
+                    <bibl>Kümmel, Birgit: „Johann Friedrich Blumenbach - Reise ins Waldeckische vom 1. bis 14. Oktober 1777. Ein unveröffentlichter Reisebericht“ in: <emph>Geschichtsblätter für Waldeck</emph> 84 (1996), S. 169–186; Teildruck in „Bemerkungen auf einigen Reisen ins Waldeckische […]“ in <emph>August Ludwig Schlözer’s Briefwechsel meist histor. u. polit. Inhalts.</emph> Dritter Theil. Göttingen 1778, Heft XVI, S. 229–237; Beschreibung des Arolsener Hofkonzerts gedruckt in Rouvel, Diether: <emph>Zur Geschichte der Musik am Fürstlich Waldeckischen Hofe zu Arolsen.</emph> Regensburg 1962, S. 160–161.</bibl>
+                    <title level="m" type="bibl">Geschichtsblätter für Waldeck</title>
+                    <title level="m" type="bibl">August Ludwig Schlözer’s Briefwechsel meist histor. u. polit. Inhalts.</title>
+                    <title level="m" type="bibl">Zur Geschichte der Musik am Fürstlich Waldeckischen Hofe zu Arolsen.</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> I, S. 116 Nr. 0070.</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Von der Fürstin geschenkte Bücher (mit Titel) für die Bibliothek und (nur summarisch) naturkundliche Objekte für das Museum; dem Museum 1776 von der Fürstin geschenkte Versteinerungen; von Blumenbach selbst gesammelte Versteinerungen aus dem Schieferbruch in Adorf/ Wirminghausen.</rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach berichtet seinem Vater Johann Heinrich Blumenbach über eine vierzehntägige Reise in das Fürstentum Waldeck. </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich </forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Heinrich </forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1777-10-30" when="1777-10-30" where="#orgplc_0045">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1777-10-30">1777, ca. Okt. 30</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0045">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0045.00">0046<idno>0045</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

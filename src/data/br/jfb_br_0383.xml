@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Gideon Rohde beschreibt Blumenbach einen an Albinismus leidenden Jugendlichen in Schleswig-Holstein. </title>
+                <author>
+                    <persName>
+                        <forename>Gideon</forename>
+                        <surname>Rohde</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0383.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Or. verloren, überliefert durch Druck in <emph>Medicinische Bibliothek</emph> Bd. 3, 1. Stück. </note>
+                <note type="Drucke">
+                    <bibl>
+                        <emph>Medicinische Bibliothek</emph>
+                        <ptr target="ref_d1e36610_00387"/> Bd. 3, 1. Stück (1788), S. 170–175.</bibl>
+                    <title level="m" type="bibl">Medicinische Bibliothek</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> III, S. 129 Nr. 0478.<ptr target="ref_d1e37707_00387"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="230" xml:id="ref_d1e37707_00387">http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=147</ref>
+                    <rs type="pdf">Corresp. III, S. 129 Nr. 0478 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="231" xml:id="ref_d1e36611_00387">./view-work.html?id=00145</ref>
+                    <rs type="html">00145 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Gideon Rohde beschreibt Blumenbach einen an Albinismus leidenden Jugendlichen in Schleswig-Holstein. </title>
+                        <author>
+                            <persName>
+                                <forename>Gideon</forename>
+                                <surname>Rohde</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1787-10-20" when="1787-10-20" where="#orgplc_0383">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1787-10-20">1787, Okt. 30</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0383">Augustenburg</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0383.00">0387<idno>0383</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

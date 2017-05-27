@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">James Cook Richmond sendet Blumenbach indianische Sammlungsobjekte aus Nordamerika und kurze Angaben zu diesen und bietet die Beschaffung weiterer Objekte aus Nordamerika an. </title>
+                <author>
+                    <persName>
+                        <forename>James Cook</forename>
+                        <surname>Richmond</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1590.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach IXc, Nr. 1. </note>
+                <note type="Drucke">
+                    <bibl>Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 85–87 KatNr. 101.<ptr target="ref_d1e160461_01607"/>
+                    </bibl>
+                    <title level="m" type="bibl">Commercium epistolicum</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Indianische (Stamm der Sioux oder Yancton) Tabakspfeife (Göttingen, Inst. für Ethnologie, Inv.-Nr. Am 457); indianischer (Stamm der Chippewas) Tabaksbeutel; ein Kästchen („mocock“) aus Birkenrinde mit Zucker aus Ahorn-Sirup.</rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1898" xml:id="ref_d1e160461_01607">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/CommerciumHTMLs/CommerciumNr101.html</ref>
+                    <rs type="html"/>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">James Cook Richmond sendet Blumenbach indianische Sammlungsobjekte aus Nordamerika und kurze Angaben zu diesen und bietet die Beschaffung weiterer Objekte aus Nordamerika an. </title>
+                        <author>
+                            <persName>
+                                <forename>James Cook</forename>
+                                <surname>Richmond</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1829-05-05" when="1829-05-05" where="#orgplc_1590">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1829-05-05">1829, Mai 5</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1590">Halle</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01590.00">
+                    <idno>1590</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

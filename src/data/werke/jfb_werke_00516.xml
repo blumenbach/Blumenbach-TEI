@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: St. Petersburg</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00516.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000516/00516.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: St. Petersburg</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Göttingische gelehrte Anzeigen [GgA]</title>
+                        <imprint>
+                            <publisher>
+                                <name>Vandenhoeck &amp; Ruprecht</name>
+                            </publisher>
+                            <pubPlace>Göttingen</pubPlace>
+                            <date type="publication" when="1811-07-22">1811, 22. Juli</date>
+                        </imprint>
+                        <biblScope>1811 (116. u. 117. Stück, 22. Juli)</biblScope>
+                    </monogr>
+                    <citedRange>S. 1153-1168</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 EPH LIT 1607">8 EPH LIT 160/7</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00516.00">00516</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3</idno>Publikationsorgane der Königlichen Gesellschaft der Wissenschaften zu Göttingen</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3.2.2</idno>Göttingische gelehrte Anzeigen</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00516">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e41817_00516">
+                <span type="note">Rezension von Teil 2 (1811) von</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Reise um die Welt in den Jahren 1803, 1804, 1805 und 1806 : auf Befehl Seiner Kaiserlichen Majestät Alexander des Ersten auf den Schiffen Nadeshda und Newa unter dem Commando des Capitains von der Kaiserlichen Marine <metamark>
+                        <pc unit="slash"/>
+                    </metamark> A. J. von Krusenstern</span>
+                <span type="pubPlace">St. Petersburg</span>
+                <span type="publisher">Verf. ; St. Petersburg: Schnoor</span>
+                <span type="date">1810-1814</span>
+                <span type="extent">3 Theile und 1 Atlas</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="repository">SUB Göttingen</span>
+                <span type="idno" n="4 H NAT II 1120:1 RARA-3 RARA">4 H NAT II 1120:1 RARA-3 RARA</span>
+                <span type="idno" n="GR 2 H NAT II 1120:ATLAS RARA">GR 2 H NAT II 1120:ATLAS RARA</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Rezension von Teil 1 (1810)</span>
+                <span type="title" style="j">ibid.</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1810 (67. Stück, 28. April)</span>
+                <span type="citedRange">S. 657-664</span>
+                <span type="reference">00508</span>
+                <span type="note">und</span>
+                <span type="biblScope">(68. Stück, 28. April)</span>
+                <span type="citedRange">S. 665-675</span>
+                <span type="reference">00509</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">von Teil 3 (1812)</span>
+                <span type="title" style="j">ibid.</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1814 (100. Stück, 23. Juni)</span>
+                <span type="citedRange">S. 993-999</span>
+                <span type="reference">00555</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page.html" data-template-at="main">
+    <script type="text/javascript" src="resources/scripts/emphs.js"/>
+    <div data-template="templates:include" data-template-path="templates/search-form-werke.html"/>
+    <div class="col-md-12 col-xs-12">
+        <div id="content" class="row">
+            <h2>Titeln in Werke Anmerkung</h2>
+            <table id="emphs" class="display">
+                <thead>
+                    <tr>
+                        <th class="col-sm-1">BiblNr</th>
+                        <th class="col-sm-5">Title</th>
+                        <th class="col-sm-3">biblScope</th>
+                        <th class="col-sm-2">citedRange</th>
+                    </tr>
+                </thead>
+                <tbody data-template="list:titles-in-stdf"/>
+            </table>
+        </div>
+    </div>
+</div>

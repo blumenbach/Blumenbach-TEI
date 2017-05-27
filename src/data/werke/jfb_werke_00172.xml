@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: IV. Ioannes Fridericus Blumenbach, Gothanus</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00172.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000172/00172.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: IV. Ioannes Fridericus Blumenbach, Gothanus</title>
+                    </analytic>
+                    <monogr>
+                        <title level="m">In:</title>
+                        <title level="m">Ernestus Godofredus Baldinger <gap reason="ellipsis"/> tertio indicit octo candidatis doctissimis gradum doctoris medicinae contulisse ordinem medicorum ; praefatio illustrat Malignitatem in morbis, ex mente Hippocratis, per recentiorum irritabilitatem et sensibilitatem</title>
+                        <imprint>
+                            <publisher>
+                                <name>Ex officina Joann. Christiani Dieterich</name>
+                            </publisher>
+                            <pubPlace>Goettingae</pubPlace>
+                            <date type="publication" when="1775-01-01">1775</date>
+                        </imprint>
+                    </monogr>
+                    <citedRange>S. 29-33</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="In Sammelband Academia Gottingensia, Ann. 1775. 4 HLP IV, 265:1775 (36)">In Sammelband Academia Gottingensia, Ann. 1775. 4 HLP IV, 26/5:1775 (36)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>43 S.<dimensions>
+                                        <dim>22 cm (8°)</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00172.00">00172</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.2</idno>Abschnitte in Werken anderer Autoren</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00172">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e15661_00172">
+                <span type="note">Blumenbachs Lebenslauf in der Einladungsschrift zur Promotionsfeier. Blumenbachs Anteil endet auf S. 33 mit:</span>
+                <span type="note">„Ill. Schlötzero denique Sueciae linguae elementa debeo.“</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Der Schluss des Beitrags wurde von Ernst Gottfried Baldinger verfasst</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Beruht auf Blumenbachs Lebenslauf in seiner Promotionsakte, vgl.</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">The correspondence of Johann Friedrich Blumenbach <metamark>
+                        <pc unit="slash"/>
+                    </metamark> Frank William Peter Dougherty</span>
+                <span type="edition">Vol. 1: 1773 - 1782: letters 1 - 230 <metamark>
+                        <pc unit="slash"/>
+                    </metamark> rev., augm. and ed. by Norbert Klatt
+                   </span>
+                <span type="pubPlace">Göttingen</span>
+                <span type="publisher">Klatt</span>
+                <span type="date">2006</span>
+                <span type="reference">00156</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Nr. 16</span>
+                <span type="citedRange">S. 27-33</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

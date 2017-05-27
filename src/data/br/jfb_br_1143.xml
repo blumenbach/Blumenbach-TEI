@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Jacques-Guillaume Thouret sendet Blumenbach zwei Stücke Leichenlipid, die bei der Exhumierung von Leichen auf dem Friedhof der Kirche von Saints Innocents in Paris gefunden wurden. </title>
+                <author>
+                    <persName>
+                        <forename>Jacques-Guillaume</forename>
+                        <surname>Thouret</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1143.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Enth. im Exemplar von Thouret, Jacques-Guillaume: <emph>Rapport sur les exhumations du cimitière et de l’Église des Saints Innocents</emph> (1789) der Universitätsbibliothek Göttingen, 4 Hist. Gall. Part. II 3218 Rara. </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> V, S. 457 Nr. 1294.<ptr target="ref_d1e117179_01159"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="1367" xml:id="ref_d1e117179_01159">http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=473</ref>
+                    <rs type="pdf">Corresp. V, S. 457 Nr. 1294 </rs>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Zwei Stücke Leichenlipid vom Friedhof und der Kirche von Saints Innocents in Paris.</rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Jacques-Guillaume Thouret sendet Blumenbach zwei Stücke Leichenlipid, die bei der Exhumierung von Leichen auf dem Friedhof der Kirche von Saints Innocents in Paris gefunden wurden. </title>
+                        <author>
+                            <persName>
+                                <forename>Jacques-Guillaume</forename>
+                                <surname>Thouret</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1800-04-16" when="1800-04-16" where="#orgplc_1143">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1800-04-16">1800, Apr. 16</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1143">Paris</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01143.00">
+                    <idno>1143</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

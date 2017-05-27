@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach sendet Joseph Banks wissenschaftliche Neuerscheinungen aus Deutschland bittet um eine Abbildung von Banks arktischen Hunden für neue Hefte seiner Abbildungen naturhistorischer Gegenstände. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1464.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">London, British Library, Add MS 8100, fol. 199. </note>
+                <note type="Drucke">
+                    <bibl>Chambers, <emph>Scientific correspondence of Sir Joseph Banks</emph>, Bd. 6 (2007), S. 333–334 Nr. 2169; Vgl. ausführl. Regest in Dawson, <emph>The Banks Letters</emph> (1958), S. 116 Nr. 70.</bibl>
+                    <title level="m" type="bibl">Scientific correspondence of Sir Joseph Banks</title>
+                    <title level="m" type="bibl">The Banks Letters</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Anmerkung">
+                    <note>Blumenbach erwähnt, dass er weitere Hefte der <emph>Abbildungen naturhistorischer Gegenstände</emph> plant; nach 1810 erschienen jedoch keine Hefte mehr. </note>
+                    <title level="m" type="bibl">Abbildungen naturhistorischer Gegenstände</title>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach sendet Joseph Banks wissenschaftliche Neuerscheinungen aus Deutschland bittet um eine Abbildung von Banks arktischen Hunden für neue Hefte seiner <emph>Abbildungen naturhistorischer Gegenstände</emph>. </title>
+                        <title level="m" type="bibl">Abbildungen naturhistorischer Gegenstände</title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich</forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Joseph</forename>
+                    <surname>Banks</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1819-02-10" when="1819-02-10" where="#orgplc_1464">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1819-02-10">1819, Febr. 10</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1464">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01464.00">
+                    <idno>1464</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

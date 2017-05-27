@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Johann Wolfgang von Goethe sendet Blumenbach Proben von sechs Mineralien aus der Region Carlsbad und identifiziert diese kurz. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Wolfgang von</forename>
+                        <surname>Goethe</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1320.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Abschrift (nach dem Or. im Familienarchiv Blumenbach in Hannover) in Weimar, Goethe- und Schiller-Archiv: GSA 29/102, IV, S. 9.</note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Drucke">
+                    <bibl>
+                        <emph>Goethes Werke</emph>. Weimarer Ausgabe Abt. IV, Bd. 19, S. 196–197 (Brief WA-Nr. 05249).</bibl>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">„1.) Granit von neuerer Bildung welcher braune Thonartige Flecken enthält, die sich wenn das Gestein einigermassen verwittert als völlig ausgebildete Chrystalle in sechsseitigen Tafeln darstellen. 2.) Eine verwandte Steinart in welcher sich gedachte Chrystalle, so wie der Feldspat in eine Specksteinartige Masse verwandelt haben. 3.) Lose Chrystallen aus diesem Gestein. 4.) Durch Kohle gefärbter fasriger Quarz zwischen welchem ein Trum dichter Quarz durch Kohle gefärbt liegt. 5.) Dichter, durch Kohle gefärbter Quarz, auf welchem in und auf Braunkohle eine Menge vollkommen  ausgebildete Bergkrystalle liegen. Kohlengruben von Dalwitz. 6.) Augiten in einer basaltähnlichen Thonmasse.“</rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Johann Wolfgang von Goethe sendet Blumenbach Proben von sechs Mineralien aus der Region Carlsbad und identifiziert diese kurz. </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Wolfgang von</forename>
+                                <surname>Goethe</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1806-10-01" when="1806-10-01" where="#orgplc_1320">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1806-10-01">1806, Okt. 1</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1320">Jena</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01320.00">
+                    <idno>1320</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

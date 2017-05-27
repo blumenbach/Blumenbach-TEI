@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: Haag und Paris</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00218.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000218/00218.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: Haag und Paris</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Göttingische Anzeigen von gelehrten Sachen [GAgS]</title>
+                        <imprint>
+                            <publisher>
+                                <name>Dieterich</name>
+                            </publisher>
+                            <pubPlace>Göttingen</pubPlace>
+                            <date type="publication" when="1780-12-02">1780, 2. Dezember</date>
+                        </imprint>
+                        <biblScope>1780 (Zugabe, 49. Stück, 2. Dezember)</biblScope>
+                    </monogr>
+                    <citedRange>S. 769-776</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 EPH LIT 1607">8 EPH LIT 160/7</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00218.00">00218</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3</idno>Publikationsorgane der Königlichen Gesellschaft der Wissenschaften zu Göttingen</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3.2.1</idno>Göttingische Anzeigen von gelehrten Sachen</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00218">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e19810_00218">
+                <span type="note">1. Teil der Rezension von</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Lettres physiques et morales sur l’histoire de la terre et de l’homme, adressées à la Reine de la Grande Bretagne <metamark>
+                        <pc unit="slash"/>
+                    </metamark> par J. A. de Luc, citoyen de Genève, lecteur de Sa Majestè <gap reason="ellipsis"/>
+                </span>
+                <span type="pubPlace">Paris</span>
+                <span type="publisher">Chez la V. Duchesne, Libraire rue St. Jaques ; et à La Haye: Chez de Tune, Libraire</span>
+                <span type="date">1779-1780</span>
+                <span type="extent">5 Bde</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="repository">SUB Göttingen</span>
+                <span type="idno" n="8 PHYS MATH I, 2012:1-5">8 PHYS MATH I, 2012:1-5</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Fortsetzungen</span>
+                <span type="title" style="j">ibid.</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1781 (Zugabe, 3. Stück, 20. Januar)</span>
+                <span type="citedRange">S. 40-47</span>
+                <span type="reference">00236</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">und</span>
+                <span type="biblScope">1781 (Zugabe, 18. Stück, 5. Mai)</span>
+                <span type="citedRange">S. 273-277</span>
+                <span type="reference">00237</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

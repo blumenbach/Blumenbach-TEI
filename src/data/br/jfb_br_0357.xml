@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Georg Christoph Lichtenberg bittet Blumenbach um die Rückgabe eines auf den Namen des Verlegers Johann Christian Dietrich entliehenen, an Blumenbach weitergegebenen Bandes aus der Göttinger Universitätsbibliothek. </title>
+                <author>
+                    <persName>
+                        <forename>Georg Christoph</forename>
+                        <surname>Lichtenberg</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0357.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826. </note>
+                <note type="Drucke">
+                    <bibl>Leitzmann, <emph>Lichtenbergs Briefe an Blumenbach</emph> (1921), Nr. 38; Lichtenberg, <emph>Briefwechsel</emph>, Bd. 3 (1990), Nr. 1515, S. 337–339</bibl>
+                    <title level="m" type="bibl">Lichtenbergs Briefe an Blumenbach</title>
+                    <title level="m" type="bibl">Briefwechsel</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> III, S. 82 Nr. 0452.<ptr target="ref_d1e34796_00361"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="187" xml:id="ref_d1e34796_00361">http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=100</ref>
+                    <rs type="pdf">Corresp. III, S. 82 Nr. 0452 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Georg Christoph Lichtenberg bittet Blumenbach um die Rückgabe eines auf den Namen des Verlegers Johann Christian Dietrich entliehenen, an Blumenbach weitergegebenen Bandes aus der Göttinger Universitätsbibliothek. </title>
+                        <author>
+                            <persName>
+                                <forename>Georg Christoph</forename>
+                                <surname>Lichtenberg</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1787-04-14" when="1787-04-14" where="#orgplc_0357">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1787-04-14">1787, vor April 14</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                        <listEvent>
+                            <event type="iso-origin-na" notAfter="1787-04-14" where="#orgplc_0357">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum (not after):</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1787-04-14">1787, vor April 14</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0357">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0357.00">0361<idno>0357</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: Turin</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00549.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000549/00549.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: Turin</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Göttingische gelehrte Anzeigen [GgA]</title>
+                        <imprint>
+                            <publisher>
+                                <name>Vandenhoeck &amp; Ruprecht</name>
+                            </publisher>
+                            <pubPlace>Göttingen</pubPlace>
+                            <date type="publication" when="1813-10-21">1813, 21. Oktober</date>
+                        </imprint>
+                        <biblScope>1813 (168. Stück, 21. Oktober)</biblScope>
+                    </monogr>
+                    <citedRange>S. 1673-1676</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 EPH LIT 1607">8 EPH LIT 160/7</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00549.00">00549</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3</idno>Publikationsorgane der Königlichen Gesellschaft der Wissenschaften zu Göttingen</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3.2.2</idno>Göttingische gelehrte Anzeigen</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00549">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e44449_00549">
+                <span type="note">Rezension der „physiologischen und naturhistorischen“ Abhandlungen in Mémoires de l’Académie Impériale des Sciences, Littérature et Beaux-Arts de Turin pour les années 1809 et 1810. Sciences physiques et mathématiques</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="repository">SUB Göttingen</span>
+                <span type="idno" n="4 PHYS MATH III, 390">4 PHYS MATH III, 390<lb/>
+                </span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">
+                    <lb/>Erwähnt: „Brugnone […] über die wiederkauenden Thiere und über die Rumination“; „F. Rossi über den Scheintod“; „Bonvoisin vom gemeinen Titanschörl“; „Buniva über die beiden so genannten Porcupine-men aus Suffolk“; „Bonelli’s entomologische Bemerkungen (meist über Piemonteser Insecten)“; „Garneri von ein paar Zwillingskindern“</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">
+                    <lb/>Abhandlungen in der Abt. Mémoires des Académiciens:</span>
+                <span type="biblScope">Jean Brugnon (Giovanni Brugnone), „Des animaux ruminans et de la rumination“</span>
+                <span type="citedRange">S. 1-56;</span>
+                <span type="biblScope">Jean Brugnon (Giovanni Brugnone), „Des animaux ruminans et de la rumination : second mémoire“</span>
+                <span type="citedRange">S. 309-346;</span>
+                <span type="biblScope">François Rossi (Francesco Rossi), „Mémoire sur l’asphyxie“</span>
+                <span type="citedRange">S. 67-85;</span>
+                <span type="biblScope">Bénoît Bonvoisin (Costanzo Benedetto Bonvicino), „Sur le titane oxidé de la vallée d’Aoste“</span>
+                <span type="citedRange">S. 86-91;</span>
+                <span type="biblScope">Michel Buniva (Michele Buniva), „Particularités les plus remarquables de deux corn-écailleux Anglais, nommés Jean et Richard Lambert, observés à Turin en février et mars de l’an 1809“</span>
+                <span type="citedRange">S. 364-402</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">
+                    <lb/>Abhandlungen in der Abt. Mémoires présentés:</span>
+                <span type="biblScope">Franc-André Bonelli, „Observations entomologiques“</span>
+                <span type="citedRange">S. 21-78;</span>
+                <span type="biblScope">Horatio Garner (Horace Garner), „Observatio duorum foetuum uno ovo inclusorum, et uno, eodemque Amnii liquore natantium“</span>
+                <span type="citedRange">S. 89-91</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

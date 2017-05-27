@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page.html" data-template-at="main">
+    <script type="text/javascript" src="resources/scripts/all-list.js"/>
+    <div data-template="templates:include" data-template-path="templates/search-form-collection.html"/>
+    <div class="col-md-12 col-xs-12">
+        <div id="content" class="row">
+            <h3>Werke und Briefen</h3>
+            <table id="works-grouped" class="display">
+                <thead>
+                    <tr>
+                        <th class="col-sm-1">ID</th>
+                        <th class="col-sm-3">Titel</th>
+                        <th class="col-sm-1">Date Sort</th>
+                        <th class="col-sm-1">Publication Date</th>
+                    </tr>
+                </thead>
+                <tbody data-template="list:all-grouped"/>
+            </table>
+        </div>
+    </div>
+</div>

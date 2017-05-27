@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xqdoc:xqdoc xmlns:xqdoc="http://www.xqdoc.org/1.0">
+    <xqdoc:control>
+        <xqdoc:date>2015-07-13T10:52:23.411Z</xqdoc:date>
+        <xqdoc:location>/db/apps/blumenbach/modules/lists.xqm</xqdoc:location>
+    </xqdoc:control>
+    <xqdoc:module type="library">
+        <xqdoc:uri>http://exist-db.org/xquery/lists</xqdoc:uri>
+        <xqdoc:name>list</xqdoc:name>
+        <xqdoc:comment>
+            <xqdoc:description>
+ Functions that return data as rows for tables
+ 
+</xqdoc:description>
+        </xqdoc:comment>
+    </xqdoc:module>
+    <xqdoc:functions>
+        <xqdoc:function>
+            <xqdoc:name>list:admin-functions</xqdoc:name>
+            <xqdoc:signature>list:admin-functions($node as node(), $model as map) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>list:all-grouped</xqdoc:name>
+            <xqdoc:signature>list:all-grouped($node as node(), $model as map, $query as xs:string?, $jhr as xs:string?, $mode as xs:string) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:param>$query? </xqdoc:param>
+                <xqdoc:param>$jhr? </xqdoc:param>
+                <xqdoc:param>$mode </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>list:briefs-all</xqdoc:name>
+            <xqdoc:signature>list:briefs-all($node as node(), $model as map) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>list:briefs-grouped</xqdoc:name>
+            <xqdoc:signature>list:briefs-grouped($node as node(), $model as map, $query as xs:string?, $jhr as xs:string?, $mode as xs:string) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:param>$query? </xqdoc:param>
+                <xqdoc:param>$jhr? </xqdoc:param>
+                <xqdoc:param>$mode </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>list:cat-item</xqdoc:name>
+            <xqdoc:signature>list:cat-item($node as node(), $model as map) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>list:cat-nodes</xqdoc:name>
+            <xqdoc:signature>list:cat-nodes($categories as node()*) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$categories* </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>list:cat-tree</xqdoc:name>
+            <xqdoc:signature>list:cat-tree($node as node(), $model as map) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>list:emphs-all</xqdoc:name>
+            <xqdoc:signature>list:emphs-all($node as node(), $model as map) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>list:get-taxon-name</xqdoc:name>
+            <xqdoc:signature>list:get-taxon-name($id as xs:string?) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$id? </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>list:objects-all</xqdoc:name>
+            <xqdoc:signature>list:objects-all($node as node(), $model as map) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>list:passthru-cats</xqdoc:name>
+            <xqdoc:signature>list:passthru-cats($categories as node()*) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$categories* </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>list:persons-all</xqdoc:name>
+            <xqdoc:signature>list:persons-all($node as node(), $model as map) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>list:places-all</xqdoc:name>
+            <xqdoc:signature>list:places-all($node as node(), $model as map) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>list:publishers-all</xqdoc:name>
+            <xqdoc:signature>list:publishers-all($node as node(), $model as map) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>list:queries</xqdoc:name>
+            <xqdoc:signature>list:queries($node as node(), $model as map) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>list:refs-briefs</xqdoc:name>
+            <xqdoc:signature>list:refs-briefs($node as node(), $model as map) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>list:taxons-all</xqdoc:name>
+            <xqdoc:signature>list:taxons-all($node as node(), $model as map) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>list:titles-in-stdf</xqdoc:name>
+            <xqdoc:signature>list:titles-in-stdf($node as node(), $model as map) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>list:works-all</xqdoc:name>
+            <xqdoc:signature>list:works-all($node as node(), $model as map) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>list:works-cat</xqdoc:name>
+            <xqdoc:signature>list:works-cat($node as node(), $model as map, $id as xs:string?) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:param>$id? </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>list:works-cat-title</xqdoc:name>
+            <xqdoc:signature>list:works-cat-title($node as node(), $model as map, $id as xs:string?) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:param>$id? </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>list:works-cats</xqdoc:name>
+            <xqdoc:signature>list:works-cats($node as node(), $model as map, $cat as xs:string?) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:param>$cat? </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>list:works-grouped</xqdoc:name>
+            <xqdoc:signature>list:works-grouped($node as node(), $model as map, $query as xs:string?, $jhr as xs:string?, $mode as xs:string) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:param>$query? </xqdoc:param>
+                <xqdoc:param>$jhr? </xqdoc:param>
+                <xqdoc:param>$mode </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+    </xqdoc:functions>
+</xqdoc:xqdoc>

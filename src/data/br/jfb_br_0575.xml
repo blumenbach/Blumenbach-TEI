@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach sendet Ernst II. von Sachsen-Gotha und Altenburg eine englische Karikatur, einen Aufsatz von Jean André Deluc zur Hygrometrie und ein von Joseph Banks herausgegebenes Illustrationswerk zur japanischen Flora. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0575.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Gotha, Thüringisches Staatsarchiv, Geheimes Archiv E XIII a Nr. 7 (Blumenbach). </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> IV, S. 65 Nr. 0681.<ptr target="ref_d1e57859_00581"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="509" xml:id="ref_d1e57859_00581">http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=77</ref>
+                    <rs type="pdf">Corresp. IV, S. 65 Nr. 0681 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach sendet Ernst II. von Sachsen-Gotha und Altenburg eine englische Karikatur, einen Aufsatz von Jean André Deluc zur Hygrometrie und ein von Joseph Banks herausgegebenes Illustrationswerk zur japanischen Flora. </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich</forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Ernst II. von</forename>
+                    <surname>Sachsen-Gotha und Altenburg</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1791-06-05" when="1791-06-05" where="#orgplc_0575">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1791-06-05">1791, Juni 5</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0575">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0575.00">0581<idno>0575</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

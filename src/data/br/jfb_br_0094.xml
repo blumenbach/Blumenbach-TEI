@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Carl Friedrich Schwickard berichtet Blumenbach von einem melkbaren Bock in Mariengarten. </title>
+                <author>
+                    <persName>
+                        <forename>Carl Friedrich </forename>
+                        <surname>Schwickard</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0094.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Or. verloren; überliefert durch Druck in Hannoverisches Magazin. </note>
+                <note type="Drucke">
+                    <bibl>
+                        <emph>Hannoverisches Magazin</emph> 25. Jg., 48. Stück, 15. Juni 1787, Sp. 753.</bibl>
+                    <title level="m" type="bibl">Hannoverisches Magazin</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> I, S. 206 Nr. 0131.</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Werke">
+                    <bibl>
+                        <relatedItem>
+                            <bibl>„Von einem Bock, der Milch giebt“ in <emph>Hannoverisches Magazin</emph> 25. Jg., 48. Stück, 15. Juni 1787, Sp. 753–762 (= Bibliographie Nr. 00804).<ptr target="ref_d1e7988_00095"/>
+                            </bibl>
+                        </relatedItem>
+                    </bibl>
+                    <title level="m" type="bibl">Hannoverisches Magazin</title>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="39" xml:id="ref_d1e7988_00095">./view-work.html?id=00804</ref>
+                    <rs type="html">00804</rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Carl Friedrich Schwickard berichtet Blumenbach von einem melkbaren Bock in Mariengarten. </title>
+                        <author>
+                            <persName>
+                                <forename>Carl Friedrich </forename>
+                                <surname>Schwickard</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich </forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1780-08-30" when="1780-08-30" where="#orgplc_0094">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1780-08-30">1780, Aug, 30.</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0094">Mariengarten</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0094.00">0095<idno>0094</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">über den Bildungstrieb</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00058.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">über den Bildungstrieb</title>
+                        <title level="m" type="aut">Joh. Fr. Blumenbach <gap reason="ellipsis"/>
+                        </title>
+                        <imprint>
+                            <publisher>
+                                <name>[s.n.]</name>
+                            </publisher>
+                            <pubPlace>Göttingen</pubPlace>
+                            <date type="publication" when="1791-01-01">[ca. 1987] = 1791</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                        <idno n=""/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>[1] Bl., 116 S., [1] Bl., X S., [1] Bl., 84 S. : Ill. (Kupferst.)<dimensions>
+                                        <dim>16 cm (8°)</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00058.00">00058</classCode>
+                <classCode scheme="cat">
+                    <idno>I</idno>Selbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>I.3</idno>De Nisu Formativo – Über den Bildungstrieb</classCode>
+                <classCode scheme="cat">
+                    <idno>I.3.1</idno>Originalausgaben</classCode>
+                <classCode scheme="cat">
+                    <idno>I.3.1.1</idno>Moderne Nachdrucke</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00058">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e5220_00058">
+                <span type="note">Enthält zwei Werke mit getrennter Zählung:</span>
+                <span type="note">(1) das Faksimile von</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Joh. Fr. Blumenbach <gap reason="ellipsis"/> über den Bildungstrieb</span>
+                <span type="pubPlace">Göttingen</span>
+                <span type="publisher">Bey Johann Christian Dieterich</span>
+                <span type="date">1791</span>
+                <span type="reference">00056</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">und (2) das Faksimile der englischen Übersetzung</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">An essay on generation <metamark>
+                        <pc unit="slash"/>
+                    </metamark> by J. F. Blumenbach <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark> translated from the German [by Alexander Crichton]</span>
+                <span type="pubPlace">London</span>
+                <span type="publisher">Printed for T. Cadell …; Faulder …; Murray …; and Creech, at Edinburgh</span>
+                <span type="date">[1792]</span>
+                <span type="reference">00059</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Der Nachdruck wurde betreut von Prof. U. Tröhler, Institut für Geschichte der Medizin der Georg-August-Universität Göttingen</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

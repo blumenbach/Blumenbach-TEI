@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Friedrich Wilhelm Sporleder sendet Blumenbach fossile Zähne und Knochen eines Wollnashorns aus der Tongrube Öhrenfeld bei Ilsenburg am Harz. </title>
+                <author>
+                    <persName>
+                        <forename>Friedrich Wilhelm</forename>
+                        <surname>Sporleder</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1478.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Göttingen, Geowissenschaftliches Museum der Universität, Inv.-Nr. GZG.A. 0.136. Transkription.<ptr target="ref_d1e150808_01495"/>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1776" xml:id="ref_d1e150808_01495">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/Transkriptionen/Sporleder_Blumenbach_1820Apr26_Transkription.html</ref>
+                    <rs type="html">Transkription </rs>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Fossile Zähne und Knochen eines Wollnashorns aus der Tongrube Öhrenfeld bei Ilsenburg (Harz). </rs>
+                </note>
+                <note type="Anmerkung">
+                    <note>Abschrift in: Gehler, Alexander: <emph>Die spätpleistozänen Mammuthus- und Coelodonta-Bestände im Geowissenschaftlichen Zentrum der Universität Göttingen</emph> – Unveröffentlichte Diplomarbeit, Geowissenschaftliches Zentrum der Universität Göttingen, 2006. (Ex. im Präsenzbestand der Bibliothek der Fakultät für Geowissenschaften und Geographie der Georg-August-Universität Göttingen). </note>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Friedrich Wilhelm Sporleder sendet Blumenbach fossile Zähne und Knochen eines Wollnashorns aus der Tongrube Öhrenfeld bei Ilsenburg am Harz. </title>
+                        <author>
+                            <persName>
+                                <forename>Friedrich Wilhelm</forename>
+                                <surname>Sporleder</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1820-04-26" when="1820-04-26" where="#orgplc_1478">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1820-04-26">1820, April 26</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1478">Wernigerode</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01478.00">
+                    <idno>1478</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

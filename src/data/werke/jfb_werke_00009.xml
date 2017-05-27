@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Über die natürlichen Verschiedenheiten im Menschengeschlechte</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00009.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">Über die natürlichen Verschiedenheiten im Menschengeschlechte <metamark>
+                                <pc unit="slash"/>
+                            </metamark>
+                        </title>
+                        <title level="m" type="sub">Johann Blumenbach<span type="meta">
+                                <metamark>
+                                    <pc unit="semicolon"/>
+                                </metamark>
+                            </span>
+                        </title>
+                        <title level="m" type="ed">ed. note by Robert Bernasconi
+                            </title>
+                        <edition>[Nachdr. der Ausg.] Leipzig 1798</edition>
+                        <imprint>
+                            <publisher>
+                                <name>Thoemmes</name>
+                            </publisher>
+                            <pubPlace>Bristol [u.a.]</pubPlace>
+                            <date type="publication" when="1798-01-01">2001 = 1798</date>
+                        </imprint>
+                    </monogr>
+                    <series>Concepts of race in the eighteenth century / ed. and introd. by Robert Bernasconi ; Vol. 5</series>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="2001 A 11376:5">2001 A 11376:5</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>VII, XXXII, 291 S. : Ill.<dimensions>
+                                        <dim>22 cm (8°)</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation type="translation"/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00009.00">00009</classCode>
+                <classCode scheme="cat">
+                    <idno>I</idno>Selbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>I.1</idno>De Generis Humani Varietate</classCode>
+                <classCode scheme="cat">
+                    <idno>I.1.2</idno>Übersetzungen</classCode>
+                <classCode scheme="cat">
+                    <idno>I.1.2.1</idno>Deutsch</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00009">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e747_00009">
+                <span type="note">Nachdruck der Übersetzung</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">D. Joh. Friedr. Blumenbach <gap reason="ellipsis"/> über die natürlichen Verschiedenheiten im Menschengeschlechte : mit Kupfern <metamark>
+                        <pc unit="slash"/>
+                    </metamark> Nach der dritten Ausgabe und den Erinnerungen des Verfassers übersetzt, und mit einigen Zusätzen und erläuternden Anmerkungen herausgegeben von Johann Gottfried Gruber <gap reason="ellipsis"/>
+                </span>
+                <span type="pubPlace">Leipzig</span>
+                <span type="publisher">Bey Breitkopf und Härtel</span>
+                <span type="date">1798</span>
+                <span type="reference">00008</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

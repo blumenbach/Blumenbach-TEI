@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach teilt Johann Reinhold Forster mit, dass die von diesem bei der Auktion der Bücher Johann Andreas Murrays ersteigerten Bände wegen verspäteten Eintreffens der Bezahlung nicht mehr für ihn zur Verfügung stehen, bittet um eine Probe des neuseeländischen Minerals „Punammustein“[= Nephrit] und bietet im Austausch Mineralien an, die er aus London mitgebracht hat. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0632.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Berlin, Archiv der Berlin-Brandenburgischen Akademie der Wissenschaften, Nachlass Johann Reinhold Forster 5, Nr. 6. </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> IV, S. 168 Nr. 0749.<ptr target="ref_d1e63444_00638"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="581" xml:id="ref_d1e63444_00638">http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=180</ref>
+                    <rs type="pdf">Corresp. IV, S. 168 Nr. 0749 </rs>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Als (im Academischen Museum?) vorhanden genannt: „faseriger phosphorsaurer Kalk, der […] bey Schneeberg gefunden worden“; erbeten: neuseeländischer „Punammustein [= Nephrit]“.</rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach teilt Johann Reinhold Forster mit, dass die von diesem bei der Auktion der Bücher Johann Andreas Murrays ersteigerten Bände wegen verspäteten Eintreffens der Bezahlung nicht mehr für ihn zur Verfügung stehen, bittet um eine Probe des neuseeländischen Minerals „Punammustein“[= Nephrit] und bietet im Austausch Mineralien an, die er aus London mitgebracht hat. </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich</forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Reinhold</forename>
+                    <surname>Forster</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1792-06-11" when="1792-06-11" where="#orgplc_0632">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1792-06-11">1792, Juni 11</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0632">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0632.00">0638<idno>0632</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

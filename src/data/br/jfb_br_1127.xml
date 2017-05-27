@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Johann Heinrich Wilhelm Tischbein beschreibt Blumenbach die malerischen Winterlandschaften, die er bei seiner [Rück]reise [aus Göttingen?] nach Kassel gesehen hat, und bittet ihn, Christian Gottlob Heyne mitzuteilen, dass alle Vorbereitungen für den Druck ihrer gemeinsamen Publikation getroffen seien. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Heinrich Wilhelm</forename>
+                        <surname>Tischbein</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1127.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 4 (Tischbein Nr. 2); ebd. (vor Nr. 1) auch Kopie von unbekannter Hand.</note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> V, S. 439–440 Nr. 1278. <ptr target="ref_d1e115516_01143"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="1340" xml:id="ref_d1e115516_01143">http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=455</ref>
+                    <rs type="pdf">Corresp. V, S. 439–440 Nr. 1278 </rs>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Zeichnung einer toten Kohlmeise.</rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Johann Heinrich Wilhelm Tischbein beschreibt Blumenbach die malerischen Winterlandschaften, die er bei seiner [Rück]reise [aus Göttingen?] nach Kassel gesehen hat, und bittet ihn, Christian Gottlob Heyne mitzuteilen, dass alle Vorbereitungen für den Druck ihrer gemeinsamen Publikation getroffen seien. </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Heinrich Wilhelm</forename>
+                                <surname>Tischbein</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1800-02-17" when="1800-02-17" where="#orgplc_1127">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1800-02-17">1800, Febr. 17</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1127">Kassel</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01127.00">
+                    <idno>1127</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

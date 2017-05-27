@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: Physische Lebensgeschichte des Menschen</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00793.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000793/00793.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: Physische Lebensgeschichte des Menschen</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr</title>
+                        <imprint>
+                            <publisher>
+                                <name/>
+                            </publisher>
+                            <pubPlace>Gotha</pubPlace>
+                            <date type="publication" when="1790-01-01">1790</date>
+                        </imprint>
+                        <biblScope>1791 [i. e. 1790]</biblScope>
+                    </monogr>
+                    <citedRange>S. 31-34</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 H SUBS 4446">8 H SUBS 4446</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00793.00">00793</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4.15</idno>Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00793">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e61195_00793">
+                <span type="note">Beschreibung der körperlichen Entwicklung des Menschen von der Empfängnis bis zum Tod. Nahezu wortgleich in</span>
+                <span type="title" style="j">Potpourri des Dames : Auswahl vorzüglicher Aufsätze aus Taschenbüchern für</span>
+                <span type="biblScope">1800</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="citedRange">S. 104-110</span>
+                <span type="reference">00993</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Vermutlich damit identisch: Anon., „Physische Lebensgeschichte des Menschen“ in</span>
+                <span type="title" style="j">Aehrenlese vom Calenderfelde</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">für das Jahr 1794</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" style="n">
+                <span type="note">Übersetzung im</span>
+                <span type="title" style="j">Almanach de Gotha</span>
+                <span type="note">, der französischen Version des</span>
+                <span type="title" style="j">Gothaischen Hofkalenders</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">für das Jahr 1790</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="citedRange">S. 41-44</span>
+                <span type="reference">04007</span>
+                <span type="note">und text- und nahezu satzidentisch damit im</span>
+                <span type="title" style="j">Almanach de Gotha</span>
+                <span type="biblScope">für das Jahr 1791</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="citedRange">S. 33-36</span>
+                <span type="reference">04008</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

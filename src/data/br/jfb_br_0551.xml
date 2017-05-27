@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Georg Christoph Lichtenberg berichtet Blumenbach seine Beobachtung, dass einige der ihm von Blumenbach geliehenen Zirkone magnetisch sind. </title>
+                <author>
+                    <persName>
+                        <forename>Georg Christoph</forename>
+                        <surname>Lichtenberg</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0551.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826. </note>
+                <note type="Drucke">
+                    <bibl>Leitzmann, <emph>Lichtenbergs Briefe an Blumenbach</emph> (1921), Nr. 52; Lichtenberg, <emph>Briefwechsel</emph>, Bd. 3 (1990), Nr. 1823, S. 849.</bibl>
+                    <title level="m" type="bibl">Lichtenbergs Briefe an Blumenbach</title>
+                    <title level="m" type="bibl">Briefwechsel</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> IV, S. 26 Nr. 0657.<ptr target="ref_d1e55156_00555"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="475" xml:id="ref_d1e55156_00555">http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=38</ref>
+                    <rs type="pdf">Corresp. IV, S. 26 Nr. 0657 </rs>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Zirkone (genau beschrieben: „2 kleine rohe, die fast durchsichtig weiß, mit kleinen braunen Flecken“, davon einer mit einer „pyramidalen Spitze“; ein geschliffener, ovaler, orangefarbener“).</rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Georg Christoph Lichtenberg berichtet Blumenbach seine Beobachtung, dass einige der ihm von Blumenbach geliehenen Zirkone magnetisch sind. </title>
+                        <author>
+                            <persName>
+                                <forename>Georg Christoph</forename>
+                                <surname>Lichtenberg</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1791-02-23" when="1791-02-23" where="#orgplc_0551">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1791-02-23">1791, Febr. 23</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0551">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0551.00">0555<idno>0551</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

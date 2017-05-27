@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Georg Christoph Lichtenberg kommentiert gegenüber Blumenbach ein autobiographisches Manuskript des verstorbenen Samuel Christian Hollmann und eine Arbeit des [Kieler Anatomen] Johann Nicolas Pechlin. </title>
+                <author>
+                    <persName>
+                        <forename>Georg Christoph</forename>
+                        <surname>Lichtenberg</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0382.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Or. verloren, überliefert durch Druck in Leitzmann/Schüddekopf, Lichtenberg. Briefe, Band 3 (1904), Nr. 791. </note>
+                <note type="Drucke">
+                    <bibl>Leitzmann, Albert, und Schüddekopf, Carl (Hg.): <emph>Georg Christoph Lichtenberg. Briefe.</emph> Band 3. Leipzig 1904, Nr. 791, S. 252–253; Lichtenberg, <emph>Briefwechsel</emph>, Bd. 3 (1990), Nr. 1557, S. 455–459 mit Ab. der Hollmann-Karikaturen; Joost, <emph>Ihre Hand, Ihren Mund</emph> (1998), Nr. 79, S. 218–220; Joost, Ulrich, „Dieser unermüdete Geist…“ in Elsner, Norbert, und Rupke Nicolaas (Hg.): <emph>Albrecht von Haller</emph>,. Göttingen 2009, S. 107–109 (Auszug mit Ab. der Hollmann-Karikaturen).</bibl>
+                    <title level="m" type="bibl">Georg Christoph Lichtenberg. Briefe.</title>
+                    <title level="m" type="bibl">Briefwechsel</title>
+                    <title level="m" type="bibl">Ihre Hand, Ihren Mund</title>
+                    <title level="m" type="bibl">Albrecht von Haller</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> III, S. 127 Nr. 0477.<ptr target="ref_d1e37605_00386"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="229" xml:id="ref_d1e37605_00386">http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=145</ref>
+                    <rs type="pdf">Corresp. III, S. 127 Nr. 0477 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Georg Christoph Lichtenberg kommentiert gegenüber Blumenbach ein autobiographisches Manuskript des verstorbenen Samuel Christian Hollmann und eine Arbeit des [Kieler Anatomen] Johann Nicolas Pechlin. </title>
+                        <author>
+                            <persName>
+                                <forename>Georg Christoph</forename>
+                                <surname>Lichtenberg</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1787-10-17" when="1787-10-17" where="#orgplc_0382">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1787-10-17">1787, Okt. 17</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0382">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0382.00">0386<idno>0382</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

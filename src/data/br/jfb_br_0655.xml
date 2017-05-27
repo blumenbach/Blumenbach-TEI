@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Georg Christoph Lichtenberg teilt Blumenbach mit, dass er für die Publikation einer deutschen Übersetzung von Jean André Delucs Lettres sur l’histoire physique de la terre sein eingestelltes Göttingisches Magazin der Wissenschaften und der Litteratur nicht wieder erscheinen lassen wolle, und bekundet seine Unterstützung für Delucs Einwänden gegen die chemischen Theorien Antoine Laurent de Lavoisiers. </title>
+                <author>
+                    <persName>
+                        <forename>Georg Christoph</forename>
+                        <surname>Lichtenberg</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0655.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826. </note>
+                <note type="Drucke">
+                    <bibl>Leitzmann, <emph>Lichtenbergs Briefe an Blumenbach</emph> (1921), Nr. 60; Lichtenberg, <emph>Briefwechsel</emph>, Bd. 3 (1990), Nr. 2153, S. 1154–1156.</bibl>
+                    <title level="m" type="bibl">Lichtenbergs Briefe an Blumenbach</title>
+                    <title level="m" type="bibl">Briefwechsel</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> IV, S. 207 Nr. 0778.<ptr target="ref_d1e65731_00661"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="608" xml:id="ref_d1e65731_00661">http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=219</ref>
+                    <rs type="pdf">Corresp. IV, S. 207 Nr. 0778 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Georg Christoph Lichtenberg teilt Blumenbach mit, dass er für die Publikation einer deutschen Übersetzung von Jean André Delucs <emph>Lettres sur l’histoire physique de la terre</emph> sein eingestelltes <emph>Göttingisches Magazin der Wissenschaften und der Litteratur</emph> nicht wieder erscheinen lassen wolle, und bekundet seine Unterstützung für Delucs Einwänden gegen die chemischen Theorien Antoine Laurent de Lavoisiers. </title>
+                        <title level="m" type="bibl">Lettres sur l’histoire physique de la terre</title>
+                        <author>
+                            <persName>
+                                <forename>Georg Christoph</forename>
+                                <surname>Lichtenberg</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1792-10-15" when="1792-10-15" where="#orgplc_0655">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1792-10-15">1792, Okt. 15</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0655">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0655.00">0661<idno>0655</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

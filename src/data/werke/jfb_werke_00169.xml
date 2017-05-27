@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Allgemeine Geschichte der thierischen und mineralischen Gifte</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00169.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000169/00169.pdf</ref>
+                </note>
+                <note type="ptr">Anm. 8</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">Allgemeine Geschichte der thierischen und mineralischen Gifte <metamark>
+                                <pc unit="slash"/>
+                            </metamark>
+                        </title>
+                        <title level="m" type="sub">von Johann Friedrich Gmelin <gap reason="ellipsis"/>
+                        </title>
+                        <title level="m" type="sub">Mit einer Vorrede von Johann Friedrich Blumenbach… </title>
+                        <imprint>
+                            <publisher>
+                                <name>Bei Friedrich August Knick</name>
+                            </publisher>
+                            <pubPlace>Erfurt</pubPlace>
+                            <date type="publication" when="1806-01-01">1806</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 MAT MED 73833">8 MAT MED 738/33</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>VIII, 391 S.<dimensions>
+                                        <dim>21 cm (8°)</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00169.00">00169</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.1</idno>Vorreden in Werken anderer Autoren</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00169">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e15426_00169">
+                <span type="note">Enthält Blumenbachs „Vorrede“ auf S. III-VIII</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="anm">
+                    <lb/>
+                    <lb/>Anm. 8: Moderner Nachdruck:</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Allgemeine Geschichte der thierischen und mineralischen Gifte <metamark>
+                        <pc unit="slash"/>
+                    </metamark> Johann Friedrich Gmelin</span>
+                <span type="pubPlace">Saarbrücken</span>
+                <span type="publisher">VDM, Müller</span>
+                <span type="date">2006 = 1806</span>
+                <span type="extent">VIII, 391 S. ;</span>
+                <span type="dimensions">21 cm (8°)</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

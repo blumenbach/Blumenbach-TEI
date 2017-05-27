@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page.html" data-template-at="main">
+    <div data-template="templates:include" data-template-path="templates/search-form-werke.html"/>
+    <div class="col-md-12 col-xs-12">
+        <div id="content" class="row">
+            <h2>Inhaltsverzeichnis</h2>
+            <table id="works-cat" class="display">
+                <thead>
+                    <tr>
+                        <th class="col-sm-1">ID</th>
+                        <th class="col-sm-3">Class</th>
+                    </tr>
+                </thead>
+                <tbody data-template="list:works-cats"/>
+            </table>
+        </div>
+    </div>
+</div>

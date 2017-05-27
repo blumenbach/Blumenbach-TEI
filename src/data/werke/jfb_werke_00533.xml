@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: St. Petersburg</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00533.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000533/00533.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: St. Petersburg</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Göttingische gelehrte Anzeigen [GgA]</title>
+                        <imprint>
+                            <publisher>
+                                <name>Vandenhoeck &amp; Ruprecht</name>
+                            </publisher>
+                            <pubPlace>Göttingen</pubPlace>
+                            <date type="publication" when="1812-09-26">1812, 26. September</date>
+                        </imprint>
+                        <biblScope>1812 (154. Stück, 26. September)</biblScope>
+                    </monogr>
+                    <citedRange>S. 1529-1531</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 EPH LIT 1607">8 EPH LIT 160/7</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00533.00">00533</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3</idno>Publikationsorgane der Königlichen Gesellschaft der Wissenschaften zu Göttingen</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3.2.2</idno>Göttingische gelehrte Anzeigen</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00533">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e43229_00533">
+                <span type="note">Rezension der „anatomischen, zoologischen und mineralogischen Abhandlungen“ in Band 2 (1810), Sektion II von Mémoires de l’Académie Impériale des Sciences de St. Pétersbourg</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="repository">SUB Göttingen</span>
+                <span type="idno" n="4 PHYS MATH V, 2980">4 PHYS MATH V, 2980</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">
+                    <lb/>Erwähnt: „Ozeretskovsky […] über den systematischen Character des Fliegenfängergeschlechts (Muscicapa)“; „Schlegelmilch’s Beschreibung einiger neuer Fossilien des Russischen Reichs“; „Beschreibungen und Abbildungen Kamtschatkischer Fische, von Tilesius“;</span>
+                <span type="note">„Ozeretskovsky von einem Fische […] der […] eine Abart der Maräne (Salmo maraena) zu seyn scheint“;</span>
+                <span type="note">„Pallas […] über das […] Labrax-Geschlecht“; „Sewergin’s geognostische Bemerkungen von seinen Reisen in der Twerischen Statthalterschaft“</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="biblScope">
+                    <lb/>Abhandlungen: N. Ozeretskovsky (Nikolai Yakovlevich Ozeretskovsky) , „De genere Muscicapae ex ordine Passerum“</span>
+                <span type="citedRange">S. 279-286;</span>
+                <span type="biblScope">Alexandre Schlegelmilch (Alexander Schlegelmilch), „Description de nouveaux fossiles“</span>
+                <span type="citedRange">S. 321-331;</span>
+                <span type="biblScope">Wilhelm Gottlieb Tilesius von Tilenau, „Piscium Kamtschaticarum Терпукь [Terpuk] et Вахня [Wachnja] descriptiones et Icones“</span>
+                <span type="citedRange">S. 335-375;</span>
+                <span type="biblScope">N. Ozeretskovsky (Nikolai Yakovlevich Ozeretskovsky) , „Observation sur un poisson nommé improprement Hareng“</span>
+                <span type="citedRange">S. 376-381;</span>
+                <span type="biblScope">P. S. Pallas (Peter Simon Pallas), „Labraces, novum piscium genus oceani orientalis“</span>
+                <span type="citedRange">S. 382-398;</span>
+                <span type="biblScope">B. Severguine (Basil Sewergin), „Observation minéralogiques, faites dans le Gouvernement de Twer“</span>
+                <span type="citedRange">S. 399-410</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

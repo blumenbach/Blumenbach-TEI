@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Georg August von Best berichtet Blumenbach über Briefe Friedrich Hornemann, in denen dieser Verlauf und die äußeren Umstände seine Afrika-Expedition in Tripolis, in der Region Fessan und in Murzuk beschreibt. </title>
+                <author>
+                    <persName>
+                        <forename>Georg August von </forename>
+                        <surname>Best</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1117.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung"/>
+                <note type="Drucke">
+                    <bibl>Auszug in der gedruckten Version zweier Briefe an Franz Xaver von Zach vom 23. und 25. Jan. 1800 in <emph>Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde</emph>, Bd. 1 (Febr. 1800), S. 188–191 („XIX. Nachrichten von Hornemann’s Afrikanischer Reise. Aus zwey Schreiben vom Hofrath Blumenbach“, Bibliographie Nr. 00966)<ptr target="ref_d1e114439_01133"/>, hier S. 188–189.</bibl>
+                    <title level="m" type="bibl">Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> V, S. 429 Nr. 1268.<ptr target="ref_d1e114441_01133"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Werke">
+                    <bibl>
+                        <relatedItem>
+                            <bibl>Brieftext verwendet in Bibliographie Nr. 00966<ptr target="ref_d1e114439_01133"/> (siehe „Dr.“).</bibl>
+                        </relatedItem>
+                    </bibl>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="1318" xml:id="ref_d1e114441_01133">http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=445</ref>
+                    <rs type="pdf">Corresp. V, S. 429 Nr. 1268 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1319" xml:id="ref_d1e114439_01133">./view-work.html?id=00966</ref>
+                    <rs type="html">00966 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Georg August von Best berichtet Blumenbach über Briefe Friedrich Hornemann, in denen dieser Verlauf und die äußeren Umstände seine Afrika-Expedition in Tripolis, in der Region Fessan und in Murzuk beschreibt. </title>
+                        <author>
+                            <persName>
+                                <forename>Georg August von </forename>
+                                <surname>Best</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1799-12-24" when="1799-12-24" where="#orgplc_1117">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1799-12-24">1799, Dez. 24</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1117">London</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01117.00">
+                    <idno>1117</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: keine [i. e. S. 849: „Paris.“]</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00564.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000564/00564.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: keine [i. e. S. 849: „Paris.“]</title>
+                        <title type="schrift">„Etat moderne. Tome second (1812). I. Ueber […].“</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Göttingische gelehrte Anzeigen [GgA]</title>
+                        <imprint>
+                            <publisher>
+                                <name>Vandenhoeck &amp; Ruprecht</name>
+                            </publisher>
+                            <pubPlace>Göttingen</pubPlace>
+                            <date type="publication" when="1815-06-01">1815, 1. Juni</date>
+                        </imprint>
+                        <biblScope>1815 (86. u. 87. Stück, 1. Juni)</biblScope>
+                    </monogr>
+                    <citedRange>S. 854-855 [gehört zum Artikel S. 849-864]</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 EPH LIT 1607">8 EPH LIT 160/7</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00564.00">00564</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3</idno>Publikationsorgane der Königlichen Gesellschaft der Wissenschaften zu Göttingen</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3.2.2</idno>Göttingische gelehrte Anzeigen</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00564">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e45583_00564">
+                <span type="note">Rezension von Abt. 2 von</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Description de l’Égypte : ou recueil des observations et des recherches, qui ont été faites en Égypte pendant l’expédition de l’armée française <metamark>
+                        <pc unit="slash"/>
+                    </metamark> publ. par les ordres de Sa Maj. l’Empereur Napoleon le Grand. État moderne: texte ; T. 2, Pt. 1</span>
+                <span type="pubPlace">Paris</span>
+                <span type="publisher">Impr. Imperiale</span>
+                <span type="date">1813</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">État moderne : texte ;</span>
+                <span type="note">T. 2, Pt. 2</span>
+                <span type="pubPlace">Paris</span>
+                <span type="publisher">Impr. Imperiale</span>
+                <span type="date">1822. État moderne : Planches ; T. 2</span>
+                <span type="pubPlace">Paris</span>
+                <span type="publisher">Impr. Imperiale</span>
+                <span type="date">1817</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="repository">SUB Göttingen</span>
+                <span type="idno" n="2 H AFR 581:ETAT MODERNE,2,1">2 H AFR 581:ETAT MODERNE,2,1</span>
+                <span type="idno" n="2 H AFR 581:ETAT MODERNE,2,2">2 H AFR 581:ETAT MODERNE,2,2</span>
+                <span type="idno" n="2 H AFR 581">2 H AFR 581</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Blumenbachs Anteil endet mit „[…] Ehren verstorbenen Krieger balsamirt habe.“ (Die anderen Artikelteile stammen von Johann Gottfried Eichhorn, Friedrich Stromeyer und Johann Nikolaus Forkel.)</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Rezension von Abt. 1 (Text S. 1-114) von Histoire naturelle, T. 1.</span>
+                <span type="title" style="j">ibid.</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1811 (124. Stück, 5. August)</span>
+                <span type="citedRange">S. 1233-1240</span>
+                <span type="reference">00517</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Rezension von S. 1-432 von Histoire naturelle, T. 2.</span>
+                <span type="title" style="j">ibid.</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1819 (121. Stück, 31. Juli)</span>
+                <span type="citedRange">S. 1201-1206</span>
+                <span type="reference">00591</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

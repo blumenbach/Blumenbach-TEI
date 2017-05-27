@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Georg Heinrich von Langsdorff berichtet Blumenbach über seine Reise von Kamtschatka nach San Franzisco und beklagt sich unter anderem über die schlechte Behandlung durch den russischen Expeditionsteilnehmer Nikolai Petrowitsch Resanow [„Resanoff“]. </title>
+                <author>
+                    <persName>
+                        <forename>Georg Heinrich </forename>
+                        <surname>Langsdorff</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1314.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Auszug enthalten in Brief Blumenbachs an Fr. J. Bertuch vom 25. Febr. 1808, Weimar, Goethe- und Schiller-Archiv, GSA, Nachlass Bertuch 06/189 (= Briefe Blumenbachs an Bertuch), Nr. 18 ? </note>
+                <note type="Drucke">
+                    <bibl>Auszug(von Fr. J. Bertuch weiter gekürzt ?) in <emph>Allgemeine geographische Ephemeriden</emph>, Bd. 25, 4. Stück (April 1808), S. 477–482 („1. Auszug eines Briefs des Hrn. Dr. Langsdorffs, an Hrn. Hofrath Blumenbach zu Göttingen“, Bibliographie Nr. 00768).<ptr target="ref_d1e134742_01331"/>
+                    </bibl>
+                    <title level="m" type="bibl">Allgemeine geographische Ephemeriden</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Werke">
+                    <bibl>
+                        <relatedItem>
+                            <bibl>Brieftext verwendet in Bibliographie Nr. 00768<ptr target="ref_d1e134742_01331"/> (siehe „Dr.“).</bibl>
+                        </relatedItem>
+                    </bibl>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1591" xml:id="ref_d1e134742_01331">./view-work.html?id=00768</ref>
+                    <rs type="html">00768 </rs>
+                </note>
+                <note type="Anmerkung">
+                    <note>Die Passage über N. P. Resanow hat Blumenbach in dem an Fr. J. Bertuch gesandten Auszug weggelassen, referiert sie aber im Begleitbrief. </note>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Georg Heinrich von Langsdorff berichtet Blumenbach über seine Reise von Kamtschatka nach San Franzisco und beklagt sich unter anderem über die schlechte Behandlung durch den russischen Expeditionsteilnehmer Nikolai Petrowitsch Resanow [„Resanoff“]. </title>
+                        <author>
+                            <persName>
+                                <forename>Georg Heinrich </forename>
+                                <surname>Langsdorff</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1806-05-06" when="1806-05-06" where="#orgplc_1314">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1806-05-06">1806, Mai 6</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1314">San Franzisco</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01314.00">
+                    <idno>1314</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

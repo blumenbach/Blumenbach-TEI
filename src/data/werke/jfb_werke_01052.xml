@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: [Xenokrates Peri tēs apo enhydrōn trophēs]. cum latina interpretatione I. B. Rasarii et C. Gesneri scholiis … </title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_01052.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2003034/03034.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: [Xenokrates Peri tēs apo enhydrōn trophēs]. cum latina interpretatione I. B. Rasarii et C. Gesneri scholiis <gap reason="ellipsis"/>&#160;
+                        </title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Philologische Bibliothek <metamark>
+                                <pc unit="slash"/>
+                            </metamark> herausgegeben unter der Aufsicht Sr. Hochwürden des Hrn. D. und C.R. Walchs</title>
+                        <imprint>
+                            <publisher>
+                                <name>Vandenhoeck</name>
+                            </publisher>
+                            <pubPlace>Göttingen</pubPlace>
+                            <date type="publication" when="1774-01-01">1774</date>
+                        </imprint>
+                        <biblScope>Bd. 2, 6. Stück (1774)</biblScope>
+                    </monogr>
+                    <citedRange>S. 533-540</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 EPH LIT 3285">8 EPH LIT 328/5</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="01025.03">03034</classCode>
+                <classCode scheme="cat">
+                    <idno>III</idno>Für Blumenbach vermutete Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>III.2</idno>Zeitschriftenbeiträge</classCode>
+                <classCode scheme="cat">
+                    <idno>III.2.6</idno>Philologische Bibliothek</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="01052">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e78947_01052">
+                <span type="note">Anonyme Rezension von</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Xenocrates Peri tēs apo enhydrōn trophēs. Cum latina interpretatione Joh. Bapt. Rasarii et Conradi Gesneri scholiis nunc primum integritati restituit varietate lectionis animadversionibusque illustravit atque glossarium adiecit Jo. Georg. Frid. Franzius</span>
+                <span type="pubPlace">Lipsiae</span>
+                <span type="publisher">ap. Guil. Gottl. Sommerum</span>
+                <span type="date">1774</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="repository">Staatsbibliothek zu Berlin</span>
+                <span type="idno" n="Diez oct. 2188">Bibl. Diez oct. 2188</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Xenokrates Werk behandelt essbare Wassertiere, die Rezension bietet außer einem detaillierten Forschungs- und Editionsüberblick zu Xenokrates und seinem Werk eine kritische Einschätzung der geringen Editionsleistung von Johann Georg Friedrich Franz</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Laut Marx,</span>
+                <span type="title" style="j">Zum Andenken an Johann Friederich Blumenbach: Eine Gedächtniss-Rede</span>
+                <span type="biblScope">(1840)</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="citedRange">S. 27 mit Anm. 103,</span>
+                <span type="note">von Blumenbach</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">
+                    <lb/>Marx, a.a.O., bezeichnet den Text als Blumenbachs erste Rezension und nennt als Publikationsdatum "1773", das Erscheinungsjahr von</span>
+                <span type="biblScope">Heft 1 des zweiten Bandes</span>
+                <span type="note">der</span>
+                <span type="title" style="j">Philologischen Bibliothek</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Der Text wäre dann Blumenbachs früheste bekannte Publikation überhaupt. Allerdings erschienen die</span>
+                <span type="biblScope">Hefte 5, 6 und 7 des zweiten Bandes</span>
+                <span type="note">der</span>
+                <span type="title" style="j">Philologischen Bibliothek</span>
+                <span type="note">laut Titelblatt erst im Jahr 1774, und schon im Jan. 1774 wurde in den</span>
+                <span type="title" style="j">GAgS</span>
+                <span type="note">Blumenbachs Bericht über seine Quecksilber-Versuche</span>
+                <span type="reference">00209</span>
+                <span type="note">publiziert</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">
+                    <lb/>Für die</span>
+                <span type="title" style="j">Philologische Bibliothek</span>
+                <span type="note">schrieben Professoren, Dozenten und Studenten der Göttinger Universität; ihr Herausgeber, der Göttinger Theologieprofessor Christian Wilhelm Franz Walch, war ein Bruder des Jenaer Professors Johann Ernst Immanuel Walch, bei dem Blumenbach naturhistorische Vorlesungen besucht hatte; beide waren auch Blumenbachs Cousins (ihr Vater, Johann Georg Walch, war der Schwager von Blumenbachs Großmutter, somit Blumenbachs Großonkel)</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Die ersten Hefte (1770/1772) der Zeitschrift erschienen bei Friedrich Andreas Rosenbusch, der 1775 die Prüfungsversion von Blumenbachs Dissertation</span>
+                <span type="reference">00001</span>
+                <span type="note">druckte, die Folgehefte bei Vandenhoeck, wo die für die Publikation bestimmte Version der Dissertation erschien</span>
+                <span type="reference">00002</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

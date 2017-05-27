@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Alexander von Humboldt sendet Blumenbach Proben eines von ihm entdeckten magnetischen Serpentingesteins und teilt mit, wo er darüber publiziert habe, und erinnert Blumenbach an das von diesem zugesagte Vorwort zu seiner Studie Versuche über die gereizte Muskel- und Nervenfaser. </title>
+                <author>
+                    <persName>
+                        <forename>Alexander von</forename>
+                        <surname>Humboldt</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1659.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 3 (Alexander von Humboldt Nr. 11).</note>
+                <note type="Drucke">
+                    <bibl>Jahn/Lange (Hg.), Jugendbriefe Humboldts (1973), Nr. 381, S. 543–546.</bibl>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> V, S. 108–110 Nr. 1047.<ptr target="ref_d1e91344_00914"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="983" xml:id="ref_d1e91344_00914">http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=124</ref>
+                    <rs type="pdf">Corresp. V, S. 108–110 Nr. 1047 </rs>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Proben von magnetischem Serpentingestein (Geschenk Alexander von Humboldts); zwei Kolibris in Sommer- und Wintergefieder (Geschenk Alexander von Humboldts).</rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Alexander von Humboldt sendet Blumenbach Proben eines von ihm entdeckten magnetischen Serpentingesteins und teilt mit, wo er darüber publiziert habe, und erinnert Blumenbach an das von diesem zugesagte Vorwort zu seiner Studie <emph>Versuche über die gereizte Muskel- und Nervenfaser</emph>. </title>
+                        <title level="m" type="bibl">Versuche über die gereizte Muskel- und Nervenfaser</title>
+                        <author>
+                            <persName>
+                                <forename>Alexander von</forename>
+                                <surname>Humboldt</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1797-02-18" when="1797-02-18" where="#orgplc_1659">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1797-02-18">1797, Febr. 18</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1659">Wunsiedel</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0899.07">2015<idno>1659</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

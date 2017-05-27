@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: X. Anmerkungen und Zusätze zu allen drey Bänden dieser Bibliothek. Von dem Herausgeber</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00962.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000962/00962.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: X. Anmerkungen und Zusätze zu allen drey Bänden dieser Bibliothek. Von dem Herausgeber</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Medicinische Bibliothek <metamark>
+                                <pc unit="slash"/>
+                            </metamark> hrsg. von Joh. Friedr. Blumenbach</title>
+                        <imprint>
+                            <publisher>
+                                <name>Dieterich</name>
+                            </publisher>
+                            <pubPlace>Göttingen</pubPlace>
+                            <date type="publication" when="1795-01-01">1795</date>
+                        </imprint>
+                        <biblScope>Bd. 3, 4. Stück (1795)</biblScope>
+                    </monogr>
+                    <citedRange>S. 716-731</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 MED EPH 142">8 MED EPH 142</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00962.00">00962</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4.29</idno>Medicinische Bibliothek</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00962">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e72128_00962">
+                <span type="note">Zu Bd. 1: „S. 231. Versuche mit Ticunas-Gifte“ (S. 716-718); „S. 233. Versuche mit Kirschlorbeergeiste“ (S. 719-721); „S. 241. [Hinweis auf Abbildung der geflammten Retina des Hasenauges]“ (S. 721); „S. 337. Begriff und Name vom Bildungstrieb“ (S. 721-722); „S. 523. Die Brodfrucht“ (S. 722-723). Zu Bd. 2: „S. 113. ‘fierine potest conceptio sine coitu?’“ (S. 723-724); „S. 124. Bestandtheile des Carlsbader Wassers“ (S. 724); „S. 171. Ursachen des in gewissen Ländern auffallend häufigern Selbstmords“ (S. 724); „S. 593. Ueber Lord Kaimes’s Behauptung, daß die Nacktheit der Keuschheit weit zuträglicher sey als die Bekleidung“ [zwei französische Zitate] (S. 725); „S. 598. Infibulation“ (S. 725-726); „S. 644. Z. 15. l. angeschossen“ (S. 726); „S. 654. Z. 15. l. unverantwortlich“ (S. 726); „S. 673.</span>
+                <span type="note">Ueber den Anfang (– den Terminus a quo –) der Bildung der menschlichen Leibesfrucht nach der Empfängniß“ (S. 726-727). Zu Bd. 3: „S. 141. Da Vinci’s anatomische Handzeichnungen“ (S. 728-729); „S. 414. Daß die Hosen eher manche Krankheiten zu verhüten als zu veranlassen scheinen“ (S. 729); „S. 429 und 534. Die giftigen Wirkungen der kohlensauren Schwererde“ (S. 729-731)</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">
+                    <lb/>Bearbeitete Version der Ergänzung (S. 728-729) und des dazugehörigen Artikels über Da Vincis anatomische Handzeichungen (</span>
+                <span type="title" style="j">ibid.</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 3, 1. Stück (1788)</span>
+                <span type="citedRange">S. 141-147</span>
+                <span type="reference">00957</span>
+                <span type="note">) in</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Tabula anatomica Leonardi Da Vinci summi quondam pictoris e Bibliotheca Augustissimi Magnae Britanniae Hannoveraeque Regis depromta, venerem obversam e legibus naturae hominibus solam convenire, ostendens <metamark>
+                        <pc unit="slash"/>
+                    </metamark> [Io. Fr. Blumenbachius]</span>
+                <span type="pubPlace">Lunaeburgi</span>
+                <span type="publisher">Sumtibus Heroldi et Wahlstabii</span>
+                <span type="date">MDCCCXXX</span>
+                <span type="reference">00138</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="citedRange">S. [4-5]</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

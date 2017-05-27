@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Samuel Studer berichtet [Blumenbach], dass Schweizer Bauern zufolge [und entgegen der in der wissenschaftlichen Literatur vertretenen Ansicht] Zwillingskälber nicht unfruchtbar sind. </title>
+                <author>
+                    <persName>
+                        <forename>Samuel </forename>
+                        <surname>Studer</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0399.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Or. verloren, Erwähnung in <emph>Medicinische Bibliothek</emph> Bd. 3, 1. Stück. </note>
+                <note type="Drucke">
+                    <bibl>Erwähnung in einer anonymen Rezension in <emph>Medicinische Bibliothek</emph>
+                        <ptr target="ref_d1e39263_00403"/> Bd. 3, 1. Stück (1788), S. 1–16, hier S. 7–8.</bibl>
+                    <title level="m" type="bibl">Medicinische Bibliothek</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> III, S. 151 Nr. 0497.<ptr target="ref_d1e39265_00403"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="248" xml:id="ref_d1e39263_00403">./view-work.html?id=00145</ref>
+                    <rs type="html">Medicinische Bibliothek </rs>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="249" xml:id="ref_d1e39265_00403">http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=169</ref>
+                    <rs type="pdf">Corresp. III, S. 151 Nr. 0497 </rs>
+                </note>
+                <note type="Anmerkung">
+                    <note>Die Rez. von John Hunters <emph>Observations on certain parts of the animal oeconomy</emph> (1786) ist anonym, sodass der zitierte Studer-Brief auch an einen anderen Empfänger gerichtet sein könnte. Für die (plausible) Annahme, dass Blumenbach der Verf. der Rez. und somit auch der Empfänger des Briefes ist, gibt es allerdings im Text der Rez. keine direkten Beweise. </note>
+                    <title level="m" type="bibl">Observations on certain parts of the animal oeconomy</title>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Samuel Studer berichtet [Blumenbach], dass Schweizer Bauern zufolge [und entgegen der in der wissenschaftlichen Literatur vertretenen Ansicht] Zwillingskälber nicht unfruchtbar sind. </title>
+                        <author>
+                            <persName>
+                                <forename>Samuel </forename>
+                                <surname>Studer</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich] </forename>
+                    <surname>[Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1788-03-25" when="1788-03-25" where="#orgplc_0399">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1788-03-25">1788, März 25</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0399">Bern</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0399.00">0403<idno>0399</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

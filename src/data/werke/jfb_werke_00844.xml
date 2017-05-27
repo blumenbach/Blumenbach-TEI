@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: XIII. Einige Anmerkungen zum 1. Stück dieses neuen Magazins. Von J. F. Blumenbach : 1. S. 14. und 16. Stäbe und ähnliche feste Körper als Fortleitungsmittel des Schalles, besonders zum Gebrauch für schwerhörende Personen</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00844.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000844/00844.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: XIII. Einige Anmerkungen zum 1. Stück dieses neuen Magazins. Von J. F. Blumenbach : 1. S. 14. und 16. Stäbe und ähnliche feste Körper als Fortleitungsmittel des Schalles, besonders zum Gebrauch für schwerhörende Personen</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Magazin für den neuesten Zustand der Naturkunde, mit Rücksicht auf die dazu gehörigen Hülfswissenschaften <metamark>
+                                <pc unit="slash"/>
+                            </metamark> hrsg. von Johann Heinrich Voigt</title>
+                        <imprint>
+                            <publisher>
+                                <name>Verl. des Landes-Industrie-Comptoirs</name>
+                            </publisher>
+                            <pubPlace>Weimar</pubPlace>
+                            <date type="publication" when="1798-01-01">1798</date>
+                        </imprint>
+                        <biblScope>Bd. 1, 2. Stück (1798)</biblScope>
+                    </monogr>
+                    <citedRange>S. 105-106</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 PHYS MATH II, 2355">8 PHYS MATH II, 2355</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00844.00">00844</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4.26</idno>Magazin für den neuesten Zustand der Naturkunde</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00844">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e64852_00844">
+                <span type="note">Bericht über ein „Stäbchen von hartem Holze“, das als Hörgerät dient. Hinweis auf die Schrift</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Dissertatio inauguralis medica sistens novae methodi surdos reddendi audientes physicas et medicas rationes <metamark>
+                        <pc unit="slash"/>
+                    </metamark> quam <gap reason="ellipsis"/> praeside <gap reason="ellipsis"/> Andrea Elia Büchnero <gap reason="ellipsis"/> pro gradu doctoris <gap reason="ellipsis"/> ad. d. I. Iulii, A. S. R. MDCCLVII in Alma Regia Fridericiana publice defendet auctor Ioannes Iorissen</span>
+                <span type="edition">Halae Magdeburg. Litteris Hendelianis, 1757</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="repository">SUB Göttingen</span>
+                <span type="idno" n="8 MED PRACT 282441">8 MED PRACT 2824/41</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Die Rubrik „Anmerkungen“ enthält insgesamt 8 Beiträge (S. 105-113)</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

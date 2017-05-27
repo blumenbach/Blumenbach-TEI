@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Johann Albrecht Euler berichtet Blumenbach von den Schwierigkeit bei der Auszahlung des Blumenbach zur Hälfte zugesprochenen Preisgeldes der St. Petersburger Akademie der Wissenschaften für das Jahr 1788. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Albrecht</forename>
+                        <surname>Euler</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0433.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach X: b, fol. 6–7. </note>
+                <note type="Drucke">
+                    <bibl>Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 72–73 Nr. 85<ptr target="ref_d1e42681_00437"/> (nur mit julian. Tagesdatum „6. März“).</bibl>
+                    <title level="m" type="bibl">
+                                    Commercium epistolicum
+                                </title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> III, S. 201 Nr. 0536.<ptr target="ref_d1e42679_00437"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="295" xml:id="ref_d1e42679_00437">http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=219</ref>
+                    <rs type="pdf">Corresp. III, S. 201 Nr. 0536 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="296" xml:id="ref_d1e42681_00437"> http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/CommerciumHTMLs/CommerciumNr085.html</ref>
+                    <rs type="html">S. 72–73 Nr. 85</rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="297" xml:id="ref_d1e42682_00437">./view-work.html?id=00125</ref>
+                    <rs type="html">00125</rs>
+                </note>
+                <note type="Anmerkung">
+                    <note>Publikation der prämierten Schrift: Ueber die Nutritionskraft (1789; Bibliographie Nr. 00125).<ptr target="ref_d1e42682_00437"/>
+                    </note>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Johann Albrecht Euler berichtet Blumenbach von den Schwierigkeit bei der Auszahlung des Blumenbach zur Hälfte zugesprochenen Preisgeldes der St. Petersburger Akademie der Wissenschaften für das Jahr 1788. </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Albrecht</forename>
+                                <surname>Euler</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Julian calendar (including proleptic)</p>
+                </calendar>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1789-03-17" when="1789-03-17" where="#orgplc_0433">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1789-03-17">1789, März 17</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                        <listEvent>
+                            <event type="julian-origin" datingMethod="#julian" when="1789-03-06" where="#orgplc_0433">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum (julian):</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1789-03-06">1789, März 17</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0433">St. Petersburg</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0433.00">0437<idno>0433</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

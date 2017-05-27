@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">The anthropological treatises of Johann Friedrich Blumenbach <gap reason="ellipsis"/>
+                </title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00010.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000010/00010.pdf</ref>
+                </note>
+                <note type="ref">
+                    <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000010/000010.html</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">The anthropological treatises of Johann Friedrich Blumenbach <gap reason="ellipsis"/>
+                        </title>
+                        <title level="m" type="sub">with memoirs of him by Marx and Flourens, and an account of his anthropological museum by <gap reason="ellipsis"/>
+                        </title>
+                        <title level="m" type="sub">R. Wagner, and the inaugural dissertation of John Hunter <gap reason="ellipsis"/> on the varieties of man <metamark>
+                                <pc unit="slash"/>
+                            </metamark>
+                        </title>
+                        <title level="m" type="sub">Translated and edited from the Latin, German, and French originals, by Thomas Bendyshe <gap reason="ellipsis"/>
+                        </title>
+                        <editor role="translator">
+                            <persName ref="http://viaf.org/viaf">Thomas Bendyshe</persName>
+                        </editor>
+                        <imprint>
+                            <publisher>
+                                <name>Longman, Green, Longman, Roberts, &amp; Green</name>
+                            </publisher>
+                            <pubPlace>London</pubPlace>
+                            <date type="publication" when="1865-01-01">1865</date>
+                        </imprint>
+                    </monogr>
+                    <series>(Publications of the Anthropological Society of London)</series>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 ZOOL XI, 716">8 ZOOL XI, 716</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>XIV S., [1] Bl., 406, 20, 10 S., [1] Bl., IV (davon II gef.) Bl. : 4 Ill. (Kupferst.)<dimensions>
+                                        <dim>23 cm (8°)</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-EN"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation type="translation"/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00010.00">00010</classCode>
+                <classCode scheme="cat">
+                    <idno>I</idno>Selbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>I.1</idno>De Generis Humani Varietate</classCode>
+                <classCode scheme="cat">
+                    <idno>I.1.2</idno>Übersetzungen</classCode>
+                <classCode scheme="cat">
+                    <idno>I.1.2.2</idno>Englisch</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00010">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e853_00010">
+                <span type="note">Die Vorlage enthält insgesamt 8 Bestandteile<metamark>
+                        <metamark>
+                            <pc unit="comma"/>
+                        </metamark>
+                    </metamark> davon 3 Werke Blumenbachs in englischer Übersetzung (Titel laut Inhaltsvz.):</span>
+                <span type="note">1.</span>
+                <span type="title" style="m">„Memoir of J. F. Blumenbach“<metamark>
+                        <pc unit="comma"/>
+                    </metamark> by K. F. H. Marx <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">Übersetzung von</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="j">Zum Andenken an Johann Friederich Blumenbach: Eine Gedächtniss-Rede <metamark>
+                        <pc unit="slash"/>
+                    </metamark> von K. F. H. Marx</span>
+                <span type="pubPlace">Göttingen</span>
+                <span type="publisher">In der Dieterichschen Buchhandlung</span>
+                <span type="date">1840</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">2.</span>
+                <span type="title" style="m">„Memoir of J. F. Blumenbach“<metamark>
+                        <pc unit="comma"/>
+                    </metamark> by M. Flourens<metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">Übersetzung von</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Éloge historique de Jean-Frédéric Blumenbach : un des huit associés étrangers de l’Académie <metamark>
+                        <pc unit="slash"/>
+                    </metamark> Par M. Flourens</span>
+                <span type="pubPlace">Paris</span>
+                <span type="publisher">librairie de Firmin Didot Frères</span>
+                <span type="date">1847</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">3.</span>
+                <span type="title" style="m">„On the natural variety of mankind“<metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="note" style="m">ed. 1775<metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">Übersetzung von</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">De generis humani varietate nativa <metamark>
+                        <pc unit="slash"/>
+                    </metamark> illustris facultatis medicae consensu pro gradu doctoris medicinae disputavit d. XVI. Sept. MDCCLXXV <gap reason="ellipsis"/> Ioann. Frider. Blumenbach Gothanus</span>
+                <span type="pubPlace">Goettingae</span>
+                <span type="publisher">Typis Frid. Andr. Rosenbuschii</span>
+                <span type="date">[1775]</span>
+                <span type="reference">00001</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="citedRange">S. 65-143.</span>
+                <span type="note">Enthält auf S. 99-100 in Anm. 4 („33. Mankind divided into five varieties“) die englischsprachige Version von Paragraph 33 („Quinque generis humani varietates constituuntur“, S. 51-52) aus</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Io. Frid. Blumenbachii <gap reason="ellipsis"/> de generis humani varietate nativa liber: cum figuris aeri incisis
+                   </span>
+                <span type="edition">Editio altera longe auctior et emendatior</span>
+                <span type="pubPlace">Goettingae</span>
+                <span type="publisher">Apud Viduam Abr. Vandenhoek</span>
+                <span type="date">1781</span>
+                <span type="reference">00003</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">4.</span>
+                <span type="title" style="m">„On the natural variety of mankind“<metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="note" style="m">3d ed., 1795<metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">Übersetzung von</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">De generis humani varietate nativa <metamark>
+                        <pc unit="slash"/>
+                    </metamark> auctore Io. Frid. Blumenbach <gap reason="ellipsis"/>
+                </span>
+                <span type="edition">Editio tertia : praemissa est epistola ad <gap reason="ellipsis"/> Iosephum Banks <gap reason="ellipsis"/>
+                </span>
+                <span type="pubPlace">Gottingae</span>
+                <span type="publisher">Apud Vandenhoek et Ruprecht</span>
+                <span type="date">1795</span>
+                <span type="reference">00004</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="citedRange">S. 145-324</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">5.</span>
+                <span type="title" style="m">„Contributions to natural history“<metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="title" style="m">pts. 1-2 (1806-1811)<metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">Übersetzung von</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Beyträge zur Naturgeschichte <metamark>
+                        <pc unit="slash"/>
+                    </metamark> von Joh. Fr. Blumenbach <gap reason="ellipsis"/>
+                </span>
+                <span type="edition">Erster Theil, zweyte Ausgabe</span>
+                <span type="pubPlace">Göttingen</span>
+                <span type="publisher">Bey Heinrich Dieterich</span>
+                <span type="date">1806</span>
+                <span type="reference">00112</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">und</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Beyträge zur Naturgeschichte <metamark>
+                        <pc unit="slash"/>
+                    </metamark> von Joh. Fr. Blumenbach <gap reason="ellipsis"/>
+                </span>
+                <span type="edition">Zweyter Theil</span>
+                <span type="pubPlace">Göttingen</span>
+                <span type="publisher">Bey Heinrich Dieterich</span>
+                <span type="date">1811</span>
+                <span type="reference">00113</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">6.</span>
+                <span type="title" style="a">„Remarks on an Hippocratic macrocephalus“<metamark>
+                        <pc unit="comma"/>
+                    </metamark> by J. F. Blumenbach<metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">Übersetzung von Blumenbachs Artikel aus</span>
+                <span type="title" style="j">GgA</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1833 (177. Stück, 4. November)</span>
+                <span type="citedRange">S. 1761-1763; „Göttingen“</span>
+                <span type="reference">00648</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">7.</span>
+                <span type="title" style="a">„An account of the Blumenbachian Museum“<metamark>
+                        <pc unit="comma"/>
+                    </metamark> by R. Wagner <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">Übersetzung des Artikels von Rudolph Wagner<metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="title" style="a">„Die anthropologische Sammlung der Universität“<metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">in</span>
+                <span type="title" style="j">Nachrichten von der Georg-Augusts-Universität und der Königl. Gesellschaft der Wissenschaften zu Göttingen</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 14 (4. Okt.) 1856</span>
+                <span type="citedRange">S. 233-242</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">8.</span>
+                <span type="title" style="a">„Inaugural disputation on the varieties of man“<metamark>
+                        <pc unit="comma"/>
+                    </metamark> by J. Hunter</span>
+                <span type="date">June 1775</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

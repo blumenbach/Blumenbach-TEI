@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Daniel Nicolaus Chodowiecki schickt Blumenbach Entwürfe zu fünf in Auftrag gegebenen Vignetten für Blumenbachs Beyträge zur Naturgeschichte und erläutert Zahlungsmodalitäten und Liefertermin für die Druckplatten. </title>
+                <author>
+                    <persName>
+                        <forename>Daniel Nicolaus </forename>
+                        <surname>Chodowiecki</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0137.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Leipzig, Universitätsbibliothek, Sammlung Kestner, I C I, 142a (Signaturangabe laut Dougherty, Corresp. I, Nr. 0183; siehe auch Anm.).</note>
+                <note type="Drucke">
+                    <bibl>Steinbrucker, Charlotte, <emph>Daniel Chodowiecki. Briefwechsel zwischen ihm und seinen Zeitgenossen</emph>. Bd. 1 (1919), S. 331–332 Nr. 451.</bibl>
+                    <title level="m" type="bibl">Daniel Chodowiecki. Briefwechsel zwischen ihm und seinen Zeitgenossen</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> I, S. 304 Nr. 0183.</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Werke">
+                    <bibl>
+                        <relatedItem>
+                            <bibl>
+                                <emph>Beyträge zur Naturgeschichte</emph>. Erster Theil (1790; Bibliographie Nr. 00111).<ptr target="ref_d1e13132_00138"/>
+                            </bibl>
+                        </relatedItem>
+                    </bibl>
+                    <title level="m" type="bibl">Beyträge zur Naturgeschichte</title>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="53" xml:id="ref_d1e13132_00138">./view-work.html?id=00111</ref>
+                    <rs type="html">00111 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="54" xml:id="ref_d1e13134_00138">http://kalliope.staatsbibliothek-berlin.de/</ref>
+                    <rs type="html">http://kalliope.staatsbibliothek-berlin.de/ </rs>
+                </note>
+                <note type="Anmerkung">
+                    <note>Aktuelle Signatur laut <ptr target="ref_d1e13134_00138"/> [Zugriff: 2012-10-12]: Slg. Kestner/I/C/I/195/Nr. 11; dort falsche Datumsangabe „28.10.1781“.</note>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Daniel Nicolaus Chodowiecki schickt Blumenbach Entwürfe zu fünf in Auftrag gegebenen Vignetten für Blumenbachs <emph>Beyträge zur Naturgeschichte</emph> und erläutert Zahlungsmodalitäten und Liefertermin für die Druckplatten. </title>
+                        <title level="m" type="bibl">Beyträge zur Naturgeschichte</title>
+                        <author>
+                            <persName>
+                                <forename>Daniel Nicolaus </forename>
+                                <surname>Chodowiecki</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich </forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1781-12-28" when="1781-12-28" where="#orgplc_0137">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1781-12-28">1781, Dez. 28</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0137">Berlin</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0137.00">0138<idno>0137</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

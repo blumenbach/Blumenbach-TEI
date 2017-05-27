@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xqdoc:xqdoc xmlns:xqdoc="http://www.xqdoc.org/1.0">
+    <xqdoc:control>
+        <xqdoc:date>2015-07-13T10:52:23.411Z</xqdoc:date>
+        <xqdoc:location>/db/apps/blumenbach/modules/detail.xql</xqdoc:location>
+    </xqdoc:control>
+    <xqdoc:module type="library">
+        <xqdoc:uri>http://exist-db.org/xquery/detail</xqdoc:uri>
+        <xqdoc:name>detail</xqdoc:name>
+        <xqdoc:comment>
+            <xqdoc:description> This module contains functions that support the rendering of a view
+</xqdoc:description>
+        </xqdoc:comment>
+    </xqdoc:module>
+    <xqdoc:functions>
+        <xqdoc:function>
+            <xqdoc:name>detail:api-link</xqdoc:name>
+            <xqdoc:signature>detail:api-link($repo as xs:string?, $idno as xs:string?, $color as xs:string?, $icon as xs:string?) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$repo? </xqdoc:param>
+                <xqdoc:param>$idno? </xqdoc:param>
+                <xqdoc:param>$color? </xqdoc:param>
+                <xqdoc:param>$icon? </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>detail:brief-view</xqdoc:name>
+            <xqdoc:signature>detail:brief-view($node as node(), $model as map, $query as xs:string?) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:param>$query? </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>detail:get-brief</xqdoc:name>
+            <xqdoc:signature>detail:get-brief($node as node(), $model as map, $id as xs:string, $status as xs:string?) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:param>$id </xqdoc:param>
+                <xqdoc:param>$status? </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>detail:get-briefs-for-work</xqdoc:name>
+            <xqdoc:signature>detail:get-briefs-for-work($id as xs:string) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$id </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>detail:get-work</xqdoc:name>
+            <xqdoc:signature>detail:get-work($node as node(), $model as map, $id as xs:string, $status as xs:string?) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:param>$id </xqdoc:param>
+                <xqdoc:param>$status? </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>detail:navigation</xqdoc:name>
+            <xqdoc:signature>detail:navigation($node as node(), $model as map, $id as xs:string) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:param>$id </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>detail:outline</xqdoc:name>
+            <xqdoc:signature>detail:outline($node as node(), $model as map, $details as xs:string, $id as xs:string?) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:param>$details </xqdoc:param>
+                <xqdoc:param>$id? </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>detail:render-token</xqdoc:name>
+            <xqdoc:signature>detail:render-token($href as xs:string?, $idno as xs:string?, $color as xs:string?, $icon as xs:string?) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$href? </xqdoc:param>
+                <xqdoc:param>$idno? </xqdoc:param>
+                <xqdoc:param>$color? </xqdoc:param>
+                <xqdoc:param>$icon? </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>detail:search-link</xqdoc:name>
+            <xqdoc:signature>detail:search-link($node as node(), $model as map, $field as xs:string?) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:param>$field? </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>detail:work-navigation</xqdoc:name>
+            <xqdoc:signature>detail:work-navigation($node as node(), $model as map, $id as xs:string) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:param>$id </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>detail:work-outline</xqdoc:name>
+            <xqdoc:signature>detail:work-outline($node as node(), $model as map, $details as xs:string, $id as xs:string?) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:param>$details </xqdoc:param>
+                <xqdoc:param>$id? </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>detail:work-view</xqdoc:name>
+            <xqdoc:signature>detail:work-view($node as node(), $model as map) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>detail:xml-link</xqdoc:name>
+            <xqdoc:signature>detail:xml-link($node as node(), $model as map, $file as xs:string, $tei-path as xs:string) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:param>$file </xqdoc:param>
+                <xqdoc:param>$tei-path </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+    </xqdoc:functions>
+</xqdoc:xqdoc>

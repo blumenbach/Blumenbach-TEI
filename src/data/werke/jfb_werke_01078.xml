@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: III. Wie der Geschlechtstrieb der Menschen in Ordnung zu bringen und wie die Menschen besser und glücklicher zu machen <metamark>
+                        <pc unit="slash"/>
+                    </metamark> Von Dr. Bernh. Christ. Faust (Gräfl. Schaumburg-Lippischer Hofrath und Leibarzt). Mit einer Vorrede von J. H. Campe. Braunschweig 1791. 226 und XXVIII Seiten in 8</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_01078.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/MedBiblIII3-Faust/MedBiblIII3-Faust.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: III. Wie der Geschlechtstrieb der Menschen in Ordnung zu bringen und wie die Menschen besser und glücklicher zu machen von Dr. Bernh. Christ. Faust (Gräfl. Schaumburg-Lippischer Hofrath und Leibarzt). Mit einer Vorrede von J. H. Campe. Braunschweig 1791. 226 und XXVIII Seiten in 8</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Medicinische Bibliothek <metamark>
+                                <pc unit="slash"/>
+                            </metamark> hrsg. von Joh. Friedr. Blumenbach</title>
+                        <imprint>
+                            <publisher>
+                                <name>Dieterich</name>
+                            </publisher>
+                            <pubPlace>Göttingen</pubPlace>
+                            <date type="publication" when="1791-01-01">1791</date>
+                        </imprint>
+                        <biblScope>Bd. 3, 3. Stück (1791)</biblScope>
+                    </monogr>
+                    <citedRange>S. 400-414</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 MED EPH 142">8 MED EPH 142</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00959.01">04025</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4.29</idno>Medicinische Bibliothek</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="01078">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e80960_01078">
+                <span type="note">Anonyme Rezension von</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Wie der Geschlechtstrieb der Menschen in Ordnung zu bringen und wie die Menschen besser und glücklicher zu machen <metamark>
+                        <pc unit="slash"/>
+                    </metamark> Von Dr. Bernh. Christ. Faust. … Mit einer Vorrede von J. H. Campe</span>
+                <span type="pubPlace">Braunschweig</span>
+                <span type="publisher">in der Schul-buchhandlung</span>
+                <span type="date">1791</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="repository">SUB Göttingen</span>
+                <span type="idno" n="8 MED PRACT 223437">8 MED PRACT 2234/37</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">
+                    <lb/>Blumenbachs Verfasserschaft ergibt sich aus den „Anmerkungen und Zusätze zu allen drey Bänden dieser Bibliothek. Von dem Herausgeber.“</span>
+                <span type="reference">00962</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="citedRange">S. 729</span>
+                <span type="note">in den Anmerkungen „Zu diesem drittem Bande“ zu „S. 414. Daß die Hosen eher manche Krankheiten zu verhüten als zu veranlassen scheinen.“: „Was ich dort aus einem Briefe des Herrn Baronet Banks … angeführt habe … .“ Vgl. auch Blumenbach Anmerkung in</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">De generis humani varietate nativa <metamark>
+                        <pc unit="slash"/>
+                    </metamark> auctore Io. Frid. Blumenbach <gap reason="ellipsis"/>
+                </span>
+                <span type="edition">Editio tertia : praemissa est epistola ad <gap reason="ellipsis"/> Iosephum Banks <gap reason="ellipsis"/>
+                </span>
+                <span type="pubPlace">Gottingae</span>
+                <span type="publisher">Apud Vandenhoek et Ruprecht</span>
+                <span type="date">1795</span>
+                <span type="reference">00004</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="note">S. 240: „De his vero minus recte hoc assertum esse auctoritate gravissima docui in</span>
+                <span type="title" style="j">medicinische Bibliothek</span>
+                <span type="citedRange">T. III pag. 413.“</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

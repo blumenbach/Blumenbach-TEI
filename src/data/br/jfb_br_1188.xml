@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Franz Xaver von Zach berichtet Blumenbach, dass er auf einer Reise durch Norddeutschland mit dem englischen Prinzen Adolphus Frederick und der Regierung in Hannover über die geringe Qualifikation des Göttinger Astronomieprofessors Carl Felix von Seyffer, über weitere Göttinger Professoren und den Neubau einer Sternwarte in Göttingen diskutiert habe, erklärt, dass die Qualität der Allgemeinen Geographischen Ephemeriden nach seinem Ausscheiden aus deren Redaktion stark gesunken sei, fragt, ob er einen Brief Blumenbachs an Georg I. von Sachsen-Meiningen über Höhlenbären in seiner Zeitschrift Monatliche Correspondenz zur Beförderung der Erd- und Himmels-Kunde abdrucken oder an Blumenbach zurücksenden solle, und beschreibt vier vom Sachsen-Gothaischen Erbprinzen August Leopold Emil neu erworbene Chinesen-Puppen. </title>
+                <author>
+                    <persName>
+                        <forename>Franz Xaver von</forename>
+                        <surname>Zach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1188.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 2 (Zach Nr. 20).</note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> V, S. 515–519 Nr. 1344.<ptr target="ref_d1e121926_01205"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="1438" xml:id="ref_d1e121926_01205">http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=531</ref>
+                    <rs type="pdf">Corresp. V, S. 515–519 Nr. 1344 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Franz Xaver von Zach berichtet Blumenbach, dass er auf einer Reise durch Norddeutschland mit dem englischen Prinzen Adolphus Frederick und der Regierung in Hannover über die geringe Qualifikation des Göttinger Astronomieprofessors Carl Felix von Seyffer, über weitere Göttinger Professoren und den Neubau einer Sternwarte in Göttingen diskutiert habe, erklärt, dass die Qualität der <emph>Allgemeinen Geographischen Ephemeriden</emph> nach seinem Ausscheiden aus deren Redaktion stark gesunken sei, fragt, ob er einen Brief Blumenbachs an Georg I. von Sachsen-Meiningen über Höhlenbären in seiner Zeitschrift <emph>Monatliche Correspondenz zur Beförderung der Erd- und Himmels-Kunde</emph> abdrucken oder an Blumenbach zurücksenden solle, und beschreibt vier vom Sachsen-Gothaischen Erbprinzen August Leopold Emil neu erworbene Chinesen-Puppen. </title>
+                        <title level="m" type="bibl">Allgemeinen Geographischen Ephemeriden</title>
+                        <title level="m" type="bibl">Monatliche Correspondenz zur Beförderung der Erd- und Himmels-Kunde</title>
+                        <author>
+                            <persName>
+                                <forename>Franz Xaver von</forename>
+                                <surname>Zach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1800-10-07" when="1800-10-07" where="#orgplc_1188">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1800-10-07">1800, Okt. 7</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1188">Seeberg</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01188.00">
+                    <idno>1188</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

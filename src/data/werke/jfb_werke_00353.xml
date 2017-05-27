@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: Göttingen</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00353.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000353/00353.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: Göttingen</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Göttingische Anzeigen von gelehrten Sachen [GAgS]</title>
+                        <imprint>
+                            <publisher>
+                                <name>Dieterich</name>
+                            </publisher>
+                            <pubPlace>Göttingen</pubPlace>
+                            <date type="publication" when="1793-08-10">1793, 10. August</date>
+                        </imprint>
+                        <biblScope>1793 (126. Stück, 10. August)</biblScope>
+                    </monogr>
+                    <citedRange>S. 1257-1258</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 EPH LIT 1607">8 EPH LIT 160/7</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00353.00">00353</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3</idno>Publikationsorgane der Königlichen Gesellschaft der Wissenschaften zu Göttingen</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3.2.1</idno>Göttingische Anzeigen von gelehrten Sachen</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00353">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e29801_00353">
+                <span type="note">Blumenbachs Anzeige von drei Übersetzungen (englisch, niederländisch, deutsch) zweier seiner Schriften:</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">An essay on generation <metamark>
+                        <pc unit="slash"/>
+                    </metamark> by J. F. Blumenbach ; translated from the German</span>
+                <span type="pubPlace">London</span>
+                <span type="publisher">Printed for T. Cadell …; Faulder …; Murray …; and Creech, at Edinburgh</span>
+                <span type="date">[1792]</span>
+                <span type="reference">00059</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Grondbeginselen der natuurkunde van den mensch: met plaaten <metamark>
+                        <pc unit="slash"/>
+                    </metamark> door Jo. Frid. Blumenbach <gap reason="ellipsis"/>
+                    <metamark>
+                        <pc unit="slash"/>
+                    </metamark> uit het Latijn door G. J. Wolff ; met eene voorreden van R. Forsten</span>
+                <span type="pubPlace">Harderwyck</span>
+                <span type="publisher">Bij J. van Kastel</span>
+                <span type="date">1791</span>
+                <span type="reference">00082</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">D. Joh. Frid. Blumenbach’s <gap reason="ellipsis"/> Anfangsgründe der Physiologie: mit Kupfern <metamark>
+                        <pc unit="slash"/>
+                    </metamark> aus dem Lateinischen übersetzt, und mit Zusätzen vermehrt von Joseph Eyerel</span>
+                <span type="pubPlace">Wien</span>
+                <span type="publisher">Bey Christ. Frid. Wappler</span>
+                <span type="date">1789</span>
+                <span type="reference">00071</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Anzeige des Sonderdrucks</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Jo. Frid. Blumenbachii <gap reason="ellipsis"/> decas altera collectionis suae craniorum diversarum gentium illustrata</span>
+                <span type="pubPlace">Gottingae</span>
+                <span type="publisher">Apud Joann. Christ. Dieterich</span>
+                <span type="date">MDCCXCIII</span>
+                <span type="reference">00093</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

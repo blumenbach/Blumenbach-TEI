@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page.html" data-template-at="main">
+    <div data-template="taxon-detail:get-taxon">
+        <div class="col-md-9">
+            <div id="content">
+                <div data-template="taxon-detail:navigation" class="bk-nav top"/>
+                <div data-template="taxon-detail:taxon-view"/>
+                <div data-template="taxon-detail:navigation" class="bk-nav bottom"/>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="well well-dark well-sm" id="toolbar">
+                <h4>Tools</h4>
+                <div data-template="taxon-detail:outline" data-template-details="no"/>
+                <div>
+                    <form action="work-list.html" class="form form-horizontal">
+                        <div class="form-group">
+                            <div class="col-md-12 col-xs-12">
+                                <span class="input-group">
+                                    <input name="query" type="search" class="templates:form-control form-control" placeholder="Search Werke"/>
+                                    <span class="input-group-btn">
+                                        <button id="f-btn-search" type="submit" class="btn btn-primary">
+                                            <span class="glyphicon glyphicon-search"/>
+                                        </button>
+                                    </span>
+                                </span>
+                                <input type="hidden" name="field" value="text"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-6 col-xs-12" data-toggle="tooltip" data-placement="left" title="Date Range">
+                                <span class="input-group">
+                                    <input name="jhr" class="templates:form-control form-control" placeholder="Date Range"/>
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

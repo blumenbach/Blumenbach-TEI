@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page.html" data-template-at="main">
+    <script type="text/javascript" src="resources/scripts/refs.js"/>
+    <div data-template="templates:include" data-template-path="templates/search-form-briefs.html"/>
+    <div class="col-md-12 col-xs-12">
+        <div id="content" class="row">
+            <h2>Referenz</h2>
+            <table id="refs" class="display">
+                <thead>
+                    <tr>
+                        <th class="col-sm-1">Reg. Nr.</th>
+                        <th class="col-sm-1">Sequence</th>
+                        <th class="col-sm-2">XML ID</th>
+                        <th class="col-sm-2">Ref. Label</th>
+                        <th class="col-sm-3">URI</th>
+                    </tr>
+                </thead>
+                <tbody data-template="list:refs-briefs"/>
+            </table>
+        </div>
+    </div>
+</div>

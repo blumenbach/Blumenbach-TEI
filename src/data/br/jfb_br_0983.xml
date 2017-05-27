@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Martinus van Marum fragt Blumenbach, ob er ihn Ende Mai oder Anfang Juni in Göttingen besuchen könne, und bietet die Beschaffung eines Orang-Utan-Schädels an. </title>
+                <author>
+                    <persName>
+                        <forename>Martinus van</forename>
+                        <surname>Marum</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0983.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Leipzig, Universitätsbibliothek, Sammlung Kestner II C V, 118. </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> V, S. 236–237 Nr. 1136. <ptr target="ref_d1e100548_01000"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="1125" xml:id="ref_d1e100548_01000">http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=253</ref>
+                    <rs type="pdf">Corresp. V, S. 236–237 Nr. 1136 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1126" xml:id="ref_d1e100453_01000">./view-work.html?id=00708</ref>
+                    <rs type="html">00708 </rs>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Orang-Utan-Schädel (erhalten 1798; Abb. in <emph>Abbildungen naturhistorischer Gegenstände</emph>, Heft 6 (1802; Bibliographie Nr. 00708)<ptr target="ref_d1e100453_01000"/>, Tafel Nr. 52).</rs>
+                    <title level="m" type="bibl">Abbildungen naturhistorischer Gegenstände</title>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Martinus van Marum fragt Blumenbach, ob er ihn Ende Mai oder Anfang Juni in Göttingen besuchen könne, und bietet die Beschaffung eines Orang-Utan-Schädels an. </title>
+                        <author>
+                            <persName>
+                                <forename>Martinus van</forename>
+                                <surname>Marum</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1798-04-10" when="1798-04-10" where="#orgplc_0983">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1798-04-10">1798, Apr. 10</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0983">Haarlem</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0983.00">
+                    <idno>0983</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach bittet Johann David Schoepf um die angebotene Zusendung oberbayerischer Mineralien, gibt Ratschläge für Schoepfs wissenschaftliche Korrespondenz mit dem Britischen Museum in London. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0679.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Berlin, Museum für Naturkunde, Historische Bild- und Schriftgutsammlung, Bestand: Zoologisches Museum, Signatur S 1 Nachlass Schoepf III, Blumenbach, J.F.; Blatt 7. </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> IV, S. 252 Nr. 0808.<ptr target="ref_d1e68033_00685"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="637" xml:id="ref_d1e68033_00685">http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=264</ref>
+                    <rs type="pdf">Corresp. IV, S. 252 Nr. 0808 </rs>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Mineralien aus Nordamerika (aufgelistet in Schoepfs Brief v. März 1793, Dougherty, <emph>Corresp.</emph> IV, Nr. 0803); erbeten: Mineralien aus Oberbayern (Bayreuth). „Zwei kleine Zeichnungen von ein paar Eskimos“ (= Göttingen, Inst. für Ethnologie, Inv.-Nr. Bi. Kat. 27–28). „Backenzahn des Ohio-Incognitums [= des amerikanischen Mastodons] mit den Wurzeln […] aus dem Britischen Museum“.</rs>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach bittet Johann David Schoepf um die angebotene Zusendung oberbayerischer Mineralien, gibt Ratschläge für Schoepfs wissenschaftliche Korrespondenz mit dem Britischen Museum in London. </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich</forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann David</forename>
+                    <surname>Schoepf</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1793-04-12" when="1793-04-12" where="#orgplc_0679">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1793-04-12">1793, April 12</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0679">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0679.00">0685<idno>0679</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

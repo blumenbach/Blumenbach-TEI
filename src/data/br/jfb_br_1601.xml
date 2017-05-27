@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Georges(-Léopold-Chrétien, Baron de) Cuvier als ständiger Sekretär des Institut de France informiert Blumenbach als Sekretär der Königlichen Societät der Wissenschaften zu Göttingen [, dass er die Verantwortung für den Verkauf des 9. Bandes der Commentationes der Societät der Wissenschaften zu Göttingen dem Verlagshaus Treuttel et Würtz übertragen habe ?]. </title>
+                <author>
+                    <persName>
+                        <forename>Georges (Georges-Léopold-Chrétien, Baron de Cuvier) </forename>
+                        <surname>Cuvier</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1601.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Berlin, Staatsbibliothek − Preußischer Kulturbesitz, Handschriftenabt. Slg. Darmstaedter Lc 1801: Cuvier, Georg Leopold Christian Friedrich Dagobert, vgl. <ptr target="ref_d1e162466_01618"/> [Zugriff:2012-10-12].
+                </note>
+                <note type="Drucke">
+                    <bibl>Inhaltsangabe nach Outram, Dorinda (Hg.); <emph>The Letters of Georges Cuvier</emph>. Chalfont St Giles 1980, S. 34 Nr. 21/1, siehe dazu „Anm.“.</bibl>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1909" xml:id="ref_d1e162466_01618">http://kalliope.staatsbibliothek-berlin.de/</ref>
+                    <rs type="html">http://kalliope. staatsbibliothek-berlin.de/ </rs>
+                </note>
+                <note type="Anmerkung">
+                    <note>Die Inhaltsangabe bei Outram ist problematisch:Band 9 der älteren Reihe der <emph>Commentationes</emph> erschien schon 1789; die jüngeren Reihe (<emph>Commentationes recentiores</emph>) endete mit dem 8. Band (1841); Band 6 erschien 1828, Band 7 erschien 1832. </note>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Georges(-Léopold-Chrétien, Baron de) Cuvier als ständiger Sekretär des Institut de France informiert Blumenbach als Sekretär der Königlichen Societät der Wissenschaften zu Göttingen [, dass er die Verantwortung für den Verkauf des 9. Bandes der <emph>Commentationes</emph> der Societät der Wissenschaften zu Göttingen dem Verlagshaus Treuttel et Würtz übertragen habe ?]. </title>
+                        <author>
+                            <persName>
+                                <forename>Georges (Georges-Léopold-Chrétien, Baron de Cuvier) </forename>
+                                <surname>Cuvier</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich </forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1830-06-22" when="1830-06-22" where="#orgplc_1601">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1830-06-22">1830, Juni 22</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1601">Paris</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01601.00">
+                    <idno>1601</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

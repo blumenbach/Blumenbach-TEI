@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">über den Bildungstrieb und das Zeugungsgeschäfte</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00053.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000053/00053.pdf</ref>
+                </note>
+                <note type="ref">
+                    <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000053/000053.html</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">über den Bildungstrieb und das Zeugungsgeschäfte</title>
+                        <title level="m" type="aut">D. Johann Friederich Blumenbach <gap reason="ellipsis"/>
+                        </title>
+                        <imprint>
+                            <publisher>
+                                <name>Bey Johann Christian Dieterich</name>
+                            </publisher>
+                            <pubPlace>Göttingen</pubPlace>
+                            <date type="publication" when="1781-01-01">1781</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 ZOOL III, 721 RARA">8 ZOOL III, 721 RARA</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>[1] Bl., 87 S., [1] Bl. : 1 Ill. (Kupferst.)<dimensions>
+                                        <dim>16 cm (8°)</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00053.00">00053</classCode>
+                <classCode scheme="cat">
+                    <idno>I</idno>Selbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>I.3</idno>De Nisu Formativo – Über den Bildungstrieb</classCode>
+                <classCode scheme="cat">
+                    <idno>I.3.1</idno>Originalausgaben</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00053">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e4758_00053">
+                <span type="note">Frontispiz und Vignette auf Titelblatt, beide gestochen von J. W. Meil</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Angezeigt von Blumenbach in</span>
+                <span type="title" style="j">GAgS</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1781 (62. Stück, 21. Mai)</span>
+                <span type="citedRange">S. 497-500; „Göttingen“</span>
+                <span type="reference">00221</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Enthält überwiegend wortgleich große Teile des Artikels</span>
+                <span type="title" style="a">„Prof. Blumenbach über den Bildungstrieb (Nisus formativus) und seinen Einfluß auf die Generation und Reproduction“</span>
+                <span type="note">aus</span>
+                <span type="title" style="j">Göttingisches Magazin der Wissenschaften und Litteratur</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1. Jg., 5. Stück (1780)</span>
+                <span type="citedRange">S. 247-266</span>
+                <span type="reference">00797</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">sowie überwiegend wortgleich Teile des Artikels</span>
+                <span type="title" style="a">„IV. Prof. Blumenbach über eine ungemein einfache Fortpflanzungsart“</span>
+                <span type="note">aus</span>
+                <span type="title" style="j">Göttingisches Magazin der Wissenschaften und Litteratur</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">2. Jg., 1. Stück (1781)</span>
+                <span type="citedRange">S. 80-89</span>
+                <span type="reference">00800</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

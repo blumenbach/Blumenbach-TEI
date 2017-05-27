@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach berichtet Charles Bonnet über Alexander Monros Buch Observations on the Structure and Functions of the Nervous System (1783), insbesondere zur Spiralstruktur der Nerven und der Geschichte ihrer Entdeckung, und über seine eigenen Beobachtungen hierzu und zur Struktur der Gefäße in den Nieren, und bittet um ihn um die Ausleihe einer osteologischen Studie von Louis-Antoine-Prosper Herissant und um nähere Angabe zu einer von Leopoldo Marc’Antonio Caldani beschriebenen Augenerkrankung. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich </forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0200.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Genf, Bibliothèque de Genève, Ms. Bonnet 37 fol. 276–279. </note>
+                <note type="Drucke">
+                    <bibl>Teildruck in Dougherty, Frank W. P., „Nervenmorphologie und -physiologie in den 80er Jahren des 18. Jahrhunderts […]“, in Mann, Gunter, und Dumont, Franz (Hg.), <emph>Gehirn – Nerven – Seele. Anatomie und Physiologie im Umfeld Th. Soemmerrings.</emph> Stuttgart und New York 1988, S. 55–91, hier S. 71–74 (Nachdruck: Dougherty, <emph>Gesammelte Aufsätze</emph> (1996), S. 111–114 mit Abb. einer mitgesandten Zeichnung Blumenbachs).</bibl>
+                    <title level="m" type="bibl">Gesammelte Aufsätze</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> II, S. 278 Nr. 0278.</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach berichtet Charles Bonnet über Alexander Monros Buch <emph>Observations on the Structure and Functions of the Nervous System</emph> (1783), insbesondere zur Spiralstruktur der Nerven und der Geschichte ihrer Entdeckung, und über seine eigenen Beobachtungen hierzu und zur Struktur der Gefäße in den Nieren, und bittet um ihn um die Ausleihe einer osteologischen Studie von Louis-Antoine-Prosper Herissant und um nähere Angabe zu einer von Leopoldo Marc’Antonio Caldani beschriebenen Augenerkrankung. </title>
+                        <title level="m" type="bibl">Observations on the Structure and Functions of the Nervous System</title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich </forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Charles </forename>
+                    <surname>Bonnet</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1784-04-29" when="1784-04-29" where="#orgplc_0200">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1784-04-29">1784, April 29</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0200">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0200.00">0202<idno>0200</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

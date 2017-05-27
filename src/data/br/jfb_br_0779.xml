@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">August Ferdinand von Veltheim kommentiert gegenüber Blumenbach dessen ergänzende Angaben zu zwei von seinen mineralogischen und gemmologischen Publikationen und mineralogische Beobachtungen in neueren Publikationen. </title>
+                <author>
+                    <persName>
+                        <forename>August Ferdinand von</forename>
+                        <surname>Veltheim</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0779.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Or. verloren, Überlieferung durch Entwurf in Wernigerode, Landeshauptarchiv Sachsen-Anhalt, Abt. Magdeburg, H 95, Gutsarchiv Harbke, Nr. 4200, fol. 59–60. </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> IV, S. 411 Nr. 0914.<ptr target="ref_d1e78349_00786"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="805" xml:id="ref_d1e78349_00786">http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=423</ref>
+                    <rs type="pdf">Corresp. IV, S. 411 Nr. 0914 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">August Ferdinand von Veltheim kommentiert gegenüber Blumenbach dessen ergänzende Angaben zu zwei von seinen mineralogischen und gemmologischen Publikationen und mineralogische Beobachtungen in neueren Publikationen. </title>
+                        <author>
+                            <persName>
+                                <forename>August Ferdinand von</forename>
+                                <surname>Veltheim</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1795-06-18" when="1795-06-18" where="#orgplc_0779">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1795-06-18">1795, nach Juni 18</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                        <listEvent>
+                            <event type="iso-origin-nb" notBefore="1795-06-18" where="#orgplc_0779">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum (not before):</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1795-06-18">1795, nach Juni 18</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0779">Harbke</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0779.00">0786<idno>0779</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

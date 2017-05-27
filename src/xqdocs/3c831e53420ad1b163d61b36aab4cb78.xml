@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xqdoc:xqdoc xmlns:xqdoc="http://www.xqdoc.org/1.0">
+    <xqdoc:control>
+        <xqdoc:date>2015-07-13T10:52:23.411Z</xqdoc:date>
+        <xqdoc:location>/db/apps/blumenbach/modules/atomic.xql</xqdoc:location>
+    </xqdoc:control>
+    <xqdoc:module type="library">
+        <xqdoc:uri>http://atomic.exist-db.org/xquery/atomic</xqdoc:uri>
+        <xqdoc:name>atomic</xqdoc:name>
+        <xqdoc:comment>
+            <xqdoc:description> This module is derived from the Atomic Wiki
+</xqdoc:description>
+        </xqdoc:comment>
+    </xqdoc:module>
+    <xqdoc:functions>
+        <xqdoc:function>
+            <xqdoc:name>atomic:create-entry</xqdoc:name>
+            <xqdoc:signature>atomic:create-entry() as element()</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:return>element()</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>atomic:create-feed</xqdoc:name>
+            <xqdoc:signature>atomic:create-feed() as element()</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:return>element()</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>atomic:fix-xhtml-namespace</xqdoc:name>
+            <xqdoc:signature>atomic:fix-xhtml-namespace($nodes as node()*) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$nodes* </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>atomic:get-content</xqdoc:name>
+            <xqdoc:signature>atomic:get-content($content as element()?, $eval as xs:boolean) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$content? </xqdoc:param>
+                <xqdoc:param>$eval </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>atomic:get-source</xqdoc:name>
+            <xqdoc:signature>atomic:get-source($content as element()?) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$content? </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>atomic:lock-for-user</xqdoc:name>
+            <xqdoc:signature>atomic:lock-for-user($feed as element()) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$feed </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>atomic:process-href</xqdoc:name>
+            <xqdoc:signature>atomic:process-href($node as element()) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>atomic:process-img</xqdoc:name>
+            <xqdoc:signature>atomic:process-img($node as element()) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>atomic:process-links</xqdoc:name>
+            <xqdoc:signature>atomic:process-links($node as node()?) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node? </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>atomic:sort</xqdoc:name>
+            <xqdoc:signature>atomic:sort($entries as element()*) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$entries* </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>atomic:unlock-for-user</xqdoc:name>
+            <xqdoc:signature>atomic:unlock-for-user() as empty()</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:return>empty()</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+    </xqdoc:functions>
+</xqdoc:xqdoc>

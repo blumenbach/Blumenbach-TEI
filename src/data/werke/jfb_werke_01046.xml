@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: Osservazioni Su alcune Mummie Egiziane aperte a Londra da Gio. Federico Blumenbach Mandate alSig.Banks Presid. della Soc. R. di Londra ai 10 Aprile 1794. Magazin Encycl. T. I. N. IV</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_01046.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Opuscoli_scelti_XVIII/Opuscoli_scelti_XVIII.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: Osservazioni Su alcune Mummie Egiziane aperte a Londra da Gio. Federico Blumenbach Mandate al Sig.Banks Presid. della Soc. R. di Londra ai 10 Aprile 1794. Magazin Encycl. T. I. N. IV</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Opuscoli scelti sulle scienze e sulle arti. Tratti dagli Atti delle Accademie, e dalle altre Collezioni Filosofiche e Letterarie, dalle Opere più recenti Inglesi, Tedesche, Francesi, Latine, e Italiane, e da Manoscritti originali, e inediti</title>
+                        <imprint>
+                            <publisher>
+                                <name>preso Giuseppe Marelli</name>
+                            </publisher>
+                            <pubPlace>Milano</pubPlace>
+                            <date type="publication" when="1796-01-01">1796</date>
+                        </imprint>
+                        <biblScope>Bd. 11 (1796)</biblScope>
+                    </monogr>
+                    <citedRange>S. 196-223, 1 Ill. (Kupferstich)</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                        <idno n=""/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00981.02">03026</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4.X.12</idno>Opuscoli scelti sulle scienze e sulle arti</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="01046">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e78445_01046">
+                <span type="note">Forschungsnotiz zu ägyptischen Mumien. Wohl vom Herausgeber der Zeitschrift, Carlo Amoretti (vgl. die Sigle „A.“ am Ende des Textes, S. 390), übersetzte und gekürzte Version von Blumenbachs Artikel aus</span>
+                <span type="title" style="j">Philosophical Transactions of the Royal Society of London : giving some accounts of the present undertakings, studies, and labours, of the ingenious, in many considerable parts of the world</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 84 (1794)</span>
+                <span type="citedRange">S. 177-195</span>
+                <span type="reference">00992</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Die Übersetzung beruht nicht auf dem englischen Originaltext, sondern auf der französischen Übersetzung in</span>
+                <span type="title" style="j">Magazin Encyclopédique : ou journal des sciences, des lettres et des arts</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 1, Nr. 4, (1795)</span>
+                <span type="citedRange">S. 503-525</span>
+                <span type="reference">00811</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="note">mit Kürzungen und mit Übernahme von deren Auslassungen und Fehlern bei den Abbildungen(Abb. 4 fehlt, auch der Hinweis darauf im Text;die Beschriftungen der Abbildungen 1-3 fehlen, die Nummerierung ist fehlerhaft (aus Fig. 1 wird 3, aus Fig. 3 wird 1) und folglich missverständlich)</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Die Übersetzung ist nicht identisch mit der italienischen Übersetzung desselben Aufsatzes Blumenbachs in</span>
+                <span type="title" style="j">Annali di chimica e storia naturale</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">tom. XI (1796)</span>
+                <span type="reference">04011</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

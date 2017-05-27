@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Johann Gottfried Eichhorn quittiert Blumenbach die Subskription und die Zahlung des Subskriptionspreises für ein Exemplar des ersten Bandes von Eichhorns Allgemeine Geschichte der Cultur und Litteratur des neueren Europa (1796). </title>
+                <author>
+                    <persName>
+                        <forename>Johann Gottfried</forename>
+                        <surname>Eichhorn</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1651.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Leipzig, Universitätsbibliothek, Sammlung Kestner II A IV, 415, fol. 7.</note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> V, S. 542 Nr. App. 11.<ptr target="ref_d1e81447_00818"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="842" xml:id="ref_d1e81447_00818">http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=558</ref>
+                    <rs type="pdf">Corresp. V, S. 542 Nr. App. 11 </rs>
+                </note>
+                <note type="Anmerkung">
+                    <note>Gedrucktes Subskriptionsformular, mit dem Eintrag von Blumenbachs Namen Subskribent und Eichhorns Unterschrift. </note>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Johann Gottfried Eichhorn quittiert Blumenbach die Subskription und die Zahlung des Subskriptionspreises für ein Exemplar des ersten Bandes von Eichhorns <emph>Allgemeine Geschichte der Cultur und Litteratur des neueren Europa</emph> (1796). </title>
+                        <title level="m" type="bibl">Allgemeine Geschichte der Cultur und Litteratur des neueren Europa</title>
+                        <author>
+                            <persName>
+                                <forename>Johann Gottfried</forename>
+                                <surname>Eichhorn</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1795-10-14" when="1795-10-14" where="#orgplc_1651">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1795-10-14">1795, Okt. 14</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1651">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0810.01">2007<idno>1651</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

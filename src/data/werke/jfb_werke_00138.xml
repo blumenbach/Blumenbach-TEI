@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Tabula anatomica Leonardi Da Vinci summi quondam pictoris e Bibliotheca Augustissimi Magnae Britanniae Hannoveraeque Regis depromta, venerem obversam e legibus naturae hominibus solam convenire, ostendens <metamark>
+                        <pc unit="slash"/>
+                    </metamark>
+                </title>
+                <title type="meta">[Io. Fr. Blumenbachius]</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00138.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000138/00138.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">Tabula anatomica Leonardi Da Vinci summi quondam pictoris e Bibliotheca Augustissimi Magnae Britanniae Hannoveraeque Regis depromta, venerem obversam e legibus naturae hominibus solam convenire, ostendens <metamark>
+                                <pc unit="slash"/>
+                            </metamark> [Io. Fr. Blumenbachius]</title>
+                        <imprint>
+                            <publisher>
+                                <name>Sumtibus Heroldi et Wahlstabii</name>
+                            </publisher>
+                            <pubPlace>Lunaeburgi</pubPlace>
+                            <date type="publication" when="1830-01-01">MDCCCXXX</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="4 ZOOL XIII, 210">4 ZOOL XIII, 210</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>[3] Bl., [1] Bl. : 1 Ill. (Lith.)<dimensions>
+                                        <dim>33 cm (4°)</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00138.00">00138</classCode>
+                <classCode scheme="cat">
+                    <idno>I</idno>Selbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>I.9</idno>Kleinere Schriften</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00138">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e12513_00138">
+                <span type="note">Bericht über die in der königlichen Sammlung Georgs III. von Großbritannien entdeckten anatomischen Zeichnungen von Leonardo da Vinci</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Enhält zwei Auszüge aus Blumenbachs Werken.</span>
+                <span type="note">Der erste Auszug ist in lateinischer Sprache,</span>
+                <span type="note">der zweite in deutscher Sprache</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Erster Auszug aus</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">D. Jo. Frid. Blumenbachii <gap reason="ellipsis"/> introductio in historiam medicinae litterariam</span>
+                <span type="pubPlace">Goettingae</span>
+                <span type="publisher">Apud Jo. Christ. Dieterich</span>
+                <span type="date">1786</span>
+                <span type="reference">00142</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">S. 117-118</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Der zweite Auszug ist eine bearbeitete Version von Blumenbachs und von Hinübers Artikel in</span>
+                <span type="title" style="j">Medicinische Bibliothek</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 3, 1. Stück (1788)</span>
+                <span type="citedRange">S. 141-147</span>
+                <span type="reference">00957</span>
+                <span type="note">und</span>
+                <span type="biblScope">Bd. 3, 4. Stück (1795)</span>
+                <span type="citedRange">S. 728-729</span>
+                <span type="reference">00962</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Lithographie von A. Wehrt</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

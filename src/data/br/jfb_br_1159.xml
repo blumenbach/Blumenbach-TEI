@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Franz Xaver von Zach berichtet Blumenbach zahlreiche Begebenheiten aus dem Gothaer Gesellschaftsleben, kommentiert Berichte und eigene Beobachtungen von Fällen, in denen Männer in Thüringen und in exotischen Kulturen vollständig die soziale Rolle von Frauen übernehmen („transgender“-Personen) und fragt nach Blumenbachs wissenschaftlicher Einschätzung dieses Phänomens, und bittet Blumenbach, sich bei Arnold Ludwig Heeren für dessen Mitarbeit an von Zachs neuer Zeitschrift Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde einzusetzen. </title>
+                <author>
+                    <persName>
+                        <forename>Franz Xaver von</forename>
+                        <surname>Zach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1159.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 2 (Zach Nr. 19).</note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> V, S. 473–478 Nr. 1312.<ptr target="ref_d1e118704_01175"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Werke">
+                    <bibl>
+                        <relatedItem>
+                            <bibl>Bibliographie Nr. 00968<ptr target="ref_d1e118702_01175"/> (siehe „Dr.“).</bibl>
+                        </relatedItem>
+                    </bibl>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="1387" xml:id="ref_d1e118704_01175">http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=489</ref>
+                    <rs type="pdf">Corresp. V, S. 473–478 Nr. 1312 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1388" xml:id="ref_d1e118702_01175">./view-work.html?id=00968</ref>
+                    <rs type="html">00968 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Franz Xaver von Zach berichtet Blumenbach zahlreiche Begebenheiten aus dem Gothaer Gesellschaftsleben, kommentiert Berichte und eigene Beobachtungen von Fällen, in denen Männer in Thüringen und in exotischen Kulturen vollständig die soziale Rolle von Frauen übernehmen („transgender“-Personen) und fragt nach Blumenbachs wissenschaftlicher Einschätzung dieses Phänomens, und bittet Blumenbach, sich bei Arnold Ludwig Heeren für dessen Mitarbeit an von Zachs neuer Zeitschrift <emph>Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde</emph> einzusetzen. </title>
+                        <title level="m" type="bibl">Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde</title>
+                        <author>
+                            <persName>
+                                <forename>Franz Xaver von</forename>
+                                <surname>Zach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1800-06-07" when="1800-06-07" where="#orgplc_1159">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1800-06-07">1800, Juni 7</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1159">Seeberg</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01159.00">
+                    <idno>1159</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

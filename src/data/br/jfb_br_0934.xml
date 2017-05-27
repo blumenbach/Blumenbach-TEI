@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Johann Heinrich Ferdinand Autenrieth sendet Blumenbach seine Publikation zur Embryonalentwicklung des Menschen, äußert die Überzeugung, dass fossile Tierknochen aus vergangenen Erdzeitaltern mit einer komplett anderen Tierwelt stammen, und erklärt die beobachteten doppelten Eckzähnen an einigen Otterschädeln mit dem Vorgang des Zahnwechsels. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Heinrich Ferdinand</forename>
+                        <surname>Autenrieth</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0934.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Leipzig, Universitätsbibliothek, Sammlung Kestner II A IV, 57, fol. 21–22. </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> V, S. 166–168 Nr. 1088.  <ptr target="ref_d1e95320_00951"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="1052" xml:id="ref_d1e95320_00951">http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=182</ref>
+                    <rs type="pdf">Corresp. V, S. 166–168 Nr. 1088 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Johann Heinrich Ferdinand Autenrieth sendet Blumenbach seine Publikation zur Embryonalentwicklung des Menschen, äußert die Überzeugung, dass fossile Tierknochen aus vergangenen Erdzeitaltern mit einer komplett anderen Tierwelt stammen, und erklärt die beobachteten doppelten Eckzähnen an einigen Otterschädeln mit dem Vorgang des Zahnwechsels. </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Heinrich Ferdinand</forename>
+                                <surname>Autenrieth</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1797-10-02" when="1797-10-02" where="#orgplc_0934">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1797-10-02">1797, Okt. 2  Tübingen</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0934"/>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0934.00">
+                    <idno>0934</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

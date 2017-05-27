@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">decas collectionis suae craniorum diversarum gentium illustrata</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00092.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000092/00092.pdf</ref>
+                </note>
+                <note type="ref">
+                    <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000092/000092.html</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">decas collectionis suae craniorum diversarum gentium illustrata</title>
+                        <title level="m" type="aut">Jo. Frid. Blumenbachii <gap reason="ellipsis"/>
+                        </title>
+                        <imprint>
+                            <publisher>
+                                <name>Apud Ioann. Christ. Dieterich</name>
+                            </publisher>
+                            <pubPlace>Gottingae</pubPlace>
+                            <date type="publication" when="1790-01-01">MDCCXC</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="4 ZOOL XII, 1590:1">4 ZOOL XII, 1590:1</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>30 S., X gef. Bl. : 10 Ill. (Kupferst.)<dimensions>
+                                        <dim>26 cm (4°)</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00092.00">00092</classCode>
+                <classCode scheme="cat">
+                    <idno>I</idno>Selbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>I.6</idno>Decades Collectionis Suae Craniorum</classCode>
+                <classCode scheme="cat">
+                    <idno>I.6.1</idno>Originalausgaben</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00092">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e8056_00092">
+                <span type="note">Titelvignette. Sonderdruck des Beitrags „Io. Frid. Blumenbachii decas collectionis suae craniorum diversarum gentium illustrata. D. XII. Dec. MDCCLXXXIX“, in</span>
+                <span type="title" style="j">Commentationes Societatis Regiae Scientiarum Gottingensis</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. X (1791), Phys.</span>
+                <span type="citedRange">S. 3-27</span>
+                <span type="reference">00185</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Mögl. zweite Auflage Göttingen: Dieterich, 1820 (Herzog August Bibliothek Wolfenbüttel: M: Mc 4° 34)</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">
+                    <lb/>Enthält Erläuterungen und Abbildungen zu folgenden Schädeln:<lb/>
+                </span>
+                <span type="citedRange">S. 3-12</span>
+                <span type="note">[Methodologische Vorbemerkung]<lb/>
+                </span>
+                <span type="citedRange">S. 13-14</span>
+                <span type="note">I. Mumiae Aegyptiacae. (Tab. I.);</span>
+                <span type="note">Angabe auf der Tafel: „Zimmer del., Riepenh. f.“<lb/>
+                </span>
+                <span type="citedRange">S. 15-16</span>
+                <span type="note">II. Turcae. (Tab. II.)<lb/>
+                </span>
+                <span type="citedRange">S. 17</span>
+                <span type="note">III. Asiatea macrocephali. (Tab. III.)<lb/>
+                </span>
+                <span type="citedRange">S. 18</span>
+                <span type="note">IV. Casacci Donensis. (Tab. IV.)<lb/>
+                </span>
+                <span type="citedRange">S. 19-20</span>
+                <span type="note">V. Calmucci. (Tab. V.)<lb/>
+                </span>
+                <span type="citedRange">S. 21-23</span>
+                <span type="note">VI. VII. VIII. Aethiopum. (Tab. VI. VII. VIII.);</span>
+                <span type="note">Tafelbezeichnungen „VI. Aethiopis 1mi“, „VII. Aethiopis 2di“, „VIII. Aethiopis 3tii“<lb/>
+                </span>
+                <span type="citedRange">S. 24-25</span>
+                <span type="note">IX. Indi Americae septentrionalis. (Tab. IX.)<lb/>
+                </span>
+                <span type="citedRange">S. 26-30</span>
+                <span type="note">X. Caribaei ex insula Scti Vincentii. (Tab. X.);</span>
+                <span type="note">abweichende Orthographie der Tafelbezeichnung „X. Caribaei ex ins. Sti Vincentii“</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

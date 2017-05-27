@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: I. Museum anatomicum academiae Lugduno-Batavae descriptum ab Eduardo Sandifort. Lugd. Batav. apud S. et J. Luchtmans. 1793. – Vol. I. 312 S. und IX Kupfertafeln. – Vol. II. 122 S. mit CXXVII Kupfertafeln in Imperial-Folio</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_01079.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/MedBiblIII4-Sandifort/MedBiblIII4-Sandifort.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: I. Museum anatomicum academiae Lugduno-Batavae descriptum ab Eduardo Sandifort. Lugd. Batav. apud S. et J. Luchtmans. 1793. – Vol. I. 312 S. und IX Kupfertafeln. – Vol. II. 122 S. mit CXXVII Kupfertafeln in Imperial-Folio</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Medicinische Bibliothek <metamark>
+                                <pc unit="slash"/>
+                            </metamark> hrsg. von Joh. Friedr. Blumenbach</title>
+                        <imprint>
+                            <publisher>
+                                <name>Dieterich</name>
+                            </publisher>
+                            <pubPlace>Göttingen</pubPlace>
+                            <date type="publication" when="1795-01-01">1795</date>
+                        </imprint>
+                        <biblScope>Bd. 3, 4. Stück (1795)</biblScope>
+                    </monogr>
+                    <citedRange>S. 557-565</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 MED EPH 142">8 MED EPH 142</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00960.01">04026</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4.29</idno>Medicinische Bibliothek</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="01079">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e81075_01079">
+                <span type="note">Anonyme Rezension von</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Mvsevm anatomicvm academiae Lvgdvno-Batavae <metamark>
+                        <pc unit="slash"/>
+                    </metamark> Descriptvm ab Edvardo Sandifort</span>
+                <span type="edition">Vol. 1 und 2. Lvgdvni Batavorvm apvd S. et J. Lvchtmans academiae typographos, 1793</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="repository">SUB Göttingen</span>
+                <span type="idno" n="2 ZOOL XI 2440">2 ZOOL XI, 2440</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">
+                    <lb/>Für Blumenbachs Verfasserschaft spricht eine Bemerkung auf S. 557-558 der Rezension: „Von der großen Genauigkeit und Treue dieser Abbildungen habe ich mich vor drey Jahren bey einem kurzen Aufenthalte in Leiden selbst überzeugt, <gap reason="ellipsis"/>.“<lb/>
+                </span>
+                <span type="note">Blumenbach besuchte auf seiner England-Reise (Nov. 1791–Apr. 1792) im Nov. 1791 verschiedene niederländische Städte, darunter vielleicht auch Leiden. Erste Abbildungen zu Sandiforts Tafelwerk haben damals bereits existiert, vgl.Brief von Rudolph Forsten an Blumenbach vom 20. Aug. 1793</span>
+                <span type="note">(„… ik zag voorleeden Jaar [= 1791] reets by de Heer Sandifort eenige plaaten daar toe behoorende …“) Dougherty,</span>
+                <span type="title" style="j">Correspondence</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 4</span>
+                <span type="citedRange">S. 286 Brief Nr. 819)</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Von Blumenbach stammt außerdem eine Rezension des Werks in</span>
+                <span type="title" style="j">GAgS</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1793 (148. Stück, 16. Sept.)</span>
+                <span type="citedRange">S. 1481-1485</span>
+                <span type="reference">00354</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

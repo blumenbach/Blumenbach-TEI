@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">De vi vitali sanguini neganda vita autem propria solidis quibusdam corporis humani partibus adserenda curae iteratae : quibus septenis medicinae candidatis dignissimus post habita academicarum disputationum specimium autumno a. pr. summos honores rite collatos esse indicit Ordinis Medici tunc Temp. Decanus Jo. Frid. Blumenbach <gap reason="ellipsis"/>
+                </title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00127.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="anm">(Auch Nr. 24 in Sammelband Academica Goettingensia 1795;</note>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000127/00127.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">De vi vitali sanguini neganda vita autem propria solidis quibusdam corporis humani partibus adserenda curae iteratae : quibus septenis medicinae candidatis dignissimus post habita academicarum disputationum specimium autumno a. pr. summos honores rite collatos esse indicit Ordinis Medici tunc Temp. Decanus Jo. Frid. Blumenbach <gap reason="ellipsis"/>&#160;</title>
+                        <imprint>
+                            <publisher>
+                                <name>Typis Jo. Christ. Dieterich</name>
+                            </publisher>
+                            <pubPlace>Gottingae</pubPlace>
+                            <date type="publication" when="1795-01-01">1795</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 ZOOL XIII, 5085">8 ZOOL XIII, 5085</idno>
+                        <altIdentifier>
+                            <repository>SUB Göttingen</repository>
+                            <idno>4 HLP IV, 26/5:1795 (24))</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>28 S.<dimensions>
+                                        <dim>25 cm (4°)</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00127.00">00127</classCode>
+                <classCode scheme="cat">
+                    <idno>I</idno>Selbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>I.9</idno>Kleinere Schriften</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00127">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e11670_00127">
+                <span type="note">Einladungsschrift zur Promotionsfeier von Julius Leopold Friedrich Zincken, gen. Sommer, Karl Himly, Christ. Theoph. Steinecke, G. Justus Friedrich Nöldecke, Anselm Wolff, Friedrich Ludwig Andreas Koeler</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Siehe Erwähnung des Drucks in</span>
+                <span type="title" style="j">GAgS</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1795 (208. Stück, 28. Dezember)</span>
+                <span type="citedRange">S. 2081-2084; „Göttingen“</span>
+                <span type="reference">00372</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Nachdruck von S. [2]-17 in</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Sylloge opusculorum selectorum ad praxim praecipue medicam spectantium : cum tabula aenea <metamark>
+                        <pc unit="slash"/>
+                    </metamark> In auditorium commodum collegit, annotationibus hinc inde auxit, &amp; recudi curavit <gap reason="ellipsis"/>
+                </span>
+                <span type="persName">Valerianus Aloysius Brera <gap reason="ellipsis"/>
+                </span>
+                <span type="edition">Bd. 1</span>
+                <span type="pubPlace">Ticini</span>
+                <span type="publisher">Apud Haeredes Petri Galeatii</span>
+                <span type="date">Anno I. Reip. Cisalpinae (1797)</span>
+                <span type="reference">00176</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Deutsche Übersetzung von S. [3]-17 als „Joh. Friedr. Blumenbach’s nochmalige Untersuchungen über den Ungrund der Meinung, daß das Blut Lebenskraft besitze, und das Daseyn eines eigenthümlichen Lebens in gewissen festen Theilen des menschlichen Körpers“ in</span>
+                <span type="title" style="j">Journal der Erfindungen, Theorien und Widersprueche in der Natur- und Arzneiwissenschaft</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 4 (1796), 16. Stück</span>
+                <span type="citedRange">S. [5]-28</span>
+                <span type="reference">00806</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="msDesc">(Auch Nr. 24 in Sammelband Academica Goettingensia 1795; SUB Göttingen: 4 HLP IV, 26/5:1795 (24))</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Johann Heinrich Wilhelm Tischbein sendet Blumenbach ein eigenes Abbildungswerk zur vergleichenden Physiognomik von Menschen und Tieren und berichtet über dessen Entstehung. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Heinrich Wilhelm</forename>
+                        <surname>Tischbein</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1082.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung"/>
+                <note type="Drucke">
+                    <bibl>Alten, <emph>Aus Tischbein’s Leben</emph> (1872), S. 150–152, mit markierten Auslassungen; Abschrift, datiert auf 1800 und möglicherweise mit einer der im Druck bei Alten (1872) ausgelassenen Passagen, Braunschweig, Stadtarchiv H III 3: 228.</bibl>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> V, S. 382–383 Nr. 1234.<ptr target="ref_d1e110913_01098"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="1271" xml:id="ref_d1e110913_01098">http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=398</ref>
+                    <rs type="pdf">Corresp. V, S. 382–383 Nr. 1234 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Johann Heinrich Wilhelm Tischbein sendet Blumenbach ein eigenes Abbildungswerk zur vergleichenden Physiognomik von Menschen und Tieren und berichtet über dessen Entstehung. </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Heinrich Wilhelm</forename>
+                                <surname>Tischbein</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1799-06-01" when="1799-06-01" where="#orgplc_1082">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1799-06-01">[1799, vor Juni 1]
+                                        <precision precision="unknown"/>
+                                    </date>
+                                </note>
+                            </event>
+                        </listEvent>
+                        <listEvent>
+                            <event type="iso-origin-na" notAfter="1799-06-01" where="#orgplc_1082">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum (not after):</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1799-06-01">[1799, vor Juni 1]
+                                        </date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1082">Neapel</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01082.00">
+                    <idno>1082</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

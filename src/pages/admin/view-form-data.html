@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page.html" data-template-at="main">
+    <script type="text/javascript" src="../resources/scripts/form-list.js"/>
+    <div class="col-md-12 col-xs-12">
+        <h3>Transform Form Data</h3>
+        <hr/>
+        <div id="content" class="row">
+            <h4>Briefe</h4>
+            <table id="brief-list" class="display">
+                <thead>
+                    <tr>
+                        <th class="col-sm-1">ID</th>
+                        <th class="col-sm-6">Title</th>
+                        <th class="col-sm-2">Modified</th>
+                        <th class="col-sm-1">TEI</th>
+                        <th class="col-sm-2">Actions</th>
+                    </tr>
+                </thead>
+                <tbody data-template="list-forms:briefe"/>
+            </table>
+            <h4>Werke</h4>
+            <table id="werk-list" class="display">
+                <thead>
+                    <tr>
+                        <th class="col-sm-1">ID</th>
+                        <th class="col-sm-6">Title</th>
+                        <th class="col-sm-2">Modified</th>
+                        <th class="col-sm-1">TEI</th>
+                        <th class="col-sm-2">Actions</th>
+                    </tr>
+                </thead>
+                <tbody data-template="list-forms:werke"/>
+            </table>
+            <h4>Taxons</h4>
+            <table id="taxon-list" class="display">
+                <thead>
+                    <tr>
+                        <th class="col-sm-1">ID</th>
+                        <th class="col-sm-6">Title</th>
+                        <th class="col-sm-2">Modified</th>
+                        <th class="col-sm-1">TEI</th>
+                        <th class="col-sm-2">Actions</th>
+                    </tr>
+                </thead>
+                <tbody data-template="list-forms:taxons"/>
+            </table>
+        </div>
+    </div>
+</div>

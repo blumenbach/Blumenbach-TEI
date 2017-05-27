@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <title class="config:app-title">Blumenbach Datenbank</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta class="config:app-meta"/>
+        <link class="config:doc-styles"/>
+        <script class="config:app-scripts"/>    
+    </head>
+    <body id="grey-top">
+        <div class="grey-bot">
+            <div class="container" id="main-container">
+                <div class="row">
+                    <div class="col-md-12" id="header">
+                        <a href="/" id="logo">Blumenbach Datenbank</a>
+                    </div>
+                </div>
+                <div data-template="templates:include" data-template-path="templates/navbar.html"/>
+                    <div id="content" class="col-md-12"/>
+                    
+                <div class="col-md-12" id="footer">
+                    <div id="copyright">
+                        <ul>
+                            <li>
+                                <a href="http://adw-goe.de/startseite/">Akademie der Wissenschaften zu Göttingen</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('.form-group[data-toggle="tooltip"]').tooltip({container: 'body'});
+            });
+        </script>
+    </body>
+</html>

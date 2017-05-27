@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">kleine Schriften zur vergleichenden Physiologie und Anatomie und zur Naturgeschichte gehörig : mit einem Kupfer <metamark>
+                        <pc unit="slash"/>
+                    </metamark> aus dem Lateinischen übersezt [sic] von D. J. G. Gruber</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00149.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000149/00149.pdf</ref>
+                </note>
+                <note type="ref">
+                    <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000149/000149.html</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">kleine Schriften zur vergleichenden Physiologie und Anatomie und zur Naturgeschichte gehörig : mit einem Kupfer <metamark>
+                                <pc unit="slash"/>
+                            </metamark> aus dem Lateinischen übersezt [sic] von D. J. G. Gruber</title>
+                        <title level="m" type="aut">*Johann Friedrich Blumenbachs, <gap reason="ellipsis"/>
+                        </title>
+                        <edition>Zweite Ausgabe</edition>
+                        <imprint>
+                            <publisher>
+                                <name>In der Sommerschen Buchhandlung</name>
+                            </publisher>
+                            <pubPlace>Leipzig</pubPlace>
+                            <date type="publication" when="1804-01-01">1804</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Universitätsbibliothek Erlangen-Nürnberg</repository>
+                        <idno n="H00/N.MED-II 3">H00/N.MED-II 3</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>VI, 170 S., [1] Bl. : 1 Ill. (Kupferst.)<dimensions>
+                                        <dim>21 cm (8°)</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc>no autopsy</desc>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00149.00">00149</classCode>
+                <classCode scheme="cat">
+                    <idno>I</idno>Selbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>I.12</idno>Sammelwerk</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00149">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e13981_00149">
+                <span type="note">Enthält offenbar die gleichen Beiträge mit der gleichen Paginierung wie die Ausgabe Leipzig : Bei G. Benj. Meissner, 1800</span>
+                <span type="reference">00148</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">In der Rezension dieses Bandes in der</span>
+                <span type="title" style="j">Jenaischen allgemeinen Literatur-Zeitung</span>
+                <span type="note">vom</span>
+                <span type="biblScope">17. November 1809 (Sp. 321-325)</span>
+                <span type="note">wird geäußert, dass es sich hier keineswegs um eine neue Auflage handele: „Denn der eilfte Bogen, auf welchem die fünf letzten Seiten des Textes, ein Bücherverzeichnis der sommerschen Buchhandlung, das Titelblatt und die Vorrede stehen, ist offenbar von anderem und neuerem Druck, als die ersten zehn Bogen, und man kennt ja auch schon die löbliche Manier des Hn. M. Sommer, alte Bücher durch einen neuen Titel zu verjüngen.“</span>
+                <span type="title" style="j">ibid.</span>
+                <span type="citedRange">Sp. 324</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Der Rezensent bemängelt auch die geringe Qualität von Grubers Übersetzung, ibid., Sp. 324: „[…] es wäre nicht übel gewesen, wenn er die deutsche und lateinische Sprache studirt hätte, ehe er sich zu dieser Arbeit entschloss.“</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Siehe auch Kommentar zu</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">D. Joh. Friedr. Blumenbach <gap reason="ellipsis"/> über die natürlichen Verschiedenheiten im Menschengeschlechte: mit Kupfern <metamark>
+                        <pc unit="slash"/>
+                    </metamark> Nach der dritten Ausgabe und den Erinnerungen des Verfassers übersetzt, und mit einigen Zusätzen und erläuternden Anmerkungen herausgegeben von Johann Gottfried Gruber <gap reason="ellipsis"/>
+                </span>
+                <span type="pubPlace">Leipzig</span>
+                <span type="publisher">Bey Breitkopf und Härtel</span>
+                <span type="date">1798</span>
+                <span type="reference">00008</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

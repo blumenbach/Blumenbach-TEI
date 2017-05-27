@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Samuel-August-André-David Tissot weist Blumenbach auf Ärzte und Mediziner hin, die in Blumenbachs Introductio in historiam medicinae litterariam (1786) nicht erscheinen und seiner Ansicht nach in einer eventuellen zweiten Auflage von genannt werden sollten. </title>
+                <author>
+                    <persName>
+                        <forename>Samuel-August-André-David</forename>
+                        <surname>Tissot</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0323.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Leipzig, Universitätsbibliothek, Sammlung Kestner II C IX, 62. </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> III, S. 35 Nr. 0417.<ptr target="ref_d1e31007_00327"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Werke">
+                    <bibl>
+                        <relatedItem>
+                            <bibl>
+                                <emph>Introductio in historiam medicinae litterariam</emph> (1786, Bibliographie Nr. 00142).<ptr target="ref_d1e31008_003275"/>
+                            </bibl>
+                        </relatedItem>
+                    </bibl>
+                    <title level="m" type="bibl">Introductio in historiam medicinae litterariam</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="134" xml:id="ref_d1e31007_00327">http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=53</ref>
+                    <rs type="pdf">Corresp. III, S. 35 Nr. 0417 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="135" xml:id="ref_d1e31008_003275">./view-work.html?id=00142</ref>
+                    <rs type="html">00142 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Samuel-August-André-David Tissot weist Blumenbach auf Ärzte und Mediziner hin, die in Blumenbachs <emph>Introductio in historiam medicinae litterariam</emph> (1786) nicht erscheinen und seiner Ansicht nach in einer eventuellen zweiten Auflage von genannt werden sollten. </title>
+                        <title level="m" type="bibl">Introductio in historiam medicinae litterariam</title>
+                        <author>
+                            <persName>
+                                <forename>Samuel-August-André-David</forename>
+                                <surname>Tissot</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1786-06-16" when="1786-06-16" where="#orgplc_0323">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1786-06-16">1786, Juni 16</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0323">Lausanne</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0323.00">0327<idno>0323</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

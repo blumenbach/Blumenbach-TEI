@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Georg Christoph Lichtenberg sendet Blumenbach ein geliehenes Buch zurück, bittet um die leihweise Überlassung eine Gesteinsprobe und fragt, ob bekannt sei, weshalb einige Meeressäugetiere sowohl über als unter Wasser scharf sehen können. </title>
+                <author>
+                    <persName>
+                        <forename>Georg Christoph </forename>
+                        <surname>Lichtenberg</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0097.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826. </note>
+                <note type="Drucke">
+                    <bibl>Leitzmann, <emph>Lichtenbergs Briefe an Blumenbach</emph> (1921), Nr. 14; Lichtenberg, <emph>Briefwechsel</emph>, Bd. 2 (1985), Nr. 730, S. 105–106.</bibl>
+                    <title level="m" type="bibl">Lichtenbergs Briefe an Blumenbach</title>
+                    <title level="m" type="bibl">Briefwechsel</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> I, S. 210 Nr. 0134.</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">„Lowitzischer Thonschiefer“ (Geschenk, vermittelt durch Baron Asch)</rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Georg Christoph Lichtenberg sendet Blumenbach ein geliehenes Buch zurück, bittet um die leihweise Überlassung eine Gesteinsprobe und fragt, ob bekannt sei, weshalb einige Meeressäugetiere sowohl über als unter Wasser scharf sehen können. </title>
+                        <author>
+                            <persName>
+                                <forename>Georg Christoph </forename>
+                                <surname>Lichtenberg</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich </forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1780-09-15" when="1780-09-15" where="#orgplc_0097">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1780-09-15">1780, Sept. (Mitte)</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0097">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0097.00">0098<idno>0097</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">*On the natural varieties of mankind. De generis humani varietate nativa <metamark>
+                        <pc unit="slash"/>
+                    </metamark>
+                </title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00011.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">*On the natural varieties of mankind. De generis humani varietate nativa <metamark>
+                                <pc unit="slash"/>
+                            </metamark>
+                        </title>
+                        <title level="m" type="ed">Translated and edited from the Latin, German, and French originals, by Thomas Bendyshe</title>
+                        <imprint>
+                            <publisher>
+                                <name>Bergman Publishers</name>
+                            </publisher>
+                            <pubPlace>New York</pubPlace>
+                            <date type="publication" when="1969-01-01">[1969]</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Washington (DC), Library of Congress</repository>
+                        <idno n="GN34 .B58 1969">GN34 .B58 1969</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>XIV, 406 S. : Ill.<dimensions>
+                                        <dim>24 cm (8°)</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00011.00">00011</classCode>
+                <classCode scheme="cat">
+                    <idno>I</idno>Selbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>I.1</idno>De Generis Humani Varietate</classCode>
+                <classCode scheme="cat">
+                    <idno>I.1.2</idno>Übersetzungen</classCode>
+                <classCode scheme="cat">
+                    <idno>I.1.2.2</idno>Englisch</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00011">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e1202_00011">
+                <span type="note">Nachdruck der Ausgabe</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">The anthropological treatises of Johann Friedrich Blumenbach <gap reason="ellipsis"/> with memoirs of him by Marx and Flourens, and an account of his anthropological museum by <gap reason="ellipsis"/> R. Wagner, and the inaugural dissertation of John Hunter <gap reason="ellipsis"/> on the varieties of man <metamark>
+                        <pc unit="slash"/>
+                    </metamark> Translated and edited from the Latin, German, and French originals, by Thomas Bendyshe <gap reason="ellipsis"/>
+                </span>
+                <span type="pubPlace">London</span>
+                <span type="publisher">Longman, Green, Longman, Roberts, &amp; Green</span>
+                <span type="date">1865</span>
+                <span type="reference">00010</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Auszug aus Abschnitt 3<metamark>
+                        <pc unit="point"/>
+                    </metamark>
+                </span>
+                <span type="title" style="m">„On the natural variety of mankind“<metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope" style="m">ed. 1775</span>
+                <span type="citedRange">S. 98-113</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="note">abgedruckt als</span>
+                <span type="title" style="a">„On the Natural Varieties of Mankind“</span>
+                <span type="note">in</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Race, racism, and science : social impact and interaction <metamark>
+                        <pc unit="slash"/>
+                    </metamark> John P. Jackson and Nadine M. Weidman</span>
+                <span type="pubPlace">New Brunswick, NJ [u.a.]</span>
+                <span type="publisher">Rutgers Univ. Press</span>
+                <span type="date">2006<metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="citedRange">S. 256-268</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

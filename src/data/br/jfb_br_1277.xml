@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach berichtet Franz Xaver von Zach u. a. von dem Göttingen-Aufenthalt J. E. Jacobsens, des zeitweiligen Reisebegleiters von Jasper Ulrich Seetzen auf dessen Orient-Expedition, und über Stationen dieser Expedition. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1277.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung"/>
+                <note type="Drucke">
+                    <bibl>Auszug in <emph>Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde</emph>, Bd. 9 (März 1804), S. 262–264 („XXVIII. Aus einem Schreiben des Pfarrers P. U. Seetzen“, Bibliographie Nr. 00974)<ptr target="ref_d1e130964_01294"/>, hier in Anm. auf S. 262–263.</bibl>
+                    <title level="m" type="bibl">Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Werke">
+                    <bibl>
+                        <relatedItem>
+                            <bibl>Brieftext verwendet in Bibliographie Nr. 00974<ptr target="ref_d1e130964_01294"/> (siehe „Dr.“)</bibl>
+                        </relatedItem>
+                    </bibl>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1536" xml:id="ref_d1e130964_01294">./view-work.html?id=00974</ref>
+                    <rs type="html">00974 </rs>
+                </note>
+                <note type="Anmerkung">
+                    <note>Die Datierungsgrenzen ergeben sich aus dem Datum des Göttingenaufenthalt J. E. Jacobsens ab dem 23. Dez. 1803 und aus dem Erscheinungsdatum von Bd. 9 der <emph>Monatlichen Correspondenz zur Beförderung der Erd- und Himmelskunde</emph>.</note>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach berichtet Franz Xaver von Zach u. a. von dem Göttingen-Aufenthalt J. E. Jacobsens, des zeitweiligen Reisebegleiters von Jasper Ulrich Seetzen auf dessen Orient-Expedition, und über Stationen dieser Expedition. </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich</forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Franz Xaver von </forename>
+                    <surname>Zach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1803-12-23" when="1803-12-23" where="#orgplc_1277">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1803-12-23">nach 1803, Dez. 23/ vor 1804, März</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                        <listEvent>
+                            <event type="iso-origin-nb" notBefore="1803-12-23" where="#orgplc_1277">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum (not before):</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1803-12-23">nach 1803, Dez. 23/ vor 1804, März</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                        <listEvent>
+                            <event type="iso-origin-na" notAfter="1804-03-01" where="#orgplc_1277">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum (not after):</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1804-03-01">nach 1803, Dez. 23/ vor 1804, März</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1277">[Göttingen]</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01277.00">
+                    <idno>1277</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

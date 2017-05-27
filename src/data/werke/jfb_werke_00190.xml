@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: Jo. Frid. Blumenbachii specimen historiae naturalis antiquae artis operibus illustratae eaque vicissim illustrantis recitatum in solemni consessu anniversario Soc. Reg. Scient. d. XIX. Nov. MDCCCIII</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00190.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000190/00190.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: Jo. Frid. Blumenbachii specimen historiae naturalis antiquae artis operibus illustratae eaque vicissim illustrantis recitatum in solemni consessu anniversario Soc. Reg. Scient. d. XIX. Nov. MDCCCIII</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Commentationes Societatis Regiae Scientiarum Gottingensis</title>
+                        <imprint>
+                            <publisher>
+                                <name>Dieterich</name>
+                            </publisher>
+                            <pubPlace>Gottingae</pubPlace>
+                            <date type="publication" when="1808-01-01">1808</date>
+                        </imprint>
+                        <biblScope>Bd. XVI (1808), Phys.</biblScope>
+                    </monogr>
+                    <citedRange>S. 169-198, 2 Ill. (Kupferst.)</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="4 PHYS MATH IV, 356">4 PHYS MATH IV, 356</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00190.00">00190</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3</idno>Publikationsorgane der Königlichen Gesellschaft der Wissenschaften zu Göttingen</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3.1.1</idno>Commentationes Societatis Regiae Scientiarum Gottingensis</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00190">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e17419_00190">
+                <span type="note">Auch als Sonderdruck:</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Jo. Frid. Blumenbachii <gap reason="ellipsis"/> specimen historiae naturalis antiquae artis operibus illustratae eaque vicissim illustrantis</span>
+                <span type="pubPlace">Goettingae</span>
+                <span type="publisher">Apud Henricum Dieterich</span>
+                <span type="date">MDCCCVIII</span>
+                <span type="reference">00129</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Siehe auch Bericht zum Vortrag vor der Societät in</span>
+                <span type="title" style="j">GgA</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1803 (198. Stück, 10. Dezember)</span>
+                <span type="citedRange">S. 1969-1975; „Göttingen“</span>
+                <span type="reference">00450</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Auszug (S. 194-195) in deutscher Übersetzung in</span>
+                <span type="title" style="j">Taschenbuch für die gesammte Mineralogie mit Hinsicht auf die neuesten Entdeckungen</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">6. Jg. (1812)</span>
+                <span type="citedRange">S. 353-356</span>
+                <span type="reference">00996</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

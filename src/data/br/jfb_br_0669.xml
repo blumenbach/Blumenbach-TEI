@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach berichtet Christiaan Paulus Schacht über seine Experimente zur tierischen Elektrizität. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0669.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung"/>
+                <note type="Drucke">
+                    <bibl>Auszug in Algemene konst- en letter-bode, Jg. 1793, Nr. 239 (25. Jan. 1793), S. 26 („Uitreksel enes Briefs von den Hofraad en Hoogl. Blumenbach, te Göttingen, aan den Hoogleeraar Chr. P. Schacht, te Harderwyk: betreffende de Dierlyke Elektriciteit“, Bibliographie Nr. 03005).<ptr target="ref_d1e67083_00675"/>
+                    </bibl>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Nicht enthalten in Dougherty, <emph>Corresp.</emph> IV.</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Werke">
+                    <bibl>
+                        <relatedItem>
+                            <bibl>Brieftext verwendet in Bibliographie Nr. 03005<ptr target="ref_d1e67083_00675"/> (siehe „Dr.“).</bibl>
+                        </relatedItem>
+                    </bibl>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="626" xml:id="ref_d1e67083_00675">./view-work.html?id=03005</ref>
+                    <rs type="html"/>
+                </note>
+                <note type="Anmerkung">
+                    <note>Druck ohne Datumsangabe, Datierungsgrenze ergibt sich aus dem Erscheinungsdatum der Zeitschrift.</note>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach berichtet Christiaan Paulus Schacht über seine Experimente zur tierischen Elektrizität. </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich</forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Christiaan Paulus</forename>
+                    <surname>Schacht</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1793-01-23" when="1793-01-23" where="#orgplc_0669">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1793-01-23">vor 1793, Jan. 25</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                        <listEvent>
+                            <event type="iso-origin-na" notAfter="1793-01-23" where="#orgplc_0669">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum (not after):</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1793-01-23">vor 1793, Jan. 25</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0669">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0669.00">0675<idno>0669</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

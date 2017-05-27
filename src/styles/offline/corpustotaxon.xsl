@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:saxon="http://saxon.sf.net/" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" extension-element-prefixes="saxon" version="2.0" xpath-default-namespace="http://www.tei-c.org/ns/1.0">
+    <xsl:strip-space elements="*"/>
+    <xsl:output method="xml" indent="yes"/>
+    <xsl:variable name="count" select="0" saxon:assignable="yes"/>
+    <xsl:template match="/">
+        <xsl:for-each select="teiCorpus/TEI">
+            <saxon:assign name="count" select="$count+1"/>
+            <xsl:variable name="filename" select="concat('jfb_werke_taxon_',concat(format-number($count, '000'),'.xml'))"/>
+            <xsl:value-of select="$filename"/>
+            <xsl:result-document href="{$filename}">
+                <xsl:copy-of select="."/>
+            </xsl:result-document>
+        </xsl:for-each>
+    </xsl:template>
+</xsl:stylesheet>

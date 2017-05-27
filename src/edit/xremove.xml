@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xupdate:modifications xmlns:xupdate="http://www.xmldb.org/xupdate" xmlns:tei="http://www.tei-c.org/ns/1.0" version="1.0">
+    <xupdate:remove select="//tei:note[@type='ref']/tei:rs[@type='obj']"/>
+</xupdate:modifications>

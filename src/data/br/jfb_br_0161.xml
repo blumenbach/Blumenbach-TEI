@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Das Geheime Ratskollegium in Hannover benachrichtigt (Christian Gottlob Heyne und) Blumenbach von dem bevorstehenden Eintreffen weiterer Südsee-Objekte für das Academische Museum der Universität Göttingen. </title>
+                <author>
+                    <persName>Geheimes Ratskollegium
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0161.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Göttingen, Inst. für Ethnologie und Ethnologische Sammlung, Archiv, Erwerbungen. </note>
+                <note type="Drucke">
+                    <bibl>Auszüge in Urban, Manfred, „The Acquisition History of the Göttingen Collection“, in Hauser-Schäublin und Krüger, <emph>James Cook</emph> (1998), S. 61.</bibl>
+                    <title level="m" type="bibl">James Cook</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> I, S. 340 Nr. 0217.</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Werke">
+                    <bibl>
+                        <relatedItem>
+                            <bibl>Im Sommer 1782 zusätzlich erworbene Südsee-Objekte für das Academische Museum; ein im Brief als beiliegend erwähntes Verzeichnis laut Dougherty, <emph>Corresp.</emph> nicht ermittelbar. </bibl>
+                        </relatedItem>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Das Geheime Ratskollegium in Hannover benachrichtigt (Christian Gottlob Heyne und) Blumenbach von dem bevorstehenden Eintreffen weiterer Südsee-Objekte für das Academische Museum der Universität Göttingen. </title>
+                        <author>
+                            <persName>Geheimes Ratskollegium
+                    </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Christian Gottlob</forename>
+                    <surname>Heyne</surname>
+                </persName>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1782-09-18" when="1782-09-18" where="#orgplc_0161">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1782-09-18">1782, Sept. 18</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0161">Hannover</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0161.00">0162<idno>0161</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

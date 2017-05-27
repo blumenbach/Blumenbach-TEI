@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Ernst II. von Sachsen-Gotha und Altenburg begründet Blumenbach seine Zweifel an der Existenz vorsätzlicher Schädeldeformation bei Kleinkindern unter anderem bei den Türken und berichtet von einer in Gotha eingetroffenen ägyptischen Mumie. </title>
+                <author>
+                    <persName>
+                        <forename>Ernst II. von</forename>
+                        <surname>Sachsen-Gotha und Altenburg</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0485.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 1 (Ernst II. Nr. 3). </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> III, S. 277 Nr. 0590.<ptr target="ref_d1e48123_00489"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Ägyptische Mumie, 1810 aus Gotha nach Göttingen geschenkt, vgl. Blumenbachs hs. Verzeichnis seiner Sammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, IV, fol. 2r und  Beyträge zur Naturgeschichte. Zweyter Theil (1811), S. 51. Zur Identifikation vgl. Spengel, <emph>Anthropologische Sammlung</emph>, S. 55 ad 426: „Ägyptische Mumie. […] Geschenk des Herzogs zu Coburg-Gotha und seines Bruders des Prinzen Friedrich.“</rs>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="372" xml:id="ref_d1e48123_00489">http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=295</ref>
+                    <rs type="pdf">Corresp. III, S. 277 Nr. 0590 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="373" xml:id="ref_d1e48121_00489">http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553</ref>
+                    <rs type="html">Spengel, Anthropologische Sammlung </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Ernst II. von Sachsen-Gotha und Altenburg begründet Blumenbach seine Zweifel an der Existenz vorsätzlicher Schädeldeformation bei Kleinkindern unter anderem bei den Türken und berichtet von einer in Gotha eingetroffenen ägyptischen Mumie. </title>
+                        <author>
+                            <persName>
+                                <forename>Ernst II. von</forename>
+                                <surname>Sachsen-Gotha und Altenburg</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1789-12-24" when="1789-12-24" where="#orgplc_0485">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1789-12-24">1789, Dez. 24</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0485">Gotha</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0485.00">0489<idno>0485</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach sendet Joseph Willard das Diplom über dessen Ernennung zum korrespondierenden Mitglied der Akademie der Wissenschaften zu Göttingen und ein Exemplar seiner Publikation De vi vitali sanguini neganda (1795). </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0821.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Boston, Massachusetts, Boston Athenaeum; American Academy of Arts and Sciences, Letters II (1792–1803), 38; Abdruck des Textes von der Bostoner Akademie nicht genehmigt. </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> IV, S. 485 Nr. 0958.<ptr target="ref_d1e82644_00829"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Werke">
+                    <bibl>
+                        <relatedItem>
+                            <bibl>
+                                <emph>De vi vitali sanguini neganda</emph> (1795; Bibliographie Nr. 00127).<ptr target="ref_d1e82642_00829"/>
+                            </bibl>
+                        </relatedItem>
+                    </bibl>
+                    <title level="m" type="bibl">De vi vitali sanguini neganda</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="861" xml:id="ref_d1e82644_00829">http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=497</ref>
+                    <rs type="pdf">Corresp. IV, S. 485 Nr. 0958 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="862" xml:id="ref_d1e82642_00829">./view-work.html?id=00127</ref>
+                    <rs type="html">00127 </rs>
+                </note>
+                <note type="Anmerkung">
+                    <note>Inhalt aus Anm.-Apparat in Dougherty, <emph>Corresp.</emph> IV, Nr. 0958 erschlossen. </note>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach sendet Joseph Willard das Diplom über dessen Ernennung zum korrespondierenden Mitglied der Akademie der Wissenschaften zu Göttingen und ein Exemplar seiner Publikation <emph>De vi vitali sanguini neganda</emph> (1795). </title>
+                        <title level="m" type="bibl">De vi vitali sanguini neganda</title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich</forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Joseph</forename>
+                    <surname>Willard</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1795-11-29" when="1795-11-29" where="#orgplc_0821">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1795-11-29">1795, Nov. 29</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0821">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0821.00">0829<idno>0821</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

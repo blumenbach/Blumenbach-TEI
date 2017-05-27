@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">de nisu formativo et generationis negotio nuperae observationes : accedunt tabulae aeneae</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00054.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000054/00054.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">de nisu formativo et generationis negotio nuperae observationes : accedunt tabulae aeneae</title>
+                        <title level="m" type="aut">D. Jo. Frid. Blumenbachii <gap reason="ellipsis"/>
+                        </title>
+                        <imprint>
+                            <publisher>
+                                <name>Apud Jo. Christ. Dieterich</name>
+                            </publisher>
+                            <pubPlace>Gottingae</pubPlace>
+                            <date type="publication" when="1807-01-01">MDCCLXXXVII</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 ZOOL III, 720">8 ZOOL III, 720</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>XXXII S., II gef. Bl. : 2 Ill. (Kupferst.)<dimensions>
+                                        <dim>25 cm (8°)</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00054.00">00054</classCode>
+                <classCode scheme="cat">
+                    <idno>I</idno>Selbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>I.3</idno>De Nisu Formativo – Über den Bildungstrieb</classCode>
+                <classCode scheme="cat">
+                    <idno>I.3.1</idno>Originalausgaben</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00054">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e4875_00054">
+                <span type="note">Sonderdruck des Beitrags „Jo. Frid. Blumenbachii de nisu formativo et generationis negotio nuperiores observationes recitatae d. XXIV. Decemb. MDCCLXXXV“, in</span>
+                <span type="title" style="j">Commentationes Societatis Regiae Scientiarum Gottingensis</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. VIII (1787), Phys.</span>
+                <span type="citedRange">S. 41-68</span>
+                <span type="reference">00181</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Widmungsempfänger: Johannes Gessner</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Angezeigt von Blumenbach in</span>
+                <span type="title" style="j">GAgS</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1787 (26. Stück, 15. Februar)</span>
+                <span type="citedRange">S. 249-253; „Göttingen“</span>
+                <span type="reference">00301</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Auch enthalten im Sonderdruck</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">D. Jo. Frid. Blumenbachii <gap reason="ellipsis"/> specimen physiologiae comparatae inter animantia calidi et frigidi sanguinis : Praemissae sunt de nisu formativo et generationis negotio observationes nuperae ; accedunt tabulae aeneae</span>
+                <span type="pubPlace">Gottingae</span>
+                <span type="publisher">Apud Jo. Christ. Dieterich</span>
+                <span type="date">MDCCLXXXVII</span>
+                <span type="reference">00122</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

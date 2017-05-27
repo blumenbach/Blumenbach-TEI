@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: Göttingen</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00551.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000551/00551.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: Göttingen</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Göttingische gelehrte Anzeigen [GgA]</title>
+                        <imprint>
+                            <publisher>
+                                <name>Vandenhoeck &amp; Ruprecht</name>
+                            </publisher>
+                            <pubPlace>Göttingen</pubPlace>
+                            <date type="publication" when="1813-12-27">1813, 27. Dezember</date>
+                        </imprint>
+                        <biblScope>1813 (207. Stück, 27. Dezember)</biblScope>
+                    </monogr>
+                    <citedRange>S. 2065-2068</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 EPH LIT 1607">8 EPH LIT 160/7</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00551.00">00551</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3</idno>Publikationsorgane der Königlichen Gesellschaft der Wissenschaften zu Göttingen</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3.2.2</idno>Göttingische gelehrte Anzeigen</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00551">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e44605_00551">
+                <span type="note">Blumenbachs Bericht zu seinem Vortrag vor der Societät über neue Belege für seine Theorie, dass „so viele weiland tropische Thiere, deren Reste jetzt in unsern nordlichern Zonen gegraben werden, […] einst hier einheimisch gehauset haben“, mit dem Titel „Specimen archaeologiae telluris terrarumque inprimis Hannoveranarum alterum“</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Gedruckt: „Io. Frid. Blumenbachii specimen archaeologiae telluris terrarumque inprimis Hannoveranarum alterum. Recitatum in concessu societatis anniversario d. XX. Novembr. MDCCCXIII“, in</span>
+                <span type="title" style="j">Commentationes Societatis Regiae Scientiarum Gottingensis recentiores</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. III (1816), Phys.</span>
+                <span type="citedRange">S. 3-24</span>
+                <span type="reference">00196</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Siehe auch Nachricht an die Societät in</span>
+                <span type="title" style="j">GgA</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1808 (88. Stück, 2. Juni)</span>
+                <span type="citedRange">S. 873-879; „Göttingen“</span>
+                <span type="reference">00485</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">sowie Erwähnung des Vortrags in</span>
+                <span type="title" style="j">GgA</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1813 (202. Stück, 18. Dezember)</span>
+                <span type="citedRange">S. 2009-2020; „Göttingen“</span>
+                <span type="reference">00550</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Eine von Ludwig Wilhelm Gilbert bearbeitete, überwiegend wortgleiche Version des Artikels findet sich als „Zusatz“ (ab S. 432) in dem Artikel „Ueber die fossilen Gebeine von Elephanten und Mammutsthieren, und über andere präadamitische Thier- und Pflanzen-Reste, besonders aus den Hannöverschen Landen“ in</span>
+                <span type="title" style="j">Annalen der Physik</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 15 (1813, 4. Stück)</span>
+                <span type="citedRange">S. 425-436</span>
+                <span type="reference">00777</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Eine weitere bearbeitete, leicht gekürzte, überwiegend wortgleiche Version findet sich in</span>
+                <span type="title" style="j">Taschenbuch für die gesammte Mineralogie mit Hinsicht auf die neuesten Entdeckungen</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">8. Jg. (1814)</span>
+                <span type="citedRange">S. 539-543</span>
+                <span type="reference">00997</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Der in</span>
+                <span type="title" style="j">GgA</span>
+                <span type="note">auf S. 2068 mit „Nun zu der neuerlich oft […]“ beginnende Absatz findet sich überwiegend wortgleich in dem Artikel „Aus einem Schreiben Blumenbach’s aus Göttingen vom 5. April 1810“ in</span>
+                <span type="title" style="j">Neue Jarbücher der Berg- und Hüttenkunde</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 2 (1. u. 2. Lieferung, 1811)</span>
+                <span type="citedRange">S. 276-277</span>
+                <span type="reference">00977</span>
+                <span type="note">(die ersten beiden Absätze)</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

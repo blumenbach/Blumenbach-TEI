@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">*Over de aangebooren verscheidenheid van het menschelijk geslacht : met een brief aan Sir Joseph Banks<metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                    <gap reason="ellipsis"/>
+                    <metamark>
+                        <pc unit="slash"/>
+                    </metamark>
+                </title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00020.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000020/00020.pdf</ref>
+                </note>
+                <note type="ref">
+                    <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000020/000020.html</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">*Over de aangebooren verscheidenheid van het menschelijk geslacht : met een brief aan Sir Joseph Banks<metamark>
+                                <pc unit="comma"/>
+                            </metamark>&#160;
+                            <gap reason="ellipsis"/>&#160;
+                            <metamark>
+                                <pc unit="slash"/>
+                            </metamark>
+                        </title>
+                        <title level="m" type="sub">J.F. Blumenbach <metamark>
+                                <pc unit="slash"/>
+                            </metamark>
+                        </title>
+                        <title level="m" type="ed">naar den Latijnschen derden druk vertaald door Florentius Jacobus van Maanen<metamark>
+                                <pc unit="comma"/>
+                            </metamark>&#160;
+                            <gap reason="ellipsis"/>
+                        </title>
+                        <edition>Nieuwe uitgave met platen</edition>
+                        <editor role="translator">
+                            <persName ref="http://viaf.org/viaf">Florentius Jacobus van Maanen</persName>
+                        </editor>
+                        <imprint>
+                            <publisher>
+                                <name>Bij Lodewijk van Es</name>
+                            </publisher>
+                            <pubPlace> Amsterdam</pubPlace>
+                            <date type="publication" when="1801-01-01">[nach 1801]</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository> Universiteitsbibliotheek Amsterdam</repository>
+                        <idno n="UBM: 663 E 13">UBM: 663 E 13</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <hi rend="green-md">XLIV, 274 S., [11] Bl., II gef. Bl. : 2 Ill. (Kupferst.)</hi>
+                                    <dimensions>
+                                        <dim>23 cm (8°)</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc>no autopsy</desc>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nl-NL"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation type="translation"/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00020.00">00020</classCode>
+                <classCode scheme="cat">
+                    <idno>I</idno>Selbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>I.1</idno>De Generis Humani Varietate</classCode>
+                <classCode scheme="cat">
+                    <idno>I.1.2</idno>Übersetzungen</classCode>
+                <classCode scheme="cat">
+                    <idno>I.1.2.4</idno>Niederländisch</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00020">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e2048_00020" style="n">
+                <span type="note">Trotz der Bezeichnung als "nieuwe uitg." Textkorpus identisch mit der Ausgabe Harderwijk : Johan van Kasteel</span>
+                <span type="reference">00019</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">möglicherweise aufgekaufte Restauflage mit vorgesetzten eigenen Titelblatt</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

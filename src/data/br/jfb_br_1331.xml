@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach sendet Carl August Böttiger [u. a. ein Exemplar der 8. Auflage seines Handbuchs der Naturgeschichte (1807) und bittet um die Beschaffung einer Abbildung der ägyptischen Mumien im Dresdener Augusteum und einen fossilen sog. „Madenstein“]. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1331.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Dresden, Sächsische Landesbibliothek – Staats- und Universitätsbibliothek (SLUB), Mscr. Dresd. h. 37, 4°, Bd. 14, Nr. 2; vgl. online-Handschriftenkatalog der SLUB,.<ptr target="ref_d1e136519_01348"/>
+                </note>
+                <note type="Drucke">
+                    <bibl>Auszug in Sternke, René, „Juno die Schwanzsaugerin“, in: ders. (Hg.): <emph>Böttiger-Lektüren: Die Antike als Schlüssel zur Moderne</emph>. Berlin 2012, S. 209–338, hier S. 286. </bibl>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Werke">
+                    <bibl>
+                        <relatedItem>
+                            <bibl>
+                                <emph>Handbuch der Naturgeschichte</emph>, 8. Ausgabe (1807); Bibliographie Nr. 00030).<ptr target="ref_d1e136521_01348"/>
+                            </bibl>
+                        </relatedItem>
+                    </bibl>
+                    <title level="m" type="bibl">Handbuch der Naturgeschichte</title>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1615" xml:id="ref_d1e136519_01348">http://hansopac.slub-dresden.de/</ref>
+                    <rs type="html">hansopac.slub-dresden.de </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1616" xml:id="ref_d1e136521_01348">./view-work.html?id=00030</ref>
+                    <rs type="html">00030 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach sendet Carl August Böttiger [u. a. ein Exemplar der 8. Auflage seines <emph>Handbuchs der Naturgeschichte</emph> (1807) und bittet um die Beschaffung einer Abbildung der ägyptischen Mumien im Dresdener Augusteum und einen fossilen sog. „Madenstein“]. </title>
+                        <title level="m" type="bibl">Handbuchs der Naturgeschichte</title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich</forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Carl August</forename>
+                    <surname>Böttiger</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1807-04-14" when="1807-04-14" where="#orgplc_1331">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1807-04-14">1807, Apr. 14</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1331">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01331.00">
+                    <idno>1331</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

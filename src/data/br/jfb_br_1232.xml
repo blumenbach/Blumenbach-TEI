@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach dankt Joseph Banks für die am selben Tag eingetroffene Guanchen-Mumie von den Kanarischen Inseln und leitet einen Brief von Franz Xaver von Zach an Banks weiter. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1232.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">London, British Library, Add MS 8099, fol. 142.</note>
+                <note type="Drucke">
+                    <bibl>Chambers, <emph>Scientific correspondence of Sir Joseph Banks</emph>, Bd. 5 (2007), S. 152 Nr. 1641; vgl. ausführl. Regest in Dawson, <emph>The Banks Letters</emph> (1958), S. 117 Nr. 64.</bibl>
+                    <title level="m" type="bibl">Scientific correspondence of Sir Joseph Banks</title>
+                    <title level="m" type="bibl">The Banks Letters</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Guanchen-Mumie (Göttingen, Inst. für Anthropologie; Abb. des Schädels in <emph>Decas craniorum</emph> 5 (1808), Tafel 42; Bibliographie Nr. 00096)<ptr target="ref_d1e125573_01249"/>; S/W-Foto von Mumie und Schädel in <emph>250 Jahre Georg-August-Universität.</emph> Ausstellungskatalog. Göttingen 1987, S. 109–110.</rs>
+                    <title level="m" type="bibl">Decas craniorum</title>
+                    <title level="m" type="bibl">250 Jahre Georg-August-Universität.</title>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1488" xml:id="ref_d1e125573_01249">./view-work.html?id=00096</ref>
+                    <rs type="html">00096 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach dankt Joseph Banks für die am selben Tag eingetroffene Guanchen-Mumie von den Kanarischen Inseln und leitet einen Brief von Franz Xaver von Zach an Banks weiter. </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich</forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Joseph</forename>
+                    <surname>Banks</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1802-03-21" when="1802-03-21" where="#orgplc_1232">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1802-03-21">1802, März 21</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1232">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01232.00">
+                    <idno>1232</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

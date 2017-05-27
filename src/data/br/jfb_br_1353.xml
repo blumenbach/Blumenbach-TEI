@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach nennt Carl Erenbert von Moll ihm bekannte US-amerikanische Naturforscher, teilt mit, welche naturhistorischen Objekte für seine Sammlungen von Interesse sind, und regt den weiteren Austausch von Publikationen an. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1353.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Drucke">
+                    <bibl> Moll, Carl von: Mittheilungen aus seinem Briefwechsel. 1. Abt. Augsburg 1829, S. 58–61; Auszug in Dougherty, <emph>Corresp.</emph> IV, S. 280 Nr. 0816 Anm. 1.<ptr target="ref_d1e138706_01370"/>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Werke">
+                    <bibl>
+                        <relatedItem>
+                            <bibl>[Bericht über Fossilien im Harz] (1808; Bibliographie Nr. 00485).<ptr target="ref_d1e138705_01370"/>
+                            </bibl>
+                        </relatedItem>
+                    </bibl>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1637" xml:id="ref_d1e138705_01370">./view-work.html?id=00485</ref>
+                    <rs type="html">00485 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="1638" xml:id="ref_d1e138706_01370">http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=292</ref>
+                    <rs type="pdf">Corresp. IV, S. 280 Nr. 0816 Anm. 1.</rs>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Mammut-Haare aus Russland; Schädel eines jungen Steinbocks (zu diesem vgl. Brief an Pieter Camper von 1783, Dez. 3 (Dougherty, <emph>Corresp.</emph> II, Nr. 0258), den Blumenbach verschenkt hat; Schädel eines „Cretins“ aus der Schweiz.</rs>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Anmerkung">
+                    <note>Druck ohne Datierung; Datierungsvermutung aufgrund der Erwähnung der Publikation von Bibliographie Nr. 00485<ptr target="ref_d1e138705_01370"/> vom 2. Juni 1808.</note>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach nennt Carl Erenbert von Moll ihm bekannte US-amerikanische Naturforscher, teilt mit, welche naturhistorischen Objekte für seine Sammlungen von Interesse sind, und regt den weiteren Austausch von Publikationen an. </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich</forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Carl Erenbert von</forename>
+                    <surname>Moll</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1808-06-22" when="1808-06-22" where="#orgplc_1353">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1808-06-22">[1808, Sommer]</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1353">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01353.00">
+                    <idno>1353</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

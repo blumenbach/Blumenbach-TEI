@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Legationsrat [Ferdinand Friedrich (von) ?] Reuss [sendet Blumenbach u. a. einen Bericht des württembergischen Konsuls in Rom, Carl von Kolb, über einen bei Vulci gefundenen Etruskerschädel?]. </title>
+                <author>
+                    <persName>
+                        <forename>[Ferdinand Friedrich (von) ?]</forename>
+                        <surname>Reuss</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1635.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, fol. ?, vgl. Meyer, <emph>Handschriften in Göttingen</emph> 3 (1894), S. 79<ptr target="ref_d1e165840_01652"/>; dort drei Briefe dieses Inhalts genannt, jedoch nur zwei Datumsangaben. </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1958" xml:id="ref_d1e165839_01652">http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553</ref>
+                    <rs type="html">Spengel, Anthropologische Sammlung </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1959" xml:id="ref_d1e165840_01652">http://www.manuscripta-mediaevalia.de/hs/katalogseiten/HSK0719_b079_jpg.htm</ref>
+                    <rs type="html">S. 79 </rs>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Bei dem beschriebenen Schädel handelt es sich evt. um den 1830 (?) an Blumenbach gesandten ital. Schädel vgl. Spengel, <emph>Anthropologische Sammlung</emph>
+                        <ptr target="ref_d1e165839_01652"/>, S. 20 Anm. ad. 317: „1830. Von Consul Kolb in Rom durch Leg.-Rath. Reuss. Ausgegraben bei Vulci.“</rs>
+                </note>
+                <note type="Anmerkung">
+                    <note>Identifizierungs- und Datierungsunsicherheit: Laut ADB übersiedelte Reuss erst 1839 aus Moskau nach Stuttgart. </note>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Legationsrat [Ferdinand Friedrich (von) ?] Reuss [sendet Blumenbach u. a. einen Bericht des württembergischen Konsuls in Rom, Carl von Kolb, über einen bei Vulci gefundenen Etruskerschädel?]. </title>
+                        <author>
+                            <persName>
+                                <forename>[Ferdinand Friedrich (von) ?]</forename>
+                                <surname>Reuss</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1838-03-01" when="1838-03-01" where="#orgplc_1635">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1838-03-01">1838, März 1</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1635">Stuttgart</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01635.00">
+                    <idno>1635</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

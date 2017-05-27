@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: V. On the fascinating Power of the Rattle-Snake, with some Remarks on Dr. Barton’s Memoir on that Subject*. By Professor Blumenbach. From Professor Voigt’s Magazin für den neuesten zustand [sic] der Naturkunde Part II. 1798</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00983.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000983/00983.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: V. On the fascinating Power of the Rattle-Snake, with some Remarks on Dr. Barton’s Memoir on that Subject*. By Professor Blumenbach. From Professor Voigt’s Magazin für den neuesten zustand [sic] der Naturkunde Part II. 1798</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">The Philosophical Magazine : comprehending the various branches of science, the liberal and fine arts, agriculture, manufactures, and commerce <metamark>
+                                <pc unit="slash"/>
+                            </metamark> by Alexander Tilloch</title>
+                        <imprint>
+                            <publisher>
+                                <name>Richardson</name>
+                            </publisher>
+                            <pubPlace>London</pubPlace>
+                            <date type="publication" when="1798-12-01">1798, December</date>
+                        </imprint>
+                        <biblScope>Bd. 2 (1798, December)</biblScope>
+                    </monogr>
+                    <citedRange>S. 251-256</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 PHYS MATH II, 2810">8 PHYS MATH II, 2810</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc>no autopsy</desc>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00983.00">00983</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4.37</idno>The Philosophical Magazine</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00983">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e73546_00983">
+                <span type="note">Entgegnung Blumenbachs auf die Schrift</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">A memoir concerning the fascinating faculty which has been ascribed to the rattle-snake, and other American serpents <metamark>
+                        <pc unit="slash"/>
+                    </metamark> by Benjamin Smith Barton, <gap reason="ellipsis"/>
+                </span>
+                <span type="pubPlace">Philadelphia</span>
+                <span type="publisher">Printed, for the author, by Henry Sweitzer</span>
+                <span type="date">1796</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="repository">SUB Göttingen</span>
+                <span type="idno" n="8 ZOOL IX, 920:Hauptbd">8 ZOOL IX, 920:Hauptbd</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Englische Übersetzung von Blumenbachs Artikel aus</span>
+                <span type="title" style="j">Magazin für den neuesten Zustand der Naturkunde, mit Rücksicht auf die dazu gehörigen Hülfswissenschaften</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 1, 2. Stück (1798)</span>
+                <span type="citedRange">S. 37-47</span>
+                <span type="reference">00837</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

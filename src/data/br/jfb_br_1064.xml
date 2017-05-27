@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Franz Xaver von Zach erläutert Blumenbach, dass es wegen des einfacheren Verfahrens und der zu erwartenden größeren finanziellen Vergünstigungen vorteilhafter war, Blumenbachs Schwager Johann Heinrich Voigt den Titel eines Weimarischen und nicht den eines Gothaischen Hofrats zu verschaffen, und sendet das Februarheft der Allgemeinen Geographischen Ephemeriden. </title>
+                <author>
+                    <persName>
+                        <forename>Franz Xaver von</forename>
+                        <surname>Zach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1064.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 2 (Zach Nr. 12).</note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> V, S. 358 Nr. 1216.<ptr target="ref_d1e109115_01080"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Werke">
+                    <bibl>
+                        <relatedItem>
+                            <bibl>„Aus einem Schreiben des Hofraths Blumenbach“, in
+                                <emph>Allgemeine geographische Ephemeriden</emph>, Bd. 3, 2. Stück (Februar 1799), S. 193–195. </bibl>
+                        </relatedItem>
+                    </bibl>
+                    <title level="m" type="bibl">Allgemeine geographische Ephemeriden</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="1249" xml:id="ref_d1e109115_01080">http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=374</ref>
+                    <rs type="pdf">Corresp. V, S. 358Nr. 1216 </rs>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Nordafrika-Karte von James Rennell. </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Franz Xaver von Zach erläutert Blumenbach, dass es wegen des einfacheren Verfahrens und der zu erwartenden größeren finanziellen Vergünstigungen vorteilhafter war, Blumenbachs Schwager Johann Heinrich Voigt den Titel eines Weimarischen und nicht den eines Gothaischen Hofrats zu verschaffen, und sendet das Februarheft der <emph>Allgemeinen Geographischen Ephemeriden</emph>. </title>
+                        <title level="m" type="bibl">Allgemeinen Geographischen Ephemeriden</title>
+                        <author>
+                            <persName>
+                                <forename>Franz Xaver von</forename>
+                                <surname>Zach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1799-02-08" when="1799-02-08" where="#orgplc_1064">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1799-02-08">1799, Febr. 8</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1064">Seeberg</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01064.00">
+                    <idno>1064</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

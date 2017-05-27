@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach liefert Albrecht von Haller einige bibliographische Ergänzungen zu dessen Bibliotheca medica, berichtet von seinem eigenen Forschungsvorhaben über die physiologische Variabilität der Spezies „Mensch“ und fragte nach Haller eventuell bekannten unveröffentlichten Arbeiten Johann Friedrich Meckels [d. Ä.] zur Anatomie der Nerven und Lymphgefäße. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0008.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Berlin, Staatsbibliothek − Preußischer Kulturbesitz, Handschriftenabt. Nachl. 141 (Slg. Adam), K 52: Blumenbach, Johann Friedrich.</note>
+                <note type="Drucke">
+                    <bibl>Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 64−66 KatNr. 71.
+                        <ptr target="ref_d1e531_00008"/>
+                    </bibl>
+                    <title level="m" type="bibl">Commercium epistolicum</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> I, S. 12 Nr. 0008.</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="6" xml:id="ref_d1e531_00008">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/CommerciumHTMLs/CommerciumNr071.html</ref>
+                    <rs type="html"/>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach liefert Albrecht von Haller einige bibliographische Ergänzungen zu dessen <emph>Bibliotheca medica</emph>, berichtet von seinem eigenen Forschungsvorhaben über die physiologische Variabilität der Spezies „Mensch“ und fragte nach Haller eventuell bekannten unveröffentlichten Arbeiten Johann Friedrich Meckels [d. Ä.] zur Anatomie der Nerven und Lymphgefäße. </title>
+                        <title level="m" type="bibl">Bibliotheca medica</title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich</forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Albrecht von</forename>
+                    <surname>Haller</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1775-02-23" when="1775-02-23" where="#orgplc_0008">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1775-02-23">1775, Febr. 23</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0008">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0008.00">0008<idno>0008</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

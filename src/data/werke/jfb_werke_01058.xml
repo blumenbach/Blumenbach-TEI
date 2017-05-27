@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Extrait de l’ouvrage intitulé: De l’Unité du Genre Humain &amp; de ses Variétés, par Fréd. Blumenbach ; Traduit du latin sur la 3e. édition par Fréd. Chardel, Médecin, Paris 1806</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_01058.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Extrait de l’ouvrage intitulé: De l’Unité du Genre Humain &amp; de ses Variétés, par Fréd. Blumenbach ; Traduit du latin sur la 3e. édition par Fréd. Chardel, Médecin, Paris 1806</title>
+                    </analytic>
+                    <monogr>
+                        <title level="m">In:</title>
+                        <title level="m">Mélanges d’histoire, de litterature, de philosophie, etc. &amp;c. Par H. A. Le Pileur</title>
+                        <imprint>
+                            <publisher>
+                                <name>chez G. du Four et Comp.</name>
+                            </publisher>
+                            <pubPlace>à Amsterdam et à Paris</pubPlace>
+                            <date type="publication" when="1813-01-01">1813</date>
+                        </imprint>
+                    </monogr>
+                    <citedRange>Bd. 1: S. 225-269; Tabelle am Ende des Bandes</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n=" 8 SVA VII, 6565"> 8 SVA VII, 6565</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>272 S., 1 gef. Bl.  : 2 Ill. (Tabellen).<dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00177.04">04005</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.2</idno>Abschnitte in Werken anderer Autoren</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="01058">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e79412_01058">
+                <span type="note">Unveränderter Nachdruck der von Henri Augustin Le Pileur angefertigten</span>
+                <span type="note">durch Paraphrasen des Originaltexts verbundenen Auszüge</span>
+                <span type="reference">03004</span>
+                <span type="note">aus der zweiten Auflage von Frédéric Charles Chardels französischer Übersetzung</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">De l’unité du genre humain, et de ses variétés : ouvrage précédé d’une lettre à Joseph Banks, <gap reason="ellipsis"/>
+                    <metamark>
+                        <pc unit="slash"/>
+                    </metamark> Par Fred. Blumenbach, <gap reason="ellipsis"/> Traduit du Latin sur la troisième édition, par Fréd. Chardel <gap reason="ellipsis"/>
+                </span>
+                <span type="pubPlace">Paris</span>
+                <span type="publisher">Chez Allut</span>
+                <span type="date">1806</span>
+                <span type="reference">00017</span>
+                <span type="note">von</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">De generis humani varietate nativa <metamark>
+                        <pc unit="slash"/>
+                    </metamark> auctore Io. Frid. Blumenbach <gap reason="ellipsis"/>
+                </span>
+                <span type="edition">Editio tertia : praemissa est epistola ad <gap reason="ellipsis"/> Iosephum Banks <gap reason="ellipsis"/>
+                </span>
+                <span type="pubPlace">Gottingae</span>
+                <span type="publisher">Apud Vandenhoek et Ruprecht</span>
+                <span type="date">1795</span>
+                <span type="reference">00004</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

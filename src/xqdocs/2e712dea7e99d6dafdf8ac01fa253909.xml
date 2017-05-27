@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xqdoc:xqdoc xmlns:xqdoc="http://www.xqdoc.org/1.0">
+    <xqdoc:control>
+        <xqdoc:date>2015-07-13T10:52:23.411Z</xqdoc:date>
+        <xqdoc:location>/db/apps/blumenbach/modules/query.xqm</xqdoc:location>
+    </xqdoc:control>
+    <xqdoc:module type="library">
+        <xqdoc:uri>http://exist-db.org/xquery/query</xqdoc:uri>
+        <xqdoc:name>query</xqdoc:name>
+        <xqdoc:comment>
+            <xqdoc:description> Functions that support text query interface 
+</xqdoc:description>
+        </xqdoc:comment>
+    </xqdoc:module>
+    <xqdoc:functions>
+        <xqdoc:function>
+            <xqdoc:name>query:base</xqdoc:name>
+            <xqdoc:signature>query:base($node as node(), $model as map) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>query:copy-params</xqdoc:name>
+            <xqdoc:signature>query:copy-params($node as node(), $model as map) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>query:create-query</xqdoc:name>
+            <xqdoc:signature>query:create-query($query-string as xs:string?, $mode as xs:string) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description>
+Helper function: create a lucene query from the user input
+</xqdoc:description>
+                <xqdoc:param>$query-string? </xqdoc:param>
+                <xqdoc:param>$mode </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>query:hit-count</xqdoc:name>
+            <xqdoc:signature>query:hit-count($node as node()*, $model as map) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description>
+Create a span with the number of items in the current search result.
+</xqdoc:description>
+                <xqdoc:param>$node* </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>query:paginate</xqdoc:name>
+            <xqdoc:signature>query:paginate($node as node(), $model as map, $start as xs:int, $per-page as xs:int, $min-hits as xs:int, $max-pages as xs:int) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description>
+ Create a bootstrap pagination element to navigate through the hits.
+</xqdoc:description>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:param>$start </xqdoc:param>
+                <xqdoc:param>$per-page </xqdoc:param>
+                <xqdoc:param>$min-hits </xqdoc:param>
+                <xqdoc:param>$max-pages </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>query:query</xqdoc:name>
+            <xqdoc:signature>query:query($node as node()*, $model as map, $query as xs:string?, $mode as xs:string, $scope as xs:string, $work-types as xs:string+, $date as xs:string?, $target-texts as xs:string+) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node* </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:param>$query? </xqdoc:param>
+                <xqdoc:param>$mode </xqdoc:param>
+                <xqdoc:param>$scope </xqdoc:param>
+                <xqdoc:param>$work-types+ </xqdoc:param>
+                <xqdoc:param>$date? </xqdoc:param>
+                <xqdoc:param>$target-texts+ </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>query:query-result</xqdoc:name>
+            <xqdoc:signature>query:query-result($node as node(), $model as map, $type as xs:string?) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:param>$type? </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>query:show-hits</xqdoc:name>
+            <xqdoc:signature>query:show-hits($node as node()*, $model as map, $start as xs:integer) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description>
+Output the actual search result as a div, using the kwic module to summarize full text matches.
+</xqdoc:description>
+                <xqdoc:param>$node* </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:param>$start </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+    </xqdoc:functions>
+</xqdoc:xqdoc>

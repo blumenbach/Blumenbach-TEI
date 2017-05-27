@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xqdoc:xqdoc xmlns:xqdoc="http://www.xqdoc.org/1.0">
+    <xqdoc:control>
+        <xqdoc:date>2015-07-13T10:52:23.411Z</xqdoc:date>
+        <xqdoc:location>/db/apps/blumenbach/modules/functx.xqm</xqdoc:location>
+    </xqdoc:control>
+    <xqdoc:module type="library">
+        <xqdoc:uri>http://www.functx.com</xqdoc:uri>
+        <xqdoc:name>functx</xqdoc:name>
+        <xqdoc:comment>
+            <xqdoc:description>
+ FunctX sourced utility functions
+ 
+</xqdoc:description>
+        </xqdoc:comment>
+    </xqdoc:module>
+    <xqdoc:functions>
+        <xqdoc:function>
+            <xqdoc:name>functx:contains-any-of</xqdoc:name>
+            <xqdoc:signature>functx:contains-any-of($arg as xs:string?, $searchStrings as xs:string*) as xs:boolean</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$arg? </xqdoc:param>
+                <xqdoc:param>$searchStrings* </xqdoc:param>
+                <xqdoc:return>xs:boolean</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>functx:escape-for-regex</xqdoc:name>
+            <xqdoc:signature>functx:escape-for-regex($arg as xs:string?) as xs:string</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$arg? </xqdoc:param>
+                <xqdoc:return>xs:string</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>functx:index-of-node</xqdoc:name>
+            <xqdoc:signature>functx:index-of-node($nodes as node()*, $nodeToFind as node()) as xs:integer*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$nodes* </xqdoc:param>
+                <xqdoc:param>$nodeToFind </xqdoc:param>
+                <xqdoc:return>xs:integer*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>functx:number-of-matches</xqdoc:name>
+            <xqdoc:signature>functx:number-of-matches($arg as xs:string?, $pattern as xs:string) as xs:integer</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$arg? </xqdoc:param>
+                <xqdoc:param>$pattern </xqdoc:param>
+                <xqdoc:return>xs:integer</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>functx:pad-integer-to-length</xqdoc:name>
+            <xqdoc:signature>functx:pad-integer-to-length($integerToPad as xs:anyAtomicType?, $length as xs:integer) as xs:string</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$integerToPad? </xqdoc:param>
+                <xqdoc:param>$length </xqdoc:param>
+                <xqdoc:return>xs:string</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>functx:repeat-string</xqdoc:name>
+            <xqdoc:signature>functx:repeat-string($stringToRepeat as xs:string?, $count as xs:integer) as xs:string</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$stringToRepeat? </xqdoc:param>
+                <xqdoc:param>$count </xqdoc:param>
+                <xqdoc:return>xs:string</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>functx:substring-after-if-contains</xqdoc:name>
+            <xqdoc:signature>functx:substring-after-if-contains($arg as xs:string?, $delim as xs:string) as xs:string?</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$arg? </xqdoc:param>
+                <xqdoc:param>$delim </xqdoc:param>
+                <xqdoc:return>xs:string?</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>functx:substring-after-last</xqdoc:name>
+            <xqdoc:signature>functx:substring-after-last($arg as xs:string?, $delim as xs:string) as xs:string</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$arg? </xqdoc:param>
+                <xqdoc:param>$delim </xqdoc:param>
+                <xqdoc:return>xs:string</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>functx:substring-before-if-contains</xqdoc:name>
+            <xqdoc:signature>functx:substring-before-if-contains($arg as xs:string?, $delim as xs:string) as xs:string?</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$arg? </xqdoc:param>
+                <xqdoc:param>$delim </xqdoc:param>
+                <xqdoc:return>xs:string?</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>functx:trim</xqdoc:name>
+            <xqdoc:signature>functx:trim($arg as xs:string?) as xs:string</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$arg? </xqdoc:param>
+                <xqdoc:return>xs:string</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+    </xqdoc:functions>
+</xqdoc:xqdoc>

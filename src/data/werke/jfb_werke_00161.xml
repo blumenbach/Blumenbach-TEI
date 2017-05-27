@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">*W. Cheselden’s Anatomie des menschlichen Körpers : mit vierzig Kupfertafeln nach Vandergucht von Riepenhausen <metamark>
+                        <pc unit="slash"/>
+                    </metamark> aus dem Englischen übersetzt von August Ferdinand Wolff</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00161.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">*W. Cheselden’s Anatomie des menschlichen Körpers : mit vierzig Kupfertafeln nach Vandergucht von Riepenhausen <metamark>
+                                <pc unit="slash"/>
+                            </metamark> aus dem Englischen übersetzt von August Ferdinand Wolff <gap reason="ellipsis"/>
+                        </title>
+                        <title level="m" type="sub">nebst einer Vorrede von J. Fr. Blumenbach</title>
+                        <imprint>
+                            <publisher>
+                                <name>Zentralantiquariat d. DDR</name>
+                            </publisher>
+                            <pubPlace>Leipzig</pubPlace>
+                            <date type="publication" when="1984-01-01">1984</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Universitätsbibliothek Greifswald</repository>
+                        <idno n="903/I 220">903/I 220</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>XIX, 324 S. : Ill.<dimensions>
+                                        <dim>8°</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc>no autopsy</desc>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00161.00">00161</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.1</idno>Vorreden in Werken anderer Autoren</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00161">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e14816_00161">
+                <span type="note">Enthält Blumenbachs Vorrede auf S. V-IX. Nachdruck der Originalausgabe</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">W. Cheselden’s Anatomie des menschlichen Körpers : mit vierzig Kupfertafeln nach Vandergucht von Riepenhausen <metamark>
+                        <pc unit="slash"/>
+                    </metamark> aus dem Englischen übersetzt von August Ferdinand Wolff <gap reason="ellipsis"/> nebst einer Vorrede von J. Fr. Blumenbach <gap reason="ellipsis"/>
+                </span>
+                <span type="pubPlace">Göttingen</span>
+                <span type="publisher">Bey Johann Christian Dieterich</span>
+                <span type="date">1790</span>
+                <span type="reference">00160</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">nach dem Exemplar des Karl-Sudhoff-Instituts der Karl-Marx-Universität Leipzig</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

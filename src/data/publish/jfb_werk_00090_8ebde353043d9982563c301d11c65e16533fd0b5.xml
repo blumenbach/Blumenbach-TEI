@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tei:TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:so="http://standoff.proposal" xml:lang="de-DE">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="meta">*Física del cuerpo humano : o rudimentos fisiológicos acomodados a toda clase de literatos</tei:title>
+                <tei:respStmt>
+                    <tei:resp key="proj">Projektträger</tei:resp>
+                    <tei:orgName resp="proj">
+                        <tei:name>Akademie der Wissenschaften zu Göttingen</tei:name>
+                        <tei:ref target="http://adw-goe.de/"/>
+                    </tei:orgName>
+                </tei:respStmt>
+                <tei:respStmt>
+                    <tei:resp key="enc">Kodiert durch:</tei:resp>
+                    <tei:persName resp="enc">Christopher Hanna Johnson</tei:persName>
+                </tei:respStmt>
+            </tei:titleStmt>
+            <tei:publicationStmt>
+                <tei:publisher/>
+                <tei:idno>jfb_werke_00090.xml</tei:idno>
+            </tei:publicationStmt>
+            <tei:notesStmt>
+                <tei:note type="ref">
+                    <tei:ref type="pdf" xml:id="ref_d5e69_00090">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000090/00090.pdf</tei:ref>
+                    <tei:rs type="pdf"/>
+                </tei:note>
+            </tei:notesStmt>
+            <tei:sourceDesc>
+                <tei:biblStruct>
+                    <tei:monogr>
+                        <tei:title level="m" type="main">*Física del cuerpo humano : o rudimentos fisiológicos acomodados a toda clase de literatos /</tei:title>
+                        <tei:imprint>
+                            <tei:publisher>
+                                <tei:name>Por Matheo Barceló</tei:name>
+                            </tei:publisher>
+                            <tei:pubPlace>Barcelona</tei:pubPlace>
+                            <tei:date type="publication" when="1792-01-01">[1792]</tei:date>
+                        </tei:imprint>
+                    </tei:monogr>
+                </tei:biblStruct>
+                <tei:msDesc>
+                    <tei:msIdentifier>
+                        <tei:repository>Madrid, Biblioteca Nacional de España</tei:repository>
+                        <tei:idno n="1/13488">1/13488</tei:idno>
+                    </tei:msIdentifier>
+                    <tei:physDesc>
+                        <tei:objectDesc>
+                            <tei:supportDesc>
+                                <tei:extent>247 S.<tei:dimensions>
+                                        <tei:dim>16 cm (8°)</tei:dim>
+                                    </tei:dimensions>
+                                </tei:extent>
+                            </tei:supportDesc>
+                        </tei:objectDesc>
+                    </tei:physDesc>
+                    <tei:additional>
+                        <tei:adminInfo>
+                            <tei:recordHist>
+                                <tei:source>
+                                    <tei:certainty locus="location">
+                                        <tei:desc>no autopsy</tei:desc>
+                                    </tei:certainty>
+                                </tei:source>
+                            </tei:recordHist>
+                            <tei:note>
+                                <tei:p/>
+                            </tei:note>
+                        </tei:adminInfo>
+                    </tei:additional>
+                </tei:msDesc>
+            </tei:sourceDesc>
+        </tei:fileDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="de-DE"/>
+            </tei:langUsage>
+            <tei:textDesc>
+                <tei:channel mode="w"/>
+                <tei:constitution type="single"/>
+                <tei:derivation/>
+                <tei:domain type="academic"/>
+                <tei:factuality/>
+                <tei:interaction/>
+                <tei:preparedness/>
+                <tei:purpose/>
+            </tei:textDesc>
+            <tei:textClass>
+                <tei:classCode scheme="BiblNr" n="00090.00">00090</tei:classCode>
+                <classCode xmlns="http://www.tei-c.org/ns/1.0" scheme="cat" n="00000.01" xml:id="cat_0001">
+        <idno n="0001.00">I</idno>
+        <rs>Selbständig erschienene Werke</rs>
+    </classCode>
+                <classCode xmlns="http://www.tei-c.org/ns/1.0" scheme="cat" n="00064.01" xml:id="cat_0033">
+        <idno n="0033.00">I.5</idno>
+        <rs>Institutiones Physiologicae</rs>
+    </classCode>
+                <classCode xmlns="http://www.tei-c.org/ns/1.0" scheme="cat" n="00070.01" xml:id="cat_0036">
+        <idno n="0036.00">I.5.2</idno>
+        <rs>Übersetzungen</rs>
+    </classCode>
+                <classCode xmlns="http://www.tei-c.org/ns/1.0" scheme="cat" n="00089.01" xml:id="cat_0042">
+        <idno n="0042.00">I.5.2.6</idno>
+        <rs>Spanisch</rs>
+    </classCode>
+            </tei:textClass>
+        </tei:profileDesc>
+        <tei:encodingDesc>
+            <tei:projectDesc>
+                <tei:p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</tei:p>
+            </tei:projectDesc>
+        </tei:encodingDesc>
+        <tei:revisionDesc>
+            <tei:change>Erstellungsdatum: 2017-03-21T12:31:54.343+01:00</tei:change>
+        </tei:revisionDesc>
+    </tei:teiHeader>
+    <so:stdf>
+        <so:annotations n="00090">
+            <tei:spanGrp>                &lt;span type="note"&gt;Angezeigt von Christian August Fischer in&lt;/span&gt;
+                &lt;span type="title" style="j"&gt;Allgemeiner litterarischer Anzeiger oder Annalen der gesammten Litteratur für die geschwinde Bekanntmachung verschiedener Nachrichten aus dem Gebiete der Gelehrsamkeit und Kunst&lt;/span&gt;
+                &lt;span type="meta"&gt;
+                    &lt;metamark&gt;
+                        &lt;pc unit="comma"/&gt;
+                    &lt;/metamark&gt;
+                &lt;/span&gt;
+                &lt;span type="biblScope"&gt;Bd. 6, Nr. 117 (4. August 1801)&lt;/span&gt;
+                &lt;span type="citedRange"&gt;Sp. 1105-1106&lt;/span&gt;</tei:spanGrp>
+            <tei:spanGrp>&lt;span type="note"&gt;Colls spanische Übersetzung ist demnach eine gekürzte Version&lt;/span&gt;</tei:spanGrp>
+            <tei:spanGrp>                &lt;span type="note"&gt;Erwähnt von Blumenbach in&lt;/span&gt;
+                &lt;span type="title" style="j"&gt;GgA&lt;/span&gt;
+                &lt;span type="meta"&gt;
+                    &lt;metamark&gt;
+                        &lt;pc unit="space"/&gt;
+                    &lt;/metamark&gt;
+                &lt;/span&gt;
+                &lt;span type="biblScope"&gt;1818 (172. Stück, 26. Oktober)&lt;/span&gt;
+                &lt;span type="citedRange"&gt;S. 1713-1715; „London“&lt;/span&gt;
+                &lt;span type="reference"&gt;00584&lt;/span&gt;</tei:spanGrp>
+        </so:annotations>
+    </so:stdf>
+    <tei:text>
+        <tei:body>
+            <tei:p/>
+        </tei:body>
+    </tei:text>
+</tei:TEI>

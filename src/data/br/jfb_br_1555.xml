@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Espérance Sylvestre schickt Blumenbach [im Auftrag der Erbgroßherzogin Maria Paulowna von Sachsen-Weimar-Eisenach den Schädel eines Kamtschadalen]. </title>
+                <author>
+                    <persName>
+                        <forename>Espérance</forename>
+                        <surname>Sylvestre</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1555.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, fol. ?, vgl. Meyer, <emph>Handschriften in Göttingen</emph> 3 (1894), S. 79.<ptr target="ref_d1e155784_01572"/>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Schädel eines Kamtschadalen (Geschenk der Erbgroßherzogin Maria Paulowna von Weimar; Abb. in <emph>Nova pentas craniorum</emph> (1828), Tafel 62, Bibliographie Nr. 00098)<ptr target="ref_d1e155786_01572"/>; zur Identifikation des Schädels vgl. Spengel, <emph>Anthropologische Sammlung</emph>
+                        <ptr target="ref_d1e155785_01572"/>, S. 43 Anm. ad 160: „1826. Von Fräulein Sylvester. »Alter unvermischter Kamtschadale.«“</rs>
+                    <title level="m" type="bibl">Nova pentas craniorum</title>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1853" xml:id="ref_d1e155784_01572">http://www.manuscripta-mediaevalia.de/hs/katalogseiten/HSK0719_b079_jpg.htm</ref>
+                    <rs type="html">S. 79. </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1854" xml:id="ref_d1e155785_01572">http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553</ref>
+                    <rs type="html">Spengel, Anthropologische Sammlung</rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1855" xml:id="ref_d1e155786_01572">./view-work.html?id=00098</ref>
+                    <rs type="html">00098</rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Espérance Sylvestre schickt Blumenbach [im Auftrag der Erbgroßherzogin Maria Paulowna von Sachsen-Weimar-Eisenach den Schädel eines Kamtschadalen]. </title>
+                        <author>
+                            <persName>
+                                <forename>Espérance</forename>
+                                <surname>Sylvestre</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1826-03-24" when="1826-03-24" where="#orgplc_1555">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1826-03-24">1826, März 24</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1555">Weimar</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01555.00">
+                    <idno>1555</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

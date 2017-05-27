@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: II. Fernere Reisenachrichten vom Herrn D. Langsdorff. *) Aus einem Briefe desselben an Hrn. Hofr. Blumenbach</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00915.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000915/00915.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: II. Fernere Reisenachrichten vom Herrn D. Langsdorff. *) Aus einem Briefe desselben an Hrn. Hofr. Blumenbach</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Magazin für den neuesten Zustand der Naturkunde, mit Rücksicht auf die dazu gehörigen Hülfswissenschaften <metamark>
+                                <pc unit="slash"/>
+                            </metamark> hrsg. von Johann Heinrich Voigt</title>
+                        <imprint>
+                            <publisher>
+                                <name>Verl. des Landes-Industrie-Comptoirs</name>
+                            </publisher>
+                            <pubPlace>Weimar</pubPlace>
+                            <date type="publication" when="1806-01-01">1806</date>
+                        </imprint>
+                        <biblScope>Bd. 11, 4. Stück (1806)</biblScope>
+                    </monogr>
+                    <citedRange>S. 297-309, 1 Ill. (Kupferst.)</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 PHYS MATH II, 2355">8 PHYS MATH II, 2355</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc>no autopsy</desc>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00915.00">00915</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4.26</idno>Magazin für den neuesten Zustand der Naturkunde</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00915">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e69158_00915">
+                <span type="note">Auszug aus einem Brief Georg Heinrich von Langsdorffs an Blumenbach vom 7. Juni 1805 aus Petropawlowsk-Kamtschatski mit Reisenotizen über die „Tatowirung der Marquesas-Insulaner“ (Tafel, koloriert: „Taf. V. Linke Hand der Königin Katanuaeh auf Nugahiwa, der größten der neuen Marquesas Inseln; nach dem Leben genau gezeichnet von Dr. Langsdorff. 1804.“); über Stücke für Blumenbachs Naturaliensammlung; über die Fahrt nach Japan; sowie einem Namensverzeichnis japanischer Fische.</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Mit Anmerkungen von Blumenbach</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Weitere Reisenachrichten Langsdorffs in</span>
+                <span type="title" style="j">Allgemeine geographische Ephemeriden</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 25, 4. Stück (April 1808)</span>
+                <span type="citedRange">S. 477-482</span>
+                <span type="reference">00768</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 34, 1. Stück (Januar 1811)</span>
+                <span type="citedRange">S. [3]-15</span>
+                <span type="reference">00770</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Die Tafel mit der tätowierten Hand ist auch dem Artikel „Beschreibung von Nukahiwa. (Fortsetzung von S. 275. des vorigen Bandes.) (Nebst drei Abbildungen Taf. 1. 2. 3.).</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Einleitung des Hrn Hofr. Blumenbach, über die Gewohnheit des Tatowirens“ in</span>
+                <span type="title" style="j">Allgemeine geographische Ephemeriden</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 34, 1. Stück (Januar 1811)</span>
+                <span type="citedRange">S. [3]-15</span>
+                <span type="reference">00770</span>
+                <span type="note">beigegeben und ebenso dem Sonderdruck Weimar : im Verlage des Landes-Industrie-Comptoirs, 1811</span>
+                <span type="reference">00130</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: Io. Frid. Blumenbachii decas collectionis suae craniorum diversarum gentium illustrata. D. XII. Dec. MDCCLXXXIX</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00185.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000185/00185.pdf</ref>
+                </note>
+                <note type="ref">
+                    <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000185/000185.html</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: Io. Frid. Blumenbachii decas collectionis suae craniorum diversarum gentium illustrata. D. XII. Dec. MDCCLXXXIX</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Commentationes Societatis Regiae Scientiarum Gottingensis</title>
+                        <imprint>
+                            <publisher>
+                                <name>Dieterich</name>
+                            </publisher>
+                            <pubPlace>Gottingae</pubPlace>
+                            <date type="publication" when="1791-01-01">1791</date>
+                        </imprint>
+                        <biblScope>Bd. X (1791), Phys.</biblScope>
+                    </monogr>
+                    <citedRange>S. 3-27, 10 Ill. (Kupferst.)</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="4 PHYS MATH IV, 356">4 PHYS MATH IV, 356</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00185.00">00185</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3</idno>Publikationsorgane der Königlichen Gesellschaft der Wissenschaften zu Göttingen</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3.1.1</idno>Commentationes Societatis Regiae Scientiarum Gottingensis</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00185">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e16908_00185">
+                <span type="note">Tafeln gestochen von Ernst Ludwig (?) Riepenhausen nach Zeichnungen von Johann Samuel Zimmer (s. Tafel I)</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Auch als Sonderdruck:</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Jo. Frid. Blumenbachii … decas collectionis suae craniorum diversarum gentium illustrata</span>
+                <span type="pubPlace">Gottingae</span>
+                <span type="publisher">Apud Ioann. Christ. Dieterich</span>
+                <span type="date">MDCCXC</span>
+                <span type="reference">00092</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">Auflistung der enthaltenen Tafeln siehe dort</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Siehe auch Bericht zum Vortrag vor der Societät in</span>
+                <span type="title" style="j">GAgS</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1790 (3. Stück, 4. Januar)</span>
+                <span type="citedRange">S. 25-29; „Göttingen“</span>
+                <span type="reference">00325</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Ins Deutsche übersetzte Auszüge in „III. Auszüge aus der Sammlung von Hirnschädeln verschiedener Nationen</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Als Beitrag zur Naturgeschichte der Menschenspecies“, in</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Kleine Schriften zur vergleichenden Physiologie und Anatomie und Naturgeschichte gehörig : mit einer Kupfertafel <metamark>
+                        <pc unit="slash"/>
+                    </metamark> von Joh. Friedr. Blumenbach ; uibersetzt [sic] und herausgegeben von D. Joh. Gottfr. Gruber</span>
+                <span type="pubPlace">Leipzig</span>
+                <span type="publisher">Bei G. Benj. Meissner</span>
+                <span type="date">1800</span>
+                <span type="reference">00148</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="citedRange">S. 143-165</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

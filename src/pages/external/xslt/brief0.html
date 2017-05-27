@@ -1,0 +1,1827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <title>Stylesheet documentation for: brief.xsl</title>
+      <link rel="stylesheet" href="docHtml.css" type="text/css"/>
+        <script type="text/javascript">
+         <!--
+        
+        var parametersBoxes= new Array('prs_F_pad-integer-to-lengthS_brief.xsl', 
+				'prs_F_repeat-stringS_brief.xsl');
+
+        
+        var usedByBoxes= new Array('uB_F_pad-integer-to-lengthS_brief.xsl', 
+				'uB_F_repeat-stringS_brief.xsl');
+
+        var docBoxes= new Array('dS_M_S_brief.xsl');
+
+        var sourceBoxes= new Array('src_M_S_brief.xsl', 
+				'src_F_pad-integer-to-lengthS_brief.xsl', 
+				'src_F_repeat-stringS_brief.xsl', 
+				'src_O_S_brief.xsl');
+
+        
+        
+        var referencesBoxes= new Array('refs_M_S_brief.xsl', 
+				'refs_F_pad-integer-to-lengthS_brief.xsl');
+
+        
+        
+        
+        
+        var button_prefix = 'bt_';
+        
+        /**
+        * Get all DIV elements with a specified class name.
+        *
+        * @param className The class name. 
+        */
+        function getElementsByClassName(className) {
+            var results = [];
+    
+             if (document.getElementsByClassName == undefined) {
+                var allElements = document.getElementsByTagName("div");
+                var element;
+                for (var i = 0; i < allElements.length; i++) {
+                    var element = allElements[i];
+                	var elementClass = element.className;
+                	if (elementClass == className) { 
+                		results.push(element);
+                	}
+                }
+             } else {
+                results = document.getElementsByClassName(className);
+             }
+    
+            return results;
+        }
+            
+        /**
+        * Returns an element in the current HTML document.
+        *
+        * @param elementID Identifier of HTML element
+        * @return               HTML element object
+        */
+        function getElementObject(elementID) {
+            var elemObj = null;
+            if (document.getElementById) {
+                elemObj = document.getElementById(elementID);
+            }
+            return elemObj;
+        }
+        
+        /**
+        * Switches the state of a collapseable box, e.g.
+        * if it's opened, it'll be closed, and vice versa.
+        *
+        * @param boxID Identifier of box
+        */
+        function switchState(boxID) {
+            var boxObj = getElementObject(boxID);
+            var buttonObj = getElementObject(button_prefix + boxID);
+            if (boxObj == null || buttonObj == null) {
+                // Box or button not found
+            } else if (boxObj.style.display == "none") {
+                // Box is closed, so open it
+                openBox(boxObj, buttonObj);
+            } else if (boxObj.style.display == "block") {
+                // Box is opened, so close it
+                closeBox(boxObj, buttonObj);
+            }
+        }
+        
+        /**
+        * Opens a collapseable box.
+        *
+        * @param boxObj       Collapseable box
+        * @param buttonObj Button controlling box
+        */
+        function openBox(boxObj, buttonObj) {
+            if (boxObj == null || buttonObj == null) {
+                // Box or button not found
+            } else {
+                // Change 'display' CSS property of box
+                boxObj.style.display = "block";
+                
+                // Change text of button
+                if (boxObj.style.display == "block") {
+                    buttonObj.src = "img/btM.gif";
+                }
+            }
+        }
+        
+        /**
+        * Closes a collapseable box.
+        *
+        * @param boxObj       Collapseable box
+        * @param buttonObj Button controlling box
+        */
+        function closeBox(boxObj, buttonObj) {
+            if (boxObj == null || buttonObj == null) {
+                // Box or button not found
+            } else {
+                // Change 'display' CSS property of box
+                boxObj.style.display = "none";
+                
+                // Change text of button
+                if (boxObj.style.display == "none") {
+                    buttonObj.src = "img/btP.gif";
+                }
+            }
+        }
+
+       /**
+        * Switch between the compact list representation and the clasic list representation.
+        */
+       function switchMode(checkBox) {
+            if (checkBox == null) {
+                // Checkbox not found
+            } else if (checkBox.checked == 1) {
+                // Compact mode
+                var divs = getElementsByClassName('refItemBlock');
+                for (var i = 0; i < divs.length; i ++) {
+                    divs[i].style.display = "inline";
+                    var children = divs[i].children;
+                    var refItemSep = children[children.length - 1];
+                    if (refItemSep.className == "refItemSep") {
+                        children[children.length - 1].style.display = "inline";
+                    }
+                }
+            } else {
+                // Expanded mode
+                var divs = getElementsByClassName('refItemBlock');
+                for (var i = 0; i < divs.length; i ++) {
+                    divs[i].style.display = "block";
+                    var children = divs[i].children;
+                    var refItemSep = children[children.length - 1];
+                    if (refItemSep.className == "refItemSep") {
+                        children[children.length - 1].style.display = "none";
+                    }
+                }
+            }
+        }
+
+       function switchStateForAll(buttonObj, boxList) {
+            if (buttonObj == null) {
+                // button not found
+            } else if (buttonObj.value == "+") {
+                // Expand all
+                expandAll(boxList);
+                buttonObj.value = "-";
+            } else if (buttonObj.value == "-") {
+                // Collapse all
+                collapseAll(boxList);
+                buttonObj.value = "+";
+            }
+        }
+        
+        /**
+        * Closes all boxes in a given list.
+        *
+        * @param boxList Array of box IDs
+        */
+        function collapseAll(boxList) {
+            var idx;
+            for (idx = 0; idx < boxList.length; idx++) {
+                var boxObj = getElementObject(boxList[idx]);
+                var buttonObj = getElementObject(button_prefix + boxList[idx]);
+                closeBox(boxObj, buttonObj);
+            }
+        }
+            
+        /**
+        * Open all boxes in a given list.
+        *
+        * @param boxList Array of box IDs
+        */
+        function expandAll(boxList) {
+            var idx;
+            for (idx = 0; idx < boxList.length; idx++) {
+                var boxObj = getElementObject(boxList[idx]);
+                var buttonObj = getElementObject(button_prefix + boxList[idx]);
+                openBox(boxObj, buttonObj);
+            }
+        }
+        
+        /**
+         * Update the message presented in the title of the html page.
+         * - If the documentation was splited by namespace we present something like: "Documentation for namespace 'ns'"
+         * - If the documentation was splited by location we present somehing like: "Documentation for 'Schema.xsd'"
+         * - If no split we always present: "Documentation for 'MainSchema.xsd'"
+         */
+        function updPT(message) {
+            top.document.title = "Stylesheet documentation for: " + message;
+        }
+        
+          
+                    
+         /**
+          * Finds an HTML element by its ID and makes it floatable over the normal content.
+          *
+          * @param x_displacement The difference in pixels to the right side of the window from 
+          *           the left side of the element.
+          * @param y_displacement The difference in pixels to the right side of the window from 
+          *           the top of the element.          
+          */
+         function findAndFloat(id, x_displacement, y_displacement){
+
+            var element = getElementObject(id);            
+            
+            window[id + "_obj"] = element;
+            
+            if(document.layers) {
+               element.style = element;
+            }
+            
+            element.current_y = y_displacement;      
+            element.first_time = true;
+         
+            element.floatElement = function(){
+               // It may be closed by an user action.
+                
+               // Target X and Y coordinates.
+               var x, y;
+               
+               var myWidth = 0, myHeight = 0;
+               if( typeof( window.innerWidth ) == 'number' ) {
+                  //Non-IE
+                  myWidth = window.innerWidth;
+                  myHeight = window.innerHeight;
+               } else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) {
+                  //IE 6+ in 'standards compliant mode'
+                  myWidth = document.documentElement.clientWidth;
+                  myHeight = document.documentElement.clientHeight;
+               } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+                  //IE 4 compatible
+                  myWidth = document.body.clientWidth;
+                  myHeight = document.body.clientHeight;
+               }
+               
+               
+               x = myWidth - x_displacement;
+               
+               var ns = (navigator.appName.indexOf("Netscape") != -1);               
+               y = ns ? pageYOffset : document.documentElement && document.documentElement.scrollTop ? 
+                  document.documentElement.scrollTop : document.body.scrollTop;               
+               y = y + y_displacement;               
+               
+               // The current y is the current coordinate of the floating element.
+               // This should be at the limit the y target coordinate.
+               this.current_y += (y - this.current_y)/1.25;
+               
+               // Add the pixels constant after the values
+               // and move the element.
+               var px = document.layers ? "" : "px";
+               this.style.left =  x + px;
+               this.style.top =  this.current_y + px;
+                              
+               setTimeout(this.id + "_obj.floatElement()", 100);
+            }
+            
+            element.floatElement();
+            return element;
+          }
+
+         /**
+          * Finds an HTML element by its ID and makes it floatable over the normal content.
+          *
+          * @param x_displacement The difference in pixels to the right side of the window from 
+          *           the left side of the element.
+          * @param y_displacement The difference in pixels to the right side of the window from 
+          *           the top of the element.          
+          */
+         function selectTOCGroupBy(id){
+         var selectIds = new Array('toc_group_by_location', 'toc_group_by_component_type', 'toc_group_by_namespace', 'toc_group_by_mode');
+            // Make all the tabs invisible.
+            for (i = 0; i < 4; i++){
+               var tab = getElementObject(selectIds[i]);
+               tab.style.display = 'none';
+            }
+            var selTab = getElementObject(id);
+            selTab.style.display = 'block';            
+         }
+          
+
+    
+                    //-->
+        </script>
+    </head>
+   <body>
+      <div id="global_controls" class="globalControls" style="position:absolute;right:0;">
+         <table class="rt">
+            <tr>
+               <td class="rt_cTL"/>
+               <td class="rt_lT"/>
+               <td class="rt_cTR"/>
+            </tr>
+            <tr>
+               <td class="rt_lL"/>
+               <td class="rt_cnt">
+                  <h3>Mode:</h3>
+                  <table>
+                     <tr>
+                        <td>
+                                    <span>
+                                        <input type="checkbox" value="-" checked="checked" onclick="switchMode(this);" class="control"/>
+                                    </span>
+                                    <span class="globalControlName">Compact lists</span>
+                                </td>
+                     </tr>
+                  </table>
+                  <h3>Showing:</h3>
+                  <table>
+                     <tr>
+                        <td>
+                                    <span>
+                                        <input type="checkbox" value="-" checked="checked" onclick="switchStateForAll(this, docBoxes);" class="control"/>
+                                    </span>
+                                    <span class="globalControlName">Documentation
+                              </span>
+                                </td>
+                     </tr>
+                     <tr>
+                        <td>
+                                    <span>
+                                        <input type="checkbox" value="-" checked="checked" onclick="switchStateForAll(this, parametersBoxes);" class="control"/>
+                                    </span>
+                                    <span class="globalControlName">Parameters </span>
+                                </td>
+                     </tr>
+                     <tr>
+                        <td>
+                                    <span>
+                                        <input type="checkbox" value="-" checked="checked" onclick="switchStateForAll(this, usedByBoxes);" class="control"/>
+                                    </span>
+                                    <span class="globalControlName">Used by </span>
+                                </td>
+                     </tr>
+                     <tr>
+                        <td>
+                                    <span>
+                                        <input type="checkbox" value="-" checked="checked" onclick="switchStateForAll(this, referencesBoxes);" class="control"/>
+                                    </span>
+                                    <span class="globalControlName">References </span>
+                                </td>
+                     </tr>
+                     <tr>
+                        <td>
+                                    <span>
+                                        <input type="checkbox" value="-" checked="checked" onclick="switchStateForAll(this, sourceBoxes);" class="control"/>
+                                    </span>
+                                    <span class="globalControlName">Source </span>
+                                </td>
+                     </tr>
+                  </table>
+                  <div align="right">
+                            <span>
+                                <input type="button" onclick="getElementObject('global_controls').style.display = 'none';" value="Close"/>
+                            </span>
+                        </div>
+               </td>
+               <td class="rt_lR"/>
+            </tr>
+            <tr>
+               <td class="rt_cBL"/>
+               <td class="rt_lB"/>
+               <td class="rt_cBR"/>
+            </tr>
+         </table>
+      </div>
+        <a id="brief.xsl"/>
+        <div class="cmpT">Main stylesheet
+         <span class="qname">brief.xsl</span>
+        </div>
+      <table class="rt">
+         <tr>
+            <td class="rt_cTL"/>
+            <td class="rt_lT"/>
+            <td class="rt_cTR"/>
+         </tr>
+         <tr>
+            <td class="rt_lL"/>
+            <td class="rt_cnt">
+               <table class="component">
+                  <tbody>
+                     <tr>
+                        <td class="fCol">Stylesheet version</td>
+                        <td>2.0</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </td>
+            <td class="rt_lR"/>
+         </tr>
+         <tr>
+            <td class="rt_cBL"/>
+            <td class="rt_lB"/>
+            <td class="rt_cBR"/>
+         </tr>
+      </table>
+        <a id="M_S_brief.xsl"/>
+        <div class="cmpT">Template
+         <span class="titleTemplateMatch">/</span>
+        </div>
+      <table class="rt">
+         <tr>
+            <td class="rt_cTL"/>
+            <td class="rt_lT"/>
+            <td class="rt_cTR"/>
+         </tr>
+         <tr>
+            <td class="rt_lL"/>
+            <td class="rt_cnt">
+               <table class="component">
+                  <tbody>
+                     <tr>
+                        <td class="fCol">
+                           <div class="flL">Documentation</div>
+                           <div class="flR">
+                                        <input id="bt_dS_M_S_brief.xsl" type="image" src="img/btM.gif" value="-" onclick="switchState('dS_M_S_brief.xsl');" class="control"/>
+                                    </div>
+                        </td>
+                        <td>
+                           <div id="dS_M_S_brief.xsl" style="display:block">
+                              <div>
+                                 <h3>Description</h3>
+                                 
+                                 <p>Extracts data from a single Brief TEI nodeset and outputs as an HTML table</p>
+                                 
+                              </div>
+                           </div>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td class="fCol">Namespace</td>
+                        <td>No namespace</td>
+                     </tr>
+                     <tr>
+                        <td class="fCol">Match</td>
+                        <td>/</td>
+                     </tr>
+                     <tr>
+                        <td class="fCol">Mode</td>
+                        <td>#default</td>
+                     </tr>
+                     <tr>
+                        <td class="fCol">
+                           <div class="flL">References</div>
+                           <div class="flR">
+                                        <input id="bt_refs_M_S_brief.xsl" type="image" src="img/btM.gif" value="-" onclick="switchState('refs_M_S_brief.xsl');" class="control"/>
+                                    </div>
+                        </td>
+                        <td>
+                           <div id="refs_M_S_brief.xsl" style="display:block">
+                              <table class="uBT">
+                                 <tr>
+                                    <td class="fCol">Function</td>
+                                    <td>
+                                       <div class="listGrouping">
+                                          <div class="refItemBlock">
+                                                            <a href="brief0.html#F_pad-integer-to-lengthS_brief.xsl" target="_self" title="http://www.functx.com" onclick="updPT('brief.xsl')">
+                                                                <span>pad-integer-to-length (</span>
+                                                                <span class="fParams">integerToPad, length</span>
+                                                                <span>)</span>
+                                                            </a>
+                                                        </div>
+                                       </div>
+                                    </td>
+                                 </tr>
+                              </table>
+                           </div>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td class="fCol">Import precedence</td>
+                        <td>0</td>
+                     </tr>
+                     <tr>
+                        <td class="fCol">
+                           <div class="flL">Source</div>
+                           <div class="flR">
+                                        <input id="bt_src_M_S_brief.xsl" type="image" src="img/btM.gif" value="-" onclick="switchState('src_M_S_brief.xsl');" class="control"/>
+                                    </div>
+                        </td>
+                        <td>
+                           <div id="src_M_S_brief.xsl" style="display:block">
+                              <table class="pWCont">
+                                 <tr>
+                                    <td width="100%">
+                                                    <pre>
+                                                        <span class="tXSLEl">&lt;xsl:template</span>
+                                                        <span class="tAN"> match=</span>
+                                                        <span class="tAV">"/"</span>
+                                                        <span class="tXSLEl">&gt;</span>
+                                                        <span class="tI">
+  </span>
+                                                        <span class="tEl">&lt;br</span>
+                                                        <span class="tEl">/&gt;</span>
+                                                        <span class="tI">
+  </span>
+                                                        <span class="tEl">&lt;table</span>
+                                                        <span class="tAN"> style=</span>
+                                                        <span class="tAV">"width: 100%"</span>
+                                                        <span class="tAN"> border=</span>
+                                                        <span class="tAV">"0"</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+    </span>
+                                                        <span class="tEl">&lt;thead</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;tr</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;th</span>
+                                                        <span class="tAN"> width=</span>
+                                                        <span class="tAV">"5%"</span>
+                                                        <span class="tEl">/&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;th</span>
+                                                        <span class="tAN"> width=</span>
+                                                        <span class="tAV">"5%"</span>
+                                                        <span class="tEl">/&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;th</span>
+                                                        <span class="tAN"> width=</span>
+                                                        <span class="tAV">"90%"</span>
+                                                        <span class="tEl">/&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;/tr&gt;</span>
+                                                        <span class="tI">
+    </span>
+                                                        <span class="tEl">&lt;/thead&gt;</span>
+                                                        <span class="tI">
+    </span>
+                                                        <span class="tEl">&lt;tbody</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;tr</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tXSLEl">&lt;xsl:variable</span>
+                                                        <span class="tAN"> name=</span>
+                                                        <span class="tAV">"id"</span>
+                                                        <span class="tXSLEl">&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tXSLEl">&lt;xsl:value-of</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"/TEI/teiHeader/profileDesc/textClass/classCode[@scheme='RegNr']/idno"</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tXSLEl">&lt;/xsl:variable&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tXSLEl">&lt;xsl:variable</span>
+                                                        <span class="tAN"> name=</span>
+                                                        <span class="tAV">"previous"</span>
+                                                        <span class="tXSLEl">&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tXSLEl">&lt;xsl:value-of</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"number($id) -1"</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tXSLEl">&lt;/xsl:variable&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tEl">&lt;a</span>
+                                                        <span class="tAN"> href=</span>
+                                                        <span class="tAV">"./{functx:pad-integer-to-length($previous, 4)}"</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tEl">&lt;img</span>
+                                                        <span class="tAN"> alt=</span>
+                                                        <span class="tAV">"vorherige Seite"</span>
+                                                        <span class="tAN"> title=</span>
+                                                        <span class="tAV">"vorherige Seite"</span>
+                                                        <span class="tAN"> src=</span>
+                                                        <span class="tAV">"/apps/blumenbach/resources/images/pageprev.gif"</span>
+                                                        <span class="tEl">/&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tEl">&lt;/a&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tXSLEl">&lt;xsl:variable</span>
+                                                        <span class="tAN"> name=</span>
+                                                        <span class="tAV">"next"</span>
+                                                        <span class="tXSLEl">&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tXSLEl">&lt;xsl:value-of</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"number($id) + 1"</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tXSLEl">&lt;/xsl:variable&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tEl">&lt;a</span>
+                                                        <span class="tAN"> href=</span>
+                                                        <span class="tAV">"./{functx:pad-integer-to-length($next, 4)}"</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tEl">&lt;img</span>
+                                                        <span class="tAN"> alt=</span>
+                                                        <span class="tAV">"nächste Seite"</span>
+                                                        <span class="tAN"> title=</span>
+                                                        <span class="tAV">"nächste Seite"</span>
+                                                        <span class="tAN"> src=</span>
+                                                        <span class="tAV">"/apps/blumenbach/resources/images/pagenext.gif"</span>
+                                                        <span class="tEl">/&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tEl">&lt;/a&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">/&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;/tr&gt;</span>
+                                                        <span class="tI">
+    </span>
+                                                        <span class="tEl">&lt;/tbody&gt;</span>
+                                                        <span class="tI">
+  </span>
+                                                        <span class="tEl">&lt;/table&gt;</span>
+                                                        <span class="tI">
+  </span>
+                                                        <span class="tEl">&lt;table</span>
+                                                        <span class="tAN"> style=</span>
+                                                        <span class="tAV">"width: 100%"</span>
+                                                        <span class="tAN"> border=</span>
+                                                        <span class="tAV">"1"</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+    </span>
+                                                        <span class="tEl">&lt;thead</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;tr</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;th</span>
+                                                        <span class="tAN"> width=</span>
+                                                        <span class="tAV">"10%"</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tT">Meta Element</span>
+                                                        <span class="tEl">&lt;/th&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;th</span>
+                                                        <span class="tAN"> width=</span>
+                                                        <span class="tAV">"90%"</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tT">Value</span>
+                                                        <span class="tEl">&lt;/th&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;/tr&gt;</span>
+                                                        <span class="tI">
+    </span>
+                                                        <span class="tEl">&lt;/thead&gt;</span>
+                                                        <span class="tI">
+    </span>
+                                                        <span class="tEl">&lt;tbody</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;tr</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tT">Register #:</span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tXSLEl">&lt;xsl:value-of</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"/TEI/teiHeader/profileDesc/textClass/classCode[@scheme='RegNr']/idno"</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;/tr&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;tr</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tT">Title:</span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tXSLEl">&lt;xsl:value-of</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"/TEI/teiHeader/fileDesc/sourceDesc/biblFull/titleStmt/title[@type='source']"</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;/tr&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;tr</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tT">Absender:</span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tXSLEl">&lt;xsl:choose</span>
+                                                        <span class="tXSLEl">&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tXSLEl">&lt;xsl:when</span>
+                                                        <span class="tAN"> test=</span>
+                                                        <span class="tAV">"/TEI/teiHeader/fileDesc/titleStmt/author/persName/surname/text()"</span>
+                                                        <span class="tXSLEl">&gt;</span>
+                                                        <span class="tI">
+              </span>
+                                                        <span class="tXSLEl">&lt;xsl:value-of</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"/TEI/teiHeader/fileDesc/titleStmt/author/persName/*"</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tXSLEl">&lt;/xsl:when&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tXSLEl">&lt;xsl:otherwise</span>
+                                                        <span class="tXSLEl">&gt;</span>
+                                                        <span class="tI">
+              </span>
+                                                        <span class="tXSLEl">&lt;xsl:value-of</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"/TEI/teiHeader/fileDesc/titleStmt/author/persName/text()"</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tXSLEl">&lt;/xsl:otherwise&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tXSLEl">&lt;/xsl:choose&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;/tr&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;tr</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tT">Empfanger:</span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tXSLEl">&lt;xsl:choose</span>
+                                                        <span class="tXSLEl">&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tXSLEl">&lt;xsl:when</span>
+                                                        <span class="tAN"> test=</span>
+                                                        <span class="tAV">"/TEI/teiHeader/profileDesc/creation/persName/surname/text()"</span>
+                                                        <span class="tXSLEl">&gt;</span>
+                                                        <span class="tI">
+              </span>
+                                                        <span class="tXSLEl">&lt;xsl:value-of</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"/TEI/teiHeader/profileDesc/creation/persName/*"</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tXSLEl">&lt;/xsl:when&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tXSLEl">&lt;xsl:otherwise</span>
+                                                        <span class="tXSLEl">&gt;</span>
+                                                        <span class="tI">
+              </span>
+                                                        <span class="tXSLEl">&lt;xsl:value-of</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"/TEI/teiHeader/profileDesc/creation/persName/text()"</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tXSLEl">&lt;/xsl:otherwise&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tXSLEl">&lt;/xsl:choose&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;/tr&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;tr</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tT">Abfassungsdatum:</span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tXSLEl">&lt;xsl:value-of</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"/TEI/teiHeader/profileDesc/creation/origDate/note/listEvent/event[@type='origin']/@when"</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;/tr&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;tr</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tT">Abfassungsort:</span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tXSLEl">&lt;xsl:value-of</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"/TEI/teiHeader/profileDesc/creation/placeName"</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;/tr&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;tr</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tT">Überlieferung:</span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tXSLEl">&lt;xsl:for-each</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"/TEI/teiHeader/fileDesc/notesStmt/note[@type='Überlieferung']//text()"</span>
+                                                        <span class="tXSLEl">&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tXSLEl">&lt;xsl:value-of</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"."</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tXSLEl">&lt;/xsl:for-each&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;/tr&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;tr</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tT">Drucke:</span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tXSLEl">&lt;xsl:value-of</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"/TEI/teiHeader/fileDesc/notesStmt/note[@type='Drucke']/bibl//text()"</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;/tr&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;tr</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tT">Edition:</span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tXSLEl">&lt;xsl:value-of</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"/TEI/teiHeader/fileDesc/notesStmt/note/bibl/edition//text()"</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;/tr&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;tr</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tT">Werke:</span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tXSLEl">&lt;xsl:value-of</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"/TEI/teiHeader/fileDesc/notesStmt/note[@type='Werke']/bibl//text()"</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;/tr&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;tr</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tT">Objekte:</span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tXSLEl">&lt;xsl:value-of</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"/TEI/teiHeader/fileDesc/notesStmt/note[@type='Objekte']//text()[not(ancestor::title)]"</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;/tr&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;tr</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tT">Anmerkung:</span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tXSLEl">&lt;xsl:value-of</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"/TEI/teiHeader/fileDesc/notesStmt/note[@type='Anmerkung']//text()[not(ancestor::title)]"</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;/tr&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tXSLEl">&lt;xsl:for-each</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"/TEI/teiHeader/fileDesc/notesStmt/note/ref"</span>
+                                                        <span class="tXSLEl">&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;tr</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tT">References:</span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tXSLEl">&lt;xsl:if</span>
+                                                        <span class="tAN"> test=</span>
+                                                        <span class="tAV">"./@type='html'"</span>
+                                                        <span class="tXSLEl">&gt;</span>
+                                                        <span class="tI">
+              </span>
+                                                        <span class="tXSLEl">&lt;xsl:value-of</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"."</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tXSLEl">&lt;/xsl:if&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tXSLEl">&lt;xsl:if</span>
+                                                        <span class="tAN"> test=</span>
+                                                        <span class="tAV">"./@type='pdf'"</span>
+                                                        <span class="tXSLEl">&gt;</span>
+                                                        <span class="tI">
+              </span>
+                                                        <span class="tXSLEl">&lt;xsl:value-of</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"."</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tXSLEl">&lt;/xsl:if&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;/tr&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tXSLEl">&lt;/xsl:for-each&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tXSLEl">&lt;xsl:for-each</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"/TEI/teiHeader/fileDesc/notesStmt/note/rs"</span>
+                                                        <span class="tXSLEl">&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;tr</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tT">Ref Labels:</span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tXSLEl">&lt;xsl:if</span>
+                                                        <span class="tAN"> test=</span>
+                                                        <span class="tAV">"./@type='html'"</span>
+                                                        <span class="tXSLEl">&gt;</span>
+                                                        <span class="tI">
+              </span>
+                                                        <span class="tXSLEl">&lt;xsl:value-of</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"."</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tXSLEl">&lt;/xsl:if&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tXSLEl">&lt;xsl:if</span>
+                                                        <span class="tAN"> test=</span>
+                                                        <span class="tAV">"./@type='pdf'"</span>
+                                                        <span class="tXSLEl">&gt;</span>
+                                                        <span class="tI">
+              </span>
+                                                        <span class="tXSLEl">&lt;xsl:value-of</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"."</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tXSLEl">&lt;/xsl:if&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;/tr&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tXSLEl">&lt;/xsl:for-each&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;tr</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tT">TEI Description:</span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tEl">&lt;table</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tEl">&lt;tr</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+              </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tT">File Name:</span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+              </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+                </span>
+                                                        <span class="tXSLEl">&lt;xsl:value-of</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"/TEI/teiHeader/fileDesc/publicationStmt/idno"</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+              </span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tEl">&lt;/tr&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tEl">&lt;tr</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+              </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tT">Revision Description:</span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+              </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+                </span>
+                                                        <span class="tXSLEl">&lt;xsl:value-of</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"/TEI/teiHeader/revisionDesc/change"</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+              </span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tEl">&lt;/tr&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tEl">&lt;tr</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+              </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tT">Project Responsible:</span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+              </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+                </span>
+                                                        <span class="tXSLEl">&lt;xsl:value-of</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"/TEI/teiHeader/fileDesc/titleStmt/respStmt/orgName[@resp = 'proj']"</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+              </span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tEl">&lt;/tr&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tEl">&lt;tr</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+              </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tT">Encoding Responsible:</span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+              </span>
+                                                        <span class="tEl">&lt;td</span>
+                                                        <span class="tEl">&gt;</span>
+                                                        <span class="tI">
+                </span>
+                                                        <span class="tXSLEl">&lt;xsl:value-of</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"/TEI/teiHeader/fileDesc/titleStmt/respStmt/persName[@resp = 'enc']"</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+              </span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+            </span>
+                                                        <span class="tEl">&lt;/tr&gt;</span>
+                                                        <span class="tI">
+          </span>
+                                                        <span class="tEl">&lt;/table&gt;</span>
+                                                        <span class="tI">
+        </span>
+                                                        <span class="tEl">&lt;/td&gt;</span>
+                                                        <span class="tI">
+      </span>
+                                                        <span class="tEl">&lt;/tr&gt;</span>
+                                                        <span class="tI">
+    </span>
+                                                        <span class="tEl">&lt;/tbody&gt;</span>
+                                                        <span class="tI">
+  </span>
+                                                        <span class="tEl">&lt;/table&gt;</span>
+                                                        <span class="tI">
+</span>
+                                                        <span class="tXSLEl">&lt;/xsl:template&gt;</span>
+                                                    </pre>
+                                                </td>
+                                 </tr>
+                              </table>
+                           </div>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </td>
+            <td class="rt_lR"/>
+         </tr>
+         <tr>
+            <td class="rt_cBL"/>
+            <td class="rt_lB"/>
+            <td class="rt_cBR"/>
+         </tr>
+      </table>
+        <a id="F_pad-integer-to-lengthS_brief.xsl"/>
+        <div class="cmpT">Function
+         <span class="qname">functx:pad-integer-to-length (<span class="fParams">integerToPad, length</span>)</span>
+        </div>
+      <table class="rt">
+         <tr>
+            <td class="rt_cTL"/>
+            <td class="rt_lT"/>
+            <td class="rt_cTR"/>
+         </tr>
+         <tr>
+            <td class="rt_lL"/>
+            <td class="rt_cnt">
+               <table class="component">
+                  <tbody>
+                     <tr>
+                        <td class="fCol">Namespace</td>
+                        <td>http://www.functx.com</td>
+                     </tr>
+                     <tr>
+                        <td class="fCol">Type</td>
+                        <td>xs:string</td>
+                     </tr>
+                     <tr>
+                        <td class="fCol">
+                           <div class="flL">Used by</div>
+                           <div class="flR">
+                                        <input id="bt_uB_F_pad-integer-to-lengthS_brief.xsl" type="image" src="img/btM.gif" value="-" onclick="switchState('uB_F_pad-integer-to-lengthS_brief.xsl');" class="control"/>
+                                    </div>
+                        </td>
+                        <td>
+                           <div id="uB_F_pad-integer-to-lengthS_brief.xsl" style="display:block">
+                              <table class="uBT">
+                                 <tr>
+                                    <td class="fCol">Template</td>
+                                    <td>
+                                       <div class="listGrouping">
+                                          <div class="refItemBlock">
+                                                            <a href="brief0.html#M_S_brief.xsl" target="_self" title="No namespace" onclick="updPT('brief.xsl')">
+                                                                <span class="mRf">/</span>
+                                                            </a>
+                                                        </div>
+                                       </div>
+                                    </td>
+                                 </tr>
+                              </table>
+                           </div>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td class="fCol">
+                           <div class="flL">References</div>
+                           <div class="flR">
+                                        <input id="bt_refs_F_pad-integer-to-lengthS_brief.xsl" type="image" src="img/btM.gif" value="-" onclick="switchState('refs_F_pad-integer-to-lengthS_brief.xsl');" class="control"/>
+                                    </div>
+                        </td>
+                        <td>
+                           <div id="refs_F_pad-integer-to-lengthS_brief.xsl" style="display:block">
+                              <table class="uBT">
+                                 <tr>
+                                    <td class="fCol">Function</td>
+                                    <td>
+                                       <div class="listGrouping">
+                                          <div class="refItemBlock">
+                                                            <a href="brief0.html#F_repeat-stringS_brief.xsl" target="_self" title="http://www.functx.com" onclick="updPT('brief.xsl')">
+                                                                <span>repeat-string (</span>
+                                                                <span class="fParams">stringToRepeat, count</span>
+                                                                <span>)</span>
+                                                            </a>
+                                                        </div>
+                                       </div>
+                                    </td>
+                                 </tr>
+                              </table>
+                           </div>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td class="fCol">
+                           <div class="flL">Parameters</div>
+                           <div class="flR">
+                                        <input id="bt_prs_F_pad-integer-to-lengthS_brief.xsl" type="image" src="img/btM.gif" value="-" onclick="switchState('prs_F_pad-integer-to-lengthS_brief.xsl');" class="control"/>
+                                    </div>
+                        </td>
+                        <td>
+                           <div id="prs_F_pad-integer-to-lengthS_brief.xsl" style="display:block">
+                              <table class="attsT">
+                                 <thead>
+                                    <tr>
+                                       <th>QName</th>
+                                       <th>Namespace</th>
+                                       <th>Type</th>
+                                    </tr>
+                                 </thead>
+                                 <tr>
+                                    <td class="fCol">integerToPad</td>
+                                    <td>No namespace</td>
+                                    <td>xs:anyAtomicType?</td>
+                                 </tr>
+                                 <tr>
+                                    <td class="fCol">length</td>
+                                    <td>No namespace</td>
+                                    <td>xs:integer</td>
+                                 </tr>
+                              </table>
+                           </div>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td class="fCol">Import precedence</td>
+                        <td>0</td>
+                     </tr>
+                     <tr>
+                        <td class="fCol">
+                           <div class="flL">Source</div>
+                           <div class="flR">
+                                        <input id="bt_src_F_pad-integer-to-lengthS_brief.xsl" type="image" src="img/btM.gif" value="-" onclick="switchState('src_F_pad-integer-to-lengthS_brief.xsl');" class="control"/>
+                                    </div>
+                        </td>
+                        <td>
+                           <div id="src_F_pad-integer-to-lengthS_brief.xsl" style="display:block">
+                              <table class="pWCont">
+                                 <tr>
+                                    <td width="100%">
+                                                    <pre>
+                                                        <span class="tXSLEl">&lt;xsl:function</span>
+                                                        <span class="tAN"> name=</span>
+                                                        <span class="tAV">"functx:pad-integer-to-length"</span>
+                                                        <span class="tAN"> as=</span>
+                                                        <span class="tAV">"xs:string"</span>
+                                                        <span class="tXSLEl">&gt;</span>
+                                                        <span class="tI">
+  </span>
+                                                        <span class="tXSLEl">&lt;xsl:param</span>
+                                                        <span class="tAN"> name=</span>
+                                                        <span class="tAV">"integerToPad"</span>
+                                                        <span class="tAN"> as=</span>
+                                                        <span class="tAV">"xs:anyAtomicType?"</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+  </span>
+                                                        <span class="tXSLEl">&lt;xsl:param</span>
+                                                        <span class="tAN"> name=</span>
+                                                        <span class="tAV">"length"</span>
+                                                        <span class="tAN"> as=</span>
+                                                        <span class="tAV">"xs:integer"</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+  </span>
+                                                        <span class="tXSLEl">&lt;xsl:sequence</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"if ($length &lt; string-length(string($integerToPad)))        then error(xs:QName('functx:Integer_Longer_Than_Length'))        else concat              (functx:repeat-string(                 '0',$length - string-length(string($integerToPad))),               string($integerToPad))"</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+</span>
+                                                        <span class="tXSLEl">&lt;/xsl:function&gt;</span>
+                                                    </pre>
+                                                </td>
+                                 </tr>
+                              </table>
+                           </div>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </td>
+            <td class="rt_lR"/>
+         </tr>
+         <tr>
+            <td class="rt_cBL"/>
+            <td class="rt_lB"/>
+            <td class="rt_cBR"/>
+         </tr>
+      </table>
+        <a id="F_repeat-stringS_brief.xsl"/>
+        <div class="cmpT">Function
+         <span class="qname">functx:repeat-string (<span class="fParams">stringToRepeat, count</span>)</span>
+        </div>
+      <table class="rt">
+         <tr>
+            <td class="rt_cTL"/>
+            <td class="rt_lT"/>
+            <td class="rt_cTR"/>
+         </tr>
+         <tr>
+            <td class="rt_lL"/>
+            <td class="rt_cnt">
+               <table class="component">
+                  <tbody>
+                     <tr>
+                        <td class="fCol">Namespace</td>
+                        <td>http://www.functx.com</td>
+                     </tr>
+                     <tr>
+                        <td class="fCol">Type</td>
+                        <td>xs:string</td>
+                     </tr>
+                     <tr>
+                        <td class="fCol">
+                           <div class="flL">Used by</div>
+                           <div class="flR">
+                                        <input id="bt_uB_F_repeat-stringS_brief.xsl" type="image" src="img/btM.gif" value="-" onclick="switchState('uB_F_repeat-stringS_brief.xsl');" class="control"/>
+                                    </div>
+                        </td>
+                        <td>
+                           <div id="uB_F_repeat-stringS_brief.xsl" style="display:block">
+                              <table class="uBT">
+                                 <tr>
+                                    <td class="fCol">Function</td>
+                                    <td>
+                                       <div class="listGrouping">
+                                          <div class="refItemBlock">
+                                                            <a href="brief0.html#F_pad-integer-to-lengthS_brief.xsl" target="_self" title="http://www.functx.com" onclick="updPT('brief.xsl')">
+                                                                <span>functx:pad-integer-to-length (</span>
+                                                                <span class="fParams">integerToPad, length</span>
+                                                                <span>)</span>
+                                                            </a>
+                                                        </div>
+                                       </div>
+                                    </td>
+                                 </tr>
+                              </table>
+                           </div>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td class="fCol">
+                           <div class="flL">Parameters</div>
+                           <div class="flR">
+                                        <input id="bt_prs_F_repeat-stringS_brief.xsl" type="image" src="img/btM.gif" value="-" onclick="switchState('prs_F_repeat-stringS_brief.xsl');" class="control"/>
+                                    </div>
+                        </td>
+                        <td>
+                           <div id="prs_F_repeat-stringS_brief.xsl" style="display:block">
+                              <table class="attsT">
+                                 <thead>
+                                    <tr>
+                                       <th>QName</th>
+                                       <th>Namespace</th>
+                                       <th>Type</th>
+                                    </tr>
+                                 </thead>
+                                 <tr>
+                                    <td class="fCol">count</td>
+                                    <td>No namespace</td>
+                                    <td>xs:integer</td>
+                                 </tr>
+                                 <tr>
+                                    <td class="fCol">stringToRepeat</td>
+                                    <td>No namespace</td>
+                                    <td>xs:string?</td>
+                                 </tr>
+                              </table>
+                           </div>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td class="fCol">Import precedence</td>
+                        <td>0</td>
+                     </tr>
+                     <tr>
+                        <td class="fCol">
+                           <div class="flL">Source</div>
+                           <div class="flR">
+                                        <input id="bt_src_F_repeat-stringS_brief.xsl" type="image" src="img/btM.gif" value="-" onclick="switchState('src_F_repeat-stringS_brief.xsl');" class="control"/>
+                                    </div>
+                        </td>
+                        <td>
+                           <div id="src_F_repeat-stringS_brief.xsl" style="display:block">
+                              <table class="pWCont">
+                                 <tr>
+                                    <td width="100%">
+                                                    <pre>
+                                                        <span class="tXSLEl">&lt;xsl:function</span>
+                                                        <span class="tAN"> name=</span>
+                                                        <span class="tAV">"functx:repeat-string"</span>
+                                                        <span class="tAN"> as=</span>
+                                                        <span class="tAV">"xs:string"</span>
+                                                        <span class="tXSLEl">&gt;</span>
+                                                        <span class="tI">
+  </span>
+                                                        <span class="tXSLEl">&lt;xsl:param</span>
+                                                        <span class="tAN"> name=</span>
+                                                        <span class="tAV">"stringToRepeat"</span>
+                                                        <span class="tAN"> as=</span>
+                                                        <span class="tAV">"xs:string?"</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+  </span>
+                                                        <span class="tXSLEl">&lt;xsl:param</span>
+                                                        <span class="tAN"> name=</span>
+                                                        <span class="tAV">"count"</span>
+                                                        <span class="tAN"> as=</span>
+                                                        <span class="tAV">"xs:integer"</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+  </span>
+                                                        <span class="tXSLEl">&lt;xsl:sequence</span>
+                                                        <span class="tAN"> select=</span>
+                                                        <span class="tAV">"string-join((for $i in 1 to $count return $stringToRepeat), '')"</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                        <span class="tI">
+</span>
+                                                        <span class="tXSLEl">&lt;/xsl:function&gt;</span>
+                                                    </pre>
+                                                </td>
+                                 </tr>
+                              </table>
+                           </div>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </td>
+            <td class="rt_lR"/>
+         </tr>
+         <tr>
+            <td class="rt_cBL"/>
+            <td class="rt_lB"/>
+            <td class="rt_cBR"/>
+         </tr>
+      </table>
+        <a id="O_S_brief.xsl"/>
+        <div class="cmpT">Output
+         <span class="qname">(default)</span>
+        </div>
+      <table class="rt">
+         <tr>
+            <td class="rt_cTL"/>
+            <td class="rt_lT"/>
+            <td class="rt_cTR"/>
+         </tr>
+         <tr>
+            <td class="rt_lL"/>
+            <td class="rt_cnt">
+               <table class="component">
+                  <tbody>
+                     <tr>
+                        <td class="fCol">Namespace</td>
+                        <td>No namespace</td>
+                     </tr>
+                     <tr>
+                        <td class="fCol">
+                           <div class="flL">Output properties</div>
+                           <div class="flR">
+                                        <input id="bt_o_" type="image" src="img/btM.gif" value="-" onclick="switchState('o_');" class="control"/>
+                                    </div>
+                        </td>
+                        <td>
+                           <div id="o_" style="display:block">
+                              <table class="attsT">
+                                 <thead>
+                                    <tr>
+                                       <th>method</th>
+                                       <th>indent</th>
+                                    </tr>
+                                 </thead>
+                                 <tr>
+                                    <td>xml</td>
+                                    <td>yes</td>
+                                 </tr>
+                              </table>
+                           </div>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td class="fCol">
+                           <div class="flL">Source</div>
+                           <div class="flR">
+                                        <input id="bt_src_O_S_brief.xsl" type="image" src="img/btM.gif" value="-" onclick="switchState('src_O_S_brief.xsl');" class="control"/>
+                                    </div>
+                        </td>
+                        <td>
+                           <div id="src_O_S_brief.xsl" style="display:block">
+                              <table class="pWCont">
+                                 <tr>
+                                    <td width="100%">
+                                                    <pre>
+                                                        <span class="tXSLEl">&lt;xsl:output</span>
+                                                        <span class="tAN"> method=</span>
+                                                        <span class="tAV">"xml"</span>
+                                                        <span class="tAN"> indent=</span>
+                                                        <span class="tAV">"yes"</span>
+                                                        <span class="tXSLEl">/&gt;</span>
+                                                    </pre>
+                                                </td>
+                                 </tr>
+                              </table>
+                           </div>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </td>
+            <td class="rt_lR"/>
+         </tr>
+         <tr>
+            <td class="rt_cBL"/>
+            <td class="rt_lB"/>
+            <td class="rt_cBR"/>
+         </tr>
+      </table>
+      <div class="footer">
+         <hr/>
+         <div align="center">Stylesheet documentation generated by <a href="http://www.oxygenxml.com" target="_parent">
+                    <span class="oXygenLogo">
+                        <span class="redX">&lt;</span>o<span class="redX">X</span>ygen<span class="redX">/&gt;</span>
+                    </span>
+                </a>
+                <sup>®</sup> XML Editor.
+         </div>
+      </div>
+        <script type="text/javascript">
+         <!--
+                    // The namespace is the selected option in the TOC combo.
+                    
+                    // The corresponding div is already visible conf. to its style attr.                     
+                    
+                            var selectToc = getElementObject('selectTOC');
+                            if(selectToc != null){
+                            // It can be null when having chunking, the combo of the TOC is in another frame.
+                            selectToc.selectedIndex = 0;
+                            }
+                        
+                    
+                    // Floats the toolbar.
+                    var globalControls = getElementObject("global_controls"); 
+                    
+                    if(globalControls != null){
+                    var browser=navigator.appName;
+                    var version = parseFloat(navigator.appVersion.split('MSIE')[1]);
+                    
+                    var IE6 = false;
+                    if ((browser=="Microsoft Internet Explorer") && (version < 7)){
+                    IE6 = true;
+                    }
+                    
+                    //alert (IE6 + " |V| " + version);
+                    
+                    if(IE6){
+                    // On IE 6 the 'fixed' property is not supported. We must use javascript. 
+                    globalControls.style.position='absolute';                         
+                    // The global controls will do not exist in the TOC frame, when chunking.
+                    findAndFloat("global_controls", 225, 30);    
+                    } else {
+                    globalControls.style.position='fixed';                     	
+                    }
+                    
+                    globalControls.style.right='0';                       
+                    }
+                //-->
+        </script>
+    </body>
+</html>

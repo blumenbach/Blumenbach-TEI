@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xqdoc:xqdoc xmlns:xqdoc="http://www.xqdoc.org/1.0">
+    <xqdoc:control>
+        <xqdoc:date>2015-07-13T10:52:23.411Z</xqdoc:date>
+        <xqdoc:location>/db/apps/blumenbach/modules/theme.xqm</xqdoc:location>
+    </xqdoc:control>
+    <xqdoc:module type="library">
+        <xqdoc:uri>http://exist-db.org/xquery/theme</xqdoc:uri>
+        <xqdoc:name>theme</xqdoc:name>
+        <xqdoc:comment>
+            <xqdoc:description> Functions that support themes
+</xqdoc:description>
+        </xqdoc:comment>
+    </xqdoc:module>
+    <xqdoc:functions>
+        <xqdoc:function>
+            <xqdoc:name>theme:check-for</xqdoc:name>
+            <xqdoc:signature>theme:check-for($resource as xs:string, $theme as xs:string) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description>
+ Check if the resource is available within the theme. If yes, return the
+ theme's name, if not, the default theme "default"
+</xqdoc:description>
+                <xqdoc:param>$resource </xqdoc:param>
+                <xqdoc:param>$theme </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>theme:get-default</xqdoc:name>
+            <xqdoc:signature>theme:get-default() as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>theme:get-path</xqdoc:name>
+            <xqdoc:signature>theme:get-path() as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description>
+
+</xqdoc:description>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>theme:normalize-path</xqdoc:name>
+            <xqdoc:signature>theme:normalize-path($rawPath as xs:string) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description>
+
+</xqdoc:description>
+                <xqdoc:param>$rawPath </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>theme:resolve</xqdoc:name>
+            <xqdoc:signature>theme:resolve($prefix as xs:string?, $root as xs:string, $resource as xs:string) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description>
+ Locate the specified resource for the selected theme. The theme is determined
+ from the URL prefix. If a resource cannot be found within the theme collection,
+ the function falls back to the theme "default" and tries to locate the resource
+ there.
+
+ </xqdoc:description>
+                <xqdoc:param>$prefix? the URL prefix as passed in from the controller</xqdoc:param>
+                <xqdoc:param>$root the db root of this app as passed in from the controller</xqdoc:param>
+                <xqdoc:param>$resource path to a resource in the theme collection</xqdoc:param>
+                <xqdoc:return>item()* :  resolved path to the resource to be used for forwarding in controller
+</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>theme:theme-for-prefix</xqdoc:name>
+            <xqdoc:signature>theme:theme-for-prefix($prefix as xs:string?) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description>
+ Lookup the prefix and return the name of theme to be applied
+</xqdoc:description>
+                <xqdoc:param>$prefix? </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>theme:theme-for-resource</xqdoc:name>
+            <xqdoc:signature>theme:theme-for-resource($prefix as xs:string, $resource as xs:string) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description>
+ Determine the theme to use and try to locate the resource. If it does not
+ exist, fall back to the theme "default"
+</xqdoc:description>
+                <xqdoc:param>$prefix </xqdoc:param>
+                <xqdoc:param>$resource </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+    </xqdoc:functions>
+</xqdoc:xqdoc>

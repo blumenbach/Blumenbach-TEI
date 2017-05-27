@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach teilt Joseph Banks seine Überlegungen zu diversen natur- und kulturgeschichtlichen Objekten -unter anderem babylonische Ziegel mit Keilschriftinschriften - und Informationen mit, die dieser gesandt hatte, und berichtet über seinen Kenntnisstand zu drei in Deutschland erschienenen, offenbar fingierten Reiseberichten über Afrika und Indien. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1207.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">London, British Library, Add MS 8099, fol. 21–22.</note>
+                <note type="Drucke">
+                    <bibl>Chambers, <emph>Scientific correspondence of Sir Joseph Banks</emph>, Bd. 5 (2007), S. 79–81 Nr. 1585; vgl. ausführl. Regest in Dawson, <emph>The Banks Letters</emph> (1958), S. 116–117 Nr. 59.</bibl>
+                    <title level="m" type="bibl">Scientific correspondence of Sir Joseph Banks</title>
+                    <title level="m" type="bibl">The Banks Letters</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Meteoriten aus Benares, Indien; Federmesser aus dem indischen Stahl „Wootz“; antikes Schilfrohr aus der Nähe von Bagdad; die (Abschriften der?) Keilschrift-Ziegel sandte Blumenbach an Oluf Gerhard Tychsen nach Rostock.</rs>
+                </note>
+                <note type="Anmerkung">
+                    <note>Enthielt wohl als Beilage den Brief vom 2. März 1801, vgl. Dawson, <emph>The Banks Letters</emph> (1958), S. 117 Nr. 60. </note>
+                    <title level="m" type="bibl">The Banks Letters</title>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach teilt Joseph Banks seine Überlegungen zu diversen natur- und kulturgeschichtlichen Objekten -unter anderem babylonische Ziegel mit Keilschriftinschriften - und Informationen mit, die dieser gesandt hatte, und berichtet über seinen Kenntnisstand zu drei in Deutschland erschienenen, offenbar fingierten Reiseberichten über Afrika und Indien. </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich</forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Joseph</forename>
+                    <surname>Banks</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1801-02-28" when="1801-02-28" where="#orgplc_1207">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1801-02-28">1801, Febr. 28</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1207">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01207.00">
+                    <idno>1207</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

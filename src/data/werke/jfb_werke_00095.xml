@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">decas quarta collectionis suae craniorum diversarum gentium illustrata</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00095.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000095/00095.pdf</ref>
+                </note>
+                <note type="ref">
+                    <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000095/000095.html</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">decas quarta collectionis suae craniorum diversarum gentium illustrata</title>
+                        <title level="m" type="aut">Jo. Frid. Blumenbachii <gap reason="ellipsis"/>
+                        </title>
+                        <imprint>
+                            <publisher>
+                                <name>Apud Joann. Christian. Dieterich</name>
+                            </publisher>
+                            <pubPlace>Gottingae</pubPlace>
+                            <date type="publication" when="1800-01-01">MDCCC</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="4 ZOOL XII, 1590:4">4 ZOOL XII, 1590:4</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>16 S., X gef. Bl. : 10 Ill. (Kupferst.)<dimensions>
+                                        <dim>26 cm (4°)</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00095.00">00095</classCode>
+                <classCode scheme="cat">
+                    <idno>I</idno>Selbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>I.6</idno>Decades Collectionis Suae Craniorum</classCode>
+                <classCode scheme="cat">
+                    <idno>I.6.1</idno>Originalausgaben</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00095">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e8494_00095">
+                <span type="note">Sonderdruck des Beitrags „Jo. Frid. Blumenbachii decas quarta collectionis suae craniorum diversarum gentium illustrata. d. XXVIII. Septembr. MDCCXCIX“, in</span>
+                <span type="title" style="j">Commentationes Societatis Regiae Scientiarum Gottingensis</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. XIV (1800), Phys.</span>
+                <span type="citedRange">S. 35-48</span>
+                <span type="reference">00188</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Angezeigt von Blumenbach in</span>
+                <span type="title" style="j">GAgS</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1800 (10. Stück, 18. Januar)</span>
+                <span type="citedRange">S. 89-90; „Göttingen“</span>
+                <span type="reference">00417</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">
+                    <lb/>Enthält Erläuterungen und Abbildungen zu folgenden Schädeln:<lb/>
+                </span>
+                <span type="citedRange">S. 3</span>
+                <span type="note">[Vorbemerkung]<lb/>
+                </span>
+                <span type="citedRange">S. 4-6</span>
+                <span type="note">XXXI. Mumiae Aegyptiacae secundae. (Tab. XXXI.)<lb/>
+                </span>
+                <span type="citedRange">S. 7</span>
+                <span type="note">XXXII. veteris Romani militis praetoriani. (Tab. XXXII.)<lb/>
+                </span>
+                <span type="citedRange">S. 8-9</span>
+                <span type="note">XXXIII. veteris Tschudae. (Tab. XXXIII.)<lb/>
+                </span>
+                <span type="citedRange">S. 10</span>
+                <span type="note">XXXIV. Iudaei centenarii. (Tab. XXXIV.)<lb/>
+                </span>
+                <span type="citedRange">S. 11</span>
+                <span type="note">XXXV. Persae. (Tab. XXXV.)<lb/>
+                </span>
+                <span type="citedRange">S. 12-13</span>
+                <span type="note">XXXVI. Groenlandi. (Tab. XXXVI.)<lb/>
+                </span>
+                <span type="note">XXXVII. Feminae Groenlandicae. (Tab. XXXVII.)<lb/>
+                </span>
+                <span type="citedRange">S. 14</span>
+                <span type="note">XXXVIII. Americani Illinoici. (Tab. XXXVIII.)<lb/>
+                </span>
+                <span type="citedRange">S. 15</span>
+                <span type="note">XXXIX. Iavani. (Tab. XXXIX.)<lb/>
+                </span>
+                <span type="citedRange">S. 15-16</span>
+                <span type="note">XL. Novo-Hollandi secundi. (Tab. XL.)</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

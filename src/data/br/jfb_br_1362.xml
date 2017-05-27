@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach berichtet Wilhelm Gottlieb Becker, er habe soeben erfahren, dass er vor einem halben Jahr aufgrund einer Verwechselung statt zweier von Becker gesandter Abbildungen von ägyptischen Mumien in Dresden eine für einen anderen Adressaten gedachte Büchersendung erhalten habe, mit dem er sich nun wegen des Austausches der Sendungen in Verbindung setzen werde. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1362.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Uppsala, Universiteitsbiblioteket, The Waller Manuscript Collection, Waller Ms de-00374; Digitalisat online verfügbar.<ptr target="ref_d1e139626_01379"/> Transkription.<ptr target="ref_d1e139625_01379"/>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1649" xml:id="ref_d1e139625_01379">http://waller.ub.uu.se/18100.htmlhttp://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/Transkriptionen/Blumenbach_Becker_1809Nov27_Transkription.html</ref>
+                    <rs type="html">Transkription </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1650" xml:id="ref_d1e139626_01379">http://waller.ub.uu.se/18100.html</ref>
+                    <rs type="html">Digitalisat online verfügbar.</rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach berichtet Wilhelm Gottlieb Becker, er habe soeben erfahren, dass er vor einem halben Jahr aufgrund einer Verwechselung statt zweier von Becker gesandter Abbildungen von ägyptischen Mumien in Dresden eine für einen anderen Adressaten gedachte Büchersendung erhalten habe, mit dem er sich nun wegen des Austausches der Sendungen in Verbindung setzen werde. </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich</forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Wilhelm Gottlieb</forename>
+                    <surname>Becker</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1809-11-27" when="1809-11-27" where="#orgplc_1362">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1809-11-27">1809, Nov. 27</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1362">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01362.00">
+                    <idno>1362</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Christiane Henriette von Waldeck dankt Blumenbach für ein Exemplar der vierten Auflage des Handbuchs der Naturgeschichte (1791) und eine Materialprobe Menacanit, kündigt an, ihm eine Quecksilberstufe zu senden und bittet ihm, sich bei Christian Gottlob Heyne für einen Freitisch für Georg Heinrich Adolph Kneuper, den Sohn eines Arolsener Beamten, einzusetzen. </title>
+                <author>
+                    <persName>
+                        <forename>Christiane Henriette von</forename>
+                        <surname>Waldeck</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1649.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 1 (Christiane von Waldeck Nr. 11). </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> V, S. 541 Nr. App. 10.<ptr target="ref_d1e57063_00573"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Werke">
+                    <bibl>
+                        <relatedItem>
+                            <bibl>
+                                <emph>Handbuch der Naturgeschichte</emph> (4. Auf., 1791; Bibliographie Nr. 00025).<ptr target="ref_d1e57061_00573"/>
+                            </bibl>
+                        </relatedItem>
+                    </bibl>
+                    <title level="m" type="bibl">Handbuch der Naturgeschichte</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="497" xml:id="ref_d1e57063_00573">http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=557</ref>
+                    <rs type="pdf">Corresp. V, S. 541 Nr. App. 10 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="498" xml:id="ref_d1e57061_00573">./view-work.html?id=00025</ref>
+                    <rs type="html">00025 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Christiane Henriette von Waldeck dankt Blumenbach für ein Exemplar der vierten Auflage des <emph>Handbuchs der Naturgeschichte</emph> (1791) und eine Materialprobe Menacanit, kündigt an, ihm eine Quecksilberstufe zu senden und bittet ihm, sich bei Christian Gottlob Heyne für einen Freitisch für Georg Heinrich Adolph Kneuper, den Sohn eines Arolsener Beamten, einzusetzen. </title>
+                        <title level="m" type="bibl">Handbuchs der Naturgeschichte</title>
+                        <author>
+                            <persName>
+                                <forename>Christiane Henriette von</forename>
+                                <surname>Waldeck</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1791-04-25" when="1791-04-25" where="#orgplc_1649">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1791-04-25">1791, nach Apr. 25</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                        <listEvent>
+                            <event type="iso-origin-nb" notBefore="1791-04-25" where="#orgplc_1649">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum (not before):</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1791-04-25">1791, nach Apr. 25</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1649">Arolsen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0567.01">2005<idno>1649</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Beyträge zur Naturgeschichte</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00112.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000112/00112.pdf</ref>
+                </note>
+                <note type="ref">
+                    <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000112/000112.html</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">Beyträge zur Naturgeschichte <metamark>
+                                <pc unit="slash"/>
+                            </metamark>
+                        </title>
+                        <title level="m" type="sub">von Joh. Fr. Blumenbach <gap reason="ellipsis"/>
+                        </title>
+                        <author>
+                            <persName ref="http://viaf.org/viaf/71570755">Blumenbach, Johann Friedrich</persName>
+                        </author>
+                        <edition>Erster Theil, zweyte Ausgabe</edition>
+                        <imprint>
+                            <publisher>
+                                <name>Bey Heinrich Dieterich</name>
+                            </publisher>
+                            <pubPlace>Göttingen</pubPlace>
+                            <date type="publication" when="1806-01-01">1806</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 H NAT I, 748:1">8 H NAT I, 748:1</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>XII, 131 S. : Ill. (Kupferst.)<dimensions>
+                                        <dim>17 cm (8°)</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00112.00">00112</classCode>
+                <classCode scheme="cat">
+                    <idno>I</idno>Selbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>I.8</idno>Beiträge zur Naturgeschichte</classCode>
+                <classCode scheme="cat">
+                    <idno>I.8.1</idno>Originalausgaben</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00112">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e10223_00112">
+                <span type="note">Titelvignette und 4 weitere Vignetten, Zählung: 1-5</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Vignetten zeigen die fünf Menschenvarietäten</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Angezeigt von Blumenbach in</span>
+                <span type="title" style="j">GgA</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1806 (156. Stück, 29. September)</span>
+                <span type="citedRange">S. 1553-1555; „Göttingen“</span>
+                <span type="reference">00467</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Abweichungen zur 1. Ausgabe 1790:</span>
+                <span type="note">„Inhalt“ (S. IX-XII);</span>
+                <span type="note">„III. Eine präadamitische Vorwelt hat einst schon ihren jüngsten Tag erlebt“ (S. 13-18);</span>
+                <span type="note">„IV. Umschaffung der Vorwelt“ (S. 19-23);</span>
+                <span type="note">„V. Veränderlichkeit in der jetzigen Schöpfung“ (S. 24-28);</span>
+                <span type="note">„VI. Die Ausartung der organisirten Körper“ (S. 29-31);</span>
+                <span type="note">„VII. Besonders unter den Hausthieren“ (S. 32-37);</span>
+                <span type="note">„VIII. Ausartung des vollkommensten aller Hausthiere, – des Menschen“ (S. 38-41);</span>
+                <span type="note">„IX. Eine hieher gehörige physiologische Eigenheit des menschlichen Körpers“ (S. 42-47);</span>
+                <span type="note">„X. Ein Wort zur Beruhigung in einer allgemeinen Familien-Angelegenheit“ (S. 48-54);</span>
+                <span type="note">„XI. Ueber anthropologische Sammlungen“ (S. 55-66);</span>
+                <span type="note">„XII. Eintheilung des Menschengeschlechts in fünf Hauptrassen“ (S. 67-72);</span>
+                <span type="note">„XIII. Ueber die Negern insbesondre“ (S. 73-97); „XIV. Von den Kakerlacken“ (S. 98-105);</span>
+                <span type="note">„Zusätze“ (S. 106-131), i. e. „1) Zu S. 9. Ueber die Stufenfolge in der Natur“ (S. 106-112);</span>
+                <span type="note">„2) Zu S. 15. Ueber die Zeitfolge der verschiedenen Erdcatastrophen“ (S. 113-122);</span>
+                <span type="note">„3) Zu S. 35. Ueber die sogenannten Endabsichten“ (S. 123-131)</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

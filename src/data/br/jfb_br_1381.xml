@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach dankt Johann Wolfgang von Goethe für die Probe des ihm bisher nur aus der Literatur bekannten „Pilzsteins“ (pietra fungaja), zu dem er zahlreiche Literaturbelege nennt, und sendet ein Autograph Nikolaus Ludwig von Zinzendorfs und ein Exemplar seiner Beyträge zur Naturgeschichte (2. Teil, 1811). </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1381.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Weimar, Goethe- und Schiller-Archiv: GSA 28/57, Bl. 215f.</note>
+                <note type="Drucke">
+                    <bibl>Teildruck: Goethe. Die Schriften zur Naturwissenschaft. Abt. II, Bd. 9b, S. 336–337; Regest: <emph>Briefe an Goethe. Gesamtausgabe in Regestform 1764–1817</emph>. Herausgegeben von der Klassik Stiftung Weimar Goethe- und Schiller-Archiv (online-Version)<ptr target="ref_d1e141508_01398"/>, Regest Nr. 6/240.</bibl>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Werke">
+                    <bibl>
+                        <relatedItem>
+                            <bibl>
+                                <emph>Beyträge zur Naturgeschichte</emph> (2. Teil, 1811; Bibliographie 00113).<ptr target="ref_d1e141507_01398"/>
+                            </bibl>
+                        </relatedItem>
+                    </bibl>
+                    <title level="m" type="bibl">Beyträge zur Naturgeschichte</title>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">„Pilzstein“ (pietra fungaja; tuffähnlich verfestigtes Myzel des Sklerotien-Porling).</rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1669" xml:id="ref_d1e141507_01398">./view-work.html?id=00113</ref>
+                    <rs type="html">00113 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1670" xml:id="ref_d1e141508_01398">http://ora-web.swkk.de/swk-db/goeregest/</ref>
+                    <rs type="html">online-Version</rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach dankt Johann Wolfgang von Goethe für die Probe des ihm bisher nur aus der Literatur bekannten „Pilzsteins“ (pietra fungaja), zu dem er zahlreiche Literaturbelege nennt, und sendet ein Autograph Nikolaus Ludwig von Zinzendorfs und ein Exemplar seiner <emph>Beyträge zur Naturgeschichte</emph> (2. Teil, 1811). </title>
+                        <title level="m" type="bibl">Beyträge zur Naturgeschichte</title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich</forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Wolfgang von</forename>
+                    <surname>Goethe</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1811-10-08" when="1811-10-08" where="#orgplc_1381">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1811-10-08">1811, Okt. 8</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1381">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01381.00">
+                    <idno>1381</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

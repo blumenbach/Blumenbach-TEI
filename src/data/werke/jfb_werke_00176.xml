@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: De vi vitali sanguini neganda ; vita autem propria solidis quibusdam corporis humani partibus adserenda curae itaratae Ioann. Friderici Blumenbach <gap reason="ellipsis"/>
+                </title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00176.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000176/00176.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: De vi vitali sanguini neganda ; vita autem propria solidis quibusdam corporis humani partibus adserenda curae itaratae Ioann. Friderici Blumenbach <gap reason="ellipsis"/>&#160;
+                        </title>
+                    </analytic>
+                    <monogr>
+                        <title level="m">In:</title>
+                        <title level="m">Sylloge opusculorum selectorum ad praxim praecipue medicam spectantium : cum tabula aenea / In auditorium commodum collegit, annotationibus hinc inde auxit, &amp; recudi curavit <gap reason="ellipsis"/>
+                        </title>
+                        <title type="sub">Valerianus Aloysius Brera <gap reason="ellipsis"/>
+                        </title>
+                        <edition>Bd. 1</edition>
+                        <imprint>
+                            <publisher>
+                                <name>Apud Haeredes Petri Galeatii</name>
+                            </publisher>
+                            <pubPlace>Ticini</pubPlace>
+                            <date type="publication" when="1797-01-01">Anno I. Reip. Cisalpinae (1797)</date>
+                        </imprint>
+                    </monogr>
+                    <citedRange>Opusculum I, i. e. S. [1]-24</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 MED MISC 35815:1">8 MED MISC 358/15:1</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>[4] Bl., 24, 200, 32, 64, 59 S., [1] Bl. : 1 Ill. (Kupferst.)<dimensions>
+                                        <dim>20 cm (8°)</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00176.00">00176</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.2</idno>Abschnitte in Werken anderer Autoren</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00176">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e15985_00176">
+                <span type="note">Widmungsempfänger des Bandes: Pietro Moscati</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Kupferstich ist Frontispiz</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Band enthält 5 Opuscula mit getrennter Zählung</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Blumenbachs Beitrag ist Opusculum I</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Nachdruck von S. [2]-17 aus</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">De vi vitali sanguini neganda vita autem propria solidis quibusdam corporis humani partibus adserenda curae iteratae. Quibus septenis medicinae candidatis dignissimus post habita academicarum disputationum specimium autumno a. pr. summos honores rite collatos esse indicit Ordinis Medici tunc Temp. Decanus Jo. Frid. Blumenbach <gap reason="ellipsis"/>
+                </span>
+                <span type="pubPlace">Gottingae</span>
+                <span type="publisher">Typis Jo. Christ. Dieterich</span>
+                <span type="date">1795</span>
+                <span type="reference">00127</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

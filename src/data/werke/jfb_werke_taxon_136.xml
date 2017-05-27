@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="taxon" n="3">Göttinger Taschen-Calender</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <notesStmt>
+                <note type="anm" n="19">Anm. 19: Die Beiträge im Göttinger Taschen-Calender sind durchgängig nicht namentlich gekennzeichnet. <hi rend="green-sm">Zu den Aufsatztiteln im <emph>Almanach de Goettingue</emph>, der französischen Version des <emph>Taschen-Calenders</emph>, vgl. Bernabei in <emph>Lichtenberg-Jahrbuch</emph> 2006, S. 254-273.</hi>
+                    <lb/>
+                </note>
+                <note type="anm" n="20">Anm. 20: Faksimiles der Bände für die Jahre 1778, 1779, 1781, 1782, 1785, 1786, 1794, 1797, 1799 erschienen in Mainz : Dieterich, 1991-1998.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="j" ref="anm_19">Göttinger Taschen-Calender : für das Jahr <gap reason="ellipsis"/>
+                        </title>
+                        <title style="anm">Anm. 19</title>
+                        <imprint>
+                            <publisher>
+                                <name>Dieterich</name>
+                            </publisher>
+                            <pubPlace>Göttingen</pubPlace>
+                            <date type="publication" when="1776-01-01">1776-1800</date>
+                        </imprint>
+                    </monogr>
+                    <note type="anm" target="anm_20">Erschienen zusammen mit <emph>Taschenbuch zum Nutzen und Vergnügen : für das Jahr</emph>
+                        <gap reason="ellipsis"/>&#160;<hi rend="sup">Anm. 20</hi>
+                    </note>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 SVA II, 3470 RARA">8 SVA II, 3470 RARA</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textClass>
+                <classCode scheme="BiblNr" n="01004.01"/>
+                <classCode scheme="cat">
+                    <idno>III.2.4</idno>
+                    <rs>Göttinger Taschen-Calender</rs>
+                </classCode>
+                <classCode scheme="taxon">0136</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

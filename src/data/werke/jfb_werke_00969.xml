@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: XXVIII. Nachricht von einer Englischen Entdeckungsreise nach der Süd-See, und von gebrannten Ziegelsteinen mit Keilschrift aus Hillah am Euphrat. Aus einem Briefe des Baronet Banks an den Hofrath Blumenbach</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00969.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000969/00969.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: XXVIII. Nachricht von einer Englischen Entdeckungsreise nach der Süd-See, und von gebrannten Ziegelsteinen mit Keilschrift aus Hillah am Euphrat. Aus einem Briefe des Baronet Banks an den Hofrath Blumenbach</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde / hrsg. vom Freyherrn von Zach</title>
+                        <imprint>
+                            <publisher>
+                                <name>Becker</name>
+                            </publisher>
+                            <pubPlace>Gotha</pubPlace>
+                            <date type="publication" when="1801-04-01">1801, April</date>
+                        </imprint>
+                        <biblScope>Bd. 3 (April 1801)</biblScope>
+                    </monogr>
+                    <citedRange>S. 378-382</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 GEOGR 67">8 GEOGR 67</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00969.00">00969</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4.32</idno>Monatliche Correspondenz zur Beförderung der Erd- und Himmelskunde</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00969">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e72614_00969">
+                <span type="note">Auszüge aus einem Brief von Joseph Banks an Blumenbach vom 6. Februar 1801. Enthält Informationen über das von der englischen Admiralität „auf eine Entdeckungsreise nach der Süd-See“ ausgeschickte Schiff „Investigator“; sowie über aus Hillah am Euphrat stammende „gebrannte Ziegelsteine“ mit „Inscription in Keil-Schrift“. Mit Anmerkungen von Blumenbach und Franz Xaver von Zach</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

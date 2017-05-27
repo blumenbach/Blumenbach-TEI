@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Georg Heinrich von Langsdorff berichtet Blumenbach von seiner Entdeckung, dass Mikroorganismen die Ursache des sog. Meerleuchtens sind, von seinem Eindruck von Vegetation und Tierwelt Brasiliens und über die weitere geplante Reiseroute der russischen Weltumsegelung unter Ivan Fedorovic Kruzenstern. </title>
+                <author>
+                    <persName>
+                        <forename>Georg Heinrich von</forename>
+                        <surname>Langsdorff</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1272.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung"/>
+                <note type="Drucke">
+                    <bibl>Auszug in <emph>Magazin für den neuesten Zustand der Naturkunde</emph>, Bd. 9, 3. Stück (1805), S. 220–223 („6. Fernere Reisenachrichten vom Hrn. D. Langsdorff von der Insel St. Catharina an der Küste von Brasilien den 15ten Januar 1804“, Bibliographie Nr. 00912).<ptr target="ref_d1e130405_01289"/>
+                    </bibl>
+                    <title level="m" type="bibl">Magazin für den neuesten Zustand der Naturkunde</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Werke">
+                    <bibl>
+                        <relatedItem>
+                            <bibl>Brieftext verwendet in Bibliographie Nr. 00912<ptr target="ref_d1e130405_01289"/> (siehe „Dr.“).</bibl>
+                        </relatedItem>
+                    </bibl>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1528" xml:id="ref_d1e130405_01289">./view-work.html?id=00912</ref>
+                    <rs type="html">00912 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Georg Heinrich von Langsdorff berichtet Blumenbach von seiner Entdeckung, dass Mikroorganismen die Ursache des sog. Meerleuchtens sind, von seinem Eindruck von Vegetation und Tierwelt Brasiliens und über die weitere geplante Reiseroute der russischen Weltumsegelung unter Ivan Fedorovic Kruzenstern. </title>
+                        <author>
+                            <persName>
+                                <forename>Georg Heinrich von</forename>
+                                <surname>Langsdorff</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1804-01-15" when="1804-01-15" where="#orgplc_1272">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1804-01-15">1804, Jan. 15</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1272">Ilha de Santa Catarina, Brasilien</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01272.00">
+                    <idno>1272</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

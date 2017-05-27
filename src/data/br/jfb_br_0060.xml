@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Georg Christoph Lichtenberg entschuldigt sich dafür, Blumenbachs Besuch abgewiesen zu haben, trifft weitere Regelungen für die Beherbergung Jonathan Blackwells und sendet Angaben u. a. zu einem Vogel namens „Honigweiser“. </title>
+                <author>
+                    <persName>
+                        <forename>Georg Christoph </forename>
+                        <surname>Lichtenberg</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0060.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Weimar, Goethe- und Schiller-Archiv: GSA 96/ 1826 </note>
+                <note type="Drucke">
+                    <bibl>Leitzmann, <emph>Lichtenbergs Briefe an Blumenbach</emph> (1921), Nr. 8; Lichtenberg, <emph>Briefwechsel</emph>, Bd. 1 (1983), Nr. 505 S. 861–862.</bibl>
+                    <title level="m" type="bibl">Lichtenbergs Briefe an Blumenbach</title>
+                    <title level="m" type="bibl">Briefwechsel</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> I, S. 150 Nr. 0085.</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="28" xml:id="ref_d1e5736_00061">./view-work.html?id=01011</ref>
+                    <rs type="html">01011</rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="29" xml:id="ref_d1e5737_00061">./view-work.html?id=00021</ref>
+                    <rs type="html">00021</rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="30" xml:id="ref_d1e5738_00061">./view-work.html?id=00022</ref>
+                    <rs type="html">00022</rs>
+                </note>
+                <note type="Anmerkung">
+                    <note>Vgl. [Blumenbach], „Die Honigweiser“ (1779), Bibliographie Nr. 01011<ptr target="ref_d1e5736_00061"/> und <emph>Handbuch der Naturgeschichte</emph> (1. Aufl. 1779-1780, Bibliographie Nrr. 00021<ptr target="ref_d1e5737_00061"/> und 00022<ptr target="ref_d1e5738_00061"/>), S. 97–98. 222–223.</note>
+                    <title level="m" type="bibl">Handbuch der Naturgeschichte</title>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Georg Christoph Lichtenberg entschuldigt sich dafür, Blumenbachs Besuch abgewiesen zu haben, trifft weitere Regelungen für die Beherbergung Jonathan Blackwells und sendet Angaben u. a. zu einem Vogel namens „Honigweiser“. </title>
+                        <author>
+                            <persName>
+                                <forename>Georg Christoph </forename>
+                                <surname>Lichtenberg</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich </forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1778-08-01" when="1778-08-01" where="#orgplc_0060">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1778-08-01">1778, August</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                        <listEvent>
+                            <event type="iso-origin-nb" notBefore="1778-08-01" where="#orgplc_0060">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum (not before):</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1778-08-01">1778, August</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0060">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0060.00">0061<idno>0060</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

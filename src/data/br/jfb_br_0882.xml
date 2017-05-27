@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach sendet Joseph Banks einen Brief Friedrich Hornemanns und berichtet über Hornemanns Vorbereitung für seine Afrikaexpedition, kündigt die Zusendung von erbetenen Publikationen für Banks Bibliothek an, berichtet über ein von Simon Pallas erhaltenes Porträt einer Burjatin und bittet um eine Kopie des Porträts einer Eskimo-Mutter mit ihrem Kind in Banks Bibliothek. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0882.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Göttingen, Universitätsbibliothek, 2 Cod. Ms. philos. 182: J. F. Blumenbach, 10.12.1796; Abschrift von Dawson Turner in London, British Museum (Natural History), Dept. of Botany, Turner collection, vol. 10 part 1, fol. 93–95.</note>
+                <note type="Drucke">
+                    <bibl>Auszug in Stargardt, <emph>Auktionskatalog 606</emph> (Marburg 1975), S. 127, Nr. 413; vgl. ausführl. Regest in Dawson, <emph>The Banks Letters</emph> (1958), S. 114 Nr. 36. </bibl>
+                    <title level="m" type="bibl">The Banks Letters</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> V, S. 76–77 Nr. 1022.<ptr target="ref_d1e89025_00890"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="958" xml:id="ref_d1e89025_00890">http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=91</ref>
+                    <rs type="pdf">Corresp. V, S. 75–76 Nr. 1021 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="959" xml:id="ref_d1e89023_00890">http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=92</ref>
+                    <rs type="pdf">Corresp. V, S. 76–77 Nr. 1022 </rs>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Porträt einer Burjatin, erhalten von Simon Pallas; erbeten: Kopie des Porträt der Eskimo-Frau Mycock mit ihrem Kind (im Apr. 1797 als Geschenk von Joseph Banks; Göttingen, Inst. für Ethnologie, Inv.-Nr. Bi. Kat. 26). </rs>
+                </note>
+                <note type="Anmerkung">
+                    <note>Text des mitgeschickten Briefes F. Hornemanns in Dougherty, <emph>Corresp.</emph> V, S. 75–76 Nr. 1021.<ptr target="ref_d1e89023_00890"/>
+                    </note>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach sendet Joseph Banks einen Brief Friedrich Hornemanns und berichtet über Hornemanns Vorbereitung für seine Afrikaexpedition, kündigt die Zusendung von erbetenen Publikationen für Banks Bibliothek an, berichtet über ein von Simon Pallas erhaltenes Porträt einer Burjatin und bittet um eine Kopie des Porträts einer Eskimo-Mutter mit ihrem Kind in Banks Bibliothek. </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich</forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Joseph</forename>
+                    <surname>Banks</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1796-12-10" when="1796-12-10" where="#orgplc_0882">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1796-12-10">1796, Dez. 10</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0882">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0882.00">
+                    <idno>0882</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: 3. Aus einem Schreiben des Hofraths Blumenbach</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00766.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000766/00766.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: 3. Aus einem Schreiben des Hofraths Blumenbach</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Allgemeine geographische Ephemeriden / verf. von einer Gesellschaft von Gelehrten</title>
+                        <imprint>
+                            <publisher>
+                                <name>Verl. d. Industrie-Comptoirs</name>
+                            </publisher>
+                            <pubPlace>Weimar</pubPlace>
+                            <date type="publication" when="1799-01-01">Januar 1799</date>
+                        </imprint>
+                        <biblScope>Bd. 3, 1. Stück (Januar 1799)</biblScope>
+                    </monogr>
+                    <citedRange>S. 101-104</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 GEOGR 64">8 GEOGR 64</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00766.00">00766</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4.3</idno>Allgemeine geographische Ephemeriden</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00766">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e59180_00766">
+                <span type="note">Auszug aus einem Brief Blumenbachs an Franz Xaver von Zach vom 19. November 1798</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Enthält Informationen aus einem Brief von Joseph Banks an Blumenbach über die Afrikareise von William George Browne ; über die Drucklegung von James Rennells Buch, „eine Art von geographischen Commentar über den Herodotus“</span>
+                <span type="note">
+                    <hi rend="sup">Anm. 10</hi>
+                </span>
+                <span type="note">; über John McCluers Beschreibung seiner Reisen in den „Ost Indischen Archipelagus“; über den laut William Marsden malayischen Ursprung einiger Erzählungen aus Tausend und einer Nacht ; sowie über ein mitgeschicktes Miniaturportrait von O-Mai. Mit Anmerkungen von Zachs</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">
+                    <lb/>
+                    <lb/>Anm. 10: I. e.</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">The Geographical System of Herodotus, examined ; and explained by a comparison with those of other ancient authors, and with modern geography : <gap reason="ellipsis"/> ; the whole explained by eleven maps <gap reason="ellipsis"/> and accompanied with a complete index <metamark>
+                        <pc unit="slash"/>
+                    </metamark> By James Rennell, <gap reason="ellipsis"/>
+                </span>
+                <span type="pubPlace">London</span>
+                <span type="publisher">Printed by W. Bulmer and Co. <gap reason="ellipsis"/> for the author ; and sold by G. and W. Nicol <gap reason="ellipsis"/>
+                </span>
+                <span type="date">1800</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="repository">SUB Göttingen</span>
+                <span type="idno" n="4 AUCT GR III, 350, 4 AUCT GR III, 350:KT">4 AUCT GR III, 350, 4 AUCT GR III, 350:KT</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

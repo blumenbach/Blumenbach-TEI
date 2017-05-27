@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach sendet Friedrich Justin Bertuch die angebotenen und von Bertuch erbetenen Abbildungen eines Kamels und eines afrikanischen Nashorns und bittet um Zusendung der beiden ersten Stücke der Allgemeinen Geographischen Ephemeriden auf Schreibpapier im Austausch für die bereits erhaltenen Exemplare auf Druckpapier. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1047.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Weimar, Goethe- und Schiller-Archiv, GSA, Nachlass Bertuch 06/189 Nr. 2.</note>
+                <note type="Drucke">
+                    <bibl>Auszug in Middell, Katharina: <emph>Die Bertuchs müssen doch in dieser Welt überall Glück haben: Der Verleger Friedrich Justin Bertuch und sein Landes-Industrie-Comptoir um 1800</emph>. Leipzig 2002, S. 284 mit Anm. 177. </bibl>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> V, S. 335–336 Nr. 1200.<ptr target="ref_d1e107309_01063"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="1218" xml:id="ref_d1e107309_01063">http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=351</ref>
+                    <rs type="pdf">Corresp. V, S. 335–336 Nr. 1200 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach sendet Friedrich Justin Bertuch die angebotenen und von Bertuch erbetenen Abbildungen eines Kamels und eines afrikanischen Nashorns und bittet um Zusendung der beiden ersten Stücke der <emph>Allgemeinen Geographischen Ephemeriden</emph> auf Schreibpapier im Austausch für die bereits erhaltenen Exemplare auf Druckpapier. </title>
+                        <title level="m" type="bibl">Allgemeinen Geographischen Ephemeriden</title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich</forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Friedrich Justin </forename>
+                    <surname>Bertuch</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1798-12-10" when="1798-12-10" where="#orgplc_1047">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1798-12-10">1798, Dez. 10</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1047">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01047.00">
+                    <idno>1047</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

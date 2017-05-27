@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Georg Pickel beschreibt Blumenbach einige Fälle von Albinismus, die er im Gebiet um Würzburg beobachtet hat. </title>
+                <author>
+                    <persName>
+                        <forename>Georg</forename>
+                        <surname>Pickel</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0346.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Or. verloren; Überlieferung durch Druck in <emph>Medicinische Bibliothek</emph> Bd. 3, 1. Stück. </note>
+                <note type="Drucke">
+                    <bibl>
+                        <emph>Medicinische Bibliothek</emph>
+                        <ptr target="ref_d1e33477_00350"/> Bd. 3, 1. Stück (1788), S. 167–168</bibl>
+                    <title level="m" type="bibl">Medicinische Bibliothek</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> III, S. 69 Nr. 0440.<ptr target="ref_d1e33476_00350"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Kopfhaar von einem an Albinismus leidenden Europäers, vgl. Blumenbachs hs. Sammlungsverzeichnis, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, II, fol. 18r.<ptr target="ref_d1e33474_00350"/>
+                    </rs>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="166" xml:id="ref_d1e33474_00350">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/Sammlungskataloge/cod_ms-Blumenbach_1_II_Blumenbach_Handschriften_1794_1800_Katalog%20zur%20Naturgeschichte%20des%20Menschengeschlechts.pdf#page=41</ref>
+                    <rs type="pdf">Cod. Ms. Blumenbach 1, II, fol. 18r </rs>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="167" xml:id="ref_d1e33476_00350">http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=87</ref>
+                    <rs type="pdf">Corresp. III, S. 69 Nr. 0440 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="168" xml:id="ref_d1e33477_00350">./view-work.html?id=00145</ref>
+                    <rs type="html">00145</rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Georg Pickel beschreibt Blumenbach einige Fälle von Albinismus, die er im Gebiet um Würzburg beobachtet hat. </title>
+                        <author>
+                            <persName>
+                                <forename>Georg</forename>
+                                <surname>Pickel</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1787-01-01" when="1787-01-01" where="#orgplc_0346">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1787-01-01">1787, Anfang Jan.</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                        <listEvent>
+                            <event type="iso-origin-nb" notBefore="1787-01-01" where="#orgplc_0346">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum (not before):</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1787-01-01">1787, Anfang Jan.</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0346">Würzburg</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0346.00">0350<idno>0346</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

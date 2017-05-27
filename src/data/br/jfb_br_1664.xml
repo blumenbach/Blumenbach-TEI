@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Edward Jenner dankt Blumenbach für die Mitteilung über seine Wahl zum [korrespondierenden] Mitglied der Königlichen Societät der Wissenschaften zu Göttingen, bittet ihn, der Societät seinen Dank für diese Wahl zu übermitteln, und teilt mit, dass er seine Beobachtungen zum Vogelzug noch nicht publiziert habe.</title>
+                <author>
+                    <persName>
+                        <forename>Edward</forename>
+                        <surname>Jenner</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1664.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Drucke">
+                    <bibl>
+                        <emph>GgA</emph> 1839, 12. Stück, S. 110 Anm., aus dem Original. Undatierte, im Wortlaut leicht abweichenden Fassung mit einem zusätzlichen abschließenden Absatz mit der Ankündigung einer dem Brief beigelegten Broschüre,  in Baron, John: <emph>The Life of Edwad Jenner</emph>. Band 1. London 1827, S. 467, laut Vorrede, S. XIX, nach Jenners Notizbuch mit oft unvollst. bzw. vom Or. abweichenden Versionen.
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Edward Jenner dankt Blumenbach für die Mitteilung über seine Wahl zum [korrespondierenden] Mitglied der Königlichen Societät der Wissenschaften zu Göttingen, bittet ihn, der Societät seinen Dank für diese Wahl zu übermitteln, und teilt mit, dass er seine Beobachtungen zum Vogelzug noch nicht publiziert habe.</title>
+                        <author>
+                            <persName>
+                                <forename>Edward</forename>
+                                <surname>Jenner</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1801-12-01" when="1801-12-01" where="#orgplc_1664">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1801-09-12">1801, Dez. 1</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1664">London</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01225.01">
+                    <idno>1664</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

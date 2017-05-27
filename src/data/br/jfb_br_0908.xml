@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach teilt Johann Gottfried Gruber inhaltliche Verbesserungen zur dritten Auflage seiner Dissertation De humani generis varietate (1795) mit und bittet ihn, diese in die von Gruber anfertigte Übersetzung des Werks aufzunehmen. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0908.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Amsterdam, Special Collections of the University of Amsterdam, Hs. 62 Dx 6.</note>
+                <note type="Drucke">
+                    <bibl>Auszug in Dougherty, <emph>Corresp.</emph> II, S. xx–xxi Anm. 89.</bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> V, S. 126–127 Nr. 1060.<ptr target="ref_d1e92639_00926"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Werke">
+                    <bibl>
+                        <relatedItem>
+                            <bibl>De generis humani varietate (3. Aufl., 1795; Bibliographie Nr. 00004)<ptr target="ref_d1e92637_00926"/>; <emph>Über die natürlichen Verschiedenheiten im Menschengeschlechte</emph> (1798, Bibliographie Nr. 00008).<ptr target="ref_d1e92638_00926"/>
+                            </bibl>
+                        </relatedItem>
+                    </bibl>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="1002" xml:id="ref_d1e92639_00926">http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=142</ref>
+                    <rs type="pdf">Corresp. V, S. 126–127 Nr. 1060 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1003" xml:id="ref_d1e92637_00926">./view-work.html?id=00004</ref>
+                    <rs type="html">00004 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1004" xml:id="ref_d1e92638_00926">./view-work.html?id=00008</ref>
+                    <rs type="html">00008 </rs>
+                </note>
+                <note type="Anmerkung">
+                    <note>Dougherty, <emph>Corresp.</emph> II, S. xx–xxi Anm. 89, nimmt an, dass Blumenbach das Manuskript von Grubers Übersetzung nicht vorlag und dass es sich bei den Verbesserungen um Blumenbachs Änderungen und Zusätze zu seinem eigenen lateinischen Text handelte, die Gruber in seine Übersetzung aufnehmen sollte. </note>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach teilt Johann Gottfried Gruber inhaltliche Verbesserungen zur dritten Auflage seiner Dissertation <emph>De humani generis varietate</emph> (1795) mit und bittet ihn, diese in die von Gruber anfertigte Übersetzung des Werks aufzunehmen. </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich</forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Gottfried </forename>
+                    <surname>Gruber</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1797-04-17" when="1797-04-17" where="#orgplc_0908">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1797-04-17">1797, Apr. 17</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0908">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0908.00">
+                    <idno>0908</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

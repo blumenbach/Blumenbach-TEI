@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: Osservazioni Sopra alcune Mummie Egiziane aperte in Londra dal Sig. Gio. Friderico Blumenbach M. D. Dirette al Sig. Giuseppe Banks</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_01064.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Annali_di_chimicaXI/Annali_di_chimica_XI.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: Osservazioni Sopra alcune Mummie Egiziane aperte in Londra dal Sig. Gio. Friderico Blumenbach M. D. Dirette al Sig. Giuseppe Banks</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Annali di chimica e storia naturale. Ovvero raccolta di memorie sulle scienze, arti, e manifatture ad esse relative. Di L. Brugnatelli</title>
+                        <imprint>
+                            <publisher>
+                                <name>Eredi di Pietro Galeazzi</name>
+                            </publisher>
+                            <pubPlace>Pavia</pubPlace>
+                            <date type="publication" when="1796-01-01">1796</date>
+                        </imprint>
+                        <biblScope>Bd. 9 (1796)</biblScope>
+                    </monogr>
+                    <citedRange>S. 196-223</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 Chem II, 530">8 Chem II, 530</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00777.04">04011</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4.X.6</idno>Annali di chimica e storia naturale</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="01064">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e79905_01064">
+                <span type="note">Forschungsnotiz zu ägyptischen Mumien. Übersetzte Version von Blumenbachs Artikel aus</span>
+                <span type="title" style="j">Philosophical Transactions of the Royal Society of London : giving some accounts of the present undertakings, studies, and labours, of the ingenious, in many considerable parts of the world</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 84 (1794)</span>
+                <span type="citedRange">S. 177-195</span>
+                <span type="reference">00992</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="note">mit Blumenbachs Fußnoten, aber ohne die Tafel mit Abbildungen und die Hinweise auf diese im Text</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Die Übersetzung ist nicht identisch mit der italienischen Übersetzung desselben Aufsatzes Blumenbachs in</span>
+                <span type="title" style="j">Opuscoli celti sulle scienze e sulle arti</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">tom. XVIII (1795)</span>
+                <span type="reference">03026</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

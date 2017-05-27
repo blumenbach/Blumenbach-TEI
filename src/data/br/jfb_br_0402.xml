@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Sebald Justinus Brugmans schlägt Blumenbach vor, sich gegenseitig bei der Beschaffung von Literatur zu unterstützen, und teilt ihm seine Ansichten über den afrikanischen Missionar und ehemaligen Sklaven Jacobus Elisa Johannes Capitein mit. </title>
+                <author>
+                    <persName>
+                        <forename>Sebald Justinus</forename>
+                        <surname>Brugmans</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0402.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Leipzig, Universitätsbibliothek, Sammlung Kestner II C V, 44. </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> III, S. 154 Nr. 0500.<ptr target="ref_d1e39593_00406"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Werke">
+                    <bibl>
+                        <relatedItem>
+                            <bibl>
+                                <emph>Handbuch der Naturgeschichte</emph> (3. Auf., 1788; Bibliographie Nr. 00024).<ptr target="ref_d1e39591_00406"/>
+                            </bibl>
+                        </relatedItem>
+                    </bibl>
+                    <title level="m" type="bibl">Handbuch der Naturgeschichte</title>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="253" xml:id="ref_d1e39591_00406">./view-work.html?id=00024</ref>
+                    <rs type="html">00024 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="254" xml:id="ref_d1e39593_00406">http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=172</ref>
+                    <rs type="pdf">Corresp. III, S. 154 Nr. 0500 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Sebald Justinus Brugmans schlägt Blumenbach vor, sich gegenseitig bei der Beschaffung von Literatur zu unterstützen, und teilt ihm seine Ansichten über den afrikanischen Missionar und ehemaligen Sklaven Jacobus Elisa Johannes Capitein mit. </title>
+                        <author>
+                            <persName>
+                                <forename>Sebald Justinus</forename>
+                                <surname>Brugmans</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1788-04-07" when="1788-04-07" where="#orgplc_0402">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1788-04-07">1788, Apr. 7</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0402">Leiden</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0402.00">0406<idno>0402</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

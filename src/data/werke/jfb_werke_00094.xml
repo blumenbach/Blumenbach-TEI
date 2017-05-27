@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">decas tertia collectionis suae craniorum diversarum gentium illustrata</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00094.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000094/00094.pdf</ref>
+                </note>
+                <note type="ref">
+                    <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000094/000094.html</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">decas tertia collectionis suae craniorum diversarum gentium illustrata</title>
+                        <title level="m" type="aut">Jo. Frid. Blumenbachii <gap reason="ellipsis"/>
+                        </title>
+                        <imprint>
+                            <publisher>
+                                <name>Apud Joann. Christ. Dieterich</name>
+                            </publisher>
+                            <pubPlace>Gottingae</pubPlace>
+                            <date type="publication" when="1795-01-01">MDCCXCV</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="4 ZOOL XII, 1590:3">4 ZOOL XII, 1590:3</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>16 S., X gef. Bl. : 10 Ill. (Kupferst.)<dimensions>
+                                        <dim>26 cm (4°)</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00094.00">00094</classCode>
+                <classCode scheme="cat">
+                    <idno>I</idno>Selbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>I.6</idno>Decades Collectionis Suae Craniorum</classCode>
+                <classCode scheme="cat">
+                    <idno>I.6.1</idno>Originalausgaben</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00094">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e8353_00094">
+                <span type="note">Sonderdruck des Beitrags „Jo. Frid. Blumenbachii decas tertia collectionis suae craniorum diversarum gentium illustrata. d. XXVIII. Mart. MDCCXCV“, in</span>
+                <span type="title" style="j">Commentationes Societatis Regiae Scientiarum Gottingensis</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. XII (1796), Phys.</span>
+                <span type="citedRange">S. 38-51</span>
+                <span type="reference">00187</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">
+                    <lb/>Enthält Erläuterungen und Abbildungen zu folgenden Schädeln:<lb/>
+                </span>
+                <span type="citedRange">S. 3</span>
+                <span type="note">[Vorbemerkung]<lb/>
+                </span>
+                <span type="citedRange">S. 4-5</span>
+                <span type="note">XXI. Feminae Georgianae. (Tab. XXI.)<lb/>
+                </span>
+                <span type="citedRange">S. 6</span>
+                <span type="note">XXII. Samartae Lituani. (Tab. XXII.)<lb/>
+                </span>
+                <span type="citedRange">S. 7-8</span>
+                <span type="note">XXIII. Sinensis Daürici. (Tab. XXIII.)<lb/>
+                </span>
+                <span type="citedRange">S. 8-9</span>
+                <span type="note">XXIV. Eskimotae primi. (Tab. XXIV.)<lb/>
+                </span>
+                <span type="citedRange">S. 9-10</span>
+                <span type="note">XXV. Eskimotae secundi. (Tab. XXV.)<lb/>
+                </span>
+                <span type="citedRange">S. 11-12</span>
+                <span type="note">XXVI. Otaheitae. (Tab. XXVI.); abweichende Orthographie der Tafelbezeichnung „XXVI. O-taheitae.“<lb/>
+                </span>
+                <span type="citedRange">S. 13</span>
+                <span type="note">XXVII. Novo-Hollandi. (Tab. XXVII.)<lb/>
+                </span>
+                <span type="citedRange">S. 14-25</span>
+                <span type="note">XXVIII. Puellae Iudiacae. (Tab. XXVIII.)<lb/>
+                </span>
+                <span type="note">XXIX. Infantis Buraeti. (Tab. XXIX.)<lb/>
+                </span>
+                <span type="note">XXX. Aethiopis neonati. (Tab. XXX.)</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

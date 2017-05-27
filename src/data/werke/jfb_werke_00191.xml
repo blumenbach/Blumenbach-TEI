@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: Jo. Frid. Blumenbachii decas quinta collectionis suae craniorum diversarum gentium illustrata. D. XXV. Aug. MDCCCVI</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00191.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000191/00191.pdf</ref>
+                </note>
+                <note type="ref">
+                    <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000191/000191.html</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: Jo. Frid. Blumenbachii decas quinta collectionis suae craniorum diversarum gentium illustrata. D. XXV. Aug. MDCCCVI</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Commentationes Societatis Regiae Scientiarum Gottingensis</title>
+                        <imprint>
+                            <publisher>
+                                <name>Dieterich</name>
+                            </publisher>
+                            <pubPlace>Gottingae</pubPlace>
+                            <date type="publication" when="1808-01-01">1808</date>
+                        </imprint>
+                        <biblScope>Bd. XVI (1808), Phys.</biblScope>
+                    </monogr>
+                    <citedRange>S. 199-216, 10 Ill. (Kupferst.)</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="4 PHYS MATH IV, 356">4 PHYS MATH IV, 356</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00191.00">00191</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3</idno>Publikationsorgane der Königlichen Gesellschaft der Wissenschaften zu Göttingen</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3.1.1</idno>Commentationes Societatis Regiae Scientiarum Gottingensis</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00191">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e17520_00191">
+                <span type="note">Auch als Sonderdruck:</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Jo. Frid. Blumenbachii … decas quinta collectionis suae craniorum diversarum gentium illustrata</span>
+                <span type="pubPlace">Goettingae</span>
+                <span type="publisher">Apud Henricum Dieterich</span>
+                <span type="date">MDCCCVIII</span>
+                <span type="reference">00096</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">Auflistung der enthaltenen Tafeln siehe dort</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" style="n">
+                <span type="note">Größere Abschnitte des Textes paraphrasiert und übersetzt in „Descrizione del gabinetto antropologico del <gap reason="ellipsis"/> Blumenbach“ in Opuscoli scientifici <metamark>
+                        <pc unit="slash"/>
+                    </metamark> del Dottore Francesco Tantini <gap reason="ellipsis"/>
+                </span>
+                <span type="pubPlace">Pisa</span>
+                <span type="publisher">Presso Sebastiano Nestri</span>
+                <span type="date">1812-1830</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. I (1812)</span>
+                <span type="citedRange">S. [43]-64</span>
+                <span type="reference">00115</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Siehe auch Bericht zum Vortrag vor der Societät in</span>
+                <span type="title" style="j">GgA</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1806 (157. Stück, 2. Oktober)</span>
+                <span type="citedRange">S. 1561-1566; „Göttingen“</span>
+                <span type="reference">00468</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

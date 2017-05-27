@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Joseph Banks berichtet Blumenbach über erste englische Analyseergebnisse und über traditionelle und moderne Verwendungsweisen der in Indien produzierten Stahlart „Wootz“ und über die geologischen und mineralogischen Merkmale eines neu entdeckten Goldvorkommens in Irland. </title>
+                <author>
+                    <persName>
+                        <forename>Joseph</forename>
+                        <surname>Banks</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0818.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 3 (Banks Nr. 8). </note>
+                <note type="Drucke">
+                    <bibl>Abschnitt über das irische Goldvorkommen in dt. Übers. in <emph>Magazin für das Neueste aus der Physik und Naturgeschichte</emph>, Bd. 10, 4. Heft (1796), S. 144–145.</bibl>
+                    <title level="m" type="bibl">Magazin für das Neueste aus der Physik und Naturgeschichte</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> IV, S. 474 Nr. 0955.<ptr target="ref_d1e82281_00826"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="856" xml:id="ref_d1e82281_00826">http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=486</ref>
+                    <rs type="pdf">Corresp. IV, S. 474 Nr. 0955 </rs>
+                </note>
+                <note type="Anmerkung">
+                    <note>Blumenbach teilte den Abschnitt über das irische Goldvorkommen am 4. Febr. 1796 brieflich Johann Heinrich Voigt mit, der ihn in einem Aufsatz in <emph>Magazin für das Neueste aus der Physik und Naturgeschichte</emph>, Bd. 10, 4. Heft (1796), S. 144–145 (siehe „Dr.“) zitiert.</note>
+                    <title level="m" type="bibl">Magazin für das Neueste aus der Physik und Naturgeschichte</title>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Joseph Banks berichtet Blumenbach über erste englische Analyseergebnisse und über traditionelle und moderne Verwendungsweisen der in Indien produzierten Stahlart „Wootz“ und über die geologischen und mineralogischen Merkmale eines neu entdeckten Goldvorkommens in Irland. </title>
+                        <author>
+                            <persName>
+                                <forename>Joseph</forename>
+                                <surname>Banks</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1795-11-16" when="1795-11-16" where="#orgplc_0818">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1795-11-16">1795, Nov. 16</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0818">London</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0818.00">0826<idno>0818</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

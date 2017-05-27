@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Carl Peter Thunberg berichtet Blumenbach [über die Bewohner von Lappland]. </title>
+                <author>
+                    <persName>
+                        <forename>Carl Peter</forename>
+                        <surname>Thunberg</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1223.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, fol. ?, vgl. Meyer, <emph>Handschriften in Göttingen</emph> 3 (1894), S. 79.<ptr target="ref_d1e125086_01240"/>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Blumenbach bildet einen von C. P. Thunberg erhaltenen weiblichen Schädel aus Lappland ab in <emph>Decas craniorum</emph> 5 (1808), Tafel 43; Bibliographie Nr. 00096)<ptr target="ref_d1e125084_01240"/>. Zu diesem Schädel vgl. Spengel, <emph>Anthropologische Sammlung</emph>
+                        <ptr target="ref_d1e125085_01240"/>, S. 34 Anm. ad 224: „„Von demselben. [= Thunberg]“. Blumenbach erwähnt in den <emph>Decas</emph> 5, dass er noch einen zweiten Schädel von Thunberg erhalten habe, vgl. Spengel, <emph>Anthropologische Sammlung</emph>
+                        <ptr target="ref_d1e125085_01240"/>, S. 34 Anm. ad 223: „Von Herrn Thunberg in Upsala; bejahrt […] .“</rs>
+                    <title level="m" type="bibl">Decas craniorum</title>
+                    <title level="m" type="bibl">Decas</title>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1475" xml:id="ref_d1e125084_01240">./view-work.html?id=00096</ref>
+                    <rs type="html">00096 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1476" xml:id="ref_d1e125085_01240">http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553</ref>
+                    <rs type="html">Spengel, Anthropologische Sammlung</rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1477" xml:id="ref_d1e125086_01240">http://www.manuscripta-mediaevalia.de/hs/katalogseiten/HSK0719_b079_jpg.htm</ref>
+                    <rs type="html"/>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Carl Peter Thunberg berichtet Blumenbach [über die Bewohner von Lappland]. </title>
+                        <author>
+                            <persName>
+                                <forename>Carl Peter</forename>
+                                <surname>Thunberg</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1801-10-21" when="1801-10-21" where="#orgplc_1223">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1801-10-21">1801, Okt. 21</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1223">Uppsala</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01223.00">
+                    <idno>1223</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

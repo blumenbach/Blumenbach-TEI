@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: II. Von den Meerschaumenen und andern türkischen Pfeifenköpfen. Aus einem Briefe des Hrn. Dr. Reinegg in Persien, (Correspondenten der königl. Gesellschaft der Wissensch. zu Göttingen) an den Herrn Baron von Asch in St. Petersburg. Mitgetheilt vom Hrn. Prof. Blumenbach in Göttingen</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00818.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000818/00818.pdf</ref>
+                </note>
+                <note type="ref">
+                    <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000818/000818.html</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: II. Von den Meerschaumenen und andern türkischen Pfeifenköpfen. Aus einem Briefe des Hrn. Dr. Reinegg in Persien, (Correspondenten der königl. Gesellschaft der Wissensch. zu Göttingen) an den Herrn Baron von Asch in St. Petersburg. Mitgetheilt vom Hrn. Prof. Blumenbach in Göttingen</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Magazin für das Neueste aus der Physik und Naturgeschichte <metamark>
+                                <pc unit="slash"/>
+                            </metamark> zuerst hrsg. von Ludwig Christan Lichtenberg und fortgesetzt von Johann Heinrich Voigt</title>
+                        <imprint>
+                            <publisher>
+                                <name>Ettinger</name>
+                            </publisher>
+                            <pubPlace>Gotha</pubPlace>
+                            <date type="publication" when="1787-01-01">1787</date>
+                        </imprint>
+                        <biblScope>Bd. 4, 3. Stück (1787)</biblScope>
+                    </monogr>
+                    <citedRange>S. 13-19</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 PHYS MATH II, 2072">8 PHYS MATH II, 2072</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00818.00">00818</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4.25</idno>Magazin für das Neueste aus der Physik und Naturgeschichte</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00818">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e63064_00818">
+                <span type="note">Enthält Informationen zu Meerschaum und der Herstellung von Pfeifenköpfen in der Türkei aus einem Brief von Jacob Reineggs an Georg Thomas von Asch</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Englische Übersetzung in</span>
+                <span type="title" style="j">The Philosophical magazine : comprehending the various branches of science, the liberal and fine arts, agriculture, manufactures, and commerce</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 3 (1799, March)</span>
+                <span type="citedRange">S. 165-168</span>
+                <span type="reference">00985</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

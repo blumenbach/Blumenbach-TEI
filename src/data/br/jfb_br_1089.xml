@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach bittet das Geheime Ratskollegium um die Finanzierung des Ankaufs der naturhistorischen Objekte von den Inseln im Südpazifik aus dem Nachlass Johann Reinhold Forsters für das Academische Museum der Universität Göttingen für 50 Reichstaler. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1089.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Göttingen, Inst. für Ethnologie, Archiv, Aquisitionsakte „Betr.: Den Ankauf der von dem Profeßor Forster zu Halle nachgelaßenen Samlung von Südsee-Merkwürdigkeiten, 1799“. </note>
+                <note type="Drucke">
+                    <bibl>Auszug in Urban, Manfred, 200 Jahre Göttinger Cook-Sammlung. Göttingen 1982, S. 27.</bibl>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> V, S. 392 Nr. 1241.<ptr target="ref_d1e111671_01105"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="1286" xml:id="ref_d1e111671_01105">http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=408</ref>
+                    <rs type="pdf">Corresp. V, S. 392 Nr. 1241 </rs>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Dem Brief lag ein „Verzeichnis der Südsee Sachen“ (Göttingen, Inst. für Ethnologie, Archiv, Aquisitionsakte „Betr.: Den Ankauf der von dem Profeßor Forster zu Halle nachgelaßenen Samlung von Südsee-Merkwürdigkeiten, 1799“); vgl. weiteres Verzeichnis („Johann Reinholdt Forster Halle, 1799“) ebd.</rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach bittet das Geheime Ratskollegium um die Finanzierung des Ankaufs der naturhistorischen Objekte von den Inseln im Südpazifik aus dem Nachlass Johann Reinhold Forsters für das Academische Museum der Universität Göttingen für 50 Reichstaler. </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich</forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">Geheimes Ratskollegium</persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1799-06-26" when="1799-06-26" where="#orgplc_1089">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1799-06-26">1799, Juni 26</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1089">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01089.00">
+                    <idno>1089</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

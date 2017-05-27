@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <title class="config:app-title">Blumenbach TEI Datenbank</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta class="config:app-meta"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/schädel.png"/>
+        <link rel="stylesheet" type="text/css" href="resources/css/font/font-awesome.css"/>
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="resources/css/ui.fancytree.min.css"/>
+        <script type="text/javascript" src="resources/scripts/jquery/jquery-1.11.2.min.js"/>
+        <script type="text/javascript" src="resources/scripts/jquery/jquery-ui.min.js"/>
+        <script type="text/javascript" src="$shared/resources/scripts/bootstrap-3.0.3.min.js"/>
+        <script type="text/javascript" src="resources/scripts/jquery/jquery.fancytree-all.min.js"/>
+        <script type="text/javascript" src="resources/scripts/jquery/jquery.fancytree.themeroller.js"/>
+        <script type="text/javascript">
+         $(function(){       
+                $('#category-tree').fancytree({
+                      extensions: ["themeroller"],
+                      source: {
+                        url: "/exist/rest/db/apps/blumenbach/pages/cats.json"
+                      },
+                 });
+        });
+        </script>
+        <script type="text/javascript">
+            SAMPLE_BUTTON_DEFAULTS = {
+            	id: undefined,
+            	label: "Sample",
+            	newline: true,
+            	code: function(){ alert("not implemented"); }
+            };
+            function addSampleButton(options)
+            {
+            	var opts = $.extend({}, SAMPLE_BUTTON_DEFAULTS, options),
+            		$buttonBar = $("#sampleButtons"),
+            		$container = $("<span/>", {
+            			"class": "sampleButtonContainer"
+            		});
+            
+            	$("<button/>", {
+            		id: opts.id,
+            		title: opts.tooltip,
+            		text: opts.label
+            	}).click(function(e){
+            		e.preventDefault();
+            		opts.code();
+            	}).appendTo($container);
+            
+            	var sourceCode = "" + opts.code;
+            	// Remove outer function(){ CODE }
+            //    sourceCode = sourceCode.match(/[]\{(.*)\}/);
+            	sourceCode = sourceCode.substring(
+            		sourceCode.indexOf("{") + 1,
+            		sourceCode.lastIndexOf("}"));
+            //    sourceCode = $.trim(sourceCode);
+            	// Reduce tabs from 8 to 2 characters
+            	sourceCode = sourceCode.replace(/\t/g, "  ");
+            	// Format code samples
+            
+            	$("<pre/>", {
+            		text: sourceCode,
+            		"class": "prettyprint"
+            	}).hide().appendTo($container);
+            	if(opts.newline){
+            		$container.append($("<br/>"));
+            	}
+            	if(opts.header){
+            		$("<h5/>", {text: opts.header}).appendTo($("p#sampleButtons"));
+            	}
+            	if( !$("#sampleButtons").length ){
+            		$.error("addSampleButton() needs a container with id #sampleButtons");
+            	}
+            	$container.appendTo($buttonBar);
+            }
+        </script>
+        <script type="text/javascript">
+        $(function(){
+               addSampleButton({
+                   label: "Expand",
+                   newline: false,
+                   code: function(){
+                   	$("#category-tree").fancytree("getRootNode").visit(function(node){
+                   		node.setExpanded(true);
+                   	});
+                   }
+               });
+        });
+        </script>
+        <script type="text/javascript">
+        $(function(){
+               addSampleButton({
+                   label: "Collapse",
+                   newline: false,
+                   code: function(){
+                   	$("#category-tree").fancytree("getRootNode").visit(function(node){
+                   		node.setExpanded(false);
+                   	});
+                   }
+               });
+        });
+        </script>
+    </head>
+    <body id="grey-top">
+        <div class="grey-bot">
+            <div class="container" id="main-container">
+                <div class="row">
+                    <div class="col-md-12" id="header">
+                        <a href="/" id="logo">Blumenbach TEI Datenbank</a>
+                    </div>
+                </div>
+                <div data-template="templates:include" data-template-path="templates/navbar.html"/>
+                <div id="main" class="package"/>
+                <div class="col-md-12" id="footer">
+                    <div id="copyright">
+                        <ul>
+                            <li>
+                                <a href="http://adw-goe.de/startseite/">Akademie der Wissenschaften zu Göttingen</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('.form-group[data-toggle="tooltip"]').tooltip({container: 'body'});
+            });
+        </script>
+    </body>
+</html>

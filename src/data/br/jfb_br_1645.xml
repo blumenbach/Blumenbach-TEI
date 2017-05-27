@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach sendet einem unbekannten Empfänger in Berlin [u. a. das Diplom über dessen Ernennung zum korrespondierenden Mitglied der Societät der Wissenschaften zu Göttingen, erkundigt sich nach der richtigen Orthographie für die Volksbezeichnung „Chinese“ und bittet um eine Beschreibung der Nephritart Yü oder Jade.] </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1645.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Autographensammlung Martin Schwarzbach (mind. bis Juni 2008; danach Verkauf?). </note>
+                <note type="Drucke">
+                    <bibl>Auszug in <emph>Bunte Steine. Autographen aus der Sammlung Martin Schwarzbach (1907–2003)</emph> [= Katalog Nr. 46 (Juni 2008) der Firma Eberhard Köstler, Autographen und Bücher], S. 5 Nr. 7.</bibl>
+                    <title level="m" type="bibl">Bunte Steine. Autographen aus der Sammlung Martin Schwarzbach (1907–2003)</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert).</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="60" xml:id="ref_d1e14948_00164">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000031/00031.pdf</ref>
+                    <rs type="pdf">00031 </rs>
+                </note>
+                <note type="Anmerkung">
+                    <note>Datierrungsvorschlag in <emph>Bunte Steine</emph> (s. Drucke). Zumindest die Jahresdatierung scheint zweifelhaft: Blumenbach wurde erst 1784 selbst Mitglied der Societät der Wissenschaften und dürfte vorher kaum mit Angelegenheiten der Akademie betraut worden sein. Außerdem ist für das Jahr 1782 keine Ernennung eines auswärtigen Societätsmitglieds aus Berlin bekannt. Die Nephritart Yü wird im <emph>Handbuch der Naturgeschichte</emph> erst ab 1807 (Bibliographie Nr. 00031)<ptr target="ref_d1e14948_00164"/> erwähnt (S. 613). Der im Brief erwähnte Schweizerische Arzt Dr. Fehr (Feer) aus Aarau scheint 1817 zum Mitglied der „Schweizerischen Gesellschaft für die gesammten Naturwissenschaften“ gewählt worden zu sein.</note>
+                    <title level="m" type="bibl">Bunte Steine</title>
+                    <title level="m" type="bibl">Handbuch der Naturgeschichte</title>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach sendet einem unbekannten Empfänger in Berlin [u. a. das Diplom über dessen Ernennung zum korrespondierenden Mitglied der Societät der Wissenschaften zu Göttingen, erkundigt sich nach der richtigen Orthographie für die Volksbezeichnung „Chinese“ und bittet um eine Beschreibung der Nephritart Yü oder Jade.] </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich</forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">[unbekannt]</persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1782-10-17" when="1782-10-17" where="#orgplc_1645">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1782-10-17">1782?, Okt. 17</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1645">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0162.01">2001<idno>1645</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

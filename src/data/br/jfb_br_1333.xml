@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Johann Wolfgang von Goethe teilt Blumenbach Vermutungen zu einem mumifizierten Schädel und zum Grottenolm mit [, von denen Blumenbach ihm Zeichnungen gesandt hatte,] und antwortet auf Blumenbachs Frage, was ihm über [die antike rote Glasmasse] „Purpurino“ bekannt ist. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Wolfgang von</forename>
+                        <surname>Goethe</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1333.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Hannover, Blumenbach Familienarchiv; Abschrift (nach dem Or. im Familienarchiv Blumenbach in Hannover) in Weimar, Goethe- und Schiller-Archiv: GSA 29/102, IV, S. 13–15.</note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Drucke">
+                    <bibl>Goethes Werke. Weimarer Ausgabe Abt. IV, Bd. 19, S. 326–329 (Brief WA-Nr. 05366); Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 96–97 KatNr. 116.<ptr target="ref_d1e136080_01350"/>
+                    </bibl>
+                    <title level="m" type="bibl">Commercium epistolicum</title>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Antiker Schädel eines Aturers (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 794; Abb. in <emph>Decas craniorum</emph> 5 (1808), Tafel 46; Bibliographie Nr. 00096)<ptr target="ref_d1e136079_01350"/>. Gesteinsproben „von der merkwürdigen Uebergangsgebirgsart welche [in einer beiliegenden Liste] mit C bezeichnet ist“.</rs>
+                    <title level="m" type="bibl">Decas craniorum</title>
+                </note>
+                <note type="Anmerkung">
+                    <note>Alternative Bezeichnung für „Purpurino“: Hämatinon.</note>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1617" xml:id="ref_d1e136079_01350">./view-work.html?id=00096</ref>
+                    <rs type="html">00096</rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1618" xml:id="ref_d1e136080_01350">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/CommerciumHTMLs/CommerciumNr116.html</ref>
+                    <rs type="html"/>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Johann Wolfgang von Goethe teilt Blumenbach Vermutungen zu einem mumifizierten Schädel und zum Grottenolm mit [, von denen Blumenbach ihm Zeichnungen gesandt hatte,] und antwortet auf Blumenbachs Frage, was ihm über [die antike rote Glasmasse] „Purpurino“ bekannt ist. </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Wolfgang von</forename>
+                                <surname>Goethe</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1807-05-09" when="1807-05-09" where="#orgplc_1333">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1807-05-09">1807, Mai 9</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1333">Weimar</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01333.00">
+                    <idno>1333</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

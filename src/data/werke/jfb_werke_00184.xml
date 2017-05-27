@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: Io. Frid. Blumenbachii specimen physiologiae comparatae inter animantia calidi sanguinis vivipara et ovipara : recitatum d. XXVII. Decembr. MDCCLXXXVIII</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00184.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000184/00184.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: Io. Frid. Blumenbachii specimen physiologiae comparatae inter animantia calidi sanguinis vivipara et ovipara : recitatum d. XXVII. Decembr. MDCCLXXXVIII</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Commentationes Societatis Regiae Scientiarum Gottingensis</title>
+                        <imprint>
+                            <publisher>
+                                <name>Dieterich</name>
+                            </publisher>
+                            <pubPlace>Gottingae</pubPlace>
+                            <date type="publication" when="1789-01-01">1789</date>
+                        </imprint>
+                        <biblScope>Bd. IX (1789), Phys.</biblScope>
+                    </monogr>
+                    <citedRange>S. 108-128, 1 Ill. (Kupferst.)</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="4 PHYS MATH IV, 356">4 PHYS MATH IV, 356</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00184.00">00184</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3</idno>Publikationsorgane der Königlichen Gesellschaft der Wissenschaften zu Göttingen</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3.1.1</idno>Commentationes Societatis Regiae Scientiarum Gottingensis</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00184">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e16775_00184">
+                <span type="note">Auch als Sonderdruck:</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Jo. Frid. Blumenbachii <gap reason="ellipsis"/> specimen physiologiae comparatae inter animantia calidi sanguinis vivipara et ovipara : cum figuris</span>
+                <span type="pubPlace">Gottingae</span>
+                <span type="publisher">Apud Jo. Christ. Dieterich</span>
+                <span type="date">MDCCLXXXIX</span>
+                <span type="reference">00124</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Angezeigt und ausführlich besprochen von Blumenbach in</span>
+                <span type="title" style="j">Medicinische Bibliothek</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 3, 3. Stück (1791)</span>
+                <span type="citedRange">S. 370-378</span>
+                <span type="reference">00959</span>
+                <span type="note">anlässl. einer Rezension seiner Schrift in „The monthly Review; or literary Journal, enlarged: from May to August, inclusive, 1790. vol. II, pag. 551 sq.“.</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Siehe auch Bericht zum Vortrag Blumenbachs in</span>
+                <span type="title" style="j">GAgS</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1789 (8. Stück, 12. Januar)</span>
+                <span type="citedRange">S. 73-77; „Göttingen“</span>
+                <span type="reference">00317</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Deutsche Übersetzung in</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Kleine Schriften zur vergleichenden Physiologie und Anatomie und Naturgeschichte gehörig : mit einer Kupfertafel <metamark>
+                        <pc unit="slash"/>
+                    </metamark> von Joh. Friedr. Blumenbach ;</span>
+                <span type="note">uibersetzt [sic] und herausgegeben von D. Joh. Gottfr. Gruber</span>
+                <span type="pubPlace">Leipzig</span>
+                <span type="publisher">Bei G. Benj. Meissner</span>
+                <span type="date">1800</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="citedRange">S. 1-60</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="note">mit Tafel</span>
+                <span type="reference">00148</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

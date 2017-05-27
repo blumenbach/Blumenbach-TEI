@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xqdoc:xqdoc xmlns:xqdoc="http://www.xqdoc.org/1.0">
+    <xqdoc:control>
+        <xqdoc:date>2015-07-13T10:52:23.411Z</xqdoc:date>
+        <xqdoc:location>/db/apps/blumenbach/modules/docs.xqm</xqdoc:location>
+    </xqdoc:control>
+    <xqdoc:module type="library">
+        <xqdoc:uri>http://exist-db.org/xquery/docs</xqdoc:uri>
+        <xqdoc:name>docs</xqdoc:name>
+        <xqdoc:comment>
+            <xqdoc:description> This module processes Wiki style documentation from atoms that source from Markdown 
+</xqdoc:description>
+        </xqdoc:comment>
+    </xqdoc:module>
+    <xqdoc:functions>
+        <xqdoc:function>
+            <xqdoc:name>docs:breadcrumbs</xqdoc:name>
+            <xqdoc:signature>docs:breadcrumbs($path as xs:string) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$path </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>docs:breadcrumbs</xqdoc:name>
+            <xqdoc:signature>docs:breadcrumbs($node as node(), $model as map) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>docs:content</xqdoc:name>
+            <xqdoc:signature>docs:content($node as node(), $model as map) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>docs:entries</xqdoc:name>
+            <xqdoc:signature>docs:entries($node as node(), $model as map, $count as xs:string?, $id as xs:string?, $wiki-id as xs:string?, $start as xs:int) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:param>$count? </xqdoc:param>
+                <xqdoc:param>$id? </xqdoc:param>
+                <xqdoc:param>$wiki-id? </xqdoc:param>
+                <xqdoc:param>$start </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>docs:feed</xqdoc:name>
+            <xqdoc:signature>docs:feed($node as node(), $model as map) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>docs:feed-url</xqdoc:name>
+            <xqdoc:signature>docs:feed-url($feed as element()) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$feed </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>docs:get-entries</xqdoc:name>
+            <xqdoc:signature>docs:get-entries($feed as element(), $id as xs:string?, $wikiId as xs:string?) as element()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$feed </xqdoc:param>
+                <xqdoc:param>$id? </xqdoc:param>
+                <xqdoc:param>$wikiId? </xqdoc:param>
+                <xqdoc:return>element()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>docs:get-entries</xqdoc:name>
+            <xqdoc:signature>docs:get-entries($feed as element(), $id as xs:string?, $wikiId as xs:string?, $recurse as xs:boolean) as element()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$feed </xqdoc:param>
+                <xqdoc:param>$id? </xqdoc:param>
+                <xqdoc:param>$wikiId? </xqdoc:param>
+                <xqdoc:param>$recurse </xqdoc:param>
+                <xqdoc:return>element()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>docs:get-or-create-entry</xqdoc:name>
+            <xqdoc:signature>docs:get-or-create-entry($node as node(), $model as map, $lock as xs:string?) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:param>$lock? </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>docs:process-content</xqdoc:name>
+            <xqdoc:signature>docs:process-content($type as xs:string?, $content as item()?, $model as map, $expandTemplates as xs:boolean) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$type? </xqdoc:param>
+                <xqdoc:param>$content? </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:param>$expandTemplates </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>docs:title</xqdoc:name>
+            <xqdoc:signature>docs:title($node as node(), $model as map) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description/>
+                <xqdoc:param>$node </xqdoc:param>
+                <xqdoc:param>$model </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+    </xqdoc:functions>
+</xqdoc:xqdoc>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Johann Rudolf Schellenberg sendet die nach Blumenbachs Korrekturanweisungen neu angefertigten Tafeln [zu dessen Aufsatz De oculis leucaethiopum et iridis motu?] und macht Vorschläge für die Art des Geldtransfers zu seiner Bezahlung. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Rudolf </forename>
+                        <surname>Schellenberg</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0227.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 4 (Schellenberg Nr. 2). </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> II, S. 220 Nr. 0318.</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Anmerkung">
+                    <note>Evt. handelt es sich um die Abb. für <emph>„De oculis leucaethiopum et iridis motu</emph> commentatio recitata d. IX. Octobr. MDCCLXXXIV“, in <emph>Commentationes soc. reg. scient. Gottingensis</emph>, Bd. VII (1786), Phys., S. 29–62 (Bibliographie Nr. 00180)<ptr target="ref_d1e21817_00230"/>.</note>
+                    <title level="m" type="bibl">De oculis leucaethiopum et iridis motu</title>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="82" xml:id="ref_d1e21817_00230">./view-work.html?id=00180</ref>
+                    <rs type="html">00180 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Johann Rudolf Schellenberg sendet die nach Blumenbachs Korrekturanweisungen neu angefertigten Tafeln [zu dessen Aufsatz <emph>De oculis leucaethiopum et iridis motu</emph>?] und macht Vorschläge für die Art des Geldtransfers zu seiner Bezahlung. </title>
+                        <title level="m" type="bibl">De oculis leucaethiopum et iridis motu</title>
+                        <author>
+                            <persName>
+                                <forename>Johann Rudolf </forename>
+                                <surname>Schellenberg</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich </forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1784-11-29" when="1784-11-29" where="#orgplc_0227">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1784-11-29">1784, Nov. 29</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0227">Winterthur</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0227.00">0230<idno>0227</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

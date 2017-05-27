@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Gottfried Erich Rosenthal sendet Blumenbach die Schädelkalotte eines nordamerikanischen Indianers als Geschenk. </title>
+                <author>
+                    <persName>
+                        <forename>Gottfried Erich</forename>
+                        <surname>Rosenthal</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0581.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, 30, fol. 1. </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> IV, S. 72 Nr. 0687.<ptr target="ref_d1e58430_00587"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="515" xml:id="ref_d1e58430_00587">http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=84</ref>
+                    <rs type="pdf">Corresp. IV, S. 72 Nr. 0687 </rs>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Schädelkalotte eines nordamerikan. Indianers, laut Dougherty, <emph>Corresp.</emph> IV, Nr. 0687 Anm. 2 nicht mehr in den Göttinger Sammlungen nachweisbar.</rs>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Anmerkung">
+                    <note>Schädelkalotte erwähnt in Blumenbachs hs. Katalogen seiner Schädelsammlung, Universitätsbibliothek Göttingen, Cod. Ms. Blumenbach 1, I, fol. 8, und Cod. Ms. Blumenbach 1, II, fol. 14.</note>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Gottfried Erich Rosenthal sendet Blumenbach die Schädelkalotte eines nordamerikanischen Indianers als Geschenk. </title>
+                        <author>
+                            <persName>
+                                <forename>Gottfried Erich</forename>
+                                <surname>Rosenthal</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1791-06-29" when="1791-06-29" where="#orgplc_0581">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1791-06-29">1791, Juni 29</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0581">Nordhausen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0581.00">0587<idno>0581</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

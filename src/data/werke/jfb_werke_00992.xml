@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: XIV. Observations on some Egyptian Mummies opened in London. By John Frederick Blumenbach, M. D. F. R. S. Addressed to Sir Joseph Banks, Bart. P. R. S. Read April 10, 1794</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00992.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000992/00992.pdf</ref>
+                </note>
+                <note type="ptr">Anm. 17</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: XIV. Observations on some Egyptian Mummies opened in London. By John Frederick Blumenbach, M. D. F. R. S. Addressed to Sir Joseph Banks, Bart. P. R. S. Read April 10, 1794</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Philosophical Transactions of the Royal Society of London : giving some accounts of the present undertakings, studies, and labours, of the ingenious, in many considerable parts of the world <gap reason="ellipsis"/>
+                        </title>
+                        <imprint>
+                            <publisher>
+                                <name>Richardson</name>
+                            </publisher>
+                            <pubPlace>London</pubPlace>
+                            <date type="publication" when="1794-01-01">1794</date>
+                        </imprint>
+                        <biblScope>Bd. 84 (1794)</biblScope>
+                    </monogr>
+                    <citedRange>S. 177-195, 1 Ill. (Kupferst.)</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="4 PHYS MATH V, 150">4 PHYS MATH V, 150</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00992.00">00992</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4.38</idno>Philosophical Transactions of the Royal Society of London</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00992">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e74246_00992">
+                <span type="note">Forschungsnotiz zu ägyptischen Mumien. Tafel gestochen von James Basire, Zählung: XVI. Auch als Sonderdruck erschienen: [London] : [s.n.], [1794]</span>
+                <span type="reference">00126</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Bearbeitete Version in</span>
+                <span type="title" style="j">The New Annual Register: or general repository of history, politics, and literature, for the year</span>
+                <span type="biblScope">1794 [i. e. 1795]</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="citedRange">S. 126-135</span>
+                <span type="reference">00981</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Bearbeitete Version in französischer Übersetzung in</span>
+                <span type="title" style="j">Magazin encyclopédique : ou journal des sciences, des lettres et des arts</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 1, Nr. 4 (1795)</span>
+                <span type="citedRange">S. 503-525</span>
+                <span type="reference">00811</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" style="n">
+                <span type="note">Italienische, auf der französischen Version beruhende Übersetzung in</span>
+                <span type="title" style="j">Opuscoli celti sulle scienze e sulle arti</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">tom. XVIII (1795)</span>
+                <span type="reference">03026</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" style="n">
+                <span type="note">Weitere, auf dem Originaltext beruhende italienische Übersetzung in</span>
+                <span type="title" style="j">Annali di chimica e storia naturale</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">tom. XI (1796)</span>
+                <span type="reference">04011</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Der Text dieses englischsprachigen Artikels zeigt große Ähnlichkeit mit dem Abschnitt von S. 101-144 in</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Beyträge zur Naturgeschichte <metamark>
+                        <pc unit="slash"/>
+                    </metamark> von Joh. Fr. Blumenbach <gap reason="ellipsis"/>
+                </span>
+                <span type="edition">Zweyter Theil</span>
+                <span type="pubPlace">Göttingen</span>
+                <span type="publisher">Bey Heinrich Dieterich</span>
+                <span type="date">1811</span>
+                <span type="reference">00113</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Es darf vermutet werden, dass beiden Texten das gleiche Manuskript zugrunde liegt. Auch die Abbildungen zu diesem Werk wurden für die</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Beyträge zur Naturgeschichte</span>
+                <span type="note">neu gestochen</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">
+                    <lb/>
+                    <lb/>Anm. 17: Laut Dougherty,</span>
+                <span type="title" style="j">Bibliographie</span>
+                <span type="citedRange">S. 92, Fn. 97</span>
+                <span type="note">übersetzt von Joseph Planta. Deutschsprachiges Manuskript im Archiv der Royal Society: „Dr Jnº Fried. Blumenbach’s FRS Bemerkung über einige von ihm in London untersuchte Aegyptische Mumien. - an Sir Joseph Banks Bart PRS - Goettingen d. 15. Dec. 1793.“ (Archive of the Royal Society of London L&amp;P/10/81).</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" style="n">
+                <span type="note">In Blumenbachs Korrespondenz mit Joseph Banks wird Joseph Planta als Übersetzer dieses Textes genannt, vgl. Dougherty,</span>
+                <span type="title" style="j">Correspondence</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 4</span>
+                <span type="citedRange">S. 290 (Brief Nr. 822) und S.301 (Nr. 830)</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Jan Ingen-Housz dankt Blumenbach für die Zusendung eines Exemplars von dessen Institutiones Physiologicae (1798), und sendet ihm ein magnetisches Objekt, eine Probe Kaliumchlorat und ein Exemplar seines Aufsatzes „An essay on the food of plants and the renovation of soils“ (1796). </title>
+                <author>
+                    <persName>
+                        <forename>Jan </forename>
+                        <surname>Ingen-Housz</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0963.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Leipzig, Universitätsbibliothek, Sammlung Kestner, II C V, 101.</note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> V, S. 207–209 Nr. 1116.<ptr target="ref_d1e98407_00980"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Werke">
+                    <bibl>
+                        <relatedItem>
+                            <bibl>
+                                <emph>Institutiones Physiologicae</emph> (2. Aufl. 1798; Bibliographie Nr. 00066).<ptr target="ref_d1e98405_00980"/>
+                            </bibl>
+                        </relatedItem>
+                    </bibl>
+                    <title level="m" type="bibl">Institutiones Physiologicae</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="1098" xml:id="ref_d1e98407_00980">http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=223</ref>
+                    <rs type="pdf">Corresp. V, S. 207–209 Nr. 1116 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1099" xml:id="ref_d1e98405_00980">./view-work.html?id=00066</ref>
+                    <rs type="html">00066 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Jan Ingen-Housz dankt Blumenbach für die Zusendung eines Exemplars von dessen <emph>Institutiones Physiologicae</emph> (1798), und sendet ihm ein magnetisches Objekt, eine Probe Kaliumchlorat und ein Exemplar seines Aufsatzes „An essay on the food of plants and the renovation of soils“ (1796). </title>
+                        <title level="m" type="bibl">Institutiones Physiologicae</title>
+                        <author>
+                            <persName>
+                                <forename>Jan </forename>
+                                <surname>Ingen-Housz</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1798-02-03" when="1798-02-03" where="#orgplc_0963">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1798-02-03">1798, Febr. 3</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0963">London</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0963.00">
+                    <idno>0963</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

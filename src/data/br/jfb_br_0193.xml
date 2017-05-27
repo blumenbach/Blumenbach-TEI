@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach dankt Johann Heinrich Merck für Auskünfte über das Gebiss des Rhinozeroses, kommentiert diese und verspricht, Merck Exzerpte von Büchern der Göttinger Bibliothek zu beschaffen. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich </forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0193.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Or. verloren; Überlieferung durch Druck in Wagner, Briefe an Johann Heinrich Merck […] (1835). </note>
+                <note type="Drucke">
+                    <bibl>Wagner, <emph>Briefe an Johann Heinrich Merck</emph> […]. (1835), Nr. 197 S. 413–414; Leuschner/Luserke-Jaqui, <emph>Merck-Briefwechsel</emph>, Bd. 3 (2007), S. 424–425 Nr. 651.</bibl>
+                    <title level="m" type="bibl">Briefe an Johann Heinrich Merck</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> II, S. 125 Nr. 0266 nach Wagner, <emph>Briefe an Johann Heinrich Merck</emph>, ergänzt um ein dort ausgelassenes Albrecht von Haller-Zitat.</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                    <title level="m" type="bibl">Briefe an Johann Heinrich Merck</title>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach dankt Johann Heinrich Merck für Auskünfte über das Gebiss des Rhinozeroses, kommentiert diese und verspricht, Merck Exzerpte von Büchern der Göttinger Bibliothek zu beschaffen. </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich </forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Heinrich </forename>
+                    <surname>Merck</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1784-01-02" when="1784-01-02" where="#orgplc_0193">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1784-01-02">1784, Jan. 2</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0193">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0193.00">0195<idno>0193</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

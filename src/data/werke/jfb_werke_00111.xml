@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Beyträge zur Naturgeschichte <metamark>
+                        <pc unit="slash"/>
+                    </metamark> von Joh. Fr. Blumenbach</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00111.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000111/00111.pdf</ref>
+                </note>
+                <note type="ref">
+                    <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000111/000111.html</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">Beyträge zur Naturgeschichte <metamark>
+                                <pc unit="slash"/>
+                            </metamark> von Joh. Fr. Blumenbach <gap reason="ellipsis"/>
+                        </title>
+                        <edition>Erster Theil</edition>
+                        <imprint>
+                            <publisher>
+                                <name>Bey Johann Christian Dieterich</name>
+                            </publisher>
+                            <pubPlace>Göttingen</pubPlace>
+                            <date type="publication" when="1790-01-01">1790</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 H NAT I, 747:1">8 H NAT I, 747:1</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>VIII, 126 S., [1] Bl. : Ill. (Kupferst.)<dimensions>
+                                        <dim>16 cm (8°)</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00111.00">00111</classCode>
+                <classCode scheme="cat">
+                    <idno>I</idno>Selbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>I.8</idno>Beiträge zur Naturgeschichte</classCode>
+                <classCode scheme="cat">
+                    <idno>I.8.1</idno>Originalausgaben</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00111">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e10045_00111">
+                <span type="note">Titelvignette und 4 weitere Vignetten, Zählung: 1-5</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Vignetten zeigen die fünf Menschenvarietäten</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Angezeigt von Blumenbach in</span>
+                <span type="title" style="j">GAgS</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1790 (84. Stück, 27. Mai)</span>
+                <span type="citedRange">S. 841-842; „Göttingen“</span>
+                <span type="reference">00333</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Enthält: „Vorrede“ (S. V-VIII);</span>
+                <span type="note">„I. Ueber die Veränderlichkeit in der Schöpfung“ (S. [1]-5);</span>
+                <span type="note">„II. Ein Blick in die Vorwelt“ (S. 6-18);</span>
+                <span type="note">„III. Beyläufig ein Wort über den Basalt“ (S. 19-23);</span>
+                <span type="note">„IV. Umschaffung der Vorwelt“ (S. 24-27);</span>
+                <span type="note">„V. Veränderlichkeit in der jetzigen Schöpfung“ (S. 28-32);</span>
+                <span type="note">„VI. Die Ausartung der organisirten Körper“ (S. 33-35);</span>
+                <span type="note">„VII. Besonders unter den Hausthieren“ (S. 36-46);</span>
+                <span type="note">„VIII. Ausartung des vollkommensten aller Hausthiere, – des Menschen“ (S. 47-49);</span>
+                <span type="note">„IX. Eine hieher gehörige physiologische Eigenheit des menschlichen Körpers“ (S. 50-55);</span>
+                <span type="note">„X. Ein Wort zur Beruhigung in einer allgemeinen Familien-Angelegenheit“ (S. 56-61);</span>
+                <span type="note">„XI. ***“ [Antwort auf die Anmerkungen von Christoph Meiners zu Blumenbachs Vortrag über die „erste Decade seiner Sammlung von Schädeln“ vor der Societät in</span>
+                <span type="title" style="j">GAgS</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1790 (3. Stück, 4. Januar)</span>
+                <span type="citedRange">S. 25-29; „Göttingen“</span>
+                <span type="reference">00325</span>
+                <span type="note">(S. 62-78);</span>
+                <span type="note">„XII. Eintheilung des Menschengeschlechts in fünf Spielarten“ (S. 79-83);</span>
+                <span type="note">„XIII. Ueber die Negern insbesondre“ (S. 84-118), vgl.</span>
+                <span type="reference">00817</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">„XIV. Von den Kakerlacken“ (S. 119-126);</span>
+                <span type="note">„Inhalt“ (S. [127]-[128])</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Bearbeitete Auszüge in „III. Auszüge aus der Sammlung von Hirnschädeln verschiedener Nationen</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Als Beitrag zur Naturgeschichte der Menschenspecies“, in</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Kleine Schriften zur vergleichenden Physiologie und Anatomie und Naturgeschichte gehörig : mit einer Kupfertafel <metamark>
+                        <pc unit="slash"/>
+                    </metamark> von Joh. Friedr. Blumenbach ; uibersetzt [sic] und herausgegeben von D. Joh. Gottfr. Gruber</span>
+                <span type="pubPlace">Leipzig</span>
+                <span type="publisher">Bei G. Benj. Meissner</span>
+                <span type="date">1800</span>
+                <span type="reference">00148</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="citedRange">S. 143-165</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

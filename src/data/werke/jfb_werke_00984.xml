@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: V. Observations on the bodily Conformation and mental Capacity of the Negroes. By Professor Blumenbach. From Magazin für das neueste [sic] aus der Physik, Vol. IV</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00984.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000984/00984.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: V. Observations on the bodily Conformation and mental Capacity of the Negroes. By Professor Blumenbach. From Magazin für das neueste [sic] aus der Physik, Vol. IV</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">The Philosophical Magazine : comprehending the various branches of science, the liberal and fine arts, agriculture, manufactures, and commerce <metamark>
+                                <pc unit="slash"/>
+                            </metamark> by Alexander Tilloch</title>
+                        <imprint>
+                            <publisher>
+                                <name>Richardson</name>
+                            </publisher>
+                            <pubPlace>London</pubPlace>
+                            <date type="publication" when="1799-03-01">1799, March</date>
+                        </imprint>
+                        <biblScope>Bd. 3 (1799, March)</biblScope>
+                    </monogr>
+                    <citedRange>S. 141-147</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 PHYS MATH II, 2810">8 PHYS MATH II, 2810</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00984.00">00984</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4.37</idno>The Philosophical Magazine</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00984">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e73640_00984">
+                <span type="note">Forschungsnotiz über die Variationsbreite der Schädelformen bei Afrikanern und über die Gleichwertigkeit der intellektuelle Fähigkeiten von Afrikanern und Europäern.</span>
+                <span type="note">Englische Übersetzung von Blumenbachs Artikel „von den Negern“ aus</span>
+                <span type="title" style="j">Magazin für das Neueste aus der Physik und Naturgeschichte</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 4, 3. Stück (1787)</span>
+                <span type="citedRange">S. 1-12</span>
+                <span type="reference">00817</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" style="n">
+                <span type="note">Nachdruck in</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Letters of the late Ignatius Sancho, an African : to which are prefixed memoirs of his life by Joseph Jekyll. 5th ed</span>
+                <span type="pubPlace">London</span>
+                <span type="publisher">Printed for W. Sancho</span>
+                <span type="date">1803</span>
+                <span type="citedRange">S. IX-XVI</span>
+                <span type="reference">04004</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" style="n">
+                <span type="note">Nachdruck in</span>
+                <span type="title" style="j">London Medical Review and Magazine</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 3 (1800)</span>
+                <span type="citedRange">S. 199-203</span>
+                <span type="reference">04015</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Eine gekürzte Version dieser Übersetzung befindet sich in</span>
+                <span type="title" style="j">The Monthly Magazine, and American Review</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 1, Nr. 6 (1799)</span>
+                <span type="citedRange">S. 453-456</span>
+                <span type="reference">00976</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Elements of physiology</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00073.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000073_001/00073_001.pdf</ref>
+                    <rs type="pdf">Band 1</rs>
+                </note>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000073_002/00073_002.pdf</ref>
+                    <rs type="pdf">Band 2</rs>
+                </note>
+                <note type="ref">
+                    <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000073/000073_001.html</ref>
+                    <rs type="html">Band 1</rs>
+                </note>
+                <note type="ref">
+                    <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000073/000073_002.html</ref>
+                    <rs type="html">Band 2</rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">Elements of physiology <metamark>
+                                <pc unit="slash"/>
+                            </metamark>
+                        </title>
+                        <title level="m" type="sub">by Jo. Fred. Blumenbach<metamark>
+                                <pc unit="point"/>
+                            </metamark>
+                            <gap reason="ellipsis"/>
+                            <metamark>
+                                <pc unit="slash"/>
+                            </metamark>
+                        </title>
+                        <title level="m" type="ed">translated from the original Latin, and interspersed with occasional notes by Charles Caldwell: to which is subjoined, by the translator, an appendix, exhibiting a brief and compendious view of the existing discoveries relative to the subject of animal electricity</title>
+                        <imprint>
+                            <publisher>
+                                <name>Printed by Thomas Dobson</name>
+                            </publisher>
+                            <pubPlace>Philadelphia, [Pa.]</pubPlace>
+                            <date type="publication" when="1795-01-01">M.DCC.XCV</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 ZOOL XIII, 4183:1">8 ZOOL XIII, 4183:1</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>2 Bde. in 1 Bd. (XVI, 229 S.; [1] Bl., 247 S.)<dimensions>
+                                        <dim>21 cm (8°)</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00073.00">00073</classCode>
+                <classCode scheme="cat">
+                    <idno>I</idno>Selbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>I.5</idno>Institutiones Physiologicae</classCode>
+                <classCode scheme="cat">
+                    <idno>I.5.2</idno>Übersetzungen</classCode>
+                <classCode scheme="cat">
+                    <idno>I.5.2.2</idno>English</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00073">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e6503_00073">
+                <span type="note">Angezeigt von Blumenbach in</span>
+                <span type="title" style="j">GAgS</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1798 (122. Stück, 2. August)</span>
+                <span type="citedRange">S. 1214-1215; „Philadelphia“</span>
+                <span type="reference">00396</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Erwähnt von Blumenbach in</span>
+                <span type="title" style="j">GgA</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1818 (172. Stück, 26. Oktober)</span>
+                <span type="citedRange">S. 1713-1715; „London“</span>
+                <span type="reference">00584</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">John Elliotsons Übersetzung der 4. Ausgabe (</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">D. Jo. Frid. Blumenbachii institutiones physiologicae</span>
+                <span type="edition">Editio quarta auctior et emendatior</span>
+                <span type="pubPlace">Gottingae</span>
+                <span type="publisher">Apud Henr. Dieterich</span>
+                <span type="date">MDCCCXXI</span>
+                <span type="reference">00068</span>
+                <span type="note">), 1828 in London erschienen, trägt den Titel</span>
+                <span type="title" style="m">The elements of physiology</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="msDesc">Titelblatt von Bd. 2 fehlt</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

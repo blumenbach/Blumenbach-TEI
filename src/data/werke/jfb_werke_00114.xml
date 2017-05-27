@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">The anthropological treatises of Johann Friedrich Blumenbach</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00114.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">The anthropological treatises of Johann Friedrich Blumenbach <gap reason="ellipsis"/>
+                        </title>
+                        <title level="m" type="sub">with memoirs of him by Marx and Flourens, and an account of his anthropological museum by <gap reason="ellipsis"/>
+                        </title>
+                        <title level="m" type="sub">R. Wagner, and the inaugural dissertation of John Hunter <gap reason="ellipsis"/>
+                        </title>
+                        <title level="m" type="sub">on the varieties of man <metamark>
+                                <pc unit="slash"/>
+                            </metamark>
+                        </title>
+                        <title level="m" type="ed">translated and edited from the Latin, German, and French originals, by Thomas Bendyshe <gap reason="ellipsis"/>
+                        </title>
+                        <imprint>
+                            <publisher>
+                                <name>Longman, Green, Longman, Roberts, &amp; Green</name>
+                            </publisher>
+                            <pubPlace>London</pubPlace>
+                            <date type="publication" when="1865-01-01">1865</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 ZOOL XI, 716">8 ZOOL XI, 716</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00114.00">00114</classCode>
+                <classCode scheme="cat">
+                    <idno>I</idno>Selbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>I.8</idno>Beiträge zur Naturgeschichte</classCode>
+                <classCode scheme="cat">
+                    <idno>I.8.2</idno>Übersetzungen</classCode>
+                <classCode scheme="cat">
+                    <idno>I.8.2.1</idno>Englisch</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00114">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e10563_00114">
+                <span type="note">Enthält „Contributions to natural history, pts. 1-2 (1806-1811)“, Thomas Bendyshes englische Übersetzung von</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Beyträge zur Naturgeschichte <metamark>
+                        <pc unit="slash"/>
+                    </metamark> von Joh. Fr. Blumenbach <gap reason="ellipsis"/>
+                </span>
+                <span type="edition">Erster Theil, zweyte Ausgabe</span>
+                <span type="pubPlace">Göttingen</span>
+                <span type="publisher">Bey Heinrich Dieterich</span>
+                <span type="date">1806</span>
+                <span type="reference">00112</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">S. 277-324</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Und</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Beyträge zur Naturgeschichte <metamark>
+                        <pc unit="slash"/>
+                    </metamark> von Joh. Fr. Blumenbach <gap reason="ellipsis"/>
+                </span>
+                <span type="edition">Zweyter Theil</span>
+                <span type="pubPlace">Göttingen</span>
+                <span type="publisher">Bey Heinrich Dieterich</span>
+                <span type="date">1811</span>
+                <span type="reference">00113</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">S. 325-340</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Weitere enthaltene Werke aufgeführt in Kommentar zu</span>
+                <span type="reference">00010</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

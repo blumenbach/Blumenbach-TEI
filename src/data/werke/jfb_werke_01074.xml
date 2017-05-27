@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: II. D. Sam. Gottl. Vogel’s (Königl. Großbrit. Hofmed. in Ratzeburg) Unterricht für Eltern, Erzieher und Kinder-Aufseher: wie das unglaublich gemeine Laster der Selbstbefleckung am sichersten zu entdecken, zu verhüten und zu heilen. Stendal 1786. 175 S. in Octavo</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_01074.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/MedBiblII4-Vogel/MedBiblII4-Vogel.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: II. D. Sam. Gottl. Vogel’s (Königl. Großbrit. Hofmed. in Ratzeburg) Unterricht für Eltern, Erzieher und Kinder-Aufseher: wie das unglaublich gemeine Laster der Selbstbefleckung am sichersten zu entdecken, zu verhüten und zu heilen. Stendal 1786. 175 S. in Octavo</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Medicinische Bibliothek <metamark>
+                                <pc unit="slash"/>
+                            </metamark> hrsg. von Joh. Friedr. Blumenbach</title>
+                        <imprint>
+                            <publisher>
+                                <name>Dieterich</name>
+                            </publisher>
+                            <pubPlace>Göttingen</pubPlace>
+                            <date type="publication" when="1787-01-01">1787</date>
+                        </imprint>
+                        <biblScope>Bd. 2, 4. Stück (1787)</biblScope>
+                    </monogr>
+                    <citedRange>S. 586-602, 1 Ill.</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 MED EPH 142">8 MED EPH 142</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00952.01">04021</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4.29</idno>Medicinische Bibliothek</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="01074">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e80667_01074">
+                <span type="note">Anonyme Rezension von</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Unterricht für Eltern, Erzieher und Kinderaufseher : wie das unglaublich gemeine Laster der zerstörenden Selbstbefleckung am sichersten zu entdecken, zu verhüten und zu heilen <metamark>
+                        <pc unit="slash"/>
+                    </metamark> Samuel Gottlieb Vogel</span>
+                <span type="pubPlace">Stendal</span>
+                <span type="publisher">Franzen und Grosse</span>
+                <span type="date">1786.</span>
+                <span type="repository">Technische Universität Dortmund. Universitätsbibliothek: Jc A 7992</span>
+                <span type="note">Blumenbachs Verfasserschaft ergibt sich aus den „Anmerkungen und Zusätze zu allen drey Bänden dieser Bibliothek. Von dem Herausgeber.“</span>
+                <span type="reference">00962</span>
+                <span type="citedRange">S. 725</span>
+                <span type="note">in den Anmerkungen „Zum zweyten Bande“ zu „S. 598. Infibulation.“: „Ich habe seit ich jenes geschrieben, in London bey dem großen Alterthumskenner … .“<lb/>
+                </span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

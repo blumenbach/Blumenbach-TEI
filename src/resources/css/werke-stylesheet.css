@@ -1,0 +1,213 @@
+body {
+    color: rgb(0, 0, 0); 
+    background-color: rgb(245, 245, 245);
+}
+
+body.restxq {
+    color: rgb(0, 0, 0); 
+    background-color: rgb(255, 255, 255);
+}
+
+table.werk {
+    width: 1108px;
+    text-align: left;
+    border-collapse: separate;
+}
+
+table.taxon {
+    width: 1108px;         
+    border-collapse: collapse; 
+}
+
+table.taxon td {
+    padding:0; margin:0;
+    vertical-align: top;
+}
+
+table.data {
+    width: 100%;
+    vertical-align: top;
+    margin: 0 auto;
+    line-height: 130%;
+    border-collapse: collapse;
+}
+
+td {
+    font-family: Arial,sans-serif;
+    font-size: small;
+    vertical-align: top; 
+    text-align: left;
+    padding: 0;    
+}
+
+.code {
+    font-family: "Times New Roman" ,sans-serif; 
+    font-size: 12px; 
+    margin-top: 0px;
+}
+
+.notes {
+  font-family: Arial,sans-serif;
+  font-size: small; 
+  line-height: 125%;
+}
+
+.meta {
+  font-family: Arial,sans-serif;
+  font-size: medium;
+  margin-top: 0px;
+  line-height: 125%;
+}
+
+.taxon3 {
+  font-family: Arial,sans-serif;
+  font-weight: normal;
+  font-size: medium;  
+}
+
+.token {
+    display: inline-block;
+}
+
+.BiblNr {
+  font-family: Arial,sans-serif;
+  font-size: large;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+a {
+	color: #000099;
+	text-decoration: none;
+}
+
+a.taxon:hover {
+  text-decoration: underline;
+}
+
+a.taxon {
+	color: #000;
+	text-decoration: none;
+}
+
+a.sup {
+	color: #000;
+	text-decoration: none;
+}
+
+.emph {
+	color: #000;
+	text-decoration: none;
+	font-style: italic;
+}
+
+.green-emph {
+	text-decoration: none;
+	font-style: italic;
+	color: green;
+} 
+
+.green {
+	text-decoration: none;
+	color: green;
+} 
+
+h1 {
+  font-family: Arial,sans-serif;
+  font-weight: normal;
+  font-size: x-large;
+}
+
+h2 {
+  font-family: Arial,sans-serif;
+  font-weight: normal;
+  font-size: large;
+}
+
+h3 {
+  font-family: Arial,sans-serif;
+  font-weight: normal;
+  font-size: medium;
+}
+
+div.menu {
+  font-size: 80%;
+  font-weight: normal;
+  text-align: left;
+  position: fixed;
+  right: 1em;
+  border: thin outset #4A5785;
+  padding: 0.3em 0.4em;
+  background: #4A5785;
+  font-family: Arial,sans-serif;
+  color: white; 
+}
+
+div.menu ul {
+    margin-bottom:20px;
+}
+
+ul
+{
+    list-style-type: none;
+    padding:0; margin:0;
+}
+
+div.menu li a {
+    display:block;
+    border:1px solid #999;
+    background-color:#4A5785;
+    border-left:6px solid #999;
+    text-decoration:none;
+    color:#ccc;
+    padding:0.3em 0.4em;
+    list-style-type: none;
+}
+
+.menu1 li a:hover {
+    border-color:#09f;
+}
+.menu2 li a:hover {
+    border-color:#11D729;
+}
+.menu3 li a:hover {
+    border-color:#f09;
+}
+
+.eintrag {
+  font-family: Arial,sans-serif;
+  font-size: medium;
+  margin-top: 0px;
+}
+.kommentar {
+  font-family: Arial,sans-serif;
+  font-size: small;
+  line-height: 1.25em;
+}
+
+.green-sm {
+  font-family: Arial,sans-serif;
+  font-size: small; 
+  line-height: 1.25em;    
+  color: green;    
+}
+
+.green-md {
+  font-family: Arial,sans-serif;
+  font-size: medium;
+  color: green;    
+}
+
+.green-lg {
+  font-family: Arial,sans-serif;
+  font-size: large; 
+  font-weight: bold;    
+  color: green;    
+}
+
+sup {
+  font-size: 50%;
+  line-height: 0;
+  position: relative;
+}

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach berichtet Edward Ash über Johann Christian Wilhelm Junckers Vorschläge zur Ausrottung der Pocken und über unsachliche Kritik an diesen Vorschlägen, über die erfolgreiche Anwendung von Edward Jenners Kuhpocken-Schutzimpfung im Kurfürstentum Hannover und über neue medizinische, chemische und gewerbliche Entdeckungen in Deutschland. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1198.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Göttingen, Universitätsbibliothek, 2 Cod. Ms. philos. 182: J. F. Blumenbach, 28.12.1800. </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> V, S. 533–536 Nr. 1355.<ptr target="ref_d1e122961_01215"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Werke">
+                    <bibl>
+                        <relatedItem>
+                            <bibl>Im Druck: Handbuch der vergleichenden Anatomie […] (1805, Bibliographie Nr. 00101).<ptr target="ref_d1e120919_01215"/>
+                            </bibl>
+                        </relatedItem>
+                    </bibl>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="1454" xml:id="ref_d1e122961_01215">http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=547</ref>
+                    <rs type="pdf">Corresp. V, S. 533–536 Nr. 1355. </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1455" xml:id="ref_d1e120919_01215">./view-work.html?id=00101</ref>
+                    <rs type="html">00101 </rs>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Erbeten: eine Probe englischen Papiers aus Stroh. </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach berichtet Edward Ash über Johann Christian Wilhelm Junckers Vorschläge zur Ausrottung der Pocken und über unsachliche Kritik an diesen Vorschlägen, über die erfolgreiche Anwendung von Edward Jenners Kuhpocken-Schutzimpfung im Kurfürstentum Hannover und über neue medizinische, chemische und gewerbliche Entdeckungen in Deutschland. </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich</forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Edward</forename>
+                    <surname>Ash</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1800-12-28" when="1800-12-28" where="#orgplc_1198">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1800-12-28">1800, Dez. 28</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1198">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01198.00">
+                    <idno>1198</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

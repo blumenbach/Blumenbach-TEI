@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: 1. Beschreibung von Nukahiwa. (Fortsetzung von S. 275. des vorigen Bandes.) (Nebst drei Abbildungen Taf. 1. 2. 3.). Einleitung des Hrn Hofr. Blumenbach, über die Gewohnheit des Tatowirens</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00770.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000770/00770.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: 1. Beschreibung von Nukahiwa. (Fortsetzung von S. 275. des vorigen Bandes.) (Nebst drei Abbildungen Taf. 1. 2. 3.). Einleitung des Hrn Hofr. Blumenbach, über die Gewohnheit des Tatowirens.</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Allgemeine geographische Ephemeriden / verf. von einer Gesellschaft von Gelehrten</title>
+                        <imprint>
+                            <publisher>
+                                <name>Verl. d. Industrie-Comptoirs</name>
+                            </publisher>
+                            <pubPlace>Weimar</pubPlace>
+                            <date type="publication" when="1811-01-01">Januar 1811</date>
+                        </imprint>
+                        <biblScope>Bd. 34, 1. Stück (Januar 1811)</biblScope>
+                    </monogr>
+                    <citedRange>S. [3]-9 [gehört zum Artikel S. [3]-15], 3 Ill. (Kupferst.)</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 GEOGR 64">8 GEOGR 64</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00770.00">00770</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4.3</idno>Allgemeine geographische Ephemeriden</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00770">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e59461_00770">
+                <span type="note">Tafeln koloriert, separat gebunden in 4 GEOGR 64, 42. Die kolorierte Abbildung der tätowierten Hand ist auch dem Artikel „Fernere Reisenachrichten vom Herrn D. Langsdorff. *)</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Aus einem Briefe desselben an Hrn. Hofr. Blumenbach“, in</span>
+                <span type="title" style="j">Magazin für den neuesten Zustand der Naturkunde, mit Rücksicht auf die dazu gehörigen Hülfswissenschaften</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 11, 4. Stück (1806)</span>
+                <span type="citedRange">S. 297-309</span>
+                <span type="reference">00915</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="note">beigegeben und trägt dort die Erläuterung: „Taf. V. Linke Hand der Königin Katanuaeh auf Nugahiwa, der größten der neuen Marquesas Inseln ; nach dem Leben genau gezeichnet von Dr. Langsdorff. 1804.“</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">
+                    <lb/>Eine weitere halbseitige Illustration befindet sich hier auf S. 15</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Der zweite Teil des Artikels, nämlich „Hrn. Hofr. Dr. Langsdorff’s Nachricht über die Tatowirung der Bewohner von Nukahiva, und der Washingtons-Insulaner“ (S. 9-15), stammt von Georg Heinrich von Langsdorff. Fortsetzung von „2. Die Insel Nukahiwa, die vorzüglichste der Washington-Inseln im grossen südlichen Ocean, beschrieben nach A. J. von Krusenstern’s Berichte in dem ersten Bande seiner Reise um die Welt</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Systematisch geordnet und mit Anmerkungen versehen“</span>
+                <span type="title" style="j">ibid.</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 33, 3. Stück (November 1810)</span>
+                <span type="citedRange">S. 254-275</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Zusammen und mit Tafeln als Sonderdruck erschienen in Weimar : Im Verlage des Landes-Industrie-Comptoirs, 1811</span>
+                <span type="reference">00130</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

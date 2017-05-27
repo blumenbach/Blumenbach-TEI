@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">August Neidhardt von Gneisenau berichtet Blumenbach über den Aufenthalt von dessen Tochter [Emma Maria Hedwig von Jasmund] in Paris und Koblenz und über den Abschluss des 2. Friedens von Paris (1815). </title>
+                <author>
+                    <persName>
+                        <forename>August Neidhardt von</forename>
+                        <surname>Gneisenau</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1435.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Sommerschenburg, Archiv, Acta Sommerschenburg (A.S.) B405 (Abschrift); Angabe nach Pick (1900), veraltet? </note>
+                <note type="Drucke">
+                    <bibl>Pick, Albert: <emph>Aus der Zeit der Noth 1806 bis 1815</emph>. Berlin 1900, S. 363–364.<ptr target="ref_d1e144651_01452"/>
+                    </bibl>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Anmerkung">
+                    <note>Emma Blumenbach war verheiratet mit Carl von Jasmund, dem Adjutanten A. N. von Gneisenaus. </note>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="1729" xml:id="ref_d1e144651_01452">http://archive.org/stream/ausderzeitderno00pickgoog#page/n441/mode/2up</ref>
+                    <rs type="pdf">S. 363–364. </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">August Neidhardt von Gneisenau berichtet Blumenbach über den Aufenthalt von dessen Tochter [Emma Maria Hedwig von Jasmund] in Paris und Koblenz und über den Abschluss des 2. Friedens von Paris (1815). </title>
+                        <author>
+                            <persName>
+                                <forename>August Neidhardt von</forename>
+                                <surname>Gneisenau</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1816-01-02" when="1816-01-02" where="#orgplc_1435">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1816-01-02">1816, Jan. 2</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1435">Koblenz</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01435.00">
+                    <idno>1435</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

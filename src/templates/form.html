@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:so="http://standoff.proposal" lang="en" xml:lang="en" tei:foo="" so:foo="">
+    <head>
+        <title class="config:app-title">App Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta class="config:app-meta"/>
+        <link rel="shortcut icon" href="$shared/resources/images/exist_icon_16x16.ico"/>
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css"/>
+        <style type="text/css">
+            .xfRepeatIndex{
+            background-color: #E8F0E4;
+            }
+            .xfRepeatItem .xfControl {
+              clear: both;
+              display: inline-table;
+            }
+        </style>
+        <script type="text/javascript" src="$shared/resources/scripts/jquery/jquery-1.7.1.min.js"/>
+        <script type="text/javascript" src="$shared/resources/scripts/bootstrap-3.0.3.min.js"/>
+    </head>
+    <body id="grey-top" data-template="site:expand-links" data-template-base="http://exist-db.org/">
+        <div class="grey-bot">
+            <div class="container" id="main-container">
+                <div class="row">
+                    <div class="col-md-12" id="header">
+                        <a href="/" id="logo">Blumenbach TEI Datenbank</a>
+                    </div>
+                </div>
+                <div data-template="templates:include" data-template-path="templates/navbar.html"/>
+            </div>
+            <div class="container" id="main-container">
+                <div id="container-body" class="row">
+                    <div class="col-md-12" id="content"/>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12"/>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="copyright">
+                <p>Akademie der Wissenschaften zu Göttingen</p>
+            </div>
+        </div>
+        <div data-template="templates:unless-model-key-equals" data-template-key="noscript" data-template-value="yes">
+            <script type="text/javascript" src="$shared/resources/scripts/jquery/jquery.scrollExtend.min.js"/>
+            <script type="text/javascript" src="$shared/resources/scripts/ace/ace.js"/>
+            <script type="text/javascript" src="$shared/resources/scripts/ace/mode-javascript.js"/>
+            <script type="text/javascript" src="$shared/resources/scripts/ace/mode-text.js"/>
+            <script type="text/javascript" src="$shared/resources/scripts/ace/mode-xquery.js"/>
+            <script type="text/javascript" src="$shared/resources/scripts/ace/mode-java.js"/>
+            <script type="text/javascript" src="$shared/resources/scripts/ace/mode-css.js"/>
+            <script type="text/javascript" src="$shared/resources/scripts/ace/mode-xml.js"/>
+            <script type="text/javascript" src="$shared/resources/scripts/ace/theme-tomorrow_night.js"/>
+            <script type="text/javascript" src="$shared/resources/scripts/ace/theme-dawn.js"/>
+            <script type="text/javascript" src="$shared/resources/scripts/highlight.js"/>
+            <script type="text/javascript" src="$shared/resources/scripts/loadsource.js"/>
+            <script type="text/javascript" src="resources/scripts/demo.js"/>
+        </div>
+    </body>
+</html>

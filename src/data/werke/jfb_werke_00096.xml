@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">decas quinta collectionis suae craniorum diversarum gentium illustrata</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00096.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000096/00096.pdf</ref>
+                </note>
+                <note type="ref">
+                    <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000096/000096.html</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">decas quinta collectionis suae craniorum diversarum gentium illustrata</title>
+                        <title level="m" type="aut">Jo. Frid. Blumenbachii <gap reason="ellipsis"/>
+                        </title>
+                        <imprint>
+                            <publisher>
+                                <name>Apud Henricum Dieterich</name>
+                            </publisher>
+                            <pubPlace>Goettingae</pubPlace>
+                            <date type="publication" when="1808-01-01">MDCCCVIII</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="4 ZOOL XII, 1590:5">4 ZOOL XII, 1590:5</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>20 S., X gef. Bl. : 10 Ill. (Kupferst.)<dimensions>
+                                        <dim>26 cm (4°)</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00096.00">00096</classCode>
+                <classCode scheme="cat">
+                    <idno>I</idno>Selbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>I.6</idno>Decades Collectionis Suae Craniorum</classCode>
+                <classCode scheme="cat">
+                    <idno>I.6.1</idno>Originalausgaben</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00096">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e8649_00096">
+                <span type="note">Sonderdruck des Beitrags „Jo. Frid. Blumenbachii decas quinta collectionis suae craniorum diversarum gentium illustrata. d. XXV. Aug. MDCCCVI“, in</span>
+                <span type="title" style="j">Commentationes Societatis Regiae Scientiarum Gottingensis</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. XVI (1808), Phys.</span>
+                <span type="citedRange">S. 199-216</span>
+                <span type="reference">00191</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Angezeigt von Blumenbach in</span>
+                <span type="title" style="j">GgA</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1808 (139. und 140. Stück, 29. August)</span>
+                <span type="citedRange">S. 1387; „Göttingen“</span>
+                <span type="reference">00488</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">
+                    <lb/>Enthält Erläuterungen und Abbildungen zu folgenden Schädeln:<lb/>
+                </span>
+                <span type="citedRange">S. 3-4</span>
+                <span type="note">[Vorbemerkung]<lb/>
+                </span>
+                <span type="citedRange">S. 5-6</span>
+                <span type="note">XLI. Armeni. (Tab. XLI.)<lb/>
+                </span>
+                <span type="citedRange">S. 7-8</span>
+                <span type="note">XLII. Guanchi Teneriffensis. (Tab. XLII.);</span>
+                <span type="note">abweichende Tafelbezeichnung „XLII. veteris Guanchi Tenerifensis.“<lb/>
+                </span>
+                <span type="citedRange">S. 9</span>
+                <span type="note">XLIII. Lapponis. (Tab. XLIII.);</span>
+                <span type="note">abweichende Tafelbezeichnung „XLIII Feminae Lapponicae.“<lb/>
+                </span>
+                <span type="citedRange">S. 10-11</span>
+                <span type="note">XLIV. Sinensis. (Tab. XLIV.)<lb/>
+                </span>
+                <span type="citedRange">S. 12-13</span>
+                <span type="note">XLV. Bosjesmanni Hottentottae. (Tab. XLV.)<lb/>
+                </span>
+                <span type="citedRange">S. 14-15</span>
+                <span type="note">XLVI. Aturi Orinoccani. (Tab. XLVI.)</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">abweichende Tafelbezeichnung „XLVI. veteris Aturi.“<lb/>
+                </span>
+                <span type="citedRange">S. 15-16</span>
+                <span type="note">XLVII. Brasiliani. (Tab. XLVII.)<lb/>
+                </span>
+                <span type="citedRange">S. 17</span>
+                <span type="note">XLVIII. Feminae Brasilianae. (Tab. XLVIII.)<lb/>
+                </span>
+                <span type="citedRange">S. 18</span>
+                <span type="note">XLIX. Buggessi Macassarensis. (Tab. XLIX.)<lb/>
+                </span>
+                <span type="citedRange">S. 19-20</span>
+                <span type="note">L. Marquesani. (Tab. L.)<lb/>
+                </span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="msDesc">Tafel L ist ersetzt</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

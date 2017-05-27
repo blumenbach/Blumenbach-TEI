@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Georges(-Léopold-Chrétien, Baron de) Cuvier bittet Blumenbach für seine paläontologischen Forschungen zur Bestimmung der Tierarten, zu denen fossile Knochen gehören, um Beschreibungen und Zeichnungen der Kiefer und der Fußknochen der Tierfossilien aus Gibraltar im Academischen Museum der Universität Göttingen und erklärt, dass sein Interesse an Naturgeschichte durch die Lektüre von Blumenbachs Werken ausgelöst wurde. </title>
+                <author>
+                    <persName>
+                        <forename>Georges (Georges-Léopold-Chrétien, Baron de Cuvier)</forename>
+                        <surname>Cuvier</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1065.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 3 (Cuvier Nr. 2).</note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> V, S. 359– 360 Nr. 1217.<ptr target="ref_d1e109210_01081"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="1250" xml:id="ref_d1e109210_01081">http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=375</ref>
+                    <rs type="pdf">Corresp. V, S. 359– 360 Nr. 1217 </rs>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Fossile Knochen aus Gibraltar; Cuviers Abbildungen fossiler Knochen aus Frankreich. </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Georges(-Léopold-Chrétien, Baron de) Cuvier bittet Blumenbach für seine paläontologischen Forschungen zur Bestimmung der Tierarten, zu denen fossile Knochen gehören, um Beschreibungen und Zeichnungen der Kiefer und der Fußknochen der Tierfossilien aus Gibraltar im Academischen Museum der Universität Göttingen und erklärt, dass sein Interesse an Naturgeschichte durch die Lektüre von Blumenbachs Werken ausgelöst wurde. </title>
+                        <author>
+                            <persName>
+                                <forename>Georges (Georges-Léopold-Chrétien, Baron de Cuvier)</forename>
+                                <surname>Cuvier</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1799-02-17" when="1799-02-17" where="#orgplc_1065">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1799-02-17">1799, Febr. 17 Paris</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1065"/>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01065.00">
+                    <idno>1065</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

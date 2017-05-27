@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title type="meta">Blumenbach verspricht Johann Heinrich Wilhelm Tischbein die baldige Redaktion von dessen tierphysiognomischen Ausführungen über Hunderassen und sendet Neujahrsgrüße. </tei:title>
+                <tei:author>
+                    <tei:persName>
+                        <forename>Johann Friedrich</forename>
+                        <tei:surname>Blumenbach</tei:surname>
+                    </tei:persName>
+                </tei:author>
+                <tei:respStmt>
+                    <tei:resp key="proj">Projektträger</tei:resp>
+                    <tei:orgName resp="proj">
+                        <tei:name>Akademie der Wissenschaften zu Göttingen</tei:name>
+                        <tei:ref target="http://adw-goe.de/"/>
+                    </tei:orgName>
+                </tei:respStmt>
+                <tei:respStmt>
+                    <tei:resp key="enc">Kodiert durch:</tei:resp>
+                    <tei:persName resp="enc">Christopher Hanna Johnson</tei:persName>
+                </tei:respStmt>
+            </tei:titleStmt>
+            <tei:publicationStmt>
+                <tei:publisher/>
+                <tei:idno>jfb_br_1200.xml</tei:idno>
+            </tei:publicationStmt>
+            <tei:notesStmt>
+                <tei:note type="Überlieferung">Oldenburg, Landesmuseum, Nachlass Pape-Tischbein (15.000/615). </tei:note>
+                <tei:note type="Drucke">
+                    <tei:bibl>Alten, Aus Tischbein’s Leben (1872), S. 144–145 (mit Datierung auf 1799).</tei:bibl>
+                </tei:note>
+                <tei:note type="Edition">
+                    <tei:bibl>
+                        <tei:edition>Dougherty, Corresp. V, S. 539–540 Nr. 1358.
+                        </tei:edition>
+                    </tei:bibl>
+                </tei:note>
+                <tei:note type="Werke">
+                    <tei:bibl>
+                        <tei:relatedItem>
+                            <tei:bibl/>
+                        </tei:relatedItem>
+                    </tei:bibl>
+                </tei:note>
+                <tei:note type="Objekte">
+                    <tei:rs type="obj"/>
+                </tei:note>
+                <tei:note type="Anmerkung">
+                    <tei:note/>
+                </tei:note>
+                <tei:note type="ref">
+                    <tei:ref type="pdf" xml:id="ref_d1e42_1200">http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=555</tei:ref>
+                    <tei:rs type="pdf">Corresp. V, S. 539–540 Nr. 1358 </tei:rs>
+                </tei:note>
+            </tei:notesStmt>
+            <tei:sourceDesc>
+                <tei:bibl type="brief"/>
+                <tei:biblFull>
+                    <tei:titleStmt>
+                        <tei:title type="source">&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;title xmlns="http://www.tei-c.org/ns/1.0" type="source"&gt;Blumenbach verspricht Johann Heinrich Wilhelm Tischbein die baldige Redaktion von dessen tierphysiognomischen Ausführungen über Hunderassen und sendet Neujahrsgrüße. &lt;/title&gt;</tei:title>
+                        <tei:author>
+                            <tei:persName>
+                                <forename>Johann Friedrich</forename>
+                                <tei:surname>Blumenbach</tei:surname>
+                            </tei:persName>
+                        </tei:author>
+                    </tei:titleStmt>
+                    <tei:publicationStmt>
+                        <tei:publisher>
+                            <tei:name/>
+                        </tei:publisher>
+                        <tei:pubPlace/>
+                        <tei:date type="publication"/>
+                    </tei:publicationStmt>
+                </tei:biblFull>
+                <tei:msDesc>
+                    <tei:msIdentifier/>
+                    <tei:physDesc>
+                        <tei:typeDesc>
+                            <tei:p/>
+                        </tei:typeDesc>
+                    </tei:physDesc>
+                </tei:msDesc>
+            </tei:sourceDesc>
+        </tei:fileDesc>
+        <tei:profileDesc>
+            <tei:langUsage>
+                <tei:language ident="de-DE"/>
+            </tei:langUsage>
+            <tei:calendarDesc>
+                <tei:calendar style="ISO 8601">
+                    <tei:p>Julian calendar (including proleptic)</tei:p>
+                </tei:calendar>
+                <tei:calendar style="ISO 8601">
+                    <tei:p>Gregorian calendar</tei:p>
+                </tei:calendar>
+            </tei:calendarDesc>
+            <tei:creation>
+                <tei:persName resp="emp">
+                    <forename>Johann Heinrich Wilhelm</forename>
+                    <tei:surname>Tischbein</tei:surname>
+                </tei:persName>
+                <tei:origDate>
+                    <tei:note type="Abfassungsevent">
+                        <tei:listEvent>
+                            <tei:event type="origin" sortKey="1800-12-29" when="1800-12-29" where="#orgplc_1200">
+                                <tei:label>Abfassungsdatum</tei:label>
+                                <tei:note type="Abfassungsdatum">
+                                    <tei:date when="1800-12-29">1800, Dez. 29</tei:date>
+                                </tei:note>
+                            </tei:event>
+                        </tei:listEvent>
+                    </tei:note>
+                </tei:origDate>
+                <tei:placeName type="Abfassungsort" xml:id="orgplc_1200">Göttingen</tei:placeName>
+            </tei:creation>
+            <tei:textClass>
+                <tei:classCode scheme="RegNr" n="01200.00">
+                    <tei:idno>1200</tei:idno>
+                </tei:classCode>
+            </tei:textClass>
+        </tei:profileDesc>
+        <tei:encodingDesc>
+            <tei:projectDesc>
+                <tei:p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</tei:p>
+            </tei:projectDesc>
+        </tei:encodingDesc>
+        <tei:revisionDesc>
+            <tei:change>Erstellungsdatum: 2015-07-06T00:22:48.126+02:00</tei:change>
+        </tei:revisionDesc>
+    </tei:teiHeader>
+    <tei:text>
+        <tei:body>
+            <tei:p/>
+        </tei:body>
+    </tei:text>
+</TEI>

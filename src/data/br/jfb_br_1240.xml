@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach teilt Johann Wolfgang von Goethe seine Identifikationsvorschläge zu verschiedenen Mineralien- und Fossilienfunden mit und nennt Parallelfunde und bittet um leihweise Übersendung eines Stücks Elfenbein mit eingeschlossener Gewehrkugel. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1240.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Weimar, Goethe- und Schiller-Archiv: GSA 28/36, Bl. 374–375.</note>
+                <note type="Drucke">
+                    <bibl>Teildruck: Goethe. Die Schriften zur Naturwissenschaft. Abt. II, Bd. 9b, S. 195; Regest: <emph>Briefe an Goethe. Gesamtausgabe in Regestform 1764–1817</emph>. Herausgegeben von der Klassik Stiftung Weimar Goethe- und Schiller-Archiv (online-Version)<ptr target="ref_d1e125574_01257"/>, Regest Nr. 4/256.</bibl>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1494" xml:id="ref_d1e127195_01257">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/Sammlungskataloge/cod_ms-Blumenbach_1_II_Blumenbach_Handschriften_1794_1800_Katalog%20zur%20Naturgeschichte%20des%20Menschengeschlechts.pdf#page=119</ref>
+                    <rs type="html">Cod. Ms. Blumenbach 1, II, fol. 57r </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1495" xml:id="ref_d1e125574_01257">http://ora-web.swkk.de/swk-db/goeregest/</ref>
+                    <rs type="html">online-Version</rs>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Elfenbein mit eingeschlossener Gewehrkugel. </rs>
+                </note>
+                <note type="Anmerkung">
+                    <note>Blumenbach besaß selbst ein Stück Elfenbein mit eingeschlossener Gewehrkugel (Geschenk der Königin von England, vgl. Blumenbachs hs. Sammlungsverz., Universitätsbibliothek Göttingen Cod. Ms. Blumenbach 1, II, fol. 57r)<ptr target="ref_d1e127195_01257"/>; das Stück aus Goethes Besitz wird zu Vergleichzwecken erbeten.</note>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach teilt Johann Wolfgang von Goethe seine Identifikationsvorschläge zu verschiedenen Mineralien- und Fossilienfunden mit und nennt Parallelfunde und bittet um leihweise Übersendung eines Stücks Elfenbein mit eingeschlossener Gewehrkugel. </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich</forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1802-06-04" when="1802-06-04" where="#orgplc_1240">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1802-06-04">1802, Juni 4</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1240">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01240.00">
+                    <idno>1240</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

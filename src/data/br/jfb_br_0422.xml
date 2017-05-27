@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Andreas Christian Strenge informiert Blumenbach, dass diesem der Preis der St. Petersburger Akademie der Wissenschaften zur Hälfte zuerkannt worden sei, und kündigt an, dass er ihm zum Dank für die Betreuung des Studiums seines Sohnes in Göttingen zwei neu erschienene russische Landkarten schicken werde. </title>
+                <author>
+                    <persName>
+                        <forename>Andreas Christian</forename>
+                        <surname>Strenge</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0422.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach X: b, fol. 4–5. </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> III, S. 190 Nr. 0525.<ptr target="ref_d1e41567_00426"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Werke">
+                    <bibl>
+                        <relatedItem>
+                            <bibl>
+                                <emph>Ueber die Nutritionskraft</emph> (1789; Bibliographie Nr. 00125)<ptr target="ref_d1e41565_00426"/>.</bibl>
+                        </relatedItem>
+                    </bibl>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="278" xml:id="ref_d1e41567_00426">http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=208</ref>
+                    <rs type="pdf">Corresp. III, S. 190 Nr. 0525 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="279" xml:id="ref_d1e41565_00426">./view-work.html?id=00125</ref>
+                    <rs type="html">00125 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Andreas Christian Strenge informiert Blumenbach, dass diesem der Preis der St. Petersburger Akademie der Wissenschaften zur Hälfte zuerkannt worden sei, und kündigt an, dass er ihm zum Dank für die Betreuung des Studiums seines Sohnes in Göttingen zwei neu erschienene russische Landkarten schicken werde. </title>
+                        <author>
+                            <persName>
+                                <forename>Andreas Christian</forename>
+                                <surname>Strenge</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Julian calendar (including proleptic)</p>
+                </calendar>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1788-12-16" when="1788-12-16" where="#orgplc_0422">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1788-12-16">1788, Dez. 16</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                        <listEvent>
+                            <event type="julian-origin" datingMethod="#julian" when="1788-12-05" where="#orgplc_0422">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum (julian):</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1788-12-05">1788, Dez. 16</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0422">St. Petersburg</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0422.00">0426<idno>0422</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

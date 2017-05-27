@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Reisen zur Entdeckung der Quellen des Nils in den Jahren 1768, 1769, 1770, 1771, 1772 und 1773. in fünf Bänden von James Bruce von Kinnaird ins Teutsche übersetzt von J. J. Volkmann D. und mit einer Vorrede und Anmerkungen versehen von Johann Friedrich Blumenbach</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00164.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000164/00164.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">Reisen zur Entdeckung der Quellen des Nils in den Jahren 1768, 1769, 1770, 1771, 1772 und 1773. in fünf Bänden von James Bruce von Kinnaird <gap reason="ellipsis"/>
+                            <metamark>&#160; 
+                                <pc unit="slash"/>
+                            </metamark> ins Teutsche übersetzt von J. J. Volkmann D. und mit einer Vorrede und Anmerkungen versehen von Johann Friedrich Blumenbach <gap reason="ellipsis"/>&#160;
+                        </title>
+                        <imprint>
+                            <publisher>
+                                <name>In der Weidmannschen Buchhandlung</name>
+                            </publisher>
+                            <pubPlace>Leipzig</pubPlace>
+                            <date type="publication" when="1790-01-01">1790-1791</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 ITIN I, 3642 a:1-5">8 ITIN I, 3642 a:1-5</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>5 Bde. (1: XXVIII, 579 S., 12 Bl., [1] gef. Bl. : 15 Ill. (Kupferst.), 1 Kt. (Kupferst.), Kt.; 2: VIII, 710 S.; 3: VI, 757 S., 3 Bl., [1] gef. Bl. : 3 Ill. (Kupferst.), 1 Kt. (Kupferst.); 4: VI, 734 S, 3 Bl. : 3 Ill. (Kupferst.); 5: [2] Bl., 384 S, 46 gef. Bl. : 46 Ill. (Kupferst.))<dimensions>
+                                        <dim>22 cm (8°)</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00164.00">00164</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.1</idno>Vorreden in Werken anderer Autoren</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00164">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e15039_00164">
+                <span type="note">Enthält Blumenbachs „Vorrede zu dieser teutschen Ausgabe“ (1. Bd., S. III-XXIII) und „Anmerkungen zu James Bruce’s Reisen“ (5. Bd., S. 233-292)</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Titelvignetten und Tafeln aller Bde. gestochen von Gustav Georg Endner, Karten von Georg Friedrich Jonas Frentzel&#160;</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Vorlage für die Übersetzung ist</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Travels to discover the source of the Nile, in the years 1768, 1769, 1770, 1771, 1772, and 1773 : in five volumes <metamark>
+                        <pc unit="slash"/>
+                    </metamark> by James Bruce of Kinnaird, Esq. F. R. S</span>
+                <span type="pubPlace">Edinburgh</span>
+                <span type="publisher">Printed by J. Ruthven, for G. G. J. and J. Robinson, Paternoster-Row, London</span>
+                <span type="date">1790</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="repository">SUB Göttingen</span>
+                <span type="idno" n="4 ITIN I, 3642:1-5; GR 2 ITIN I, 3642:Taf.">4 ITIN I, 3642:1-5; GR 2 ITIN I, 3642:Taf</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Bd. 5 rezensiert von Blumenbach in</span>
+                <span type="title" style="j">GAgS</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1790 (117. Stück, 24. Juli)</span>
+                <span type="citedRange">S. 1169-1173; „Edinburgh“</span>
+                <span type="reference">00334</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="msDesc">Bd. 1: Tafel 9 und 10 fehlen, Karte beschädigt</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

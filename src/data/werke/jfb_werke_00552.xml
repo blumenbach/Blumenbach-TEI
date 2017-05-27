@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: London</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00552.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000552/00552.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: London</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Göttingische gelehrte Anzeigen [GgA]</title>
+                        <imprint>
+                            <publisher>
+                                <name>Vandenhoeck &amp; Ruprecht</name>
+                            </publisher>
+                            <pubPlace>Göttingen</pubPlace>
+                            <date type="publication" when="1814-03-17">1814, 17. März</date>
+                        </imprint>
+                        <biblScope>1814 (44. u. 45. Stück, 17. März)</biblScope>
+                    </monogr>
+                    <citedRange>S. 433-439</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 EPH LIT 1607">8 EPH LIT 160/7</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00552.00">00552</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3</idno>Publikationsorgane der Königlichen Gesellschaft der Wissenschaften zu Göttingen</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3.2.2</idno>Göttingische gelehrte Anzeigen</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00552">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e44739_00552">
+                <span type="note">Rezension der „zur Arzneywissenschaft und Naturgeschichte gehörigen Abhandlungen“ in</span>
+                <span type="title" style="j">Philosophical transactions of the Royal Society of London: giving some accounts of the present undertakings, studies, and labours, of the ingenious, in many considerable parts of the world, <gap reason="ellipsis"/>
+                </span>
+                <span type="biblScope">for the Year 1811</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">for the Year 1812</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="repository">SUB Göttingen</span>
+                <span type="idno" n="4 PHYS MATH V, 150">4 PHYS MATH V, 150</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">
+                    <lb/>Enthält für 1811: „Brodie […] vom Einfluß des Hirns auf die Bewegung des Herzens und auf die Erzeugung der thierischen Wärme“; „Parry der ältere zu Bath […] von einer Nervenkrankheit, die durch äußern Druck auf die Carotiden gehoben worden“; „Home’s Versuche zumahl an Hunden […] zum Erweise, das Flüssigkeiten geraden Wegs aus dem Magen in den Blutumlauf, und von da in die Zellen der Milz, in die Gallen und Harnblase gelangen, ohne durch die Milchsaftsröhre zu gehen“; „Brodie[s] Versuche und Beobachtungen über die verschiedene Weise wie gewisse vegetabilische Gifte den Tod verursachen“; „T. A. Knight […] über die Ursachen, wodurch die Richtung beym Wachsthum der Pflanzenwurzeln bestimmt wird“; „Jac. Macartney über das bleibende kleine Anhängsel (diverticulum) am dünnen Darme von Vögeln“</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">
+                    <lb/>Enthält für 1812: Wollaston „berichtigt […] die Bestimmung der bisher für gleichwinklich gehaltenen primitiven Rhomboeder des Kaltspaths, Bitterspaths und Spatheisensteins“; „Home über den Antheil, welchen die Bewegung der Rippen am Kriechen der Schlangen hat“; „Brodie[s] fernere Versuche über die Wirkungsart von Giften auf den thierischen Organismus“; „Knight über die Bewegung der Gabeln und Ranken an Pflanzen“; „Brodies […] Versuche und Beobachtungen zum evidenten Erweise des Einflusses, welchen das Hirn auf die Erzeugung der thierischen Wärme hat“; „Home über den verschiedenen Bau und Lage der zur Auflösung des Futters bestimmten Drüsen […] in den Verdauungswerkzeugen der Vögel“</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="biblScope">
+                    <lb/>Abhandlungen 1811: Benjamin Collins Brodie, „The Croonian Lecture: On Some Physiological Researches, Respecting the Influence of the Brain on the Action of the Heart, and on the Generation of Animal Heat“, S. 36-48; Caleb Hillier Parry, „On a Case of Nervous Affection Cured by Pressure of the Carotids; With Some Physiological Remarks“, S. 89-95; Everard Home, „Experiments to Prove That Fluids Pass Directly from the Stomach to the Circulation of the Blood, and from Thence into the Cells of the Spleen, the Gall Bladder, and Urinary Bladder, without Going Through the Thoracic Duct“, S. 163-170; Benjamin Collins Brodie, „Experiments and Observations on the Different Modes in Which Death is Produced by Certain Vegetable Poisons“, S. 178-208; Thomas Andrew Knight, „On the Causes Which Influence the Direction of the Growth of Roots“, S. 209-219; James Macartney, „An Account of an Appendix to the Small Intestines of Birds“</span>
+                <span type="citedRange">S. 257-260</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="biblScope">
+                    <lb/>Abhandlungen 1812: William Hyde Wollaston, „On the Primitive Crystals of Carbonate of Lime, Bitter-Spar, and Iron-Spar“, S. 159-162; Everard Home, „Observations Intended to Show That the Progressive Motion of Snakes is Partly Performed by means of the Ribs“, S. 163-168; Benjamin Collins Brodie, „Further Experiments and Observations on the Action of Poisons on the Animal System“, S. 205-227; Thomas Andrew Knight, „On the Motions of the Tendrils of Plants“, S. 314-320; Benjamin Collins Brodie, „Further Experiments and Observations on the Influence of the Brain on the Generation of Animal Heat“, S. 378-393; Everard Home, „On the Different Structures and Situations of the Solvent Glands in the Digestive Organs of Birds, according to the Nature of Their Food and Particular Modes of Life“</span>
+                <span type="citedRange">S. 394-404</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

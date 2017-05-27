@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page.html" data-template-at="main">
+    <script type="text/javascript" src="resources/scripts/objekte-list.js"/>
+    <div data-template="templates:include" data-template-path="templates/search-form-werke.html"/>
+    <div class="col-md-12 col-xs-12">
+        <div id="content" class="row">
+            <h2>Objekt Fundort</h2>
+            <table id="objekte-list" class="display">
+                <thead>
+                    <tr>
+                        <th class="col-sm-1">A3, Inventar-Nummer</th>
+                        <th class="col-sm-1">TGN prefLabel</th>
+                        <th class="col-sm-3">A13a, Fundort</th>
+                    </tr>
+                </thead>
+                <tbody data-template="sammlung-list:objekte-places"/>
+            </table>
+        </div>
+    </div>
+</div>

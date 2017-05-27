@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: Ueberbleibsel einer 21jährigen Leibesfrucht</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_01071.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/MedBiblI1-Murray/MedBiblI1-Murray.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: Ueberbleibsel einer 21jährigen Leibesfrucht</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Medicinische Bibliothek <metamark>
+                                <pc unit="slash"/>
+                            </metamark> hrsg. von Joh. Friedr. Blumenbach</title>
+                        <imprint>
+                            <publisher>
+                                <name>Dieterich</name>
+                            </publisher>
+                            <pubPlace>Göttingen</pubPlace>
+                            <date type="publication" when="1783-01-01">1783</date>
+                        </imprint>
+                        <biblScope>Bd. 1, 1. Stück (1783)</biblScope>
+                    </monogr>
+                    <citedRange>S. 152-155</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 MED EPH 142">8 MED EPH 142</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00940.01">04018</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4.29</idno>Medicinische Bibliothek</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="01071">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e80420_01071">
+                <span type="note">Forschungsnotiz über „die merkwürdigen Ueberbleibsel einer zerstörten Leibesfrucht […], die ein und zwanzig Jahre lang in einer sogenannten Honiggeschwulst (Meliceris) […] getragen wurde“ in der Kunstkammer in Gotha</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">
+                    <lb/>Die Forschungsnotiz ist Teil des Beitrages (S. 151-155) mit dem Titel „XXIV. Ad actum inauguralem quo aliquot medicinae Licentiati summis in medicina honoribus sunt condecorandi, invitat Adolph. Murray M.D. Anat. et Chir. Prof. R. et O. Upsal. 1780. fol“,</span>
+                <span type="note">einer anonymen Rezension von</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Ad actum inauguralem, quo clarissimi aliquot medicinæ licentiati summis im medicina honoribus sunt condecorandi, magnos hospites, litterarum patronos, patres, civesque academicos et urbicos reverenter et officiose invitat Adolphus Murray … legitime constitutus promotor. Upsaliæ, apud Iohann. Edman, directorem et regiæ Academiæ typographum, [1780]</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Die Forschungsnotiz hat keinen eigenen Titel, ist jedoch durch drei Sterne von der Rez. getrennt. Außerdem wechselt die Kopfzeile zu „Ueberbleibsel einer 21jährigen Leibesfrucht“, und im Inhaltsverzeichnis des Stückes (S. 182) wird unterhalb der Überschrift der Rezension die Kopfzeile mit eigener Seitenangabe wiederholt</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Blumenbach bezeichnet sich in einem Brief vom 10. März 1783 an Pieter Camper (Dougherty,</span>
+                <span type="title" style="j">Correspondence</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 2</span>
+                <span type="citedRange">S. 22-24 Brief Nr. 238) als Verfasser der Forschungsnotiz</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

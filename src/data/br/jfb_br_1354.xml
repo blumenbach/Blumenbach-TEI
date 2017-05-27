@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach berichtet der Physikalisch-Medicinische Societät zu Erlangen u. a. über eine Untersuchung am Kopf eines durch Enthauptung Exekutierten und über seine Arbeit an geplanten Neuausgaben seiner Institutiones physiologicae, seines Handbuchs der Naturgeschichte und seiner Schrift De generis humani varietate. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1354.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Drucke">
+                    <bibl>Auszug in <emph>Abhandlungen der Physikalisch-Medicinischen Societät zu Erlangen</emph>, Bd. 1 (1810), S. 471–472 („Prolapsus oculorum. Aus einem Schreiben des Herrn Hofrath und Professor Blumenbach“, Bibliographie Nr. 00757).<ptr target="ref_d1e138850_01371"/>
+                    </bibl>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Werke">
+                    <bibl>
+                        <relatedItem>
+                            <bibl>
+                                <emph>Institutiones physiologicae</emph>, 3. Ausgabe (1810; Bibliographie Nr. 00067)<ptr target="ref_d1e138849_01371"/>;
+                                    <emph>Handbuch der Naturgeschichte</emph>, 9. Ausgabe (1814; Bibliographie Nr. 00031)<ptr target="ref_d1e138850_01371"/>; Brieftext verwendet in Bibliographie Nr. 00757<ptr target="ref_d1e138851_01371"/> (siehe „Dr.“). </bibl>
+                        </relatedItem>
+                    </bibl>
+                    <title level="m" type="bibl">Institutiones physiologicae</title>
+                    <title level="m" type="bibl">Handbuch der Naturgeschichte</title>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1639" xml:id="ref_d1e138849_01371">./view-work.html?id=00067</ref>
+                    <rs type="html">00067 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1640" xml:id="ref_d1e138850_01371">./view-work.html?id=00031</ref>
+                    <rs type="html">00031 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1641" xml:id="ref_d1e138851_01371">./view-work.html?id=00757</ref>
+                    <rs type="html">00757 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach berichtet der Physikalisch-Medicinische Societät zu Erlangen u. a. über eine Untersuchung am Kopf eines durch Enthauptung Exekutierten und über seine Arbeit an geplanten Neuausgaben seiner <emph>Institutiones physiologicae</emph>, seines <emph>Handbuchs der Naturgeschichte</emph> und seiner Schrift <emph>De generis humani varietate</emph>. </title>
+                        <title level="m" type="bibl">Institutiones physiologicae</title>
+                        <title level="m" type="bibl">Handbuchs der Naturgeschichte</title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich</forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">Physikalisch-Medicinische Societät zu Erlangen </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1808-11-23" when="1808-11-23" where="#orgplc_1354">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1808-11-23">1808, Nov. 23</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1354">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01354.00">
+                    <idno>1354</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

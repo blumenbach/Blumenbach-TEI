@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Georg Thomas von Asch sendet Blumenbach menschliche Schädel, u. a. aus Sibirien, und einige Mineralien. </title>
+                <author>
+                    <persName>
+                        <forename>Georg Thomas von</forename>
+                        <surname>Asch</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0372.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach III, fol. 8. </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> III, S. 114 Nr. 0467.<ptr target="ref_d1e36493_00376"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Werke">
+                    <bibl>
+                        <relatedItem>
+                            <bibl>
+                                <emph>Introductio in historiam medicinae litterariam</emph> (1786; Bibliographie Nr. 00142).<ptr target="ref_d1e36492_00376"/>
+                            </bibl>
+                        </relatedItem>
+                    </bibl>
+                    <title level="m" type="bibl">Introductio in historiam medicinae litterariam</title>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="213" xml:id="ref_d1e36492_00376">./view-work.html?id=00142</ref>
+                    <rs type="html">00142 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="214" xml:id="ref_d1e36491_00376">./view-work.html?id=00092</ref>
+                    <rs type="html">00092 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="215" xml:id="ref_d1e36493_00376">http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=132</ref>
+                    <rs type="pdf">Corresp. III, S. 114 Nr. 0467 </rs>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">(Unvollständige) Schädel eines Kalmücken (d. h. einer der Kalmücken-Schädel, Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 567 oder 568; Abbildung von Nr. 567 in Decas craniorum 1 (1790), Tafel 5; Bibliographie Nr. 00092)<ptr target="ref_d1e36491_00376"/> und eines Tschuwaschen (Göttingen, Inst. f. Anatomie, Schädelsammlung Nr. 584).</rs>
+                </note>
+                <note type="Anmerkung">
+                    <note>Angaben zu den Schädeln Nr. 567 und 568 auch Blumenbachs hs. Verzeichnis seiner Schädelsammlung, Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach 1, I, fol. 6, zu Nr. 584 fol. 4.</note>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Georg Thomas von Asch sendet Blumenbach menschliche Schädel, u. a. aus Sibirien, und einige Mineralien. </title>
+                        <author>
+                            <persName>
+                                <forename>Georg Thomas von</forename>
+                                <surname>Asch</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Julian calendar (including proleptic)</p>
+                </calendar>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1787-06-30" when="1787-06-30" where="#orgplc_0372">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1787-06-30">1787, Juni 30</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                        <listEvent>
+                            <event type="julian-origin" datingMethod="#julian" when="1787-06-19" where="#orgplc_0372">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum (julian):</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1787-06-19">1787, Juni 30</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0372">St. Petersburg</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0372.00">0376<idno>0372</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

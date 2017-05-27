@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: Aus einem Schreiben Blumenbach’s aus Göttingen vom 5.April 1810</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00977.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000977/00977.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: Aus einem Schreiben Blumenbach’s aus Göttingen vom 5. April 1810</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Neue Jarbücher der Berg- und Hüttenkunde <metamark>
+                                <pc unit="slash"/>
+                            </metamark> hrsg. von Carl Erenbert Freiherrn von Moll</title>
+                        <imprint>
+                            <publisher>
+                                <name>Stein</name>
+                            </publisher>
+                            <pubPlace>Nürnberg</pubPlace>
+                            <date type="publication" when="1811-01-01">1811</date>
+                        </imprint>
+                        <biblScope>Bd. 2 (1. u. 2. Lieferung, 1811)</biblScope>
+                    </monogr>
+                    <citedRange>S. 276-277</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 MET 245">8 MET 245</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00977.00">00977</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4.34</idno>Neue Jarbücher der Berg- und Hüttenkunde</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00977">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e73080_00977">
+                <span type="note">Forschungsnotiz zu „Dendrachate“, „Mocchasteine“, „Achat“, „Türkise aus Nischabur in Ostpersien“</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Die ersten beiden Absätze finden sich überwiegend wortgleich in Blumenbachs Artikel in</span>
+                <span type="title" style="j">GgA</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1813 (207. Stück, 27. Dezember)</span>
+                <span type="citedRange">S. 2065-2068; „Göttingen“</span>
+                <span type="reference">00551</span>
+                <span type="note">auf</span>
+                <span type="note">S. 2068</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Übersetzte, bearbeitete Version in</span>
+                <span type="title" style="j">Annals of philosophy</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1813, Bd. 1 (Nr. 3., March)</span>
+                <span type="citedRange">S. 217</span>
+                <span type="note">als „I. Vegetables found in some species of minerals“</span>
+                <span type="reference">00778</span>
+                <span type="note">und „II. Turquois“</span>
+                <span type="reference">00779</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Bearbeitete Version des letzen Absatzes über „Türkise aus Nischabur“ in</span>
+                <span type="title" style="j">Taschenbuch für die gesammte Mineralogie mit Hinsicht auf die neuesten Entdeckungen</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">6. Jg. (1812)</span>
+                <span type="citedRange">S. 266</span>
+                <span type="reference">00995</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

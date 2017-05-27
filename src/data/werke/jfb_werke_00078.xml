@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">*The institutions of physiology</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00078.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000078/00078.pdf</ref>
+                </note>
+                <note type="ref">
+                    <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000078/000078.html</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">*The institutions of physiology <metamark>
+                                <pc unit="slash"/>
+                            </metamark>
+                        </title>
+                        <title level="m" type="sub">by J. Fred. Blumenbach, <gap reason="ellipsis"/>
+                            <metamark>
+                                <pc unit="semicolon"/>
+                            </metamark>
+                        </title>
+                        <title level="m" type="ed">translated from the Latin of the third and last edition, and supplied with copious notes, by John Elliotson, <gap reason="ellipsis"/>
+                        </title>
+                        <edition>Third ed., considerably improved <gap reason="ellipsis"/>
+                        </edition>
+                        <imprint>
+                            <publisher>
+                                <name>
+                                    <hi rend="green-md">Printed for Burgess and Hill</hi>
+                                </name>
+                            </publisher>
+                            <pubPlace>London <hi rend="green-md">[etc.]</hi>
+                            </pubPlace>
+                            <date type="publication" when="1820-01-01">1820</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Oxford, Radcliffe Science Library</repository>
+                        <idno n="1662 e.29/1 (Box B000000205630)">1662 e.29/1 (Box B000000205630)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>XVI, 465 S.<dimensions>
+                                        <dim>21 cm (8°)</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc>no autopsy</desc>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00078.00">00078</classCode>
+                <classCode scheme="cat">
+                    <idno>I</idno>Selbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>I.5</idno>Institutiones Physiologicae</classCode>
+                <classCode scheme="cat">
+                    <idno>I.5.2</idno>Übersetzungen</classCode>
+                <classCode scheme="cat">
+                    <idno>I.5.2.2</idno>English</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00078">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Weitere Exemplare dieser Auflage wurden in London bei Burgess &amp; Hill; [etc., etc.], 1820 gedruckt (Cambridge University Library: MB.39.16)</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e6943_00078">
+                <span type="note">Rezensiert von Blumenbach in</span>
+                <span type="title" style="j">GgA</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1820 (205. Stück, 23. Dezember)</span>
+                <span type="citedRange">S. 2043-2044; „London“</span>
+                <span type="reference">00599</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">John Elliotsons Übersetzung der 4. Ausgabe (</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">D. Jo. Frid. Blumenbachii institutiones physiologicae</span>
+                <span type="edition">Editio quarta auctior et emendatior</span>
+                <span type="pubPlace">Gottingae</span>
+                <span type="publisher">Apud Henr. Dieterich</span>
+                <span type="date">MDCCCXXI</span>
+                <span type="reference">00068</span>
+                <span type="note">) erschien 1828 unter dem Titel</span>
+                <span type="title" style="j">The elements of physiology</span>
+                <span type="reference">00079</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Friedrich Carl Ludwig Sickler sendet Blumenbach seine Publikation über die in der Nähe von Hildburghausen gefundenen versteinerten Tierfährten. </title>
+                <author>
+                    <persName>
+                        <forename>Friedrich Carl Ludwig </forename>
+                        <surname>Sickler</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1620.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung"/>
+                <note type="Drucke">
+                    <bibl>Sickler, F. K. L.: <emph>Sendschreiben an […] J. F. Blumenbach über die höchst merkwürdigen, vor einigen Monaten erst entdeckten Reliefs der Fährten urweltlicher, grosser und unbekannter Thiere in den Hessberger Sandsteinbrüchen bei der Stadt Hildburghausen</emph>. Hildburghausen 1834, S. 3.</bibl>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Sandsteinplatte aus Hildburghausen mit Fährten von Tieren (wird als von Blumenbach bestellt und durch Sickler bereits nach Göttingen versandt erwähnt).</rs>
+                </note>
+                <note type="Anmerkung">
+                    <note>Wohl authentischer Begleitbrief, enthalten in der gedruckten Fassung der als „Sendschreiben“ bezeichneten wiss. Beschreibung der Spurenfunde. </note>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Friedrich Carl Ludwig Sickler sendet Blumenbach seine Publikation über die in der Nähe von Hildburghausen gefundenen versteinerten Tierfährten. </title>
+                        <author>
+                            <persName>
+                                <forename>Friedrich Carl Ludwig </forename>
+                                <surname>Sickler</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1834-12-31" when="1834-12-31" where="#orgplc_1620">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1834-12-31">1834</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1620">Hildburghausen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01620.00">
+                    <idno>1620</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

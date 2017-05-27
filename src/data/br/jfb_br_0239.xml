@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach sendet Christian Gottlob Heyne den Text einer Rezension von Samuel Thomas Soemmerrings Über die körperliche Verschiedenheit des Mohren vom Europäer (1784) für die Göttingischen Anzeigen von gelehrten Sachen und schlägt einen günstigen Veröffentlichungszeitpunkt vor. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich </forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0239.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Göttingen, Akademie der Wissenschaften, Archiv, Scient. 47, 3 Nr. 900. </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> II, S. 236 Nr. 0330.</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Werke">
+                    <bibl>
+                        <relatedItem>
+                            <bibl>Rezension von Samuel Thomas Soemmerring, <emph>Über die körperliche Verschiedenheit des Mohren vom Europäer</emph> (1784) in <emph>GAgS</emph> 1785 (12. Stück, 22. Februar), S. 108–111 (Bibliographie Nr. 00266).<ptr target="ref_d1e22398_00243"/>
+                            </bibl>
+                        </relatedItem>
+                    </bibl>
+                    <title level="m" type="bibl">Über die körperliche Verschiedenheit des Mohren vom Europäer</title>
+                    <title level="m" type="bibl">GAgS</title>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="86" xml:id="ref_d1e22398_00243">./view-work.html?id=00266</ref>
+                    <rs type="html">00266 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach sendet Christian Gottlob Heyne den Text einer Rezension von Samuel Thomas Soemmerrings <emph>Über die körperliche Verschiedenheit des Mohren vom Europäer</emph> (1784) für die <emph>Göttingischen Anzeigen von gelehrten Sachen</emph> und schlägt einen günstigen Veröffentlichungszeitpunkt vor. </title>
+                        <title level="m" type="bibl">Über die körperliche Verschiedenheit des Mohren vom Europäer</title>
+                        <title level="m" type="bibl">Göttingischen Anzeigen von gelehrten Sachen</title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich </forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Christian Gottlob </forename>
+                    <surname>Heyne</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1785-01-16" when="1785-01-16" where="#orgplc_0239">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1785-01-16">1785, Jan. 16</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0239">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0239.00">0243<idno>0239</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

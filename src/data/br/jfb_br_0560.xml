@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Alexander von Humboldt kündigt Blumenbach seinen Studienaufenthalt an der Bergakademie in Freiberg an, sendet Granitproben von der Insel Guernsey, durch die die Zusammengehörigkeit der geologischen Strukturen beiderseits des Ärmelkanals belegt werde, und fragt für einen seiner Korrespondenten nach einer anderen Granitprobe. </title>
+                <author>
+                    <persName>
+                        <forename>Alexander von</forename>
+                        <surname>Humboldt</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0560.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Hannover, Blumenbach Familienarchiv, Vol. 3 (Alexander von Humboldt Nr. 6). </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> IV, S. 42 Nr. 0666.<ptr target="ref_d1e56170_00565"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="486" xml:id="ref_d1e56170_00565">http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=54</ref>
+                    <rs type="pdf">Corresp. IV, S. 42 Nr. 0666 </rs>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Granitproben von der Insel Guernsey (Geschenk Alexander von Humboldts).</rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Alexander von Humboldt kündigt Blumenbach seinen Studienaufenthalt an der Bergakademie in Freiberg an, sendet Granitproben von der Insel Guernsey, durch die die Zusammengehörigkeit der geologischen Strukturen beiderseits des Ärmelkanals belegt werde, und fragt für einen seiner Korrespondenten nach einer anderen Granitprobe. </title>
+                        <author>
+                            <persName>
+                                <forename>Alexander von</forename>
+                                <surname>Humboldt</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1791-04-10" when="1791-04-10" where="#orgplc_0560">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1791-04-10">1791, Apr. 10</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0560">Hamburg</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0560.00">0565<idno>0560</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

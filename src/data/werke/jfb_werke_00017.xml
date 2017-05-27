@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">De l’unité du genre humain, et de ses variétés : ouvrage précédé d’une lettre à Joseph Banks</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00017.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000017/00017.pdf</ref>
+                </note>
+                <note type="ref">
+                    <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000017/000017.html</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">De l’unité du genre humain, et de ses variétés : ouvrage précédé d’une lettre à Joseph Banks, <gap reason="ellipsis"/>&#160;
+                            <metamark>
+                                <pc unit="slash"/>
+                            </metamark>
+                        </title>
+                        <title level="m" type="sub">Par Fred. Blumenbach, <gap reason="ellipsis"/>
+                        </title>
+                        <title level="m" type="ed">Traduit du Latin sur la troisième édition, par Fréd. Chardel, <gap reason="ellipsis"/>
+                        </title>
+                        <editor role="translator">
+                            <persName ref="http://viaf.org/viaf">Fréd. Chardel</persName>
+                        </editor>
+                        <imprint>
+                            <publisher>
+                                <name>Chez Allut</name>
+                            </publisher>
+                            <pubPlace>Paris</pubPlace>
+                            <date type="publication" when="1806-01-01">1806</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 ZOOL XI, 992">8 ZOOL XI, 992</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>[2] Bl., 321 S., [1] Bl., [1] gef. Bl. : 1 Ill. (Kupferst.)<dimensions>
+                                        <dim>21 cm (8°)</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr-FR"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation type="translation"/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00017.00">00017</classCode>
+                <classCode scheme="cat">
+                    <idno>I</idno>Selbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>I.1</idno>De Generis Humani Varietate</classCode>
+                <classCode scheme="cat">
+                    <idno>I.1.2</idno>Übersetzungen</classCode>
+                <classCode scheme="cat">
+                    <idno>I.1.2.3</idno>Französisch</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00017">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" style="n" xml:id="biblStruct_d1e1778_00017">
+                <span type="note">Auszüge hieraus, angefertigt und durch Paraphrasen des Originaltexts verbunden von</span>
+                <span type="persName">Henri Augustin Le Pileur<metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="note">in</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Mélanges d’histoire, de litterature, de géographie, de morale, &amp;c. Par H. A. L. P.</span>
+                <span type="note">
+                    <metamark>
+                        <pc unit="bind"/>
+                    </metamark>Á Leide, chez la veuve M. Cyfveer, J. Z</span>
+                <span type="pubPlace">À Paris</span>
+                <span type="publisher">chez Th. Barrois et Tourneisen, fils.</span>
+                <span type="date">MDCCCVIII - MDCCCIX
+                </span>
+                <span type="extent">3 Bde. (1: X, [104] S., 272 S., 1 gef. Bl. : 2 Ill. (Tabellen) ; 2: 414 S.; 3: 423 S.), Bd. 1, S. 225-269</span>
+                <span type="reference">03004</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

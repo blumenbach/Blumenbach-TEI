@@ -1,0 +1,206 @@
+body {
+    color: rgb(0, 0, 0); 
+    background-color: rgb(245, 245, 245);
+}
+
+.restxq {
+    color: rgb(0, 0, 0); 
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  font-family: Arial,sans-serif;
+  font-weight: normal;
+  font-size: x-large;
+  margin-bottom: 14pt;
+}
+h2 {
+  font-family: Arial,sans-serif;
+  font-weight: normal;
+  font-size: large;
+  margin-bottom: 12pt;
+}
+h3 {
+  font-family: Arial,sans-serif;
+  font-weight: normal;
+  font-size: medium;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+h4 {
+  font-family: Arial,sans-serif;
+  font-weight: normal;
+  font-size: medium;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 15pt;
+}
+h5 {
+  font-family: Arial,sans-serif;
+  font-weight: normal;
+  font-size: medium;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 30pt;
+}
+h6 {
+  font-family: Arial,sans-serif;
+  font-weight: normal;
+  font-size: medium;
+  margin-bottom: 1em;
+  margin-top: 0;
+  padding-left: 15pt;
+}
+h7 {
+  font-family: Arial,sans-serif;
+  font-weight: normal;
+  font-size: medium;
+  margin-bottom: 1em;
+  margin-top: 0;
+  padding-left: 30pt;
+}
+p {
+  font-family: Arial,sans-serif;
+  font-size: medium;
+  margin-bottom: 10pt;
+  margin-top: 0;
+}
+
+.brief {
+    width: 1024px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.data {
+    width: 100%;
+    vertical-align: top;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td {
+    font-family: Arial,sans-serif;
+    font-size: small; 
+    vertical-align: top; 
+    text-align: left;
+    padding: 0;    
+}
+
+th {
+    height: 0;
+    padding: 0;
+}
+
+thead {
+    height: 0;   
+}
+
+.RegNr {
+  font-family: Arial,sans-serif;
+  font-size: medium;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #000099; font-weight: bold;
+}
+.Briefinhalt {
+  font-family: Arial,sans-serif;
+  font-size: medium;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: bold;
+}
+.Eckdaten {
+  font-family: Arial,sans-serif;
+  font-size: medium;
+  margin-top: 0;
+}
+.Rubriken {
+  font-family: Arial,sans-serif;
+  font-size: small;  color: #993200; line-height: 1.25em;
+}
+.Lit_in_Zusatzdaten {
+  font-family: Arial,sans-serif;
+  font-size: small;  font-style: italic;
+  line-height: 1.25em;
+}.ZusatzDaten {
+  font-family: Arial,sans-serif;
+  font-size: small;
+  line-height: 1.25em;
+}
+.AlternatDatum {
+  font-family: Arial,sans-serif;
+  font-size: xx-small;
+}
+i {
+  font-style: italic;
+}
+b {
+  font-weight: bold;
+}
+hoch {
+  vertical-align: top;
+  font-size: 0.8em;
+}
+div.banner {
+  margin: 0;
+  font-size: 80%;
+  font-weight: normal;
+  line-height: 1.25;
+  text-align: center;
+  position: fixed;
+  bottom: 0.5em;
+  left: 1em;
+  width: 11em;
+  right: 1em;
+}
+div.banner p {
+  border: thin outset #4A5785;
+  margin: 0;
+  padding: 0.3em 0.4em;
+  background: #4A5785 none repeat scroll 0;
+  font-family: Arial,sans-serif;
+  color: white;
+}
+div.banner a, div.banner em {
+  display: inline;
+}
+div.banner a, div.banner em {
+  border-top: 0;
+}
+div.banner a:first-child {
+  border-top: medium none;
+}
+div.banner em {
+  color: #ccffcc;
+}
+div.banner a:link {
+  text-decoration: none;
+  color: white;
+}
+div.banner a:visited {
+  text-decoration: none;
+  color: #cccccc;
+}
+div.banner a:hover {
+  background: black none repeat scroll 0;
+  color: white;
+}
+
+a {
+	color: #000099;
+	text-decoration: none;
+}
+
+img {
+  width: 10px;
+  height: 11px;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+}

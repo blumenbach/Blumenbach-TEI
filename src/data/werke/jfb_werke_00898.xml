@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: 2. Naturhistorische Bemerkungen aus Fr. Hornemann’s Reise von Aegypten nach dem Königreich Feßan im Innern von Afrika. *) [mitgetheilt vom Hrn. Hofr. Blumenbach]</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00898.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000898/00898.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: 2. Naturhistorische Bemerkungen aus Fr. Hornemann’s Reise von Aegypten nach dem Königreich Feßan im Innern von Afrika. *) [mitgetheilt vom Hrn. Hofr. Blumenbach]</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Magazin für den neuesten Zustand der Naturkunde, mit Rücksicht auf die dazu gehörigen Hülfswissenschaften <metamark>
+                                <pc unit="slash"/>
+                            </metamark> hrsg. von Johann Heinrich Voigt</title>
+                        <imprint>
+                            <publisher>
+                                <name>Verl. des Landes-Industrie-Comptoirs</name>
+                            </publisher>
+                            <pubPlace>Weimar</pubPlace>
+                            <date type="publication" when="1802-01-01">1802</date>
+                        </imprint>
+                        <biblScope>Bd. 4, 5. Stück (1802)</biblScope>
+                    </monogr>
+                    <citedRange>S. 662-670</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 PHYS MATH II, 2355">8 PHYS MATH II, 2355</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00898.00">00898</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4.26</idno>Magazin für den neuesten Zustand der Naturkunde</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00898">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e68114_00898">
+                <span type="note">Enthält Auszüge aus</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Friedrich Hornemanns Tagebuch seiner Reise von Cairo nach Murzuck, der Hauptstadt des Königreichs Fessan in Afrika in den Jahren 1797 und 1798 <metamark>
+                        <pc unit="slash"/>
+                    </metamark> aus d. Teutschen Hs. desselben hrsg. von Carl König</span>
+                <span type="pubPlace">Weimar</span>
+                <span type="publisher">Verl. d. Landes-Industrie-Comptoirs</span>
+                <span type="date">1802</span>
+                <span type="extent">XXX, 240 S. : Kt. ; 8°</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="repository">SUB Göttingen</span>
+                <span type="idno" n="8 ITIN I, 5343:7 GR 2 ITIN I, 5343:7">8 ITIN I, 5343:7</span>
+                <span type="idno" n="8 ITIN I, 5343:7 GR 2 ITIN I, 5343:7">GR 2 ITIN I, 5343:7</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Siehe auch Blumenbachs Rezension in</span>
+                <span type="title" style="j">GgA</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1802 (169. Stück, 23. Oktober)</span>
+                <span type="citedRange">S. 1687-1688; „Weimar“</span>
+                <span type="reference">00444</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

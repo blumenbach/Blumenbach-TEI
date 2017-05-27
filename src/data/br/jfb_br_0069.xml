@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Georg Thomas von Asch dankt Christian Gottlob Heyne für eine Zusendung, schickt seinerseits dem Academischen Museum der Universität Göttingen verschiedene Objekte und erkundigt sich nach dem Eintreffen einer früheren Sendung für das Museum. </title>
+                <author>
+                    <persName>
+                        <forename>Georg Thomas von </forename>
+                        <surname>Asch</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0069.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Göttingen, Universitätsbibliothek, 2 Cod. Ms. Asch I: 1 (1772/1779), S. 124–125. </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> I, S. 171 Nr. 0105.</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">„eine kupferne vergoldte Vorstellung des Dschak-dschim-muni [Buddha; mit Szepter in der linken Hand] und einige andere Sachen nebst Verzeichnis“ (Verzeichnis siehe: Universitätsarchiv, Kur. 7343, S. 51, und insgesamt 46–67); „16 Münzen“; „schöne Stufen von Sibirischen Mineralien“, Bücher, russ. Kupferstiche; „Falls unter den Mineralien sich noch eines mit No. 61 befindet so ist solches: Eisenstein mit angeflogenem Kupfergrün“.</rs>
+                </note>
+                <note type="Anmerkung">
+                    <note>Brief an Chr. G. Heyne; wegen der darin genannten Sammlungsobjekte in die Regesten aufgenommen. </note>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Georg Thomas von Asch dankt Christian Gottlob Heyne für eine Zusendung, schickt seinerseits dem Academischen Museum der Universität Göttingen verschiedene Objekte und erkundigt sich nach dem Eintreffen einer früheren Sendung für das Museum. </title>
+                        <author>
+                            <persName>
+                                <forename>Georg Thomas von </forename>
+                                <surname>Asch</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Julian calendar (including proleptic)</p>
+                </calendar>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Christian Gottlob </forename>
+                    <surname>Heyne</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1779-06-12" when="1779-06-12" where="#orgplc_0069">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1779-06-12">1779, Juni 12</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                        <listEvent>
+                            <event type="julian-origin" datingMethod="#julian" when="1779-06-01" where="#orgplc_0069">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum (julian):</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1779-06-01">1779, Juni 12</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0069">St. Petersburg</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0069.00">0070<idno>0069</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

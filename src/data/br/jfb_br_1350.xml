@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach sendet Achim von Arnim für dessen Zeitschrift für Einsiedler Exzerpte mit literarischen Kuriositäten und bietet die Ausleihe von zwei seltenen frühneuzeitlichen Reisebeschreibungen zur Auswertung für die Zeitschrift an. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1350.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Krakau, Biblioteka Jagiellonska, Sammlung Varnhagen Nr. [unbekannt]; das Blatt mit den Exzerpten scheint nicht erhalten. </note>
+                <note type="Drucke">
+                    <bibl>Weiss, Hermann F. (Hg.): <emph>Unbekannte Briefe von und an Achim von Arnim aus der Sammlung Varnhagen und anderen Beständen</emph>. Berlin 1986, S. 172–173; erwähnt in Härtl, Heinz: <emph>Ludwig Achim Arnim. Briefwechsel 1805–1806</emph>. Text. Berlin 2011, S. 922–923 Anm. zu Brief 472, mit Verweis auf Weimarer Arnim-Ausgabe (WAA), Bd. XXXIII (noch nicht erschienen).</bibl>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Werke">
+                    <bibl>
+                        <relatedItem>
+                            <bibl>Vgl. „Alte Aufschrift in Basel. Mitgetheilt vom Hrn. Hofr. Blumenbach“ in <emph>Zeitschrift für Einsiedler</emph>
+                                <ptr target="ref_d1e138407_01367"/>, Heft 36 (27. Aug. 1808), S. 1, evt. aus den von Blumenbach geschickten Exzerpten. </bibl>
+                        </relatedItem>
+                    </bibl>
+                    <title level="m" type="bibl">Zeitschrift für Einsiedler</title>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1635" xml:id="ref_d1e138407_01367">http://digi.ub.uni-heidelberg.de/diglit/einsiedler/0170http://digi.ub.uni-heidelberg.de/diglit/einsiedler/0170</ref>
+                    <rs type="html">Zeitschrift für Einsiedler, Heft 36 (27. Aug. 1808), S. 1 </rs>
+                </note>
+                <note type="Anmerkung">
+                    <note>Druck bei Weiss mit der (wohl irrtümlichen) Unterschrift „J. H. v. Blumenbach“. </note>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach sendet Achim von Arnim für dessen <emph>Zeitschrift für Einsiedler</emph> Exzerpte mit literarischen Kuriositäten und bietet die Ausleihe von zwei seltenen frühneuzeitlichen Reisebeschreibungen zur Auswertung für die Zeitschrift an. </title>
+                        <title level="m" type="bibl">Zeitschrift für Einsiedler</title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich</forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Achim von</forename>
+                    <surname>Arnim</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1808-07-02" when="1808-07-02" where="#orgplc_1350">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1808-07-02">1808, Juli 2</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1350">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01350.00">
+                    <idno>1350</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

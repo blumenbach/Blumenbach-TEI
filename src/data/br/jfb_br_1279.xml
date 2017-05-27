@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Birger [Børge] Thorlacius berichtet Blumenbach [über Isländer und über den Gesang der Schwäne und sendet den Schädel eines Isländers]. </title>
+                <author>
+                    <persName>
+                        <forename>Birger [Børge]</forename>
+                        <surname>Thorlacius</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1279.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Göttingen, Universitätsbibliothek, Cod. Ms. Blumenbach V, fol. ?, vgl. Meyer, <emph>Handschriften in Göttingen</emph> 3 (1894), S. 79. <ptr target="ref_d1e131155_01296"/>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1537" xml:id="ref_d1e131154_01296">http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553</ref>
+                    <rs type="html">Spengel, Anthropologische Sammlung </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1538" xml:id="ref_d1e131155_01296">http://www.manuscripta-mediaevalia.de/hs/katalogseiten/HSK0719_b079_jpg.htm</ref>
+                    <rs type="html"/>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Schädel eines Isländers, vgl. Spengel, <emph>Anthropologische Sammlung</emph>
+                        <ptr target="ref_d1e131154_01296"/>, S. 13 Fußnote ad 293: „1804. Aus einem Grab nahe bei Helgestade in Sänder-Muhle-Syssel, östliches Island. Von Prof. Thorlacius in Kopenhagen.“</rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Birger [Børge] Thorlacius berichtet Blumenbach [über Isländer und über den Gesang der Schwäne und sendet den Schädel eines Isländers]. </title>
+                        <author>
+                            <persName>
+                                <forename>Birger [Børge]</forename>
+                                <surname>Thorlacius</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1804-05-02" when="1804-05-02" where="#orgplc_1279">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1804-05-02">1804, Mai 2</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1279">Kopenhagen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01279.00">
+                    <idno>1279</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">*Kleine Schriften zur vergleichenden Physiologie und Anatomie und Naturgeschichte gehörig : mit einer Kupfertafel</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00148.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000148/00148.pdf</ref>
+                </note>
+                <note type="ref">
+                    <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000148/000148.html</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">*Kleine Schriften zur vergleichenden Physiologie und Anatomie und Naturgeschichte gehörig : mit einer Kupfertafel <metamark>
+                                <pc unit="slash"/>
+                            </metamark>
+                        </title>
+                        <title level="m" type="sub">von Joh. Friedr. Blumenbach <metamark>
+                                <pc unit="semicolon"/>
+                            </metamark>
+                        </title>
+                        <title level="m" type="ed">uibersetzt [sic] und herausgegeben von D. Joh. Gottfr. Gruber</title>
+                        <imprint>
+                            <publisher>
+                                <name>Bei G. Benj. Meissner</name>
+                            </publisher>
+                            <pubPlace>Leipzig</pubPlace>
+                            <date type="publication" when="1800-01-01">1800</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Universitätsbibliothek Kiel</repository>
+                        <idno n="Ke 833/19">Ke 833/19</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>[4] Bl., 165 S., [1] gef. Bl. : 1 Ill. (Kupferst.)<dimensions>
+                                        <dim>17 cm (8°)</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc>no autopsy</desc>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00148.00">00148</classCode>
+                <classCode scheme="cat">
+                    <idno>I</idno>Selbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>I.12</idno>Sammelwerk</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00148">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e13813_00148">
+                <span type="note">Enthält: „I. Versuch einer vergleichenden Physiologie der warmblütigen, lebendig gebährenden und Eierlegenden, Thiere“, S. 1-60, mit Tafel (i. e. deutsche Übersetzung von „Io. Frid. Blumenbachii specimen physiologiae comparatae inter animantia calidi sanguinis vivipara et ovipara : recitatum d. XXVII. Decembr. MDCCLXXXVIII“, in</span>
+                <span type="title" style="j">Commentationes Societatis Regiae Scientiarum Gottingensis</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. IX (1789), Phys.</span>
+                <span type="citedRange">S. 108-128, mit Tafel)</span>
+                <span type="reference">00184</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">„II. Versuch einer vergleichenden Physiologie zwischen den kalt- und warmblütigen Thieren“, S. 62-142 (i. e. deutsche Übersetzung von „Jo. Frid. Blumenbachii specimen physiologiae comparatae inter animantia calidi et frigidi sanguinis recitatum d. XXIII. Decembr. MDCCLXXXVI“, in</span>
+                <span type="title" style="j">Commentationes Societatis Regiae Scientiarum Gottingensis</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. VIII (1787), Phys.</span>
+                <span type="citedRange">S. 69-100)</span>
+                <span type="reference">00182</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">„III. Auszüge aus der Sammlung von Hirnschädeln verschiedener Nationen. Als Beitrag zur Naturgeschichte der Menschenspecies“, S. 143-165 (i. e. bearbeitete Auszüge aus Grubers Übersetzung der 3. Ausgabe von Blumenbachs Dissertation De generis humani varietate nativa (1795):</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">D. Joh. Friedr. Blumenbach <gap reason="ellipsis"/> über die natürlichen Verschiedenheiten im Menschengeschlechte : mit Kupfern <metamark>
+                        <pc unit="slash"/>
+                    </metamark> Nach der dritten Ausgabe und den Erinnerungen des Verfassers übersetzt, und mit einigen Zusätzen und erläuternden Anmerkungen herausgegeben von Johann Gottfried Gruber <gap reason="ellipsis"/>
+                </span>
+                <span type="pubPlace">Leipzig</span>
+                <span type="publisher">Bey Breitkopf und Härtel</span>
+                <span type="date">1798</span>
+                <span type="reference">00008</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">sowie bearbeitete Auszüge aus</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Beyträge zur Naturgeschichte <metamark>
+                        <pc unit="slash"/>
+                    </metamark> von Joh. Fr. Blumenbach <gap reason="ellipsis"/>
+                </span>
+                <span type="edition">Erster Theil</span>
+                <span type="pubPlace">Göttingen</span>
+                <span type="publisher">Bey Johann Christian Dieterich</span>
+                <span type="date">1790</span>
+                <span type="reference">00111</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="note">sowie übersetzte Auszüge aus „Io. Frid. Blumenbachii decas collectionis suae craniorum diversarum gentium illustrata. D. XII. Dec. MDCCLXXXIX“, in</span>
+                <span type="title" style="j">Commentationes Societatis Regiae Scientiarum Gottingensis</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. X (1791), Phys.</span>
+                <span type="citedRange">S. 3-27)</span>
+                <span type="reference">00185</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Zur Qualität von Grubers Übersetzung siehe den Kommentar zur angeblichen 2. Auflage</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Johann Friedrich Blumenbachs, <gap reason="ellipsis"/> kleine Schriften zur vergleichenden Physiologie und Anatomie und zur Naturgeschichte gehörig : mit einem Kupfer <metamark>
+                        <pc unit="slash"/>
+                    </metamark> aus dem Lateinischen übersezt [sic] von D. J. G. Gruber</span>
+                <span type="edition">Zweite Ausgabe</span>
+                <span type="pubPlace">Leipzig</span>
+                <span type="publisher">In der Sommerschen Buchhandlung</span>
+                <span type="date">1804</span>
+                <span type="reference">00149</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

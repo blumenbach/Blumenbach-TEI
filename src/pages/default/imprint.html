@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page.html" data-template-at="main">
+    <script type="text/javascript" src="resources/scripts/imprint.js"/>
+    <div data-template="templates:include" data-template-path="templates/search-form-briefs.html"/>
+    <div class="col-md-12 col-xs-12">
+        <div id="content" class="row">
+            <h2>Imprint in Werke</h2>
+            <table id="imprint" class="display">
+                <thead>
+                    <tr>
+                        <th class="col-sm-1">BiblNr</th>
+                        <th class="col-sm-3">Publisher</th>
+                        <th class="col-sm-2">Publication Place</th>
+                        <th class="col-sm-1">Date Sort</th>
+                        <th class="col-sm-1">Publication Date</th>
+                    </tr>
+                </thead>
+                <tbody data-template="list:publishers-all"/>
+            </table>
+        </div>
+    </div>
+</div>

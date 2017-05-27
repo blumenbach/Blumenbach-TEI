@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach an Friedrich Leopold Anton [= Franz Leopold Arnold ?] de la Tour. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1373.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Göttingen, Universitätsbibliothek, 8 Cod. Ms. philos. 178 k, vgl. online-Katalog der Handschriften der Staats- und Universitätsbibliothek Göttingen<ptr target="ref_d1e140716_01390"/>. </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1660" xml:id="ref_d1e140716_01390">http://hans.sub.uni-goettingen.de/</ref>
+                    <rs type="html">http://hans.sub.uni-goettingen.de/ </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1661" xml:id="ref_d1e140717_01390">./view-work.html?id=00515</ref>
+                    <rs type="html">00515 </rs>
+                </note>
+                <note type="Anmerkung">
+                    <note>Blumenbach zeigte 1811 in den GGA einen mineralogischen Aufsatz an, den F. L. A. de La Tour an die Societät der Wissenschaften gesandt hatte (Bibliographie Nr. 00515).<ptr target="ref_d1e140717_01390"/>
+                        <emph>Namensunsicherheit:</emph> PND-Eintrag (123366550): Tour, Friedrich Leopold Anton de la (1754–1829); anders: <emph>Neuer Nekrolog der Deutschen</emph> 17. Jg. 1829), 2. Theil, S. 468: Franz Leopold Arnold de la Tour (1754–1829). </note>
+                    <title level="m" type="bibl">Namensunsicherheit:</title>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach an Friedrich Leopold Anton [= Franz Leopold Arnold ?] de la Tour. </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich</forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Friedrich Leopold Anton [= Franz Leopold Arnold ?] de la</forename>
+                    <surname>Tour</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1810-12-10" when="1810-12-10" where="#orgplc_1373">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1810-12-10">1810, Dez. 10</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1373">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01373.00">
+                    <idno>1373</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

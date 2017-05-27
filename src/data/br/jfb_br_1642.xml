@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach sendet [einer befreundeten, in der Adresse als „Frau Comptoir Direktorin“ bezeichneten Dame ] ein Exemplar eines so genannten „Schlangensteins“. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1642.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung"/>
+                <note type="Drucke">
+                    <bibl>Uppsala, Universiteitsbiblioteket, The Waller Manuscript Collection, Waller Ms de-00387; Digitalisat online verfügbar.<ptr target="ref_d1e166548_01659"/> Transkription.<ptr target="ref_d1e166549_01659"/>
+                    </bibl>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1966" xml:id="ref_d1e166548_01659">http://waller.ub.uu.se/18087.html</ref>
+                    <rs type="html">Digitalisat online verfügbar</rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1967" xml:id="ref_d1e166549_01659">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/Transkriptionen/Blumenbach_Comptoir_Direktorin_vor1840_Transkription.html</ref>
+                    <rs type="html">Transkription </rs>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="1968" xml:id="ref_d1e166550_01659">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/Sammlungskataloge/cod_ms-Blumenbach_1_II_Blumenbach_Handschriften_1794_1800_Katalog%20zur%20Naturgeschichte%20des%20Menschengeschlechts.pdf#page=149</ref>
+                    <rs type="pdf"> Cod. Ms. Blumenbach 1, II, fol. 72r. </rs>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Sog. „Schlangenstein“, vgl. vgl. Blumenbachs hs. Sammlungsverz., Universitätsbibliothek Göttingen Cod. Ms. Blumenbach 1, II, fol. 72r.<ptr target="ref_d1e166550_01659"/>
+                    </rs>
+                </note>
+                <note type="Anmerkung">
+                    <note>Undatiert; Absendeort vermutlich Göttingen, da die Adresse keine Ortsangabe enthält. </note>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach sendet [einer befreundeten, in der Adresse als „Frau Comptoir Direktorin“ bezeichneten Dame ] ein Exemplar eines so genannten „Schlangensteins“. </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich</forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">[unbekannt „Frau Comptoir Direktorin“]</persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1840-01-01" when="1840-01-01" where="#orgplc_1642">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1840-01-01">vor 1840</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                        <listEvent>
+                            <event type="iso-origin-na" notAfter="1840-01-01" where="#orgplc_1642">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum (not after):</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1840-01-01">vor 1840</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1642">[Göttingen?]</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01642.00">
+                    <idno>1642</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

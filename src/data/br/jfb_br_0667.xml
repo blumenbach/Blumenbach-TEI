@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Gottfried Philipp Michaelis sendet Blumenbach einen sehr ausführlichen Bericht über seine medizinischen Beobachtungen an [wegen angeborenem Jodmangelsyndrom] körperlich und geistig Behinderten („Cretins“, „Fexen“) im Salzburger Land. </title>
+                <author>
+                    <persName>
+                        <forename>Gottfried Philipp</forename>
+                        <surname>Michaelis</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0667.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Or. verloren, Überlieferung durch Druck in <emph>Medicinische Bibliothek</emph> Bd. 3, 4. Stück. </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> IV, S. 227 Nr. 0795.<ptr target="ref_d1e66863_00673"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Drucke">
+                    <bibl>
+                        <emph>Medicinische Bibliothek</emph>
+                        <ptr target="ref_d1e62182_00673"/> Bd. 3, 4. Stück (1795), S. 640–663; Auszug in Zeitschrift für die organische Physik II, 6 (1828), S. 661–663.</bibl>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="622" xml:id="ref_d1e66863_00673">http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20688942709.pdf#page=239</ref>
+                    <rs type="pdf">Corresp. IV, S. 227 Nr. 0795 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="623" xml:id="ref_d1e62182_00673">./view-work.html?id=00145</ref>
+                    <rs type="html">00145 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Gottfried Philipp Michaelis sendet Blumenbach einen sehr ausführlichen Bericht über seine medizinischen Beobachtungen an [wegen angeborenem Jodmangelsyndrom] körperlich und geistig Behinderten („Cretins“, „Fexen“) im Salzburger Land. </title>
+                        <author>
+                            <persName>
+                                <forename>Gottfried Philipp</forename>
+                                <surname>Michaelis</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1792-12-31" when="1792-12-31" where="#orgplc_0667">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1792-12-31">1792, Jahresende</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0667">Pavia</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0667.00">0673<idno>0667</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

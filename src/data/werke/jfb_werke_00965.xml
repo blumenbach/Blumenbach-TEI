@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: De ornithorynchi paradoxi fabrica observationes quaedam anatomicae; auctore Jo. Frid. Blumenbach, Medicinae Prof. Goetting. et Soc. Med. Parisinae sodali (I)</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00965.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000965/00965.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: De ornithorynchi paradoxi fabrica observationes quaedam anatomicae; auctore Jo. Frid. Blumenbach, Medicinae Prof. Goetting. et Soc. Med. Parisinae sodali (I)</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Mémoires de la Société Médicale d’Emulation, séante à l’Ecole de Médecine de Paris : pour l’an</title>
+                        <imprint>
+                            <publisher>
+                                <name>Richard</name>
+                            </publisher>
+                            <pubPlace>Paris</pubPlace>
+                            <date type="publication" when="1800-01-01">1800</date>
+                        </imprint>
+                        <biblScope>An VIII [1799-1800, i. e. 1800-1801], 4. Jg.</biblScope>
+                    </monogr>
+                    <citedRange>S. 320-323, 1 Ill. (Kupferst.)</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 MED EPH 1006">8 MED EPH 1006</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00965.00">00965</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4.31</idno>Mémoires de la Société Médicale d’Emulation</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00965">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e72357_00965">
+                <span type="note">Forschungsnotiz zum Schnabeltier. Beschreibung des Schädels. Tafel gestochen von P. F. Tardieu nach einer Zeichnung von Adèle Sauvant. Darstellung: „Cranium Ornithorynchi paradoxi“</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Eine längere, deutschsprachige Beschreibung des Schnabeltiers und eine Tafel mit der Abbildung des Schädels in Blumenbachs Artikel „Einige anatomische Bemerkungen über den Ornithorhynchus paradoxus aus Neu-Südwallis“ in</span>
+                <span type="title" style="j">Magazin für den neuesten Zustand der Naturkunde, mit Rücksicht auf die dazu gehörigen Hülfswissenschaften</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 2, 2. Stück (1800)</span>
+                <span type="citedRange">S. 284-291</span>
+                <span type="reference">00866</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Im Vergleich zu der dort enthaltenen Tafel ist die Abbildung in</span>
+                <span type="title" style="j">Mémoires</span>
+                <span type="note">seitenverkehrt mit abweichenden alphabetischen Verweisziffern</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Englische Übersetzung in</span>
+                <span type="title" style="j">The Philosophical magazine : comprehending the various branches of science, the liberal and fine arts, agriculture, manufactures, and commerce</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 11 (1802, January)</span>
+                <span type="citedRange">S. 366-367</span>
+                <span type="reference">00989</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Abbildungen naturhistorischer Gegenstände</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00147.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_001/00147_001.pdf</ref>
+                    <rs type="pdf">Heft 1: 1796-1810</rs>
+                </note>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_002/00147_002.pdf</ref>
+                    <rs type="pdf">Heft 2: 1796-1810</rs>
+                </note>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_003/00147_003.pdf</ref>
+                    <rs type="pdf">Heft 3: 1796-1810</rs>
+                </note>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_004/00147_004.pdf</ref>
+                    <rs type="pdf">Heft 4: 1796-1810</rs>
+                </note>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_005/00147_005.pdf</ref>
+                    <rs type="pdf">Heft 5: 1796-1810</rs>
+                </note>
+                <note type="ref">
+                    <ref type="pdf">ttp://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_006/00147_006.pdf</ref>
+                    <rs type="pdf">Heft 6: 1796-1810</rs>
+                </note>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_007/00147_007.pdf</ref>
+                    <rs type="pdf">Heft 7: 1796-1810</rs>
+                </note>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_008/00147_008.pdf</ref>
+                    <rs type="pdf">Heft 8: 1796-1810</rs>
+                </note>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_009/00147_009.pdf</ref>
+                    <rs type="pdf">Heft 9: 1796-1810</rs>
+                </note>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_010/00147_010.pdf</ref>
+                    <rs type="pdf">Heft 10: 1796-1810</rs>
+                </note>
+                <note type="ref">
+                    <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000655/000655.html</ref>
+                    <rs type="html">Heft 1 (1796)</rs>
+                </note>
+                <note type="ref">
+                    <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/001026/001026.html</ref>
+                    <rs type="html">Heft 1 (1810)</rs>
+                </note>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_Z_001/00147_Z_001.pdf</ref>
+                    <rs type="pdf">Heft 1: 1827-30</rs>
+                </note>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_Z_003/00147_Z_003.pdf</ref>
+                    <rs type="pdf">Heft 3: 1827-30</rs>
+                </note>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_Z_004/00147_Z_004.pdf</ref>
+                    <rs type="pdf">Heft 4: 1827-30</rs>
+                </note>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_Z_005/00147_Z_005.pdf</ref>
+                    <rs type="pdf">Heft 5: 1827-30</rs>
+                </note>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_Z_006/00147_Z_006.pdf</ref>
+                    <rs type="pdf">Heft 6: 1827-30</rs>
+                </note>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000147_Z_010/00147_Z_010.pdf</ref>
+                    <rs type="pdf">Heft 10: 1827-30</rs>
+                </note>
+                <note type="ptr">Anm. 6</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">Abbildungen naturhistorischer Gegenstände <metamark>
+                                <pc unit="slash"/>
+                            </metamark>
+                        </title>
+                        <title level="m" type="sub">herausgegeben von Joh. Fried. Blumenbach</title>
+                        <imprint>
+                            <publisher>
+                                <name>Bey Heinrich Dieterich</name>
+                            </publisher>
+                            <pubPlace>Göttingen</pubPlace>
+                            <date type="publication" when="1796-01-01">1796-1810. 1.1796-10.1810</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                        <idno n=""/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>22 cm (8°).<dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00147.00">00147</classCode>
+                <classCode scheme="cat">
+                    <idno>I</idno>Selbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>I.11</idno>Von Blumenbach herausgegebene Werke</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00147">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e13443_00147">
+                <span type="note">Hefte 1.1796-5.1800 erschienen in Göttingen : Bey Johann Christian Dieterich</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Alle Hefte sind unpaginiert, enthalten 10 Tafeln mit Abbildungen und die dazugehörigen Beschreibungen</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Heft 5 enthält 2 kolorierte Tafeln, alle anderen Hefte jeweils eine kolorierte Tafel</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Anzeige Blumenbachs von Heft 1 in</span>
+                <span type="title" style="j">GAgS</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1796 (204. Stück, 22. Dezember)</span>
+                <span type="citedRange">S. 2033-2034; „Göttingen“</span>
+                <span type="reference">00379</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Von Heft 2 in</span>
+                <span type="title" style="j">GAgS</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1797 (182. Stück, 16. November)</span>
+                <span type="citedRange">S. 1809-1810; „Göttingen“</span>
+                <span type="reference">00386</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Von Heft 3 in</span>
+                <span type="title" style="j">GAgS</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1798 (185. Stück, 19. November)</span>
+                <span type="citedRange">S. 1841-1842; „Göttingen“</span>
+                <span type="reference">00403</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Von Heft 4 in</span>
+                <span type="title" style="j">GAgS</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1800 (10. Stück, 18. Januar)</span>
+                <span type="citedRange">S. 89-90; „Göttingen“</span>
+                <span type="reference">00417</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Von Heft 5 in</span>
+                <span type="title" style="j">GAgS</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1800 (81. Stück, 22. Mai)</span>
+                <span type="citedRange">S. 801-802; „Göttingen“</span>
+                <span type="reference">00421</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Von Heft 6 in</span>
+                <span type="title" style="j">GgA</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1802 (95. Stück, 14. Juni)</span>
+                <span type="citedRange">S. 945-946; „Göttingen“</span>
+                <span type="reference">00440</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Von Heft 7 in</span>
+                <span type="title" style="j">GgA</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1804 (130. Stück, 16. August)</span>
+                <span type="citedRange">S. 1289-1290; „Göttingen“</span>
+                <span type="reference">00454</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Von Heft 8 in</span>
+                <span type="title" style="j">GgA</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1805 (113. Stück, 18. Juli)</span>
+                <span type="citedRange">S. 1121-1122; „Göttingen“</span>
+                <span type="reference">00462</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Von Heft 9 in</span>
+                <span type="title" style="j">GgA</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1809 (97. Stück, 19. Juni)</span>
+                <span type="citedRange">S. 961; „Göttingen“</span>
+                <span type="reference">00495</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Von Heft 10 in</span>
+                <span type="title" style="j">GgA</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1810 (194. Stück, 6. Dezember)</span>
+                <span type="citedRange">S. 1935-1936; „Göttingen“</span>
+                <span type="reference">00511</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Blumenbach ist der Verfasser aller Artikel. Diese werden einzeln in Abschnitt II.4.1 dieser Bibliographie aufgeführt</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="repository">SUB Göttingen</span>
+                <span type="idno" n="8 H NAT I, 855 RARA 8 H NAT I,  855:1 &lt;2&gt;">8 H NAT I, 855 RARA</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">10 Hefte in 2 Bdn. mit zusätzlichem Titelblatt in Bd. 1:</span>
+                <span type="title" style="j">Abbildungen naturhistorischer Gegenstände 
+                   </span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="slash"/>
+                    </metamark>
+                </span>
+                <span type="note">herausgegeben von Joh. Fried. Blumenbach.</span>
+                <span type="note">
+                    <metamark>
+                        <pc unit="bind"/>
+                    </metamark>Nro 1-100</span>
+                <span type="pubPlace">Göttingen</span>
+                <span type="publisher">Bey Heinrich Dieterich</span>
+                <span type="date">[s.a.]</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Neuauflagen,</span>
+                <span type="note">ebenfalls bei Dieterich gedruckt, erfolgten von Heft 1 (1810, 1830), Heft 3 (1827), Heft 4 (1827), Heft 5 (1830), Heft 6 (1830)</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Bei der 1810 gedruckten Neuauflage von Heft 1 wurde das Kapitel 3 über „Jusuf Aguiah Efendi“ samt Tafel ersetzt durch Tafel und Kapitel über „Mahomed Jumla“. Ansonsten sind die Kupferplatten der 1. Ausgabe wiederverwendet worden</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Anzeige dieses Heftes von Blumenbach in</span>
+                <span type="title" style="j">GgA</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1810 (194. Stück, 6. Dezember)</span>
+                <span type="citedRange">S. 1935-1936; „Göttingen“</span>
+                <span type="reference">00511</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="repository">SUB Göttingen</span>
+                <span type="idno" n="8 H NAT I, 855 RARA 8 H NAT I,  855:1 &lt;2&gt;">8 H NAT I,  855:1 &lt;2&gt;</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" style="n">
+                <span type="note">Das in den</span>
+                <span type="title" style="j">GgA</span>
+                <span type="note">von 1810 angekündigte</span>
+                <span type="note">„systematische Verzeichnis“</span>
+                <span type="note">sämtlicher Abbildungen nicht in diesem Exemplar</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Exemplare der 1827-1830 entstandenen Neuauflagen befinden sich in Hamburg, Bibliothek des Ärztlichen Vereins: C 8/1098;</span>
+                <span type="note">
+                    <hi rend="green-sm">enthält das „systematische Verzeichnis“ am Anfang von Heft 10</hi>
+                </span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="anm">
+                    <lb/>
+                    <lb/>Anm. 6: Erste Vorarbeiten zu diesem Abbildungswerk hat es möglicherweise bereits um 1776 gegeben, vgl.</span>
+                <span type="title" style="j">Frankfurter gelehrte Anzeigen</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="note">1776 (Nr. 15, 20. Februar), S. 119, und</span>
+                <span type="title" style="j">Berlinische Sammlungen zur Beförderung der Arzneywissenschaft, der Naturgeschichte, der Haushaltungskunst, Cameralwissenschaft und der dahin einschlagenden Litteratur</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 9 (1. Stück), 1777</span>
+                <span type="citedRange">S. 89</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="point"/>
+                    </metamark>
+                </span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" style="n">
+                <span type="note">Vgl. auch Blumenbachs Ankündigung der Publikation von Abbildungen von Sammlungsobjekten aus dem Göttinger Academischen Museum bereits in den</span>
+                <span type="title" style="j">GAgS</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">von 1774</span>
+                <span type="citedRange">S. 1011</span>
+                <span type="reference">00210</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

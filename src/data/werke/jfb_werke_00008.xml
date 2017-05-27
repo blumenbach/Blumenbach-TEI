@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">über die natürlichen Verschiedenheiten im Menschengeschlechte : mit Kupfern</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00008.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000008/00008.pdf</ref>
+                </note>
+                <note type="ref">
+                    <ref type="html">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Digitalisate_html/Texte/000008/000008.html</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">über die natürlichen Verschiedenheiten im Menschengeschlechte : mit Kupfern <metamark>
+                                <pc unit="slash"/>
+                            </metamark>
+                        </title>
+                        <title level="m" type="aut">D. Joh. Friedr. Blumenbach <gap reason="ellipsis"/>
+                        </title>
+                        <title level="m" type="ed">Nach der dritten Ausgabe und den Erinnerungen des Verfassers übersetzt, und mit einigen Zusätzen und erläuternden Anmerkungen herausgegeben von Johann Gottfried Gruber <gap reason="ellipsis"/>
+                        </title>
+                        <editor role="translator">
+                            <persName ref="http://viaf.org/viaf">Johann Gottfried Gruber</persName>
+                        </editor>
+                        <imprint>
+                            <publisher>
+                                <name>Bey Breitkopf und Härtel</name>
+                            </publisher>
+                            <pubPlace>Leipzig</pubPlace>
+                            <date type="publication" when="1798-01-01">1798</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="DD93 A 33965">DD93 A 33965</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>XXXII, 291 S., [3] gef. Bl. : 3 Ill. (Kupferst.)<dimensions>
+                                        <dim>19 cm (8°)</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation type="translation"/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00008.00">00008</classCode>
+                <classCode scheme="cat">
+                    <idno>I</idno>Selbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>I.1</idno>De Generis Humani Varietate</classCode>
+                <classCode scheme="cat">
+                    <idno>I.1.2</idno>Übersetzungen</classCode>
+                <classCode scheme="cat">
+                    <idno>I.1.2.1</idno>Deutsch</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00008">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e581_00008">
+                <span type="note">Widmungsempfänger: Johann Gottfried von Herder</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Rezensiert von Blumenbach in</span>
+                <span type="title" style="j">GAgS</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1798 (190. Stück, 29. November)</span>
+                <span type="citedRange">S. 1889-1890; „Leipzig“</span>
+                <span type="reference">00404</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Bearbeitete Auszüge in „III. Auszüge aus der Sammlung von Hirnschädeln verschiedener Nationen</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Als Beitrag zur Naturgeschichte der Menschenspecies“, in</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Kleine Schriften zur vergleichenden Physiologie und Anatomie und Naturgeschichte gehörig : mit einer Kupfertafel <metamark>
+                        <pc unit="slash"/>
+                    </metamark> von Joh. Friedr. Blumenbach <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark> uibersetzt [sic] und herausgegeben von D. Joh. Gottfr. Gruber</span>
+                <span type="pubPlace">Leipzig</span>
+                <span type="publisher">Bei G. Benj. Meissner</span>
+                <span type="date">1800</span>
+                <span type="reference">00148</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="semicolon"/>
+                    </metamark>
+                </span>
+                <span type="citedRange">S. 143-165</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Die geringe Qualität von Grubers Übersetzung wurde schon von Zeitgenossen bemängelt, z. B. in</span>
+                <span type="title" style="j">Neue allgemeine deutsche Bibliothek</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 47, 1. St. (1799)</span>
+                <span type="citedRange">S. 314: „Aber vor allen Dingen hätte nur Hr. Gr. richtig übersetzen sollen, […].“<lb/>
+                </span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Siehe auch Kommentar zur 2. Auflage von</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Johann Friedrich Blumenbachs, <gap reason="ellipsis"/> kleine Schriften zur vergleichenden Physiologie und Anatomie und zur Naturgeschichte gehörig : mit einem Kupfer <metamark>
+                        <pc unit="slash"/>
+                    </metamark> aus dem Lateinischen übersezt [sic] von D. J. G. Gruber
+                   </span>
+                <span type="edition">Zweite Ausgabe</span>
+                <span type="pubPlace">Leipzig</span>
+                <span type="publisher">In der Sommerschen Buchhandlung</span>
+                <span type="date">1804</span>
+                <span type="reference">00149</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

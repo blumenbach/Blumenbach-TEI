@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: Jo. Frid. Blumenbachii <gap reason="ellipsis"/> specimen physiologiae comparatae inter animantia calidi et frigidi sanguinis recitatum d. XXIII. Decembr. MDCCLXXXVI</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00182.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000182/00182.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: Jo. Frid. Blumenbachii specimen physiologiae comparatae inter animantia calidi et frigidi sanguinis recitatum d. XXIII. Decembr. MDCCLXXXVI</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Commentationes Societatis Regiae Scientiarum Gottingensis</title>
+                        <imprint>
+                            <publisher>
+                                <name>Dieterich</name>
+                            </publisher>
+                            <pubPlace>Gottingae</pubPlace>
+                            <date type="publication" when="1787-01-01">1787</date>
+                        </imprint>
+                        <biblScope>Bd. VIII (1787), Phys.</biblScope>
+                    </monogr>
+                    <citedRange>S. 69-100</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="4 PHYS MATH IV, 356">4 PHYS MATH IV, 356</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00182.00">00182</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3</idno>Publikationsorgane der Königlichen Gesellschaft der Wissenschaften zu Göttingen</classCode>
+                <classCode scheme="cat">
+                    <idno>II.3.1.1</idno>Commentationes Societatis Regiae Scientiarum Gottingensis</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00182">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e16487_00182">
+                <span type="note">Auch als Sonderdruck:</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">D. Jo. Frid. Blumenbachii <gap reason="ellipsis"/> specimen physiologiae comparatae inter animantia calidi et frigidi sanguinis</span>
+                <span type="pubPlace">Gottingae</span>
+                <span type="publisher">Apud Jo. Christ. Dieterich</span>
+                <span type="date">MDCCLXXXVII</span>
+                <span type="reference">00121</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Auch enthalten in Sonderdruck</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">D. Jo. Frid. Blumenbachii <gap reason="ellipsis"/> specimen physiologiae comparatae inter animantia calidi et frigidi sanguinis : Praemissae sunt de nisu formativo et generationis negotio observationes nuperae ; accedunt tabulae aeneae</span>
+                <span type="pubPlace">Gottingae</span>
+                <span type="publisher">Apud Jo. Christ. Dieterich</span>
+                <span type="date">MDCCLXXXVII</span>
+                <span type="reference">00122</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Siehe auch Bericht zum Vortrag in</span>
+                <span type="title" style="j">GAgS</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="space"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">1787 (21. Stück, 5. Februar)</span>
+                <span type="citedRange">S. 201-204; „Göttingen“</span>
+                <span type="reference">00300</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Deutsche Übersetzung in</span>
+                <span type="title" style="j">Magazin für Thiergeschichte, Thieranatomie und Thierarzneikunde</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 1, 1. Stück (1790), S. 88-97 und Bd. 1, 2. Stück (1794)</span>
+                <span type="citedRange">S. 131-168 von Friedrich Albrecht Anton Meyer</span>
+                <span type="reference">00937</span>
+                <span type="reference">00938</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Eine weitere deutsche Übersetzung in</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Kleine Schriften zur vergleichenden Physiologie und Anatomie und Naturgeschichte gehörig : mit einer Kupfertafel <metamark>
+                        <pc unit="slash"/>
+                    </metamark> von Joh. Friedr. Blumenbach ; uibersetzt [sic] und herausgegeben von D. Joh. Gottfr. Gruber</span>
+                <span type="pubPlace">Leipzig</span>
+                <span type="publisher">Bei G. Benj. Meissner</span>
+                <span type="date">1800;</span>
+                <span type="citedRange">S. 62-142</span>
+                <span type="reference">00148</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

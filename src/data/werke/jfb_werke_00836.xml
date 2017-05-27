@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: 2. Naturhistorische Bemerkungen aus des Baronet Staunton Beschreibung der Gesandschaftsreise des Grafen von Macartney nach Schina. *)</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00836.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000836/00836.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: 2. Naturhistorische Bemerkungen aus des Baronet Staunton Beschreibung der Gesandschaftsreise des Grafen von Macartney nach Schina. *)</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Magazin für den neuesten Zustand der Naturkunde, mit Rücksicht auf die dazu gehörigen Hülfswissenschaften <metamark>
+                                <pc unit="slash"/>
+                            </metamark> hrsg. von Johann Heinrich Voigt</title>
+                        <imprint>
+                            <publisher>
+                                <name>Verl. des Landes-Industrie-Comptoirs</name>
+                            </publisher>
+                            <pubPlace>Weimar</pubPlace>
+                            <date type="publication" when="1798-01-01">1798</date>
+                        </imprint>
+                        <biblScope>Bd. 1, 2. Stück (1798)</biblScope>
+                    </monogr>
+                    <citedRange>S. 17-37</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 PHYS MATH II, 2355">8 PHYS MATH II, 2355</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc>no autopsy</desc>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00836.00">00836</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4.26</idno>Magazin für den neuesten Zustand der Naturkunde</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00836">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e64300_00836">
+                <span type="note">Auszugsweise Inhaltswiedergabe der Reisebeschreibung</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">An authentic account of an embassy from the King of Great Britain to the Emperor of China: including cursory observations made, and information obtained, in travelling through that ancient Empire, and a small part of Chinese Tartary … ; in two volumes, with engravings ; beside a folio volume of plates <metamark>
+                        <pc unit="slash"/>
+                    </metamark> taken chiefly from the papers of His Excellency the Earl of Macartney, Knight of the Bath, His Majesty’s Embassador Extraordinary and Plenipotentiary to the Emperor of China ; Sir Erasmus Gower, Commander of the Expedition, and of other Gentlemen in the sevaral departments of the Embassy. By Sir George Staunton, Baronet, Honorary Doctor of Laws of the University of Oxford <gap reason="ellipsis"/>
+                </span>
+                <span type="extent">2 Bde und 1 Atlas</span>
+                <span type="pubPlace">London</span>
+                <span type="publisher">Printed By W. Bulmer and Co. for G. Nicol, Bookseller to His Majesty, Pall-Mall</span>
+                <span type="date">1797</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="repository">SUB Göttingen</span>
+                <span type="idno" n="4 ITIN I, 3249:1 4 ITIN I, 3249:2 gr 2 ITIN I, 3249:Atlas">4 ITIN I, 3249:1</span>
+                <span type="idno" n="4 ITIN I, 3249:1 4 ITIN I, 3249:2 gr 2 ITIN I, 3249:Atlas">4 ITIN I, 3249:2</span>
+                <span type="idno" n="4 ITIN I, 3249:1 4 ITIN I, 3249:2 gr 2 ITIN I, 3249:Atlas">gr 2 ITIN I, 3249:Atlas</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

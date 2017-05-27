@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Überschrift: IV. Einige Nachrichten vom academischen Museum zu Göttingen, von J. Fr. Blumenbach</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00772.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ref">
+                    <ref type="pdf">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/ID%2000772/00772_vorlaeufigesDigitalisat.pdf</ref>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a" type="main">Überschrift: IV. Einige Nachrichten vom academischen Museum zu Göttingen, von J. Fr. Blumenbach</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Annalen der Braunschweig-Lüneburgischen Churlande</title>
+                        <imprint>
+                            <publisher>
+                                <name>Pockwitz</name>
+                            </publisher>
+                            <pubPlace>Hannover</pubPlace>
+                            <date type="publication" when="1787-01-01">1787</date>
+                        </imprint>
+                        <biblScope>1. Jg. (3. Stück, 1787)</biblScope>
+                    </monogr>
+                    <citedRange>S. 84-99</citedRange>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno n="8 H HANN I, 1430">8 H HANN I, 1430</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc/>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00772.00">00772</classCode>
+                <classCode scheme="cat">
+                    <idno>II</idno>Unselbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4</idno>Veröffentlichungen in weiteren gelehrten Zeitschriften</classCode>
+                <classCode scheme="cat">
+                    <idno>II.4.5</idno>Annalen der Braunschweig-Lüneburgischen Churlande</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00772">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e59633_00772">
+                <span type="note">1. Teil von 2 Teilen der Nachrichten vom Academischen Museum in Göttingen. Fortsetzung</span>
+                <span type="title" style="j">ibid.</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">2. Jg. (1787, 2. Stück)</span>
+                <span type="citedRange">S. 25-35</span>
+                <span type="reference">00773</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Stark bearbeitete Version von Blumenbachs zweiteiliger Beschreibung des Academischen Museums in</span>
+                <span type="title" style="j">Neues Magazin für Ärzte</span>
+                <span type="meta">
+                    <metamark>
+                        <pc unit="comma"/>
+                    </metamark>
+                </span>
+                <span type="biblScope">Bd. 17 (1795, 2. Stück)</span>
+                <span type="citedRange">S. 137-143</span>
+                <span type="reference">00980</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="note">Eine weitere bearbeitete Version dieses Artikels in</span>
+                <span type="img">[Lit.]</span>
+                <span type="title" style="m">Nachrichten von sehenswürdigen Gemälde- und Kupferstichsammlungen, Münz- Gemmen- Kunst- und Naturalienkabineten, Sammlungen von Modellen, Maschinen, physikalischen und mathematischen Instrumenten, anatomischen Präparaten und botanischen Gärten in Teutschland nach alphabetischer Ordnung der Städte <metamark>
+                        <pc unit="slash"/>
+                    </metamark> hrsg. von Friedrich Karl Gottlob Hirsching</span>
+                <span type="pubPlace">Erlangen</span>
+                <span type="publisher">Bey Johann Jakob Palm</span>
+                <span type="date">1789</span>
+                <span type="biblScope">Bd. 3</span>
+                <span type="citedRange">S. 156-205</span>
+                <span type="reference">00184</span>
+            </spanGrp>
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0">
+                <span type="biblScope">Teil 2 dort, Bd. 4</span>
+                <span type="citedRange">S. 478-488</span>
+                <span type="reference">00185</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

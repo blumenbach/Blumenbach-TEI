@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Joseph Banks teilt Blumenbach mit, er könne ihm zu einem späteren Zeitpunkt vermutlich Originale menschlicher Schädel aus dem Pazifikraum beschaffen, und fragt nach, ob Blumenbach dennoch die Anfertigung von Gipsabgüssen oder Zeichnungen von in England bereits vorhandenen Schädeln wünsche. </title>
+                <author>
+                    <persName>
+                        <forename>Joseph</forename>
+                        <surname>Banks</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0376.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Or. verloren; überliefert als unvollst. Entwurf in London, British Library, Add MS 8096, fol. 384r–v. </note>
+                <note type="Drucke">
+                    <bibl>Dougherty, <emph>Commercium epistolicum</emph> (1984), S. 116 [als Teil von KatNr. 134]<ptr target="ref_d1e36992_00380"/> (mit Abb. auf S. 115); vgl. ausführl. Regest in Dawson, <emph>The Banks Letters</emph> (1958), S 110 Nr. 3 (Klammerzusatz).</bibl>
+                    <title level="m" type="bibl">
+                                    Commercium epistolicum
+                                </title>
+                    <title level="m" type="bibl">The Banks Letters</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> III, S. 119 Nr. 0471.<ptr target="ref_d1e36990_00380"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="222" xml:id="ref_d1e36990_00380">http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=137</ref>
+                    <rs type="pdf">Corresp. III, S. 119 Nr. 0471 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="223" xml:id="ref_d1e36992_00380">http://www.blumenbach-online.de/fileadmin/wikiuser/Daten_Digitalisierung/Briefregesten/CommerciumHTMLs/CommerciumNr134.html</ref>
+                    <rs type="html"/>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Joseph Banks teilt Blumenbach mit, er könne ihm zu einem späteren Zeitpunkt vermutlich Originale menschlicher Schädel aus dem Pazifikraum beschaffen, und fragt nach, ob Blumenbach dennoch die Anfertigung von Gipsabgüssen oder Zeichnungen von in England bereits vorhandenen Schädeln wünsche. </title>
+                        <author>
+                            <persName>
+                                <forename>Joseph</forename>
+                                <surname>Banks</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1787-08-24" when="1787-08-24" where="#orgplc_0376">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1787-08-24">1787, Aug. 24</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0376">London</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0376.00">0380<idno>0376</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

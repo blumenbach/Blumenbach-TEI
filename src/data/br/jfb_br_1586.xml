@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Johann Wolfgang von Goethe sendet Blumenbach eine Kinnlade mit vollständiger Zahnreihe aus einem antiken Grabhügel bei Romstedt in Thüringen. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Wolfgang von</forename>
+                        <surname>Goethe</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1586.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Baltimore (USA), The Johns Hopkins University/The Milton S. Eisenhower Library. – Bestand: Kurrelmeyer Collection; Konzept: Weimar, Goethe- und Schiller-Archiv: GSA 29/45, Bl. 66. </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Drucke">
+                    <bibl>
+                        <emph>Goethes Werke. Weimarer Ausgabe</emph> Abt. IV, Bd. 45, S. 238–239 (Brief WA-Nr. 45199).</bibl>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Kinnlade mit vollständiger Zahnreihe aus einem antiken Grabhügel bei Romstedt (Thüringen); laut Voit, Max: <emph>Ein Brief von Goethes Sohn August an J. F. Blumenbach</emph>. Göttingen 1928 [Gedr. in 100 Ex. zur 6jähr. Jahresfeier d. Vereinigung Göttinger Bücherfreunde am 23. Juni 1928] in der Schädelsammlung der Anatomie Göttingen nicht auffindbar.</rs>
+                </note>
+                <note type="Anmerkung">
+                    <note>Der Versand der Kinnlade erfolgte durch ein Versehen tatsächlich erst am 7. Mai 1827, vgl. Brief von diesem Datum. </note>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Johann Wolfgang von Goethe sendet Blumenbach eine Kinnlade mit vollständiger Zahnreihe aus einem antiken Grabhügel bei Romstedt in Thüringen. </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Wolfgang von</forename>
+                                <surname>Goethe</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1829-04-09 " when="1829-04-09 " where="#orgplc_1586">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1829-04-09 ">1829, Apr. 9</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1586">Weimar</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01586.00">
+                    <idno>1586</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

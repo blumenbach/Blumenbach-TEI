@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./standoff-proposal.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">*Naturhistorisk billedbog for ungdommen og dens venner indeholdende et udvalg af de interessanteste fremstillinger af naturens riger, udarbeidede efter kobbere i de nyeste og bedste franske, engelske og tydske vaerker, tilligemed tilføiede beskrivelser over disse gienstande : 1-4 Bind. 1-32 Hefte</title>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_werke_00044.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="m" type="main">*Naturhistorisk billedbog for ungdommen og dens venner indeholdende et udvalg af de interessanteste fremstillinger af naturens riger, udarbeidede efter kobbere i de nyeste og bedste franske, engelske og tydske vaerker, tilligemed tilføiede beskrivelser over disse gienstande : 1-4 Bind. 1-32 Hefte</title>
+                        <imprint>
+                            <publisher>
+                                <name>[s.n.]</name>
+                            </publisher>
+                            <pubPlace>København</pubPlace>
+                            <date type="publication" when="1832-01-01">1832-1833</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Kopenhagen: Kongelige Bibliotek</repository>
+                        <idno n="8° Zool. 12500 2 eks. Haves">8° Zool. 12500 2 eks. Haves</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>4 Bde.<dimensions>
+                                        <dim/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <certainty locus="location">
+                                        <desc>no autopsy</desc>
+                                    </certainty>
+                                </source>
+                            </recordHist>
+                            <note>
+                                <p/>
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="da-DA"/>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/>
+                <derivation type="translation"/>
+                <domain type="academic"/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="BiblNr" n="00044.00">00044</classCode>
+                <classCode scheme="cat">
+                    <idno>I</idno>Selbständig erschienene Werke</classCode>
+                <classCode scheme="cat">
+                    <idno>I.2</idno>Handbuch der Naturgeschichte</classCode>
+                <classCode scheme="cat">
+                    <idno>I.2.2</idno>Übersetzungen</classCode>
+                <classCode scheme="cat">
+                    <idno>I.2.2.1</idno>Dänisch</classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:22:57.59+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <stdf xmlns="http://standoff.proposal">
+        <annotations n="00044">
+            <spanGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="biblStruct_d1e3904_00044">
+                <span type="note">[Bd. 1]: Afbildninger med vedføiede beskrivelser over pattedyrene tildeels efter kobbere i de vaerker hvortil Prof. Dr. Joh. Frid. Blumenbach i sin haandbog i naturhistorien henvisner. indeholdende 112 plader med. 281 illuminerede figurer. 1832;</span>
+                <span type="note">[Bd. 2]: Afbildn. m. vedf. beskr. over fuglene. indeh. 108 pl. med 319. illum. fig.. 1832;</span>
+                <span type="note">[Bd. 3]: A. m. v. b. v. amphibièrne fiskene og ormene. 1833 - ud. titelbl.;</span>
+                <span type="note">[Bd. 4]: A. m. v. b. v. insecterne. indeh. 106 plader m. 700 illum. figurer. 1833</span>
+            </spanGrp>
+        </annotations>
+    </stdf>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

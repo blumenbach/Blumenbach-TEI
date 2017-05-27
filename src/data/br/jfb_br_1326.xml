@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Blumenbach dankt Johann Kaspar Horner für die Zusendung des Schädels eines indischen Piraten und sendet ihm das Diplom über seine Ernennung zum korrespondierenden Mitglied der Societät der Wissenschaften zu Göttingen. </title>
+                <author>
+                    <persName>
+                        <forename>Johann Friedrich</forename>
+                        <surname>Blumenbach</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1326.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Drucke">
+                    <bibl>
+ [Wolf, Rudolf], „Notizen zur schweiz. Kulturgeschichte“, in <emph>Vierteljahrsschrift der Naturforschenden Gesellschaft in Zürich 21</emph>
+                        <ptr target="ref_d1e134932_01343"/> (1876), S. 388–410, S. 398 (ohne Angabe des Herkunft). </bibl>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> (noch nicht ediert)</edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1602" xml:id="ref_d1e135950_01343">http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:38m:1-553</ref>
+                    <rs type="html">Spengel, Anthropologische Sammlung</rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1603" xml:id="ref_d1e134931_01343">http://resolver.sub.uni-goettingen.de/purl?PPN334452112</ref>
+                    <rs type="html">Atlas zur Reise um die Welt: unternommen […] unter dem Commando des Capitains von Krusenstern</rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1604" xml:id="ref_d1e134932_01343">http://libsysdigi.library.uiuc.edu/OCA/Books2008-10/vierteljahrsschr/vierteljahrsschr21natu/</ref>
+                    <rs type="html">Vierteljahrsschrift der Naturforschenden Gesellschaft in Zürich 21 (1876)</rs>
+                </note>
+                <note type="Objekte">
+                    <rs type="obj">Schädel eines indischen Piraten; zur Identifikation des Schädels vgl. Spengel, <emph>Anthropologische Sammlung</emph>
+                        <ptr target="ref_d1e135950_01343"/>, S. 44 Nr. 123: „[…] von Dr. Horner. »Cochinchinesischer (?) Seeräuber, in Makao hingerichtet.«“; Abb. in <emph>Atlas zur Reise um die Welt: unternommen […] unter dem Commando des Capitains von Krusenstern</emph>
+                        <ptr target="ref_d1e134931_01343"/>. St. Petersburg 1814, Heft VIII Tafel 96. </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Blumenbach dankt Johann Kaspar Horner für die Zusendung des Schädels eines indischen Piraten und sendet ihm das Diplom über seine Ernennung zum korrespondierenden Mitglied der Societät der Wissenschaften zu Göttingen. </title>
+                        <author>
+                            <persName>
+                                <forename>Johann Friedrich</forename>
+                                <surname>Blumenbach</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Kaspar</forename>
+                    <surname>Horner</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1806-12-24" when="1806-12-24" where="#orgplc_1326">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1806-12-24">1806, Dez. 24</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1326">Göttingen</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01326.00">
+                    <idno>1326</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

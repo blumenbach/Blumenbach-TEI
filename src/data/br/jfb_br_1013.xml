@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Joseph Banks dankt Blumenbach für zugesandte Publikationen und indische Münzen, bittet um die Beschaffung eines Folgebandes zu einer der Publikationen und kündigt die Zusendung eines Aufsatzes und einer Landkarte von Afrika von James Rennell an. </title>
+                <author>
+                    <persName>
+                        <forename>Joseph </forename>
+                        <surname>Banks</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_1013.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Sidney (Austr.), State Library of New South Wales: Letter written by Sir Joseph Banks […] to Professor J. F. Blumenbach of Goettingen, dated 11 August 1798. / in Letters written by Sir Joseph Banks to various people, 1789-1818, together with biographical extract, 1857 pp. 14-17 Call no. Safe 1 / 460. </note>
+                <note type="Drucke">
+                    <bibl>Auszug in <emph>Allgemeine geographische Ephemeriden</emph>, Bd. 1, 3. Stück (März 1798), S. 353–354 („7. Aus einem Schreiben des Hofraths Blumenbach. Göttingen, den 5. May 1798“, Bibliographie Nr. 00763).<ptr target="ref_d1e103569_01029"/>
+                    </bibl>
+                    <title level="m" type="bibl">Allgemeine geographische Ephemeriden</title>
+                </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> V, S. 287–288 Nr. 1166.<ptr target="ref_d1e103766_01029"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="1167" xml:id="ref_d1e103766_01029">http://webdoc.sub.gwdg.de/ebook/mon/2013/ppn%20751751294.pdf#page=303</ref>
+                    <rs type="pdf">Corresp. V, S. 287–288 Nr. 1166 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="1168" xml:id="ref_d1e103569_01029">./view-work.html?id=00763</ref>
+                    <rs type="html">00763 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Joseph Banks dankt Blumenbach für zugesandte Publikationen und indische Münzen, bittet um die Beschaffung eines Folgebandes zu einer der Publikationen und kündigt die Zusendung eines Aufsatzes und einer Landkarte von Afrika von James Rennell an. </title>
+                        <author>
+                            <persName>
+                                <forename>Joseph </forename>
+                                <surname>Banks</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1798-08-11" when="1798-08-11" where="#orgplc_1013">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1798-08-11">1798, Aug. 11</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_1013">London</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="01013.00">
+                    <idno>1013</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

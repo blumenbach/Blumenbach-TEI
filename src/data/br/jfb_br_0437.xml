@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de-DE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="meta">Friedrich Gabriel Sulzer sendet Blumenbach Informationen über eine Schweinerasse in der Normandie. </title>
+                <author>
+                    <persName>
+                        <forename>Friedrich Gabriel</forename>
+                        <surname>Sulzer</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp key="proj">Projektträger</resp>
+                    <orgName resp="proj">
+                        <name>Akademie der Wissenschaften zu Göttingen</name>
+                        <ref target="http://adw-goe.de/"/>
+                    </orgName>
+                </respStmt>
+                <respStmt>
+                    <resp key="enc">Kodiert durch:</resp>
+                    <persName resp="enc">Christopher Hanna Johnson</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <idno>jfb_br_0437.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="Überlieferung">Or. verloren, überliefert durch Druck in <emph>Magazin für das Neueste aus der Physik und Naturgeschichte</emph> VI, 1. </note>
+                <note type="Edition">
+                    <bibl>
+                        <edition>Dougherty, <emph>Corresp.</emph> III, S. 208 Nr. 0540.<ptr target="ref_d1e43146_00441"/>
+                        </edition>
+                    </bibl>
+                    <title level="m" type="bibl">Corresp.</title>
+                </note>
+                <note type="Drucke">
+                    <bibl>
+                        <emph>Magazin für das Neueste aus der Physik und Naturgeschichte</emph> VI, 1 (1789), S. 12.</bibl>
+                </note>
+                <note type="Werke">
+                    <bibl>
+                        <relatedItem>
+                            <bibl>Teil des Aufsatzes „Über Menschen- und Schweinerassen“ in <emph>Magazin für das Neueste aus der Physik und Naturgeschichte</emph> VI, 1 (1789), S. 1–13 (Bibliographie Nr. 00822).<ptr target="ref_d1e42807_00441"/>
+                            </bibl>
+                        </relatedItem>
+                    </bibl>
+                    <title level="m" type="bibl">Magazin für das Neueste aus der Physik und Naturgeschichte</title>
+                </note>
+                <note type="ref">
+                    <ref type="pdf" n="303" xml:id="ref_d1e43146_00441">http://webdoc.sub.gwdg.de/ebook/mon/2012/ppn%20654201889.pdf#page=226</ref>
+                    <rs type="pdf">Corresp. III, S. 208 Nr. 0540 </rs>
+                </note>
+                <note type="ref">
+                    <ref type="html" n="304" xml:id="ref_d1e42807_00441">./view-work.html?id=00822</ref>
+                    <rs type="html">00822 </rs>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="brief"/>
+                <biblFull>
+                    <titleStmt>
+                        <title type="source">Friedrich Gabriel Sulzer sendet Blumenbach Informationen über eine Schweinerasse in der Normandie. </title>
+                        <author>
+                            <persName>
+                                <forename>Friedrich Gabriel</forename>
+                                <surname>Sulzer</surname>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name/>
+                        </publisher>
+                        <pubPlace/>
+                        <date type="publication"/>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier/>
+                    <physDesc>
+                        <typeDesc>
+                            <p/>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+            </langUsage>
+            <calendarDesc>
+                <calendar style="ISO 8601">
+                    <p>Gregorian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <creation>
+                <persName resp="emp">
+                    <forename>Johann Friedrich</forename>
+                    <surname>Blumenbach</surname>
+                </persName>
+                <origDate>
+                    <note type="Abfassungsevent">
+                        <listEvent>
+                            <event type="origin" sortKey="1789-03-31" when="1789-03-31" where="#orgplc_0437">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1789-03-31">1789, vor März 31</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                        <listEvent>
+                            <event type="iso-origin-na" notAfter="1789-03-31" where="#orgplc_0437">
+                                <tei:label xmlns:tei="http://www.tei-c.org/ns/1.0">Abfassungsdatum (not after):</tei:label>
+                                <note type="Abfassungsdatum">
+                                    <date when="1789-03-31">1789, vor März 31</date>
+                                </note>
+                            </event>
+                        </listEvent>
+                    </note>
+                </origDate>
+                <placeName type="Abfassungsort" xml:id="orgplc_0437">Ronneburg</placeName>
+            </creation>
+            <textClass>
+                <classCode scheme="RegNr" n="0437.00">0441<idno>0437</idno>
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt „Johann Friedrich Blumenbach - online“ der Akademie der Wissenschaften zu Göttingen</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Erstellungsdatum: 2015-05-16T15:19:54.329+02:00</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

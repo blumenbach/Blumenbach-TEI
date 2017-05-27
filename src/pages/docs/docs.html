@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/docs-template.html" data-template-at="content">
+    <div class="docs:feed">
+        <div class="docs:entries?count=5 entries">
+            <div class="entry">
+                <ol class="breadcrumb" data-template="docs:breadcrumbs"/>
+                <div class="entryhead">
+                    <h3 class="docs:title entrytitle"/>
+                </div>
+                <div class="docs:content content annotatable"/>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="$shared/resources/scripts/loadsource.js"/>
+    <script type="text/javascript" src="$shared/resources/scripts/ace/ace.js"/>
+    <script type="text/javascript" src="$shared/resources/scripts/ace/mode-javascript.js"/>
+    <script type="text/javascript" src="$shared/resources/scripts/ace/mode-text.js"/>
+    <script type="text/javascript" src="$shared/resources/scripts/ace/mode-xquery.js"/>
+    <script type="text/javascript" src="$shared/resources/scripts/ace/mode-xml.js"/>
+    <script type="text/javascript" src="$shared/resources/scripts/ace/theme-clouds.js"/>
+    <script type="text/javascript" src="$shared/resources/scripts/ace/theme-tomorrow_night.js"/>
+    <script type="text/javascript" src="resources/scripts/atomic/highlight.js"/>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $(".code").highlight({ theme: "tomorrow_night" });
+    });
+    </script>
+</div>

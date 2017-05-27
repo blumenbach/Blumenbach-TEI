@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xqdoc:xqdoc xmlns:xqdoc="http://www.xqdoc.org/1.0">
+    <xqdoc:control>
+        <xqdoc:date>2015-07-13T10:52:23.411Z</xqdoc:date>
+        <xqdoc:location>/db/apps/blumenbach/modules/restxq.xql</xqdoc:location>
+    </xqdoc:control>
+    <xqdoc:module type="library">
+        <xqdoc:uri>http://exist-db.org/xquery/apps/restxq</xqdoc:uri>
+        <xqdoc:name>restxq</xqdoc:name>
+        <xqdoc:comment>
+            <xqdoc:description> Defines all the RestXQ endpoints.
+</xqdoc:description>
+        </xqdoc:comment>
+    </xqdoc:module>
+    <xqdoc:functions>
+        <xqdoc:function>
+            <xqdoc:name>restxq:annotations</xqdoc:name>
+            <xqdoc:signature>restxq:annotations() as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description>
+ List all werke annotations and return them as XML.
+</xqdoc:description>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>restxq:briefs</xqdoc:name>
+            <xqdoc:signature>restxq:briefs() as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description>
+ List all briefs and return them as HTML.
+</xqdoc:description>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>restxq:create-or-edit-annotation</xqdoc:name>
+            <xqdoc:signature>restxq:create-or-edit-annotation($content as node()*) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description>
+ Update an existing address or store a new one. The address XML is read
+ from the request body.
+</xqdoc:description>
+                <xqdoc:param>$content* </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>restxq:delete-annotation</xqdoc:name>
+            <xqdoc:signature>restxq:delete-annotation($id as xs:string*) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description>
+ Delete an address identified by its uuid.
+</xqdoc:description>
+                <xqdoc:param>$id* </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>restxq:get-annotations</xqdoc:name>
+            <xqdoc:signature>restxq:get-annotations($wgid as xs:string*) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description>
+ List all werke annotations from file and return them as XML.
+</xqdoc:description>
+                <xqdoc:param>$wgid* </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>restxq:get-brief-html</xqdoc:name>
+            <xqdoc:signature>restxq:get-brief-html($bgid as xs:string*) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description>
+ List brief contents by id and return them as HTML.
+</xqdoc:description>
+                <xqdoc:param>$bgid* </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>restxq:get-brief-json</xqdoc:name>
+            <xqdoc:signature>restxq:get-brief-json($bgid as xs:string*) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description>
+ List brief contents by id and return them as JSON.
+</xqdoc:description>
+                <xqdoc:param>$bgid* </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>restxq:get-brief-xml</xqdoc:name>
+            <xqdoc:signature>restxq:get-brief-xml($bgid as xs:string*) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description>
+ List brief contents by id and return them as XML.
+</xqdoc:description>
+                <xqdoc:param>$bgid* </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>restxq:get-work-html</xqdoc:name>
+            <xqdoc:signature>restxq:get-work-html($wgid as xs:string*) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description>
+ List work contents by id and return them as HTML.
+</xqdoc:description>
+                <xqdoc:param>$wgid* </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>restxq:get-work-json</xqdoc:name>
+            <xqdoc:signature>restxq:get-work-json($wgid as xs:string*) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description>
+ List work contents by id and return them as JSON.
+</xqdoc:description>
+                <xqdoc:param>$wgid* </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>restxq:get-work-xml</xqdoc:name>
+            <xqdoc:signature>restxq:get-work-xml($wgid as xs:string*) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description>
+ List work contents by id and return them as XML.
+</xqdoc:description>
+                <xqdoc:param>$wgid* </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>restxq:search-annotations</xqdoc:name>
+            <xqdoc:signature>restxq:search-annotations($query as xs:string*, $field as xs:string*) as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description>
+ Search collections using a given field and a (lucene) query string.
+</xqdoc:description>
+                <xqdoc:param>$query* </xqdoc:param>
+                <xqdoc:param>$field* </xqdoc:param>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>restxq:werke</xqdoc:name>
+            <xqdoc:signature>restxq:werke() as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description>
+ List all werke and return them as HTML.
+</xqdoc:description>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+        <xqdoc:function>
+            <xqdoc:name>restxq:werke-x</xqdoc:name>
+            <xqdoc:signature>restxq:werke-x() as item()*</xqdoc:signature>
+            <xqdoc:comment>
+                <xqdoc:description>
+ List all werke and return them as XML.
+</xqdoc:description>
+                <xqdoc:return>item()*</xqdoc:return>
+            </xqdoc:comment>
+        </xqdoc:function>
+    </xqdoc:functions>
+</xqdoc:xqdoc>

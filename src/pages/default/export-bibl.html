@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page.html" data-template-at="main">
+    <div class="col-md-12 col-xs-12">
+        <div id="content" class="row">
+            <div class="col-md-12 col-xs-12">
+                <h3>Export Bibliographie as TEI Corpus</h3>
+                <div class="well well-sm">
+                    <form action="export.xml" class="form form-horizontal">
+                        <div class="form-group">
+                            <div class="col-md-12 col-xs-12">
+                                <span class="input-group">
+                                    <span class="input-group-btn">
+                                        <button id="f-btn-download" type="submit" class="btn btn-download">
+                                            <span class="glyphicon glyphicon-download"/>
+                                        </button>
+                                    </span>
+                                </span>
+                            </div>
+                            <input type="hidden" name="type" value="werke-corpus"/>
+                        </div>
+                    </form>
+                </div>
+                <h3>Export Bibliographie Taxons as TEI Corpus</h3>
+                <div class="well well-sm">
+                    <form action="export.xml" class="form form-horizontal">
+                        <div class="form-group">
+                            <div class="col-md-12 col-xs-12">
+                                <span class="input-group">
+                                    <span class="input-group-btn">
+                                        <button id="f-btn-download" type="submit" class="btn btn-download">
+                                            <span class="glyphicon glyphicon-download"/>
+                                        </button>
+                                    </span>
+                                </span>
+                            </div>
+                            <input type="hidden" name="type" value="taxon-corpus"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
